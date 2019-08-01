@@ -1,3 +1,4 @@
-# Welcome to Harmony Documentation
+# Welcome
 
-Here you will find official books and documents on [Harmony](https://harmony.one/).
+Here are official books and documents on [Harmony](https://harmony.one/).  We are adding more, so check back often!
+
