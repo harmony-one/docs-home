@@ -1,32 +1,19 @@
 ---
-description: 'GetBlockByHash: Get block by its hash.'
+description: GetBlock
 ---
 
 # hmy\_getBlockByHash
 
-**HTTP Request Endpoints**
+Get block by its hash.
 
-| Chains | URLs |
-| :--- | :--- |
-| mainnet | TBD |
-| betaNet | [http://l0.b.hmny.io:9500](http://l0.b.hmny.io:9500) |
-| local | [http://localhost:9500](http://localhost:9500) |
+#### Parameters
 
-**Arguments**
+1. `String` - The block hash. 
+2. `Boolean` - If `true`, the returned block will contain all transactions in the block.
 
-| Request Data Object | Example |
-| :--- | :--- |
-| jsonrpc | "2.0" |
-| method | "hmy\_getBlockByHash" |
-| params | \["0x660fe701f580ffebfcfb4af1836c9929c1fd0014d8d79d60749fecf52df7a90d", true\] |
-| id | "1" |
+#### Returns
 
-## Parameters
-
-| **Parameter** | Type | Description |
-| :--- | :--- | :--- |
-| blockHash | common.Hash | Hash of a block in 0x format |
-| fullTx | bool | If true, returns all transactions in the block. |
+`String` - The value in storage at the given position.
 
 **Sample Curl Request**
 

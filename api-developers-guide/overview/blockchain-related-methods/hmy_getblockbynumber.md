@@ -1,25 +1,19 @@
 ---
-description: 'GetBlockByNumber: Get block by its index in the blockchain.'
+description: GetBlock
 ---
 
 # hmy\_getBlockByNumber
 
-**HTTP Request Endpoints**
+Get block by its index in the blockchain
 
-| Chains | URLs |
-| :--- | :--- |
-| mainnet | TBD |
-| betaNet | [http://l0.b.hmny.io:9500](http://l0.b.hmny.io:9500) |
-| local | [http://localhost:9500](http://localhost:9500) |
+#### Parameters
 
-**Arguments**
+1. `String` - The block number. 
+2. `Boolean` - If `true`, the returned block will contain all transactions in the block.
 
-| Request Data Object | Example |
-| :--- | :--- |
-| jsonrpc | "2.0" |
-| method | "hmy\_getBlockByNumber" |
-| params | \[_block\_number_, true\] |
-| id | "1" |
+#### Returns
+
+`String` - The value in storage at the given position.
 
 **Sample Curl Request**
 
