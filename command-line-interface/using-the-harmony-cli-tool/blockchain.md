@@ -109,7 +109,6 @@ TODO: Suneel; Query works in Postman, CLI complains that 40 character 0x address
 Here is the top level entry point of the `blockchain` subcommand for `hmy_cli` :
 
 ```text
-
 Query Harmony's blockchain for high level metrics, queries
 
 Usage:

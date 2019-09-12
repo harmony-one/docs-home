@@ -17,29 +17,29 @@ In this example we use an existing pass phrase and two accounts. The data is as 
 
 After logging in you will see the account overview screen which shows the accounts you have in your wallet
 
-![Account overview screen](../../.gitbook/assets/screen-shot-2019-08-06-at-7.24.08-am.png)
+![Account overview screen](https://github.com/harmony-one/docs-home/tree/041b67b5a621ad2463849889d9d29b3bb7789032/.gitbook/assets/screen-shot-2019-08-06-at-7.24.08-am.png)
 
 By clicking on your account you will be sent to the account detail screen where you can check your balance. For example in the screenshot below account `one18t4yj4fuutj83uwqckkvxp9gfa0568uc48ggj7` has a balance of 94.9910471388 ONE
 
-![Account Detail Screen](../../.gitbook/assets/screen-shot-2019-08-06-at-7.25.32-am.png)
+![Account Detail Screen](https://github.com/harmony-one/docs-home/tree/041b67b5a621ad2463849889d9d29b3bb7789032/.gitbook/assets/screen-shot-2019-08-06-at-7.25.32-am.png)
 
 To send funds simply press the send button and on the next screen enter the To address and amount of ONE's
 
-![Sending Funds](../../.gitbook/assets/screen-shot-2019-08-06-at-7.29.25-am.png)
+![Sending Funds](https://github.com/harmony-one/docs-home/tree/041b67b5a621ad2463849889d9d29b3bb7789032/.gitbook/assets/screen-shot-2019-08-06-at-7.29.25-am.png)
 
 You will be asked to confirm the transaction, press send to confirm
 
-![Confirming the send transaction](../../.gitbook/assets/screen-shot-2019-08-06-at-7.30.12-am.png)
+![Confirming the send transaction](https://github.com/harmony-one/docs-home/tree/041b67b5a621ad2463849889d9d29b3bb7789032/.gitbook/assets/screen-shot-2019-08-06-at-7.30.12-am.png)
 
 A confirmation screen will show and after a couple of seconds the Status will go to confirmed
 
-![Transaction Confirmation](../../.gitbook/assets/screen-shot-2019-08-06-at-7.31.29-am.png)
+![Transaction Confirmation](https://github.com/harmony-one/docs-home/tree/041b67b5a621ad2463849889d9d29b3bb7789032/.gitbook/assets/screen-shot-2019-08-06-at-7.31.29-am.png)
 
 To confirm the updated balances - select the wallet icon on the top left to return to the account summary screen.
 
-![Account Summary Screen](../../.gitbook/assets/screen-shot-2019-08-06-at-7.33.43-am.png)
+![Account Summary Screen](https://github.com/harmony-one/docs-home/tree/041b67b5a621ad2463849889d9d29b3bb7789032/.gitbook/assets/screen-shot-2019-08-06-at-7.33.43-am.png)
 
 Confirm the updated balances by selecting the account address you wish to check on the left hand side. Here we select the recipients account address and see that they have received the 7 ONE's sent
 
-![Account Address Detail](../../.gitbook/assets/screen-shot-2019-08-06-at-7.34.45-am.png)
+![Account Address Detail](https://github.com/harmony-one/docs-home/tree/041b67b5a621ad2463849889d9d29b3bb7789032/.gitbook/assets/screen-shot-2019-08-06-at-7.34.45-am.png)
 

@@ -2,7 +2,7 @@
 description: Net_Version
 ---
 
-# net\_version
+# Not Implemented: net\_version
 
 **HTTP Request Endpoints**
 

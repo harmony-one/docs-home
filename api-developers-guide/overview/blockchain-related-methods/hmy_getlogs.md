@@ -1,2 +1,2 @@
-# hmy\_getLogs
+# Not Implemented: hmy\_getLogs
 

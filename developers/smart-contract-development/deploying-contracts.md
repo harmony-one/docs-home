@@ -21,11 +21,11 @@ express http is listening on 3000
 
 Open the browser and go to `http://localhost:3000` and select contracts from the left side menu.
 
-![Contract Portal](../../.gitbook/assets/screen-shot-2019-08-05-at-8.10.24-pm.png)
+![Contract Portal](https://github.com/harmony-one/docs-home/tree/041b67b5a621ad2463849889d9d29b3bb7789032/.gitbook/assets/screen-shot-2019-08-05-at-8.10.24-pm.png)
 
 To deploy a contract select the detail Action on the right
 
-![Contract admin portal](../../.gitbook/assets/screen-shot-2019-08-05-at-8.11.54-pm.png)
+![Contract admin portal](https://github.com/harmony-one/docs-home/tree/041b67b5a621ad2463849889d9d29b3bb7789032/.gitbook/assets/screen-shot-2019-08-05-at-8.11.54-pm.png)
 
 Then select the deploy button and enter your private key, for example
 
@@ -35,13 +35,13 @@ Then select the deploy button and enter your private key, for example
 
 This will show you your balance and then you can press send to deploy the contract
 
-![Deploying a contract](../../.gitbook/assets/screen-shot-2019-08-05-at-8.13.59-pm.png)
+![Deploying a contract](https://github.com/harmony-one/docs-home/tree/041b67b5a621ad2463849889d9d29b3bb7789032/.gitbook/assets/screen-shot-2019-08-05-at-8.13.59-pm.png)
 
 This will deploy the contract and when successful you can see the information below by scrolling down.
 
-![Deployed contract](../../.gitbook/assets/screen-shot-2019-08-05-at-8.18.52-pm.png)
+![Deployed contract](https://github.com/harmony-one/docs-home/tree/041b67b5a621ad2463849889d9d29b3bb7789032/.gitbook/assets/screen-shot-2019-08-05-at-8.18.52-pm.png)
 
 You then can set the latest deployed contract as the default by using the `set contract` action on the right. It will prompt you for a confirmation as follows.
 
-![Confirming the setting of the default contract](../../.gitbook/assets/screen-shot-2019-08-05-at-8.22.17-pm.png)
+![Confirming the setting of the default contract](https://github.com/harmony-one/docs-home/tree/041b67b5a621ad2463849889d9d29b3bb7789032/.gitbook/assets/screen-shot-2019-08-05-at-8.22.17-pm.png)
 

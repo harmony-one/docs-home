@@ -1,14 +1,14 @@
 # BEP2 to ERC20 Swap
 
-### Process Overview
+## Process Overview
 
-### BEP2 Creation
+## BEP2 Creation
 
-### ERC-20 Creation
+## ERC-20 Creation
 
-### Swap Process Creation
+## Swap Process Creation
 
-### Reference Material
+## Reference Material
 
 * [Sample Swap for Matic](https://binance-bridge.matic.network/)
 * [Binance Bridge Exchange](https://bnbridge.exchange/)

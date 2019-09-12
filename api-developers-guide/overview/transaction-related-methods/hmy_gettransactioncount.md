@@ -2,11 +2,11 @@
 description: GetTransactionCount
 ---
 
-# hmy\_getTransactionCount
+# Not Implemented: hmy\_getTransactionCount
 
 Get how many times a given transaction has been made.
 
-#### Parameters
+## Parameters
 
 1. `String` - The address to get the numbers of transactions from.
 2. `Number|String` - Block to get query for balance; "latest" gives latest block.

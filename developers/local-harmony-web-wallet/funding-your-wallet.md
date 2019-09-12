@@ -6,11 +6,11 @@ To find your key open metamask and enter your passphrase to create a new wallet
 
 Select the first account and export your private key e.g. `01F903CE0C960FF3A9E68E80FF5FFC344358D80CE1C221C3F9711AF07F83A3BD`
 
-![using metamask to obtain your private key](../../.gitbook/assets/screen-shot-2019-08-05-at-6.30.45-pm.png)
+![using metamask to obtain your private key](https://github.com/harmony-one/docs-home/tree/041b67b5a621ad2463849889d9d29b3bb7789032/.gitbook/assets/screen-shot-2019-08-05-at-6.30.45-pm.png)
 
 Whilst using metamask it is also good practice to set up a Harmony local network with the following information.
 
-![Defining a Harmony Local Network](../../.gitbook/assets/screen-shot-2019-08-05-at-6.38.30-pm.png)
+![Defining a Harmony Local Network](https://github.com/harmony-one/docs-home/tree/041b67b5a621ad2463849889d9d29b3bb7789032/.gitbook/assets/screen-shot-2019-08-05-at-6.38.30-pm.png)
 
 You can check your wallet is aligned with metamask by running the following command from the command line wallet.
 

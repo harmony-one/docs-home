@@ -6,11 +6,11 @@ description: GetTransactionReceipt
 
 Get transaction receipt from transaction hash.
 
-#### Parameters
+## Parameters
 
 1. `String` - The transaction hash.
 
-#### Returns
+## Returns
 
 * `blockHash` 32 Bytes - `String`: Hash of the block where this transaction was in.
 * `blockNumber` - `Number`: Block number where this transaction was in.

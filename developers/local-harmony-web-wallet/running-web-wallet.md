@@ -20,7 +20,7 @@ Currently you need to modify [network.ts](https://github.com/harmony-one/dapp-ex
 **Please note** any time you restart your local harmony node you will need to reset the nonce in the webwallet. This is currently done by going to the browser, opening the developer tools and typing `localStorage.clear()` in the console.
 {% endhint %}
 
-![Clearing the nonce when restarting your local harmony network](../../.gitbook/assets/screen-shot-2019-08-05-at-6.55.16-pm.png)
+![Clearing the nonce when restarting your local harmony network](https://github.com/harmony-one/docs-home/tree/041b67b5a621ad2463849889d9d29b3bb7789032/.gitbook/assets/screen-shot-2019-08-05-at-6.55.16-pm.png)
 
 ```text
 const defaultProviders = [
@@ -93,5 +93,5 @@ Starting the development server...
 
 Open a web browser at the local wallet. You should see the following
 
-![Harmony Web Wallet initial screen](../../.gitbook/assets/screen-shot-2019-08-05-at-6.14.19-pm.png)
+![Harmony Web Wallet initial screen](https://github.com/harmony-one/docs-home/tree/041b67b5a621ad2463849889d9d29b3bb7789032/.gitbook/assets/screen-shot-2019-08-05-at-6.14.19-pm.png)
 

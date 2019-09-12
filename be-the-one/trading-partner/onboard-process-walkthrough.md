@@ -1,12 +1,12 @@
 # Onboard Process Walkthrough
 
-### Overview
+## Overview
 
 Here we will walkthrough the process of becoming a Harmony ONE trading partner.
 
-### Initial Decisions
+## Initial Decisions
 
-### Preparation for Partner on-boarding
+## Preparation for Partner on-boarding
 
 * Installation of Harmony Software
   * Node Installation
@@ -17,35 +17,27 @@ Here we will walkthrough the process of becoming a Harmony ONE trading partner.
 * Calculation of Tokens to be swapped
 * Integrating with Harmony
 
-### Account Creation
+## Account Creation
 
 * Generation of Partner Signing Keys
 * Setting up your harmony Nodes
 
-### Token Swap
+## Token Swap
 
 * Request for Harmony ONE tokens
 * Proof of Burn
 * Transmission of Harmony ONE tokens
 * Validation of Harmony ONE Tokens
 
-### Token Distribution
+## Token Distribution
 
 * User account creation
 * User token issuance
 
-### Validation Tools
+## Validation Tools
 
 * Explorer Capabilities
   * Getting a Users Balance
   * Transaction History
   * Transaction Detail
-
-
-
-
-
-
-
-
 

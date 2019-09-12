@@ -25,8 +25,8 @@ Not Implemented.
 ```bash
 $ hc keys list
 Harmony Address:                                         File URL:
-one1laankhgq8ual2yqejc295cvycdlntgy09p228p		 keystore:///Users/suneel/.hmy_cli/keystore/UTC--2019-09-09T17-32-05.995003000Z--ff7b3b5d003f3bf5101996145a6184c37f35a08f
-one1jdmpflseduxxvga0dz20ewtnamn8x0jyhfphu4		 keystore:///Users/suneel/.hmy_cli/keystore/UTC--2019-09-09T17-33-44.327829000Z--937614fe196f0c6623af6894fcb973eee6733e44
+one1laankhgq8ual2yqejc295cvycdlntgy09p228p         keystore:///Users/suneel/.hmy_cli/keystore/UTC--2019-09-09T17-32-05.995003000Z--ff7b3b5d003f3bf5101996145a6184c37f35a08f
+one1jdmpflseduxxvga0dz20ewtnamn8x0jyhfphu4         keystore:///Users/suneel/.hmy_cli/keystore/UTC--2019-09-09T17-33-44.327829000Z--937614fe196f0c6623af6894fcb973eee6733e44
 ```
 
 ### Compute a bip39 mnemonic from some input entropy

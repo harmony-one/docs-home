@@ -6,12 +6,12 @@ description: GetTransactionByBlockNumberAndIndex
 
 Get transaction at an index from a given block, specified by number.
 
-#### Parameters
+## Parameters
 
 1. `Number` - The block's index in the chain.
 2. `Number` - The transactions index position.
 
-#### Returns
+## Returns
 
 * `hash` - `String`: Hash of the transaction.
 * `nonce` - `Number`: The number of transactions made by the sender prior to this one.

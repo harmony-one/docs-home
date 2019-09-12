@@ -14,43 +14,36 @@ All API calls are POST requests.
 
 All requests follow the standard JSON-RPC format and include 4 variables in the data object:
 
+| Request Data Object | Example | Purpose |
+| :--- | :--- | :--- |
+
+
+| jsonrpc | "2.0" | Specifies version number |
+| :--- | :--- | :--- |
+
+
+| method | "hmy\_getBalance" | Method to be called server-side |
+| :--- | :--- | :--- |
+
+
+| params | \["0xD7Ff...24Cf2d", "latest"\] | Parameters for method call |
+| :--- | :--- | :--- |
+
+
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Request Data Object</th>
-      <th style="text-align:left">Example</th>
-      <th style="text-align:left">Purpose</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">jsonrpc</td>
-      <td style="text-align:left">&quot;2.0&quot;</td>
-      <td style="text-align:left">Specifies version number</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">method</td>
-      <td style="text-align:left">&quot;hmy_getBalance&quot;</td>
-      <td style="text-align:left">Method to be called server-side</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">params</td>
-      <td style="text-align:left">[&quot;0xD7Ff...24Cf2d&quot;, &quot;latest&quot;]</td>
-      <td style="text-align:left">Parameters for method call</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">id</td>
-      <td style="text-align:left">&quot;1&quot;</td>
-      <td style="text-align:left">
+      <th style="text-align:left">id</th>
+      <th style="text-align:left">&quot;1&quot;</th>
+      <th style="text-align:left">
         <p>Echoed in response, can be used</p>
         <p>to match request to response</p>
         <p>when sending multiple requests</p>
-      </td>
+      </th>
     </tr>
-  </tbody>
-</table>**Sample Request body**`{"jsonrpc":"2.0","method":"hmy_getBalance","params":["0xD7Ff41CA29306122185A07d04293DdB35F24Cf2d", "latest"],"id":1}`
-
-## Key Harmony Repositories
+  </thead>
+  <tbody></tbody>
+</table>## Key Harmony Repositories
 
 Harmony.one github - [https://github.com/harmony-one](https://github.com/harmony-one)  
 Harmony Blockchain Repository - [https://github.com/harmony-one/harmony](https://github.com/harmony-one/harmony)  

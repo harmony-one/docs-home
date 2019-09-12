@@ -21,7 +21,7 @@ description: 'GetBlockByHash: Get block by its hash.'
 | params | \["0x660fe701f580ffebfcfb4af1836c9929c1fd0014d8d79d60749fecf52df7a90d", true\] |
 | id | "1" |
 
-#### Parameters
+## Parameters
 
 | **Parameter** | Type | Description |
 | :--- | :--- | :--- |

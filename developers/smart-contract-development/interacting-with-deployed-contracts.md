@@ -39,7 +39,7 @@ Starting the development server...
 
 Open the lottery app by going to `http://localhost:8000` and you should see
 
-![The lottery app](../../.gitbook/assets/screen-shot-2019-08-05-at-8.29.23-pm.png)
+![The lottery app](https://github.com/harmony-one/docs-home/tree/041b67b5a621ad2463849889d9d29b3bb7789032/.gitbook/assets/screen-shot-2019-08-05-at-8.29.23-pm.png)
 
 You then can sign in using your private key
 
@@ -47,19 +47,19 @@ You then can sign in using your private key
 01F903CE0C960FF3A9E68E80FF5FFC344358D80CE1C221C3F9711AF07F83A3BD
 ```
 
-![Log in using your private key](../../.gitbook/assets/screen-shot-2019-08-05-at-8.30.48-pm.png)
+![Log in using your private key](https://github.com/harmony-one/docs-home/tree/041b67b5a621ad2463849889d9d29b3bb7789032/.gitbook/assets/screen-shot-2019-08-05-at-8.30.48-pm.png)
 
 You will then be able to deposit
 
-![You can now deposit](../../.gitbook/assets/screen-shot-2019-08-05-at-8.31.36-pm.png)
+![You can now deposit](https://github.com/harmony-one/docs-home/tree/041b67b5a621ad2463849889d9d29b3bb7789032/.gitbook/assets/screen-shot-2019-08-05-at-8.31.36-pm.png)
 
-![Deposit ](../../.gitbook/assets/screen-shot-2019-08-05-at-8.32.15-pm.png)
+![Deposit ](https://github.com/harmony-one/docs-home/tree/041b67b5a621ad2463849889d9d29b3bb7789032/.gitbook/assets/screen-shot-2019-08-05-at-8.32.15-pm.png)
 
 And pick a winner
 
-![Pick a winner](../../.gitbook/assets/screen-shot-2019-08-05-at-8.32.57-pm.png)
+![Pick a winner](https://github.com/harmony-one/docs-home/tree/041b67b5a621ad2463849889d9d29b3bb7789032/.gitbook/assets/screen-shot-2019-08-05-at-8.32.57-pm.png)
 
 See the results
 
-![](../../.gitbook/assets/screen-shot-2019-08-05-at-8.33.07-pm.png)
+![](https://github.com/harmony-one/docs-home/tree/041b67b5a621ad2463849889d9d29b3bb7789032/.gitbook/assets/screen-shot-2019-08-05-at-8.33.07-pm.png)
 

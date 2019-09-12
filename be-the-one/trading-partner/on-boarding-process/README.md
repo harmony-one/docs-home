@@ -10,7 +10,3 @@ Harmony ONE Trading Partners enable their users to easily buy and trade Harmony 
 
 ### Technical Requirements
 
-
-
-
-
