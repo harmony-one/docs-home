@@ -5,7 +5,7 @@
 ### Endpoints
 
 * **Shared**
-  * \*\*\*\*[**https://explorer.beta.harmony.one/\#/**](https://explorer.beta.harmony.one/#/)\*\*\*\*
+  * \*\*\*\*[**https://explorer.beta.harmony.one/**](https://explorer.beta.harmony.one/#/)\*\*\*\*
   * \*\*\*\*[**https://beta.harmony.one/balances**](https://harmony.one/balances)\*\*\*\*
   * [**https://beta.harmony.one/1h**](https://harmony.one/1h)\*\*\*\*
   * \*\*\*\*[**https://harmony.one/4h**](https://harmony.one/4h)\*\*\*\*
