@@ -2,33 +2,6 @@
 
 * [Harmony Developers Guide](README.md)
 
-## BE THE ONE
-
-* [WHICH ONE ARE YOU](be-the-one/which-one-are-you.md)
-* [Developer](be-the-one/developer/README.md)
-  * [Test Accounts](be-the-one/developer/developer-1.md)
-* [Wallet Creator](be-the-one/wallet-creator.md)
-* [Explorer Creator](be-the-one/explorer-creator.md)
-* [Trading Partner](be-the-one/trading-partner/README.md)
-  * [Partner on-boarding process](be-the-one/trading-partner/on-boarding-process/README.md)
-    * [Pre-requisites](be-the-one/trading-partner/on-boarding-process/pre-requisites.md)
-    * [Connecting to Harmony \(Running a node\)](be-the-one/trading-partner/on-boarding-process/connecting-to-harmony-running-a-node.md)
-    * [Managing Accounts](be-the-one/trading-partner/on-boarding-process/managing-accounts/README.md)
-      * [KYC Process](be-the-one/trading-partner/on-boarding-process/managing-accounts/kyc-process.md)
-    * [Token Swap Process](be-the-one/trading-partner/on-boarding-process/token-swap-process.md)
-    * [Trading Process](be-the-one/trading-partner/on-boarding-process/trading-process.md)
-    * [BEP2 to ERC20 Swap](be-the-one/trading-partner/on-boarding-process/bep2-to-erc20-swap.md)
-  * [Onboard Process Walkthrough](be-the-one/trading-partner/onboard-process-walkthrough.md)
-  * [Reference Material](be-the-one/trading-partner/reference-material.md)
-* [Harmony Protocol Creator](be-the-one/harmony-protocol-creator.md)
-* [Decentralize Application Creator](be-the-one/decentralize-application-creator.md)
-* [Decentralized Finance Creator](be-the-one/decentralized-finance-creator.md)
-* [Chain Code Creator](be-the-one/chain-code-creator.md)
-* [Harmony Validator](be-the-one/harmony-validator/README.md)
-  * [Validator Overview](be-the-one/harmony-validator/validator-overview.md)
-  * [Pangaea](be-the-one/harmony-validator/pangaea.md)
-  * [Foundational Nodes](be-the-one/harmony-validator/foundational-nodes.md)
-
 ## Developers
 
 * [Local Harmony Blockchain](developers/local-harmony-blockchain/README.md)
@@ -36,7 +9,6 @@
   * [Updating your codebase to latest](developers/local-harmony-blockchain/updating-your-codebase-to-latest.md)
   * [Running a Local Node](developers/local-harmony-blockchain/running-a-local-node.md)
 * [Local Harmony Web Wallet](developers/local-harmony-web-wallet/README.md)
-  * [Account Information](developers/local-harmony-web-wallet/account-information.md)
   * [Running Web Wallet](developers/local-harmony-web-wallet/running-web-wallet.md)
   * [Setting Up your accounts](developers/local-harmony-web-wallet/setting-up-your-accounts.md)
   * [Funding your wallet](developers/local-harmony-web-wallet/funding-your-wallet.md)
@@ -54,7 +26,6 @@
 * [Introduction](api-developers-guide/overview/README.md)
   * [Sample Code](api-developers-guide/overview/sample-code.md)
   * [Sample nodejs CLI Application](api-developers-guide/overview/sample-nodejs-cli-application.md)
-  * [Commonly Used Response Objects](api-developers-guide/overview/commonly-used-response-objects.md)
   * [Account Methods](api-developers-guide/overview/account-methods/README.md)
     * [hmy\_getBalance](api-developers-guide/overview/account-methods/hmy_getbalance.md)
   * [Transaction Related Methods](api-developers-guide/overview/transaction-related-methods/README.md)
@@ -72,7 +43,7 @@
   * [Contract Related Methods](api-developers-guide/overview/contract-related-methods/README.md)
     * [hmy\_getCode](api-developers-guide/overview/contract-related-methods/hmy_getcode.md)
   * [Protocol Related Methods](api-developers-guide/overview/blockchain-related-methods/README.md)
-    * [Not Implemented: hmy\_protocolVersion](api-developers-guide/overview/blockchain-related-methods/hmy_protocolversion.md)
+    * [hmy\_protocolVersion](api-developers-guide/overview/blockchain-related-methods/hmy_protocolversion.md)
     * [net\_version](api-developers-guide/overview/blockchain-related-methods/net_version.md)
     * [hmy\_unsubscribe](api-developers-guide/overview/blockchain-related-methods/hmy_unsubscribe.md)
     * [hmy\_blockNumber](api-developers-guide/overview/blockchain-related-methods/hmy_blocknumber.md)
@@ -103,8 +74,6 @@
 ## Command Line Interface
 
 * [Using the Harmony CLI tool](command-line-interface/using-the-harmony-cli-tool/README.md)
-  * [Account](command-line-interface/using-the-harmony-cli-tool/account.md)
   * [Blockchain](command-line-interface/using-the-harmony-cli-tool/blockchain.md)
-  * [Transfer](command-line-interface/using-the-harmony-cli-tool/transfer.md)
   * [Keys](command-line-interface/using-the-harmony-cli-tool/keys.md)
 
