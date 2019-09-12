@@ -2,6 +2,12 @@
 
 * [Harmony Developers Guide](README.md)
 
+## Harmony Networks
+
+* [Harmony Network Overview](harmony-networks/harmony-network-overview/README.md)
+  * [Mainnet](harmony-networks/harmony-network-overview/mainnet.md)
+  * [Betanet](harmony-networks/harmony-network-overview/betanet.md)
+
 ## BE THE ONE
 
 * [WHICH ONE ARE YOU](be-the-one/which-one-are-you.md)
