@@ -1,7 +1,5 @@
 # Mainnet
 
-## 
-
 ## Overview
 
 Mainnet is Harmony's production environment.  It is running it is running with four shards and 250 nodes per shard.
