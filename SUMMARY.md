@@ -42,9 +42,9 @@
   * [Harmony Local Node Configuration](devtools/local-harmony-blockchain/harmony-local-node-configuration.md)
   * [Updating your codebase to latest](devtools/local-harmony-blockchain/updating-your-codebase-to-latest.md)
   * [Running a Local Node](devtools/local-harmony-blockchain/running-a-local-node.md)
-* [Account Information](devtools/account-information/README.md)
-  * [Funding your wallet](devtools/account-information/funding-your-wallet.md)
-* [Transferring Funds](devtools/transferring-funds.md)
+  * [Account Information](devtools/local-harmony-blockchain/account-information.md)
+  * [Funding your wallet](devtools/local-harmony-blockchain/funding-your-wallet.md)
+  * [Transferring Funds](devtools/local-harmony-blockchain/transferring-funds.md)
 * [Smart Contract Development](devtools/smart-contract-development/README.md)
   * [Smart Contracts development using Truffle](devtools/smart-contract-development/writing-smart-contracts/README.md)
     * [truffle-config.js](devtools/smart-contract-development/writing-smart-contracts/untitled.md)
@@ -98,7 +98,6 @@
     * [node-count](api-developers-guide/overview/explorer/getexplorernodecount.md)
     * [shard](api-developers-guide/overview/explorer/getexplorershard.md)
     * [committee](api-developers-guide/overview/explorer/getexplorertransaction.md)
-* [Test](api-developers-guide/test.md)
 
 ## Command Line Interface
 
