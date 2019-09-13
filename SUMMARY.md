@@ -9,6 +9,8 @@
   * [Pangea](harmony-networks/harmony-network-overview/pangea.md)
   * [Betanet](harmony-networks/harmony-network-overview/betanet/README.md)
     * [Test Accounts](harmony-networks/harmony-network-overview/betanet/developer-1.md)
+* [Connecting to the Harmony Network](harmony-networks/connecting-to-the-harmony-network/README.md)
+  * [Non-validating Nodes](harmony-networks/connecting-to-the-harmony-network/non-validating-nodes.md)
 
 ## Developers <a id="developers-1"></a>
 
