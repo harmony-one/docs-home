@@ -6,6 +6,7 @@
 
 * [Harmony Network Overview](harmony-networks/harmony-network-overview/README.md)
   * [Mainnet](harmony-networks/harmony-network-overview/mainnet.md)
+  * [Pangea](harmony-networks/harmony-network-overview/pangea.md)
   * [Betanet](harmony-networks/harmony-network-overview/betanet.md)
 
 ## Developers <a id="developers-1"></a>
