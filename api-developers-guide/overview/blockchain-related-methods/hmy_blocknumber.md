@@ -1,25 +1,14 @@
 ---
-description: 'BlockNumber: Get number of the most recent block.'
+description: BlockNumber
 ---
 
 # hmy\_blockNumber
 
-**HTTP Request Endpoints**
+Get number of the most recent block.
 
-| Chains | URLs |
-| :--- | :--- |
-| mainnet | TBD |
-| betaNet | [http://l0.b.hmny.io:9500](http://l0.b.hmny.io:9500) |
-| local | [http://localhost:9500](http://localhost:9500) |
+#### Returns
 
-**Arguments**
-
-| Request Data Object | Example |
-| :--- | :--- |
-| jsonrpc | "2.0" |
-| method | "hmy\_blockNumber" |
-| params | \[\] |
-| id | "1" |
+* `Number` - Index of the most recent block in the chain.
 
 **Sample Curl Request**
 

@@ -4,22 +4,7 @@ description: Net_PeerCount
 
 # net\_peerCount
 
-**HTTP Request Endpoints**
-
-| Chains | URLs |
-| :--- | :--- |
-| mainnet | TBD |
-| betaNet | [http://l0.b.hmny.io:9500](http://l0.b.hmny.io:9500) |
-| local | [http://localhost:9500](http://localhost:9500) |
-
-**Arguments**
-
-| Request Data Object | Example |
-| :--- | :--- |
-| jsonrpc | "2.0" |
-| method | "net\_peerCount" |
-| params | \[\] |
-| id | "1" |
+Gets the number of peers on the network.
 
 **Sample Curl Request**
 
@@ -38,7 +23,7 @@ curl -d '{
 {
     "jsonrpc": "2.0",
     "id": 1,
-    "result": "0x6046f35fca29af800"
+    "result": "0xbf"
 }
 ```
 

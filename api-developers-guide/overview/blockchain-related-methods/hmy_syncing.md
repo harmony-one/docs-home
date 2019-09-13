@@ -4,22 +4,11 @@ description: Syncing
 
 # hmy\_syncing
 
-**HTTP Request Endpoints**
+Tests whether or not the node is syncing.
 
-| Chains | URLs |
-| :--- | :--- |
-| mainnet | TBD |
-| betaNet | [http://l0.b.hmny.io:9500](http://l0.b.hmny.io:9500) |
-| local | [http://localhost:9500](http://localhost:9500) |
+#### **Returns**
 
-**Arguments**
-
-| Request Data Object | Example |
-| :--- | :--- |
-| jsonrpc | "2.0" |
-| method | "hmy\_syncing" |
-| params | \[\] |
-| id | "1" |
+* `Object` - Whether or not the node is syncing. `false` when it isn't.
 
 **Sample Curl Request**
 
