@@ -1,2 +1,0 @@
-# Decentralize Application Creator
-

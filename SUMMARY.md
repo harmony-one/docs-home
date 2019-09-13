@@ -11,7 +11,7 @@
 ## Developers <a id="developers-1"></a>
 
 * [WHICH ONE ARE YOU](developers-1/which-one-are-you.md)
-* [Developer](developers-1/developer/README.md)
+* [DApp Developer](developers-1/developer/README.md)
   * [Test Accounts](developers-1/developer/developer-1.md)
 * [Wallet Creator](developers-1/wallet-creator.md)
 * [Explorer Creator](developers-1/explorer-creator.md)
@@ -24,12 +24,9 @@
     * [Token Swap Process](developers-1/trading-partner/on-boarding-process/token-swap-process.md)
     * [Trading Process](developers-1/trading-partner/on-boarding-process/trading-process.md)
     * [BEP2 to ERC20 Swap](developers-1/trading-partner/on-boarding-process/bep2-to-erc20-swap.md)
-  * [Onboard Process Walkthrough](developers-1/trading-partner/onboard-process-walkthrough.md)
+  * [Onboard Process Walkthrough](developers-1/trading-partner/onboard-process-walkthrough/README.md)
+    * [Sample Run  Through](developers-1/trading-partner/onboard-process-walkthrough/sample-run-through.md)
   * [Reference Material](developers-1/trading-partner/reference-material.md)
-* [Harmony Protocol Creator](developers-1/harmony-protocol-creator.md)
-* [Decentralize Application Creator](developers-1/decentralize-application-creator.md)
-* [Decentralized Finance Creator](developers-1/decentralized-finance-creator.md)
-* [Chain Code Creator](developers-1/chain-code-creator.md)
 * [Harmony Validator](developers-1/harmony-validator/README.md)
   * [Validator Overview](developers-1/harmony-validator/validator-overview.md)
   * [Pangaea](developers-1/harmony-validator/pangaea.md)
@@ -52,8 +49,6 @@
     * [truffle-config.js](developers/smart-contract-development/writing-smart-contracts/untitled.md)
   * [Deploying Contracts using DApp Examples](developers/smart-contract-development/deploying-contracts.md)
   * [Interacting with Deployed Contracts using DApp Examples](developers/smart-contract-development/interacting-with-deployed-contracts.md)
-* [Troubleshooting](developers/troubleshooting.md)
-* [BetaNet](developers/betanet.md)
 
 ## API Developers Guide
 
