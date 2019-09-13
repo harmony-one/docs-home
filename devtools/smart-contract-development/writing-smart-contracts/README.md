@@ -44,7 +44,7 @@ To build against the Harmony instance you need to modify truffle\_config.js to u
 
 ### Fund your wallet
 
-Ensure your account is funded see [Funding your wallet](../../local-harmony-web-wallet/funding-your-wallet.md).
+Ensure your account is funded see [Funding your wallet](../../account-information/funding-your-wallet.md).
 
 ### Compile and deploy your contracts
 

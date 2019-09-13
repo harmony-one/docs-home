@@ -36,23 +36,18 @@
     * [Pangaea](developers-1/which-one-are-you/harmony-validator/pangaea.md)
     * [Foundational Nodes](developers-1/which-one-are-you/harmony-validator/foundational-nodes.md)
 
-## Developers
+## Developer Tools <a id="devtools"></a>
 
-* [Local Harmony Blockchain](developers/local-harmony-blockchain/README.md)
-  * [Harmony Local Node Configuration](developers/local-harmony-blockchain/harmony-local-node-configuration.md)
-  * [Updating your codebase to latest](developers/local-harmony-blockchain/updating-your-codebase-to-latest.md)
-  * [Running a Local Node](developers/local-harmony-blockchain/running-a-local-node.md)
-* [Local Harmony Web Wallet](developers/local-harmony-web-wallet/README.md)
-  * [Account Information](developers/local-harmony-web-wallet/account-information.md)
-  * [Running Web Wallet](developers/local-harmony-web-wallet/running-web-wallet.md)
-  * [Setting Up your accounts](developers/local-harmony-web-wallet/setting-up-your-accounts.md)
-  * [Funding your wallet](developers/local-harmony-web-wallet/funding-your-wallet.md)
-  * [Transferring Funds](developers/local-harmony-web-wallet/transferring-funds.md)
-* [Smart Contract Development](developers/smart-contract-development/README.md)
-  * [Smart Contracts development using Truffle](developers/smart-contract-development/writing-smart-contracts/README.md)
-    * [truffle-config.js](developers/smart-contract-development/writing-smart-contracts/untitled.md)
-  * [Deploying Contracts using DApp Examples](developers/smart-contract-development/deploying-contracts.md)
-  * [Interacting with Deployed Contracts using DApp Examples](developers/smart-contract-development/interacting-with-deployed-contracts.md)
+* [Local Harmony Blockchain](devtools/local-harmony-blockchain/README.md)
+  * [Harmony Local Node Configuration](devtools/local-harmony-blockchain/harmony-local-node-configuration.md)
+  * [Updating your codebase to latest](devtools/local-harmony-blockchain/updating-your-codebase-to-latest.md)
+  * [Running a Local Node](devtools/local-harmony-blockchain/running-a-local-node.md)
+* [Account Information](devtools/account-information/README.md)
+  * [Funding your wallet](devtools/account-information/funding-your-wallet.md)
+* [Transferring Funds](devtools/transferring-funds.md)
+* [Smart Contract Development](devtools/smart-contract-development/README.md)
+  * [Smart Contracts development using Truffle](devtools/smart-contract-development/writing-smart-contracts/README.md)
+    * [truffle-config.js](devtools/smart-contract-development/writing-smart-contracts/untitled.md)
 
 ## API Developers Guide
 
