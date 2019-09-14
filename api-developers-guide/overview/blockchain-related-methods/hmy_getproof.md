@@ -1,2 +1,0 @@
-# hmy\_getProof
-

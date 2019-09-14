@@ -6,7 +6,7 @@ description: GasPrice
 
 Returns the current gas price.
 
-## Returns
+#### Returns
 
 * `String` - Number string of the current gas price.
 

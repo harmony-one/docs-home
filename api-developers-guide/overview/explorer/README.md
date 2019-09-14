@@ -1,6 +1,0 @@
----
-description: explorer
----
-
-# Explorer Methods
-
