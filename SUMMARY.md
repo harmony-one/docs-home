@@ -71,7 +71,6 @@
   * [Contract Related Methods](api-developers-guide/overview/contract-related-methods/README.md)
     * [hmy\_getCode](api-developers-guide/overview/contract-related-methods/hmy_getcode.md)
     * [hmy\_call](api-developers-guide/overview/contract-related-methods/hmy_call.md)
-    * [hmy\_getStorageAt](api-developers-guide/overview/contract-related-methods/hmy_getstorageat.md)
   * [Protocol Related Methods](api-developers-guide/overview/blockchain-related-methods/README.md)
     * [hmy\_blockNumber](api-developers-guide/overview/blockchain-related-methods/hmy_blocknumber.md)
     * [net\_peerCount](api-developers-guide/overview/blockchain-related-methods/net_peercount.md)
