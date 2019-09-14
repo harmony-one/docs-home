@@ -8,8 +8,8 @@ Get the balance of an address at a given block.
 
 #### Parameters
 
-1. `String` - The address to get the balance of.
-2. `Number|String` - Block to get query for balance; "latest" gives latest block.
+1. `string` - `String` - The address to get the balance of.
+2. `rpc.BlockNumber` - `Number|String` - Block to get query for balance; "latest" gives latest block.
 
 #### Returns
 

@@ -77,7 +77,6 @@
     * [hmy\_unsubscribe](api-developers-guide/overview/blockchain-related-methods/hmy_unsubscribe.md)
     * [hmy\_blockNumber](api-developers-guide/overview/blockchain-related-methods/hmy_blocknumber.md)
     * [hmy\_call](api-developers-guide/overview/blockchain-related-methods/hmy_call.md)
-    * [hmy\_newFilter](api-developers-guide/overview/blockchain-related-methods/hmy_newfilter.md)
     * [hmy\_newBlockFilter](api-developers-guide/overview/blockchain-related-methods/hmy_newblockfilter.md)
     * [hmy\_newPendingTransactionFilter](api-developers-guide/overview/blockchain-related-methods/hmy_newpendingtransactionfilter.md)
     * [hmy\_getFilterChanges](api-developers-guide/overview/blockchain-related-methods/hmy_getfilterchanges.md)
