@@ -8,8 +8,8 @@ Get block by its hash.
 
 #### Parameters
 
-1. `String` - The block hash. 
-2. `Boolean` - If `true`, the returned block will contain all transactions in the block.
+1. `common.Hash` - `String` The block hash. 
+2. `bool` - `Boolean` - If `true`, the returned block will contain all transactions in the block.
 
 #### Returns
 
