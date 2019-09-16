@@ -55,6 +55,7 @@
   * [Sample Code](api-developers-guide/overview/sample-code.md)
   * [Sample nodejs CLI Application](api-developers-guide/overview/sample-nodejs-cli-application.md)
   * [Account Methods](api-developers-guide/overview/account-methods/README.md)
+    * [hmy\_getTransactionCount](api-developers-guide/overview/account-methods/hmy_gettransactioncount.md)
     * [hmy\_getBalance](api-developers-guide/overview/account-methods/hmy_getbalance.md)
     * [address](api-developers-guide/overview/account-methods/getexploreraddress.md)
   * [Transaction Related Methods](api-developers-guide/overview/transaction-related-methods/README.md)

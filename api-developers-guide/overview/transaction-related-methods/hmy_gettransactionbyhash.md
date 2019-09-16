@@ -14,9 +14,9 @@ Get a transaction by its hash.
 
 * `hash` - `String`: Hash of the transaction.
 * `nonce` - `Number`: The number of transactions made by the sender prior to this one.
-* `blockHash` - `String`: Hash of the block where this transaction was in. `null` when its pending.
-* `blockNumber` - `Number`: Block number where this transaction was in. `null` when its pending.
-* `transactionIndex` - `Number`: Integer of the transactions index position in the block. `null` when its pending.
+* `blockHash` - `String`: Hash of the block where this transaction was in. `null` when it's pending.
+* `blockNumber` - `Number`: Block number where this transaction was in. `null` when it's pending.
+* `transactionIndex` - `Number`: Integer of the transaction's index position in the block. `null` when its pending.
 * `from` - `String`: Address of the sender.
 * `to` - `String`: Address of the receiver.
 * `value` - `String`: Value transferred in ATTO.
@@ -31,7 +31,8 @@ curl -d '{
     "jsonrpc":"2.0",
     "method":"hmy_getTransactionByHash",
     "params":[
-    "0x1dff358dad4d0fc95b11acc9826b190d8b7971ac26b3f7ebdee83c10cafaf86f"],
+      "0x1dff358dad4d0fc95b11acc9826b190d8b7971ac26b3f7ebdee83c10cafaf86f"
+    ],
     "id":1
 }'
 ```
