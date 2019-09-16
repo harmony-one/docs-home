@@ -8,7 +8,7 @@ Get number of the most recent block.
 
 #### Returns
 
-* `number` - `Number` - Index of the most recent block in the chain.
+* `String` - Index of the most recent block in the chain.
 
 **Sample Curl Request**
 
