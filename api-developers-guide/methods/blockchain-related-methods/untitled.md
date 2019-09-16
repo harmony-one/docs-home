@@ -42,7 +42,7 @@ Up to which block to fetch blocks \(default is last one\)
 
 {% endapi-method-response-example-description %}
 
-```text
+```javascript
 [
     {
         "height": "0",

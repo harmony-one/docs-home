@@ -12,7 +12,7 @@ description: GetExplorerShard returns explorer nodes hashes in the network.
 | betaNet | e0.b.hmny.io:5000 |
 | local | localhost:5000 |
 
-{% api-method method="get" host="107.21.71.80:5000" path="/shard?id=0" %}
+{% api-method method="get" host="e0.b.hmny.io" path="/shard?id=0" %}
 {% api-method-summary %}
 
 {% endapi-method-summary %}
