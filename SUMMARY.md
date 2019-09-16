@@ -58,7 +58,6 @@
     * [hmy\_getBalance](api-developers-guide/overview/account-methods/hmy_getbalance.md)
     * [address](api-developers-guide/overview/account-methods/getexploreraddress.md)
   * [Transaction Related Methods](api-developers-guide/overview/transaction-related-methods/README.md)
-    * [hmy\_sendTransaction](api-developers-guide/overview/transaction-related-methods/hmy_sendtransaction.md)
     * [hmy\_sendRawTransaction](api-developers-guide/overview/transaction-related-methods/hmy_sendrawtransaction.md)
     * [hmy\_getTransactionReceipt](api-developers-guide/overview/transaction-related-methods/hmy_gettransactionreceipt.md)
     * [hmy\_getBlockTransactionCountByHash](api-developers-guide/overview/transaction-related-methods/hmy_getblocktransactioncountbyhash.md)
