@@ -1,5 +1,5 @@
 ---
-description: GetTransaction
+description: GetTransactionByBlockHashAndIndex
 ---
 
 # hmy\_getTransactionByBlockHashAndIndex
@@ -28,13 +28,15 @@ Get transaction at an index from a given block, specified by block hash.
 **Sample Curl Request**
 
 ```bash
-curl  -d '{
+curl -d '{
     "jsonrpc":"2.0",
     "method":"hmy_getTransactionByBlockHashAndIndex",
     "params":[
-    "0x428ead93e632d5255ea3d1fb61b02ab8493cf562a398af2159c33ecd53c62c16", "0x0"],
+        "0x428ead93e632d5255ea3d1fb61b02ab8493cf562a398af2159c33ecd53c62c16",
+        "0x0"
+    ],
     "id":1
-}'
+}' -H "Content-Type:application/json" -X POST "http://s0.b.hmny.io:9500"
 ```
 
 **Sample Curl Response**
