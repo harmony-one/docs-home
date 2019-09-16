@@ -85,9 +85,5 @@
 
 ## Command Line Interface
 
-* [Using the Harmony CLI tool](command-line-interface/using-the-harmony-cli-tool/README.md)
-  * [Account](command-line-interface/using-the-harmony-cli-tool/account.md)
-  * [Blockchain](command-line-interface/using-the-harmony-cli-tool/blockchain.md)
-  * [Transfer](command-line-interface/using-the-harmony-cli-tool/transfer.md)
-  * [Keys](command-line-interface/using-the-harmony-cli-tool/keys.md)
+* [Using the Harmony CLI tool](command-line-interface/using-the-harmony-cli-tool.md)
 
