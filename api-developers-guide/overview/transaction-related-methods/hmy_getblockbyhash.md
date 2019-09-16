@@ -8,12 +8,27 @@ Get block by its hash.
 
 #### Parameters
 
-1. `common.Hash` - `String` The block hash. 
-2. `bool` - `Boolean` - If `true`, the returned block will contain all transactions in the block.
+1. `String` - The block hash. 
+2. `Boolean` - If `true`, the returned block will contain all transactions in the block.
 
 #### Returns
 
-`String` - The value in storage at the given position.
+* `number` - `Number`: The block number. `null` when its pending block.
+* `hash` 32 Bytes - `String`: Hash of the block. `null` when its pending block.
+* `parentHash` 32 Bytes - `String`: Hash of the parent block.
+* `nonce` 8 Bytes - `String`: Hash of the generated proof-of-work. `null` when its pending block.
+* `logsBloom` 256 Bytes - `String`: The bloom filter for the logs of the block. `null` when its pending block.
+* `transactionsRoot` 32 Bytes - `String`: The root of the transaction trie of the block
+* `stateRoot` 32 Bytes - `String`: The root of the final state trie of the block.
+* `miner` - `String`: The address of the beneficiary to whom the mining rewards were given.
+* `difficulty` - `String`: Integer of the difficulty for this block.
+* `extraData` - `String`: The “extra data” field of this block.
+* `size` - `Number`: Integer the size of this block in bytes.
+* `gasLimit` - `Number`: The maximum gas allowed in this block.
+* `gasUsed` - `Number`: The total used gas by all transactions in this block.
+* `timestamp` - `Number`: The unix timestamp for when the block was collated.
+* `transactions` - `Array`: Array of transaction objects; absent if second parameter is `false`.
+* `uncles` - `Array`: Array of uncle hashes.
 
 **Sample Curl Request**
 
@@ -22,7 +37,9 @@ curl -d '{
     "jsonrpc":"2.0",
     "method":"hmy_getBlockByHash",
     "params":[
-    "0x660fe701f580ffebfcfb4af1836c9929c1fd0014d8d79d60749fecf52df7a90d", true],
+      "0x660fe701f580ffebfcfb4af1836c9929c1fd0014d8d79d60749fecf52df7a90d",
+      true
+    ],
     "id":1
 }' -H 'Content-Type:application/json' -X POST 'http://l0.b.hmny.io:9500'
 ```
