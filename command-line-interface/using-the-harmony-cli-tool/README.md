@@ -8,7 +8,6 @@ description: Interacting with the Harmony one blockchain
 * [Key management](key-management.md)
 * [Creating, sending transactions](creating-sending-transactions.md)
 * [Querying the blockchain](querying-the-blockchain.md)
-* [Where to connect]()
 * [Full CLI reference](full-cli-reference.md)
 
 ## TL;DR
