@@ -1,5 +1,5 @@
 ---
-description: GetBlock
+description: GetBlockByHash
 ---
 
 # hmy\_getBlockByHash

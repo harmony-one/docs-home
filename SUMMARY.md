@@ -73,6 +73,7 @@
     * [hmy\_getCode](api-developers-guide/overview/contract-related-methods/hmy_getcode.md)
     * [hmy\_call](api-developers-guide/overview/contract-related-methods/hmy_call.md)
   * [Protocol Related Methods](api-developers-guide/overview/blockchain-related-methods/README.md)
+    * [hmy\_getShardingStructure](api-developers-guide/overview/blockchain-related-methods/hmy_getshardingstructure.md)
     * [hmy\_blockNumber](api-developers-guide/overview/blockchain-related-methods/hmy_blocknumber.md)
     * [net\_peerCount](api-developers-guide/overview/blockchain-related-methods/net_peercount.md)
     * [hmy\_syncing](api-developers-guide/overview/blockchain-related-methods/hmy_syncing.md)

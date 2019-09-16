@@ -1,10 +1,10 @@
 ---
-description: GetBlock
+description: GetBlockByNumber
 ---
 
 # hmy\_getBlockByNumber
 
-Get block by its index in the blockchain
+Get block by its index in the blockchain.
 
 #### Parameters
 
@@ -13,7 +13,22 @@ Get block by its index in the blockchain
 
 #### Returns
 
-`String` - The value in storage at the given position.
+* `number` - `Number`: The block number. `null` when its pending block.
+* `hash` 32 Bytes - `String`: Hash of the block. `null` when its pending block.
+* `parentHash` 32 Bytes - `String`: Hash of the parent block.
+* `nonce` 8 Bytes - `String`: Hash of the generated proof-of-work. `null` when its pending block.
+* `logsBloom` 256 Bytes - `String`: The bloom filter for the logs of the block. `null` when its pending block.
+* `transactionsRoot` 32 Bytes - `String`: The root of the transaction trie of the block
+* `stateRoot` 32 Bytes - `String`: The root of the final state trie of the block.
+* `miner` - `String`: The address of the beneficiary to whom the mining rewards were given.
+* `difficulty` - `String`: Integer of the difficulty for this block.
+* `extraData` - `String`: The “extra data” field of this block.
+* `size` - `Number`: Integer the size of this block in bytes.
+* `gasLimit` - `Number`: The maximum gas allowed in this block.
+* `gasUsed` - `Number`: The total used gas by all transactions in this block.
+* `timestamp` - `Number`: The unix timestamp for when the block was collated.
+* `transactions` - `Array`: Array of transaction objects; absent if second parameter is `false`.
+* `uncles` - `Array`: Array of uncle hashes.
 
 **Sample Curl Request**
 
