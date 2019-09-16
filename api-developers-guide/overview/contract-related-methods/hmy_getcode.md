@@ -4,38 +4,35 @@ description: GetCode
 
 # hmy\_getCode
 
-**HTTP Request Endpoints**
+Get the code at a specific address.
 
-| Chains | URLs |
-| :--- | :--- |
-| mainnet | TBD |
-| betaNet | [http://l0.b.hmny.io:9500](http://l0.b.hmny.io:9500) |
-| local | [http://localhost:9500](http://localhost:9500) |
+#### Parameters
 
-**Arguments**
+1. `String` - The address to get the code from.
+2. `String` - Block to query for information. Usually `latest`, which specifies the most recent block.
+3. `Function` - \(optional\) Optional callback, returns an error object as first parameter and the result as second.
 
-| Request Data Object | Example |
-| :--- | :--- |
-| jsonrpc | "2.0" |
-| method | "hmy\_getCode" |
-| params | \["0x08AE1abFE01aEA60a47663bCe0794eCCD5763c19", "latest"\] |
-| id | "1" |
+#### Returns
+
+* `String` - The data at given address `address`.
 
 **Sample Curl Request**
 
-```text
-curl  -d '{
-    "jsonrpc":"2.0",
-    "method":"hmy_getCode",
-    "params":[
-    "0x08AE1abFE01aEA60a47663bCe0794eCCD5763c19", "latest"],
-    "id":1
-}'
+```bash
+curl -d '{
+  "jsonrpc": "2.0",
+  "method": "hmy_getCode",
+  "params":[
+    "0x08AE1abFE01aEA60a47663bCe0794eCCD5763c19",
+    "latest"
+  ],
+  "id": 1
+}' -H "Content-Type:application/json" -X POST "http://s0.b.hmny.io:9500"
 ```
 
 **Sample Curl Response**
 
-```text
+```javascript
 {
     "jsonrpc": "2.0",
     "id": 1,
