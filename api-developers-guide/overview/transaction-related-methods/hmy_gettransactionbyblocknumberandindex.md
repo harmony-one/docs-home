@@ -8,8 +8,8 @@ Get transaction at an index from a given block, specified by number.
 
 #### Parameters
 
-1. `Number` - The block's index in the chain.
-2. `Number` - The transactions index position.
+1. `String` - The block's index in the chain.
+2. `String` - The transactions index position.
 
 #### Returns
 
@@ -32,7 +32,9 @@ curl -d '{
     "jsonrpc":"2.0",
     "method":"hmy_getTransactionByBlockNumberAndIndex",
     "params":[
-    "0x4", "0x0"],
+        "0x4",
+        "0x0"
+    ],
     "id":1
 }' -H 'Content-Type:application/json' -X POST 'http://l0.b.hmny.io:9500'
 ```
