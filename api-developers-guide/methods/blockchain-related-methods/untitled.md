@@ -41,6 +41,11 @@ The search range specified by `from` and `to` is inclusive of the ends, meaning 
 
 #### Sample Curl Request
 
+| Parameter | Value |
+| :--- | :--- |
+| `from` | `0` |
+| `to` | `4` |
+
 ```bash
 curl -H "Content-Type:application/json" -X GET "http://e1.b.hmny.io:5000/blocks?from=0&to=4"
 ```
