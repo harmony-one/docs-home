@@ -10,10 +10,10 @@ The `hmy` provides several subcommands under the `blockchain` subcommand which l
 
 ## Targeting Specific Shards
 
-As noted elsewhere in these docs, the Harmony blockchain is a _sharded_ blockchain, therefore some commands depend on which _shard_ you target. The shard you target when querying is controlled by the `--node` flag, for example:
+As noted elsewhere in these docs, the Harmony blockchain is a _sharded_ blockchain, therefore some commands depend on which _shard_ you target. The shard you target when querying is controlled by the `--node` flag. For example, if a transaction is made between Shard 0 and Shard 1, the transaction receipt must be queried from whichever shard sent the funds. This hash is for a transaction made by a sender in Shard 0 to a receiver in Shard 1:
 
 ```text
-hash='0x599793f313ee17566f8d09728b9d043b8e26135ddce86beeee13f98767d452f7'
+$ hash='0x599793f313ee17566f8d09728b9d043b8e26135ddce86beeee13f98767d452f7'
 $ hmy --node="https://api.s1.b.hmny.io" blockchain transaction-receipt ${hash}
 {
   "id": "0",
@@ -22,7 +22,7 @@ $ hmy --node="https://api.s1.b.hmny.io" blockchain transaction-receipt ${hash}
 }
 ```
 
-But invoking the same command on a different shard yields the transaction receipt:
+As you can see, Shard 1 does not have that transaction receipt, since the transaction originated from Shard 0. If we switch to the endpoint for Shard 0, we see the expected result:
 
 ```text
 hash='0x599793f313ee17566f8d09728b9d043b8e26135ddce86beeee13f98767d452f7'
