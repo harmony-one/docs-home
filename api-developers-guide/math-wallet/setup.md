@@ -2,7 +2,7 @@
 description: Setting up Math Wallet with a new or existing key
 ---
 
-# Setup
+# Math WalletSetup
 
 ## Installation
 

@@ -20,7 +20,7 @@
   * [Wallet Creator](developers-1/which-one-are-you/wallet-creator.md)
   * [Explorer Creator](developers-1/which-one-are-you/explorer-creator.md)
   * [Trading Partner](developers-1/which-one-are-you/trading-partner/README.md)
-    * [Partner on-boarding process](developers-1/which-one-are-you/trading-partner/on-boarding-process/README.md)
+    * [Partner on-boarding reference material](developers-1/which-one-are-you/trading-partner/on-boarding-process/README.md)
       * [Pre-requisites](developers-1/which-one-are-you/trading-partner/on-boarding-process/pre-requisites.md)
       * [Connecting to Harmony \(Running a node\)](developers-1/which-one-are-you/trading-partner/on-boarding-process/connecting-to-harmony-running-a-node.md)
       * [Managing Accounts](developers-1/which-one-are-you/trading-partner/on-boarding-process/managing-accounts/README.md)
@@ -82,8 +82,8 @@
     * [blocks](api-developers-guide/methods/blockchain-related-methods/untitled.md)
     * [shard](api-developers-guide/methods/blockchain-related-methods/getexplorershard.md)
     * [node-count](api-developers-guide/methods/blockchain-related-methods/getexplorernodecount.md)
-* [Math Wallet](api-developers-guide/math-wallet/README.md)
-  * [Setup](api-developers-guide/math-wallet/setup.md)
+* [Wallet Overview](api-developers-guide/math-wallet/README.md)
+  * [Math WalletSetup](api-developers-guide/math-wallet/setup.md)
 
 ## Command Line Interface
 
