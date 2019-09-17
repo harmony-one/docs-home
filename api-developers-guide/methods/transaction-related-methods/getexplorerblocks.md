@@ -4,51 +4,45 @@ description: GetExplorerTx returns information about the requested transaction.
 
 # tx
 
-**HTTP Request Endpoints**
+Returns information about a given transaction.
 
-| Chains | URLs |
+#### Parameters
+
+1. `id` - `String` - Transaction's hash \(ID\).
+
+#### Returns
+
+* `id` - `String` - Transaction's hash.
+* `timestamp` - `String` - Transaction's timestamp.
+* `from` - `String` - Address of the sender.
+* `to` - `String` - Address of the receiver.
+* `value` - `Integer` - Amount transferred in ATTO.
+* `bytes` - `String` - **TODO: Suneel - Fill in**
+* `data` - `String` - Extra data.
+* `type` - `String` - Either "SENT" or "RECEIVED". **TODO: Suneel - Why doesn't this get marked?**
+
+#### Sample Curl Request
+
+| Parameter | Value |
 | :--- | :--- |
-| mainnet | TBD |
-| betaNet | e0.b.hmny.io:5000 |
-| local | localhost:5099 |
+| `id` | `0x7d8329dfd17cf82fcfda4e44f0f59b59c7a1379f173829beb005e94504d99b0f` |
 
-{% api-method method="get" host="107.21.71.80:5000" path="/tx?id=0x44479ab2140f6bbd198355a45d04a70314f8861c5969d9a1b05121fec3e6b07c" %}
-{% api-method-summary %}
+```bash
+curl -X GET -H "Content-Type:application/json" e0.b.hmny.io:5000/tx?id=0x7d8329dfd17cf82fcfda4e44f0f59b59c7a1379f173829beb005e94504d99b0f
+```
 
-{% endapi-method-summary %}
+#### Sample Curl Response
 
-{% api-method-description %}
-
-{% endapi-method-description %}
-
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-query-parameters %}
-{% api-method-parameter name="id" type="string" required=true %}
-hex transaction ID
-{% endapi-method-parameter %}
-{% endapi-method-query-parameters %}
-{% endapi-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
-```text
+```javascript
 {
-    "id": "0x44479ab2140f6bbd198355a45d04a70314f8861c5969d9a1b05121fec3e6b07c",
-    "timestamp": "",
-    "from": "one1pdv9lrdwl0rg5vglh4xtyrv3wjk3wsqket7zxy",
-    "to": "one1uyshu2jgv8w465yc8kkny36thlt2wvel89tcmg",
-    "value": "220",
-    "bytes": "",
-    "data": ""
+  "id": "0x7d8329dfd17cf82fcfda4e44f0f59b59c7a1379f173829beb005e94504d99b0f",
+  "timestamp": "1568241562000",
+  "from": "one1yc06ghr2p8xnl2380kpfayweguuhxdtupkhqzw",
+  "to": "one1z05g55zamqzfw9qs432n33gycdmyvs38xjemyl",
+  "value": 1e+20,
+  "bytes": "108",
+  "data": "",
+  "type": ""
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
 

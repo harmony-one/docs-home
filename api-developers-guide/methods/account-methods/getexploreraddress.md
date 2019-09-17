@@ -1,5 +1,5 @@
 ---
-description: Transaction history of an address
+description: GetExplorerAddress returns the transaction history of an address
 ---
 
 # address
