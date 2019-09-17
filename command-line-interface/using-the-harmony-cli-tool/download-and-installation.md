@@ -18,7 +18,9 @@ $ ./hmy.sh -d
 
 Now you can use `hmy.sh` as a wrapper over `hmy` and you should assume that all references to `hmy` in these documents refer to `hmy.sh`.
 
-> Note that since `hmy` is not statically linked, you cannot arbitrarily move `hmy.sh` to anywhere on your filesystem like you could with a single binary.
+{% hint style="warning" %}
+Note that since `hmy` is not statically linked, you cannot arbitrarily move `hmy.sh` to anywhere on your filesystem like you could with a single binary.
+{% endhint %}
 
 ## Compiling from source
 
@@ -39,5 +41,5 @@ bls     go-sdk  harmony mcl
 2. Invoke `source harmony/scripts/setup_bls_build_flags.sh`
 3. Call `make` in the `go-sdk` repo. This builds a binary named `hmy`
 
-> These steps are admittedly involved, eventually everything will be statically linked.
+These steps are admittedly involved, eventually everything will be statically linked.
 
