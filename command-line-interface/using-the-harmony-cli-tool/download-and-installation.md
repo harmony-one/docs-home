@@ -26,7 +26,7 @@ If you are interested in compiling from source, then the process is slightly mor
 
 ### Steps
 
-1. Clone the [repo](https://github.com/harmony-one/go-sdk) at a same level as the main Harmony repo:
+1. Clone the [repo](https://github.com/harmony-one/go-sdk) at the same level as the main Harmony repo:
 
 ```text
 $  pwd
@@ -37,7 +37,7 @@ bls     go-sdk  harmony mcl
 
 1. Have `mcl`, `bls` all built and prepared. This may require you to see instructions in the `harmony` repo's `README.md`.
 2. Invoke `source harmony/scripts/setup_bls_build_flags.sh`
-3. Call `make` in the `go-sdk` repo, this builds a binary named `hmy`
+3. Call `make` in the `go-sdk` repo. This builds a binary named `hmy`
 
 > These steps are admittedly involved, eventually everything will be statically linked.
 
