@@ -16,9 +16,9 @@ If `from` and `to` are both some index **n**, then `blocks` will return the **n*
 
 * `from` - `Integer` - Beginning of search range.
 * `to` - `Integer` - _\(Optional\)_ End of search range.
-* `with_signers` - `Boolean` - _\(Optional\)_ If response contains block signers. Defaults to `false`.
 * `offset` - `Integer` - _\(Optional\)_ How many blocks are listed per page.
 * `page` - `Integer` - _\(Optional\)_ Which page to view.
+* \[Not Implemented\] __`with_signers` - `Boolean` - If response contains block signers. Defaults to `false`.
 
 #### Returns
 
@@ -32,11 +32,11 @@ If `from` and `to` are both some index **n**, then `blocks` will return the **n*
   * `prevBlock` - `Object` 
     * `id` - `String` - Hash of the previous block in the chain.
     * `height` - `Integer` - Height of the previous block in the chain.
-  * `bytes` - `String` - **TODO: Suneel - Fill in**
+  * `bytes` - `String` - Size of block in bytes.
   * `nextBlock` - `Object` 
     * `id` - `String` - Hash of the next block in the chain.
     * `height` - `Integer` - Height of the next block in the chain.
-  * `txs` - **TODO: Suneel - Is this implemented? Always returns null even if the block has transactions.**
+  * `txs` \[Not Implemented\] - `Array` - The transactions in the block.
   * `signers` - `Array` - Signers of this block.
   * `epoch` - `Integer` - Epoch this was mined in.
   * `extra_data` - `String` - Block's extra data.

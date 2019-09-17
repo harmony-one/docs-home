@@ -17,9 +17,8 @@ Returns information about a given transaction.
 * `from` - `String` - Address of the sender.
 * `to` - `String` - Address of the receiver.
 * `value` - `Integer` - Amount transferred in ATTO.
-* `bytes` - `String` - **TODO: Suneel - Fill in**
+* `bytes` - `String` - Size of the transaction in bytes.
 * `data` - `String` - Extra data.
-* `type` - `String` - Either "SENT" or "RECEIVED". **TODO: Suneel - Why doesn't this get marked?**
 
 #### Sample Curl Request
 
