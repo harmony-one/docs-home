@@ -41,5 +41,5 @@ bls     go-sdk  harmony mcl
 2. Invoke `source harmony/scripts/setup_bls_build_flags.sh`
 3. Call `make` in the `go-sdk` repo. This builds a binary named `hmy`
 
-These steps are admittedly involved, eventually everything will be statically linked.
+These steps are admittedly involved; eventually everything will be statically linked.
 

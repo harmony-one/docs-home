@@ -7,7 +7,7 @@ description: 'Managing accounts & their keys on your local machine, hardware wal
 As of commit `521aa050e479d3032d7f1f83468650b48aa5f613`, `hmy` provides two ways of helping you managing accounts and keys.
 
 1. On the local machine where the `hmy` binary runs, you can see where `hmy` keeps track of accounts and keys by invoking `$ hmy keys location`
-2. On a hardware Ledger Nano S.
+2. On a hardware Ledger Nano S
 
 You can check the local accounts like so:
 
