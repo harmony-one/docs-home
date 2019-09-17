@@ -11,6 +11,14 @@ description: GetExplorerAddress returns the address of the requested explorer no
 | mainnet | TBD |
 | betaNet | e0.b.hmny.io:5000 |
 | local | localhost:5099 |
+|  |  |
+
+#### Parameters
+
+1. `String` -  The address to get the balance of.
+2. `String` - Block to get query for balance; "latest" gives latest block.
+
+#### Result
 
 {% api-method method="get" host="107.21.71.80:5000" path="/address?id=" %}
 {% api-method-summary %}
@@ -47,4 +55,6 @@ hex address
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
+
+
 
