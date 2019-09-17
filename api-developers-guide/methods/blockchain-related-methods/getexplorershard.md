@@ -8,11 +8,11 @@ Returns explorer node hashes of a given shard.
 
 #### Parameters
 
-{% hint style="info" %}
-Make sure to change the explorer endpoint to match the shard ID.
+{% hint style="danger" %}
+Currently, `id` does not change which shard is queried; only the explorer endpoint \(`e0` or `e1`\) determines which shard is queried. Thus, `id` is optional.
 {% endhint %}
 
-* `id` - `Integer` - Shard ID to query.
+* `id` - `Integer` - _\(Optional\)_ Shard ID to query.
 
 #### Returns
 

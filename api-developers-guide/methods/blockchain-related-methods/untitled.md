@@ -10,6 +10,8 @@ Returns information about the block\(s\) specified by the parameters.
 
 {% hint style="info" %}
 The search range specified by `from` and `to` is inclusive of the ends, meaning `from=0&to=5` will return the blocks at indices 0, 1, 2, 3, 4, and 5.
+
+If `from` and `to` are both some index **n**, then `blocks` will return the **n**th block.
 {% endhint %}
 
 * `from` - `Integer` - Beginning of search range.
