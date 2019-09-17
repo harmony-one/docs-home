@@ -71,7 +71,7 @@ Notice that simply invoking the `transfer` subcommand gave us an error message a
 * `to-shard`: Shard in which receiver will receive the amount sent by the sender
 
 {% hint style="info" %}
-A sharded blockchain is new, special kind of blockchain where the whole network is partitioned between mutally exclusive shards. Sharding is one of the distinguishing features of Harmony and it is key to solving the tranditional scalability problems found in other blockchain protocols. Note that **a one address may and often does have a different balance in each shard**, currently mainnet has four shards while testnet assumes two shards; sending a transaction from one shard to another is called a ****_"cross-shard" transaction._
+A sharded blockchain is new, special kind of blockchain where the whole network is partitioned between mutally exclusive shards. Sharding is one of the distinguishing features of Harmony and it is key to solving the tranditional scalability problems found in other blockchain protocols. Note that **a one address may and often does have a different balance in each shard**; currently mainnet has four shards while testnet assumes two shards; sending a transaction from one shard to another is called a ****_"cross-shard" transaction._
 {% endhint %}
 
 Thus, a correct usage of `transfer` looks like:
@@ -120,11 +120,7 @@ Keep in mind two key points:
 
    value of `null`.
 
-2. You should set the value of `--node` to the same shard that sent the transaction, notice that the
+2. You should set the value of `--node` to the same shard that sent the transaction, notice that the URL we used, `https://api.s0.b.hmny.io` contained `s0`, this means that this URL is targeting shard 0.
 
-   URL we used, `https://api.s0.b.hmny.io` contained `s0`, this means that this URL is targeting
-
-   shard 0.
-
-You can tell `hmy` to wait until transaction confirmation by providing a positve integer value to flag `--wait-for-confirm`. As an example, `--wait-for-confirm=10` will try checking the receipt of the transaction for 10 seconds.
+You can tell `hmy` to wait until transaction confirmation by providing a positve integer value to flag `--wait-for-confirm`. For example, `--wait-for-confirm=10` will try checking the receipt of the transaction for 10 seconds.
 
