@@ -16,7 +16,7 @@
 
 * [WHICH ONE ARE YOU](developers-1/which-one-are-you/README.md)
   * [DApp Developer](developers-1/which-one-are-you/developer.md)
-  * [Smart Contract Devel](developers-1/which-one-are-you/smart-contract-devel.md)
+  * [Smart Contract Developer](developers-1/which-one-are-you/smart-contract-devel.md)
   * [Wallet Creator](developers-1/which-one-are-you/wallet-creator.md)
   * [Explorer Creator](developers-1/which-one-are-you/explorer-creator.md)
   * [Trading Partner](developers-1/which-one-are-you/trading-partner/README.md)

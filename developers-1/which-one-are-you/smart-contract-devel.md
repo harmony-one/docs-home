@@ -1,2 +1,2 @@
-# Smart Contract Devel
+# Smart Contract Developer
 

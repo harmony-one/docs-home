@@ -1,14 +1,12 @@
 ---
-description: "Managing accounts & their keys on your local machine, hardware wallets"
+description: 'Managing accounts & their keys on your local machine, hardware wallets'
 ---
 
 # Key management
 
 As of commit `521aa050e479d3032d7f1f83468650b48aa5f613`, `hmy` provides two ways of helping you managing accounts and keys.
 
-1. On the local machine where the `hmy` binary runs, you can see where `hmy` keeps track of accounts
-   and keys by invoking `$ hmy keys location`
-
+1. On the local machine where the `hmy` binary runs, you can see where `hmy` keeps track of accounts and keys by invoking `$ hmy keys location`
 2. On a hardware ledger nano S
 
 You can check the local accounts like so:
@@ -59,25 +57,21 @@ already memory moral any much letter forum odor never vintage text judge apology
 
 > You must provide an account alias name
 
-This creates a keystore at `$(hmy keys location)/example-account/TC--2019-09-16T21-25-35.297331000Z--678e7ea3dcb5f4e9724c0e761843572f10c49b73`
-with a default passphrase of `harmony-one`. The passphrase is used to decrypt the keystore when
-signing transactions. In case you want to use an alternative passphrase, invoke instead:
+This creates a keystore at `$(hmy keys location)/example-account/TC--2019-09-16T21-25-35.297331000Z--678e7ea3dcb5f4e9724c0e761843572f10c49b73` with a default passphrase of `harmony-one`. The passphrase is used to decrypt the keystore when signing transactions. In case you want to use an alternative passphrase, invoke instead:
 
-```shell
+```text
 $ hmy keys add throw-away-acc1 --passphrase
 Enter passphrase for account
 Repeat the passphrase:
 ```
 
-When creating keys this way, `hmy` will ask you to provide a passphrase without repeating it on the
-screen.
+When creating keys this way, `hmy` will ask you to provide a passphrase without repeating it on the screen.
 
 ### Importing an existing keystore
 
-Sometimes you might have an existing keystore such as keys made by Harmony's `wallet.sh` program. An
-example:
+Sometimes you might have an existing keystore such as keys made by Harmony's `wallet.sh` program. An example:
 
-```shell
+```text
 p='/Users/edgar/Repos/harmony-work/src/github.com/harmony-one/harmony/.hmy/keystore/one16qsd5ant9v94jrs89mruzx62h7ekcfxmduh2rx.key'
 $ hmy keys import ${p}
 Imported keystore given account alias of `lecture-imported`
@@ -85,6 +79,5 @@ Imported keystore given account alias of `lecture-imported`
 
 > Notice that the path in the shell variable `p` is an absolute path
 
-Keep in mind that you should know the passphrase associated with the imported keystore. For
-keystores created by Harmony's `wallet.sh`, the default passphrase is an empty string and this
-matters for signing transactions.
+Keep in mind that you should know the passphrase associated with the imported keystore. For keystores created by Harmony's `wallet.sh`, the default passphrase is an empty string and this matters for signing transactions.
+
