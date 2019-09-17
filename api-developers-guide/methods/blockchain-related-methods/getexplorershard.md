@@ -22,7 +22,7 @@ Currently, `id` does not change which shard is queried; only the explorer endpoi
 #### Sample Curl Request
 
 ```bash
-curl -H "Content-Type:application/json" -X GET "e1.b.hmny.io:5000/shard?id=1"
+curl -H "Content-Type:application/json" -X GET "e1.b.hmny.io:5000/shard"
 ```
 
 #### Sample Curl Response
