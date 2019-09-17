@@ -82,6 +82,8 @@
     * [blocks](api-developers-guide/methods/blockchain-related-methods/untitled.md)
     * [shard](api-developers-guide/methods/blockchain-related-methods/getexplorershard.md)
     * [node-count](api-developers-guide/methods/blockchain-related-methods/getexplorernodecount.md)
+* [Math Wallet](api-developers-guide/math-wallet/README.md)
+  * [Setup](api-developers-guide/math-wallet/setup.md)
 
 ## Command Line Interface
 
