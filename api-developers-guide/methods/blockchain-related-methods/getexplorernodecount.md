@@ -4,37 +4,21 @@ description: GetExplorerNode-Count returns the number of explorer nodes in the n
 
 # node-count
 
-**HTTP Request Endpoints**
+Returns number of explorer nodes in the network.
 
-| Chains | URLs |
-| :--- | :--- |
-| mainnet | TBD |
-| betaNet | e0.b.hmny.io:5000 |
-| local | localhost:5000 |
+#### Returns
 
-{% api-method method="get" host="107.21.71.80:5000" path="/node-count" %}
-{% api-method-summary %}
+* `Integer` - Number of explorer nodes in the network.
 
-{% endapi-method-summary %}
+#### Sample Curl Request
 
-{% api-method-description %}
+```bash
+curl -H "Content-Type:application/json" -X GET "e1.b.hmny.io:5000/node-count"
+```
 
-{% endapi-method-description %}
+#### Sample Curl Response
 
-{% api-method-spec %}
-{% api-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
-```text
+```javascript
 2
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
 

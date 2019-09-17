@@ -4,52 +4,39 @@ description: GetExplorerShard returns explorer nodes hashes in the network.
 
 # shard
 
-**HTTP Request Endpoints**
+Returns explorer node hashes of a given shard.
 
-| Chains | URLs |
-| :--- | :--- |
-| mainnet | TBD |
-| betaNet | e0.b.hmny.io:5000 |
-| local | localhost:5000 |
+#### Parameters
 
-{% api-method method="get" host="e0.b.hmny.io" path="/shard?id=0" %}
-{% api-method-summary %}
+{% hint style="info" %}
+Make sure to change the explorer endpoint to match the shard ID.
+{% endhint %}
 
-{% endapi-method-summary %}
+* `id` - `Integer` - Shard ID to query.
 
-{% api-method-description %}
+#### Returns
 
-{% endapi-method-description %}
+* `nodes` - `Array`
+  * `id` - `String` - Explorer node hash.
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-query-parameters %}
-{% api-method-parameter name="id" type="integer" required=false %}
-Shard id \(default value is 0\)
-{% endapi-method-parameter %}
-{% endapi-method-query-parameters %}
-{% endapi-method-request %}
+#### Sample Curl Request
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
+```bash
+curl -H "Content-Type:application/json" -X GET "e1.b.hmny.io:5000/shard?id=1"
+```
 
-{% endapi-method-response-example-description %}
+#### Sample Curl Response
 
-```text
+```javascript
 {
-    "nodes": [
-        {
-            "id": "QmbHoX6KqV1TsonrXkNj6LjphXcj2LtBucT7pExKYbVMLa"
-        },
-        {
-            "id": ""
-        }
-    ]
+  "nodes": [
+    {
+      "id": "QmXh6ZW5XG9uKLnycMnPtuQoAMJ8rSKfJt1LLxTfSGAqKv"
+    },
+    {
+      "id": ""
+    }
+  ]
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
 
