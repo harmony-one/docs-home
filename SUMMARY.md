@@ -62,7 +62,8 @@
 ## Tools for Users
 
 * [Harmony Wallets](tools-for-users/math-wallet/README.md)
-  * [Math Wallet](tools-for-users/math-wallet/setup.md)
+  * [Math Wallet](tools-for-users/math-wallet/setup/README.md)
+    * [Making Transactions](tools-for-users/math-wallet/setup/making-transactions.md)
   * [Ledger](tools-for-users/math-wallet/ledger.md)
 * [Untitled](tools-for-users/untitled.md)
 
