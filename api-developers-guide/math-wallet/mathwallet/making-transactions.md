@@ -4,9 +4,11 @@ description: How to make a transaction and how to switch networks.
 
 # How to Make Transactions
 
+Transferring money with Math Wallet is simple and easy to do! Make sure you've set up your Math Wallet extension according to the directions in [**Setup**](setup.md)**.**
+
 ### How to make a transaction
 
-Make sure you are in the Web Wallet interface. To access the Web Wallet, select the wallet you want to open and click **Web Wallet** on the MathWallet extension popover interface:
+Make sure you are in the Web Wallet interface. To access the Web Wallet, select the wallet you want to open and click **Web Wallet** on the Math Wallet extension popover interface:
 
 ![Clicking &quot;Web Wallet&quot; opens &quot;Test Wallet&quot; in a new tab](../../../.gitbook/assets/screen-shot-2019-09-18-at-2.33.41-pm.png)
 
@@ -24,6 +26,8 @@ Now, to make a transaction:
 6. Click **Transfer** to complete the transaction! You will be shown a transaction receipt before submitting.
 
 ### Switching Networks
+
+Depending on your needs, you may need to make transactions on a network other than the Harmony mainnet.
 
 In the toolbar at the top of the page, there is a dropdown which defaults to **Harmony** where you can specify which network you wish to operate on.
 
