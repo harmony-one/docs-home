@@ -7,47 +7,14 @@
 * [Harmony Network Overview](harmony-networks/harmony-network-overview/README.md)
   * [Mainnet](harmony-networks/harmony-network-overview/mainnet.md)
   * [Pangea](harmony-networks/harmony-network-overview/pangea.md)
-  * [Betanet](harmony-networks/harmony-network-overview/betanet/README.md)
-    * [Test Accounts](harmony-networks/harmony-network-overview/betanet/developer-1.md)
+  * [Betanet](harmony-networks/harmony-network-overview/betanet.md)
 * [Connecting to the Harmony Network](harmony-networks/connecting-to-the-harmony-network/README.md)
   * [Non-validating Nodes](harmony-networks/connecting-to-the-harmony-network/non-validating-nodes.md)
 
 ## Developers <a id="developers-1"></a>
 
 * [WHICH ONE ARE YOU](developers-1/which-one-are-you/README.md)
-  * [DApp Developer](developers-1/which-one-are-you/developer.md)
-  * [Smart Contract Developer](developers-1/which-one-are-you/smart-contract-devel.md)
-  * [Wallet Creator](developers-1/which-one-are-you/wallet-creator.md)
-  * [Explorer Creator](developers-1/which-one-are-you/explorer-creator.md)
-  * [Trading Partner](developers-1/which-one-are-you/trading-partner/README.md)
-    * [Partner on-boarding reference material](developers-1/which-one-are-you/trading-partner/on-boarding-process/README.md)
-      * [Pre-requisites](developers-1/which-one-are-you/trading-partner/on-boarding-process/pre-requisites.md)
-      * [Connecting to Harmony \(Running a node\)](developers-1/which-one-are-you/trading-partner/on-boarding-process/connecting-to-harmony-running-a-node.md)
-      * [Managing Accounts](developers-1/which-one-are-you/trading-partner/on-boarding-process/managing-accounts/README.md)
-        * [KYC Process](developers-1/which-one-are-you/trading-partner/on-boarding-process/managing-accounts/kyc-process.md)
-      * [Token Swap Process](developers-1/which-one-are-you/trading-partner/on-boarding-process/token-swap-process.md)
-      * [Trading Process](developers-1/which-one-are-you/trading-partner/on-boarding-process/trading-process.md)
-      * [BEP2 to ERC20 Swap](developers-1/which-one-are-you/trading-partner/on-boarding-process/bep2-to-erc20-swap.md)
-    * [Onboard Process Walkthrough](developers-1/which-one-are-you/trading-partner/onboard-process-walkthrough/README.md)
-      * [Sample Run  Through](developers-1/which-one-are-you/trading-partner/onboard-process-walkthrough/sample-run-through.md)
-    * [Reference Material](developers-1/which-one-are-you/trading-partner/reference-material.md)
-  * [Harmony Validator](developers-1/which-one-are-you/harmony-validator/README.md)
-    * [Validator Overview](developers-1/which-one-are-you/harmony-validator/validator-overview.md)
-    * [Pangaea](developers-1/which-one-are-you/harmony-validator/pangaea.md)
-    * [Foundational Nodes](developers-1/which-one-are-you/harmony-validator/foundational-nodes.md)
-
-## Developer Tools <a id="devtools"></a>
-
-* [Local Harmony Blockchain](devtools/local-harmony-blockchain/README.md)
-  * [Harmony Local Node Configuration](devtools/local-harmony-blockchain/harmony-local-node-configuration.md)
-  * [Updating your codebase to latest](devtools/local-harmony-blockchain/updating-your-codebase-to-latest.md)
-  * [Running a Local Node](devtools/local-harmony-blockchain/running-a-local-node.md)
-  * [Account Information](devtools/local-harmony-blockchain/account-information.md)
-  * [Funding your wallet](devtools/local-harmony-blockchain/funding-your-wallet.md)
-  * [Transferring Funds](devtools/local-harmony-blockchain/transferring-funds.md)
-* [Smart Contract Development](devtools/smart-contract-development/README.md)
-  * [Smart Contracts development using Truffle](devtools/smart-contract-development/writing-smart-contracts/README.md)
-    * [truffle-config.js](devtools/smart-contract-development/writing-smart-contracts/untitled.md)
+  * [Trading Partner](developers-1/which-one-are-you/trading-partner.md)
 
 ## API Developers Guide
 
@@ -82,9 +49,6 @@
     * [blocks](api-developers-guide/methods/blockchain-related-methods/untitled.md)
     * [shard](api-developers-guide/methods/blockchain-related-methods/getexplorershard.md)
     * [node-count](api-developers-guide/methods/blockchain-related-methods/getexplorernodecount.md)
-* [Wallet Overview](api-developers-guide/math-wallet/README.md)
-  * [Math WalletSetup](api-developers-guide/math-wallet/setup.md)
-  * [Ledger](api-developers-guide/math-wallet/ledger.md)
 
 ## Command Line Interface
 
@@ -94,4 +58,11 @@
   * [Creating, sending transactions](command-line-interface/using-the-harmony-cli-tool/creating-sending-transactions.md)
   * [Querying the blockchain](command-line-interface/using-the-harmony-cli-tool/querying-the-blockchain.md)
   * [Full CLI Reference](command-line-interface/using-the-harmony-cli-tool/full-cli-reference.md)
+
+## Tools for Users
+
+* [Harmony Wallets](tools-for-users/math-wallet/README.md)
+  * [Math Wallet](tools-for-users/math-wallet/setup.md)
+  * [Ledger](tools-for-users/math-wallet/ledger.md)
+* [Untitled](tools-for-users/untitled.md)
 

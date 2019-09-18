@@ -1,2 +1,0 @@
-# KYC Process
-
