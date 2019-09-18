@@ -1,2 +1,0 @@
-# Transaction Related Methods
-
