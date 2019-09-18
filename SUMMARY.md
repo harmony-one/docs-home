@@ -8,8 +8,8 @@
   * [Mainnet](harmony-networks/harmony-network-overview/mainnet.md)
   * [Pangea](harmony-networks/harmony-network-overview/pangea.md)
   * [Betanet](harmony-networks/harmony-network-overview/betanet.md)
-* [Connecting to the Harmony Network](harmony-networks/connecting-to-the-harmony-network/README.md)
-  * [Non-validating Nodes](harmony-networks/connecting-to-the-harmony-network/non-validating-nodes.md)
+  * [Connecting to the Harmony Network](harmony-networks/harmony-network-overview/connecting-to-the-harmony-network/README.md)
+    * [Non-validating Nodes](harmony-networks/harmony-network-overview/connecting-to-the-harmony-network/non-validating-nodes.md)
 
 ## Developers <a id="developers-1"></a>
 
