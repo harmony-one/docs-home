@@ -13,7 +13,7 @@ BetaNet is a testing environment for dApp developers and partners. It is running
 * 1 hour earning of validator nodes
   * [**https://harmony.one/beta/1h**](https://harmony.one/1h)
 * 4 hour earning of validator nodes
-  * \*\*\*\*[**https://harmony.one/beta/4h**](https://harmony.one/4h)
+  * [**https://harmony.one/beta/4h**](https://harmony.one/4h)
 
 ### RPC Endpoints
 

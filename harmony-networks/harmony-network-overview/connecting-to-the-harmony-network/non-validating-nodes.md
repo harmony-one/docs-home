@@ -57,7 +57,7 @@ A node needs to sync both beacon chain and the shard chain data. It is expected 
 
 `The expected output is like:`
 
-![output of running a validator node](../../.gitbook/assets/screen-shot-2019-09-12-at-8.55.13-pm.png)
+![output of running a validator node](../../../.gitbook/assets/screen-shot-2019-09-12-at-8.55.13-pm.png)
 
 If you want to build your own version of harmony node, please just overwrite the harmony binary and restart the node.sh.
 

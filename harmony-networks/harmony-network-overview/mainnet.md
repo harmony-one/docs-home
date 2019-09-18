@@ -13,7 +13,7 @@ Mainnet is Harmony's production environment. It is running it is running with fo
 * 1 hour earning of validator nodes
   * [**https://harmony.one/1h**](https://harmony.one/1h)
 * 4 hour earning of validator nodes
-  * \*\*\*\*[**https://harmony.one/4h**](https://harmony.one/4h)
+  * [**https://harmony.one/4h**](https://harmony.one/4h)
 
 ### RPC Endpoints
 
