@@ -6,11 +6,19 @@
 
 | Chains | URLs |
 | :--- | :--- |
-| mainnet | TBD |
-| betaNet | [http://l0.b.hmny.io:9500](http://l0.b.hmny.io:9500) |
+| mainnet | [https://api.s1.t.hmny.io ](%20https://api.s1.t.hmny.io%20) |
+| pangaea | [https://api.s1.p.hmny.io](%20https://api.s1.p.hmny.io) |
+| betaNet | [https://api.s1.b.hmny.io](https://api.s1.b.hmny.io) |
 | local | [http://localhost:9500](http://localhost:9500) |
 
-All API calls are POST requests.
+Web sockets can also be used
+
+| Chains | URLs |
+| :--- | :--- |
+| mainnet | [wss://ws.s1.t.hmny.io ](wss://ws.s1.t.hmny.io%20) |
+| pangaea | [wss://ws.s1.p.hmny.io](wss://ws.s1.p.hmny.io)  |
+| betaNet | [wss://ws.s1.b.hmny.io](wss://ws.s1.b.hmny.io) |
+| local | [wss://localhost:9800](%20wss://localhost:9800) |
 
 All requests follow the standard JSON-RPC format and include 4 variables in the data object:
 
