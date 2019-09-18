@@ -6,17 +6,17 @@ description: GetExplorerNode-Count returns the number of explorer nodes in the n
 
 Returns number of explorer nodes in the network.
 
-#### Returns
+## Returns
 
 * `Integer` - Number of explorer nodes in the network.
 
-#### Sample Curl Request
+## Sample Curl Request
 
 ```bash
 curl -H "Content-Type:application/json" -X GET "e1.b.hmny.io:5000/node-count"
 ```
 
-#### Sample Curl Response
+## Sample Curl Response
 
 ```javascript
 2

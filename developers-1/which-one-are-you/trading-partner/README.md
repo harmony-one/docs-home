@@ -8,8 +8,6 @@ Harmony ONE Trading Partners enable their users to easily buy and trade Harmony 
 
 ### Establishing a trading partner relationship with Harmony
 
-
-
 ### Legal Requirements
 
 ### Technical Requirements

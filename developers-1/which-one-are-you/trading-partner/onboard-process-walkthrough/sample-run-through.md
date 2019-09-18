@@ -9,9 +9,9 @@ Johns-MacBook-Pro:go-sdk johnwhitton$ ./hmy keys add binance_foundation
 
 behind grow afford mix job switch hand problem submit mistake sound pyramid thunder pink canvas fence check want brief between pizza coffee immense collect
 Johns-MacBook-Pro:go-sdk johnwhitton$ ./hmy keys list
-NAME                    		                ADDRESS
+NAME                                            ADDRESS
 
-binance_foundation                              	one1502q7438y68m4qtqqetm99hez8ru5h4yzegp9y
+binance_foundation                                  one1502q7438y68m4qtqqetm99hez8ru5h4yzegp9y
 ```
 
 ```text
@@ -19,10 +19,10 @@ Johns-MacBook-Pro:go-sdk johnwhitton$ ./hmy keys add harmony_foundation --recove
 Enter mnemonic to recover keys from
 urge clog right example dish drill card maximum mix bachelor section select
 Johns-MacBook-Pro:go-sdk johnwhitton$ ./hmy keys list
-NAME                    		                ADDRESS
+NAME                                            ADDRESS
 
-binance_foundation                              	one1502q7438y68m4qtqqetm99hez8ru5h4yzegp9y
-harmony_foundation                              	one1k2u4hl60jyzev8f39r0275hggjx99ayr8nzdtw
+binance_foundation                                  one1502q7438y68m4qtqqetm99hez8ru5h4yzegp9y
+harmony_foundation                                  one1k2u4hl60jyzev8f39r0275hggjx99ayr8nzdtw
 ```
 
 ```text

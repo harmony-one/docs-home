@@ -8,16 +8,16 @@ description: >-
 
 Returns a list of network of a particular shard and epoch. To get current list of validators you should pass epoch from current block.
 
-#### Parameters
+## Parameters
 
 * `shard_id` - `Integer` - Shard to query.
 * `epoch` - `Integer` - Defaults to current epoch.
 
-#### Returns
+## Returns
 
 * `validators` - `Array` - Array of all of the validators.
 
-#### Sample Curl Request
+## Sample Curl Request
 
 | Parameter | Value |
 | :--- | :--- |
@@ -28,7 +28,7 @@ Returns a list of network of a particular shard and epoch. To get current list o
 curl -H "Content-Type:application/json" -X GET "e0.b.hmny.io:5000/committee?shard_id=0&epoch=0"
 ```
 
-#### Sample Curl Response
+## Sample Curl Response
 
 ```javascript
 {
