@@ -32,6 +32,8 @@ As the address is longer than the LED screen, you can use the top two button to 
 
 The entire process is shown in video below:
 
+{% embed url="https://youtu.be/m5RLYGWosuk" %}
+
 ## Signing a RAW Transaction using Ledger Nano S <a id="signing-a-raw-transaction-using-ledger-nano-s"></a>
 
 Using the companion application oneledger, Ledger Nanos can process and sign a RAW Harmony block chain transaction \(RLP encoded in hex bytes\) transmitted through the USB interface. Type the following command to sign a transaction:
