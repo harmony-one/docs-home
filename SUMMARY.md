@@ -64,5 +64,4 @@
 * [Harmony Wallets](tools-for-users/math-wallet/README.md)
   * [Math Wallet](tools-for-users/math-wallet/setup.md)
   * [Ledger](tools-for-users/math-wallet/ledger.md)
-* [Untitled](tools-for-users/untitled.md)
 

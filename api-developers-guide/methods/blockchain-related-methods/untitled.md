@@ -6,7 +6,7 @@ description: GetExplorerBlocks returns information about the requested block(s).
 
 Returns information about the block\(s\) specified by the parameters.
 
-#### Parameters
+## Parameters
 
 {% hint style="info" %}
 The search range specified by `from` and `to` is inclusive of the ends, meaning `from=0&to=5` will return the blocks at indices 0, 1, 2, 3, 4, and 5.
@@ -18,9 +18,9 @@ If `from` and `to` are both some index **n**, then `blocks` will return the **n*
 * `to` - `Integer` - _\(Optional\)_ End of search range.
 * `offset` - `Integer` - _\(Optional\)_ How many blocks are listed per page.
 * `page` - `Integer` - _\(Optional\)_ Which page to view.
-* \[Not Implemented\] __`with_signers` - `Boolean` - If response contains block signers. Defaults to `false`.
+* \[Not Implemented\] \_\_`with_signers` - `Boolean` - If response contains block signers. Defaults to `false`.
 
-#### Returns
+## Returns
 
 * An array of blocks.
   * `height` - `String` - Block's height in the blockchain.
@@ -41,7 +41,7 @@ If `from` and `to` are both some index **n**, then `blocks` will return the **n*
   * `epoch` - `Integer` - Epoch this was mined in.
   * `extra_data` - `String` - Block's extra data.
 
-#### Sample Curl Request
+## Sample Curl Request
 
 | Parameter | Value |
 | :--- | :--- |
@@ -52,7 +52,7 @@ If `from` and `to` are both some index **n**, then `blocks` will return the **n*
 curl -H "Content-Type:application/json" -X GET "http://e1.b.hmny.io:5000/blocks?from=0&to=4"
 ```
 
-#### Sample Curl Response
+## Sample Curl Response
 
 ```javascript
 [
@@ -163,6 +163,4 @@ curl -H "Content-Type:application/json" -X GET "http://e1.b.hmny.io:5000/blocks?
   }
 ]
 ```
-
-
 

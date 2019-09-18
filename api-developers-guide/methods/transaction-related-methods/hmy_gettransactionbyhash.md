@@ -6,11 +6,11 @@ description: GetTransaction
 
 Get a transaction by its hash.
 
-#### Parameters
+## Parameters
 
 1. `String` - The transaction hash.
 
-#### Returns
+## Returns
 
 * `hash` - `String`: Hash of the transaction.
 * `nonce` - `Number`: The number of transactions made by the sender prior to this one.

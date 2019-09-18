@@ -6,7 +6,7 @@ description: GetExplorerShard returns explorer nodes hashes in the network.
 
 Returns explorer node hashes of a given shard.
 
-#### Parameters
+## Parameters
 
 {% hint style="danger" %}
 Currently, `id` does not change which shard is queried; only the explorer endpoint \(`e0` or `e1`\) determines which shard is queried. Thus, `id` is optional.
@@ -14,18 +14,18 @@ Currently, `id` does not change which shard is queried; only the explorer endpoi
 
 * `id` - `Integer` - _\(Optional\)_ Shard ID to query.
 
-#### Returns
+## Returns
 
 * `nodes` - `Array`
   * `id` - `String` - Explorer node hash.
 
-#### Sample Curl Request
+## Sample Curl Request
 
 ```bash
 curl -H "Content-Type:application/json" -X GET "e1.b.hmny.io:5000/shard"
 ```
 
-#### Sample Curl Response
+## Sample Curl Response
 
 ```javascript
 {

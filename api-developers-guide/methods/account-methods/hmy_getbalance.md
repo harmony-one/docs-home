@@ -6,16 +6,16 @@ description: GetBalance
 
 Get the balance of an address at a given block.
 
-#### Parameters
+## Parameters
 
 1. `String` -  The address to get the balance of.
 2. `String` - Block to get query for balance; "latest" gives latest block.
 
-#### Returns
+## Returns
 
 * `String` - The current balance for the given address in ATTO.
 
-#### Sample Curl Request
+## Sample Curl Request
 
 ```bash
 curl -d '{

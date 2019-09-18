@@ -32,7 +32,7 @@ As the address is longer than the LED screen, you can use the top two button to 
 
 The entire process is shown in video below:
 
-{% embed url="https://youtu.be/m5RLYGWosuk" %}
+{% embed url="https://youtu.be/m5RLYGWosuk" caption="" %}
 
 ## Signing a RAW Transaction using Ledger Nano S <a id="signing-a-raw-transaction-using-ledger-nano-s"></a>
 
@@ -70,7 +70,7 @@ Check and confirm the destination shard ID is correct`.`
 
 Detailed process is shown in video below:
 
-{% embed url="https://youtu.be/feRpGW1seQI" %}
+{% embed url="https://youtu.be/feRpGW1seQI" caption="" %}
 
 \`\`
 

@@ -6,11 +6,11 @@ description: GetExplorerTx returns information about the requested transaction.
 
 Returns information about a given transaction.
 
-#### Parameters
+## Parameters
 
 1. `id` - `String` - Transaction's hash \(ID\).
 
-#### Returns
+## Returns
 
 * `id` - `String` - Transaction's hash.
 * `timestamp` - `String` - Transaction's timestamp.
@@ -20,7 +20,7 @@ Returns information about a given transaction.
 * `bytes` - `String` - Size of the transaction in bytes.
 * `data` - `String` - Extra data.
 
-#### Sample Curl Request
+## Sample Curl Request
 
 | Parameter | Value |
 | :--- | :--- |
@@ -30,7 +30,7 @@ Returns information about a given transaction.
 curl -X GET -H "Content-Type:application/json" e0.b.hmny.io:5000/tx?id=0x7d8329dfd17cf82fcfda4e44f0f59b59c7a1379f173829beb005e94504d99b0f
 ```
 
-#### Sample Curl Response
+## Sample Curl Response
 
 ```javascript
 {
