@@ -1,3 +1,7 @@
+---
+description: How to make a transaction and how to switch networks.
+---
+
 # Making Transactions
 
 ### How to make a transaction
