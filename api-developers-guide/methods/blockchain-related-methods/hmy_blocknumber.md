@@ -6,7 +6,7 @@ description: BlockNumber
 
 Get number of the most recent block.
 
-#### Returns
+## Returns
 
 * `String` - Index of the most recent block in the chain.
 

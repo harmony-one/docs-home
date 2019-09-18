@@ -6,11 +6,11 @@ description: GetBlockTransactionCount
 
 Get the number of transactions in a block by the block's index in the chain.
 
-#### Parameters
+## Parameters
 
 1. `Number` - The block number or hash.
 
-#### Returns
+## Returns
 
 * `Number` - The number of transactions in the given block.
 

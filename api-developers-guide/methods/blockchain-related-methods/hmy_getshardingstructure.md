@@ -6,14 +6,14 @@ description: GetShardingStructure
 
 Returns the current shard of the node and lists API and WebSocket endpoints for each shard.
 
-#### Returns
+## Returns
 
 * `current` - `bool` - If the current node is on this shard.
 * `http` - `String` - API endpoint for the shard.
 * `shardID` - `Integer` - Shard ID.
 * `ws` - `String` - WebSocket endpoint
 
-#### Sample Curl Request
+## Sample Curl Request
 
 ```bash
 curl -d '{
@@ -24,7 +24,7 @@ curl -d '{
 }' -H "Content-Type:application/json" -X POST "http://s0.b.hmny.io:9500"
 ```
 
-#### Sample Curl Response
+## Sample Curl Response
 
 ```javascript
 {

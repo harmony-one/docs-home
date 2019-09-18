@@ -68,7 +68,7 @@ Check and confirm the destination shard ID is correct`.`
 
 Detailed process is shown in video below:
 
-{% embed url="https://youtu.be/feRpGW1seQI" %}
+{% embed url="https://youtu.be/feRpGW1seQI" caption="" %}
 
 \`\`
 

@@ -6,8 +6,8 @@
 
 | Chains | URLs |
 | :--- | :--- |
-| mainnet | [https://api.s1.t.hmny.io ](%20https://api.s1.t.hmny.io%20) |
-| pangaea | [https://api.s1.p.hmny.io](%20https://api.s1.p.hmny.io) |
+| mainnet | [https://api.s1.t.hmny.io ](../../) |
+| pangaea | [https://api.s1.p.hmny.io](../../) |
 | betaNet | [https://api.s1.b.hmny.io](https://api.s1.b.hmny.io) |
 | local | [http://localhost:9500](http://localhost:9500) |
 
@@ -16,9 +16,9 @@ Web sockets can also be used
 | Chains | URLs |
 | :--- | :--- |
 | mainnet | [wss://ws.s1.t.hmny.io ](wss://ws.s1.t.hmny.io%20) |
-| pangaea | [wss://ws.s1.p.hmny.io](wss://ws.s1.p.hmny.io)  |
+| pangaea | [wss://ws.s1.p.hmny.io](wss://ws.s1.p.hmny.io) |
 | betaNet | [wss://ws.s1.b.hmny.io](wss://ws.s1.b.hmny.io) |
-| local | [wss://localhost:9800](%20wss://localhost:9800) |
+| local | [wss://localhost:9800](./) |
 
 All requests follow the standard JSON-RPC format and include 4 variables in the data object:
 
@@ -51,9 +51,7 @@ All requests follow the standard JSON-RPC format and include 4 variables in the 
     </tr>
   </thead>
   <tbody></tbody>
-</table>## Key Harmony Repositories
-
-Harmony.one github - [https://github.com/harmony-one](https://github.com/harmony-one)  
+</table>Harmony.one github - [https://github.com/harmony-one](https://github.com/harmony-one)  
 Harmony Blockchain Repository - [https://github.com/harmony-one/harmony](https://github.com/harmony-one/harmony)  
 Harmony SDK - [https://github.com/harmony-one/sdk](https://github.com/harmony-one/sdk)  
 Harmony DApp Examples - [https://github.com/harmony-one/dapp-examples](https://github.com/harmony-one/dapp-examples)  

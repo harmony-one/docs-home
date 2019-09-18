@@ -6,7 +6,7 @@ description: Syncing
 
 Tests whether or not the node is syncing.
 
-#### **Returns**
+## **Returns**
 
 * `Object` - Whether or not the node is syncing. `false` when it isn't.
 

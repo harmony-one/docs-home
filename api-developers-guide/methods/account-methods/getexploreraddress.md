@@ -6,7 +6,7 @@ description: GetExplorerAddress returns the transaction history of an address
 
 Returns information about the transaction history of a given address with a configurable format.
 
-#### Parameters
+## Parameters
 
 1. `id` - `String` -  The address to get the balance of.
 2. `offset` - `Integer` - _\(Optional\)_ Number of address transactions per page.
@@ -17,7 +17,7 @@ Returns information about the transaction history of a given address with a conf
    3. "RECEIVED" - Show only transactions this address received
    4. "SENT" - Show only transaction this address sent
 
-#### Result
+## Result
 
 * `id` - `String` - Account address.
 * `balance` - `Integer` - Account balance.
@@ -31,7 +31,7 @@ Returns information about the transaction history of a given address with a conf
   * `data` - `String` - Extra data.
   * `type` - `String` - Either "SENT" or "RECEIVED".
 
-#### Sample Curl Request
+## Sample Curl Request
 
 | Param | Value |
 | :--- | :--- |
@@ -44,7 +44,7 @@ Returns information about the transaction history of a given address with a conf
 curl -H "Content-Type:application/json" -X GET "e0.b.hmny.io:5000/address?id=one18t4yj4fuutj83uwqckkvxp9gfa0568uc48ggj7&tx_view=ALL&offset=5&page=2"
 ```
 
-#### Sample Curl Response
+## Sample Curl Response
 
 ```javascript
 {

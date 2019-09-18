@@ -6,12 +6,12 @@ description: GetBlockByHash
 
 Get block by its hash.
 
-#### Parameters
+## Parameters
 
 1. `String` - The block hash. 
 2. `Boolean` - If `true`, the returned block will contain all transactions in the block.
 
-#### Returns
+## Returns
 
 * `number` - `Number`: The block number. `null` when its pending block.
 * `hash` 32 Bytes - `String`: Hash of the block. `null` when its pending block.

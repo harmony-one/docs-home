@@ -6,13 +6,13 @@ description: GetCode
 
 Get the code at a specific address.
 
-#### Parameters
+## Parameters
 
 1. `String` - The address to get the code from.
 2. `String` - Block to query for information. Usually `latest`, which specifies the most recent block.
 3. `Function` - \(optional\) Optional callback, returns an error object as first parameter and the result as second.
 
-#### Returns
+## Returns
 
 * `String` - The data at given address `address`.
 

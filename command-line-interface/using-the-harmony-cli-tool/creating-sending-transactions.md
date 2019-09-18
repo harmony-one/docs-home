@@ -71,7 +71,7 @@ Notice that simply invoking the `transfer` subcommand gave us an error message a
 * `to-shard`: Shard in which receiver will receive the amount sent by the sender
 
 {% hint style="info" %}
-A sharded blockchain is new, special kind of blockchain where the whole network is partitioned between mutally exclusive shards. Sharding is one of the distinguishing features of Harmony and it is key to solving the tranditional scalability problems found in other blockchain protocols. Note that **a one address may and often does have a different balance in each shard**; currently mainnet has four shards while testnet assumes two shards; sending a transaction from one shard to another is called a ****_"cross-shard" transaction._
+A sharded blockchain is new, special kind of blockchain where the whole network is partitioned between mutally exclusive shards. Sharding is one of the distinguishing features of Harmony and it is key to solving the tranditional scalability problems found in other blockchain protocols. Note that **a one address may and often does have a different balance in each shard**; currently mainnet has four shards while testnet assumes two shards; sending a transaction from one shard to another is called a _\*\*"cross-shard" transaction._
 {% endhint %}
 
 Thus, a correct usage of `transfer` looks like:
