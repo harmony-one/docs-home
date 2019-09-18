@@ -83,9 +83,9 @@
     * [shard](api-developers-guide/methods/blockchain-related-methods/getexplorershard.md)
     * [node-count](api-developers-guide/methods/blockchain-related-methods/getexplorernodecount.md)
 * [Wallet Overview](api-developers-guide/math-wallet/README.md)
-  * [MathWallet](api-developers-guide/math-wallet/mathwallet/README.md)
+  * [Math Wallet](api-developers-guide/math-wallet/mathwallet/README.md)
     * [Setup](api-developers-guide/math-wallet/mathwallet/setup.md)
-    * [Making Transactions](api-developers-guide/math-wallet/mathwallet/making-transactions.md)
+    * [How to Make Transactions](api-developers-guide/math-wallet/mathwallet/making-transactions.md)
   * [Ledger](api-developers-guide/math-wallet/ledger.md)
 
 ## Command Line Interface
