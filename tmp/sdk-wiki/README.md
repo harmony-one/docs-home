@@ -1,5 +1,6 @@
 # Harmony Developers Guide
 
-Harmony Developers guide
+Developers guide
+
 
 
