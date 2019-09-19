@@ -83,10 +83,12 @@
     * [shard](api-developers-guide/methods/blockchain-related-methods/getexplorershard.md)
     * [node-count](api-developers-guide/methods/blockchain-related-methods/getexplorernodecount.md)
 * [Wallet Overview](api-developers-guide/math-wallet/README.md)
+  * [Ledger Nano S](api-developers-guide/math-wallet/ledger-nano-s/README.md)
+    * [Ledger Nano S Hardware Wallet Guide](api-developers-guide/math-wallet/ledger-nano-s/ledger-nano-s-hardware-wallet-guide-1.md)
+    * [Ledger Nano S Firmware Usage Manual](api-developers-guide/math-wallet/ledger-nano-s/ledger-nano-s-firmware-usage-manual.md)
   * [Math Wallet](api-developers-guide/math-wallet/mathwallet/README.md)
     * [Setup](api-developers-guide/math-wallet/mathwallet/setup.md)
     * [How to Make Transactions](api-developers-guide/math-wallet/mathwallet/making-transactions.md)
-  * [Ledger](api-developers-guide/math-wallet/ledger.md)
 
 ## Command Line Interface
 

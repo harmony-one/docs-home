@@ -1,6 +1,4 @@
-# Ledger
-
-## Ledger Nano S Firmware Usage Manual
+# Ledger Nano S Firmware Usage Manual
 
 ## Overview <a id="overview"></a>
 
@@ -69,6 +67,4 @@ Check and confirm the destination shard ID is correct`.`
 Detailed process is shown in video below:
 
 {% embed url="https://youtu.be/feRpGW1seQI" caption="" %}
-
-\`\`
 

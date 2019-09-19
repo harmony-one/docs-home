@@ -20,5 +20,5 @@ Select Harmony wallet from the list of networks.
 
 ![](../../../.gitbook/assets/screen-shot-2019-09-18-at-1.40.56-pm.png)
 
-Finally, import your existing wallet using your mnemonic or private key.  You can also create a wallet through the extension.  For more detail regarding wallet creation outside of Math Wallet, please refer to our guide on wallet creation.
+Finally, import your existing wallet using your mnemonic or private key.  You can also create a wallet through the extension.  For more detail regarding wallet creation and outside of Math Wallet, please refer to our guide on wallet use.
 
