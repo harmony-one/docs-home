@@ -16,6 +16,9 @@ Returns information about the transaction history of a given address with a conf
    2. "ALL" - Show all address transactions
    3. "RECEIVED" - Show only transactions this address received
    4. "SENT" - Show only transaction this address sent
+5. `order`- `String`- \(_Optional_\) 2 values:
+   1. "ASC" - \(default\) Show address tx list in ascending order by tx timestamp
+   2. "DESC" - Show address tx list in descending order by tx timstamp
 
 ## Result
 
@@ -39,9 +42,10 @@ Returns information about the transaction history of a given address with a conf
 | `offset` | `5` |
 | `tx_view` | `ALL` |
 | `page` | `2` |
+| `order` | `ASC` |
 
 ```bash
-curl -H "Content-Type:application/json" -X GET "e0.b.hmny.io:5000/address?id=one18t4yj4fuutj83uwqckkvxp9gfa0568uc48ggj7&tx_view=ALL&offset=5&page=2"
+curl -H "Content-Type:application/json" -X GET "e0.b.hmny.io:5000/address?id=one18t4yj4fuutj83uwqckkvxp9gfa0568uc48ggj7&tx_view=ALL&offset=5&page=2&order=ASC"
 ```
 
 ## Sample Curl Response
@@ -52,18 +56,18 @@ curl -H "Content-Type:application/json" -X GET "e0.b.hmny.io:5000/address?id=one
   "balance": 1438299000000000600000,
   "txs": [
     {
-      "id": "0xb02930434b5f9aa2d8dd502c81c1434cc988f09c9bcaa9e7ef3c4fcf4d8db82d",
-      "timestamp": "1568672871000",
+      "id": "0xcfc8787d0209edb51994d265d5b0cef14d90a029d9fc6bf564853f9d5e766511",
+      "timestamp": "1568672293000",
       "from": "one18t4yj4fuutj83uwqckkvxp9gfa0568uc48ggj7",
       "to": "one16ll5rj3fxpsjyxz6qlgy9y7akd0jfneds0x9pu",
-      "value": 65535,
+      "value": 4095,
       "bytes": "101",
       "data": "",
       "type": "SENT"
     },
     {
-      "id": "0x163f59fe6fa827409146fe3fadbd38ba57e4beb72f0e8094225e33ee3e55a0cf",
-      "timestamp": "1568672725000",
+      "id": "0x545ed7c1e14d28323dff5a159e6f788205b528ad8400c1e90fc7bd64433e2526",
+      "timestamp": "1568672424000",
       "from": "one18t4yj4fuutj83uwqckkvxp9gfa0568uc48ggj7",
       "to": "one16ll5rj3fxpsjyxz6qlgy9y7akd0jfneds0x9pu",
       "value": 65535,
@@ -82,8 +86,8 @@ curl -H "Content-Type:application/json" -X GET "e0.b.hmny.io:5000/address?id=one
       "type": "SENT"
     },
     {
-      "id": "0x545ed7c1e14d28323dff5a159e6f788205b528ad8400c1e90fc7bd64433e2526",
-      "timestamp": "1568672424000",
+      "id": "0x163f59fe6fa827409146fe3fadbd38ba57e4beb72f0e8094225e33ee3e55a0cf",
+      "timestamp": "1568672725000",
       "from": "one18t4yj4fuutj83uwqckkvxp9gfa0568uc48ggj7",
       "to": "one16ll5rj3fxpsjyxz6qlgy9y7akd0jfneds0x9pu",
       "value": 65535,
@@ -92,11 +96,11 @@ curl -H "Content-Type:application/json" -X GET "e0.b.hmny.io:5000/address?id=one
       "type": "SENT"
     },
     {
-      "id": "0xcfc8787d0209edb51994d265d5b0cef14d90a029d9fc6bf564853f9d5e766511",
-      "timestamp": "1568672293000",
+      "id": "0xb02930434b5f9aa2d8dd502c81c1434cc988f09c9bcaa9e7ef3c4fcf4d8db82d",
+      "timestamp": "1568672871000",
       "from": "one18t4yj4fuutj83uwqckkvxp9gfa0568uc48ggj7",
       "to": "one16ll5rj3fxpsjyxz6qlgy9y7akd0jfneds0x9pu",
-      "value": 4095,
+      "value": 65535,
       "bytes": "101",
       "data": "",
       "type": "SENT"
