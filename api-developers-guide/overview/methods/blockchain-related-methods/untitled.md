@@ -18,7 +18,7 @@ If `from` and `to` are both some index **n**, then `blocks` will return the **n*
 * `to` - `Integer` - _\(Optional\)_ End of search range.
 * `offset` - `Integer` - _\(Optional\)_ How many blocks are listed per page.
 * `page` - `Integer` - _\(Optional\)_ Which page to view.
-* \[Not Implemented\] \_\_`with_signers` - `Boolean` - If response contains block signers. Defaults to `false`.
+* `with_signers` - `Boolean` - If response contains block signers. Defaults to `false`.
 * `order` - `String`- \(_Optional_\) 2 values:
   * "ASC" - \(default\) Show blocks in ascending order by block timestamp
   * "DESC" - Show blocks in descending order by block timestamp
