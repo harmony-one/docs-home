@@ -16,7 +16,8 @@
 
 * [WHICH ONE ARE YOU](developers-1/which-one-are-you/README.md)
   * [DApp Developer](developers-1/which-one-are-you/developer.md)
-  * [Smart Contract Developer](developers-1/which-one-are-you/smart-contract-devel.md)
+  * [Smart Contract Developer](developers-1/which-one-are-you/smart-contract-devel/README.md)
+    * [Sample Files](developers-1/which-one-are-you/smart-contract-devel/sample-files.md)
   * [Wallet Creator](developers-1/which-one-are-you/wallet-creator.md)
   * [Explorer Creator](developers-1/which-one-are-you/explorer-creator.md)
   * [Trading Partner](developers-1/which-one-are-you/trading-partner/README.md)
@@ -88,7 +89,7 @@
     * [Ledger Nano S Firmware Usage Manual](api-developers-guide/math-wallet/ledger-nano-s/ledger-nano-s-firmware-usage-manual.md)
   * [Math Wallet](api-developers-guide/math-wallet/mathwallet/README.md)
     * [Setup](api-developers-guide/math-wallet/mathwallet/setup.md)
-    * [How to Make Transactions](api-developers-guide/math-wallet/mathwallet/making-transactions.md)
+    * [How to Send Transactions](api-developers-guide/math-wallet/mathwallet/making-transactions.md)
 
 ## Command Line Interface
 

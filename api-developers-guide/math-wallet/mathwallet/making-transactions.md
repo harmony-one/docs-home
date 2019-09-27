@@ -2,11 +2,11 @@
 description: How to make a transaction and how to switch networks.
 ---
 
-# How to Make Transactions
+# How to Send Transactions
 
 Transferring money with Math Wallet is simple and easy to do! Make sure you've set up your Math Wallet extension according to the directions in [**Setup**](setup.md)**.**
 
-### How to make a transaction
+### How to send a transaction
 
 Make sure you are in the Web Wallet interface. To access the Web Wallet, select the wallet you want to open and click **Web Wallet** on the Math Wallet extension popover interface:
 
@@ -16,7 +16,7 @@ After clicking **Web Wallet**, you may be presented with a button that says **Lo
 
 ![Example of a cross-shard transaction from Shard 1 to Shard 0](../../../.gitbook/assets/screen-shot-2019-09-17-at-5.07.06-pm%20%281%29.png)
 
-Now, to make a transaction:
+Now, to send a transaction:
 
 1. Specify the shard you want to pull funds from using the **Shard** dropdown in the sidebar.
 2. Specify which account you want to send funds to using the **To Address** field.
