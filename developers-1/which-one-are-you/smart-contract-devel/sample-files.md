@@ -92,7 +92,7 @@ module.exports = {
 
 ```
 
-2\_Puzzle.js
+#### 2\_Puzzle.js
 
 ```text
 const Puzzle = artifacts.require("Puzzle");
@@ -102,7 +102,7 @@ module.exports = function(deployer) {
 };
 ```
 
- Puzzle.sol
+####  Puzzle.sol
 
 ```text
 pragma solidity >=0.4.22; 
@@ -142,5 +142,17 @@ contract Puzzle {
         return playerLevel[player];
     }
 }
+```
+
+#### Package.json 
+
+```text
+{
+  "dependencies": {
+    "@harmony-js/core": "^0.1.22",
+    "tslib": "^1.10.0"
+  }
+}
+
 ```
 
