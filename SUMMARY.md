@@ -17,6 +17,7 @@
 * [WHICH ONE ARE YOU](developers-1/which-one-are-you/README.md)
   * [DApp Developer](developers-1/which-one-are-you/developer.md)
   * [Smart Contract Developer](developers-1/which-one-are-you/smart-contract-devel/README.md)
+    * [Smart Contract Development using Truffle](developers-1/which-one-are-you/smart-contract-devel/smart-contract-development-using-truffle.md)
     * [Sample Files](developers-1/which-one-are-you/smart-contract-devel/sample-files.md)
   * [Wallet Creator](developers-1/which-one-are-you/wallet-creator.md)
   * [Explorer Creator](developers-1/which-one-are-you/explorer-creator.md)

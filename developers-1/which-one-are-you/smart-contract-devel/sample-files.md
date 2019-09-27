@@ -1,6 +1,6 @@
 # Sample Files
 
-truffle\_config.js
+#### truffle\_config.js
 
 ```text
 const { TruffleProvider } = require('@harmony-js/core')
@@ -90,5 +90,57 @@ module.exports = {
   }
 }
 
+```
+
+2\_Puzzle.js
+
+```text
+const Puzzle = artifacts.require("Puzzle");
+
+module.exports = function(deployer) {
+  deployer.deploy(Puzzle);
+};
+```
+
+ Puzzle.sol
+
+```text
+pragma solidity >=0.4.22; 
+
+contract Puzzle {
+    string internal constant RESTRICTED_MESSAGE = "Unauthorized Access";
+    string internal constant LEVEL_LIMIT = "Not Reach Level Limit";
+
+    uint constant thresholdLevel = 10;
+    mapping(address => uint) playerLevel;
+    mapping(address => string) playerSequence;
+
+    address public manager;  // The adress of the owner of this contract
+
+    constructor() public payable {
+        manager = msg.sender;
+    }
+
+    function payout(address player, uint level, string memory sequence) public restricted {
+        require(level > thresholdLevel, LEVEL_LIMIT);
+        if (playerLevel[player] < level) {
+            playerLevel[player] = level;
+            playerSequence[player] = sequence;
+        }
+    }
+
+    modifier restricted() {
+        require(msg.sender == manager, RESTRICTED_MESSAGE);
+        _;
+    }
+
+    function getSequence(address player) public restricted view returns (string memory) {
+        return playerSequence[player];
+    }
+
+    function getLevel(address player) public restricted view returns (uint) {
+        return playerLevel[player];
+    }
+}
 ```
 
