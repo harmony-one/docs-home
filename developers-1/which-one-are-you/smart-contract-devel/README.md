@@ -31,7 +31,7 @@ For detailed instructions and sample files please see the sample files
 * [Smart Contract Development Using Truffle](smart-contract-development-using-truffle.md)
 * [Sample Files](sample-files.md)
 
-The sample H2O github repository can be found here.
+The sample H2O github repository can be found [here](https://github.com/harmony-one/H2O).
 
 
 
