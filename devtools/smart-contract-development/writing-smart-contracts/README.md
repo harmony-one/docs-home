@@ -15,8 +15,8 @@ npm install -g truffle
 Here we make an initial folder to create your smart contracts in. For more information you can refer to [truffle overview](https://www.trufflesuite.com/docs/truffle/overview).
 
 ```text
-mkdir contract-library
-cd contract-library
+mkdir harmony-erc20
+cd harmony-erc20
 truffle init
 yarn install tslib
 ```

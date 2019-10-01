@@ -20,11 +20,12 @@ const privateKey =
   */
 const phrase = 'urge clog right example dish drill card maximum mix bachelor section select' 
 const private_key = '01F903CE0C960FF3A9E68E80FF5FFC344358D80CE1C221C3F9711AF07F83A3BD'
-const url = `http://localhost:9500`
+const url = 'http://localhost:9500'
 
 //one18t4yj4fuutj83uwqckkvxp9gfa0568uc48ggj7
 const beta_phrase = 'urge clog right example dish drill card maximum mix bachelor section select' 
-const beta_url = 'https://api.s0.b.hmny.io'
+//const beta_url = 'https://api.s0.b.hmny.io'
+const beta_url = 'http://34.238.42.51:9500'
 const beta_private_key = '01F903CE0C960FF3A9E68E80FF5FFC344358D80CE1C221C3F9711AF07F83A3BD'
 
 
@@ -40,15 +41,18 @@ module.exports = {
     // options below to some value.
     //
     development: {
-      // host: 'localhost', // Localhost (default: none)
-      // port: 9500, // Standard Ethereum port (default: none)
-      network_id: '1', // Any network (default: none)
+      network_id: '2', // Any network (default: none)
       provider: () => {
-        const truffleProvider = new TruffleProvider(url, phrase)
-        const newAcc = truffleProvider.addByPrivateKey(private_key)
-        truffleProvider.setSigner(newAcc)
-        return truffleProvider
-      }
+        const truffleProvider = new TruffleProvider(
+          url,
+          { memonic: phrase },
+          { shardID: 0, chainId: 2 },
+          { gasLimit: '936475', gasPrice: '1000000000' },
+        );
+        const newAcc = truffleProvider.addByPrivateKey(private_key);
+        truffleProvider.setSigner(newAcc);
+        return truffleProvider;
+      },
     },
     betanet: {
       // host: 'localhost', // Localhost (default: none)
@@ -59,7 +63,7 @@ module.exports = {
           beta_url,
           { memonic: beta_phrase },
           { shardID: 0, chainId: 2 },
-          { gasLimit: '840000', gasPrice: '1000000000' },
+          { gasLimit: '6721900', gasPrice: '1000000000' },
         );
         const newAcc = truffleProvider.addByPrivateKey(beta_private_key);
         truffleProvider.setSigner(newAcc);
@@ -92,54 +96,59 @@ module.exports = {
 
 ```
 
-#### 2\_Puzzle.js
+#### 2\_deploy\_HarmonyERC20.js
 
 ```text
-const Puzzle = artifacts.require("Puzzle");
+var HarmonyERC20 = artifacts.require("HarmonyERC20");
 
-module.exports = function(deployer) {
-  deployer.deploy(Puzzle);
+module.exports = function(deployer, network, accounts) {
+
+const name = "HarmonyERC20"
+const symbol = "H20"
+const decimals = 18
+const amount = 1000000
+const tokens = web3.utils.toWei(amount.toString(), 'ether')
+
+deployer.then(function() {
+  return deployer.deploy(HarmonyERC20, name, symbol, decimals, tokens).then(function() {
+    });
+  });
 };
 ```
 
-####  Puzzle.sol
+####  HarmonyMintable.sol
 
 ```text
-pragma solidity >=0.4.22; 
+pragma solidity >=0.4.21 <0.6.0;
 
-contract Puzzle {
-    string internal constant RESTRICTED_MESSAGE = "Unauthorized Access";
-    string internal constant LEVEL_LIMIT = "Not Reach Level Limit";
+import "openzeppelin-solidity/contracts/token/ERC20/ERC20Detailed.sol";
+import "openzeppelin-solidity/contracts/token/ERC20/ERC20Mintable.sol";
+import "openzeppelin-solidity/contracts/token/ERC20/ERC20.sol";
 
-    uint constant thresholdLevel = 10;
-    mapping(address => uint) playerLevel;
-    mapping(address => string) playerSequence;
+contract HarmonyERC20 is ERC20, ERC20Detailed, ERC20Mintable {
+      constructor(string memory _name, string memory _symbols, uint8 _decimals, uint256 _amount) 
+        ERC20Detailed(_name, _symbols, _decimals)
+        public {
 
-    address public manager;  // The adress of the owner of this contract
-
-    constructor() public payable {
-        manager = msg.sender;
+        _mint(msg.sender, _amount);
     }
+}
+```
 
-    function payout(address player, uint level, string memory sequence) public restricted {
-        require(level > thresholdLevel, LEVEL_LIMIT);
-        if (playerLevel[player] < level) {
-            playerLevel[player] = level;
-            playerSequence[player] = sequence;
-        }
-    }
+#### HarmonyERC20.sol
 
-    modifier restricted() {
-        require(msg.sender == manager, RESTRICTED_MESSAGE);
-        _;
-    }
+```text
+pragma solidity >=0.4.21 <0.6.0;
 
-    function getSequence(address player) public restricted view returns (string memory) {
-        return playerSequence[player];
-    }
+import "openzeppelin-solidity/contracts/token/ERC20/ERC20Detailed.sol";
+import "openzeppelin-solidity/contracts/token/ERC20/ERC20.sol";
 
-    function getLevel(address player) public restricted view returns (uint) {
-        return playerLevel[player];
+contract HarmonyERC20 is ERC20, ERC20Detailed {
+      constructor(string memory _name, string memory _symbols, uint8 _decimals, uint256 _amount) 
+        ERC20Detailed(_name, _symbols, _decimals)
+        public {
+
+        _mint(msg.sender, _amount);
     }
 }
 ```
@@ -148,9 +157,14 @@ contract Puzzle {
 
 ```text
 {
+  "name": "harmony-erc20",
+  "version": "1.0.0",
+  "description": "Harmony sample ERC20 deploy",
+  "main": "truffle.js",
   "dependencies": {
     "@harmony-js/core": "^0.1.22",
-    "tslib": "^1.10.0"
+    "tslib": "^1.10.0",
+    "openzeppelin-solidity": "^2.2.0"
   }
 }
 
