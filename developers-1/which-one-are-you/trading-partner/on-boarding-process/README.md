@@ -12,11 +12,11 @@ Harmony Command Line Interface can be used to manage operational interactions wi
 
 ### **Harmony HTTP API Documentation**
 
-Harmony provides robust API integration initially modeled of Ethereum’s web3 and enhanced to support the nuances of Harmonys highly scalable and performant platform, documentation can be found **\*\***[**here**](../../../../api-developers-guide/overview/).\*\*
+Harmony provides robust API integration initially modeled of Ethereum’s web3 and enhanced to support the nuances of Harmonys highly scalable and performant platform, documentation can be found [here](../../../../api-developers-guide/overview/).
 
 ### **Harmony SDK**
 
-Harmony provides DApp developers with a suite of npm modules the cornerstone of which is @harmonyjs/core, Harmony's equivalent of Ethereum web3, npm modules can be found [here](https://www.npmjs.com/search?q=%40harmony-js).
+Harmony provides DApp developers with a suite of npm modules the cornerstone of which is @harmonyjs/core which can be found [here](https://www.npmjs.com/search?q=%40harmony-js).
 
 ### Harmony Sending Transaction Guide
 
