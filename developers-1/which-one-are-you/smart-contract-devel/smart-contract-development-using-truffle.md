@@ -18,7 +18,6 @@ Here we make an initial folder to create your smart contracts in. For more infor
 mkdir harmonyERC20
 cd harmonyERC20
 truffle init
-yarn install tslib
 ```
 
 ### Installing Harmony Core
