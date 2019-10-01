@@ -1,6 +1,6 @@
 # Sample Files
 
-#### truffle\_config.js
+## truffle\_config.js
 
 ```text
 const { TruffleProvider } = require('@harmony-js/core')
@@ -93,10 +93,9 @@ module.exports = {
     }
   }
 }
-
 ```
 
-#### 2\_deploy\_HarmonyERC20.js
+## 2\_deploy\_HarmonyERC20.js
 
 ```text
 var HarmonyERC20 = artifacts.require("HarmonyERC20");
@@ -116,7 +115,7 @@ deployer.then(function() {
 };
 ```
 
-####  HarmonyMintable.sol
+## HarmonyMintable.sol
 
 ```text
 pragma solidity >=0.4.21 <0.6.0;
@@ -135,7 +134,7 @@ contract HarmonyERC20 is ERC20, ERC20Detailed, ERC20Mintable {
 }
 ```
 
-#### HarmonyERC20.sol
+## HarmonyERC20.sol
 
 ```text
 pragma solidity >=0.4.21 <0.6.0;
@@ -153,7 +152,7 @@ contract HarmonyERC20 is ERC20, ERC20Detailed {
 }
 ```
 
-#### Package.json 
+## Package.json
 
 ```text
 {
@@ -167,6 +166,5 @@ contract HarmonyERC20 is ERC20, ERC20Detailed {
     "openzeppelin-solidity": "^2.2.0"
   }
 }
-
 ```
 

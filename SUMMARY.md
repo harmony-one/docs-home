@@ -23,12 +23,6 @@
       * [Connecting to Harmony \(Running a node\)](developers-1/which-one-are-you/trading-partner/on-boarding-process/connecting-to-harmony-running-a-node.md)
     * [Onboard Process Walkthrough](developers-1/which-one-are-you/trading-partner/onboard-process-walkthrough.md)
 
-## Developer Tools <a id="devtools"></a>
-
-* [Smart Contract Development](devtools/smart-contract-development/README.md)
-  * [Smart Contracts development using Truffle](devtools/smart-contract-development/writing-smart-contracts/README.md)
-    * [truffle-config.js](devtools/smart-contract-development/writing-smart-contracts/untitled.md)
-
 ## API Developers Guide
 
 * [Introduction](api-developers-guide/overview/README.md)
@@ -79,5 +73,4 @@
   * [Creating, sending transactions](command-line-interface/using-the-harmony-cli-tool/creating-sending-transactions.md)
   * [Querying the blockchain](command-line-interface/using-the-harmony-cli-tool/querying-the-blockchain.md)
   * [Full CLI Reference](command-line-interface/using-the-harmony-cli-tool/full-cli-reference.md)
-
 

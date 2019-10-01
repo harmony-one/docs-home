@@ -80,7 +80,7 @@ Keep in mind that you should know the passphrase associated with the imported ke
 
 ### Importing an existing private key
 
-Sometimes you might have a secp256k1 private key, such as the one generated from the following command: 
+Sometimes you might have a secp256k1 private key, such as the one generated from the following command:
 
 ```text
 $ openssl ecparam -genkey -name secp256k1 -text -noout -outform DER | xxd -p -c 1000 | sed 's/41534e31204f49443a20736563703235366b310a30740201010420/PrivKey: /' | sed 's/a00706052b8104000aa144034200/\'$'\nPubKey: /'
@@ -92,7 +92,7 @@ You can import the key with an optional name and passphrase. For example:
 $ hmy keys import-private-key b8798ca0a56ce16517ea37c6b1229cbb67cf0e022c423b044fe8f537830d8be5 my_name_here --passphrase
 ```
 
-For clarity, here is the usage \(argument order matters\):  `hmy keys import-private-key <secp256k1_PRIVATE_KEY> [ACCOUNT_NAME] [flags]`
+For clarity, here is the usage \(argument order matters\): `hmy keys import-private-key <secp256k1_PRIVATE_KEY> [ACCOUNT_NAME] [flags]`
 
 If no account name is provided, a random word concatenated with `-imported` will be used.  
 If no passphrase is provided, the default passphrase will be used \(which is `harmony-one`\).  

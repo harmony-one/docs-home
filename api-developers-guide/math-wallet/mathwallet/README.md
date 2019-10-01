@@ -14,5 +14,3 @@ Check out our how-to guides:
 
 {% page-ref page="making-transactions.md" %}
 
-
-

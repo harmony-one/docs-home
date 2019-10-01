@@ -2,6 +2,5 @@
 
 ## Harmony Developers Guide
 
-![Harmony in Shanghai](.gitbook/assets/harmonyshanghai%20%281%29.jpg)
-
+![Harmony in Shanghai](.gitbook/assets/harmonyshanghai-1.jpg)
 

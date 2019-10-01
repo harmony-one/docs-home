@@ -38,22 +38,7 @@ All requests follow the standard JSON-RPC format and include 4 variables in the 
 | :--- | :--- | :--- |
 
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">id</th>
-      <th style="text-align:left">&quot;1&quot;</th>
-      <th style="text-align:left">
-        <p>Echoed in response, can be used</p>
-        <p>to match request to response</p>
-        <p>when sending multiple requests</p>
-      </th>
-    </tr>
-  </thead>
-  <tbody></tbody>
-
-</table>## Key Differences between Harmony and Ethereum
-
+&lt;/table&gt;\#\# Key Differences between Harmony and Ethereum
 
 1. The prefix of RPC calls is different - 'hmy' is used instead of 'eth'.
 2. Address format, SDK uses two, the default use checksum, it is recommended to use Bech32. has been defined in the SDK.
