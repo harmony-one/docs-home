@@ -91,6 +91,8 @@
   * [Math Wallet](api-developers-guide/math-wallet/mathwallet/README.md)
     * [Setup](api-developers-guide/math-wallet/mathwallet/setup.md)
     * [How to Send Transactions](api-developers-guide/math-wallet/mathwallet/making-transactions.md)
+  * [SafePal](api-developers-guide/math-wallet/safepal.md)
+* [Untitled](api-developers-guide/untitled.md)
 
 ## Command Line Interface
 
