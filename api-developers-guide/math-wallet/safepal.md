@@ -48,7 +48,7 @@ Step5:Confirm the payment.The transfer is broadcasted on chain! Don't forget to 
 
 {% embed url="https://www.dropbox.com/s/uo80rhxy0pnu9sa/SafePal%20Teaser.mp4?dl=0" %}
 
-## Receive ONE
+## Receiving ONE in SafePal
 
 To receiving ONE token from other wallets,  just show your ONE address to any wallet that supports ONE and does the transaction from that wallet. Once the transaction is confirmed, you can see the balance updated in your SafePal mobile app.  
 
