@@ -30,11 +30,12 @@ const privateKey =
   */
 const phrase = 'urge clog right example dish drill card maximum mix bachelor section select' 
 const private_key = '01F903CE0C960FF3A9E68E80FF5FFC344358D80CE1C221C3F9711AF07F83A3BD'
-const url = `http://localhost:9500`
+const url = 'http://localhost:9500'
 
 //one18t4yj4fuutj83uwqckkvxp9gfa0568uc48ggj7
 const beta_phrase = 'urge clog right example dish drill card maximum mix bachelor section select' 
-const beta_url = 'http:s//api.s0.b.hmny.io:9500'
+//const beta_url = 'https://api.s0.b.hmny.io'
+const beta_url = 'http://34.238.42.51:9500'
 const beta_private_key = '01F903CE0C960FF3A9E68E80FF5FFC344358D80CE1C221C3F9711AF07F83A3BD'
 
 
@@ -50,26 +51,35 @@ module.exports = {
     // options below to some value.
     //
     development: {
-      // host: 'localhost', // Localhost (default: none)
-      // port: 9500, // Standard Ethereum port (default: none)
-      network_id: '1', // Any network (default: none)
-      provider: () => {
-        const truffleProvider = new TruffleProvider(url, phrase)
-        const newAcc = truffleProvider.addByPrivateKey(private_key)
-        truffleProvider.setSigner(newAcc)
-        return truffleProvider
-      }
-    },
-    betanet: {
       network_id: '2', // Any network (default: none)
       provider: () => {
-        //const truffleProvider = new TruffleProvider(beta_url, beta_phrase,0,1,'hmy',2,'10000000','20000000000')
-        const truffleProvider = new TruffleProvider(beta_url, beta_phrase)
-        const newAcc = truffleProvider.addByPrivateKey(beta_private_key)
-        truffleProvider.setSigner(newAcc)
-        return truffleProvider
-      }
-    }
+        const truffleProvider = new TruffleProvider(
+          url,
+          { memonic: phrase },
+          { shardID: 0, chainId: 2 },
+          { gasLimit: '936475', gasPrice: '1000000000' },
+        );
+        const newAcc = truffleProvider.addByPrivateKey(private_key);
+        truffleProvider.setSigner(newAcc);
+        return truffleProvider;
+      },
+    },
+    betanet: {
+      // host: 'localhost', // Localhost (default: none)
+      // port: 9500, // Standard Ethereum port (default: none)
+      network_id: '2', // Any network (default: none)
+      provider: () => {
+        const truffleProvider = new TruffleProvider(
+          beta_url,
+          { memonic: beta_phrase },
+          { shardID: 0, chainId: 2 },
+          { gasLimit: '6721900', gasPrice: '1000000000' },
+        );
+        const newAcc = truffleProvider.addByPrivateKey(beta_private_key);
+        truffleProvider.setSigner(newAcc);
+        return truffleProvider;
+      },
+    },
   },
 
   // Set default mocha options here, use special reporters etc.
@@ -93,5 +103,6 @@ module.exports = {
     }
   }
 }
+
 ```
 
