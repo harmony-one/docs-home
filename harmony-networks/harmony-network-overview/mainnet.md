@@ -20,7 +20,7 @@ Mainnet is Harmony's production environment. It is running it is running with fo
 * **Shard 0**
   * SDK RPC end point
     * [https://api.s0.t.hmny.io](https://api.s0.t.hmny.io)
-  * SDK RPC Websocket end point
+  * SDK RPC websocket end point
     * wss://ws.s0.t.hmny.io
   * [http://s0.t.hmny.io](http://s0.t.hmny.io)
   * Explorer Node REST end point
@@ -36,7 +36,7 @@ Mainnet is Harmony's production environment. It is running it is running with fo
 * **Shard 2**
   * SDK RPC end point
     * [https://api.s2.t.hmny.io](https://api.s2.t.hmny.io)
-  * SDK RPC Websocket end point
+  * SDK RPC websocket end point
     * wss://ws.s2.t.hmny.io
   * [http://s2.t.hmny.io](http://s2.t.hmny.io)
   * Explorer Node REST end point
@@ -44,7 +44,7 @@ Mainnet is Harmony's production environment. It is running it is running with fo
 * **Shard 3**
   * SDK RPC end point
     * [https://api.s3.t.hmny.io](https://api.s3.t.hmny.io)
-  * SDK RPC Websocket end point
+  * SDK RPC websocket end point
     * wss://ws.s3.t.hmny.io
   * [http://s3.t.hmny.io](http://s3.t.hmny.io)
   * Explorer Node REST end point

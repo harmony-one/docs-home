@@ -26,6 +26,7 @@ Harmony's explorer creators provide the ability for Harmony community to have tr
 
 Trading Partners are the bridge between Harmony and our Investor community. They provide supplemental tools such as Know Your Customer \(KYC\) and a trading platform which allow our investor and end user community to easily buy and exchange Harmony's native ONE token.l
 
+
 #### Harmony Validators
 
 Harmony validators or trust providers are the backbone of the Harmony infrastructure. As a decentralized platform these validators ensure consensus on blocks and transactions being processed on Harmony's sharded high performance platform.
