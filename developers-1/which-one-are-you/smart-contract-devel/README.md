@@ -6,16 +6,17 @@ This section is designed to get the casual smart contract developer up and runni
 
 ### One Minute Deploy
 
+Please click [here](https://drive.google.com/open?id=1c_ZTYQH0anktYSecRXrNfptooUalYKTs) to view a short video running through the deployment.
+
 ### One Minute Instructions
 
 ```text
 npm install -g truffle
-mkdir H20
-cd H20
-git clone https://github.com/harmony-one/H20.git
+git clone https://github.com/harmony-one/H2O.git
+cd H2O
 npm install
 truffle compile
-truffle migrate --network testnet
+truffle migrate --network testnet --reset
 truffle networks
 ```
 
