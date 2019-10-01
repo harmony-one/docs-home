@@ -26,12 +26,13 @@ truffle networks
 
 ### Detailed Overview
 
-For detailed instructions and sample files please see the sample files 
+For detailed instructions, sample files and github repository please see below 
 
 * [Smart Contract Development Using Truffle](smart-contract-development-using-truffle.md)
 * [Sample Files](sample-files.md)
+* [H2O github repository](https://github.com/harmony-one/H2O)
 
-The sample H2O github repository can be found [here](https://github.com/harmony-one/H2O).
+
 
 
 
