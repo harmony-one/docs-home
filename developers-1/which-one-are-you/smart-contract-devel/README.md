@@ -6,7 +6,11 @@ This section is designed to get the casual smart contract developer up and runni
 
 ### One Minute Deploy
 
-Please click [here](https://drive.google.com/open?id=1c_ZTYQH0anktYSecRXrNfptooUalYKTs) to view a short video running through the deployment.
+Here is a short video running through the deployment.
+
+{% embed url="https://www.youtube.com/watch?v=7zsLZYCvfb0" %}
+
+
 
 ### One Minute Instructions
 
@@ -26,6 +30,8 @@ For detailed instructions and sample files please see the sample files
 
 * [Smart Contract Development Using Truffle](smart-contract-development-using-truffle.md)
 * [Sample Files](sample-files.md)
+
+The sample H2O github repository can be found here.
 
 
 
