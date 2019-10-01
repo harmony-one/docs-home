@@ -11,6 +11,7 @@ This section is designed to get the casual smart contract developer up and runni
 ```text
 npm install -g truffle
 mkdir H20
+cd H20
 git clone https://github.com/harmony-one/H20.git
 npm install
 truffle compile
