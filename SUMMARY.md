@@ -20,7 +20,6 @@
     * [Sample Files](developers-1/which-one-are-you/smart-contract-devel/sample-files.md)
   * [Trading Partner](developers-1/which-one-are-you/trading-partner/README.md)
     * [Partner on-boarding reference material](developers-1/which-one-are-you/trading-partner/on-boarding-process/README.md)
-      * [Pre-requisites](developers-1/which-one-are-you/trading-partner/on-boarding-process/pre-requisites.md)
       * [Connecting to Harmony \(Running a node\)](developers-1/which-one-are-you/trading-partner/on-boarding-process/connecting-to-harmony-running-a-node.md)
     * [Onboard Process Walkthrough](developers-1/which-one-are-you/trading-partner/onboard-process-walkthrough.md)
 
@@ -71,7 +70,6 @@
     * [Setup](api-developers-guide/math-wallet/mathwallet/setup.md)
     * [How to Send Transactions](api-developers-guide/math-wallet/mathwallet/making-transactions.md)
   * [SafePal](api-developers-guide/math-wallet/safepal.md)
-* [Untitled](api-developers-guide/untitled.md)
 
 ## Command Line Interface
 

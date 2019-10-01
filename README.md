@@ -1,4 +1,6 @@
 # Harmony Developers Guide
 
-Developers guide
+## Harmony Developers Guide
+
+![Harmony in Shanghai](.gitbook/assets/shanghaiblockchainweek.jpg)
 
