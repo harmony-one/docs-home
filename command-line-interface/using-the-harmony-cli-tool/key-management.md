@@ -78,3 +78,5 @@ Imported keystore given account alias of `lecture-imported`
 
 Keep in mind that you should know the passphrase associated with the imported keystore. For keystores created by Harmony's `wallet.sh`, the default passphrase is an empty string; this matters for signing transactions.
 
+#### Todo - Daniel please include private key instructions
+
