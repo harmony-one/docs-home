@@ -1,4 +1,4 @@
-# Betanet
+# Testnet
 
 ## Overview
 
@@ -7,13 +7,13 @@ BetaNet is a testing environment for dApp developers and partners. It is running
 ### Web Resources
 
 * Blockchain Explorer
-  * [**https://explorer.beta.harmony.one/\#/**](https://explorer.beta.harmony.one/#/)\*\*\*\*
+  * [**https://explorer.beta.harmony.one/\#/**](https://explorer.beta.harmony.one/#/)
 * Validator Balance
-  * [**https://beta.harmony.one/balances**](https://harmony.one/balances)\*\*\*\*
+  * [**https://beta.harmony.one/balances**](https://harmony.one/balances)
 * 1 hour earning of validator nodes
-  * [**https://harmony.one/beta/1h**](https://harmony.one/1h)\*\*\*\*
+  * [**https://harmony.one/beta/1h**](https://harmony.one/1h)
 * 4 hour earning of validator nodes
-  * \*\*\*\*[**https://harmony.one/beta/4h**](https://harmony.one/4h)\*\*\*\*
+  * [**https://harmony.one/beta/4h**](https://harmony.one/4h)
 
 ### RPC Endpoints
 

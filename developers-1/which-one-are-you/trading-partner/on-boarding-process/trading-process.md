@@ -1,2 +1,0 @@
-# Trading Process
-
