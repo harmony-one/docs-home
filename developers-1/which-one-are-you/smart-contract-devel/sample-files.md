@@ -54,7 +54,7 @@ module.exports = {
         return truffleProvider;
       },
     },
-    betanet: {
+    testnet: {
       // host: 'localhost', // Localhost (default: none)
       // port: 9500, // Standard Ethereum port (default: none)
       network_id: '2', // Any network (default: none)
