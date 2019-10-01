@@ -22,9 +22,7 @@
     * [Partner on-boarding reference material](developers-1/which-one-are-you/trading-partner/on-boarding-process/README.md)
       * [Pre-requisites](developers-1/which-one-are-you/trading-partner/on-boarding-process/pre-requisites.md)
       * [Connecting to Harmony \(Running a node\)](developers-1/which-one-are-you/trading-partner/on-boarding-process/connecting-to-harmony-running-a-node.md)
-    * [Onboard Process Walkthrough](developers-1/which-one-are-you/trading-partner/onboard-process-walkthrough/README.md)
-      * [Sample Run  Through](developers-1/which-one-are-you/trading-partner/onboard-process-walkthrough/sample-run-through.md)
-    * [Reference Material](developers-1/which-one-are-you/trading-partner/reference-material.md)
+    * [Onboard Process Walkthrough](developers-1/which-one-are-you/trading-partner/onboard-process-walkthrough.md)
 
 ## Developer Tools <a id="devtools"></a>
 
