@@ -11,8 +11,8 @@ Perhaps the most important feature of the `hmy` CLI is the ability to create and
 ### Sending a cross-shard transaction on betanet:
 
 ```text
-$ hmy transfer --node="https://api.s0.b.hmny.io/" \
-    --from one1yc06ghr2p8xnl2380kpfayweguuhxdtupkhqzw \
+$ hmy --node="https://api.s0.b.hmny.io/" \
+    transfer --from one1yc06ghr2p8xnl2380kpfayweguuhxdtupkhqzw \
     --to one1q6gkzcap0uruuu8r6sldxuu47pd4ww9w9t7tg6 \
     --from-shard 0 --to-shard 1 --amount 12.5
 ```
