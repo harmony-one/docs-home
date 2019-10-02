@@ -4,7 +4,7 @@
 
 ### Osaka
 
-![Harmony in Osaka](.gitbook/assets/devconosaka1.png)
+![Harmony in Osaka](.gitbook/assets/osaka_unicorn.jpg)
 
 ### Shanghai
 
