@@ -22,6 +22,27 @@ truffle migrate --network testnet --reset
 truffle networks
 ```
 
+### Interacting with contracts
+
+```text
+truffle console --network testnet
+truffle(testnet)> HarmonyERC20.deployed().then(function(instance){myHRC20=instance})
+undefined
+truffle(testnet)> myHRC20.symbol()
+'H20'
+truffle(testnet)> myHRC20.name()
+'HarmonyERC20'
+truffle(testnet)> myHRC20.decimals()
+BN { negative: 0, words: [ 18, <1 empty item> ], length: 1, red: null }
+truffle(testnet)> myHRC20.totalSupply()
+BN {
+  negative: 0,
+  words: [ 16777216, 62077800, 20718012, 3, <1 empty item> ],
+  length: 4,
+  red: null
+}
+```
+
 ### Detailed Overview
 
 For detailed instructions, sample files and github repository please see below
