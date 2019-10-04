@@ -15,9 +15,9 @@
 ## Developers <a id="developers-1"></a>
 
 * [WHICH ONE ARE YOU](developers-1/which-one-are-you/README.md)
-  * [Smart Contract Developer](developers-1/which-one-are-you/smart-contract-devel/README.md)
-    * [Smart Contract Development using Truffle](developers-1/which-one-are-you/smart-contract-devel/smart-contract-development-using-truffle.md)
-    * [Sample Files](developers-1/which-one-are-you/smart-contract-devel/sample-files.md)
+  * [Smart Contract Developer](developers-1/which-one-are-you/h2o/README.md)
+    * [Smart Contract Development using Truffle](developers-1/which-one-are-you/h2o/smart-contract-development-using-truffle.md)
+    * [Sample Files](developers-1/which-one-are-you/h2o/sample-files.md)
   * [Trading Partner](developers-1/which-one-are-you/trading-partner/README.md)
     * [Partner on-boarding reference material](developers-1/which-one-are-you/trading-partner/on-boarding-process/README.md)
       * [Connecting to Harmony \(Running a node\)](developers-1/which-one-are-you/trading-partner/on-boarding-process/connecting-to-harmony-running-a-node.md)
