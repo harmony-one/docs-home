@@ -1,5 +1,9 @@
 # Introduction
 
+{% hint style="success" %}
+**Complete documentation for Harmony's API's can be found** [**here**](https://apitest.harmony.one) **including sample code and curl commands and code.**  [**https://apitest.harmony.one**](https://apitest.harmony.one)\*\*\*\*
+{% endhint %}
+
 ## Development Environments
 
 [JSON-RPC](https://en.wikipedia.org/wiki/JSON-RPC) is a remote procedure call protocol encoded in JSON. You can use this API to access data from the Harmony nodes. The JSON-RPC API server runs on:
@@ -38,7 +42,7 @@ All requests follow the standard JSON-RPC format and include 4 variables in the 
 | :--- | :--- | :--- |
 
 
-&lt;/table&gt;\#\# Key Differences between Harmony and Ethereum
+### Key Differences between Harmony and Ethereum
 
 1. The prefix of RPC calls is different - 'hmy' is used instead of 'eth'.
 2. Address format, SDK uses two, the default use checksum, it is recommended to use Bech32. has been defined in the SDK.
