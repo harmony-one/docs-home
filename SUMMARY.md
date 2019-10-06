@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Harmony Developers Guide](README.md)
+* [Devcon5](devcon5.md)
 
 ## Harmony Networks
 
