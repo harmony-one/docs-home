@@ -4,6 +4,10 @@
 
 ![Harmony at Devcon5](.gitbook/assets/devcon5%20%281%29.jpg)
 
+### Devcon Sharding Night - Tuesday
+
+![Harmony at Sharding NIght](.gitbook/assets/devcon-sharding-night.jpg)
+
 ### Harmony DevCon5 Presentations
 
 Harmony presentation can be found [here](https://docs.google.com/presentation/d/1vsDwKdTSXlpcNleqET5iC1J90lFkD3XbtIpzurpJpdM/edit?usp=sharing) or downloaded below
