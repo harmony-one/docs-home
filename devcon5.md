@@ -14,3 +14,7 @@ Harmony presentation can be found [here](https://docs.google.com/presentation/d/
 
 {% file src=".gitbook/assets/harmony-devcon5.pdf" caption="Harmony DevCon5 Presentation" %}
 
+### Lessons Learned
+
+It was a great conference and the community only get's strong. Here is a [link](%20https://docs.google.com/presentation/d/1y4bMxWWn81Ioih1321sCD6kkYG5Ri_bBGJawingDtoM/edit?usp=sharing) to some of the lessons learned and areas of Focus for Harmony moving forward.
+
