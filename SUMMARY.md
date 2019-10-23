@@ -70,6 +70,7 @@
 ## Command Line Interface
 
 * [Using the Harmony CLI tool](command-line-interface/using-the-harmony-cli-tool/README.md)
+  * [Query Balances](command-line-interface/using-the-harmony-cli-tool/query-balances.md)
   * [Download and installation](command-line-interface/using-the-harmony-cli-tool/download-and-installation.md)
   * [Key management](command-line-interface/using-the-harmony-cli-tool/key-management.md)
   * [Creating, sending transactions](command-line-interface/using-the-harmony-cli-tool/creating-sending-transactions.md)
