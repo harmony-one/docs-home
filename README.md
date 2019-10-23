@@ -2,7 +2,7 @@
 
 ## Harmony Developers Guide
 
-## San Francisco Blockchain Week
+## San Francisco Blockchain Week \([Calendar](https://harmony.one/sfbw)\)
 
 ![Harmony @ San Francisco Blockchain Week](.gitbook/assets/sf-blockchain-week.jpg)
 
