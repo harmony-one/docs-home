@@ -4,7 +4,7 @@
 
 ## San Francisco Blockchain Week
 
-![Harmony @ San Francisco Blockchain Week ](.gitbook/assets/sf-blockchain-week.jpg)
+![Harmony @ San Francisco Blockchain Week](.gitbook/assets/sf-blockchain-week.jpg)
 
 ### Osaka
 
