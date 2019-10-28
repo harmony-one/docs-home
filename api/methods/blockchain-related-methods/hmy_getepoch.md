@@ -1,22 +1,23 @@
 # hmy\_getEpoch
 
+## Description
+
+hmy\_getEpoch returns current epoch of shard
+
 ## Parameters
 
 ## Returns
 
-* `uint64` - Current requested node shard epoch
+* `String` - Current requested node shard epoch 0x format
 
-## Sample Curl Request
+**Sample Curl Request**
 
 ```bash
 curl -d '{
-    "id": "1",
     "jsonrpc": "2.0",
-    "method": "hmy_getBalance",
-    "params": [
-        "one1z05g55zamqzfw9qs432n33gycdmyvs38xjemyl", 
-        "latest"
-    ]
+    "method": "hmy_getEpoch",
+    "params": [],
+    "id": 1
 }' -H "Content-Type: application/json" -X POST "http://localhost:9500"
 ```
 
@@ -26,7 +27,7 @@ curl -d '{
 {
     "jsonrpc": "2.0",
     "id": 1,
-    "result": "0x6046f35fca29af800"
+    "result": "0xc"
 }
 ```
 

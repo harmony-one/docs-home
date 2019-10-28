@@ -1,24 +1,25 @@
 # hmy\_getBlockSigners
 
+## Description
+
+hmy\_getBlocksSigners returns list of block signers
+
 ## Parameters
 
 1. `String` - block number in string 0x format
 
 ## Returns
 
-* `[]String` - one addresses list of validators who signed this block
+* `Array` of `String`: one addresses list of validators who signed this block
 
 ## Sample Curl Request
 
 ```bash
 curl -d '{
-    "id": "1",
-    "jsonrpc": "2.0",
-    "method": "hmy_getBalance",
-    "params": [
-        "one1z05g55zamqzfw9qs432n33gycdmyvs38xjemyl", 
-        "latest"
-    ]
+	"jsonrpc": "2.0",
+	"method": "hmy_getBlockSigners",
+	"params": ["0x1"],
+	"id": 1
 }' -H "Content-Type: application/json" -X POST "http://localhost:9500"
 ```
 
@@ -28,7 +29,15 @@ curl -d '{
 {
     "jsonrpc": "2.0",
     "id": 1,
-    "result": "0x6046f35fca29af800"
+    "result": [
+        "one1pdv9lrdwl0rg5vglh4xtyrv3wjk3wsqket7zxy",
+        "one12fuf7x9rgtdgqg7vgq0962c556m3p7afsxgvll",
+        "one1pf75h0t4am90z8uv3y0dgunfqp4lj8wr3t5rsp",
+        "one1spshr72utf6rwxseaz339j09ed8p6f8ke370zj",
+        "one1d2rngmem4x2c6zxsjjz29dlah0jzkr0k2n88wc",
+        "one1a50tun737ulcvwy0yvve0pvu5skq0kjargvhwe",
+        "one103q7qe5t2505lypvltkqtddaef5tzfxwsse4z7"
+    ]
 }
 ```
 

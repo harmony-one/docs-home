@@ -1,34 +1,35 @@
 # hmy\_getSignedBlocks
 
+## Description
+
+hmy\_getSigned blocks returns number of blocks out of last 1500 validator has signed
+
 ## Parameters
 
 1. `String` - validator one address \("one1..."\)
 
 ## Returns
 
-* `uint64` - total number of signed blocks out of last 1500 blocks
+* `Number` - total number of signed blocks out of last 1500 blocks
 
 ## Sample Curl Request
 
 ```bash
 curl -d '{
-    "id": "1",
     "jsonrpc": "2.0",
-    "method": "hmy_getBalance",
-    "params": [
-        "one1z05g55zamqzfw9qs432n33gycdmyvs38xjemyl", 
-        "latest"
-    ]
+    "method": "hmy_getSignedBlocks",
+    "params": ["one103q7qe5t2505lypvltkqtddaef5tzfxwsse4z7"],
+    "id": 1
 }' -H "Content-Type: application/json" -X POST "http://localhost:9500"
 ```
 
-**Sample Curl Response**
+## **Sample Curl Response**
 
 ```javascript
 {
     "jsonrpc": "2.0",
     "id": 1,
-    "result": "0x6046f35fca29af800"
+    "result": "0x12"
 }
 ```
 
