@@ -3,7 +3,7 @@
 Get JSON output of balances on all shards of a given one address with the `balance` subcommand, for example:
 
 ```text
-./hmy --node="https://api.s1.b.hmny.io/" balances one1yc06ghr2p8xnl2380kpfayweguuhxdtupkhqzw                                   ✘ 127
+./hmy --node="https://api.s1.b.hmny.io/" balance one1yc06ghr2p8xnl2380kpfayweguuhxdtupkhqzw                                   ✘ 127
 [
   {
     "shard": 0,
