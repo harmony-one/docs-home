@@ -98,3 +98,19 @@ If no account name is provided, a random word concatenated with `-imported` will
 If no passphrase is provided, the default passphrase will be used \(which is `harmony-one`\).  
 Note that the CLI currently only supports importing secp256k1 private keys.
 
+### Exporting an account’s keystore file
+
+If you would like to get the contents of a keystone file you can do so with the following command:
+
+```text
+./hmy keys export-ks one1a7tlnl08s978687zjsdns3m5dckdm0hnxxlwkt --passphrase=""
+```
+
+### Exporting an account’s private key
+
+If you would like to get the secp256k1 private key associated with an account in the key store, you can do so with the following command:
+
+```text
+./hmy keys export-private-key one1a7tlnl08s978687zjsdns3m5dckdm0hnxxlwkt --passphrase=""
+```
+
