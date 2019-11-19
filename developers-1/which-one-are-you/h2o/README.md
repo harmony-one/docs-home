@@ -13,7 +13,7 @@ Here is a short video running through the deployment.
 ### One Minute Instructions
 
 ```text
-npm install -g truffle
+npm install -g truffle@5.0.38
 git clone https://github.com/harmony-one/H2O.git
 cd H2O
 npm install
