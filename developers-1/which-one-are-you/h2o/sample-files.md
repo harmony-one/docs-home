@@ -168,3 +168,29 @@ contract HarmonyERC20 is ERC20, ERC20Detailed {
 }
 ```
 
+
+
+#### Sample Environment File
+
+```text
+//one18t4yj4fuutj83uwqckkvxp9gfa0568uc48ggj7
+//one18t4yj4fuutj83uwqckkvxp9gfa0568uc48ggj7
+//0x3aea49553Ce2E478f1c0c5ACC304a84F5F4d1f98
+//01F903CE0C960FF3A9E68E80FF5FFC344358D80CE1C221C3F9711AF07F83A3BD
+PRIVATE_KEY='01F903CE0C960FF3A9E68E80FF5FFC344358D80CE1C221C3F9711AF07F83A3BD'
+//one18t4yj4fuutj83uwqckkvxp9gfa0568uc48ggj7
+MAINNET_PRIVATE_KEY='01F903CE0C960FF3A9E68E80FF5FFC344358D80CE1C221C3F9711AF07F83A3BD'
+MNEMONIC='food response winner warfare indicate visual hundred toilet jealous okay relief tornado'
+LOCAL_URL='http://localhost:9500'
+TESTNET_URL='https://api.s0.b.hmny.io'
+TESTNET_0_URL='https://api.s0.b.hmny.io'
+TESTNET_1_URL='https://api.s1.b.hmny.io'
+MAINNET_0_URL='https://api.s0.t.hmny.io'
+TESTNET_MNEMONIC='urge clog right example dish drill card maximum mix bachelor section select' 
+TESTNET_PRIVATE_KEY='01F903CE0C960FF3A9E68E80FF5FFC344358D80CE1C221C3F9711AF07F83A3BD'
+GAS_LIMIT=6721900
+GAS_PRICE=1000000000
+//CUSD_TESTNET_ADDRESS='0x7466feb2e67102a3cc7cECBd7a49D92900451C95'
+
+```
+
