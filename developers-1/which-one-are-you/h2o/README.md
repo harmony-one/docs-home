@@ -16,6 +16,7 @@ Here is a short video running through the deployment.
 npm install -g truffle@5.0.38
 git clone https://github.com/harmony-one/HRC.git
 cd HRC
+cp .envSample .env
 npm install
 truffle compile
 truffle migrate --network testnet --reset
