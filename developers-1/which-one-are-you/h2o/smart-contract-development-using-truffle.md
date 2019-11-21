@@ -7,7 +7,7 @@
 The following tools should be installed for local Harmony Solidity development
 
 ```text
-npm install -g truffle
+npm install -g truffle@5.0.38
 ```
 
 ### Initializing your codebase
@@ -31,7 +31,7 @@ npm install --save tslib
 
 ### Installing additional reference libraries
 
-If developing standard ERC-20 or ERC-721 contracts than it is useful to install the [open zepplin libraries.](https://openzeppelin.com/contracts/)
+If developing standard ERC-20 or ERC-721 contracts than it is useful to install the [open zeppelin libraries.](https://openzeppelin.com/contracts/)
 
 ```text
 npm install openzeppelin-solidity -s
@@ -51,7 +51,7 @@ Ensure your account is funded.
 
 ### Add your contracts
 
-We have included two contracts needed to deploy the Harmony ERC20 token. Simply copy these files into the contracts sub-folder
+We have included two contracts needed to deploy the Harmony HRC20 token. Simply copy these files into the contracts sub-folder
 
 * [HarmonyMintable.sol](sample-files.md#harmonymintable-sol)
 * [HarmonyERC20.sol](sample-files.md#harmonyerc-20-sol)

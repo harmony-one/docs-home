@@ -14,8 +14,8 @@ Here is a short video running through the deployment.
 
 ```text
 npm install -g truffle@5.0.38
-git clone https://github.com/harmony-one/H2O.git
-cd H2O
+git clone https://github.com/harmony-one/HRC.git
+cd HRC
 npm install
 truffle compile
 truffle migrate --network testnet --reset

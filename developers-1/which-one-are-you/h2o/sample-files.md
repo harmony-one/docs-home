@@ -215,7 +215,5 @@ MAINNET_0_URL='https://api.s0.t.hmny.io'
 
 GAS_LIMIT=3321900
 GAS_PRICE=1000000000
-
-
 ```
 
