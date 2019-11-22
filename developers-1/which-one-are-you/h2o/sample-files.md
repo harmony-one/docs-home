@@ -188,9 +188,7 @@ contract HarmonyERC20 is ERC20, ERC20Detailed {
 }
 ```
 
-
-
-#### Sample Environment File
+## .env
 
 ```text
 //LOCAL

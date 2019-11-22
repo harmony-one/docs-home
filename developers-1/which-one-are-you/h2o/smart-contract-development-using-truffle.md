@@ -46,7 +46,7 @@ For your convenience you can install all the dependencies by copying this [packa
 
 To build against the Harmony instance you need to modify truffle\_config.js here is a sample [truffle\_config.js](sample-files.md#truffle_config-js) for the Harmony Network.
 
-also, you need to copy this[ .env](https://docs.harmony.one/home/developers-1/which-one-are-you/h2o/sample-files#sample-environment-file) under the harmonyERC20 folder.
+also, you need to copy this [.env](https://docs.harmony.one/home/developers-1/which-one-are-you/h2o/sample-files#sample-environment-file) under the harmonyERC20 folder.
 
 ### Fund your wallet
 
