@@ -181,6 +181,7 @@ contract HarmonyERC20 is ERC20, ERC20Detailed {
   "main": "truffle.js",
   "dependencies": {
     "@harmony-js/core": "^0.1.22",
+    "dotenv": "^8.2.0",
     "tslib": "^1.10.0",
     "openzeppelin-solidity": "^2.2.0"
   }

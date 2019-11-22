@@ -35,6 +35,7 @@ If developing standard ERC-20 or ERC-721 contracts than it is useful to install 
 
 ```text
 npm install openzeppelin-solidity -s
+npm install --save dotenv
 ```
 
 #### Installing Everything at once
