@@ -8,6 +8,12 @@ description: Setting up Math Wallet with a new or existing key
 
 Access the Google Chrome web store and install the [Math Wallet extension](https://chrome.google.com/webstore/detail/math-wallet/afbcbjpbpfadlkmhmclhkeeodmamcflc?hl=en).
 
+{% hint style="warning" %}
+Note : Ensure you use version 2.07 or greater of MathWallet
+
+Previous versions have a known bug and are unsupported.
+{% endhint %}
+
 ![](../../../.gitbook/assets/screen-shot-2019-09-17-at-4.26.02-pm.png)
 
 Open the extension in your browser and create new password as it asks.
