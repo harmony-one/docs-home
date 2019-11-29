@@ -13,16 +13,16 @@
 * [Connecting to the Harmony Network](harmony-networks/connecting-to-the-harmony-network/README.md)
   * [Non-validating Nodes](harmony-networks/connecting-to-the-harmony-network/non-validating-nodes.md)
 
-## Developers <a id="developers-1"></a>
+## Developers
 
-* [WHICH ONE ARE YOU](developers-1/which-one-are-you.md)
-* [Smart Contract Developer](developers-1/hrc/README.md)
-  * [Smart Contract Development using Truffle](developers-1/hrc/smart-contract-development-using-truffle.md)
-  * [Sample Files](developers-1/hrc/sample-files.md)
-* [Trading Partner](developers-1/trading-partner/README.md)
-  * [Partner on-boarding reference material](developers-1/trading-partner/on-boarding-process/README.md)
-    * [Connecting to Harmony \(Running a node\)](developers-1/trading-partner/on-boarding-process/connecting-to-harmony-running-a-node.md)
-  * [Onboard Process Walkthrough](developers-1/trading-partner/onboard-process-walkthrough.md)
+* [WHICH ONE ARE YOU](developers/which-one-are-you.md)
+* [Smart Contract Developer](developers/hrc/README.md)
+  * [Smart Contract Development using Truffle](developers/hrc/smart-contract-development-using-truffle.md)
+  * [Sample Files](developers/hrc/sample-files.md)
+* [Trading Partner](developers/trading-partner/README.md)
+  * [Partner on-boarding reference material](developers/trading-partner/on-boarding-process/README.md)
+    * [Connecting to Harmony \(Running a node\)](developers/trading-partner/on-boarding-process/connecting-to-harmony-running-a-node.md)
+  * [Onboard Process Walkthrough](developers/trading-partner/onboard-process-walkthrough.md)
 
 ## API Developers Guide <a id="api"></a>
 
