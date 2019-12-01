@@ -43,8 +43,10 @@ or pip install git+https://github.com/LedgerHQ/blue-loader-python.git
 1. Run the following command to load the firmware to Ledger Nano S. 
 
 ```text
-sudo ./venv/bin/python -m ledgerblue.loadApp --appFlags 0x40 --path "44'/1023'"  --curve secp256k1 --tlv --targetId 0x31100004 --delete --fileName app.hex --appName One --appVersion 0.0.1 --dataSize 0 --icon 01ffffff00ffffff00ffffffffffffc7e1bbcdbbddbbcdbbc50bd8a3ddbbddbbddb3edc7e3ffffffff
+sudo ./venv/bin/python -m ledgerblue.loadApp --appFlags 0x40 --path "44'/1023'"  --curve secp256k1 --tlv --targetId 0x31100004 --delete --fileName ver1_app.hex  --appName One --appVersion 0.0.1 --dataSize 0 --icon 01ffffff00ffffff00ffffffffffffc7e1bbcdbbddbbcdbbc50bd8a3ddbbddbbddb3edc7e3ffffffff
 ```
+
+During this process,  you will see some warning messages displayed. Read through them by pressing right button until you reach the page "Perform Installation". Press both the left and right button to confirm installation.   The Harmony Ledger App will then be installed to Ledger Nano S.
 
 On the Ledger Nano S LCD screen, there will be a new icon for Harmony App : One.  To open the Harmony app, please click both the left and right button on top of the Ledger Nano S. A series will messages will be displayed including "This app is not genune" \(as it is a developer edition, not formal app from Ledger Live\).  Click the right button until you see "Open Application",  then click both left and right button to open the Harmony app. 
 
