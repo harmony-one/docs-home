@@ -23,7 +23,7 @@ At this point, you're ready to install apps on your Ledger Nano S. Remember to s
 
 _This is ONLY for wallet developers / testers._  
 
-1. Download Ledger firmware app.hex from [here](https://s3-us-west-1.amazonaws.com/pub.harmony.one/release/ledger_firmware/ver1_app.hex) .
+1. Download Ledger firmware from [here](https://s3-us-west-1.amazonaws.com/pub.harmony.one/release/ledger_firmware/ver1_app.hex) .
 2. Place the downloaded firmware file _**ver1\_app.hex**_ in the current working directory.
 3. Set up the python loader 
 
