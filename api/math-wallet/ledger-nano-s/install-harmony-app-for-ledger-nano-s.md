@@ -46,7 +46,15 @@ or pip install git+https://github.com/LedgerHQ/blue-loader-python.git
 sudo ./venv/bin/python -m ledgerblue.loadApp --appFlags 0x40 --path "44'/1023'"  --curve secp256k1 --tlv --targetId 0x31100004 --delete --fileName app.hex --appName One --appVersion 0.0.1 --dataSize 0 --icon 01ffffff00ffffff00ffffffffffffc7e1bbcdbbddbbcdbbc50bd8a3ddbbddbbddb3edc7e3ffffffff
 ```
 
+## Functions of Ledger Nano S App
 
+There are three major functions provided by Ledger Nano S Harmony App:
+
+* Display the Harmony ONE address for Ledger Nano S
+* Sign a token transfer request using Ledger Nano S
+* Sign a staking request using Ledger Nano S
+
+The detailed instructions for these functions are shown below.
 
 ## Display the Harmony ONE address for Ledger Nano S
 
@@ -62,7 +70,7 @@ The entire process is shown in video below:
 
 {% embed url="https://www.youtube.com/watch?v=m5RLYGWosuk&feature=youtu.be" %}
 
-## Token transfer using Ledger Nano S
+## Sign a Token Transfer using Ledger Nano S
 
 The LED display on Nano S is shown as below :‌
 
