@@ -20,7 +20,7 @@ SafePal General user's manual is [here](https://docs.safepal.io/user-manual) and
 
 Step1：Enter 'Send' segment in SafePal App and select ONE coin.
 
-![](../../.gitbook/assets/1.png)
+![](../../.gitbook/assets/1%20%281%29.png)
 
 Step2：Input receive address by pasting the address or scanning the QR code. Enter all transfer details - amount, fee level and don't forget to select the shard number.
 
@@ -34,11 +34,11 @@ Tips: If you don't know the exact shard number, don't worry, you can simply use 
 
 Step4:Sign the order with your SafePal S1 hardware wallet.
 
-![](../../.gitbook/assets/4.png)
+![](../../.gitbook/assets/4%20%281%29.png)
 
 Step5:Confirm the payment.The transfer is broadcasted on chain! Don't forget to check transfer status later!
 
-![](../../.gitbook/assets/5.png)
+![](../../.gitbook/assets/5%20%281%29.png)
 
 {% embed url="https://www.dropbox.com/s/uo80rhxy0pnu9sa/SafePal%20Teaser.mp4?dl=0" caption="" %}
 
