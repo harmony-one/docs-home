@@ -73,6 +73,7 @@
     * [hmy\_getValidatorStakingWithDelegation](api/methods/staking-related-methods/hmy_getvalidatorstakingwithdelegation.md)
 * [Wallet Overview](api/math-wallet/README.md)
   * [Ledger Nano S](api/math-wallet/ledger-nano-s/README.md)
+    * [Install Harmony App for Ledger Nano S](api/math-wallet/ledger-nano-s/install-harmony-app-for-ledger-nano-s.md)
     * [Ledger Nano S Hardware Wallet Guide](api/math-wallet/ledger-nano-s/ledger-nano-s-hardware-wallet-guide-1.md)
     * [Ledger Nano S Firmware Usage Manual](api/math-wallet/ledger-nano-s/ledger-nano-s-firmware-usage-manual.md)
   * [Math Wallet](api/math-wallet/mathwallet/README.md)
