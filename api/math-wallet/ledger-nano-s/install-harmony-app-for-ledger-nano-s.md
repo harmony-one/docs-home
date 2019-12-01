@@ -58,12 +58,12 @@ Once the application is opened,  it will show "Waiting for commands..." in the L
 
 ![](../../../.gitbook/assets/5.png)
 
-## Functions of Ledger Nano S App
+## Functionality of Harmony Ledger Nano S App
 
 There are three major functions provided by Ledger Nano S Harmony App:
 
-* Display the Harmony ONE address for Ledger Nano S
-* Sign a token transfer request using Ledger Nano S
+* Display the Harmony ONE address of the Ledger Nano S hardware wallet
+* Sign a token transfer request using Ledger Nano S 
 * Sign a staking request using Ledger Nano S
 
 The detailed instructions for these functions are shown below.
@@ -76,7 +76,7 @@ There are two buttons on top of Ledger Nano, click the right one to continue \(o
 
 ![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LlYdMT-Wp5uYwcF_tMW%2F-Lp17W8qGssyWUeQC8Hm%2F-Lp1QtQgDJ6cR36TkYqq%2F2.jpg?alt=media&token=3c767945-33b3-432f-a959-faaba7f3d010)
 
-As the address is longer than the LED screen, you can use the top two button to shift the address display to the left or side right side. Click both buttons to confirm the address and it should be same as displayed on PC/Mac terminal.‌
+As the address is longer than the LED screen, you can use the top two button to shift the address display to the left or side right side. **Click both buttons to confirm the address.** 
 
 The entire process is shown in video below:
 
@@ -109,8 +109,6 @@ Check and confirm the destination shard ID is correct.
 Detailed process is shown in video below:
 
 {% embed url="https://youtu.be/feRpGW1seQI" caption="" %}
-
-{% embed url="https://www.youtube.com/watch?v=m5RLYGWosuk&feature=youtu.be" %}
 
 ## Sign a Staking Transaction using Ledger Nano S
 
