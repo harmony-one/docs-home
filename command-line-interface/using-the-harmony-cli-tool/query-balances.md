@@ -1,6 +1,6 @@
 # Query Balances
 
-Get JSON output of balances on all shards of a given one address with the `balance` subcommand, for example:
+Get JSON output of balances on all shards of a given one address with the `balances` subcommand, for example:
 
 ```text
 ./hmy --node="https://api.s1.b.hmny.io/" balance one1yc06ghr2p8xnl2380kpfayweguuhxdtupkhqzw                                   ✘ 127
