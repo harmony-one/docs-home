@@ -1,4 +1,4 @@
-# Pangea
+# Pangaea
 
 ## Overview
 

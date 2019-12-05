@@ -7,7 +7,7 @@
 
 * [Harmony Network Overview](harmony-networks/harmony-network-overview/README.md)
   * [Mainnet](harmony-networks/harmony-network-overview/mainnet.md)
-  * [Pangea](harmony-networks/harmony-network-overview/pangea.md)
+  * [Pangaea](harmony-networks/harmony-network-overview/pangaea.md)
   * [Testnet](harmony-networks/harmony-network-overview/betanet/README.md)
     * [Test Accounts](harmony-networks/harmony-network-overview/betanet/developer-1.md)
 * [Connecting to the Harmony Network](harmony-networks/connecting-to-the-harmony-network/README.md)
