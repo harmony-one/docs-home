@@ -72,7 +72,7 @@ Sometimes you might have an existing keystore such as keys made by Harmony's `wa
 ```text
 $ # Note that the shell variable p is an absolute path.
 $ p='/Users/edgar/Repos/harmony-work/src/github.com/harmony-one/harmony/.hmy/keystore/one16qsd5ant9v94jrs89mruzx62h7ekcfxmduh2rx.key'
-$ hmy keys import ${p}
+$ hmy keys import-ks ${p}
 Imported keystore given account alias of `lecture-imported`
 ```
 
