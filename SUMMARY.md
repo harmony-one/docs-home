@@ -95,7 +95,7 @@
 
 ## Archived/Obsolete
 
-* [Harmony Docs Archives](archived-obsolete/harmony-docs-archives.md)
-* [Testnet](archived-obsolete/betanet/README.md)
-  * [Test Accounts](archived-obsolete/betanet/developer-1.md)
+* [Harmony Docs Archives](archived-obsolete/harmony-docs-archives/README.md)
+  * [Testnet](archived-obsolete/harmony-docs-archives/betanet/README.md)
+    * [Test Accounts](archived-obsolete/harmony-docs-archives/betanet/developer-1.md)
 
