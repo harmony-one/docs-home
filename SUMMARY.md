@@ -1,7 +1,6 @@
 # Table of contents
 
-* [Harmony Developers Guide](README.md)
-* [Devcon5](devcon5.md)
+* [Introduction](README.md)
 
 ## Harmony Networks
 
@@ -98,4 +97,5 @@
 * [Harmony Docs Archives](archived-obsolete/harmony-docs-archives/README.md)
   * [Testnet](archived-obsolete/harmony-docs-archives/betanet/README.md)
     * [Test Accounts](archived-obsolete/harmony-docs-archives/betanet/developer-1.md)
+  * [Devcon5](archived-obsolete/harmony-docs-archives/devcon5.md)
 
