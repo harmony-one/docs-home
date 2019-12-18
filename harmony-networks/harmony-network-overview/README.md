@@ -2,7 +2,7 @@
 
 ## Overview
 
-Harmony Currently Supports two networks.
+Harmony currently supports two networks.
 
 ### Harmony Mainnet
 
