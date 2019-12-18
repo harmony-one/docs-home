@@ -7,9 +7,7 @@
 
 * [Harmony Network Overview](harmony-networks/harmony-network-overview/README.md)
   * [Mainnet](harmony-networks/harmony-network-overview/mainnet.md)
-  * [Pangaea](harmony-networks/harmony-network-overview/pangaea.md)
-  * [Testnet](harmony-networks/harmony-network-overview/betanet/README.md)
-    * [Test Accounts](harmony-networks/harmony-network-overview/betanet/developer-1.md)
+  * [Testnet/Pangaea](harmony-networks/harmony-network-overview/testnet-pangaea.md)
 * [Connecting to the Harmony Network](harmony-networks/connecting-to-the-harmony-network/README.md)
   * [Non-validating Nodes](harmony-networks/connecting-to-the-harmony-network/non-validating-nodes.md)
 
@@ -94,4 +92,10 @@
 ## Open Staking Guide
 
 * [Using Ledger For Sending Tokens & Staking](open-staking-guide/ledger-staking-guide.md)
+
+## Archived/Obsolete
+
+* [Harmony Docs Archives](archived-obsolete/harmony-docs-archives.md)
+* [Testnet](archived-obsolete/betanet/README.md)
+  * [Test Accounts](archived-obsolete/betanet/developer-1.md)
 
