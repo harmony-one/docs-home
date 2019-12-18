@@ -15,7 +15,7 @@
 
 ## Developers
 
-* [WHICH ONE ARE YOU](developers/which-one-are-you.md)
+* [Which ONE are you?](developers/which-one-are-you.md)
 * [Smart Contract Developer](developers/hrc/README.md)
   * [Smart Contract Development using Truffle](developers/hrc/smart-contract-development-using-truffle.md)
   * [Sample Files](developers/hrc/sample-files.md)
@@ -71,15 +71,15 @@
     * [hmy\_isBlockSigner](api/methods/staking-related-methods/hmy_isblocksigner.md)
     * [hmy\_getBlockSigners](api/methods/staking-related-methods/hmy_getblocksigners.md)
     * [hmy\_getValidatorStakingWithDelegation](api/methods/staking-related-methods/hmy_getvalidatorstakingwithdelegation.md)
-* [Wallet Overview](api/math-wallet/README.md)
-  * [Ledger Nano S](api/math-wallet/ledger-nano-s/README.md)
-    * [Install Harmony App for Ledger Nano S](api/math-wallet/ledger-nano-s/install-harmony-app-for-ledger-nano-s.md)
-    * [Ledger Nano S Hardware Wallet Guide](api/math-wallet/ledger-nano-s/ledger-nano-s-hardware-wallet-guide-1.md)
-    * [Ledger Nano S Firmware Usage Manual](api/math-wallet/ledger-nano-s/ledger-nano-s-firmware-usage-manual.md)
-  * [Math Wallet](api/math-wallet/mathwallet/README.md)
-    * [Setup](api/math-wallet/mathwallet/setup.md)
-    * [How to Send Transactions](api/math-wallet/mathwallet/making-transactions.md)
-  * [SafePal](api/math-wallet/safepal.md)
+* [Wallet Overview](api/wallets/README.md)
+  * [Ledger Nano S](api/wallets/ledger-nano-s/README.md)
+    * [Install Harmony App for Ledger Nano S](api/wallets/ledger-nano-s/install-harmony-app-for-ledger-nano-s.md)
+    * [Ledger Nano S Hardware Wallet Guide](api/wallets/ledger-nano-s/ledger-nano-s-hardware-wallet-guide-1.md)
+    * [Ledger Nano S Firmware Usage Manual](api/wallets/ledger-nano-s/ledger-nano-s-firmware-usage-manual.md)
+  * [Math Wallet](api/wallets/mathwallet/README.md)
+    * [Setup](api/wallets/mathwallet/setup.md)
+    * [How to Send Transactions](api/wallets/mathwallet/making-transactions.md)
+  * [SafePal](api/wallets/safepal.md)
 
 ## Command Line Interface
 
@@ -93,5 +93,5 @@
 
 ## Open Staking Guide
 
-* [Ledger Staking Testing](open-staking-guide/ledger-staking-testing.md)
+* [Using Ledger For Sending Tokens & Staking](open-staking-guide/ledger-staking-guide.md)
 

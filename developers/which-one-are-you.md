@@ -1,4 +1,4 @@
-# WHICH ONE ARE YOU
+# Which ONE are you?
 
 ## Overview
 
