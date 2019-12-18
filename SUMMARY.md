@@ -5,7 +5,7 @@
 
 ## Harmony Networks
 
-* [Harmony Network Overview](harmony-networks/harmony-network-overview/README.md)
+* [Overview](harmony-networks/harmony-network-overview/README.md)
   * [Mainnet](harmony-networks/harmony-network-overview/mainnet.md)
   * [Testnet/Pangaea](harmony-networks/harmony-network-overview/testnet-pangaea.md)
 * [Connecting to the Harmony Network](harmony-networks/connecting-to-the-harmony-network/README.md)
