@@ -7,8 +7,6 @@
 * [Overview](harmony-networks/harmony-network-overview/README.md)
   * [Mainnet](harmony-networks/harmony-network-overview/mainnet.md)
   * [Testnet/Pangaea](harmony-networks/harmony-network-overview/testnet-pangaea.md)
-* [Connecting to the Harmony Network](harmony-networks/connecting-to-the-harmony-network/README.md)
-  * [Non-validating Nodes](harmony-networks/connecting-to-the-harmony-network/non-validating-nodes.md)
 
 ## Developers
 
@@ -98,4 +96,5 @@
   * [Testnet](archived-obsolete/harmony-docs-archives/betanet/README.md)
     * [Test Accounts](archived-obsolete/harmony-docs-archives/betanet/developer-1.md)
   * [Devcon5](archived-obsolete/harmony-docs-archives/devcon5.md)
+  * [Non-validating Nodes](archived-obsolete/harmony-docs-archives/non-validating-nodes.md)
 
