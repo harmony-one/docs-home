@@ -81,15 +81,6 @@
     * [hmy\_isBlockSigner](api/methods/staking-related-methods/hmy_isblocksigner.md)
     * [hmy\_getBlockSigners](api/methods/staking-related-methods/hmy_getblocksigners.md)
     * [hmy\_getValidatorStakingWithDelegation](api/methods/staking-related-methods/hmy_getvalidatorstakingwithdelegation.md)
-* [Wallet Overview](api/wallets/README.md)
-  * [Ledger Nano S](api/wallets/ledger-nano-s/README.md)
-    * [Install Harmony App for Ledger Nano S](api/wallets/ledger-nano-s/install-harmony-app-for-ledger-nano-s.md)
-    * [Ledger Nano S Hardware Wallet Guide](api/wallets/ledger-nano-s/ledger-nano-s-hardware-wallet-guide-1.md)
-    * [Ledger Nano S Firmware Usage Manual](api/wallets/ledger-nano-s/ledger-nano-s-firmware-usage-manual.md)
-  * [Math Wallet](api/wallets/mathwallet/README.md)
-    * [Setup](api/wallets/mathwallet/setup.md)
-    * [How to Send Transactions](api/wallets/mathwallet/making-transactions.md)
-  * [SafePal](api/wallets/safepal.md)
 
 ## Command Line Interface
 
@@ -112,4 +103,16 @@
     * [Test Accounts](archived-obsolete/harmony-docs-archives/betanet/developer-1.md)
   * [Devcon5](archived-obsolete/harmony-docs-archives/devcon5.md)
   * [Non-validating Nodes](archived-obsolete/harmony-docs-archives/non-validating-nodes.md)
+
+## USER GUIDE
+
+* [Wallet Overview](user-guide/wallets/README.md)
+  * [Ledger Nano S](user-guide/wallets/ledger-nano-s/README.md)
+    * [Install Harmony App for Ledger Nano S](user-guide/wallets/ledger-nano-s/install-harmony-app-for-ledger-nano-s.md)
+    * [Ledger Nano S Hardware Wallet Guide](user-guide/wallets/ledger-nano-s/ledger-nano-s-hardware-wallet-guide-1.md)
+    * [Ledger Nano S Firmware Usage Manual](user-guide/wallets/ledger-nano-s/ledger-nano-s-firmware-usage-manual.md)
+  * [Math Wallet](user-guide/wallets/mathwallet/README.md)
+    * [Setup](user-guide/wallets/mathwallet/setup.md)
+    * [How to Send Transactions](user-guide/wallets/mathwallet/making-transactions.md)
+  * [SafePal](user-guide/wallets/safepal.md)
 
