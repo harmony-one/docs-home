@@ -7,6 +7,21 @@
 * [Overview](harmony-networks/harmony-network-overview/README.md)
   * [Mainnet](harmony-networks/harmony-network-overview/mainnet.md)
   * [Testnet/Pangaea](harmony-networks/harmony-network-overview/testnet-pangaea.md)
+* [Wallet guides](harmony-networks/wallet-guides.md)
+
+## Wallet guides
+
+* [Harmony CLI](wallet-guides/harmony-cli/README.md)
+  * [Download, setup, create account](wallet-guides/harmony-cli/download-setup-create-account.md)
+  * [Send tx](wallet-guides/harmony-cli/send-tx.md)
+  * [Querying balance](wallet-guides/harmony-cli/querying-balance.md)
+  * [Querying the blockchain](wallet-guides/harmony-cli/querying-the-blockchain.md)
+  * [Key management](wallet-guides/harmony-cli/key-management.md)
+  * [Other CLI reference](wallet-guides/harmony-cli/other-cli-reference.md)
+* [Trustwallet](wallet-guides/trustwallet.md)
+* [Mathwallet](wallet-guides/mathwallet.md)
+* [Ledger](wallet-guides/ledger.md)
+* [Safepal](wallet-guides/safepal.md)
 
 ## Developers
 
