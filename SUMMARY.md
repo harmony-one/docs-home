@@ -112,7 +112,6 @@
 
 * [Wallet Overview](user-guide/wallets/README.md)
   * [Ledger Nano S](user-guide/wallets/ledger-nano-s/README.md)
-    * [Install Harmony App for Ledger Nano S](user-guide/wallets/ledger-nano-s/install-harmony-app-for-ledger-nano-s.md)
     * [Ledger Nano S Hardware Wallet Guide](user-guide/wallets/ledger-nano-s/ledger-nano-s-hardware-wallet-guide-1.md)
     * [Ledger Nano S Firmware Usage Manual](user-guide/wallets/ledger-nano-s/ledger-nano-s-firmware-usage-manual.md)
   * [Math Wallet](user-guide/wallets/mathwallet/README.md)
