@@ -4,16 +4,6 @@ description: The Harmony CLI tool is used to interact with the Harmony blockchai
 
 # Download and setup
 
-## Introduction
-
-`hmy` is the official CLI provided by Harmony. You can use it as a local wallet and as a way to interact with your `Ledger Nano` device. Completely open-source, you can track its development and post any issues encountered and your feature suggestions [here](https://github.com/harmony-one/go-sdk).
-
-{% hint style="info" %}
-Be sure to include the output of `$ hmy version` in your bug reports and preferably include the additional output printed when the environment variable HMY\_ALL\_DEBUG is set to true, like so:
-
-`$ HMY_ALL_DEBUG=true hmy transfer ...`
-{% endhint %}
-
 ## Download Harmony CLI tool
 
 #### 1. For Linux \(pure statically linked binary\)
