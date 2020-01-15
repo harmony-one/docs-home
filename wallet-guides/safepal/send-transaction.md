@@ -4,7 +4,7 @@
 
 Step 1：Enter 'Send' segment in SafePal App and select ONE coin.
 
-![](../../.gitbook/assets/image%20%2818%29.png)
+![](../../.gitbook/assets/image%20%2820%29.png)
 
 Step 2：Input receive address by pasting the address or scanning the QR code. Enter all transfer details - amount, fee level and don't forget to select the shard number.
 

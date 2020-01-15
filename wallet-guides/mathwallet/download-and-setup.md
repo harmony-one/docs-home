@@ -22,7 +22,7 @@ Open the extension in your browser and create new password as it asks.
 
 Select Harmony wallet from the list of networks.
 
-![](../../.gitbook/assets/image%20%2819%29.png)
+![](../../.gitbook/assets/image%20%2821%29.png)
 
 
 
