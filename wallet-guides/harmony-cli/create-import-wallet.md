@@ -1,30 +1,21 @@
 # Creating new wallet/importing wallet
 
-## New wallet creation
-
-
+## New Wallet Creation
 
 Creation of a new account is done as a function of a generated `bip39` mnemonic with 256 bits of entropy. You must provide an account alias name.
 
 ```text
-$ hmy keys add example-account
-**Important** write this seed phrase in a safe place, it is the only way to recover your account if you ever forget your password
-
-already memory moral any much letter forum odor never vintage text judge apology manual oyster double dragon barely rain supply sunset more donate afford
+./hmy keys add account-name1
 ```
 
-This creates a keystore at `$(hmy keys location)/example-account/TC--2019-09-16T21-25-35.297331000Z--678e7ea3dcb5f4e9724c0e761843572f10c49b73` with a default passphrase of an empty string. The passphrase is used to decrypt the keystore when signing transactions. In case you want to use an alternative passphrase, invoke instead:
+This creates a keystore at `$(hmy keys location)/account-name1/UTC--2019-09-16T21-25-35.297331000Z--678e7ea3dcb5f4e9724c0e761843572f10c49b73` with a default passphrase of an empty string. The passphrase is used to decrypt the keystore when signing transactions. In case you want to use an alternative passphrase, invoke instead:
 
 ```text
-$ hmy keys add example-account2 --passphrase
-Enter passphrase for account
-Repeat the passphrase:
+./hmy keys add account-name2 --passphrase
 ```
 
 When creating keys this way, `hmy` will ask you to provide a passphrase.‌ The example-account is just a name you can pick, so pick something simple.  
 Make sure you keep track of this passphrase for future use because the passphrase is used to decrypt the keystore when signing transactions. Also make sure you save the seed phrase.
-
-
 
 To know where your wallet file has been created, just run the following command:
 
@@ -38,13 +29,9 @@ You can check the list of wallets \(local accounts\) with the following command:
 
 ```text
 ./hmy keys list
-NAME                                  ADDRESS
-
-acc3                                  one1wh4p0kuc7unxez2z8f82zfnhsg4ty6dupqyjt2
-example-account                       one1658znfwf40epvy7e46cqrmzyy54
 ```
 
-## Importing wallet
+## Importing a Wallet
 
 ### Importing an existing keystore <a id="importing-an-existing-keystore"></a>
 
@@ -62,8 +49,7 @@ Imported keystore given account alias of `lecture-imported`
 NOTE: you can also just move the one16qsd5ant9v94jrs89mruzx62h7ekcfxmduh2rx.key file into the directory where your `hmy` is, then use the command as follows:
 
 ```text
-$ hmy keys import one16qsd5ant9v94jrs89mruzx62h7ekcfxmduh2rx.key 
-Imported keystore given account alias of `lecture-imported`
+./hmy keys import one16qsd5ant9v94jrs89mruzx62h7ekcfxmduh2rx.key 
 ```
 
 ### Importing an existing private key <a id="importing-an-existing-private-key"></a>
@@ -71,16 +57,18 @@ Imported keystore given account alias of `lecture-imported`
 Sometimes you might have a secp256k1 private key, such as the one generated from the following command:
 
 ```text
-$ openssl ecparam -genkey -name secp256k1 -text -noout -outform DER | xxd -p -c 1000 | sed 's/41534e31204f49443a20736563703235366b310a30740201010420/PrivKey: /' | sed 's/a00706052b8104000aa144034200/\'$'\nPubKey: /'
+openssl ecparam -genkey -name secp256k1 -text -noout -outform DER | xxd -p -c 1000 | sed 's/41534e31204f49443a20736563703235366b310a30740201010420/PrivKey: /' | sed 's/a00706052b8104000aa144034200/\'$'\nPubKey: /'
 ```
 
 You can import the key with an optional name and passphrase. For example:
 
 ```text
-$ hmy keys import-private-key b8798ca0a56ce16517ea37c6b1229cbb67cf0e022c423b044fe8f537830d8be5 my_wallet_name_here --passphrase myDesiredPassword
+./hmy keys import-private-key b8798ca0a56ce16517ea37c6b1229cbb67cf0e022c423b044fe8f537830d8be5 my_wallet_name_here --passphrase myDesiredPassword
 ```
 
-For clarity, here is the usage \(argument order matters\): `hmy keys import-private-key <secp256k1_PRIVATE_KEY> [ACCOUNT_NAME] [flags]`‌
+For clarity, here is the usage \(argument order matters\): 
+
+`./hmy keys import-private-key <secp256k1_PRIVATE_KEY> [ACCOUNT_NAME] [flags]`‌
 
 If no account name is provided, a random word concatenated with `-imported` will be used. If no passphrase is provided, the default passphrase will be used \(which is blank\). Note that the CLI currently only supports importing secp256k1 private keys.
 
@@ -90,8 +78,5 @@ You can recover lost wallet keys by entering the mnemonic words you received \(a
 
 ```text
 ./hmy keys add nameofyourkey --recover
-Enter mnemonic to recover keys from:
-(Enter your mnemonic words here then press enter)
-
 ```
 
