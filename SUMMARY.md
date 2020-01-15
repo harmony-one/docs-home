@@ -26,7 +26,7 @@
   * [Send transaction](wallet-guides/mathwallet/send-transaction.md)
 * [Ledger](wallet-guides/ledger/README.md)
   * [Install and Setup](wallet-guides/ledger/install-and-setup.md)
-  * [Signing Transactions](wallet-guides/ledger/signing-transactions.md)
+  * [Ledger Nano S Wallet User Guide](wallet-guides/ledger/signing-transactions.md)
   * [Staking with Ledger](wallet-guides/ledger/staking-with-ledger.md)
 * [Safepal](wallet-guides/safepal/README.md)
   * [Download & setup](wallet-guides/safepal/download-and-setup.md)
