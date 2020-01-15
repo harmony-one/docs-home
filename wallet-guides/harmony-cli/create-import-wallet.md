@@ -11,12 +11,6 @@ Creation of a new account is done as a function of a generated `bip39` mnemonic 
 This creates a keystore at `$(hmy keys location)/account-name1/UTC--2019-09-16T21-25-35.297331000Z--678e7ea3dcb5f4e9724c0e761843572f10c49b73` with a default passphrase of an empty string. The passphrase is used to decrypt the keystore when signing transactions. In case you want to use an alternative passphrase, invoke instead:
 
 ```text
-./hmy keys add example-account2 --passphrase
-Enter passphrase for account
-Repeat the passphrase:
-```
-
-```text
 ./hmy keys add account-name2 --passphrase
 ```
 
@@ -45,19 +39,14 @@ You can check the list of wallets \(local accounts\) with the following command:
 
 ```text
 $ # Note that the shell variable p is an absolute path.
-p='/Users/edgar/Repos/harmony-work/src/github.com/harmony-one/harmony/.hmy/keystore/one16qsd5ant9v94jrs89mruzx62h7ekcfxmduh2rx.key'
-./hmy keys import ${p}
+$ p='/Users/edgar/Repos/harmony-work/src/github.com/harmony-one/harmony/.hmy/keystore/one16qsd5ant9v94jrs89mruzx62h7ekcfxmduh2rx.key'
+$ hmy keys import ${p}
 Imported keystore given account alias of `lecture-imported`
 ```
 
 ‌Keep in mind that you should know the passphrase associated with the imported keystore. For keystores created by Harmony's `wallet.sh`, the default passphrase is an empty string; this matters for signing transactions.‌
 
 NOTE: you can also just move the one16qsd5ant9v94jrs89mruzx62h7ekcfxmduh2rx.key file into the directory where your `hmy` is, then use the command as follows:
-
-```text
-./hmy keys import one16qsd5ant9v94jrs89mruzx62h7ekcfxmduh2rx.key 
-Imported keystore given account alias of `lecture-imported`
-```
 
 ```text
 ./hmy keys import one16qsd5ant9v94jrs89mruzx62h7ekcfxmduh2rx.key 
@@ -71,15 +60,7 @@ Sometimes you might have a secp256k1 private key, such as the one generated from
 openssl ecparam -genkey -name secp256k1 -text -noout -outform DER | xxd -p -c 1000 | sed 's/41534e31204f49443a20736563703235366b310a30740201010420/PrivKey: /' | sed 's/a00706052b8104000aa144034200/\'$'\nPubKey: /'
 ```
 
-```text
-openssl ecparam -genkey -name secp256k1 -text -noout -outform DER | xxd -p -c 1000 | sed 's/41534e31204f49443a20736563703235366b310a30740201010420/PrivKey: /' | sed 's/a00706052b8104000aa144034200/\'$'\nPubKey: /'
-```
-
 You can import the key with an optional name and passphrase. For example:
-
-```text
-./hmy keys import-private-key b8798ca0a56ce16517ea37c6b1229cbb67cf0e022c423b044fe8f537830d8be5 my_wallet_name_here --passphrase myDesiredPassword
-```
 
 ```text
 ./hmy keys import-private-key b8798ca0a56ce16517ea37c6b1229cbb67cf0e022c423b044fe8f537830d8be5 my_wallet_name_here --passphrase myDesiredPassword

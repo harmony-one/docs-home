@@ -96,15 +96,6 @@
 ## Archived/Obsolete
 
 * [Harmony Docs Archives](archived-obsolete/harmony-docs-archives/README.md)
-  * [Wallet Overview](archived-obsolete/harmony-docs-archives/wallets/README.md)
-    * [Ledger Nano S](archived-obsolete/harmony-docs-archives/wallets/ledger-nano-s/README.md)
-      * [Install Harmony App for Ledger Nano S](archived-obsolete/harmony-docs-archives/wallets/ledger-nano-s/install-harmony-app-for-ledger-nano-s.md)
-      * [Ledger Nano S Hardware Wallet Guide](archived-obsolete/harmony-docs-archives/wallets/ledger-nano-s/ledger-nano-s-hardware-wallet-guide-1.md)
-      * [Ledger Nano S Firmware Usage Manual](archived-obsolete/harmony-docs-archives/wallets/ledger-nano-s/ledger-nano-s-firmware-usage-manual.md)
-    * [Math Wallet](archived-obsolete/harmony-docs-archives/wallets/mathwallet/README.md)
-      * [Setup](archived-obsolete/harmony-docs-archives/wallets/mathwallet/setup.md)
-      * [How to Send Transactions](archived-obsolete/harmony-docs-archives/wallets/mathwallet/making-transactions.md)
-    * [SafePal](archived-obsolete/harmony-docs-archives/wallets/safepal.md)
   * [Testnet](archived-obsolete/harmony-docs-archives/betanet/README.md)
     * [Test Accounts](archived-obsolete/harmony-docs-archives/betanet/developer-1.md)
   * [Devcon5](archived-obsolete/harmony-docs-archives/devcon5.md)
@@ -116,4 +107,16 @@
     * [Creating, sending transactions](archived-obsolete/harmony-docs-archives/using-the-harmony-cli-tool/creating-sending-transactions.md)
     * [Querying the blockchain](archived-obsolete/harmony-docs-archives/using-the-harmony-cli-tool/querying-the-blockchain.md)
     * [Full CLI Reference](archived-obsolete/harmony-docs-archives/using-the-harmony-cli-tool/full-cli-reference.md)
+
+## USER GUIDE
+
+* [Wallet Overview](user-guide/wallets/README.md)
+  * [Ledger Nano S](user-guide/wallets/ledger-nano-s/README.md)
+    * [Install Harmony App for Ledger Nano S](user-guide/wallets/ledger-nano-s/install-harmony-app-for-ledger-nano-s.md)
+    * [Ledger Nano S Hardware Wallet Guide](user-guide/wallets/ledger-nano-s/ledger-nano-s-hardware-wallet-guide-1.md)
+    * [Ledger Nano S Firmware Usage Manual](user-guide/wallets/ledger-nano-s/ledger-nano-s-firmware-usage-manual.md)
+  * [Math Wallet](user-guide/wallets/mathwallet/README.md)
+    * [Setup](user-guide/wallets/mathwallet/setup.md)
+    * [How to Send Transactions](user-guide/wallets/mathwallet/making-transactions.md)
+  * [SafePal](user-guide/wallets/safepal.md)
 
