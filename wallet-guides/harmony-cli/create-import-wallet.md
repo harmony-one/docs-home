@@ -46,13 +46,9 @@ example-account                       one1658znfwf40epvy7e46cqrmzyy54
 
 ## Importing wallet
 
-
-
 ### Importing an existing keystore <a id="importing-an-existing-keystore"></a>
 
-‌
-
-Sometimes you might have an existing keystore such as keys made by Harmony's `wallet.sh` program. An example:
+‌Sometimes you might have an existing keystore such as keys made by Harmony's `wallet.sh` program. An example:
 
 ```text
 $ # Note that the shell variable p is an absolute path.
@@ -69,8 +65,6 @@ NOTE: you can also just move the one16qsd5ant9v94jrs89mruzx62h7ekcfxmduh2rx.key 
 $ hmy keys import one16qsd5ant9v94jrs89mruzx62h7ekcfxmduh2rx.key 
 Imported keystore given account alias of `lecture-imported`
 ```
-
-###  <a id="importing-an-existing-private-key"></a>
 
 ### Importing an existing private key <a id="importing-an-existing-private-key"></a>
 
@@ -89,8 +83,6 @@ $ hmy keys import-private-key b8798ca0a56ce16517ea37c6b1229cbb67cf0e022c423b044f
 For clarity, here is the usage \(argument order matters\): `hmy keys import-private-key <secp256k1_PRIVATE_KEY> [ACCOUNT_NAME] [flags]`‌
 
 If no account name is provided, a random word concatenated with `-imported` will be used. If no passphrase is provided, the default passphrase will be used \(which is blank\). Note that the CLI currently only supports importing secp256k1 private keys.
-
-
 
 ## Recovering a wallet key
 
