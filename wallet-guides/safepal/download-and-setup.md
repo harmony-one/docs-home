@@ -8,6 +8,8 @@ description: Download and setup Safepal Hardware Wallet
 
 SafePal mobile apps can be downloaded from PlayStore and AppStore following the instructions[ here](https://safepal.io/download).
 
+![](../../.gitbook/assets/image%20%286%29.png)
+
 ### Quick Start
 
 Please make sure your SafePal is the latest by following the instructions [here](https://safepal.io/upgrade).

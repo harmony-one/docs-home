@@ -31,7 +31,7 @@ Depending on your needs, you may need to make transactions on a network other th
 
 In the toolbar at the top of the page, there is a drop down menu which defaults to **Harmony** where you can specify which network you wish to operate on.
 
-![](../../.gitbook/assets/image%20%286%29.png)
+![](../../.gitbook/assets/image%20%287%29.png)
 
 * **Harmony** connects to Harmony's mainnet.
 * **Pangaea** connects to [Pangaea, an experimental game designed to test certain aspects of the Harmony network](https://docs.harmony.one/pangaea/).
