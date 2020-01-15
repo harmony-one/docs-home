@@ -132,7 +132,7 @@ $ sudo LD_LIBRARY_PATH=lib ./hmy transfer --ledger --node=[server_addr] \
 
 An example transfer is shown below:
 
-![](../../../.gitbook/assets/image.png)
+![](../../../.gitbook/assets/image%20%281%29.png)
 
 Please note that you will need to unlock Ledger Nano S, and confirm the transaction parameters on Ledger Nano S.
 

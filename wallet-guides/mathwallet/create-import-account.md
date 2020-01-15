@@ -6,7 +6,7 @@ description: >-
 
 # Create/import account
 
-![](../../.gitbook/assets/image%20%284%29.png)
+![](../../.gitbook/assets/image%20%285%29.png)
 
 {% hint style="info" %}
 For more details regarding wallet creation outside of Math Wallet, please refer to our guide on "Wallet Guides"
