@@ -62,7 +62,7 @@ Notice that simply invoking the `transfer` subcommand gave us an error message a
 * `to`: Receivers one address
 * `to-shard`: Shard in which receiver will receive the amount sent by the sender
 
-A sharded blockchain is new, special kind of blockchain where the whole network is partitioned between mutally exclusive shards. Sharding is one of the distinguishing features of Harmony and it is key to solving the tranditional scalability problems found in other blockchain protocols. Note that **a one address may and often does have a different balance in each shard**; currently mainnet has four shards while testnet assumes two shards; sending a transaction from one shard to another is called a _\*\*"cross-shard" transaction._
+A sharded blockchain is new, special kind of blockchain where the whole network is partitioned between mutually exclusive shards. Sharding is one of the distinguishing features of Harmony and it is key to solving the tranditional scalability problems found in other blockchain protocols. Note that **a one address may and often does have a different balance in each shard**; currently mainnet has four shards while testnet assumes three shards; sending a transaction from one shard to another is called a _\*\*"cross-shard" transaction._
 
 Thus, a correct usage of `transfer` looks like:
 
@@ -76,9 +76,7 @@ The `\` is just a way to break lines in the shell, used in this example to make 
 
 1. `hmy` assumes that the private keys needed for signing the transaction on behalf
 
-   of the sender \(`one1yc06ghr2p8xnl2380kpfayweguuhxdtupkhqzw` in this example\) exist
-
-   in the local keystore or in the hardware wallet if the `--ledger` flag was used.
+   of the sender \(`one1yc06ghr2p8xnl2380kpfayweguuhxdtupkhqzw` in this example\) exist in the local keystore or in the hardware wallet if the `--ledger` flag was used.
 
 2. Although the sender's account may have enough of a balance across all shards, the relevant balance is the balance amount of the sender's account in the _from-shard_. In our example,`one1yc06ghr2p8xnl2380kpfayweguuhxdtupkhqzw` must have an amount balance of at least 10 in shard 0.
 
@@ -90,7 +88,9 @@ Signing and sending the transaction is very quick, about two seconds maximum. Th
 
 Once a `RPC` machine receives a transaction, it sends us back a transaction hash. This transaction hash is the key identifier we use when querying the blockchain about transactions.
 
-PROTIP: Simply having a transaction hash does NOT imply that the transaction was successfully accepted by the blockchain. A transaction is successfully accepted once it has been added to the blockchain, in the case of cross-shard transactions \(when the from-shard, to-shard values are different\), this means each shard has added the transaction to their blockchain.
+{% hint style="success" %}
+**PROTIP:** Simply having a transaction hash does NOT imply that the transaction was successfully accepted by the blockchain. A transaction is successfully accepted once it has been added to the blockchain, in the case of cross-shard transactions \(when the from-shard, to-shard values are different\), this means each shard has added the transaction to their blockchain.
+{% endhint %}
 
 We can pull down details of the finalized transaction with `hmy` as well, an example:
 
@@ -102,11 +102,8 @@ $ ./hmy --node="https://api.s0.t.hmny.io" \
 
 Keep in mind two key points:
 
-1. If the transaction has not finalized then the `"result"` key in the `JSON` output will have
-
-   value of `null`.
-
+1. If the transaction has not finalized then the `"result"` key in the `JSON` output will have value of `null`.
 2. You should set the value of `--node` to the same shard that sent the transaction, notice that the URL we used, `https://api.s0.t.hmny.io` contained `s0`, this means that this URL is targeting shard 0.
 
-You can tell `hmy` to wait until transaction confirmation by providing a positve integer value to flag `--wait-for-confirm`. For example, `--wait-for-confirm=10` will try checking the receipt of the transaction for 10 seconds.
+You can tell `hmy` to wait until transaction confirmation by providing a positive integer value to flag `--wait-for-confirm`. For example, `--wait-for-confirm=10` will try checking the receipt of the transaction for 10 seconds.
 
