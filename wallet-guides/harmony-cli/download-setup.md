@@ -9,7 +9,7 @@ description: The Harmony CLI tool is used to interact with the Harmony blockchai
 `HMY` depends on some dynamic libraries, hence we recommend using the following shell wrapper:
 
 ```text
-curl -O https://raw.githubusercontent.com/harmony-one/go-sdk/master/scripts/hmy.sh
+curl -O https://raw.githubusercontent.com/harmony-one/go-sdk/master/scripts/hmy.sh > hmy.sh
 chmod u+x hmy.sh
 ./hmy.sh -d
 ```
