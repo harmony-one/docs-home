@@ -50,15 +50,15 @@ During this process,  you will see some warning messages displayed. Read through
 
 On the Ledger Nano S LCD screen, there will be a new icon for Harmony App : One.  To open the Harmony app, please click both the left and right button on top of the Ledger Nano S. A series will messages will be displayed including "This app is not genune" \(as it is a developer edition, not formal app from Ledger Live\).  Click the right button until you see "Open Application",  then click both left and right button to open the Harmony app. 
 
-![](../../.gitbook/assets/image%20%2827%29.png)
+![](../../.gitbook/assets/image%20%2831%29.png)
 
-![](../../.gitbook/assets/image%20%2814%29.png)
+![](../../.gitbook/assets/image%20%2817%29.png)
 
-![](../../.gitbook/assets/image%20%2829%29.png)
+![](../../.gitbook/assets/image%20%2833%29.png)
 
 Once the application is opened, it will show "Waiting for commands..." in the LCD screen. This means Ledger Nano S is ready for accept commands and sign transactions from the host.
 
-![](../../.gitbook/assets/image%20%2811%29.png)
+![](../../.gitbook/assets/image%20%2814%29.png)
 
 ## Functionality of Harmony Ledger Nano S App
 
@@ -95,17 +95,17 @@ $ sudo LD_LIBRARY_PATH=lib ./hmy keys list --ledger
 
 An example session is shown below. Please note that you will have to confirm the address displayed on Ledger Nano S LED screen.
 
-![](../../.gitbook/assets/image%20%286%29.png)
+![](../../.gitbook/assets/image%20%288%29.png)
 
 After running the keys command with --ledger option, the following GUI will be displayed on Ledger Nano S LED screen:
 
 ## Display the Harmony ONE address for Ledger Nano S
 
-![](../../.gitbook/assets/image%20%2816%29.png)
+![](../../.gitbook/assets/image%20%2819%29.png)
 
 There are two buttons on top of Ledger Nano, click the right one to continue \(or click the left one to cancel\). After that, the following address will be shown on Ledger Nano S LED screen:‌
 
-![](../../.gitbook/assets/image%20%287%29.png)
+![](../../.gitbook/assets/image%20%2810%29.png)
 
 As the address is longer than the LED screen, you can use the top two button to shift the address display to the left or side right side. Click both buttons to confirm the address and it should be same as displayed on PC/Mac terminal.‌
 
@@ -137,7 +137,7 @@ $ LD_LIBRARY_PATH=lib ./hmy balance --node="https://api.s0.b.hmny.io" [address]
 
 An example session is shown below. Please note that **sudo** permission is not required to query balance as it doesn't require USB operation.
 
-![](../../.gitbook/assets/image.png)
+![](../../.gitbook/assets/image%20%282%29.png)
 
 ## Token transfer using Ledger Nano S
 
@@ -156,7 +156,7 @@ $ sudo LD_LIBRARY_PATH=lib ./hmy transfer --ledger --node=[server_addr] \
 
 An example transfer is shown below:
 
-![](../../.gitbook/assets/image%20%2813%29.png)
+![](../../.gitbook/assets/image%20%2816%29.png)
 
 Please note that you will need to unlock Ledger Nano S, and confirm the transaction parameters on Ledger Nano S.
 
