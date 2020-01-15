@@ -36,7 +36,7 @@ Let's first check what chain-ids are available for us to use, we can do that eas
 
 [
   "mainnet",
-  "testnet"
+  "testnet",
   "devnet"
 ]
 ```
