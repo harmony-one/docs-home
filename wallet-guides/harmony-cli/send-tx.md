@@ -95,7 +95,7 @@ Once a `RPC` machine receives a transaction, it sends us back a transaction hash
 We can pull down details of the finalized transaction with `hmy` as well, an example:
 
 ```text
-$ ./hmy --node="https://api.s0.t.hmny.io" \
+./hmy --node="https://api.s0.t.hmny.io" \
     blockchain transaction-receipt \
     0x599793f313ee17566f8d09728b9d043b8e26135ddce86beeee13f98767d452f7
 ```
