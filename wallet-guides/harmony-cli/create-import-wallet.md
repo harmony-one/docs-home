@@ -5,13 +5,6 @@
 Creation of a new account is done as a function of a generated `bip39` mnemonic with 256 bits of entropy. You must provide an account alias name.
 
 ```text
-./hmy keys add example-account
-**Important** write this seed phrase in a safe place, it is the only way to recover your account if you ever forget your password
-
-already memory moral any much letter forum odor never vintage text judge apology manual oyster double dragon barely rain supply sunset more donate afford
-```
-
-```text
 ./hmy keys add account-name1
 ```
 
