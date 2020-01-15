@@ -67,7 +67,7 @@ $ sudo LD_LIBRARY_PATH=lib ./hmy keys list --ledger
 
 An example session is shown below. Please note that you will have to confirm the address displayed on Ledger Nano S LED screen.
 
-![](../../../.gitbook/assets/image-1.png)
+![](../../../../.gitbook/assets/image-1.png)
 
 After running the keys command with --ledger option, the following GUI will be displayed on Ledger Nano S LED screen:
 
@@ -132,7 +132,7 @@ $ sudo LD_LIBRARY_PATH=lib ./hmy transfer --ledger --node=[server_addr] \
 
 An example transfer is shown below:
 
-![](../../../.gitbook/assets/image%20%281%29.png)
+![](../../../../.gitbook/assets/image%20%281%29.png)
 
 Please note that you will need to unlock Ledger Nano S, and confirm the transaction parameters on Ledger Nano S.
 

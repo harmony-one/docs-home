@@ -6,15 +6,7 @@ description: The Harmony CLI tool is used to interact with the Harmony blockchai
 
 ## Download Harmony CLI tool
 
-#### 1. For Linux \(pure statically linked binary\)
-
-```text
-curl -LO https://harmony.one/hmycli && mv hmycli hmy && chmod +x hmy
-```
-
-#### 2. For MacOSX \(dynamically linked binary\)
-
-`hmy` depends on some dynamic libraries, hence we recommend using the following shell wrapper
+`HMY` depends on some dynamic libraries, hence we recommend using the following shell wrapper:
 
 ```text
 curl -O https://raw.githubusercontent.com/harmony-one/go-sdk/master/scripts/hmy.sh
@@ -28,7 +20,7 @@ Now you can use `hmy.sh` as a wrapper over `hmy` and you should assume that all 
 Note that since `hmy` is not statically linked, you cannot arbitrarily move `hmy.sh` to anywhere on your filesystem like you could with a single binary.
 {% endhint %}
 
-#### 3. Compiling from source
+#### 3. Compiling from Source
 
 If you are interested in compiling from source, then the process is slightly more involved.
 
@@ -37,7 +29,7 @@ If you are interested in compiling from source, then the process is slightly mor
 1. Clone the [repo](https://github.com/harmony-one/go-sdk) at the same level as the main Harmony repo:
 
 ```text
-$  pwd
+$ pwd
 /Users/edgar/Repos/harmony-work/src/github.com/harmony-one
 $ ls
 bls     go-sdk  harmony mcl

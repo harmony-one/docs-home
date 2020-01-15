@@ -14,9 +14,9 @@
 
 **Harmony Explorer -** Harmony provides a blockchain explorer to review accounts, transactions, blocks, shards and node information, it can be found [here](https://explorer.harmony.one/#/).
 
-**Harmony Hardware Wallet Support -** Harmony partners with a number of hardware wallet providers, our recommended partner is [ledger](https://www.ledger.com/) and an overview of supported wallets can be found [here](../../../user-guide/wallets/).
+**Harmony Hardware Wallet Support -** Harmony partners with a number of hardware wallet providers, our recommended partner is [ledger](https://www.ledger.com/) and an overview of supported wallets can be found [here](../../../archived-obsolete/harmony-docs-archives/wallets/).
 
-**Harmony Light Wallet Solution -** Harmony is partnering with a number of light wallet solutions our recommended partner is math [wallet](https://www.mathwallet.org/en/) and an overview of supported wallets can be found [here](../../../user-guide/wallets/).
+**Harmony Light Wallet Solution -** Harmony is partnering with a number of light wallet solutions our recommended partner is math [wallet](https://www.mathwallet.org/en/) and an overview of supported wallets can be found [here](../../../archived-obsolete/harmony-docs-archives/wallets/).
 
 \*\*\*\*
 

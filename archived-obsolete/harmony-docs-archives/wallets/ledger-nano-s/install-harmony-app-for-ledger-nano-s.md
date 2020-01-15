@@ -50,15 +50,15 @@ During this process,  you will see some warning messages displayed. Read through
 
 On the Ledger Nano S LCD screen, there will be a new icon for Harmony App : One.  To open the Harmony app, please click both the left and right button on top of the Ledger Nano S. A series will messages will be displayed including "This app is not genune" \(as it is a developer edition, not formal app from Ledger Live\).  Click the right button until you see "Open Application",  then click both left and right button to open the Harmony app. 
 
-![](../../../.gitbook/assets/2%20%281%29.png)
+![](../../../../.gitbook/assets/2%20%281%29.png)
 
-![](../../../.gitbook/assets/1.png)
+![](../../../../.gitbook/assets/1.png)
 
-![](../../../.gitbook/assets/4.png)
+![](../../../../.gitbook/assets/4.png)
 
 Once the application is opened,  it will show "Waiting for commands..." in the LCD screen. This means Ledger Nano S is ready for accept commands and sign transactions from the host. 
 
-![](../../../.gitbook/assets/5.png)
+![](../../../../.gitbook/assets/5.png)
 
 ## Functionality of Harmony Ledger Nano S App
 
@@ -118,19 +118,19 @@ The LED display on Nano S is shown as below :‌
 
 Click the right button to start signing the transaction
 
-![](../../../.gitbook/assets/img_4188.jpeg)
+![](../../../../.gitbook/assets/img_4188.jpeg)
 
 Check the delegator address is correct by pressing left/right buttons. Once confirmed, you can press only the right button to continue: 
 
-![](../../../.gitbook/assets/img_4192.jpeg)
+![](../../../../.gitbook/assets/img_4192.jpeg)
 
 Check the delegate transaction amount is correct. Once confirmed, you can press only the right button to continue: 
 
-![](../../../.gitbook/assets/img_4194.jpeg)
+![](../../../../.gitbook/assets/img_4194.jpeg)
 
 At the last step, you will find the Sign Stake confirmation, press the right button if you want to sign it. Otherwise, you can press the left button to cancel the signing. 
 
-![](../../../.gitbook/assets/img_4196.jpeg)
+![](../../../../.gitbook/assets/img_4196.jpeg)
 
 The entire process is shown below:
 

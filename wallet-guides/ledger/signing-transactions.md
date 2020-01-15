@@ -14,7 +14,7 @@ Check and confirm the transfer to address is correct.
 
 Check and confirm the amount is correct.
 
-![](../../.gitbook/assets/image%20%2833%29.png)
+![](../../.gitbook/assets/image%20%2835%29.png)
 
 Check and confirm the source shard ID is correct.
 
