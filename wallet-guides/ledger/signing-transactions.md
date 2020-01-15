@@ -54,19 +54,19 @@ Here \[server\_address\] is the server address for either Mainnet or Testnet and
 **Query balance on Mainnet**
 
 ```text
-$./hmy.sh balances --node="https://api.s0.t.hmny.io" [address]
+./hmy.sh balances --node="https://api.s0.t.hmny.io" [address]
 ```
 
 ‌**Query balance on Devnet**
 
 ```text
-$./hmy.sh balances --node="https://api.s0.pga.hmny.io" [address]
+./hmy.sh balances --node="https://api.s0.pga.hmny.io" [address]
 ```
 
 ### Query balance on Testnet <a id="query-balance-on-betanet-testnet"></a>
 
 ```text
-$ ./hmy.sh balances --node="https://api.s0.b.hmny.io" [address]
+./hmy.sh balances --node="https://api.s0.b.hmny.io" [address]
 ```
 
 ## Token transfer using Ledger Nano S
