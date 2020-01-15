@@ -1,4 +1,4 @@
-# Smart Contract Developer
+# Smart Contracts
 
 ## Overview
 

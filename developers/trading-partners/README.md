@@ -1,4 +1,4 @@
-# Trading Partner
+# Trading Partners
 
 ## Becoming a Harmony ONE Trading Partner
 

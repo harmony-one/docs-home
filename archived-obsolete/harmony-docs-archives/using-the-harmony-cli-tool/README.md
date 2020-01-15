@@ -24,7 +24,7 @@ description: Interacting with the Harmony one blockchain
 
 For the impatient, use `hmy cookbook` to see the most common examples & proper arguments.
 
-![](../../.gitbook/assets/hmy-cookbook%20%281%29.gif)
+![](../../../.gitbook/assets/hmy-cookbook%20%281%29.gif)
 
 ## Introduction
 
