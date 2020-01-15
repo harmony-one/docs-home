@@ -20,7 +20,10 @@
   * [Key management](wallet-guides/harmony-cli/key-management.md)
   * [Other CLI reference](wallet-guides/harmony-cli/other-cli-reference.md)
 * [Trustwallet](wallet-guides/trustwallet.md)
-* [Mathwallet](wallet-guides/mathwallet.md)
+* [Mathwallet](wallet-guides/mathwallet/README.md)
+  * [Download & Setup](wallet-guides/mathwallet/download-and-setup.md)
+  * [Create/import account](wallet-guides/mathwallet/create-import-account.md)
+  * [Send transaction](wallet-guides/mathwallet/send-transaction.md)
 * [Ledger](wallet-guides/ledger.md)
 * [Safepal](wallet-guides/safepal.md)
 
