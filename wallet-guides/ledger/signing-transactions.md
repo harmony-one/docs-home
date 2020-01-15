@@ -1,4 +1,4 @@
-# Ledger Nano S Wallet User Guide
+# Ledger Nano S With CLI
 
 ## Get everything together
 
