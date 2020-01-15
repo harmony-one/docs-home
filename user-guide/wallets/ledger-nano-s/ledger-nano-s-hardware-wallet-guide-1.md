@@ -45,12 +45,8 @@ _Please use the_ [_following instructions_](https://docs.harmony.one/home/wallet
 As Ledger Nano S is connected to PC/Mac through USB, super user's permission is needed to open the USB. To use the Ledger Nano S hardware wallet, run harmony CLI **under sudo** and **\*\*use command** keys list --ledger\*\*
 
 ```text
-$ ./hmy.sh keys list --ledger
+./hmy.sh keys list --ledger
 ```
-
-An example session is shown below. Please note that you will have to confirm the address displayed on Ledger Nano S LED screen.
-
-![](../../../.gitbook/assets/image-1.png)
 
 After running the keys command with --ledger option, the following GUI will be displayed on Ledger Nano S LED screen:
 
@@ -71,42 +67,36 @@ The entire process is shown in video below:
 Balance on any Harmony wallet addresses can be displayed using CLI with command **balance** using the following command line options:
 
 ```text
-$ ./hmy.sh balance --node=[server_address] [address]
+$ ./hmy.sh balances --node=[server_address] [address]
 ```
 
-‌
-
-Here \[server\_address\] is the server address for either Mainnet or Betanet \(testnet\) and \[address\] is the Harmony wallet address.‌
+Here \[server\_address\] is the server address for either Mainnet or Testnet and \[address\] is the Harmony wallet address.‌
 
 **Query balance on Mainnet**
 
 ```text
-$./hmy.sh balance --node="https://api.s0.t.hmny.io" [address]
+$./hmy.sh balances --node="https://api.s0.t.hmny.io" [address]
 ```
 
 ‌**Query balance on Devnet**
 
 ```text
-$./hmy.sh balance --node="https://api.s0.pga.hmny.io" [address]
+$./hmy.sh balances --node="https://api.s0.pga.hmny.io" [address]
 ```
 
 ### Query balance on Testnet <a id="query-balance-on-betanet-testnet"></a>
 
 ```text
-$ ./hmy.sh balance --node="https://api.s0.b.hmny.io" [address]
+$ ./hmy.sh balances --node="https://api.s0.b.hmny.io" [address]
 ```
-
-An example session is shown below. Please note that **sudo** permission is not required to query balance as it doesn't require USB operation.
-
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LlYdMT-Wp5uYwcF_tMW%2F-Lp1RBqYpGIEBEHFW8oF%2F-Lp1Tzat-ni8WJquQr2m%2FScreenshot%20from%202019-09-17%2020-47-55.png?alt=media&token=23d2142c-5ba8-4f61-a119-242ec2b1212e)
 
 ## Token transfer using Ledger Nano S
 
 To send token from Ledger Nano S to another wallet account, we need Ledger Nano S hardware to sign the transaction with private key inside Ledger Nano S hardware. The CLI command **transfer --ledger** should be called with sudo permission:
 
 ```d
-$ ./hmy.sh transfer --ledger --node=[server_addr] \
-  --chain-id=[mainnet|testnet] --from [from_addr] --to [to_addr] --amount [value] \
+./hmy.sh transfer --ledger --node=[server_addr] \
+  --chain-id=[mainnet|testnet|devnet] --from [from_addr] --to [to_addr] --amount [value] \
   --from-shard [shard_id] --to-shard [shard_id]
 ```
 
@@ -114,8 +104,6 @@ $ ./hmy.sh transfer --ledger --node=[server_addr] \
 \[to\_addr\] is the receiver's wallet addresses.  
 \[value\] is the amount of ONE tokens to transfer.  
 \[shard\_id\] is a numeric value for shard ID, the value depends on Mainnet \(0,1,2,3\) or Betanet\(testnet\) \(0,1\).
-
-![](../../../.gitbook/assets/image%20%281%29.png)
 
 Please note that you will need to unlock Ledger Nano S, and confirm the transaction parameters on Ledger Nano S.
 
