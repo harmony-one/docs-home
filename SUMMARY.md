@@ -25,7 +25,10 @@
   * [Create/import account](wallet-guides/mathwallet/create-import-account.md)
   * [Send transaction](wallet-guides/mathwallet/send-transaction.md)
 * [Ledger](wallet-guides/ledger.md)
-* [Safepal](wallet-guides/safepal.md)
+* [Safepal](wallet-guides/safepal/README.md)
+  * [Download & setup](wallet-guides/safepal/download-and-setup.md)
+  * [Create/import account](wallet-guides/safepal/create-import-account.md)
+  * [Send transaction](wallet-guides/safepal/send-transaction.md)
 
 ## Developers
 
