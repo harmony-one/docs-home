@@ -1,10 +1,10 @@
 ---
 description: >-
   You can create a wallet through the extension, and also import your existing
-  wallet using your mnemonic or private key.
+  wallet using a mnemonic phrase or a private key.
 ---
 
-# Create/import account
+# Create/import wallet
 
 ![](../../.gitbook/assets/image%20%285%29.png)
 

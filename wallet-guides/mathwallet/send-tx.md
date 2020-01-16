@@ -2,7 +2,7 @@
 description: How to make a transaction and how to switch networks.
 ---
 
-# Send transaction
+# Sending transactions
 
 Transferring money with Math Wallet is simple and easy to do! Make sure you've set up your Math Wallet extension according to the directions in [Download & Setup](https://docs.harmony.one/home/wallet-guides/mathwallet/download-and-setup)
 

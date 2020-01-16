@@ -1,4 +1,4 @@
-# Creating new wallet/importing wallet
+# Create/import wallet
 
 ## New Wallet
 
@@ -11,7 +11,7 @@ Creation of a new account is done as a function of a generated `bip39` mnemonic 
 This creates a keystore at `$(hmy keys location)/account-name1/UTC--2019-09-16T21-25-35.297331000Z--678e7ea3dcb5f4e9724c0e761843572f10c49b73` with a default passphrase of an empty string. The passphrase is used to decrypt the keystore when signing transactions. In case you want to use an alternative passphrase, invoke instead:
 
 ```text
-./hmy keys add account-name2 --passphrase
+./hmy keys add account-name2 --use-own-passphrase
 ```
 
 When creating keys this way, `hmy` will ask you to provide a passphrase.‌ The account-name2 is just a name you can pick, so pick something simple.  
