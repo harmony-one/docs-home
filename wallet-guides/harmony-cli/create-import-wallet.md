@@ -35,22 +35,22 @@ You can check the list of wallets \(local accounts\) with the following command:
 
 ### Importing an existing keystore <a id="importing-an-existing-keystore"></a>
 
-‌Sometimes you might have an existing keystore such as keys made by Harmony's `wallet.sh` program. An example:
+‌Sometimes you might have an existing wallet made by Harmony's old `wallet.sh` program that ends with ".key" in the file name:
+
+ `one16qsd5ant9v94jrs89mruzx62h7ekcfxmduh2rx.key` 
+
+Or that starts with "UTC" in the file name:
+
+`UTC--2020-01-15T01-02-06.606670000Z--9689a0711642bf08ea92ed98d552f0c1b8c8cefb`
+
+Both these files can be imported into `hmy` using the command `import-ks` as shown bellow. Be sure to change "/home/harmony" to the absolute path of your wallet file \(this is just an example\):
 
 ```text
-$ # Note that the shell variable p is an absolute path.
-$ p='/Users/edgar/Repos/harmony-work/src/github.com/harmony-one/harmony/.hmy/keystore/one16qsd5ant9v94jrs89mruzx62h7ekcfxmduh2rx.key'
-$ hmy keys import ${p}
-Imported keystore given account alias of `lecture-imported`
+./hmy keys import-ks /home/harmony/one16qsd5ant9v94jrs89mruzx62h7ekcfxmduh2rx.key --passphrase ""
+./hmy keys import-ks /home/harmony/UTC--2020-01-15T01-02-06.606670000Z--9689a0711642bf08ea92ed98d552f0c1b8c8cefb --passphrase ""
 ```
 
-‌Keep in mind that you should know the passphrase associated with the imported keystore. For keystores created by Harmony's `wallet.sh`, the default passphrase is an empty string; this matters for signing transactions.‌
-
-NOTE: you can also just move the one16qsd5ant9v94jrs89mruzx62h7ekcfxmduh2rx.key file into the directory where your `hmy` is, then use the command as follows:
-
-```text
-./hmy keys import one16qsd5ant9v94jrs89mruzx62h7ekcfxmduh2rx.key 
-```
+‌Keep in mind that you should know the passphrase associated with the imported keystore and pass it as a parameter as show in the commands above. For keystores created by Harmony's `wallet.sh`, the default passphrase is an empty string; this matters for signing transactions.‌
 
 ### Importing an existing private key <a id="importing-an-existing-private-key"></a>
 
