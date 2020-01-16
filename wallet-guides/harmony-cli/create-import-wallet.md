@@ -50,7 +50,7 @@ Both these files can be imported into `hmy` using the command `import-ks` as sho
 ./hmy keys import-ks /home/harmony/UTC--2020-01-15T01-02-06.606670000Z--9689a0711642bf08ea92ed98d552f0c1b8c8cefb --passphrase ""
 ```
 
-‌Keep in mind that you should know the passphrase associated with the imported keystore and pass it as a parameter as show in the commands above. For keystores created by Harmony's `wallet.sh`, the default passphrase is an empty string; this matters for signing transactions.‌
+‌Keep in mind that you should know the passphrase associated with the imported keystore and pass it as a parameter as shown in the commands above. For keystores created by Harmony's `wallet.sh`, the default passphrase is an empty string; this matters for signing transactions.‌
 
 ### Importing an existing private key <a id="importing-an-existing-private-key"></a>
 
