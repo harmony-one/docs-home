@@ -33,7 +33,7 @@ You can check the list of wallets \(local accounts\) with the following command:
 
 ## Import Wallet
 
-### Importing an existing keystore <a id="importing-an-existing-keystore"></a>
+### Importing a Keystore <a id="importing-an-existing-keystore"></a>
 
 ‌Sometimes you might have an existing keystore made by Harmony's old `wallet.sh` program that ends with ".key" in the file name \(example\):
 
@@ -52,7 +52,7 @@ Both these files can be imported into `hmy` using the command `import-ks` as sho
 
 ‌Keep in mind that you should know the passphrase associated with the imported keystore and pass it as a parameter as shown in the commands above. For keystores created by Harmony's `wallet.sh`, the default passphrase is an empty string; this matters for signing transactions.‌
 
-### Importing an existing private key <a id="importing-an-existing-private-key"></a>
+### Importing a Private Key <a id="importing-an-existing-private-key"></a>
 
 Sometimes you might have a secp256k1 private key, such as the one generated from the following command:
 
@@ -72,7 +72,7 @@ For clarity, here is the usage \(argument order matters\):
 
 If no account name is provided, a random word concatenated with `-imported` will be used. If no passphrase is provided, the default passphrase will be used \(which is blank\). Note that the CLI currently only supports importing secp256k1 private keys.
 
-## Recovering a wallet key
+### Importing a Mnemonic Phrase <a id="importing-an-existing-private-key"></a>
 
 You can recover lost wallet keys by entering the mnemonic words you received \(and hopefully saved\) when creating it:
 
