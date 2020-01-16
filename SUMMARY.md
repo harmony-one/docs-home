@@ -15,7 +15,7 @@
   * [Download and setup](wallet-guides/harmony-cli/download-setup.md)
   * [Creating new wallet/importing wallet](wallet-guides/harmony-cli/create-import-wallet.md)
   * [Sending transactions](wallet-guides/harmony-cli/send-tx.md)
-  * [Querying Balances](wallet-guides/harmony-cli/querying-balance.md)
+  * [Querying balances](wallet-guides/harmony-cli/querying-balances.md)
   * [Querying the blockchain](wallet-guides/harmony-cli/querying-the-blockchain.md)
   * [Key management](wallet-guides/harmony-cli/key-management.md)
   * [Other CLI reference](wallet-guides/harmony-cli/other-cli-reference.md)
