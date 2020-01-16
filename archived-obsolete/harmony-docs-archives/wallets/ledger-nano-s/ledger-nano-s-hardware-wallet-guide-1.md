@@ -30,44 +30,23 @@ _Let's make sure your hardware wallet ready to use._
 
 At this point, you're ready to install apps on your Ledger Nano S. Remember to store your 24-word recovery phrase in a safe place, because you'll need it to recover your funds if your device is lost or damaged.
 
+## Download CLI 
+
+_Please use the_ [_following instructions_](https://docs.harmony.one/home/wallet-guides/harmony-cli/download-setup) _to download CLI to use  Ledger Nano S ._
+
 ## Install Ledger Nano S Firmware In Debugging Mode
 
 _This is ONLY for wallet developers / testers. Other users please download firmware through Ledger Live._
 
-1. Download Ledger firmware app.hex from [here](https://s3-us-west-1.amazonaws.com/pub.harmony.one/release/ledger_firmware/app.hex) .
-2. Download firmware map file app.map from [here](https://s3-us-west-1.amazonaws.com/pub.harmony.one/release/ledger_firmware/app.map).
-3. Set up the python loader 
-
-```text
-[sudo] pip install -U setuptools
-[sudo] pip install virtualenv
-
-#linux dependencies for ledgerblue module  
-#sudo apt install libudev1 libudev-dev libusb-1.0-0-dev
-
-virtualenv -p python3 venv
-source venv/bin/activate
-pip install ledgerblue
-or pip install git+https://github.com/LedgerHQ/blue-loader-python.git
-```
-
-1. Run the following command to load the firmware to Ledger Nano S. 
-
-```text
-sudo ./venv/bin/python -m ledgerblue.loadApp --appFlags 0x40 --path "44'/1023'"  --curve secp256k1 --tlv --targetId 0x31100004 --delete --fileName app.hex --appName One --appVersion 0.0.1 --dataSize `cat app.map |grep _nvram_data_size | tr -s ' ' | cut -f2 -d' '` --icon 01ffffff00ffffff00ffffffffffffc7e1bbcdbbddbbcdbbc50bd8a3ddbbddbbddb3edc7e3ffffffff
-```
+_Please use the_ [_following instructions_](https://docs.harmony.one/home/wallet-guides/ledger/install-and-setup) _to install Ledger Nano S firmware in Debugging mode._ 
 
 ## Display the Harmony ONE address for Ledger Nano S
 
 As Ledger Nano S is connected to PC/Mac through USB, super user's permission is needed to open the USB. To use the Ledger Nano S hardware wallet, run harmony CLI **under sudo** and **\*\*use command** keys list --ledger\*\*
 
 ```text
-$ sudo LD_LIBRARY_PATH=lib ./hmy keys list --ledger
+./hmy.sh keys list --ledger
 ```
-
-An example session is shown below. Please note that you will have to confirm the address displayed on Ledger Nano S LED screen.
-
-![](../../../../.gitbook/assets/image-1.png)
 
 After running the keys command with --ledger option, the following GUI will be displayed on Ledger Nano S LED screen:
 
@@ -88,40 +67,36 @@ The entire process is shown in video below:
 Balance on any Harmony wallet addresses can be displayed using CLI with command **balance** using the following command line options:
 
 ```text
-$ LD_LIBRARY_PATH=lib ./hmy balance --node=[server_address] [address]
+$ ./hmy.sh balances --node=[server_address] [address]
 ```
 
-‌
-
-Here \[server\_address\] is the server address for either Mainnet or Betanet \(testnet\) and \[address\] is the Harmony wallet address.‌
+Here \[server\_address\] is the server address for either Mainnet or Testnet and \[address\] is the Harmony wallet address.‌
 
 **Query balance on Mainnet**
 
 ```text
-$ LD_LIBRARY_PATH=lib ./hmy balance --node="https://api.s0.t.hmny.io" [address]
+$./hmy.sh balances --node="https://api.s0.t.hmny.io" [address]
 ```
 
-‌
-
-### Query balance on Betanet \(testnet\) <a id="query-balance-on-betanet-testnet"></a>
+‌**Query balance on Devnet**
 
 ```text
-$ LD_LIBRARY_PATH=lib ./hmy balance --node="https://api.s0.b.hmny.io" [address]
+$./hmy.sh balances --node="https://api.s0.pga.hmny.io" [address]
 ```
 
-‌
+### Query balance on Testnet <a id="query-balance-on-betanet-testnet"></a>
 
-An example session is shown below. Please note that **sudo** permission is not required to query balance as it doesn't require USB operation.
-
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LlYdMT-Wp5uYwcF_tMW%2F-Lp1RBqYpGIEBEHFW8oF%2F-Lp1Tzat-ni8WJquQr2m%2FScreenshot%20from%202019-09-17%2020-47-55.png?alt=media&token=23d2142c-5ba8-4f61-a119-242ec2b1212e)
+```text
+$ ./hmy.sh balances --node="https://api.s0.b.hmny.io" [address]
+```
 
 ## Token transfer using Ledger Nano S
 
 To send token from Ledger Nano S to another wallet account, we need Ledger Nano S hardware to sign the transaction with private key inside Ledger Nano S hardware. The CLI command **transfer --ledger** should be called with sudo permission:
 
 ```d
-$ sudo LD_LIBRARY_PATH=lib ./hmy transfer --ledger --node=[server_addr] \
-  --chain-id=[mainnet|testnet] --from [from_addr] --to [to_addr] --amount [value] \
+./hmy.sh transfer --ledger --node=[server_addr] \
+  --chain-id=[mainnet|testnet|devnet] --from [from_addr] --to [to_addr] --amount [value] \
   --from-shard [shard_id] --to-shard [shard_id]
 ```
 
@@ -129,10 +104,6 @@ $ sudo LD_LIBRARY_PATH=lib ./hmy transfer --ledger --node=[server_addr] \
 \[to\_addr\] is the receiver's wallet addresses.  
 \[value\] is the amount of ONE tokens to transfer.  
 \[shard\_id\] is a numeric value for shard ID, the value depends on Mainnet \(0,1,2,3\) or Betanet\(testnet\) \(0,1\).
-
-An example transfer is shown below:
-
-![](../../../../.gitbook/assets/image%20%283%29.png)
 
 Please note that you will need to unlock Ledger Nano S, and confirm the transaction parameters on Ledger Nano S.
 
