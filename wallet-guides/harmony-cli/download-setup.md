@@ -12,9 +12,9 @@ description: The Harmony CLI tool is used to interact with the Harmony blockchai
 curl -LO https://harmony.one/hmycli && mv hmycli hmy && chmod +x hmy
 ```
 
-#### 2. For MacOS \(dynamically linked binary\)
+#### 2. For MacOSX \(dynamically linked binary\)
 
-`hmy` depends on some dynamic libraries, hence we recommend using the following shell wrapper:
+`hmy` depends on some dynamic libraries, hence we recommend using the following shell wrapper
 
 ```text
 curl -O https://raw.githubusercontent.com/harmony-one/go-sdk/master/scripts/hmy.sh

@@ -14,7 +14,7 @@ This creates a keystore at `$(hmy keys location)/account-name1/UTC--2019-09-16T2
 ./hmy keys add account-name2 --passphrase
 ```
 
-When creating keys this way, `hmy` will ask you to provide a passphrase.‌ The example-account is just a name you can pick, so pick something simple.  
+When creating keys this way, `hmy` will ask you to provide a passphrase.‌ The account-name2 is just a name you can pick, so pick something simple.  
 Make sure you keep track of this passphrase for future use because the passphrase is used to decrypt the keystore when signing transactions. Also make sure you save the seed phrase.
 
 To know where your wallet file has been created, just run the following command:
