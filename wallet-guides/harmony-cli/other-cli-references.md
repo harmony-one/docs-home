@@ -1,4 +1,4 @@
-# Other CLI reference
+# Other CLI references
 
 For the impatient, use  `./hmy cookbook` to see the most common examples and proper arguments:
 
