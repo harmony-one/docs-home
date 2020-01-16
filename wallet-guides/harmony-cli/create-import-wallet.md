@@ -1,6 +1,6 @@
 # Creating new wallet/importing wallet
 
-## New Wallet Creation
+## New Wallet
 
 Creation of a new account is done as a function of a generated `bip39` mnemonic with 256 bits of entropy. You must provide an account alias name.
 
@@ -31,7 +31,7 @@ You can check the list of wallets \(local accounts\) with the following command:
 ./hmy keys list
 ```
 
-## Importing a Wallet
+## Import Wallet
 
 ### Importing an existing keystore <a id="importing-an-existing-keystore"></a>
 
