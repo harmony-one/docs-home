@@ -9,7 +9,7 @@ For the impatient, use  `./hmy cookbook` to see the most common examples and pro
 Or if you want a full list of commands the `hmy` tool knows in markdown format, please run the following commands: 
 
 ```text
-$ hmy docs
+./hmy docs
 ```
 
 Then in the same directory, `hmy` creates a directory named `hmy-docs` in which you can find all markdown files for the commands and subcommands.

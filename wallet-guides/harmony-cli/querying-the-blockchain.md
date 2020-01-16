@@ -32,7 +32,7 @@ Here are come examples of the above commands that you will use frequently:
 1. **transaction-by-hash -** checking the hash of your transaction to see the transaction data and if the transaction has been completed
 
 ```text
-$  ./hmy blockchain transaction-by-hash 0x75d91100734edcd1497200cb438f0864d2ed4a44a88bf8c87855cb2b3cc54001 --node="https://api.s0.t.hmny.io"
+./hmy blockchain transaction-by-hash 0x75d91100734edcd1497200cb438f0864d2ed4a44a88bf8c87855cb2b3cc54001 --node="https://api.s0.t.hmny.io"
 
 {
   "id": "0",
@@ -62,7 +62,8 @@ $  ./hmy blockchain transaction-by-hash 0x75d91100734edcd1497200cb438f0864d2ed4a
 2. **transaction-receipt**  - get information about a finalized transaction 
 
 ```text
-$ hmy --node="https://api.s0.t.hmny.io" blockchain transaction-receipt 0x599793f313ee17566f8d09728b9d043b8e26135ddce86beeee13f98767d452f7
+./hmy --node="https://api.s0.t.hmny.io" blockchain transaction-receipt 0x599793f313ee17566f8d09728b9d043b8e26135ddce86beeee13f98767d452f7
+
 {
   "id": "0",
   "jsonrpc": "2.0",
@@ -90,6 +91,7 @@ $ hmy --node="https://api.s0.t.hmny.io" blockchain transaction-receipt 0x599793f
 {% tab title="Shard 0" %}
 ```text
 ./hmy blockchain latest-header --node=https://api.s0.t.hmny.io
+
 {
   "id": "0",
   "jsonrpc": "2.0",
@@ -112,6 +114,7 @@ $ hmy --node="https://api.s0.t.hmny.io" blockchain transaction-receipt 0x599793f
 {% tab title="Shard 1" %}
 ```
 ./hmy blockchain latest-header --node=https://api.s1.t.hmny.io
+
 {
   "id": "0",
   "jsonrpc": "2.0",
@@ -134,6 +137,7 @@ $ hmy --node="https://api.s0.t.hmny.io" blockchain transaction-receipt 0x599793f
 {% tab title="Shard 2" %}
 ```
 ./hmy blockchain latest-header --node=https://api.s2.t.hmny.io
+
 {
   "id": "0",
   "jsonrpc": "2.0",
@@ -156,6 +160,7 @@ $ hmy --node="https://api.s0.t.hmny.io" blockchain transaction-receipt 0x599793f
 {% tab title="Shard 3" %}
 ```
 ./hmy blockchain latest-header --node=https://api.s3.t.hmny.io
+
 {
   "id": "0",
   "jsonrpc": "2.0",
