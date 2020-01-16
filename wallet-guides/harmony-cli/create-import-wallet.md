@@ -35,11 +35,11 @@ You can check the list of wallets \(local accounts\) with the following command:
 
 ### Importing an existing keystore <a id="importing-an-existing-keystore"></a>
 
-‌Sometimes you might have an existing keystore made by Harmony's old `wallet.sh` program that ends with ".key" in the file name:
+‌Sometimes you might have an existing keystore made by Harmony's old `wallet.sh` program that ends with ".key" in the file name \(example\):
 
  `one16qsd5ant9v94jrs89mruzx62h7ekcfxmduh2rx.key` 
 
-Or that starts with "UTC" in the file name:
+Or that starts with "UTC" in the file name \(example\):
 
 `UTC--2020-01-15T01-02-06.606670000Z--9689a0711642bf08ea92ed98d552f0c1b8c8cefb`
 
