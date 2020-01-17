@@ -7,7 +7,6 @@
 * [Overview](harmony-networks/harmony-network-overview/README.md)
   * [Mainnet](harmony-networks/harmony-network-overview/mainnet.md)
   * [Testnet/Pangaea](harmony-networks/harmony-network-overview/testnet-pangaea.md)
-* [Wallet guides](harmony-networks/wallet-guides.md)
 
 ## Wallet guides
 
