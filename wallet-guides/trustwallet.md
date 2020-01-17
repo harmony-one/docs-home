@@ -23,7 +23,7 @@ Since there is no shard selection in Trustwallet UI, all transactions will be se
 1. **Sender uses CLI or Mathwallet** \(aka. has access to all shards\)
 2. **Recipient uses Trustwallet**
 
-![](../.gitbook/assets/image%20%2815%29.png)
+![](../.gitbook/assets/image%20%2814%29.png)
 
 \*\*\*\*
 
@@ -32,7 +32,7 @@ Since there is no shard selection in Trustwallet UI, all transactions will be se
 1. **Sender uses Trustwallet**
 2. **Recipient uses CLI or Mathwallet** \(aka. has access to all shards\)
 
-![](../.gitbook/assets/image%20%2851%29.png)
+![](../.gitbook/assets/image%20%2848%29.png)
 
 
 
@@ -41,5 +41,5 @@ Since there is no shard selection in Trustwallet UI, all transactions will be se
 1. **Sender uses Trustwallet**
 2. **Recipient uses Trustwallet**
 
-![](../.gitbook/assets/image%20%2838%29.png)
+![](../.gitbook/assets/image%20%2835%29.png)
 
