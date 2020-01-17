@@ -2,7 +2,7 @@
 description: A web-based wallet for holding cryptocurrency
 ---
 
-# Mathwallet
+# Math Wallet
 
 ![](../../.gitbook/assets/screen-shot-2020-01-15-at-8.54.52-am.png)
 
