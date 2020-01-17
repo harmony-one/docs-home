@@ -13,7 +13,7 @@ Trust Wallet only allows you to view and send transactions in shard 0. If you re
 9. Select "Import by mnemonic" option 
 10. List your mnemonic in correct order, and click "next" on the top right 
 11. Name your imported wallet
-12. You can look at the balances of all shards in Math Wallet now! 
+12. You can look at the balances of all shards in Math Wallet now!
 
 
 
