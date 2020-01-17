@@ -23,16 +23,21 @@ At this point, you're ready to install apps on your Ledger Nano S. Remember to s
 
 _This is ONLY for wallet developers / testers._ 
 
+{% hint style="warning" %}
+_To perform the testing of your Ledger Nano S with One tokens you need a physical Linux system or a Virtual Machine with USB passthrough capabilities. The Ledger Nano S will be attached via USB to your system to test the token transfers._
+{% endhint %}
+
 1. Download Ledger firmware from [here](https://s3-us-west-1.amazonaws.com/pub.harmony.one/release/ledger_firmware/ver3_app.hex) .
 2. Place the downloaded firmware file _**ver3\_app.hex**_ in the current working directory.
-3. Set up the python loader 
+3. Set up the python loader
+4. **Please note**: If you run into build issues, please first try to install and run the dependencies for ledgerblue module.
 
 ```text
 [sudo] pip install -U setuptools
 [sudo] pip install virtualenv
 
 #linux dependencies for ledgerblue module  
-#sudo apt install libudev1 libudev-dev libusb-1.0-0-dev
+#sudo apt install libudev1 libudev-dev libusb-1.0-0-dev python3-dev
 
 virtualenv -p python3 venv
 source venv/bin/activate
@@ -46,9 +51,9 @@ or pip install git+https://github.com/LedgerHQ/blue-loader-python.git
 sudo ./venv/bin/python -m ledgerblue.loadApp --appFlags 0x40 --path "44'/1023'"  --curve secp256k1 --tlv --targetId 0x31100004 --delete --fileName ver3_app.hex  --appName One --appVersion 0.0.1 --dataSize 0 --icon 01ffffff00ffffff00ffffffffffffc7e1bbcdbbddbbcdbbc50bd8a3ddbbddbbddb3edc7e3ffffffff
 ```
 
-During this process,  you will see some warning messages displayed. Read through them by pressing right button until you reach the page "Perform Installation". Press both the left and right button to confirm installation.   The Harmony Ledger App will then be installed to Ledger Nano S.
+During this process,  you will see some warning messages displayed. Read through them by pressing right button until you reach the page "Perform Installation". Press both the left and right button to confirm the installation. The Harmony Ledger App will then be installed to Ledger Nano S.
 
-On the Ledger Nano S LCD screen, there will be a new icon for Harmony App : One.  To open the Harmony app, please click both the left and right button on top of the Ledger Nano S. A series will messages will be displayed including "This app is not genune" \(as it is a developer edition, not formal app from Ledger Live\).  Click the right button until you see "Open Application",  then click both left and right button to open the Harmony app. 
+On the Ledger Nano S LCD screen, there will be a new icon for Harmony App : One. To open the Harmony app, please click both the left and right button on top of the Ledger Nano S. A series messages will be displayed including "This app is not genuine" \(as it is a developer edition, not a formal app from Ledger Live\). Click the right button until you see "Open Application",  then click both left and right button to open the Harmony app. 
 
 ![](../../.gitbook/assets/image%20%2825%29.png)
 
