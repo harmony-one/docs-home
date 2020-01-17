@@ -16,8 +16,6 @@ curl -LO https://harmony.one/hmycli && mv hmycli hmy && chmod +x hmy
 If you have permissions issues, enter the commands using sudo
 {% endhint %}
 
-
-
 #### 2. For MacOS \(dynamically linked binary\)
 
 `hmy` depends on some dynamic libraries, hence we recommend using the following shell wrapper:
