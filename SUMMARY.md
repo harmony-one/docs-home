@@ -110,5 +110,5 @@
     * [Creating, sending transactions](archived-obsolete/harmony-docs-archives/using-the-harmony-cli-tool/creating-sending-transactions.md)
     * [Querying the blockchain](archived-obsolete/harmony-docs-archives/using-the-harmony-cli-tool/querying-the-blockchain.md)
     * [Full CLI Reference](archived-obsolete/harmony-docs-archives/using-the-harmony-cli-tool/full-cli-reference.md)
-  * [Using Ledger For Sending Tokens & Staking](open-staking-guide/ledger-staking-guide.md)
+  * [Using Ledger For Sending Tokens & Staking](archived-obsolete/harmony-docs-archives/ledger-staking-guide.md)
 
