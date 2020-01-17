@@ -6,15 +6,15 @@ description: >-
 
 # Create/import wallet
 
-![](../../.gitbook/assets/image%20%288%29.png)
+![](../../.gitbook/assets/image%20%289%29.png)
 
 When you create a wallet, please write down your mnemonic correctly and keep in a safe place, once forgotten, it cannot be recovered.
 
-![](../../.gitbook/assets/image%20%2820%29.png)
+![](../../.gitbook/assets/image%20%2821%29.png)
 
 You may also import Harmony Account using mnemonic or private key.
 
-![](../../.gitbook/assets/image%20%2823%29.png)
+![](../../.gitbook/assets/image%20%2824%29.png)
 
 
 

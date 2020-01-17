@@ -10,17 +10,17 @@ Transferring money with Math Wallet is simple and easy! Make sure you've set up 
 
 Make sure you are in the Web Wallet interface. To access the Web Wallet, select the wallet you want to open and click **Web Wallet** on the Math Wallet extension popover interface:
 
-![](../../.gitbook/assets/image%20%2816%29.png)
+![](../../.gitbook/assets/image%20%2817%29.png)
 
 After clicking **Web Wallet**, you may be presented with a button that says **Login via MathWallet Browser Extension**. 
 
-![](../../.gitbook/assets/image%20%284%29.png)
+![](../../.gitbook/assets/image%20%285%29.png)
 
-![](../../.gitbook/assets/image%20%2832%29.png)
+![](../../.gitbook/assets/image%20%2833%29.png)
 
 _\*\*_Click this button to continue on to the Web Wallet and select the account that you want to log in.
 
-![](../../.gitbook/assets/image%20%287%29.png)
+![](../../.gitbook/assets/image%20%288%29.png)
 
 Now, to send a transaction:
 
@@ -37,7 +37,7 @@ Depending on your needs, you may need to make transactions on a network other th
 
 In the toolbar at the top of the page, there is a drop down menu which defaults to **Harmony** where you can specify which network you wish to operate on.
 
-![](../../.gitbook/assets/image%20%2817%29.png)
+![](../../.gitbook/assets/image%20%2818%29.png)
 
 * **Harmony** connects to Harmony's mainnet.
 * **Pangaea** connects to [Pangaea, an experimental game designed to test certain aspects of the Harmony network](https://docs.harmony.one/pangaea/).
