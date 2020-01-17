@@ -12,7 +12,7 @@ Be sure to include the output of `$ hmy version` in your bug reports and prefera
 
 ## Features <a id="features"></a>
 
-With the `hmy` CLI you can create a wallet, check your balance, send signed transactions to the Harmony blockchain, query previous transactions, recover keys from previous mnemonics, create new keystores, and create new BLS keys.
+With the `hmy` CLI you can create a wallet, check your balance, send signed transactions to the Harmony blockchain, look up previous transactions, recover keys from previous mnemonics, create new keystores, and create new BLS keys.
 
 ## Supported Platforms <a id="platforms"></a>
 
