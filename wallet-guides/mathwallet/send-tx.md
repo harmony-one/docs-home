@@ -35,6 +35,6 @@ In the toolbar at the top of the page, there is a drop down menu which defaults 
 
 * **Harmony** connects to Harmony's mainnet.
 * **Pangaea** connects to [Pangaea, an experimental game designed to test certain aspects of the Harmony network](https://docs.harmony.one/pangaea/).
-* **Harmony betanet** connects to Harmony's testnet.
+* **Harmony betanet** connects to Harmony's devnet.
 * **Localhost** connects to a [network hosted locally on your machine](https://github.com/harmony-one/harmony/). This endpoint is only active if you are running a local network on your machine.
 
