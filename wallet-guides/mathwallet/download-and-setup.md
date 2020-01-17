@@ -18,11 +18,11 @@ Previous versions have a known bug and are unsupported.
 
 Open the extension in your browser and create new password\(at least 8 characters\) as it asks.
 
-![](../../.gitbook/assets/image%20%2827%29.png)
+![](../../.gitbook/assets/image%20%2829%29.png)
 
 Select Harmony wallet from the list of networks.
 
-![](../../.gitbook/assets/image%20%2846%29.png)
+![](../../.gitbook/assets/image%20%2849%29.png)
 
 
 
