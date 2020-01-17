@@ -1,5 +1,5 @@
 ---
-description: The Harmony CLI tool is used to interact with the Harmony blockchain
+description: The Harmony CLI tool is used to interact with the Harmony blockchain.
 ---
 
 # Download and setup
@@ -13,7 +13,7 @@ curl -LO https://harmony.one/hmycli && mv hmycli hmy && chmod +x hmy
 ```
 
 {% hint style="info" %}
-If you have permissions issues, enter the commands using sudo
+If you have permission issues, enter the commands with "sudo" at the beginning, i.e. "sudo curl -LO [https://harmony.one/hmycli](https://harmony.one/hmycli) && mv hmycli hmy && chmod +x hmy"
 {% endhint %}
 
 #### 2. For MacOS \(dynamically linked binary\)
