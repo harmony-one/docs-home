@@ -14,11 +14,11 @@ Please select the wallet you want to open and click **Web Wallet** on the Math W
 
 ![](../../.gitbook/assets/image%20%285%29.png)
 
-![](../../.gitbook/assets/image%20%2834%29.png)
+![](../../.gitbook/assets/image%20%2835%29.png)
 
 _\*\*_Click this button to continue on to the Web Wallet and select the account that you want to log in.
 
-![](../../.gitbook/assets/image%20%2817%29.png)
+![](../../.gitbook/assets/image%20%2818%29.png)
 
 After clicking **Web Wallet**, you may be presented with a button that says **Login via MathWallet Browser Extension**. Click this button to continue on to the Web Wallet.
 
@@ -39,7 +39,7 @@ If you would like to use Mathwallet to interact with other Harmony networks, you
 
 In the toolbar at the top of the page, there is a drop down menu which defaults to **Harmony** where you can specify which network you wish to operate on.
 
-![](../../.gitbook/assets/image%20%2818%29.png)
+![](../../.gitbook/assets/image%20%2819%29.png)
 
 * **Harmony** connects to Harmony's mainnet.
 * \*\*\*\*[**Pangaea**](https://docs.harmony.one/pangaea/) connects to Testnet

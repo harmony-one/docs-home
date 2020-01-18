@@ -20,11 +20,11 @@ Open the extension in your browser and create new password following the instruc
 
 Open the extension in your browser and create new password\(at least 8 characters\) as it asks.
 
-![](../../.gitbook/assets/image%20%2833%29.png)
+![](../../.gitbook/assets/image%20%2834%29.png)
 
 Select **Harmony** from the list of networks.
 
-![](../../.gitbook/assets/image%20%2854%29.png)
+![](../../.gitbook/assets/image%20%2855%29.png)
 
 
 

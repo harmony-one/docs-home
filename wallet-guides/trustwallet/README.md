@@ -20,7 +20,7 @@ Since there is no shard selection in Trustwallet UI, all transactions will origi
 
 ## **For more details, please see example cross-shard transaction scenarios using Trust Wallet:**
 
-![](../../.gitbook/assets/image%20%2831%29.png)
+![](../../.gitbook/assets/image%20%2832%29.png)
 
 
 

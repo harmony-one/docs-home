@@ -10,6 +10,7 @@
 
 ## Wallet guides
 
+* [Overview](wallet-guides/overview.md)
 * [Harmony CLI](wallet-guides/harmony-cli/README.md)
   * [Download and setup](wallet-guides/harmony-cli/download-setup.md)
   * [Create/import wallet](wallet-guides/harmony-cli/create-import-wallet.md)
