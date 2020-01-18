@@ -1,6 +1,6 @@
 # Overview
 
-You can use any of the following wallets to access your funds. 
+You can use any of the following wallets to access your funds in all the shards.
 
 {% page-ref page="harmony-cli/" %}
 
