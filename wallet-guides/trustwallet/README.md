@@ -26,7 +26,9 @@ Since there is no shard selection in Trustwallet UI, all transactions will origi
 
 ### What to do if you receive funds in a shard other than shard 0 when using Trust Wallet?
 
+You will need to import the account in which you receive the funds in another wallet such as CLI or Mathwallet.
 
+**Using Mathwallet:**
 
 1. Go to Trust Wallet under settings -&gt; Wallets -&gt; Multi Coin Wallet 1 -&gt; press the 3 dots -&gt; show recovery phase \(this gives the 12 character mnemonic\)
 2. Go into MathWallet Chrome Extension -&gt; Select Harmony -&gt; Press the + button -&gt; Import wallet -&gt; import by mnemonic -&gt; enter the 12 workds previously exported from trust wallet -&gt; give the wallet a meaningful name \(e.g. Trust Wallet - Account 1\) 
