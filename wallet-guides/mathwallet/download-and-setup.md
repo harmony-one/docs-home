@@ -1,5 +1,5 @@
 ---
-description: Download & Setting up Math Wallet with a new or existing key
+description: With a new or an existing key
 ---
 
 # Download & Setup
@@ -16,13 +16,15 @@ Previous versions have a known bug and are unsupported.
 
 ![](../../.gitbook/assets/image%20%287%29.png)
 
+Open the extension in your browser and create new password following the instructions.
+
 Open the extension in your browser and create new password\(at least 8 characters\) as it asks.
 
-![](../../.gitbook/assets/image%20%2832%29.png)
+![](../../.gitbook/assets/image%20%2833%29.png)
 
-Select Harmony wallet from the list of networks.
+Select **Harmony** from the list of networks.
 
-![](../../.gitbook/assets/image%20%2853%29.png)
+![](../../.gitbook/assets/image%20%2854%29.png)
 
 
 

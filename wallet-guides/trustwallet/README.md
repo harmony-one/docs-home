@@ -2,6 +2,8 @@
 
 ![](../../.gitbook/assets/screen-shot-2020-01-15-at-8.42.26-am.png)
 
+Trust Wallet is a mobile cryptocurrency wallet. Please visit [https://trustwallet.com](https://trustwallet.com) with your mobile device to download the app.
+
 ## IMPORTANT DISCLAIMER
 
 Please note that Trustwallet does not support sharded network architecture yet, and all transactions originated from Trustwallet goes through Shard-0. This means that you can only view and access your funds in Shard-0. 
@@ -14,32 +16,23 @@ If you receive funds in a shard other than Shard-0 \[e.g., From: Shard-2, you wi
 
 ### Outgoing transactions
 
-Since there is no shard selection in Trustwallet UI, all transactions will be sent from Shard-0 to Shard-0. 
+Since there is no shard selection in Trustwallet UI, all transactions will originate from Shard-0 and will be sent to Shard-0.
+
+## **For more details, please see example cross-shard transaction scenarios using Trust Wallet:**
+
+![](../../.gitbook/assets/image%20%2831%29.png)
 
 
 
-### **Please see all possible scenarios for Trustwallet**
+### What to do if you receive funds in a shard other than shard 0 when using Trust Wallet?
 
-1. **Sender uses CLI or Mathwallet** \(aka. has access to all shards\)
-2. **Recipient uses Trustwallet**
 
-![](../../.gitbook/assets/image%20%2816%29.png)
 
-\*\*\*\*
-
-\*\*\*\*
-
-1. **Sender uses Trustwallet**
-2. **Recipient uses CLI or Mathwallet** \(aka. has access to all shards\)
-
-![](../../.gitbook/assets/image%20%2852%29.png)
+1. Go to Trust Wallet under settings -&gt; Wallets -&gt; Multi Coin Wallet 1 -&gt; press the 3 dots -&gt; show recovery phase \(this gives the 12 character mnemonic\)
+2. Go into MathWallet Chrome Extension -&gt; Select Harmony -&gt; Press the + button -&gt; Import wallet -&gt; import by mnemonic -&gt; enter the 12 workds previously exported from trust wallet -&gt; give the wallet a meaningful name \(e.g. Trust Wallet - Account 1\) 
+3. From here you can now open mathwallet and access the funds
 
 
 
 
-
-1. **Sender uses Trustwallet**
-2. **Recipient uses Trustwallet**
-
-![](../../.gitbook/assets/image%20%2839%29.png)
 
