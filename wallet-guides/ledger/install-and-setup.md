@@ -19,11 +19,11 @@ _Let's make sure your hardware wallet ready to use._
 
 At this point, you're ready to install apps on your Ledger Nano S. Remember to store your 24-word recovery phrase in a safe place, because you'll need it to recover your funds if your device is lost or damaged.
 
-## Install Ledger Nano S Firmware In Debugging Mode
+_**If you are a Windows user please skip the next section until you see the windows version**_
 
-_**\(If you are a Windows user please skip the below commands until you see the windows version\)**_  
+## Install Ledger Nano S Firmware In Debugging Mode _****_ 
 
-## _Linux system or a Virtual Machine with USB pass through capabilities_
+_Linux system or a Virtual Machine with USB pass through capabilities_
 
 {% hint style="warning" %}
 _To perform the testing of your Ledger Nano S with One tokens you need a physical Linux system or a Virtual Machine with USB passthrough capabilities. The Ledger Nano S will be attached via USB to your system to test the token transfers._
