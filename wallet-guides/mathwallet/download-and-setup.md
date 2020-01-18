@@ -14,17 +14,17 @@ Note : Ensure you use version 2.07 or greater of MathWallet
 Previous versions have a known bug and are unsupported.
 {% endhint %}
 
-![](../../.gitbook/assets/image%20%287%29.png)
+![](../../.gitbook/assets/image%20%288%29.png)
 
 Open the extension in your browser and create new password following the instructions.
 
 Open the extension in your browser and create new password\(at least 8 characters\) as it asks.
 
-![](../../.gitbook/assets/image%20%2834%29.png)
+![](../../.gitbook/assets/image%20%2835%29.png)
 
 Select **Harmony** from the list of networks.
 
-![](../../.gitbook/assets/image%20%2855%29.png)
+![](../../.gitbook/assets/image%20%2857%29.png)
 
 
 

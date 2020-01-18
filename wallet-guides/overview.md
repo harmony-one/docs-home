@@ -8,7 +8,7 @@ You can use any of the following wallets to access your funds in all the shards.
 
 {% page-ref page="ledger/" %}
 
-![](../.gitbook/assets/image%20%2811%29.png)
+![](../.gitbook/assets/image%20%2812%29.png)
 
 ### IMPORTANT DISCLAIMER:
 
