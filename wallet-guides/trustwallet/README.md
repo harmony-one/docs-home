@@ -31,7 +31,7 @@ You will need to import the account in which you receive the funds in another wa
 **Using Mathwallet:**
 
 1. Go to Trust Wallet under settings -&gt; Wallets -&gt; Multi Coin Wallet 1 -&gt; press the 3 dots -&gt; show recovery phase \(this gives the 12 character mnemonic\)
-2. Go into MathWallet Chrome Extension -&gt; Select Harmony -&gt; Press the + button -&gt; Import wallet -&gt; import by mnemonic -&gt; enter the 12 workds previously exported from trust wallet -&gt; give the wallet a meaningful name \(e.g. Trust Wallet - Account 1\) 
+2. Go into MathWallet Chrome Extension -&gt; Select Harmony -&gt; Press the + button -&gt; Import wallet -&gt; import by mnemonic -&gt; enter the 12 words previously exported from trust wallet -&gt; give the wallet a meaningful name \(e.g. Trust Wallet - Account 1\) 
 3. From here you can now open mathwallet and access the funds
 
 
