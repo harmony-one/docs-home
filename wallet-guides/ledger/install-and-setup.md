@@ -61,11 +61,11 @@ sudo ./venv/bin/python -m ledgerblue.loadApp --appFlags 0x40 --path "44'/1023'" 
 
 -Enter again your password
 
-Congratulations!!
+Congratulations!
 
 **Now scroll down this page \(ignore the windows version\) until the section "Step 2"**
 
-## For Windows 10 Users
+## For Windows Users
 
  You need to have the correct environment
 
@@ -112,7 +112,7 @@ After the ledgerblue instalation :
 
 1. Download Ledger firmware from [here](https://s3-us-west-1.amazonaws.com/pub.harmony.one/release/ledger_firmware/ver3_app.hex) .
 2. Place the downloaded firmware file _**ver3\_app.hex**_ in the current working directory.
-3. run this command:
+3. Run this command:
 
 ```bash
 python -m ledgerblue.loadApp --appFlags 0x40 --path "44'/1023'"  --curve secp256k1 --tlv --targetId 0x31100004 --delete --fileName ver3_app.hex  --appName One --appVersion 0.0.1 --dataSize 0 --icon 01ffffff00ffffff00ffffffffffffc7e1bbcdbbddbbcdbbc50bd8a3ddbbddbbddb3edc7e3ffffffff
@@ -126,13 +126,13 @@ python -m ledgerblue.loadApp --appFlags 0x40 --path "44'/1023'"  --curve secp256
 
 -Enter again your password
 
-Congratulations!!
+Congratulations!
 
 ## Step 2
 
 On the Ledger Nano S LCD screen, there will be a new icon for Harmony App : One. To open the Harmony app, please click both the left and right button on top of the Ledger Nano S. A series messages will be displayed including "This app is not genuine" \(as it is a developer edition, not a formal app from Ledger Live\). Click the right button until you see "Open Application",  then click both left and right button to open the Harmony app. 
 
-![](../../.gitbook/assets/image%20%2838%29.png)
+![](../../.gitbook/assets/assets_-lleolyqeg_gkuo5rehq_-lycle6rqfcogyw0eetj_-lycmolrhjkqrphp5pgb_image.jpg)
 
 ![](../../.gitbook/assets/image%20%2822%29.png)
 
