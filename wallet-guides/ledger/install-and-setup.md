@@ -134,13 +134,13 @@ On the Ledger Nano S LCD screen, there will be a new icon for Harmony App : One.
 
 ![](../../.gitbook/assets/assets_-lleolyqeg_gkuo5rehq_-lycle6rqfcogyw0eetj_-lycmolrhjkqrphp5pgb_image.jpg)
 
-![](../../.gitbook/assets/image%20%2822%29.png)
+![](../../.gitbook/assets/assets_-lleolyqeg_gkuo5rehq_-lycle6rqfcogyw0eetj_-lycmstelgoxj6xg89dp_image.jpg)
 
-![](../../.gitbook/assets/image%20%2841%29.png)
+![](../../.gitbook/assets/assets_-lleolyqeg_gkuo5rehq_-lycle6rqfcogyw0eetj_-lycmwtft5o3onpytyp1_image.jpg)
 
 Once the application is opened, it will show "Waiting for commands..." in the LCD screen. This means Ledger Nano S is ready for accept commands and sign transactions from the host.
 
-![](../../.gitbook/assets/image%20%2817%29.png)
+![](../../.gitbook/assets/assets_-lleolyqeg_gkuo5rehq_-lycle6rqfcogyw0eetj_-lycmbawniwbetrhqi_r_image.jpg)
 
 ## 
 
