@@ -14,7 +14,7 @@ Please select the wallet you want to open and click **Web Wallet** on the Math W
 
 ![](../../.gitbook/assets/image%20%286%29.png)
 
-![](../../.gitbook/assets/image%20%2836%29.png)
+![](../../.gitbook/assets/image%20%2837%29.png)
 
 _\*\*_Click this button to continue on to the Web Wallet and select the account that you want to log in.
 
