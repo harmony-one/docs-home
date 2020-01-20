@@ -11,7 +11,7 @@
 
 ## Wallet guides
 
-* [Overview](wallet-guides/overview/README.md)
+* [Overview](wallet-guides/overview.md)
   * [Key Management Overview](wallet-guides/overview/key-management-overview.md)
   * [Exchange Missing Funds](wallet-guides/overview/exchange-missing-funds.md)
 * [Harmony CLI](wallet-guides/harmony-cli/README.md)
