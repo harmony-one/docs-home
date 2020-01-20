@@ -14,3 +14,5 @@ Exchange Support
 
 [Binance](https://www.binance.com/en/support-center)
 
+[Bitmax](https://bitmaxhelp.zendesk.com/hc/en-us/requests/new)
+
