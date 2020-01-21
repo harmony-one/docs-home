@@ -8,11 +8,8 @@ For Math Wallet:
 2. Click on "Transactions", which will open Harmony's Explorer page 
 3. Select the transaction in question, and copy the transaction ID to provide to the exchange you're in contact with 
 
+Exchange Support:
 
-
-Exchange Support
-
-[Binance](https://www.binance.com/en/support-center)
-
+[Binance](https://www.binance.com/en/support-center)  
 [Bitmax](https://bitmaxhelp.zendesk.com/hc/en-us/requests/new)
 
