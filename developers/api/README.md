@@ -11,8 +11,8 @@
 | Chains | URLs |
 | :--- | :--- |
 | mainnet | [https://api.s0.t.hmny.io](https://api.s0.t.hmny.io)  |
-| testnet/pangaea | [https://api.s0.pga.hmny.io](https://api.s0.pga.hmny.io) |
-| local | [http://localhost:9500](http://localhost:9500) |
+| pangaea | [https://api.s0.pga.hmny.io](https://api.s0.pga.hmny.io) |
+| localnet | [http://localhost:9500](http://localhost:9500) |
 
 Web sockets can also be used
 
@@ -20,7 +20,7 @@ Web sockets can also be used
 | :--- | :--- |
 | mainnet | [wss://ws.s0.t.hmny.io](wss://ws.s0.t.hmny.io)  |
 | pangaea | [wss://ws.s0.pga.hmny.io](wss://ws.s0.pga.hmny.io) |
-| local | [wss://localhost:9800](./) |
+| localnet | [wss://localhost:9800](./) |
 
 All requests follow the standard JSON-RPC format and include 4 variables in the data object:
 

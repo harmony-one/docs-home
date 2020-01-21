@@ -12,7 +12,7 @@ Here is a short video running through the deployment.
 
 ### One Minute Instructions
 
-```text
+```bash
 npm install -g truffle@5.0.38
 git clone https://github.com/harmony-one/HRC.git
 cd HRC
@@ -25,7 +25,7 @@ truffle networks
 
 ### Interacting with contracts
 
-```text
+```bash
 truffle console --network testnet
 truffle(testnet)> HarmonyERC20.deployed().then(function(instance){myHRC20=instance})
 undefined

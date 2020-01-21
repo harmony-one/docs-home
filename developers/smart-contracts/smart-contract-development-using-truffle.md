@@ -6,7 +6,7 @@
 
 The following tools should be installed for local Harmony Solidity development
 
-```text
+```bash
 npm install -g truffle@5.0.38
 ```
 
@@ -14,7 +14,7 @@ npm install -g truffle@5.0.38
 
 Here we make an initial folder to create your smart contracts in. For more information you can refer to [truffle overview](https://www.trufflesuite.com/docs/truffle/overview).
 
-```text
+```bash
 mkdir harmonyERC20
 cd harmonyERC20
 truffle init
@@ -24,7 +24,7 @@ truffle init
 
 For deploying to Harmony you need to install [@harmony-js/core](https://www.npmjs.com/package/@harmony-js/core)
 
-```text
+```bash
 npm install --save @harmony-js/core@next
 npm install --save tslib
 ```
@@ -33,7 +33,7 @@ npm install --save tslib
 
 If developing standard ERC-20 or ERC-721 contracts than it is useful to install the [open zeppelin libraries.](https://openzeppelin.com/contracts/)
 
-```text
+```bash
 npm install openzeppelin-solidity -s
 npm install --save dotenv
 ```
@@ -69,7 +69,7 @@ Finally the migration file used to deploy HarmonyERC20.sol can be copied under t
 
 The following commands are used to deploy the contract to testnet
 
-```text
+```bash
 truffle compile
 truffle migrate  --network testnet --reset
 truffle networks
@@ -77,7 +77,7 @@ truffle networks
 
 You should see the following
 
-```text
+```bash
 Johns-MacBook-Pro:harmony-erc20 johnwhitton$ truffle compile
 
 Compiling your contracts...

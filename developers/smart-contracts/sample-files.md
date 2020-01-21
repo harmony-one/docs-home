@@ -2,7 +2,7 @@
 
 ## truffle\_config.js
 
-```text
+```javascript
 require('dotenv').config()
 const { TruffleProvider } = require('@harmony-js/core')
 //Local
@@ -116,7 +116,7 @@ module.exports = {
 
 ## 2\_deploy\_HarmonyERC20.js
 
-```text
+```javascript
 var HarmonyERC20 = artifacts.require("HarmonyERC20");
 
 module.exports = function(deployer, network, accounts) {
@@ -136,7 +136,7 @@ deployer.then(function() {
 
 ## HarmonyMintable.sol
 
-```text
+```javascript
 pragma solidity >=0.4.21 <0.6.0;
 
 import "openzeppelin-solidity/contracts/token/ERC20/ERC20Detailed.sol";
@@ -155,7 +155,7 @@ contract HarmonyERC20 is ERC20, ERC20Detailed, ERC20Mintable {
 
 ## HarmonyERC20.sol
 
-```text
+```javascript
 pragma solidity >=0.4.21 <0.6.0;
 
 import "openzeppelin-solidity/contracts/token/ERC20/ERC20Detailed.sol";
@@ -173,7 +173,7 @@ contract HarmonyERC20 is ERC20, ERC20Detailed {
 
 ## Package.json
 
-```text
+```javascript
 {
   "name": "harmony-erc20",
   "version": "1.0.0",
@@ -190,7 +190,7 @@ contract HarmonyERC20 is ERC20, ERC20Detailed {
 
 ## .env
 
-```text
+```bash
 //LOCAL
 //Local uses account one103q7qe5t2505lypvltkqtddaef5tzfxwsse4z7 on Shard 0
 LOCAL_PRIVATE_KEY='45e497bd45a9049bcb649016594489ac67b9f052a6cdf5cb74ee2427a60bf25e'

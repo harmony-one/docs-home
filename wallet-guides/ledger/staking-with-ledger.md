@@ -143,9 +143,5 @@ After a while, it will change to "Successful delegation!" .
 
 ![](../../.gitbook/assets/screen-shot-2019-12-13-at-2.13.08-pm.png)
 
-|  |
-| :--- |
-
-
 \_\_
 
