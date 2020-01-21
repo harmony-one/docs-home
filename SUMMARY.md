@@ -5,9 +5,8 @@
 
 ## Harmony Networks
 
-* [Overview](harmony-networks/harmony-network-overview/README.md)
-  * [Mainnet](harmony-networks/harmony-network-overview/mainnet.md)
-  * [Testnet/Pangaea](harmony-networks/harmony-network-overview/testnet-pangaea.md)
+* [Mainnet](mainnet/README.md)
+  * [Explorer and RPC Endpoints](mainnet/explorer-and-rpc-endpoints.md)
 
 ## Wallet guides
 
@@ -94,6 +93,9 @@
 ## Archived/Obsolete
 
 * [Harmony Docs Archives](archived-obsolete/harmony-docs-archives/README.md)
+  * [Overview](archived-obsolete/harmony-docs-archives/harmony-network-overview/README.md)
+    * [Mainnet](archived-obsolete/harmony-docs-archives/harmony-network-overview/mainnet.md)
+    * [Testnet/Pangaea](archived-obsolete/harmony-docs-archives/harmony-network-overview/testnet-pangaea.md)
   * [Wallet Overview](archived-obsolete/harmony-docs-archives/wallets/README.md)
     * [Ledger Nano S](archived-obsolete/harmony-docs-archives/wallets/ledger-nano-s/README.md)
       * [Ledger Nano S Hardware Wallet Guide](archived-obsolete/harmony-docs-archives/wallets/ledger-nano-s/ledger-nano-s-hardware-wallet-guide-1.md)
