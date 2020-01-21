@@ -12,7 +12,6 @@
 
 * [Overview](wallet-guides/overview/README.md)
   * [Key Management Overview](wallet-guides/overview/key-management-overview.md)
-  * [Exchange Missing Funds](wallet-guides/overview/exchange-missing-funds.md)
 * [Harmony CLI](wallet-guides/harmony-cli/README.md)
   * [Download and setup](wallet-guides/harmony-cli/download-setup.md)
   * [Create/import wallet](wallet-guides/harmony-cli/create-import-wallet.md)
