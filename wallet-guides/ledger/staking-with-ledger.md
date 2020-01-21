@@ -17,21 +17,19 @@ _Please use the_ [_following instructions_](https://docs.harmony.one/home/wallet
 
 The staking website is at [https://staking.harmony.one/ledger](https://staking.harmony.one/ledger)  This site is used for staking and sending tokens.  Open the site you will see the following: 
 
-![](../../.gitbook/assets/screen-shot-2019-12-13-at-12.13.03-pm.png)
+![](../../.gitbook/assets/assets_-lleolyqeg_gkuo5rehq_-lw-til_4d3hoiy6ona2_-lw0331xfmsyocqg2vla_screen-shot-2019-12-13-at-12.1.jpg)
 
 Click the sign in button on the left side, and the signing methods will show up as below: 
 
-![](../../.gitbook/assets/screen-shot-2019-12-13-at-12.13.21-pm%20%282%29.png)
+![](../../.gitbook/assets/assets_-lleolyqeg_gkuo5rehq_-lw-til_4d3hoiy6ona2_-lw03d3o3tczqx172joy_screen-shot-2019-12-13-at-12.1.jpg)
 
-Click the "Use an existing address" ,
+Click the "Use an existing address":
 
-![](../../.gitbook/assets/screen-shot-2019-12-13-at-1.10.13-pm.png)
-
-
+![](../../.gitbook/assets/assets_-lleolyqeg_gkuo5rehq_-lw-til_4d3hoiy6ona2_-lw05kh8fdmz5js24bxr_screen-shot-2019-12-13-at-1.10.jpg)
 
 Click the "Use Ledger Nano" and it shows the following:
 
-![](../../.gitbook/assets/screen-shot-2019-12-13-at-1.35.13-pm.png)
+![](../../.gitbook/assets/assets_-lleolyqeg_gkuo5rehq_-lw-til_4d3hoiy6ona2_-lw0b-x8hdb2glb7hf0t_screen-shot-2019-12-13-at-1.35.jpg)
 
 
 
