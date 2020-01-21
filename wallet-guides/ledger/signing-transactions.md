@@ -29,11 +29,11 @@ As Ledger Nano S is connected to PC/Mac through USB, super user's permission is 
 
 After running the keys command with --ledger option, the following GUI will be displayed on Ledger Nano S LED screen:
 
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LlYdMT-Wp5uYwcF_tMW%2F-Lp17W8qGssyWUeQC8Hm%2F-Lp1QqkoLZa7pg6QMFeO%2F1assets_-LlYdMT-Wp5uYwcF_tMW.jpg?alt=media&token=32fe24fd-f99c-48d3-84a6-48e1e3664fc6)
+![](../../.gitbook/assets/assets_-llydmt-wp5uywcf_tmw_-lp17w8qgssywueqc8hm_-lp1qqkolza7pg6qmfeo_1assets_-llydmt-wp5uywcf_tmw.jpg)
 
 There are two buttons on top of Ledger Nano, click the right one to continue \(or click the left one to cancel\). After that, the following address will be shown on Ledger Nano S LED screen:‌
 
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LlYdMT-Wp5uYwcF_tMW%2F-Lp17W8qGssyWUeQC8Hm%2F-Lp1QtQgDJ6cR36TkYqq%2F2.jpg?alt=media&token=3c767945-33b3-432f-a959-faaba7f3d010)
+![](../../.gitbook/assets/assets_-llydmt-wp5uywcf_tmw_-lp17w8qgssywueqc8hm_-lp1qtqgdj6cr36tkyqq_2.jpg)
 
 As the address is longer than the LED screen, you can use the top two button to shift the address display to the left or side right side. Click both buttons to confirm the address and it should be same as displayed on PC/Mac terminal.‌
 
@@ -90,15 +90,15 @@ The LED display on Nano S is shown as below :‌
 
 Click the right button to start signing the transaction
 
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LlYdMT-Wp5uYwcF_tMW%2F-Lp1RBqYpGIEBEHFW8oF%2F-Lp1fC7Z1fvYt5C5Rjal%2F1.jpg?alt=media&token=82958d36-4e76-4f8a-96b0-242b5facaea8)
+![](../../.gitbook/assets/assets_-llydmt-wp5uywcf_tmw_-lp1rbqypgiebehfw8of_-lp1fc7z1fvyt5c5rjal_1.jpg)
 
 Check and confirm the transfer to address is correct.
 
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LlYdMT-Wp5uYwcF_tMW%2F-Lo6dy17b06JV4uSf0x9%2F-Lo6eqqLsb2bDwiMQ2rI%2F3.jpg?alt=media&token=bc38b856-e854-4c5d-97c9-a4e4b7dd3430)
+![](../../.gitbook/assets/assets_-llydmt-wp5uywcf_tmw_-lo6dy17b06jv4usf0x9_-lo6eqqlsb2bdwimq2ri_3.jpg)
 
 Check and confirm the amount is correct.
 
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LlYdMT-Wp5uYwcF_tMW%2F-Lo6dy17b06JV4uSf0x9%2F-Lo6esS-QaHgW53hL09S%2F4.jpg?alt=media&token=ee9e5941-3b23-4d23-8395-4313c7bf2986)
+![](../../.gitbook/assets/assets_-llydmt-wp5uywcf_tmw_-lo6dy17b06jv4usf0x9_-lo6ess-qahgw53hl09s_4.jpg)
 
 Check and confirm the source shard ID is correct.
 
