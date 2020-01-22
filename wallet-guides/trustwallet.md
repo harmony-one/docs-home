@@ -36,5 +36,12 @@ You will need to export the account in which you received the funds and import a
 
 
 
+1. Open Trust Wallet app 
+2. Click on "Settings" on the bottom right
+3. Click on "Wallets" 
+4. Click on the info circle next to "Multi-Coin Wallet" 
+5. 
+
+
 
 

@@ -4,7 +4,7 @@ description: >-
   wallet using a mnemonic phrase or a private key.
 ---
 
-# Create or import wallet
+# Create/import wallet
 
 ![](../../.gitbook/assets/image%20%2810%29.png)
 

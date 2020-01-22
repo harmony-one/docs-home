@@ -116,41 +116,21 @@ A sharded blockchain is new, special kind of blockchain where the whole network 
 
 Thus, a correct usage of `transfer` looks like:
 
-#### Using the Binary:
-
 ```text
-$ ./hmy transfer --node="<node_address>" \
-    --from <ONE_address> --to <ONE_address> \
-    --from-shard <shard_#> --to-shard <shard_#> \
-    --amount <amount> --chain-id <chain-id>
-```
-
-#### Using the Shell Wrapper:
-
-```text
-$ ./hmy.sh -- transfer --node="<node_address>" \
-    --from <ONE_address> --to <ONE_address> \
-    --from-shard <shard_#> --to-shard <shard_#> \
-    --amount <amount> --chain-id <chain-id>
-```
-
-#### Example:
-
-```text
-$ ./hmy transfer --node="https://api.s0.t.hmny.io" \
-      --from one1yc06ghr2p8xnl2380kpfayweguuhxdtupkhqzw \
+./hmy --node="https://api.s0.t.hmny.io" transfer --from one1yc06ghr2p8xnl2380kpfayweguuhxdtupkhqzw \
       --to one1q6gkzcap0uruuu8r6sldxuu47pd4ww9w9t7tg6 \
       --from-shard 0 --to-shard 1 --amount 10 --chain-id mainnet
-{"transaction-receipt":"0x455f98a3aa11ef50ee5cc5ac8bbd79e04f2fe353180bb7e25fc6c921fc8fdc83"}
 ```
 
-{% hint style="info" %}
-`hmy` assumes that the private keys needed for signing the transaction on behalf of the sender \(`one1yc06ghr2p8xnl2380kpfayweguuhxdtupkhqzw` in this example\) exist in the local keystore or in the hardware wallet if the `--ledger` flag was used.
-{% endhint %}
+\(for shell script see [Sending a transaction](send-tx.md#using-the-shell-script)\)
 
-{% hint style="info" %}
-The sender's account must have enough of a balance on the `from-shard` to send a transaction. In our example,`one1yc06ghr2p8xnl2380kpfayweguuhxdtupkhqzw` must have an amount balance of at least 10 in shard 0.
-{% endhint %}
+The `\` is just a way to break lines in the shell, used in this example to make it easier to see. Some key points to note in this example:
+
+1. `hmy` assumes that the private keys needed for signing the transaction on behalf
+
+   of the sender \(`one1yc06ghr2p8xnl2380kpfayweguuhxdtupkhqzw` in this example\) exist in the local keystore or in the hardware wallet if the `--ledger` flag was used.
+
+2. Although the sender's account may have enough of a balance across all shards, the relevant balance is the balance amount of the sender's account in the _from-shard_. In our example,`one1yc06ghr2p8xnl2380kpfayweguuhxdtupkhqzw` must have an amount balance of at least 10 in shard 0.
 
 Try out your transaction with the flag `--dry-run`, this flag tells `hmy` to create, cryptographically sign the transaction but not actually send it off. Sender's balances are checked and the output is a JSON dump of the ready to have been sent signed transaction.
 
@@ -160,62 +140,22 @@ Signing and sending the transaction is very quick, about two seconds maximum. Th
 
 Once a `RPC` machine receives a transaction, it sends us back a transaction hash. This transaction hash is the key identifier we use when querying the blockchain about transactions.
 
-{% hint style="warning" %}
-Simply having a transaction hash does NOT imply that the transaction was successfully accepted by the blockchain. A transaction is successfully accepted once it has been added to the blockchain, in the case of cross-shard transactions \(when the from-shard, to-shard values are different\), this means each shard has added the transaction to their blockchain.
+{% hint style="success" %}
+**PROTIP:** Simply having a transaction hash does NOT imply that the transaction was successfully accepted by the blockchain. A transaction is successfully accepted once it has been added to the blockchain, in the case of cross-shard transactions \(when the from-shard, to-shard values are different\), this means each shard has added the transaction to their blockchain.
 {% endhint %}
 
-We can pull down details of the finalized transaction with `./hmy blockchain transaction-receipt` as well:
-
-#### Using the Binary: 
+We can pull down details of the finalized transaction with `hmy` as well, an example:
 
 ```text
-$ ./hmy blockchain transaction-receipt \
-    --node="<endpoint-address>" \
-    <transaction-hash>
+./hmy --node="https://api.s0.t.hmny.io" \
+    blockchain transaction-receipt \
+    0x599793f313ee17566f8d09728b9d043b8e26135ddce86beeee13f98767d452f7
 ```
 
-#### Using the Shell Wrapper:
+Keep in mind two key points:
 
-```text
-$ ./hmy.sh -- blockchain transaction-receipt \
-    --node="<endpoint-address>" \
-    <transaction-hash>
-```
-
-#### Example:
-
-```text
-$ ./hmy blockchain transaction-receipt \
-    --node="https://api.s0.t.hmny.io" \
-    0x25dd32397b5a69146b2dc3bbdc8ef8aae271e9b12a36c6dff1eb8995cac9dcba
-{
-  "id": "0",
-  "jsonrpc": "2.0",
-  "result": {
-    "blockHash": "0x67eb5d671af76814d9ab326f9ec36c5b889b872e0c34e8cbe484aea20f0611ea",
-    "blockNumber": "0x21017f",
-    "contractAddress": null,
-    "cumulativeGasUsed": "0x5208",
-    "from": "one1sp4q22r7cc78742mzrufu6xwcekqxjgq78jk3m",
-    "gasUsed": "0x5208",
-    "logs": [],
-    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
-    "shardID": 0,
-    "status": "0x1",
-    "to": "one129r9pj3sk0re76f7zs3qz92rggmdgjhtwge62k",
-    "transactionHash": "0x25dd32397b5a69146b2dc3bbdc8ef8aae271e9b12a36c6dff1eb8995cac9dcba",
-    "transactionIndex": "0x0"
-  }
-}
-```
-
-{% hint style="info" %}
-If the transaction has not finalized then the `"result"` key in the `JSON` output will have value of `null`.
-{% endhint %}
-
-{% hint style="warning" %}
-You should set the value of `--node` to the same shard that sent the transaction, notice that the URL we used, `https://api.s0.t.hmny.io` contained `s0`, this means that this URL is targeting shard 0. For further information, see [Querying the Blockchain](querying-the-blockchain.md).
-{% endhint %}
+1. If the transaction has not finalized then the `"result"` key in the `JSON` output will have value of `null`.
+2. You should set the value of `--node` to the same shard that sent the transaction, notice that the URL we used, `https://api.s0.t.hmny.io` contained `s0`, this means that this URL is targeting shard 0.
 
 You can tell `hmy` to wait until transaction confirmation by providing a positive integer value to flag `--wait-for-confirm`. For example, `--wait-for-confirm=10` will try checking the receipt of the transaction for 10 seconds.
 
