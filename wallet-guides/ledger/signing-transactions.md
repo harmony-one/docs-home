@@ -29,7 +29,7 @@ As Ledger Nano S is connected to PC/Mac through USB, super user's permission is 
 
 After running the keys command with --ledger option, the following GUI will be displayed on Ledger Nano S LED screen:
 
-![](../../.gitbook/assets/assets_-llydmt-wp5uywcf_tmw_-lp17w8qgssywueqc8hm_-lp1qqkolza7pg6qmfeo_1assets_-llydmt-wp5uywcf_tmw.jpg)
+![](../../.gitbook/assets/assets_-llydmt-wp5uywcf_tmw_-lp17w8qgssywueqc8hm_-lp1qqkolza7pg6qmfeo_1assets_-llydmt-wp5uywcf_tmw%20%281%29.jpg)
 
 There are two buttons on top of Ledger Nano, click the right one to continue \(or click the left one to cancel\). After that, the following address will be shown on Ledger Nano S LED screen:‌
 

@@ -35,11 +35,11 @@ Click the "Use Ledger Nano" and it shows the following:
 
 Click "Sign In" and check your Ledger Nano S.  It should show "Display Address" on the LED like below:
 
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LlYdMT-Wp5uYwcF_tMW%2F-Lp17W8qGssyWUeQC8Hm%2F-Lp1QqkoLZa7pg6QMFeO%2F1assets_-LlYdMT-Wp5uYwcF_tMW.jpg?alt=media&token=32fe24fd-f99c-48d3-84a6-48e1e3664fc6)
+![](../../.gitbook/assets/assets_-llydmt-wp5uywcf_tmw_-lp17w8qgssywueqc8hm_-lp1qqkolza7pg6qmfeo_1assets_-llydmt-wp5uywcf_tmw.jpg)
 
 There are two buttons on top of Ledger Nano, click the right one to continue \(or click the left one to cancel\). After that, the following address will be shown on Ledger Nano S LED screen:‌
 
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LlYdMT-Wp5uYwcF_tMW%2F-Lp17W8qGssyWUeQC8Hm%2F-Lp1QtQgDJ6cR36TkYqq%2F2.jpg?alt=media&token=3c767945-33b3-432f-a959-faaba7f3d010)
+![](../../.gitbook/assets/assets_-llydmt-wp5uywcf_tmw_-lp17w8qgssywueqc8hm_-lp1qtqgdj6cr36tkyqq_2%20%281%29.jpg)
 
 As the address is longer than the LED screen, you can use the top two button to shift the address display to the left or side right side.  After that, you should see "Wait for commands" in the LED display. 
 
@@ -49,7 +49,7 @@ The entire process is shown in video below:
 
 After that you are logged in , the computer screen should change, you will see the Harmony ONE address one the left side: under "Your Address". And it should also display the balances for the Ledger Nano S wallet using Ledger as below: 
 
-![](../../.gitbook/assets/screen-shot-2019-12-13-at-1.37.48-pm.png)
+![](../../.gitbook/assets/assets_-lleolyqeg_gkuo5rehq_-lw-til_4d3hoiy6ona2_-lw0ban3yr69jy9lafui_screen-shot-2019-12-13-at-1.37.jpg)
 
 ## Sending Tokens With Ledger 
 
