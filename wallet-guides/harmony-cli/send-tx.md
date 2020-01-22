@@ -4,20 +4,56 @@ Perhaps the most important feature of the `hmy` CLI is the ability to create and
 
 ## Quick version - for experienced users <a id="quick-version"></a>
 
-### Sending a cross-shard transaction <a id="sending-a-cross-shard-transaction-on-betanet"></a>
+### Sending a transaction <a id="sending-a-cross-shard-transaction-on-betanet"></a>
+
+#### Using the Binary:
 
 ```text
-./hmy --node="https://api.s0.t.hmny.io" \
+$ ./hmy transfer --node="<node_address>" \
+    --from <ONE_address> --to <ONE_address> \
+    --from-shard <shard_#> --to-shard <shard_#> \
+    --amount <amount> --chain-id <chain-id>
+```
+
+#### Using the Shell Script:
+
+```text
+$ ./hmy.sh -- transfer --node="<node_address>" \
+    --from <ONE_address> --to <ONE_address> \
+    --from-shard <shard_#> --to-shard <shard_#> \
+    --amount <amount> --chain-id <chain-id>
+```
+
+#### Example:
+
+```text
+$ ./hmy --node="https://api.s0.t.hmny.io" \
     transfer --from one1yc06ghr2p8xnl2380kpfayweguuhxdtupkhqzw \
-    --to one1q6gkzcap0uruuu8 r6sldxuu47pd4ww9w9t7tg6 \    
+    --to one1q6gkzcap0uruuu8r6sldxuu47pd4ww9w9t7tg6 \    
     --from-shard 0 --to-shard 1 --amount 12.5 --chain-id mainnet
 ```
 
-Same shard transactions require the same shard value used in the `--from-shard` and `--to-shard` flags.
+Same shard transactions require the same shard value used in the `--from-shard` and `--to-shard` flags, while cross shard transactions require a different shard value for each.
 
 ### Checking the transaction hash <a id="checking-the-transaction-hash"></a>
 
 Check for finality of the transaction by using the transaction hash like so
+
+#### Using the Binary:
+
+```text
+$ ./hmy blockchain transaction-receipt <transaction_id> \
+    --node="<node_address>"
+```
+
+#### Using the Shell Script:
+
+```text
+$ ./hmy.sh -- blockchain transaction-receipt <transaction_id> \
+    --node="<node_address>"
+```
+
+#### Example:
 
 ```text
 ./hmy --node="https://api.s0.t.hmny.io" \
@@ -31,8 +67,22 @@ Check for finality of the transaction by using the transaction hash like so
 
 Let's first check what chain-ids are available for us to use, we can do that easily with:
 
+#### Using the Binary:
+
 ```text
-./hmy blockchain known-chains
+$ ./hmy blockchain known-chains
+```
+
+#### Using the Shell Script:
+
+```text
+$ ./hmy.sh -- blockchain known-chains
+```
+
+#### Example:
+
+```text
+$ ./hmy blockchain known-chains
 
 [
   "mainnet",
@@ -50,7 +100,7 @@ By default, `hmy` assumes the `testnet` chain-id; override that with the `--chai
 We'll use the `transfer` subcommand of `hmy` to send a transaction.
 
 ```text
-./hmy transfer
+$ ./hmy transfer
 Error: required flag(s) "amount", "from", "from-shard", "to", "to-shard" not set
 ```
 
@@ -71,6 +121,8 @@ Thus, a correct usage of `transfer` looks like:
       --to one1q6gkzcap0uruuu8r6sldxuu47pd4ww9w9t7tg6 \
       --from-shard 0 --to-shard 1 --amount 10 --chain-id mainnet
 ```
+
+\(for shell script see [Sending a transaction](send-tx.md#using-the-shell-script)\)
 
 The `\` is just a way to break lines in the shell, used in this example to make it easier to see. Some key points to note in this example:
 

@@ -8,6 +8,7 @@ Throughout this guide, we will use the following syntax:
 * `[argument]`: This is an optional argument
 * `<argument>`: This is a required argument
 * `$` : This is the start of a line in the shell
+* `/` : 
 
 When we mention the binary, we are referencing the `./hmy` binary from the [setup procedure](download-setup.md#1-for-linux-pure-statically-linked-binary).
 
