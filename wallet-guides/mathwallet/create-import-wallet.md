@@ -1,18 +1,14 @@
----
-description: >-
-  You can create a wallet through the extension, and also import your existing
-  wallet using a mnemonic phrase or a private key.
----
+# Create or Import Wallet
 
-# Create/import wallet
+1. You can create a wallet through the extension, and also import your existing wallet using a mnemonic phrase or a private key
 
 ![](../../.gitbook/assets/image%20%2810%29.png)
 
-When you create a wallet, please write down your mnemonic correctly and keep in a safe place. Once forgotten, it cannot be recovered.
+2. When you create a wallet, please write down your mnemonic correctly and keep in a safe place. Once forgotten, it cannot be recovered
 
 ![](../../.gitbook/assets/image%20%2823%29.png)
 
-You may also import Harmony Account using a mnemonic or private key.
+3. You may also import Harmony Account using a mnemonic or private key.
 
 ![](../../.gitbook/assets/image%20%2826%29.png)
 

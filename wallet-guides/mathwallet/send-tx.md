@@ -2,7 +2,7 @@
 description: How to send a transaction and how to switch networks
 ---
 
-# Sending transactions
+# Sending Transactions
 
 Make sure you've set up your Math Wallet extension according to the directions in [Download & Setup](https://docs.harmony.one/home/wallet-guides/mathwallet/download-and-setup)
 
