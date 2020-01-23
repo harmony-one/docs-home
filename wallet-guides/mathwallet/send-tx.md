@@ -4,7 +4,7 @@ Make sure you've set up your Math Wallet extension according to the directions i
 
 ## Opening Web Wallet
 
-You will need to open Web Wallet in order to view account details and perform transactions
+You will need to open Web Wallet in order to view account details and perform transactions.
 
 1. Please select the wallet you want to open and click **Web Wallet** on the Math Wallet extension popover interface
 2. After clicking Web Wallet, a new tab will open asking you to login into Math Wallet, click on login and you will enter the Web Wallet 
@@ -22,9 +22,9 @@ You will need to open Web Wallet in order to view account details and perform tr
 
 ## Switching Networks
 
-If you would like to use Math Wallet to interact with other Harmony networks, you will need to switch network
+If you would like to use Math Wallet to interact with other Harmony networks, you will need to switch network.
 
-In the toolbar at the top of the page, there is a drop down menu which defaults to **Harmony** where you can specify which network you wish to operate on
+In the toolbar at the top of the page, there is a drop down menu which defaults to **Harmony** where you can specify which network you wish to operate on.
 
 ![](../../.gitbook/assets/image%20%2820%29.png)
 

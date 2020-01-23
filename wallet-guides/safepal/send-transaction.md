@@ -2,25 +2,25 @@
 
 ## How to send ONE in SafePal？
 
-Step 1：Enter 'Send' segment in SafePal App and select ONE coin.
+1. Enter 'Send' segment in SafePal App and select ONE coin
 
 ![](../../.gitbook/assets/image%20%2856%29.png)
 
-Step 2：Input receive address by pasting the address or scanning the QR code. Enter all transfer details - amount, fee level and don't forget to select the shard number.
+2. Input receive address by pasting the address or scanning the QR code. Enter all transfer details - amount, fee level and don't forget to select the shard number
 
 ![](../../.gitbook/assets/image%20%2849%29.png)
 
-Step 3: Then clink “Send”to check the transaction details.
+3. Then clink “Send”to check the transaction details
 
 ![](../../.gitbook/assets/image%20%2814%29.png)
 
 Tips: If you don't know the exact shard number, don't worry, you can simply use Shard 0 as the default shard.
 
-Step 4: Sign the order with your SafePal S1 hardware wallet.
+4. Sign the order with your SafePal S1 hardware wallet
 
 ![](../../.gitbook/assets/image%20%2828%29.png)
 
-Step 5: Confirm the payment.The transfer is broadcasted on chain! Don't forget to check transfer status later!
+5. Confirm the payment.The transfer is broadcasted on chain. Don't forget to check transfer status later
 
 ![](../../.gitbook/assets/image%20%2831%29.png)
 
