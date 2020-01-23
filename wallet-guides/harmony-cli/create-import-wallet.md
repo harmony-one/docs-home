@@ -17,7 +17,9 @@ When we mention the shell scripts, we are referencing the `./hmy.sh` shell scrip
 
 ## New Wallet
 
+{% hint style="info" %}
 Creation of a new account is done as a function of a generated `bip39` mnemonic with 256 bits of entropy. You must provide an account alias name.
+{% endhint %}
 
 #### Using the Binary:
 
@@ -58,7 +60,7 @@ $ ./hmy keys location
 $ ./hmy.sh -- keys location
 ```
 
-The command above will return the location of your wallet file. Backup this wallet file somewhere else.‌
+The command above will return the location of your wallet file. Backup this wallet file somewhere else
 
 You can check the list of wallets \(local accounts\) with the following command:
 
@@ -86,7 +88,7 @@ Or that starts with "UTC" in the file name \(example\):
 
 `UTC--2020-01-15T01-02-06.606670000Z--9689a0711642bf08ea92ed98d552f0c1b8c8cefb`
 
-Both these files can be imported into `hmy` using the command `import-ks` as shown bellow. 
+Both these files can be imported into `hmy` using the command `import-ks` as shown bellow
 
 #### Using the Binary:
 
@@ -117,7 +119,7 @@ Sometimes you might have a secp256k1 private key, such as the one generated from
 $ openssl ecparam -genkey -name secp256k1 -text -noout -outform DER | xxd -p -c 1000 | sed 's/41534e31204f49443a20736563703235366b310a30740201010420/PrivKey: /' | sed 's/a00706052b8104000aa144034200/\'$'\nPubKey: /'
 ```
 
-You can import the key with an optional name and passphrase.
+You can import the key with an optional name and passphrase
 
 #### Using the Binary:
 

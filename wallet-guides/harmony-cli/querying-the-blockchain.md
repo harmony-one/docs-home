@@ -21,7 +21,7 @@ By using `./hmy blockchain help` command we can see that the following options a
 * **current-nonce** - current nonce of an account delegation information about delegations
 * **known-chains** - print out the known chain-ids 
 * **latest-header** - get the latest header
-* **median-stake** - median stake of top 320 validators with delegations applied stake \(pre-epos processing\)
+* **median-stake** - median stake of top 320 validators with delegations applied                 stake \(pre-epos processing\)
 * **protocol-version** - the version of the Harmony Protocol
 * **transaction-by-hash** - get transaction by hash
 * **transaction-receipt**  - get information about a finalized transaction validator information about validators
@@ -29,26 +29,10 @@ By using `./hmy blockchain help` command we can see that the following options a
 
 Here are come examples of the above commands that you will use frequently:
 
-### **transaction-by-hash**
-
-Checking the hash of your transaction to see the transaction data and if the transaction has been completed
-
-#### Using the Binary:
+1. **transaction-by-hash -** checking the hash of your transaction to see the transaction data and if the transaction has been completed
 
 ```text
-$ ./hmy blockchain transaction-by-hash <transaction-hash> --node="<endpoint-address>"
-```
-
-#### Using the Shell Wrapper:
-
-```text
-$ ./hmy.sh -- blockchain transaction-by-hash <transaction-hash> --node="<endpoint-address>"
-```
-
-#### Example:
-
-```text
-$ ./hmy blockchain transaction-by-hash 0x75d91100734edcd1497200cb438f0864d2ed4a44a88bf8c87855cb2b3cc54001 --node="https://api.s0.t.hmny.io"
+./hmy blockchain transaction-by-hash 0x75d91100734edcd1497200cb438f0864d2ed4a44a88bf8c87855cb2b3cc54001 --node="https://api.s0.t.hmny.io"
 
 {
   "id": "0",
@@ -75,26 +59,10 @@ $ ./hmy blockchain transaction-by-hash 0x75d91100734edcd1497200cb438f0864d2ed4a4
 }
 ```
 
-### **transaction-receipt** 
-
-Get information about a finalized transaction:
-
-#### Using the Binary:
+2. **transaction-receipt**  - get information about a finalized transaction 
 
 ```text
-$ ./hmy blockchain transaction-receipt <transaction-hash> --node="<endpoint-address>"
-```
-
-#### Using the Shell Wrapper:
-
-```text
-$ ./hmy.sh -- blockchain transaction-receipt <transaction-hash> --node="<endpoint-address>"
-```
-
-#### Example:
-
-```text
-$ ./hmy --node="https://api.s0.t.hmny.io" blockchain transaction-receipt 0x599793f313ee17566f8d09728b9d043b8e26135ddce86beeee13f98767d452f7
+./hmy --node="https://api.s0.t.hmny.io" blockchain transaction-receipt 0x599793f313ee17566f8d09728b9d043b8e26135ddce86beeee13f98767d452f7
 
 {
   "id": "0",
@@ -117,28 +85,12 @@ $ ./hmy --node="https://api.s0.t.hmny.io" blockchain transaction-receipt 0x59979
 }
 ```
 
-### **latest-header command**
-
-Checking the network status, last block, epoch, leaders, based on the shard number:
-
-#### Using the Binary:
-
-```text
-$ ./hmy blockchain latest-header --node="<endpoint-address>"
-```
-
-#### Using the Shell Wrapper:
-
-```text
-$ ./hmy.sh -- blockchain latest-header --node="<endpoint-address>"
-```
-
-#### Example:
+#### **3.** latest-header command **- checking the network status, last block, epoch, leaders, based on the shard number**
 
 {% tabs %}
 {% tab title="Shard 0" %}
 ```text
-$ ./hmy blockchain latest-header --node=https://api.s0.t.hmny.io
+./hmy blockchain latest-header --node=https://api.s0.t.hmny.io
 
 {
   "id": "0",
@@ -161,7 +113,7 @@ $ ./hmy blockchain latest-header --node=https://api.s0.t.hmny.io
 
 {% tab title="Shard 1" %}
 ```
-$ ./hmy blockchain latest-header --node=https://api.s1.t.hmny.io
+./hmy blockchain latest-header --node=https://api.s1.t.hmny.io
 
 {
   "id": "0",
@@ -184,7 +136,7 @@ $ ./hmy blockchain latest-header --node=https://api.s1.t.hmny.io
 
 {% tab title="Shard 2" %}
 ```
-$ ./hmy blockchain latest-header --node=https://api.s2.t.hmny.io
+./hmy blockchain latest-header --node=https://api.s2.t.hmny.io
 
 {
   "id": "0",
@@ -207,7 +159,7 @@ $ ./hmy blockchain latest-header --node=https://api.s2.t.hmny.io
 
 {% tab title="Shard 3" %}
 ```
-$ ./hmy blockchain latest-header --node=https://api.s3.t.hmny.io
+./hmy blockchain latest-header --node=https://api.s3.t.hmny.io
 
 {
   "id": "0",
