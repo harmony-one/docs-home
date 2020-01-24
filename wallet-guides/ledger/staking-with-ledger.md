@@ -55,17 +55,17 @@ After that you are logged in , the computer screen should change, you will see t
 
 To send any token to an address, please click the send button and the send screen will display as the following:
 
-![](../../.gitbook/assets/screen-shot-2019-12-13-at-1.48.03-pm.png)
+![](../../.gitbook/assets/assets_-lleolyqeg_gkuo5rehq_-lw-til_4d3hoiy6ona2_-lw0dy2mt5zefjoimpz0_screen-shot-2019-12-13-at-1.48.jpg)
 
 Input the amount of tokens to send and the destination address, then click the next buttons until you see the send button. Click the send button as shown below: 
 
-![](../../.gitbook/assets/screen-shot-2019-12-13-at-1.50.27-pm.png)
+![](../../.gitbook/assets/assets_-lleolyqeg_gkuo5rehq_-lw-til_4d3hoiy6ona2_-lw0eaumsidiu8iayj5v_screen-shot-2019-12-13-at-1.50.jpg)
 
 Check your ledger Nano S, the LED display on Nano S is shown as below :‌
 
 Click the right button to start signing the transaction
 
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LlYdMT-Wp5uYwcF_tMW%2F-Lp1RBqYpGIEBEHFW8oF%2F-Lp1fC7Z1fvYt5C5Rjal%2F1.jpg?alt=media&token=82958d36-4e76-4f8a-96b0-242b5facaea8)
+![](../../.gitbook/assets/assets_-llydmt-wp5uywcf_tmw_-lp1rbqypgiebehfw8of_-lp1fc7z1fvyt5c5rjal_1%20%281%29.jpg)
 
 Check and confirm the transfer to address is correct.
 

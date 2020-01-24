@@ -15,7 +15,7 @@
   * [Missing Funds on Exchange](wallet-guides/overview/missing-funds-on-exchange.md)
 * [Trust Wallet](wallet-guides/trustwallet.md)
 * [Ledger](wallet-guides/ledger/README.md)
-  * [Setting up your Ledger Nano S](wallet-guides/ledger/install-and-setup.md)
+  * [Setting up your Ledger Nano S](wallet-guides/ledger/install-and-setup/README.md)
     * [For Mac and Linux Users](wallet-guides/ledger/install-and-setup/for-mac-and-linux-users.md)
     * [For Windows Users](wallet-guides/ledger/install-and-setup/for-windows-users.md)
   * [Ledger Nano S With CLI](wallet-guides/ledger/signing-transactions.md)

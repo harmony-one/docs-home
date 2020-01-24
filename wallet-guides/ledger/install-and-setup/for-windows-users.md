@@ -57,7 +57,7 @@ $ python -m ledgerblue.loadApp --appFlags 0x40 --path "44'/1023'"  --curve secp2
 
 6. Install app ONE, click right bottom until appears install
 
-Enter again your password
+7. Enter again your password
 
 Congratulations, step 1 is complete!
 
@@ -67,7 +67,5 @@ On the Ledger Nano S LCD screen, there will be a new icon for Harmony App : One
 
 1. To open the Harmony app, please click both the left and right button on top of the Ledger Nano S. 
 2. A series messages will be displayed including "This app is not genuine" \(as it is a developer edition, not a formal app from Ledger Live\)
-3. Click the right button until you see "Open Application",  then click both left and right button to open the Harmony appOnce the application is opened, it will show "Waiting for commands..." in the LCD screen. This means Ledger Nano S is ready for accept commands and sign transactions from the host
-
-## 
+3. Click the right button until you see "Open Application",  then click both left and right button to open the Harmony appOnce the application is opened, it will show "Waiting for commands..." in the LCD screen. This means Ledger Nano S is ready for accept commands and sign transactions from the host.
 

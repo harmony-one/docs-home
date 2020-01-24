@@ -12,7 +12,7 @@ Please note that Trust Wallet does not support sharded network architecture yet,
 
 The funds that are sent within Shard-0 will be viewed correctly in Trust Wallet. 
 
-If you receive funds in a shard other than Shard-0 \(e.g., In shard 2, you will not see the transaction receipt in Trust Wallet app.\) Since your account balance will only show the funds in shard 0, your total balance will not change. 
+If you receive funds in a shard other than Shard-0 \(i.e. In shard 2, you will not see the transaction receipt in Trust Wallet app.\) Since your account balance will only show the funds in shard 0, your total balance will not change. 
 
 ### Outgoing transactions
 
@@ -30,17 +30,20 @@ You will need to export the account in which you received the funds and import a
 
 **Using Math Wallet:**
 
-1. Go to Trust Wallet under settings -&gt; Wallets -&gt; Multi Coin Wallet 1 -&gt; press the 3 dots -&gt; show recovery phrase \(this gives the 12 character mnemonic\)
-2. Go into MathWallet Chrome Extension -&gt; Select Harmony -&gt; Press the + button -&gt; Import wallet -&gt; import by mnemonic -&gt; enter the 12 words previously exported from trust wallet -&gt; give the wallet a meaningful name \(e.g. Trust Wallet - Account 1\) 
-3. From here you can now open Math Wallet and access the funds
-
-
-
 1. Open Trust Wallet app 
 2. Click on "Settings" on the bottom right
 3. Click on "Wallets" 
 4. Click on the info circle next to "Multi-Coin Wallet" 
-5. 
+5. The screen will show backup options, select "show recovery phrase" 
+6. Your mnemonic recovery phrase will show up, make sure to note them down accurately and securely 
+7. Open Math Wallet Chrome Extension 
+8. Click the + sign next to Harmony
+9.  Select "Import Wallet"
+10. Select "Import by mnemonic"
+11. Type in your mnemonic that you noted from Trust Wallet, and click next
+12. Name your new imported wallet
+13. Open "web wallet" from the extension and you can access all your funds in all shards
+
 
 
 

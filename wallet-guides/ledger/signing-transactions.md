@@ -7,11 +7,11 @@ Using Harmony hardware wallet on the Ledger Nano S requires a few things. You wi
 * Your Ledger Nano S
 * The Harmony app installed on your Nano S
 * The [harmony CLI app](https://docs.harmony.one/sdk-wiki/command-line-interface/using-the-harmony-cli-tool) on your computer to talk to the Nano S
-* Familiarity with your computer's command-line interface \(CLI\).
+* Familiarity with your computer's command-line interface \(CLI\)
 
 ## Download CLI 
 
-_Please use the_ [_following instructions_](https://docs.harmony.one/home/wallet-guides/harmony-cli/download-setup) _to download CLI to use  Ledger Nano S ._
+_Please use the_ [_following instructions_](https://docs.harmony.one/home/wallet-guides/harmony-cli/download-setup) _to download CLI to use  Ledger Nano S._
 
 ## Install Ledger Nano S Firmware In Debugging Mode
 
