@@ -35,15 +35,9 @@ $ ./hmy keys list --ledger
 $ ./hmy.sh -- keys list --ledger
 ```
 
-After running the keys command with --ledger option, the following GUI will be displayed on Ledger Nano S LED screen:
-
-![](../../.gitbook/assets/assets_-llydmt-wp5uywcf_tmw_-lp17w8qgssywueqc8hm_-lp1qqkolza7pg6qmfeo_1assets_-llydmt-wp5uywcf_tmw%20%281%29.jpg)
-
-There are two buttons on top of Ledger Nano, click the right one to continue \(or click the left one to cancel\). After that, the following address will be shown on Ledger Nano S LED screen:‌
-
-![](../../.gitbook/assets/assets_-llydmt-wp5uywcf_tmw_-lp17w8qgssywueqc8hm_-lp1qtqgdj6cr36tkyqq_2.jpg)
-
-As the address is longer than the LED screen, you can use the top two button to shift the address display to the left or side right side. Click both buttons to confirm the address and it should be same as displayed on PC/Mac terminal.‌
+1. After running the keys command with --ledger option, a GUI will be displayed on Ledger Nano S LED screen
+2. There are two buttons on top of Ledger Nano, click the right one to continue \(or click the left one to cancel\). After that, the address will be shown on Ledger Nano S LED screen
+3. As the address is longer than the LED screen, you can use the top two button to shift the address display to the left or side right side. Click both buttons to confirm the address and it should be same as displayed on PC/Mac terminal.‌
 
 The entire process is shown in video below:
 
@@ -67,19 +61,19 @@ $ ./hmy.sh -- balances --node="<endpoint_address>" <address>
 
 Here &lt;endpoint\_address&gt; is the server address for either Mainnet or Testnet and &lt;address&gt; is the Harmony wallet address.‌
 
-**Query balance on Mainnet**
+### **Query balance on Mainnet**
 
 ```bash
 $ ./hmy balances --node="https://api.s0.t.hmny.io" <address>
 ```
 
-‌**Query balance on Devnet**
+### ‌**Query balance on Devnet**
 
 ```bash
 $ ./hmy balances --node="https://api.s0.pga.hmny.io" <address>
 ```
 
-### Query balance on Testnet <a id="query-balance-on-betanet-testnet"></a>
+### Query balance on Testnet
 
 ```bash
 $ ./hmy balances --node="https://api.s0.b.hmny.io" <address>
@@ -91,7 +85,11 @@ The actual endpoint addresses are subject to change.
 
 ## Token transfer using Ledger Nano S
 
-To send token from Ledger Nano S to another wallet account, we need Ledger Nano S hardware to sign the transaction with private key inside Ledger Nano S hardware. The CLI command **transfer --ledger** should be called with sudo permission:
+To send token from Ledger Nano S to another wallet account, we need Ledger Nano S hardware to sign the transaction with private key inside Ledger Nano S hardware. 
+
+{% hint style="warning" %}
+If you get a permission error while running the following commands, prepend `sudo` to the commands to run them with administrative privileges.
+{% endhint %}
 
 #### Using the binary:
 
@@ -118,33 +116,13 @@ $ ./hmy.sh -- transfer --ledger --node="<endpoint_address>" \
 
 Please note that you will need to unlock Ledger Nano S, and confirm the transaction parameters on Ledger Nano S.
 
-The LED display on Nano S is shown as below :‌
-
-Click the right button to start signing the transaction
-
-![](../../.gitbook/assets/assets_-llydmt-wp5uywcf_tmw_-lp1rbqypgiebehfw8of_-lp1fc7z1fvyt5c5rjal_1.jpg)
-
-Check and confirm the transfer to address is correct.
-
-![](../../.gitbook/assets/assets_-llydmt-wp5uywcf_tmw_-lo6dy17b06jv4usf0x9_-lo6eqqlsb2bdwimq2ri_3.jpg)
-
-Check and confirm the amount is correct.
-
-![](../../.gitbook/assets/assets_-llydmt-wp5uywcf_tmw_-lo6dy17b06jv4usf0x9_-lo6ess-qahgw53hl09s_4.jpg)
-
-Check and confirm the source shard ID is correct.
-
-![](../../.gitbook/assets/assets_-llydmt-wp5uywcf_tmw_-lo6dy17b06jv4usf0x9_-lo6ewojrmregmfnecvn_5.jpg)
-
-Check and confirm the destination shard ID is correct.
-
-![](../../.gitbook/assets/assets_-llydmt-wp5uywcf_tmw_-lo6dy17b06jv4usf0x9_-lo6eyzo-z2dia94jfx3_6.jpg)
+1. On the `Sign Transaction` screen, click the right button to start signing the transaction
+2. Check and confirm the "transfer to" address , `Send to Addr`, is correct.
+3. Check and confirm the `Amount` is correct.
+4. Check and confirm the source shard ID, `From Shard`, is correct.
+5. Check and confirm the destination shard ID, `To Shard`, is correct.
 
 Detailed process is shown in video below:
-
-\_\_
-
-
 
 {% embed url="https://youtu.be/feRpGW1seQI" %}
 
