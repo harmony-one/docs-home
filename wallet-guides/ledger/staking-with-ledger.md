@@ -69,29 +69,27 @@ Click the right button to start signing the transaction
 
 Check and confirm the transfer to address is correct.
 
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LlYdMT-Wp5uYwcF_tMW%2F-Lo6dy17b06JV4uSf0x9%2F-Lo6eqqLsb2bDwiMQ2rI%2F3.jpg?alt=media&token=bc38b856-e854-4c5d-97c9-a4e4b7dd3430)
+![](../../.gitbook/assets/assets_-llydmt-wp5uywcf_tmw_-lo6dy17b06jv4usf0x9_-lo6eqqlsb2bdwimq2ri_3%20%281%29.jpg)
 
 Check and confirm the amount is correct.
 
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LlYdMT-Wp5uYwcF_tMW%2F-Lo6dy17b06JV4uSf0x9%2F-Lo6esS-QaHgW53hL09S%2F4.jpg?alt=media&token=ee9e5941-3b23-4d23-8395-4313c7bf2986)
+![](../../.gitbook/assets/assets_-llydmt-wp5uywcf_tmw_-lo6dy17b06jv4usf0x9_-lo6ess-qahgw53hl09s_4%20%281%29.jpg)
 
 Check and confirm the source shard ID is correct.
 
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LlYdMT-Wp5uYwcF_tMW%2F-Lo6dy17b06JV4uSf0x9%2F-Lo6ewoJRmrEgmFneCVn%2F5.jpg?alt=media&token=691a919a-c841-4d41-bfe9-a3d658ab2e9e)
+![](../../.gitbook/assets/assets_-llydmt-wp5uywcf_tmw_-lo6dy17b06jv4usf0x9_-lo6ewojrmregmfnecvn_5%20%281%29.jpg)
 
 Check and confirm the destination shard ID is correct.
 
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LlYdMT-Wp5uYwcF_tMW%2F-Lo6dy17b06JV4uSf0x9%2F-Lo6eyZo-Z2Dia94jFx3%2F6.jpg?alt=media&token=1da33a34-7a21-4572-8b36-f93e90563a73)
+![](../../.gitbook/assets/assets_-llydmt-wp5uywcf_tmw_-lo6dy17b06jv4usf0x9_-lo6eyzo-z2dia94jfx3_6%20%281%29.jpg)
 
 Detailed process is shown in video below:
 
 {% embed url="https://youtu.be/feRpGW1seQI" caption="" %}
 
-
-
 On the computer, you will find that the transaction is sent and confirming: 
 
-![](../../.gitbook/assets/screen-shot-2019-12-13-at-1.52.32-pm.png)
+![](../../.gitbook/assets/assets_-lleolyqeg_gkuo5rehq_-lw-til_4d3hoiy6ona2_-lw0f5w9adopprr8pa-j_screen-shot-2019-12-13-at-1.52.jpg)
 
 After a while, it will change to "Successful Send" 
 
