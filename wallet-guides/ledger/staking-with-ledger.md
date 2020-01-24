@@ -81,7 +81,7 @@ Check and confirm the source shard ID is correct.
 
 Check and confirm the destination shard ID is correct.
 
-![](../../.gitbook/assets/assets_-llydmt-wp5uywcf_tmw_-lo6dy17b06jv4usf0x9_-lo6eyzo-z2dia94jfx3_6%20%281%29.jpg)
+![](../../.gitbook/assets/assets_-llydmt-wp5uywcf_tmw_-lo6dy17b06jv4usf0x9_-lo6eyzo-z2dia94jfx3_6%20%282%29.jpg)
 
 Detailed process is shown in video below:
 
