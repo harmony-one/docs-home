@@ -31,8 +31,6 @@ Click the "Use Ledger Nano" and it shows the following:
 
 ![](../../.gitbook/assets/assets_-lleolyqeg_gkuo5rehq_-lw-til_4d3hoiy6ona2_-lw0b-x8hdb2glb7hf0t_screen-shot-2019-12-13-at-1.35.jpg)
 
-
-
 Click "Sign In" and check your Ledger Nano S.  It should show "Display Address" on the LED like below:
 
 ![](../../.gitbook/assets/assets_-llydmt-wp5uywcf_tmw_-lp17w8qgssywueqc8hm_-lp1qqkolza7pg6qmfeo_1assets_-llydmt-wp5uywcf_tmw.jpg)
@@ -43,7 +41,7 @@ There are two buttons on top of Ledger Nano, click the right one to continue \(o
 
 As the address is longer than the LED screen, you can use the top two button to shift the address display to the left or side right side.  After that, you should see "Wait for commands" in the LED display. 
 
-The entire process is shown in video below:
+The entire process is shown in the video below:
 
 {% embed url="https://www.youtube.com/watch?v=m5RLYGWosuk&feature=youtu.be" %}
 
@@ -61,25 +59,25 @@ Input the amount of tokens to send and the destination address, then click the n
 
 ![](../../.gitbook/assets/assets_-lleolyqeg_gkuo5rehq_-lw-til_4d3hoiy6ona2_-lw0eaumsidiu8iayj5v_screen-shot-2019-12-13-at-1.50.jpg)
 
-Check your ledger Nano S, the LED display on Nano S is shown as below :‌
+Check your ledger Nano S, the LED display on Nano S is shown as below.
 
-Click the right button to start signing the transaction
+Click the right button to start signing the transaction:
 
 ![](../../.gitbook/assets/assets_-llydmt-wp5uywcf_tmw_-lp1rbqypgiebehfw8of_-lp1fc7z1fvyt5c5rjal_1%20%281%29.jpg)
 
-Check and confirm the transfer to address is correct.
+Check and confirm the transfer to address is correct:
 
 ![](../../.gitbook/assets/assets_-llydmt-wp5uywcf_tmw_-lo6dy17b06jv4usf0x9_-lo6eqqlsb2bdwimq2ri_3%20%281%29.jpg)
 
-Check and confirm the amount is correct.
+Check and confirm the amount is correct:
 
 ![](../../.gitbook/assets/assets_-llydmt-wp5uywcf_tmw_-lo6dy17b06jv4usf0x9_-lo6ess-qahgw53hl09s_4%20%281%29.jpg)
 
-Check and confirm the source shard ID is correct.
+Check and confirm the source shard ID is correct:
 
 ![](../../.gitbook/assets/assets_-llydmt-wp5uywcf_tmw_-lo6dy17b06jv4usf0x9_-lo6ewojrmregmfnecvn_5%20%281%29.jpg)
 
-Check and confirm the destination shard ID is correct.
+Check and confirm the destination shard ID is correct:
 
 ![](../../.gitbook/assets/assets_-llydmt-wp5uywcf_tmw_-lo6dy17b06jv4usf0x9_-lo6eyzo-z2dia94jfx3_6%20%282%29.jpg)
 
@@ -105,7 +103,7 @@ Click on any validator you want to delegate, it will show as below:
 
 ![](../../.gitbook/assets/screen-shot-2019-12-13-at-2.05.19-pm.png)
 
-Click the stake button to start delegation, it shows as below: 
+Click the stake button to start delegation as shown below: 
 
 ![](../../.gitbook/assets/screen-shot-2019-12-13-at-2.05.53-pm.png)
 
@@ -113,7 +111,7 @@ Input the amount of tokens you want to delegate and keep clicking the next butto
 
 ![](../../.gitbook/assets/screen-shot-2019-12-13-at-2.07.00-pm.png)
 
-Check your Ledger Nano S. It should display "Delegate Stake" in the LED screen. Click the right button to start signing the transaction
+Check your Ledger Nano S. It should display "Delegate Stake" in the LED screen. Click the right button to start signing the transaction:
 
 ![](../../.gitbook/assets/img_4188.jpeg)
 
@@ -137,9 +135,7 @@ On the computer, you will find that the transaction is sent and confirming:
 
 ![](../../.gitbook/assets/screen-shot-2019-12-13-at-2.09.50-pm.png)
 
-After a while, it will change to "Successful delegation!" .
+After a while, it will change to "Successful delegation!"
 
 ![](../../.gitbook/assets/screen-shot-2019-12-13-at-2.13.08-pm.png)
-
-\_\_
 
