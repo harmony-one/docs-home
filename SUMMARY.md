@@ -22,7 +22,7 @@
   * [Ledger Nano S With Staking Portal](wallet-guides/ledger/staking-with-ledger/README.md)
     * [Sign In With Ledger](wallet-guides/ledger/staking-with-ledger/sign-in-with-ledger.md)
     * [Sending transactions](wallet-guides/ledger/staking-with-ledger/send-tx.md)
-    * [Sign Staking](wallet-guides/ledger/staking-with-ledger/sign-staking.md)
+    * [Sign delegation](wallet-guides/ledger/staking-with-ledger/sign-delegation.md)
 * [Math Wallet](wallet-guides/mathwallet/README.md)
   * [Download & Setup](wallet-guides/mathwallet/download-and-setup.md)
   * [Create or Import Wallet](wallet-guides/mathwallet/create-import-wallet.md)

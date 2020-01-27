@@ -1,4 +1,4 @@
-# Sign Staking
+# Sign delegation
 
 Harmony app also supports signing staking transactions. To sign a staking delegation,  click the validators menu on the left side. A list of validators will be displayed as below:  
 
