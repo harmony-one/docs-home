@@ -11,7 +11,7 @@
 ## Wallet guides
 
 * [Overview](wallet-guides/overview/README.md)
-  * [Key Management Overview](wallet-guides/overview/key-management-overview.md)
+  * [Private Key Management](wallet-guides/overview/key-management-overview.md)
   * [Missing Funds on Exchange](wallet-guides/overview/missing-funds-on-exchange.md)
 * [Trust Wallet](wallet-guides/trustwallet.md)
 * [Ledger](wallet-guides/ledger/README.md)
