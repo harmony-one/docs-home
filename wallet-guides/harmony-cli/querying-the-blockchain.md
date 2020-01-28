@@ -1,9 +1,9 @@
 # Querying the blockchain
 
-The `hmy` provides several subcommands under the `blockchain` subcommand which let you query the blockchain.
+`hmy` provides several subcommands under the `blockchain` subcommand which let you query the blockchain.
 
 {% hint style="info" %}
-The Harmony blockchain is a _sharded_ blockchain, therefore some commands depend on which _shard_ you target. The shard you target when querying is controlled by the `--node` flag. For example, if a transaction is made between Shard 0 and Shard 1, the transaction receipt must be queried from whichever shard sent the funds - in this case shard 0, so the --node flag would look like this: 
+The Harmony blockchain is a _sharded_ blockchain, therefore some commands depend on which _shard_ you target. The shard you target when querying is controlled by the `--node` flag. For example, if a transaction is made between shard 0 and shard 1, the transaction receipt must be queried from whichever shard sent the funds - in this case shard 0, so the --node flag would look like this:
 
 ```text
 --node="https://api.s0.t.hmny.io"
@@ -27,7 +27,7 @@ By using `./hmy blockchain help` command we can see that the following options a
 * **transaction-receipt**  - get information about a finalized transaction validator information about validators
 {% endhint %}
 
-Here are come examples of the above commands that you will use frequently:
+Here are some examples of the above commands that you will use frequently:
 
 ### **transaction-by-hash**
 

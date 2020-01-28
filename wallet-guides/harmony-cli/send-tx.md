@@ -2,7 +2,7 @@
 
 Perhaps the most important feature of the `hmy` CLI is the ability to create and send signed transactions to the `Harmony` blockchain.
 
-## Quick version - for experienced users <a id="quick-version"></a>
+## Overview <a id="quick-version"></a>
 
 ### Sending a transaction <a id="sending-a-cross-shard-transaction-on-betanet"></a>
 
@@ -33,11 +33,9 @@ $ ./hmy --node="https://api.s0.t.hmny.io" \
     --from-shard 0 --to-shard 1 --amount 12.5 --chain-id mainnet
 ```
 
-Same shard transactions require the same shard value used in the `--from-shard` and `--to-shard` flags, while cross shard transactions require a different shard value for each.
-
 ### Checking the transaction hash <a id="checking-the-transaction-hash"></a>
 
-Check for finality of the transaction by using the transaction hash like so
+Check for finality of the transaction by using the transaction hash like so:
 
 #### Using the Binary:
 
@@ -61,7 +59,7 @@ $ ./hmy.sh -- blockchain transaction-receipt <transaction_id> \
     0x599793f313ee17566f8d09728b9d043b8e26135ddce86beeee13f98767d452f7
 ```
 
-## Tutorial \(for beginners\) <a id="tutorial"></a>
+## Detail <a id="tutorial"></a>
 
 ### ChainIDs <a id="chainids"></a>
 
@@ -112,7 +110,9 @@ Notice that simply invoking the `transfer` subcommand gave us an error message a
 * `to`: Receivers one address
 * `to-shard`: Shard in which receiver will receive the amount sent by the sender
 
-A sharded blockchain is new, special kind of blockchain where the whole network is partitioned between mutually exclusive shards. Sharding is one of the distinguishing features of Harmony and it is key to solving the tranditional scalability problems found in other blockchain protocols. Note that **a one address may and often does have a different balance in each shard**; currently mainnet has four shards while testnet assumes three shards; sending a transaction from one shard to another is called a _\*\*"cross-shard" transaction._
+A sharded blockchain is a new kind of blockchain architecture where the network is partitioned into sub-networks called shards. Sharding is one of the distinguishing features of Harmony and it is key to solving the traditional scalability problems encountered in other blockchain protocols.
+
+**Note:** The same ONE address will have a different balance in each shard. Currently Harmony mainnet has four shards while testnet has three shards. Sending a transaction from one shard to another is called a _"cross-shard transaction."_
 
 Thus, a correct usage of `transfer` looks like:
 
@@ -152,16 +152,16 @@ $ ./hmy transfer --node="https://api.s0.t.hmny.io" \
 The sender's account must have enough of a balance on the `from-shard` to send a transaction. In our example,`one1yc06ghr2p8xnl2380kpfayweguuhxdtupkhqzw` must have an amount balance of at least 10 in shard 0.
 {% endhint %}
 
-Try out your transaction with the flag `--dry-run`, this flag tells `hmy` to create, cryptographically sign the transaction but not actually send it off. Sender's balances are checked and the output is a JSON dump of the ready to have been sent signed transaction.
+Try out your transaction with the flag `--dry-run`, this flag tells `hmy` to create, cryptographically sign the transaction but not actually send it off. Sender's balances are checked and the output is a JSON dump of the signed transaction.
 
-Signing and sending the transaction is very quick, about two seconds maximum. The actual sending of the transaction is done via an `RPC` call, you'll notice that we did not explicitly say where to send the transaction to. This is because the default destination of the `RPC` call goes to `http://localhost:9500`, the default `HTTP` `RPC` server running when you start a local harmony blockchain. For real world usages though, you'll want a different location. You can control that with the `--node`, see the top of this page for an example.
+Signing and sending a transaction is very quick, about 2 seconds maximum. The actual sending of the transaction is done via an `RPC` \(Remote Procedure Call\), you'll notice that we did not explicitly say where to send the transaction to. This is because the default destination of the `RPC` call goes to `http://localhost:9500`, the default `HTTP` `RPC` server running when you start a local harmony blockchain. For real world usage though, you'll want a different location. You can control that with the `--node` flag \(see the top of this page for an example\).
 
 ### Result of the transaction <a id="result-of-the-transaction"></a>
 
-Once a `RPC` machine receives a transaction, it sends us back a transaction hash. This transaction hash is the key identifier we use when querying the blockchain about transactions.
+Once an `RPC` machine receives a transaction, it sends you back a transaction hash. This transaction hash is the key identifier used when querying the blockchain for transactions.
 
 {% hint style="warning" %}
-Simply having a transaction hash does NOT imply that the transaction was successfully accepted by the blockchain. A transaction is successfully accepted once it has been added to the blockchain, in the case of cross-shard transactions \(when the from-shard, to-shard values are different\), this means each shard has added the transaction to their blockchain.
+Simply having a transaction hash does NOT imply that the transaction was successfully accepted by the blockchain. A transaction is successfully accepted once it has been added to the blockchain. In the case of cross-shard transactions \(when the from-shard, to-shard values are different\), this means each shard has added the transaction to their blockchain.
 {% endhint %}
 
 We can pull down details of the finalized transaction with `./hmy blockchain transaction-receipt` as well:

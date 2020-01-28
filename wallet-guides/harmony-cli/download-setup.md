@@ -28,7 +28,7 @@ $ chmod u+x hmy.sh
 $ ./hmy.sh -d
 ```
 
-Now you can use `hmy.sh` as a wrapper over `hmy` and you should assume that all references to `hmy` in these documents refer to `hmy.sh`. For example, the command `./hmy` becomes `./hmy.sh` .
+Now you can use `hmy.sh` as a wrapper over `hmy` and you should assume that all references to `hmy` in these documents refer to `hmy.sh`. For example, the command `./hmy` becomes `./hmy.sh --` .
 
 {% hint style="warning" %}
 Note that since `hmy` is not statically linked, you cannot arbitrarily move `hmy.sh` to anywhere on your filesystem like you could with a single binary.

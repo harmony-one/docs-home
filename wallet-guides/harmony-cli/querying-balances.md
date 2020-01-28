@@ -1,6 +1,6 @@
 # Querying balances
 
-Get JSON output of balances on all shards of a given one address with the `balances` subcommand:
+Get JSON output of balances on all shards of a given ONE address with the `balances` subcommand:
 
 #### Using the Binary:
 

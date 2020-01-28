@@ -33,7 +33,9 @@ $ ./hmy keys add <account-name> [--use-own-passphrase]
 $ ./hmy.sh -- keys add <account-name1> [--use-own-passphrase]
 ```
 
-This creates a keystore at `$(hmy keys location)/account-name1/UTC--2019-09-16T21-25-35.297331000Z--678e7ea3dcb5f4e9724c0e761843572f10c49b73` with a default passphrase of an empty string. The passphrase is used to decrypt the keystore when signing transactions. In case you want to use an alternative passphrase, invoke instead:
+This creates a keystore at the following directory:`$(hmy keys location)/account-name1/UTC--2019-09-16T21-25-35.297331000Z--678e7ea3dcb5f4e9724c0e761843572f10c49b73` 
+
+If you run this command, you should see the following output:
 
 ```text
 $ ./hmy keys add test-account --use-own-passphrase
@@ -43,6 +45,8 @@ Repeat the passphrase:
 
 exhibit effort describe first own warfare electric employ expire same mango lunar chief recall assume team day loan confirm orient antique robot obey leaf
 ```
+
+If you don't provide a passphrase, the default passphrase is an empty string. The passphrase is used to decrypt the keystore when signing transactions. In case you want to use an alternative passphrase, invoke instead:
 
 When creating keys this way, `hmy` will ask you to provide a passphrase.‌ Make sure you keep track of this passphrase for future use because the passphrase is used to decrypt the keystore when signing transactions. Also make sure you save the seed phrase, also called a mnemonic.
 
@@ -80,7 +84,7 @@ $ ./hmy.sh -- keys list
 
 ### Importing a Keystore <a id="importing-an-existing-keystore"></a>
 
-‌Sometimes you might have an existing keystore made by Harmony's old `wallet.sh` program that ends with ".key" in the file name \(example\):
+‌You might have an existing keystore made by Harmony's old `wallet.sh` program that ends with ".key" in the file name \(example\):
 
  `one16qsd5ant9v94jrs89mruzx62h7ekcfxmduh2rx.key` 
 
@@ -88,7 +92,7 @@ Or that starts with "UTC" in the file name \(example\):
 
 `UTC--2020-01-15T01-02-06.606670000Z--9689a0711642bf08ea92ed98d552f0c1b8c8cefb`
 
-Both these files can be imported into `hmy` using the command `import-ks` as shown bellow
+Both these files can be imported into `hmy` using the command `import-ks` as shown below.
 
 #### Using the Binary:
 
