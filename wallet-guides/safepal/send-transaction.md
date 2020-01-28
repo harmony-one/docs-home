@@ -2,25 +2,25 @@
 
 ## How to send ONE in SafePal？
 
-1. Enter 'Send' segment in SafePal App and select ONE coin
+1. Click on the 'Send' segment in SafePal App menu bar and select ONE.
 
 ![](../../.gitbook/assets/image%20%2856%29.png)
 
-2. Input receive address by pasting the address or scanning the QR code. Enter all transfer details - amount, fee level and don't forget to select the shard number
+2. Input the destination address by pasting the address or scanning the QR code. Enter all transaction details - amount, fee and don't forget to select the shard number.
 
 ![](../../.gitbook/assets/image%20%2849%29.png)
 
-3. Then clink “Send”to check the transaction details
+3. Then clink “Send”to check the transaction details.
 
 ![](../../.gitbook/assets/image%20%2814%29.png)
 
 Tips: If you don't know the exact shard number, don't worry, you can simply use Shard 0 as the default shard.
 
-4. Sign the order with your SafePal S1 hardware wallet
+4. Sign the order with your SafePal S1 hardware wallet.
 
 ![](../../.gitbook/assets/image%20%2828%29.png)
 
-5. Confirm the payment.The transfer is broadcasted on chain. Don't forget to check transfer status later
+5. Confirm the payment.The transfer is broadcasted on chain. Don't forget to check transfer status later.
 
 ![](../../.gitbook/assets/image%20%2831%29.png)
 
@@ -28,13 +28,13 @@ Tips: If you don't know the exact shard number, don't worry, you can simply use 
 
 ## Receiving ONE in SafePal
 
-To receiving ONE token from other wallets, just show your ONE address to any wallet that supports ONE and does the transaction from that wallet. Once the transaction is confirmed, you can see the balance updated in your SafePal mobile app.
+To receive ONE tokens on your SafePal device, scan the QR code on the device using your phone ...
 
 {% hint style="info" %}
-Please note that the SafePal S1 hardware wallet won't show the balance since the SafePal S1 hardware wallet is completely offline, it cannot detect any changes to your balance or list of tokens when you receive money or add/delete tokens in the SafePal App. Only after you send some money from the newly added coin and sign the transaction with the S1 hardware wallet, will S1 hardware wallet ‘knows’ there is a new coin added and display it on the screen.
+Please note that the SafePal S1 hardware wallet won't show the balance since the SafePal S1 hardware wallet is completely offline, it cannot detect any changes to your balance or list of tokens when you receive money or add/delete tokens in the SafePal App. Only after you send some money from the newly added coin and sign the transaction with the S1 hardware wallet, will S1 hardware wallet ‘knows’ there are new coins added and will display it on the screen.
 {% endhint %}
 
-Based on this mechanism, there won’t be any balance shown on S1 wallet, because it won’t be a reliable number, especially when somebody sends you some money.
+Based on this mechanism, there won’t be any balance shown on the SafePal S1 wallet, because it won’t be a reliable number, especially when somebody sends you some money.
 
 
 

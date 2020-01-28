@@ -12,9 +12,7 @@ SafePal mobile apps can be downloaded from PlayStore and AppStore following the 
 
 ### Quick Start
 
-Please make sure your SafePal is the latest by following the instructions [here](https://safepal.io/upgrade).
-
-SafePal General user's manual is [here](https://docs.safepal.io/user-manual) and the initial set up guide is [here](https://docs.safepal.io/quick-start/set-up-your-safepal-wallet-within-3-minutes).
+Please make sure your SafePal is the latest by following the instructions [here](https://safepal.io/upgrade). The SafePal general user's manual is [here](https://docs.safepal.io/user-manual) and the initial set up guide is [here](https://docs.safepal.io/quick-start/set-up-your-safepal-wallet-within-3-minutes).
 
 
 
