@@ -65,7 +65,7 @@ $ ./hmy keys location
 #### Using the Shell Script:
 
 ```text
-$ ./hmy.sh -- keys location
+$ ./hmy.sh keys location
 ```
 
 You can check the list of wallets \(local accounts\) with the following command:
@@ -79,7 +79,7 @@ You can check the list of wallets \(local accounts\) with the following command:
 #### Using the Shell Script:
 
 ```text
-$ ./hmy.sh -- keys list
+$ ./hmy.sh keys list
 ```
 
 ## Import Wallet
