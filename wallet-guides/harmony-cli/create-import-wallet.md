@@ -32,7 +32,7 @@ $ ./hmy keys add <account-name> [--use-own-passphrase]
 #### Using the Shell Script:
 
 ```text
-$ ./hmy.sh -- keys add <account-name1> [--use-own-passphrase]
+$ ./hmy.sh keys add <account-name1> [--use-own-passphrase]
 ```
 
 #### Example:
