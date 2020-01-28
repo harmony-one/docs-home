@@ -105,7 +105,7 @@ $ ./hmy keys import-ks <absolute_path_to_keystore> --passphrase <passphrase>
 #### Using the Shell Script:
 
 ```text
-$ ./hmy.sh -- keys import-ks <absolute_path_to_keystore> --passphrase <passphrase>
+$ ./hmy.sh keys import-ks <absolute_path_to_keystore> --passphrase <passphrase>
 ```
 
 #### Example:
@@ -136,7 +136,7 @@ $ ./hmy keys import-private-key <secp256k1_private_key> [wallet_name] [--passphr
 #### Using the Shell Scripts:
 
 ```text
-$ ./hmy.sh -- keys import-private-key <secp256k1_private_key> [wallet_name] [--passphrase <passphrase>] 
+$ ./hmy.sh keys import-private-key <secp256k1_private_key> [wallet_name] [--passphrase <passphrase>] 
 ```
 
 #### Example:
@@ -160,7 +160,7 @@ $ ./hmy keys add <key_name> --recover
 #### Using the Shell Script:
 
 ```text
-$ ./hmy.sh -- keys add <key_name> --recover
+$ ./hmy.sh keys add <key_name> --recover
 ```
 
 #### Example:
