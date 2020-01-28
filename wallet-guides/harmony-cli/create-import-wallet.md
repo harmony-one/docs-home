@@ -5,11 +5,13 @@ Throughout this guide, we will use the following syntax:
 
 * `./hmy`:  This is the CLI program
 * `./hmy.sh --` : This is the command to use the CLI with a shell wrapper \(for macOS\)
-* `[argument]`: This is an optional argument
 * `<argument>`: This is a required argument
+* `[argument]`: This is an optional argument
 * `$` : This is the start of a line in the shell
 * `/` : This is a line break, used to break up a line while writing a command
+{% endhint %}
 
+{% hint style="info" %}
 When we mention the binary, we are referencing the `./hmy` binary from the [setup procedure](download-setup.md#1-for-linux-pure-statically-linked-binary).
 
 When we mention the shell scripts, we are referencing the `./hmy.sh` shell script from the [setup procedure.](download-setup.md#2-for-macos-dynamically-linked-binary)
@@ -33,9 +35,7 @@ $ ./hmy keys add <account-name> [--use-own-passphrase]
 $ ./hmy.sh -- keys add <account-name1> [--use-own-passphrase]
 ```
 
-This creates a keystore at the following directory:`$(hmy keys location)/account-name1/UTC--2019-09-16T21-25-35.297331000Z--678e7ea3dcb5f4e9724c0e761843572f10c49b73` 
-
-If you run this command, you should see the following output:
+#### Example:
 
 ```text
 $ ./hmy keys add test-account --use-own-passphrase
@@ -46,11 +46,15 @@ Repeat the passphrase:
 exhibit effort describe first own warfare electric employ expire same mango lunar chief recall assume team day loan confirm orient antique robot obey leaf
 ```
 
-If you don't provide a passphrase, the default passphrase is an empty string. The passphrase is used to decrypt the keystore when signing transactions. In case you want to use an alternative passphrase, invoke instead:
+This creates a keystore at the following directory:`$(hmy keys location)/account-name1/UTC--2019-09-16T21-25-35.297331000Z--678e7ea3dcb5f4e9724c0e761843572f10c49b73` 
 
 When creating keys this way, `hmy` will ask you to provide a passphrase.‌ Make sure you keep track of this passphrase for future use because the passphrase is used to decrypt the keystore when signing transactions. Also make sure you save the seed phrase, also called a mnemonic.
 
-To know where your wallet file has been created, just run the following command:
+{% hint style="info" %}
+If you don't provide a passphrase using the `--use-own-passphrase` flag, the default passphrase is an empty string `""`. The passphrase is used to decrypt the keystore when signing transactions. 
+{% endhint %}
+
+To know where your wallet file has been created, run the following command:
 
 #### Using the Binary:
 
@@ -63,8 +67,6 @@ $ ./hmy keys location
 ```text
 $ ./hmy.sh -- keys location
 ```
-
-The command above will return the location of your wallet file. Backup this wallet file somewhere else
 
 You can check the list of wallets \(local accounts\) with the following command:
 

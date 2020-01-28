@@ -36,7 +36,7 @@ Note that since `hmy` is not statically linked, you cannot arbitrarily move `hmy
 
 ### 3. Compiling from source
 
-If you are interested in compiling from source, then the process is slightly more involved.
+If you are interested in compiling from source, then the process is more involved.
 
 **Steps:**
 
