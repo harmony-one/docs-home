@@ -2,6 +2,19 @@
 
 Here is the list of failed transaction messages which can be checked by querying your transaction hash, checking the transaction hash on explorer or checking the blockchain pool transactions.
 
+Here is how with the hmy cli :
+
+```bash
+./hmy failures plain --node="https://api.s1.b.hmny.io"
+```
+
+{% hint style="info" %}
+failed messages are network and shard specifics, please use the shard you were sending the transaction from and change the --node value accordingly
+
+Example above is for shard 1 in the test network.   
+Mainnet example on shard 0 would be : https://api.s0.t.hmny.io
+{% endhint %}
+
 | **Message** | **Notes** |
 | :--- | :--- |
 | transaction size is &lt;tx size in Bytes&gt;: oversized data | A transaction cannot be more than 32KB to prevent DDOS attacks |
