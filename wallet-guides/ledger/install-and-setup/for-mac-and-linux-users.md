@@ -1,5 +1,9 @@
 # For Mac and Linux Users
 
+{% hint style="warning" %}
+_This section is only for advanced users who want to do manual installation of Harmony One app.  Please skip this section if you can install Harmony One app through Ledger Live._
+{% endhint %}
+
 ## Install Ledger Nano S Firmware In Debugging Mode _****_ 
 
 _Mac running macOS, Linux system or a Virtual Machine with USB pass through capabilities_

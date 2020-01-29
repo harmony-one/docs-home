@@ -1,5 +1,9 @@
 # For Windows Users
 
+{% hint style="warning" %}
+_his section is only for advanced users who want to do manual installation of Harmony One app.  Please skip this section if you can install Harmony One app through Ledger Live._
+{% endhint %}
+
 ## Step 1
 
 You need to have the correct environment

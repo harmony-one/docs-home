@@ -1,6 +1,6 @@
 # Overview
 
-You can use any of the following wallets to access your funds in all the shards.
+Harmony's native token ONE is supported on the following wallets:
 
 {% page-ref page="../trustwallet.md" %}
 
@@ -12,5 +12,5 @@ You can use any of the following wallets to access your funds in all the shards.
 
 {% page-ref page="../safepal/" %}
 
-\*Trust Wallet does not support sharded network architecture yet, and **all transactions originated from Trust Wallet goes through shard 0**
+\*Note\* Trust Wallet does not support Harmony's sharded network architecture yet, so **all transactions to or from Trust Wallet must go through shard 0.**
 
