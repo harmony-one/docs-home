@@ -33,6 +33,7 @@
   * [Sending transactions](wallet-guides/harmony-cli/send-tx.md)
   * [Querying balances](wallet-guides/harmony-cli/querying-balances.md)
   * [Querying the blockchain](wallet-guides/harmony-cli/querying-the-blockchain.md)
+  * [List of transaction error messages](wallet-guides/harmony-cli/list-of-transaction-error-messages.md)
   * [Other CLI references](wallet-guides/harmony-cli/other-cli-references.md)
 * [Safepal](wallet-guides/safepal/README.md)
   * [Download & setup](wallet-guides/safepal/download-and-setup.md)

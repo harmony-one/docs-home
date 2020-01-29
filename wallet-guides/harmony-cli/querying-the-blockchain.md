@@ -25,6 +25,7 @@ By using `./hmy blockchain help` command we can see that the following options a
 * **protocol-version** - the version of the Harmony Protocol
 * **transaction-by-hash** - get transaction by hash
 * **transaction-receipt**  - get information about a finalized transaction validator information about validators
+* **pool** - get transaction pool information
 {% endhint %}
 
 Here are some examples of the above commands that you will use frequently:
