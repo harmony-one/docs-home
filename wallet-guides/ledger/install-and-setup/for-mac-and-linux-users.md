@@ -71,7 +71,7 @@ On the Ledger Nano S LCD screen, there will be a new icon for Harmony App : One
 2. A series messages will be displayed including "This app is not genuine" \(as it is a developer edition, not a formal app from Ledger Live\)
 3. Click the right button until you see "Open Application",  then click both left and right button to open the Harmony appOnce the application is opened, it will show "Waiting for commands..." in the LCD screen. This means Ledger Nano S is ready for accept commands and sign transactions from the host.
 
-## Removing Harmony One from Ledger
+## Removing developer One app from your Ledger device
 
 Since it's possible now to load a One app on the Ledger Nano S via Ledger Live \([Install Harmony One App using Ledger Live](install-harmony-one-app-using-ledger-live.md)\) you will possibly want to delete the manually installed One app from your Ledger.
 
