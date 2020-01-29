@@ -22,7 +22,7 @@ Mainnet example on shard 0 would be : https://api.s0.t.hmny.io
 | transaction gas is &lt;tx gas-limit&gt;: exceeds block gas limit | Assumed to be hardcoded / config |
 | transaction sender is &lt;tx from addr&gt;: invalid sender | Transaction sent from an invalid account |
 | transaction gas-price is &lt;tx gas-price&gt; ONE: transaction underpriced | Too low transaction fee |
-| transaction nonce is &lt;tx nonce&gt;: nonce too low |  |
+| transaction nonce is &lt;tx nonce&gt;: nonce too low | Occurs when the nonce associated with that transaction is too lower than the actual nonce   |
 | insufficient funds for gas \* price + value | Usually when not enough holdings to pay for gas |
 | transaction gas is &lt;tx gas-limit&gt;: intrinsic gas too low | Intrinsic gas is based on the size of the transaction including data |
 | transaction gas-price is &lt;tx gas-price&gt; ONE in full transaction pool: transaction underpriced | Transactions can get dropped if tx pool is full and tx has lowest gas |
