@@ -31,7 +31,7 @@ Mainnet example on shard 0 would be : https://api.s0.t.hmny.io
 | unpayable transaction, out of gas or balance of &lt;acc bal in ONE &gt;cannot pay cost of &lt;cost on ONE&gt; | During promotion \(from 'future' txs to pending txs in pool\) balance is checked again |
 | exceeds cap for queued transactions for account &lt;one1... address&gt; | Each account has a limit in the number of txs it can put into the tx pool |
 | fairness-exceeding pending transaction | If tx pool is full, txs from accounts with highest number of total transactions in pool will be dropped |
-| exceeds global cap for queued transactions |  |
+| exceeds global cap for queued transactions | Occurs when the tx can´t be queued because global cap for queued tx pool exceeds the max  |
 | old transaction, nonce &lt;tx nonce&gt; is too low | During demote \(from pending txs in pool to 'future' txs\) the nonce is checked again |
 | unpayable transaction, out of gas or balance of &lt;acc bal in ONE &gt; cannot pay cost of &lt;cost in ONE&gt; | During demote \(from pending txs in pool to 'future' txs\) balance is checked again |
 | demoting pending transaction | Tx was not added to the pool and move to queue of 'future' txs |
