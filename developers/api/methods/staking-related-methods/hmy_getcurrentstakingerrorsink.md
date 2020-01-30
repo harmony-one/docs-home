@@ -23,6 +23,14 @@ curl --location --request POST 'https://api.s0.b.hmny.io/' \
 
 #### Sample Curl Response
 
+```bash
+{
+    "jsonrpc": "2.0",
+    "id": 1,
+    "result": []
+}
+```
+
 ## API v2
 
 #### Returns
@@ -41,4 +49,12 @@ curl --location --request POST 'https://api.s0.b.hmny.io/' \
 ```
 
 #### Sample Curl Response
+
+```bash
+{
+    "jsonrpc": "2.0",
+    "id": 1,
+    "result": []
+}
+```
 

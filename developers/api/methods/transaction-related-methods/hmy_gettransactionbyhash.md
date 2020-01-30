@@ -6,19 +6,21 @@ description: GetTransaction
 
 Get a transaction by its hash.
 
-## Parameters
+## API v1
+
+#### Parameters
 
 1. `String` - The transaction hash.
 
-## Returns
+#### Returns
 
 * `hash` - `String`: Hash of the transaction.
 * `nonce` - `Number`: The number of transactions made by the sender prior to this one.
-* `blockHash` - `String`: Hash of the block where this transaction was in. `null` when it's pending.
-* `blockNumber` - `Number`: Block number where this transaction was in. `null` when it's pending.
-* `transactionIndex` - `Number`: Integer of the transaction's index position in the block. `null` when its pending.
+* `blockHash` - `String`: Hash of the block where this transaction was in. `null` when its pending.
+* `blockNumber` - `Number`: Block number where this transaction was in. `null` when its pending.
+* `transactionIndex` - `Number`: Integer of the transactions index position in the block. `null` when its pending.
 * `from` - `String`: Address of the sender.
-* `to` - `String`: Address of the receiver.
+* `to` - `String`: Address of the receiver. `null` when its a contract creation transaction.
 * `value` - `String`: Value transferred in ATTO.
 * `gasPrice` - `String`: Gas price provided by the sender.
 * `gas` - `Number`: Gas provided by the sender.
@@ -34,7 +36,7 @@ curl -d '{
       "0x1dff358dad4d0fc95b11acc9826b190d8b7971ac26b3f7ebdee83c10cafaf86f"
     ],
     "id":1
-}'
+}' -H 'Content-Type:application/json' -X POST 'http://l0.b.hmny.io:9500'
 ```
 
 **Sample Curl Response**
@@ -44,20 +46,78 @@ curl -d '{
     "jsonrpc": "2.0",
     "id": 1,
     "result": {
-        "blockHash": "0xd6db4b8e899b25c584384a1369082c79f1a4a4d1c28a49d082507c4bce2a389e",
-        "blockNumber": "0x14",
-        "from": "0x806171f95c5a74371a19e8a312c9e5cb4e1d24f6",
+        "blockHash": "0x428ead93e632d5255ea3d1fb61b02ab8493cf562a398af2159c33ecd53c62c16",
+        "blockNumber": "0x4",
+        "from": "0x0b585f8daefbc68a311fbd4cb20d9174ad174016",
         "gas": "0x5208",
         "gasPrice": "0x0",
-        "hash": "0x1dff358dad4d0fc95b11acc9826b190d8b7971ac26b3f7ebdee83c10cafaf86f",
+        "hash": "0xa7bb2c7cbfe4f5d6cf061aacd9d0dce7660d1f82da63dd7c76d9e856c1dc0278",
         "input": "0x",
         "nonce": "0x0",
-        "to": "0xd7ff41ca29306122185a07d04293ddb35f24cf2d",
+        "to": "0x3aea49553ce2e478f1c0c5acc304a84f5f4d1f98",
         "transactionIndex": "0x0",
-        "value": "0x1158e460913d00000",
-        "v": "0x1c",
-        "r": "0x4ee6562ebdc9cbb3ed0ce2c57ededd95573cea1749e79e8fdf8f98e8788dd944",
-        "s": "0x30194af0e6b01a8b3aefb2ad01c896a20aa20a9ebb7a67ae9bb21783f75f9fd"
+        "value": "0xde0b6b3a7640000",
+        "v": "0x1b",
+        "r": "0x3cb6eedb11cad81f1ab52d72f46dcea0b3d7f46beaf40e83660b165546db5fc6",
+        "s": "0x1bc4b99089ab7d3ec17eae9d8a366feac87f9a76dd3ae031abfb86359b020551"
+    }
+}
+```
+
+## API v2
+
+#### Parameters
+
+1. `String`- The transaction hash.
+
+#### Returns
+
+* `hash` - `String`: Hash of the transaction.
+* `nonce` - `Number`: The number of transactions made by the sender prior to this one.
+* `blockHash` - `String`: Hash of the block where this transaction was in. `null` when its pending.
+* `blockNumber` - `Number`: Block number where this transaction was in. `null` when its pending.
+* `transactionIndex` - `Number`: Integer of the transactions index position in the block. `null` when its pending.
+* `from` - `String`: Address of the sender.
+* `to` - `String`: Address of the receiver. `null` when its a contract creation transaction.
+* `value` - `Number`: Value transferred in ATTO.
+* `gasPrice` - `Number`: Gas price provided by the sender.
+* `gas` - `Number`: Gas provided by the sender.
+* `input` - `String`: The data sent along with the transaction.
+
+**Sample Curl Request**
+
+```bash
+curl -d '{
+    "jsonrpc":"2.0",
+    "method":"hmyv2_getTransactionByHash",
+    "params":[
+       "0x1dff358dad4d0fc95b11acc9826b190d8b7971ac26b3f7ebdee83c10cafaf86f"
+    ],
+    "id":1
+}' -H 'Content-Type:application/json' -X POST 'http://l0.b.hmny.io:9500'
+```
+
+**Sample Curl Response**
+
+```javascript
+{
+    "jsonrpc": "2.0",
+    "id": 1,
+    "result": {
+        "blockHash": "0x428ead93e632d5255ea3d1fb61b02ab8493cf562a398af2159c33ecd53c62c16",
+        "blockNumber": "0x4",
+        "from": "0x0b585f8daefbc68a311fbd4cb20d9174ad174016",
+        "gas": "0x5208",
+        "gasPrice": "0x0",
+        "hash": "0xa7bb2c7cbfe4f5d6cf061aacd9d0dce7660d1f82da63dd7c76d9e856c1dc0278",
+        "input": "0x",
+        "nonce": "0x0",
+        "to": "0x3aea49553ce2e478f1c0c5acc304a84f5f4d1f98",
+        "transactionIndex": "0x0",
+        "value": "0xde0b6b3a7640000",
+        "v": "0x1b",
+        "r": "0x3cb6eedb11cad81f1ab52d72f46dcea0b3d7f46beaf40e83660b165546db5fc6",
+        "s": "0x1bc4b99089ab7d3ec17eae9d8a366feac87f9a76dd3ae031abfb86359b020551"
     }
 }
 ```

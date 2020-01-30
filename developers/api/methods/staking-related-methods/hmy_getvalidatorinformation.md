@@ -41,6 +41,14 @@ curl -d '{
 
 **Sample Curl Response**
 
+```bash
+{
+    "jsonrpc": "2.0",
+    "id": 1,
+    "result": []
+}
+```
+
 ## API v2
 
 #### Parameters
@@ -76,5 +84,11 @@ curl -d '{
 
 **Sample Curl Response**
 
-
+```bash
+{
+    "jsonrpc": "2.0",
+    "id": 1,
+    "result": []
+}
+```
 
