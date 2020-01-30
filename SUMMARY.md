@@ -54,6 +54,7 @@
       * [hmy\_getTransactionCount](developers/api/methods/account-methods/hmy_gettransactioncount.md)
       * [hmy\_getBalance](developers/api/methods/account-methods/hmy_getbalance.md)
       * [address](developers/api/methods/account-methods/getexploreraddress.md)
+    * [Filter Methods](developers/api/methods/filter-methods.md)
     * [Transaction Related Methods](developers/api/methods/transaction-related-methods/README.md)
       * [hmy\_sendRawStakingTransaction](developers/api/methods/transaction-related-methods/hmy_sendrawstakingtransaction.md)
       * [hmy\_getTransactionsHistory](developers/api/methods/transaction-related-methods/hmy_gettransactionshistory.md)
