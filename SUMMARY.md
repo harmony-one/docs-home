@@ -55,6 +55,7 @@
       * [hmy\_getBalance](developers/api/methods/account-methods/hmy_getbalance.md)
       * [address](developers/api/methods/account-methods/getexploreraddress.md)
     * [Filter Methods](developers/api/methods/filter-methods/README.md)
+      * [hmy\_getFilterLogs](developers/api/methods/filter-methods/hmy_getfilterlogs.md)
       * [hmy\_newFilter](developers/api/methods/filter-methods/hmy_newfilter.md)
       * [hmy\_newPendingTransactionFilter](developers/api/methods/filter-methods/hmy_newpendingtransactionfilter.md)
       * [hmy\_newBlockFilter](developers/api/methods/filter-methods/hmy_newblockfilter.md)
