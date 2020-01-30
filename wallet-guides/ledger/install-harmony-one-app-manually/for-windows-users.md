@@ -75,7 +75,7 @@ On the Ledger Nano S LCD screen, there will be a new icon for Harmony App : One
 
 ## Removing developer One app from your Ledger device
 
-Since it's possible now to load a One app on the Ledger Nano S via Ledger Live \([Install Harmony One App using Ledger Live](install-harmony-one-app-using-ledger-live.md)\) you will possibly want to delete the manually installed One app from your Ledger.
+Since it's possible now to load a One app on the Ledger Nano S via Ledger Live \([Install Harmony One App using Ledger Live](../install-harmony-one-app-using-ledger-live.md)\) you will possibly want to delete the manually installed One app from your Ledger.
 
 Make sure you use the following commands:
 

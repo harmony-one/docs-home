@@ -5,17 +5,17 @@
 1. Download [Ledger Live](https://support.ledgerwallet.com/hc/en-us/articles/360006395553/) onto your computer. Ledger Live is the app you use to manage your Ledger device.  Please follow the official installation instruction [here](https://support.ledger.com/hc/en-us/articles/360006395553).
 2. Open Ledger Live,  select Manager.  Turn on developer mode in Manager : Settings =&gt; Experimental Features =&gt; Developer Mode, as shown below:
 
-![](../../../.gitbook/assets/screen-shot-2020-01-27-at-12.27.13-pm.png)
+![](../../.gitbook/assets/screen-shot-2020-01-27-at-12.27.13-pm.png)
 
 **Step 2. Search for Harmony One App in Ledger App Catalog**
 
 Ledger live provides app catalog for different types of apps, as shown below:  
 
-![](../../../.gitbook/assets/screen-shot-2020-01-27-at-12.26.51-pm.png)
+![](../../.gitbook/assets/screen-shot-2020-01-27-at-12.26.51-pm.png)
 
 To find the Harmony app, type **harmony** in the search bar, as shown below: 
 
-![](../../../.gitbook/assets/screen-shot-2020-01-27-at-12.27.32-pm.png)
+![](../../.gitbook/assets/screen-shot-2020-01-27-at-12.27.32-pm.png)
 
 **Step 3. Install/Remove Harmony One App**
 
