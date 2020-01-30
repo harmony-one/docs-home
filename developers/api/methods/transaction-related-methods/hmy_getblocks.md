@@ -10,8 +10,7 @@ hmy\_getBlocks returns blocks in range \[from; to\]
 
 1. `String` - starting block number in 0x format
 2. `String` - ending block number in 0x format
-3. `bool` - return full transcations or just string 0x hashes
-4. `blockArgs` - optional args struct in json format \(should be used just with { }\)
+3. `blockArgs` - optional args struct in json format \(should be used just with { }\)
    1. `fullTx` - `Bool`: To show full tx or not
    2. `withSigners`- `Bool`: Include block signes in blocks or not
 
@@ -120,10 +119,9 @@ curl -d '{
 
 **Parameters**
 
-1. `String` - starting block number in 0x format
-2. `String` - ending block number in 0x format
-3. `bool` - return full transcations or just string 0x hashes
-4. `blockArgs` - optional args struct in json format \(should be used just with { }\)
+1. `Number` - starting block number
+2. `Number` - ending block number
+3. `blockArgs` - optional args struct in json format \(should be used just with { }\)
    1. `fullTx` - `Bool`: To show full tx or not
    2. `withSigners`- `Bool`: Include block signes in blocks or not
    3. `inclStaking` - `Bool`: To show staking txs or not
