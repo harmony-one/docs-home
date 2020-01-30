@@ -1,16 +1,16 @@
 ---
-description: GetTransaction
+description: hmy_getStakingTransactionByHash
 ---
 
-# hmy\_getTransactionByHash
+# hmy\_getStakingTransactionByHash
 
-Get a transaction by its hash.
+Get staking transaction by its hash.
 
 ## API v1
 
 #### Parameters
 
-1. `String` - The transaction hash.
+1. `String` - The staking transaction hash.
 
 #### Returns
 
@@ -31,7 +31,7 @@ Get a transaction by its hash.
 ```bash
 curl -d '{
     "jsonrpc":"2.0",
-    "method":"hmy_getTransactionByHash",
+    "method":"hmy_getStakingTransactionByHash",
     "params":[
       "0x1dff358dad4d0fc95b11acc9826b190d8b7971ac26b3f7ebdee83c10cafaf86f"
     ],
@@ -68,7 +68,7 @@ curl -d '{
 
 #### Parameters
 
-1. `String`- The transaction hash.
+1. `String`- The staking transaction hash.
 
 #### Returns
 
@@ -89,7 +89,7 @@ curl -d '{
 ```bash
 curl -d '{
     "jsonrpc":"2.0",
-    "method":"hmyv2_getTransactionByHash",
+    "method":"hmyv2_getStakingTransactionByHash",
     "params":[
        "0x1dff358dad4d0fc95b11acc9826b190d8b7971ac26b3f7ebdee83c10cafaf86f"
     ],

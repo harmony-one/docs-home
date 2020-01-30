@@ -1,20 +1,21 @@
 ---
-description: GetTransaction
+description: hmy_getStakingTransactionByBlockHashAndIndex
 ---
 
-# hmy\_getTransactionByHash
+# hmy\_getStakingTransactionByBlockHashAndIndex
 
-Get a transaction by its hash.
+Get staking transaction at an index from a given block, specified by block hash.
 
 ## API v1
 
 #### Parameters
 
-1. `String` - The transaction hash.
+1. `String` - The block hash.
+2. `Number` - The staking transaction index position.
 
 #### Returns
 
-* `hash` - `String`: Hash of the transaction.
+* `hash` - `String`: Hash of the staking transaction.
 * `nonce` - `Number`: The number of transactions made by the sender prior to this one.
 * `blockHash` - `String`: Hash of the block where this transaction was in. `null` when its pending.
 * `blockNumber` - `Number`: Block number where this transaction was in. `null` when its pending.
@@ -31,12 +32,13 @@ Get a transaction by its hash.
 ```bash
 curl -d '{
     "jsonrpc":"2.0",
-    "method":"hmy_getTransactionByHash",
+    "method":"hmy_getStakingTransactionByBlockHashAndIndex",
     "params":[
-      "0x1dff358dad4d0fc95b11acc9826b190d8b7971ac26b3f7ebdee83c10cafaf86f"
+        "0x428ead93e632d5255ea3d1fb61b02ab8493cf562a398af2159c33ecd53c62c16",
+        "0x0"
     ],
     "id":1
-}' -H 'Content-Type:application/json' -X POST 'http://l0.b.hmny.io:9500'
+}' -H "Content-Type:application/json" -X POST "http://s0.b.hmny.io:9500"
 ```
 
 **Sample Curl Response**
@@ -68,11 +70,12 @@ curl -d '{
 
 #### Parameters
 
-1. `String`- The transaction hash.
+1. `String` - The block hash.
+2. `Number` - The staking transaction index position.
 
 #### Returns
 
-* `hash` - `String`: Hash of the transaction.
+* `hash` - `String`: Hash of the stkaing transaction.
 * `nonce` - `Number`: The number of transactions made by the sender prior to this one.
 * `blockHash` - `String`: Hash of the block where this transaction was in. `null` when its pending.
 * `blockNumber` - `Number`: Block number where this transaction was in. `null` when its pending.
@@ -80,7 +83,7 @@ curl -d '{
 * `from` - `String`: Address of the sender.
 * `to` - `String`: Address of the receiver. `null` when its a contract creation transaction.
 * `value` - `Number`: Value transferred in ATTO.
-* `gasPrice` - `Number`: Gas price provided by the sender.
+* `gasPrice` - `number`: Gas price provided by the sender.
 * `gas` - `Number`: Gas provided by the sender.
 * `input` - `String`: The data sent along with the transaction.
 
@@ -89,12 +92,13 @@ curl -d '{
 ```bash
 curl -d '{
     "jsonrpc":"2.0",
-    "method":"hmyv2_getTransactionByHash",
+    "method":"hmyv2_getStakingTransactionByBlockHashAndIndex",
     "params":[
-       "0x1dff358dad4d0fc95b11acc9826b190d8b7971ac26b3f7ebdee83c10cafaf86f"
+        "0x428ead93e632d5255ea3d1fb61b02ab8493cf562a398af2159c33ecd53c62c16",
+        0
     ],
     "id":1
-}' -H 'Content-Type:application/json' -X POST 'http://l0.b.hmny.io:9500'
+}' -H "Content-Type:application/json" -X POST "http://s0.b.hmny.io:9500"
 ```
 
 **Sample Curl Response**

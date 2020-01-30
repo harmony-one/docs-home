@@ -1,20 +1,21 @@
 ---
-description: GetTransaction
+description: hmy_getStakingTransactionByBlockNumberAndIndex
 ---
 
-# hmy\_getTransactionByHash
+# hmy\_getStakingTransactionByBlockNumberAndIndex
 
-Get a transaction by its hash.
+Get staking transaction at an index from a given block, specified by number.
 
 ## API v1
 
 #### Parameters
 
-1. `String` - The transaction hash.
+1. `String` - The block's index in the chain.
+2. `String` - The staking transactions index position.
 
 #### Returns
 
-* `hash` - `String`: Hash of the transaction.
+* `hash` - `String`: Hash of the staking transaction.
 * `nonce` - `Number`: The number of transactions made by the sender prior to this one.
 * `blockHash` - `String`: Hash of the block where this transaction was in. `null` when its pending.
 * `blockNumber` - `Number`: Block number where this transaction was in. `null` when its pending.
@@ -31,9 +32,10 @@ Get a transaction by its hash.
 ```bash
 curl -d '{
     "jsonrpc":"2.0",
-    "method":"hmy_getTransactionByHash",
+    "method":"hmy_getStakingTransactionByBlockNumberAndIndex",
     "params":[
-      "0x1dff358dad4d0fc95b11acc9826b190d8b7971ac26b3f7ebdee83c10cafaf86f"
+        "0x4",
+        "0x0"
     ],
     "id":1
 }' -H 'Content-Type:application/json' -X POST 'http://l0.b.hmny.io:9500'
@@ -68,7 +70,8 @@ curl -d '{
 
 #### Parameters
 
-1. `String`- The transaction hash.
+1. `Number`- The block's index in the chain.
+2. `Number` - The transactions index position.
 
 #### Returns
 
@@ -89,9 +92,10 @@ curl -d '{
 ```bash
 curl -d '{
     "jsonrpc":"2.0",
-    "method":"hmyv2_getTransactionByHash",
+    "method":"hmyv2_getStakingTransactionByBlockNumberAndIndex",
     "params":[
-       "0x1dff358dad4d0fc95b11acc9826b190d8b7971ac26b3f7ebdee83c10cafaf86f"
+        4,
+        0
     ],
     "id":1
 }' -H 'Content-Type:application/json' -X POST 'http://l0.b.hmny.io:9500'
