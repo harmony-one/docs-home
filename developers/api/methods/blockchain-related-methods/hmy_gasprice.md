@@ -44,7 +44,7 @@ curl -d '{
 ```bash
 curl -d '{
   "jsonrpc":"2.0",
-  "method":"hmy_gasPrice",
+  "method":"hmyv2_gasPrice",
   "params":[],
   "id":1
 }' -H 'Content-Type:application/json' localhost:9500
