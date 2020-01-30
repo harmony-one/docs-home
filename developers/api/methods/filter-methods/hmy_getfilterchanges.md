@@ -28,8 +28,13 @@ description: hmy_getFilterChanges
 #### Sample Curl Request
 
 ```text
-// Request
-curl -X POST --data '{"jsonrpc":"2.0","method":"eth_getFilterChanges","params":["0x16"],"id":73}'
+curl -X POST --data 
+'{
+   "jsonrpc":"2.0",
+   "method":"hmy_getFilterChanges",
+   "params":["0x16"],
+   "id":73
+}'
 
 ```
 
