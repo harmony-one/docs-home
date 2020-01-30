@@ -111,7 +111,10 @@ $ ./hmy.sh keys import-ks <absolute_path_to_keystore> --passphrase <passphrase>
 #### Example:
 
 ```text
-$ ./hmy keys import-ks /home/harmony/one16qsd5ant9v94jrs89mruzx62h7ekcfxmduh2rx.key --passphrase ""
+If you are a FN runner:
+./hmy keys import-ks /.hmy/keystore/UTC--2020-01-15T01-02-06.606670000Z--9689a0711642bf08ea92ed98d552f0c1b8c8cefb --passphrase ""
+
+./hmy keys import-ks /home/harmony/one16qsd5ant9v94jrs89mruzx62h7ekcfxmduh2rx.key --passphrase ""
 $ ./hmy keys import-ks /home/harmony/UTC--2020-01-15T01-02-06.606670000Z--9689a0711642bf08ea92ed98d552f0c1b8c8cefb --passphrase ""
 ```
 
