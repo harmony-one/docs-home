@@ -14,7 +14,7 @@ Get harmony logs for smart contracts or transactions
 * `toBlock`: `QUANTITY|TAG` - \(optional, default: `"latest"`\) Integer block number, or `"latest"` for the last mined block or `"pending"`, `"earliest"` for not yet mined transactions.
 * `address`: `DATA|Array`, 20 Bytes - \(optional\) Contract address or a list of addresses from which logs should originate.
 * `topics`: `Array of DATA`, - \(optional\) Array of 32 Bytes `DATA` topics. Topics are order-dependent. Each topic can also be an array of DATA with "or" options.
-* `blockhash`:  `DATA`, 32 Bytes - \(optional\) , `blockHash` is a new filter option which restricts the logs returned to the single block with the 32-byte hash `blockHash`. Using `blockHash` is equivalent to `fromBlock` = `toBlock` = the block number with hash `blockHash`. If `blockHash` is present in the filter criteria, then neither `fromBlock` nor `toBlock` are allowed.
+* `blockhash`:  `DATA`, 32 Bytes - \(optional\) With the addition of EIP-234 \(Geth &gt;= v1.8.13 or Parity &gt;= v2.1.0\), `blockHash` is a new filter option which restricts the logs returned to the single block with the 32-byte hash `blockHash`. Using `blockHash` is equivalent to `fromBlock` = `toBlock` = the block number with hash `blockHash`. If `blockHash` is present in the filter criteria, then neither `fromBlock` nor `toBlock` are allowed.
 
 #### Returns
 
@@ -22,7 +22,7 @@ For filters created with `hmy_newBlockFilter` the return are block hashes \(`DAT
 
 For filters created with `hmy_newPendingTransactionFilter` the return are transaction hashes \(`DATA`, 32 Bytes\), e.g. `["0x6345343454645..."]`.
 
-For filters created with `hmy_newFilter` logs are objects with following params:
+For filters created with `eth_newFilter` logs are objects with following params:
 
 * `removed`: `TAG` - `true` when the log was removed, due to a chain reorganization. `false` if its a valid log.
 * `logIndex`: `QUANTITY` - integer of the log index position in the block. `null` when its pending log.

@@ -81,6 +81,7 @@
       * [hmy\_getBlocks](developers/api/methods/transaction-related-methods/hmy_getblocks.md)
       * [tx](developers/api/methods/transaction-related-methods/getexplorerblocks.md)
     * [Contract Related Methods](developers/api/methods/contract-related-methods/README.md)
+      * [hmy\_estimateGas](developers/api/methods/contract-related-methods/hmy_estimategas.md)
       * [hmy\_getStorageAt](developers/api/methods/contract-related-methods/hmy_getstorageat.md)
       * [hmy\_call](developers/api/methods/contract-related-methods/hmy_call.md)
       * [hmy\_getCode](developers/api/methods/contract-related-methods/hmy_getcode.md)
