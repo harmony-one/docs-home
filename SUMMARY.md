@@ -97,6 +97,7 @@
       * [hmy\_getEpoch](developers/api/methods/blockchain-related-methods/hmy_getepoch.md)
       * [hmy\_getLeader](developers/api/methods/blockchain-related-methods/hmy_getleader.md)
     * [Staking Related Methods](developers/api/methods/staking-related-methods/README.md)
+      * [hmy\_getAllValidatorsAddresses](developers/api/methods/staking-related-methods/hmy_getallvalidatorsaddresses.md)
       * [hmy\_getCurrentStakingErrorSink](developers/api/methods/staking-related-methods/hmy_getcurrentstakingerrorsink.md)
       * [hmy\_getValidatorInformation](developers/api/methods/staking-related-methods/hmy_getvalidatorinformation.md)
       * [hmy\_getDelegatorsInformation](developers/api/methods/staking-related-methods/hmy_getdelegatorsinformation.md)
