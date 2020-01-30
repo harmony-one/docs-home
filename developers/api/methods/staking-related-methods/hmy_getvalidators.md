@@ -4,18 +4,20 @@
 
 hmy\_getValidators returns list of validators for a particular epoch in corresponding shard
 
-## Parameters
+## API v1
 
-1. `Uint64` - epoch number
+#### Parameters
 
-## Returns
+1. `uint64` - epoch number
+
+#### Returns
 
 * `shardID` - `Uint32` - shard id
 * `validators` - `Array` : list of validators in below format
   * `address` - `String` : one address
   * `balance` - `String` : validator current balance \(will be replaced with stake soon\) 0x format
 
-## Sample Curl Request
+#### Sample Curl Request
 
 ```bash
 curl -d '{
@@ -27,7 +29,7 @@ curl -d '{
 }' -H "Content-Type: application/json" -X POST "http://localhost:9500"
 ```
 
-## **Sample Curl Response**
+#### **Sample Curl Response**
 
 ```javascript
 {
@@ -63,6 +65,73 @@ curl -d '{
             {
                 "address": "one103q7qe5t2505lypvltkqtddaef5tzfxwsse4z7",
                 "balance": "0x376322519535f6dbb"
+            }
+        ]
+    }
+}
+```
+
+## API v2
+
+#### Parameters
+
+1. `uint64` - epoch number
+
+#### Returns
+
+* `shardID` - `Uint32` - shard id
+* `validators` - `Array` : list of validators in below format
+  * `address` - `String` : one address
+  * `balance` - `Number` : validator current balance \(will be replaced with stake soon\)
+
+#### Sample Curl Request
+
+```bash
+curl -d '{
+	"jsonrpc":"2.0",
+	"method":"hmyv2_getValidators",
+	"params":[0],
+	"id":1
+	
+}' -H "Content-Type: application/json" -X POST "http://localhost:9500"
+```
+
+#### **Sample Curl Response**
+
+```javascript
+{
+    "jsonrpc": "2.0",
+    "id": 1,
+    "result": {
+        "shardID": 0,
+        "validators": [
+            {
+                "address": "one1pdv9lrdwl0rg5vglh4xtyrv3wjk3wsqket7zxy",
+                "balance": 100000000000000000
+            },
+            {
+                "address": "one12fuf7x9rgtdgqg7vgq0962c556m3p7afsxgvll",
+                "balance": 100000000000000000
+            },
+            {
+                "address": "one1pf75h0t4am90z8uv3y0dgunfqp4lj8wr3t5rsp",
+                "balance": 100000000000000000
+            },
+            {
+                "address": "one1spshr72utf6rwxseaz339j09ed8p6f8ke370zj",
+                "balance": 100000000000000000
+            },
+            {
+                "address": "one1d2rngmem4x2c6zxsjjz29dlah0jzkr0k2n88wc",
+                "balance": 100000000000000000
+            },
+            {
+                "address": "one1a50tun737ulcvwy0yvve0pvu5skq0kjargvhwe",
+                "balance": 100000000000000000
+            },
+            {
+                "address": "one103q7qe5t2505lypvltkqtddaef5tzfxwsse4z7",
+                "balance": 100000000000000000
             }
         ]
     }
