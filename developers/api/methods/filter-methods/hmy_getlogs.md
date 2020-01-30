@@ -37,8 +37,17 @@ For filters created with `eth_newFilter` logs are objects with following params:
 **Sample Curl Request**
 
 ```bash
-curl -X POST --data '{"jsonrpc":"2.0","method":"hmy_getLogs","params":[{"topics":["0x000000000000000000000000a94f5374fce5edbc8e2a8697c15331677e6ebf0b"]}],"id":74}'
-
+curl -X POST --data 
+'{
+    "jsonrpc":"2.0",
+    "method":"hmy_getLogs",
+    "params":[
+        {"topics":
+            ["0x000000000000000000000000a94f5374fce5edbc8e2a8697c15331677e6ebf0b"]
+        }
+    ],
+    "id":74
+}'
 ```
 
 **Sample Curl Response**
