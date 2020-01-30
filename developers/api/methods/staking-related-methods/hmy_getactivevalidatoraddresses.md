@@ -1,10 +1,10 @@
 ---
-description: hmy_getAllValidatorAddresses
+description: hmy_getActiveValidatorsAddresses
 ---
 
-# hmy\_getAllValidatorAddresses
+# hmy\_getActiveValidatorAddresses
 
-Returns complete validators addresses list
+Returns active validators addresses list
 
 #### Returns
 
@@ -17,7 +17,7 @@ Returns complete validators addresses list
 ```bash
 curl -d '{
     "jsonrpc":"2.0",
-    "method":"hmy_getAllValidatorAddresses",
+    "method":"hmy_getActiveValidatorAddresses",
     "params":[],
     "id":1
 }' -H 'Content-Type:application/json' -X POST 'http://l0.b.hmny.io:9500'
