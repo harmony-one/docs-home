@@ -62,6 +62,8 @@
       * [hmy\_getFilterChanges](developers/api/methods/filter-methods/hmy_getfilterchanges.md)
       * [hmy\_getLogs](developers/api/methods/filter-methods/hmy_getlogs.md)
     * [Transaction Related Methods](developers/api/methods/transaction-related-methods/README.md)
+      * [hmy\_getCXReceiptByHash](developers/api/methods/transaction-related-methods/hmy_getcxreceiptbyhash.md)
+      * [hmy\_pendingTransactions](developers/api/methods/transaction-related-methods/hmy_pendingtransactions.md)
       * [hmy\_sendRawStakingTransaction](developers/api/methods/transaction-related-methods/hmy_sendrawstakingtransaction.md)
       * [hmy\_getTransactionsHistory](developers/api/methods/transaction-related-methods/hmy_gettransactionshistory.md)
       * [hmy\_sendRawTransaction](developers/api/methods/transaction-related-methods/hmy_sendrawtransaction.md)
