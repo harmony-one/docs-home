@@ -15,7 +15,7 @@
   * [Missing Funds on Exchange](wallet-guides/overview/missing-funds-on-exchange.md)
 * [Trust Wallet](wallet-guides/trustwallet.md)
 * [Ledger](wallet-guides/ledger/README.md)
-  * [Setting up your Ledger Nano S](wallet-guides/ledger/install-and-setup.md)
+  * [Setting up your Ledger Nano S](wallet-guides/ledger/install-and-setup/README.md)
   * [Install Harmony One App using Ledger Live](wallet-guides/ledger/install-harmony-one-app-using-ledger-live.md)
   * [Install Harmony One App Manually](wallet-guides/ledger/install-harmony-one-app-manually/README.md)
     * [For Mac and Linux Users](wallet-guides/ledger/install-harmony-one-app-manually/for-mac-and-linux-users.md)
