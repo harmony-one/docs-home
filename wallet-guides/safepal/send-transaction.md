@@ -26,22 +26,33 @@ Tips: If you don't know the exact shard number, don't worry, you can simply use 
 
 {% embed url="https://www.dropbox.com/s/uo80rhxy0pnu9sa/SafePal%20Teaser.mp4?dl=0" %}
 
-## How to receive ONE in SafePal? 
+## Receiving ONE in SafePal
 
-To receive ONE tokens you need to provide the sender your ONE address which can be found using the SafePal app or wallet. 
+To receive ONE tokens on your SafePal device, scan the QR code on the device using your phone ...
 
-Using the SafePal App:
+{% hint style="info" %}
+Please note that the SafePal S1 hardware wallet won't show the balance since the SafePal S1 hardware wallet is completely offline, it cannot detect any changes to your balance or list of tokens when you receive money or add/delete tokens in the SafePal App. Only after you send some money from the newly added coin and sign the transaction with the S1 hardware wallet, will S1 hardware wallet ‘knows’ there are new coins added and will display it on the screen.
+{% endhint %}
 
-1. Select ONE which gives you the option of receive and send, click on receive 
-2. You can either copy your ONE address for the wallet, save the QR code, or have the other party scan the QR code from your phone 
+Based on this mechanism, there won’t be any balance shown on the SafePal S1 wallet, because it won’t be a reliable number, especially when somebody sends you some money.
 
-Using the SafePal Wallet: 
 
-1. Turn on the wallet 
-2. Scroll to "Asset Management" in the main menu
-3. Select "Harmony" out of all the options 
-4. Click on receive, and then enter your PIN code
-5. Your QR code, as well as the ONE address for the wallet will show for the other party to use
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
