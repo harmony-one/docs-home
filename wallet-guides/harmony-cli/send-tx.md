@@ -12,7 +12,7 @@ Perhaps the most important feature of the `hmy` CLI is the ability to create and
 $ ./hmy transfer --node="<endpoint_address>" \
     --from <ONE_address> --to <ONE_address> \
     --from-shard <shard_#> --to-shard <shard_#> \
-    --amount <amount> --chain-id <chain-id>
+    --amount <amount> --chain-id <chain-id> --passphrase
 ```
 
 #### Using the Shell Script:
@@ -21,7 +21,7 @@ $ ./hmy transfer --node="<endpoint_address>" \
 $ ./hmy.sh -- transfer --node="<endpoint_address>" \
     --from <ONE_address> --to <ONE_address> \
     --from-shard <shard_#> --to-shard <shard_#> \
-    --amount <amount> --chain-id <chain-id>
+    --amount <amount> --chain-id <chain-id> --passphrase
 ```
 
 #### Example:
@@ -30,7 +30,7 @@ $ ./hmy.sh -- transfer --node="<endpoint_address>" \
 $ ./hmy --node="https://api.s0.t.hmny.io" \
     transfer --from one1yc06ghr2p8xnl2380kpfayweguuhxdtupkhqzw \
     --to one1q6gkzcap0uruuu8r6sldxuu47pd4ww9w9t7tg6 \    
-    --from-shard 0 --to-shard 1 --amount 12.5 --chain-id mainnet
+    --from-shard 0 --to-shard 1 --amount 12.5 --chain-id mainnet --passphrase mypassword
 ```
 
 ### Checking the transaction hash <a id="checking-the-transaction-hash"></a>
@@ -107,8 +107,9 @@ Notice that simply invoking the `transfer` subcommand gave us an error message a
 * `amount`: The quantity of Harmony One token to transfer from the senders to the receiver
 * `from`: The sender's one address
 * `from-shard`: Shard from which sender's balance will be drawn from
-* `to`: Receivers one address
+* `to`: Receiver's ONE address
 * `to-shard`: Shard in which receiver will receive the amount sent by the sender
+* `passphrase:` your wallet passphrase, which is prompted when you hit enter \(or you can use a txt file with password and add it: --passphrase file.txt\)
 
 A sharded blockchain is a new kind of blockchain architecture where the network is partitioned into sub-networks called shards. Sharding is one of the distinguishing features of Harmony and it is key to solving the traditional scalability problems encountered in other blockchain protocols.
 
@@ -122,7 +123,7 @@ Thus, a correct usage of `transfer` looks like:
 $ ./hmy transfer --node="<node_address>" \
     --from <ONE_address> --to <ONE_address> \
     --from-shard <shard_#> --to-shard <shard_#> \
-    --amount <amount> --chain-id <chain-id>
+    --amount <amount> --chain-id <chain-id> --passphrase
 ```
 
 #### Using the Shell Wrapper:
@@ -131,7 +132,7 @@ $ ./hmy transfer --node="<node_address>" \
 $ ./hmy.sh -- transfer --node="<node_address>" \
     --from <ONE_address> --to <ONE_address> \
     --from-shard <shard_#> --to-shard <shard_#> \
-    --amount <amount> --chain-id <chain-id>
+    --amount <amount> --chain-id <chain-id> --passphrase
 ```
 
 #### Example:
