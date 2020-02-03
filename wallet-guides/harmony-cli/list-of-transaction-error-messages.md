@@ -5,7 +5,7 @@ Here is the list of failed transaction messages which can be checked by querying
 Here is how with the hmy cli :
 
 ```bash
-./hmy failures plain --node="https://api.s0.t.hmny.io"
+$ ./hmy failures plain --node="https://api.s0.t.hmny.io"
 ```
 
 {% hint style="info" %}
