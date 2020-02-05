@@ -1,4 +1,4 @@
-# Documentation
+# Additional Guides
 
 Here are all the links to Harmony docs.
 
