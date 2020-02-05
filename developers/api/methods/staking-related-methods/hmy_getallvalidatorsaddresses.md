@@ -6,10 +6,9 @@ description: hmy_getAllValidatorAddresses
 
 Returns complete validators addresses list
 
-#### Returns
+## Returns
 
 * `Array`
-
   * `String` - validator address
 
 **Sample Curl Request**

@@ -4,11 +4,11 @@ description: hmy_getDelegationsByDelegator
 
 # hmy\_getDelegationsByDelegator
 
-#### Parameters
+## Parameters
 
 1. `String` - delegator bech32 address.
 
-#### Returns
+## Returns
 
 * `hash` - `String`: Hash of the transaction.
 * `nonce` - `Number`: The number of transactions made by the sender prior to this one.

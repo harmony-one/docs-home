@@ -10,5 +10,5 @@ A staking transaction is like a plain sharded transaction, [hmy\_sendRawTransact
 
 ## Input
 
-The input is a single RLP encoded version of a StakingTransaction 
+The input is a single RLP encoded version of a StakingTransaction
 

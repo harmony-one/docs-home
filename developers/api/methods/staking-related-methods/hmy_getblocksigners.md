@@ -16,10 +16,10 @@ hmy\_getBlocksSigners returns list of block signers
 
 ```bash
 curl -d '{
-	"jsonrpc": "2.0",
-	"method": "hmy_getBlockSigners",
-	"params": ["0x1"],
-	"id": 1
+    "jsonrpc": "2.0",
+    "method": "hmy_getBlockSigners",
+    "params": ["0x1"],
+    "id": 1
 }' -H "Content-Type: application/json" -X POST "http://localhost:9500"
 ```
 

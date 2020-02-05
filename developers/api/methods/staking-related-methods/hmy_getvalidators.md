@@ -19,11 +19,11 @@ hmy\_getValidators returns list of validators for a particular epoch in correspo
 
 ```bash
 curl -d '{
-	"jsonrpc":"2.0",
-	"method":"hmy_getValidators",
-	"params":[0],
-	"id":1
-	
+    "jsonrpc":"2.0",
+    "method":"hmy_getValidators",
+    "params":[0],
+    "id":1
+
 }' -H "Content-Type: application/json" -X POST "http://localhost:9500"
 ```
 

@@ -6,9 +6,9 @@ description: hmy_getCurrentTransactionErrorSink
 
 ## API v1
 
-#### Returns
+### Returns
 
-#### Sample Curl Request
+### Sample Curl Request
 
 ```text
 curl --location --request POST 'https://api.s0.b.hmny.io/' \
@@ -21,13 +21,13 @@ curl --location --request POST 'https://api.s0.b.hmny.io/' \
 }'
 ```
 
-#### Sample Curl Response
+### Sample Curl Response
 
 ## API v2
 
-#### Returns
+### Returns
 
-#### Sample Curl Request
+### Sample Curl Request
 
 ```text
 curl --location --request POST 'https://api.s0.b.hmny.io/' \
@@ -40,5 +40,5 @@ curl --location --request POST 'https://api.s0.b.hmny.io/' \
 }'
 ```
 
-#### Sample Curl Response
+### Sample Curl Response
 

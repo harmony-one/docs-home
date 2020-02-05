@@ -8,11 +8,11 @@ Get staking transaction by its hash.
 
 ## API v1
 
-#### Parameters
+### Parameters
 
 1. `String` - The staking transaction hash.
 
-#### Returns
+### Returns
 
 * `hash` - `String`: Hash of the transaction.
 * `nonce` - `Number`: The number of transactions made by the sender prior to this one.
@@ -66,11 +66,11 @@ curl -d '{
 
 ## API v2
 
-#### Parameters
+### Parameters
 
 1. `String`- The staking transaction hash.
 
-#### Returns
+### Returns
 
 * `hash` - `String`: Hash of the transaction.
 * `nonce` - `Number`: The number of transactions made by the sender prior to this one.

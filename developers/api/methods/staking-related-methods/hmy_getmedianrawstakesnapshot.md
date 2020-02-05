@@ -6,7 +6,7 @@ description: hmy_getMedianRawStakeSnapshot
 
 Returns active validators addresses list
 
-#### Returns
+## Returns
 
 * `Number` - big.Int median raw stake of all validators
 

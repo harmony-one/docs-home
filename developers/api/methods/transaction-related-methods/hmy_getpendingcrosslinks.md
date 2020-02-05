@@ -2,11 +2,11 @@
 
 ## API v1
 
-#### Returns
+### Returns
 
 See latest header and blocks format
 
-#### Sample Curl Request
+### Sample Curl Request
 
 ```text
 curl --location --request POST 'https://api.s0.b.hmny.io/' \
@@ -19,17 +19,17 @@ curl --location --request POST 'https://api.s0.b.hmny.io/' \
 }'
 ```
 
-#### Sample Curl Response
+### Sample Curl Response
 
 See latest header and blocks response
 
 ## API v2
 
-#### Returns
+### Returns
 
 See latest header and blocks format
 
-#### Sample Curl Request
+### Sample Curl Request
 
 ```text
 curl --location --request POST 'https://api.s0.b.hmny.io/' \
@@ -42,7 +42,7 @@ curl --location --request POST 'https://api.s0.b.hmny.io/' \
 }'
 ```
 
-#### Sample Curl Response
+### Sample Curl Response
 
 See latest header and blocks response
 

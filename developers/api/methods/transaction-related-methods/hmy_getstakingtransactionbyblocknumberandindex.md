@@ -8,12 +8,12 @@ Get staking transaction at an index from a given block, specified by number.
 
 ## API v1
 
-#### Parameters
+### Parameters
 
 1. `String` - The block's index in the chain.
 2. `String` - The staking transactions index position.
 
-#### Returns
+### Returns
 
 * `hash` - `String`: Hash of the staking transaction.
 * `nonce` - `Number`: The number of transactions made by the sender prior to this one.
@@ -68,12 +68,12 @@ curl -d '{
 
 ## API v2
 
-#### Parameters
+### Parameters
 
 1. `Number`- The block's index in the chain.
 2. `Number` - The transactions index position.
 
-#### Returns
+### Returns
 
 * `hash` - `String`: Hash of the transaction.
 * `nonce` - `Number`: The number of transactions made by the sender prior to this one.

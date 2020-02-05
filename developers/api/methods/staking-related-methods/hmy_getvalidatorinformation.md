@@ -6,11 +6,11 @@ description: hmy_getValidatorInformation
 
 Get staking validator information.
 
-#### Parameters
+## Parameters
 
 1. `String` - validator bech32 address.
 
-#### Returns
+## Returns
 
 * `hash` - `String`: Hash of the transaction.
 * `nonce` - `Number`: The number of transactions made by the sender prior to this one.
