@@ -30,7 +30,7 @@
   * [Create or Import Wallet](wallet-guides/mathwallet/create-import-wallet.md)
   * [Sending Transactions](wallet-guides/mathwallet/send-tx.md)
 * [Harmony CLI](wallet-guides/harmony-cli/README.md)
-  * [Download and setup](wallet-guides/harmony-cli/download-setup.md)
+  * [Download & setup](wallet-guides/harmony-cli/download-setup.md)
   * [Create or import wallet](wallet-guides/harmony-cli/create-import-wallet.md)
   * [Sending transactions](wallet-guides/harmony-cli/send-tx.md)
   * [Querying balances](wallet-guides/harmony-cli/querying-balances.md)

@@ -1,17 +1,6 @@
 # Create or import wallet
 
 {% hint style="info" %}
-Throughout this guide, we will use the following syntax: 
-
-* `./hmy`:  This is the CLI program
-* `./hmy.sh --` : This is the command to use the CLI with a shell wrapper \(for macOS\)
-* `<argument>`: This is a required argument
-* `[argument]`: This is an optional argument
-* `$` : This is the start of a line in the shell
-* `/` : This is a line break, used to break up a line while writing a command
-{% endhint %}
-
-{% hint style="info" %}
 When we mention the binary, we are referencing the `./hmy` binary from the [setup procedure](download-setup.md#1-for-linux-pure-statically-linked-binary).
 
 When we mention the shell scripts, we are referencing the `./hmy.sh` shell script from the [setup procedure.](download-setup.md#2-for-macos-dynamically-linked-binary)
