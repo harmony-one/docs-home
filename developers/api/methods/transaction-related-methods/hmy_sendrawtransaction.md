@@ -6,11 +6,11 @@ description: SendRawTransaction
 
 Send a raw transaction encoded in bytes.
 
-## Parameters
+#### Parameters
 
 * `String` - Transaction encoded in bytes.
 
-## Returns
+#### Returns
 
 * `String` - Raw transaction's hash.
 

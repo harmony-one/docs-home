@@ -11,13 +11,13 @@ Using Harmony hardware wallet on the Ledger Nano S requires a few things. You wi
 
 ## Download CLI 
 
-_Please use the_ [_following instructions_](https://docs.harmony.one/home/wallet-guides/harmony-cli/download-setup) _to download CLI to use  Ledger Nano S._
+_Please use the_ [_following instructions_](https://docs.harmony.one/home/wallet-guides/harmony-cli/download-setup) _to download CLI to use Ledger Nano S._
 
 ## Install Ledger Nano S Firmware In Debugging Mode
 
 _This is ONLY for wallet developers / testers. Other users please download firmware through Ledger Live._
 
-_Please use the_ [_following instructions_](https://docs.harmony.one/home/wallet-guides/ledger/install-and-setup) _to install Ledger Nano S firmware in Debugging mode._ 
+_Please use the_ [_following instructions_](https://docs.harmony.one/home/wallet-guides/ledger/install-and-setup) _to install Ledger Nano S firmware in Debugging mode._
 
 ## Display the Harmony ONE address for Ledger Nano S
 
@@ -39,7 +39,7 @@ $ ./hmy.sh -- keys list --ledger
 2. There are two buttons on top of Ledger Nano, click the right one to continue \(or click the left one to cancel\). After that, the address will be shown on Ledger Nano S LED screen
 3. As the address is longer than the LED screen, you can use the top two button to shift the address display to the left or side right side. Click both buttons to confirm the address and it should be same as displayed on PC/Mac terminal.‌
 
-The entire process is shown in video below:
+The entire process is shown in the video below:
 
 {% embed url="https://youtu.be/m5RLYGWosuk" caption="" %}
 
@@ -59,8 +59,11 @@ $ ./hmy balances --node="<endpoint_address>" <address>
 $ ./hmy.sh -- balances --node="<endpoint_address>" <address>
 ```
 
-Here &lt;endpoint\_address&gt; is the server address for either Mainnet or Testnet and &lt;address&gt; is the Harmony wallet address.‌
+Here &lt;endpoint\_address&gt; is the server address for either Mainnet or Testnet and &lt;address&gt; is the Harmony wallet address.‌ The endpoint addres
 
+* testnet - kkk
+* mainnet endpoint address-
+* 
 ### **Query balance on Mainnet**
 
 ```bash
@@ -85,7 +88,7 @@ The actual endpoint addresses are subject to change.
 
 ## Token transfer using Ledger Nano S
 
-To send token from Ledger Nano S to another wallet account, we need Ledger Nano S hardware to sign the transaction with private key inside Ledger Nano S hardware. 
+To send tokens from Ledger Nano S to another wallet account, we need Ledger Nano S hardware to sign the transaction with private key inside Ledger Nano S hardware. 
 
 {% hint style="warning" %}
 If you get a permission error while running the following commands, prepend `sudo` to the commands to run them with administrative privileges.
