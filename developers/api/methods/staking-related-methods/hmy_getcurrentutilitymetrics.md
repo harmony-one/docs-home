@@ -29,7 +29,7 @@ curl -d '{
     "id": 1,
     "result": {
         "accumulator": 0,
-        "stakedPercentage": "0.000000000000000000",
+        "staked-percentage": "0.000000000000000000",
         "deviation": "0.350000000000000000",
         "adjustment": "14000000000000000000.000000000000000000"
     }
