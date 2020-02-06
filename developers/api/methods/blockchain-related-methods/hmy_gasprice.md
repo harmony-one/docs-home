@@ -20,7 +20,7 @@ curl -d '{
   "method":"hmy_gasPrice",
   "params":[],
   "id":1
-}' -H 'Content-Type:application/json' localhost:9500
+}' -H 'Content-Type:application/json' -X POST 'http://api.s0.b.hmny.io'
 ```
 
 **Sample Curl Response**
