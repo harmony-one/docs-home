@@ -112,7 +112,6 @@
       * [hmy\_getAllValidatorAddresses](developers/api/methods/staking-related-methods/hmy_getallvalidatorsaddresses.md)
       * [hmy\_getCurrentStakingErrorSink](developers/api/methods/staking-related-methods/hmy_getcurrentstakingerrorsink.md)
       * [hmy\_getValidatorInformation](developers/api/methods/staking-related-methods/hmy_getvalidatorinformation.md)
-      * [hmy\_getDelegatorsInformation](developers/api/methods/staking-related-methods/hmy_getdelegatorsinformation.md)
       * [hmy\_getValidators](developers/api/methods/staking-related-methods/hmy_getvalidators.md)
       * [hmy\_getSignedBlocks](developers/api/methods/staking-related-methods/hmy_getsignedblocks.md)
       * [hmy\_isBlockSigner](developers/api/methods/staking-related-methods/hmy_isblocksigner.md)
