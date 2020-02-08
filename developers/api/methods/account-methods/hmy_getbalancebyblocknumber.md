@@ -1,3 +1,7 @@
+---
+description: hmy_getBalanceByBlockNumber
+---
+
 # hmy\_getBalanceByBlockNumber
 
 Get the balance of an address at a given block.
@@ -19,7 +23,7 @@ Get the balance of an address at a given block.
 curl -d '{
     "id": "1",
     "jsonrpc": "2.0",
-    "method": "hmy_getBalance",
+    "method": "hmy_getBalanceByBlockNumber",
     "params": [
         "one1z05g55zamqzfw9qs432n33gycdmyvs38xjemyl", 
         "0x1"
@@ -54,7 +58,7 @@ curl -d '{
 curl -d '{
     "id": "1",
     "jsonrpc": "2.0",
-    "method": "hmyv2_getBalance",
+    "method": "hmyv2_getBalanceByBlockNumber",
     "params": [
         "one1z05g55zamqzfw9qs432n33gycdmyvs38xjemyl",
         1
