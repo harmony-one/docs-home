@@ -4,7 +4,7 @@ description: GetBalance
 
 # hmy\_getBalance
 
-Get the balance of an address at a given block.
+Get latest balance of an address.
 
 ## API v1
 
