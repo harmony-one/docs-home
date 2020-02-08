@@ -27,7 +27,7 @@ Executes a new message call immediately without creating a transaction on the bl
 
 ```text
 // Request
-curl -X POST --data '{
+curl -X POST "http://api.s0.b.hmny.io" --data '{
     "jsonrpc": "2.0",
     "method": "hmy_call",
     "params": [

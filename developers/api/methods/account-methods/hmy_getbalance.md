@@ -11,7 +11,7 @@ Get the balance of an address at a given block.
 #### Parameters
 
 1. `String` -  The address to get the balance of.
-2. `String` - Block to get query for balance; "latest" gives latest block.
+2. `String` - Block to get query for balance
 
 #### Returns
 
@@ -26,7 +26,7 @@ curl -d '{
     "method": "hmy_getBalance",
     "params": [
         "one1z05g55zamqzfw9qs432n33gycdmyvs38xjemyl", 
-        "latest"
+        "0x1"
     ]
 }' -H "Content-Type: application/json" -X POST "http://localhost:9500"
 ```

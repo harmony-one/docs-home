@@ -14,7 +14,7 @@ curl -d '{
     "method":"net_peerCount",
     "params":[],
     "id":1
-}' -H 'Content-Type:application/json' -X POST 'http://l0.b.hmny.io:9500'
+}' -H 'Content-Type:application/json' -X POST 'http://api.s0.b.hmny.io'
 ```
 
 **Sample Curl Response**
