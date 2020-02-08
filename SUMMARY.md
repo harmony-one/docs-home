@@ -52,7 +52,6 @@
   * [Methods](developers/api/methods/README.md)
     * [Account Methods](developers/api/methods/account-methods/README.md)
       * [hmy\_getBalanceByBlockNumber](developers/api/methods/account-methods/hmy_getbalancebyblocknumber.md)
-      * [Untitled](developers/api/methods/account-methods/untitled.md)
       * [hmy\_getTransactionCount](developers/api/methods/account-methods/hmy_gettransactioncount.md)
       * [hmy\_getBalance](developers/api/methods/account-methods/hmy_getbalance.md)
       * [address](developers/api/methods/account-methods/getexploreraddress.md)
