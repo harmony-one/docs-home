@@ -10,7 +10,7 @@ description: hmy_getCurrentStakingErrorSink
 
 #### Sample Curl Request
 
-```text
+```bash
 curl --location --request POST 'https://api.s0.b.hmny.io/' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -37,7 +37,7 @@ curl --location --request POST 'https://api.s0.b.hmny.io/' \
 
 #### Sample Curl Request
 
-```text
+```bash
 curl --location --request POST 'https://api.s0.b.hmny.io/' \
 --header 'Content-Type: application/json' \
 --data-raw '{

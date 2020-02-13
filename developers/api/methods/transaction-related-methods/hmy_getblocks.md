@@ -156,8 +156,8 @@ curl -d '{
 	"jsonrpc":"2.0",
 	"method":"hmyv2_getBlocks",
 	"params":[
-		"1",
-		"2", 
+		1,
+		2, 
 		{
 			"withSigners": true, 
 			"fullTx": true,

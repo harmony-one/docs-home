@@ -6,7 +6,7 @@ description: hmy_pendingTransactions
 
 ## API v1
 
-Returns list of pending transactions object. See hmy\_getTransactionByHash for result format.
+Returns list of pending transactions object. See [hmy\_getTransactionByHash](hmy_gettransactionbyhash.md) for result format.
 
 #### Sample Curl Request
 
@@ -15,7 +15,7 @@ curl --location --request POST 'https://api.s0.b.hmny.io/' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "jsonrpc": "2.0",
-    "method": "hmy_pendngTransactions",
+    "method": "hmy_pendingTransactions",
     "params": [],
     "id": 1
 }'
@@ -23,7 +23,7 @@ curl --location --request POST 'https://api.s0.b.hmny.io/' \
 
 ## API v2
 
-Returns list of pending transactions object. See hmy\_getTransactionByHash for result format.
+Returns list of pending transactions object. See [hmy\_getTransactionByHash](hmy_gettransactionbyhash.md) for result format.
 
 #### Sample Curl Request
 
@@ -32,7 +32,7 @@ curl --location --request POST 'https://api.s0.b.hmny.io/' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "jsonrpc": "2.0",
-    "method": "hmyv2_pendngTransactions",
+    "method": "hmyv2_pendingTransactions",
     "params": [],
     "id": 1
 }'
