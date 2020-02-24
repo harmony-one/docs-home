@@ -1,5 +1,5 @@
 ---
-description: A log of all of the releases
+description: A log of all of the releases for the Harmony CLI.
 ---
 
 # Releases
