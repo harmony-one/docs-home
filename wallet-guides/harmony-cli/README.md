@@ -1,3 +1,7 @@
+---
+description: 'Latest Version: Harmony (C) 2020. hmy, version v287-06220f9'
+---
+
 # Harmony CLI
 
 ## Introduction
