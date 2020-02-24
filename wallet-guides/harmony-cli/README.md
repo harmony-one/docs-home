@@ -1,7 +1,3 @@
----
-description: 'Latest Version: Harmony (C) 2020. hmy, version v287-06220f9'
----
-
 # Harmony CLI
 
 ## Introduction
@@ -23,4 +19,8 @@ With the `hmy` CLI you can create a wallet, check your balance, send signed tran
 * OSX: main development platform
 * Linux: tested
 * Windows: tested / working under Windows Subsystem for Linux \(WSL\) 
+
+## Release information
+
+We will always upload the latest production release on [github](https://github.com/harmony-one/go-sdk/releases) and announce future uploads in pre-production releases.
 
