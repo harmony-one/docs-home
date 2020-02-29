@@ -10,17 +10,15 @@ description: hmy_getDelegationsByValidator
 
 #### Returns
 
-* `hash` - `String`: Hash of the transaction.
-* `nonce` - `Number`: The number of transactions made by the sender prior to this one.
-* `blockHash` - `String`: Hash of the block where this transaction was in. `null` when its pending.
-* `blockNumber` - `Number`: Block number where this transaction was in. `null` when its pending.
-* `transactionIndex` - `Number`: Integer of the transactions index position in the block. `null` when its pending.
-* `from` - `String`: Address of the sender.
-* `to` - `String`: Address of the receiver. `null` when its a contract creation transaction.
-* `value` - `String`: Value transferred in ATTO.
-* `gasPrice` - `String`: Gas price provided by the sender.
-* `gas` - `Number`: Gas provided by the sender.
-* `input` - `String`: The data sent along with the transaction.
+Array of:
+
+* `validator_address` - `String` - validator bech32 address
+* `delegator_address` - `String` - delegator bech32 address
+* `amount` - `Number` - big.Int amount delegated to validator
+* `reward` - `Number` - big.Int reward to validator for delegation
+* `Undelegations` - `[]RPCUndelegation`:
+  * `amount` - `Number` - big.Int amount returned to delegator
+  * `reward` - `Number` - big.Int reward to validator
 
 **Sample Curl Request**
 
