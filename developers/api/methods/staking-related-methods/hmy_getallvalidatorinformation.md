@@ -29,6 +29,11 @@ Array of:
   * `details` - `String` - additional info
 * `creation-height` - `Number` - big.Int block height when validator was created
 * `banned` - `Bool` - is validator banned
+* `Delegations:`
+  * array of validator delegations, check out delegations format in hmy\_getDelegationsBy...
+* `Counters:`
+  * `num-of-blocks-to-sign` - `Number` - big.Int number of blocks validator should have signed in active mode
+  * `num-blocks-signed` - `Number` - big.Int number of blocks validator actually signed
 
 **Sample Curl Request**
 
