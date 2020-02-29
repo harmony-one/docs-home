@@ -10,6 +10,11 @@ Works only for shard 0 \(beacon chain\).
 
 #### Returns
 
+* `AccumulatorSnapshot` - `Number` - total staking
+* `CurrentStakedPercentage` - `Float` - total staking percentage from circulating supply now
+* `Deviation` - `Float` - deviation from average earned stake
+* `Adjustment` - `Float` - adjustment
+
 **Sample Curl Request**
 
 ```bash
@@ -28,10 +33,10 @@ curl -d '{
     "jsonrpc": "2.0",
     "id": 1,
     "result": {
-        "accumulator": 0,
-        "staked-percentage": "0.000000000000000000",
-        "deviation": "0.350000000000000000",
-        "adjustment": "14000000000000000000.000000000000000000"
+        "AccumulatorSnapshot": 0,
+        "CurrentStakedPercentage": "0.000000000000000000",
+        "Deviation": "0.350000000000000000",
+        "Adjustment": "14000000000000000000.000000000000000000"
     }
 }
 ```
