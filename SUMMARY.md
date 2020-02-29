@@ -90,6 +90,8 @@
       * [hmy\_call](developers/api/methods/contract-related-methods/hmy_call.md)
       * [hmy\_getCode](developers/api/methods/contract-related-methods/hmy_getcode.md)
     * [Protocol Related Methods](developers/api/methods/blockchain-related-methods/README.md)
+      * [hmy\_isLastBlock](developers/api/methods/blockchain-related-methods/hmy_islastblock.md)
+      * [hmy\_epochLastBlock](developers/api/methods/blockchain-related-methods/hmy_epochlastblock.md)
       * [hmy\_latestHeader](developers/api/methods/blockchain-related-methods/hmy_latestheader.md)
       * [hmy\_getShardingStructure](developers/api/methods/blockchain-related-methods/hmy_getshardingstructure.md)
       * [hmy\_blockNumber](developers/api/methods/blockchain-related-methods/hmy_blocknumber.md)
