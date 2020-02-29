@@ -10,17 +10,14 @@ description: hmy_getValidatorMetrics
 
 #### Returns
 
-* `hash` - `String`: Hash of the transaction.
-* `nonce` - `Number`: The number of transactions made by the sender prior to this one.
-* `blockHash` - `String`: Hash of the block where this transaction was in. `null` when its pending.
-* `blockNumber` - `Number`: Block number where this transaction was in. `null` when its pending.
-* `transactionIndex` - `Number`: Integer of the transactions index position in the block. `null` when its pending.
-* `from` - `String`: Address of the sender.
-* `to` - `String`: Address of the receiver. `null` when its a contract creation transaction.
-* `value` - `String`: Value transferred in ATTO.
-* `gasPrice` - `String`: Gas price provided by the sender.
-* `gas` - `Number`: Gas provided by the sender.
-* `input` - `String`: The data sent along with the transaction.
+* `NumJailed` - `Number` - big.Int number of times validator was banned due to downtime
+* TotalEffectiveStake - Float - total validator effective stake from delegations
+* `VotingPowerPerShard` - `[]VotePerShard`:
+  * `shard-id` - `Number` - shard id
+  * `voting-power` - `Float` - valdator voting power for this shard
+* `BLSKeyPerShard` - `[]KeyPerShard:`
+  * `shard-id` - `Number` - shard id
+  * `keys` - `[]String` - validator bls keys for this shard
 
 **Sample Curl Request**
 
