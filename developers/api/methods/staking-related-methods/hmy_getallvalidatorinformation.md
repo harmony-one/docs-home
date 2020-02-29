@@ -52,7 +52,30 @@ curl -d '{
 {
     "jsonrpc": "2.0",
     "id": 1,
-    "result": []
+    "result": [
+        {
+            "one-address": "one1tnnncpjdqdjyk7y4d9gaxrg9qk927ueqptmptz",
+            "bls-public-keys": [
+                "6706f27d2a28d167f85d54c7fd8ee1f6177cde266f0e1669e0e90d8cb377937135fc5daa0950f339c6e9b0177f326c84"
+            ],
+            "min-self-delegation": "1000000000000000000",
+            "max-total-delegation": "200000000000000000000000",
+            "active": true,
+            "commission": {
+                "rate": "0.100000000000000000",
+                "max-rate": "0.500000000000000000",
+                "max-change-rate": "0.100000000000000000"
+            },
+            "description": {
+                "name": "R",
+                "identity": "J",
+                "website": "harmony.one",
+                "security_contact": "J",
+                "details": "Shard0Validator"
+            },
+            "creation-height": 347
+        }
+    ]
 }
 ```
 
