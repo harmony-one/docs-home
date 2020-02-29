@@ -29,7 +29,7 @@ curl -d '{
 {
     "jsonrpc": "2.0",
     "id": 1,
-    "result": []
+    "result": ["one103q7qe5t2505lypvltkqtddaef5tzfxwsse4z7"]
 }
 ```
 
