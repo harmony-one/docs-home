@@ -99,6 +99,7 @@
       * [hmy\_getEpoch](developers/api/methods/blockchain-related-methods/hmy_getepoch.md)
       * [hmy\_getLeader](developers/api/methods/blockchain-related-methods/hmy_getleader.md)
     * [Staking Related Methods](developers/api/methods/staking-related-methods/README.md)
+      * [hmy\_getStakingNetworkInfo](developers/api/methods/staking-related-methods/hmy_getstakingnetworkinfo.md)
       * [hmy\_getAllValidatorInformation](developers/api/methods/staking-related-methods/hmy_getallvalidatorinformation.md)
       * [hmy\_getCurrentUtilityMetrics](developers/api/methods/staking-related-methods/hmy_getcurrentutilitymetrics.md)
       * [hmy\_getDelegationsByValidator](developers/api/methods/staking-related-methods/hmy_getdelegationsbyvalidator.md)
