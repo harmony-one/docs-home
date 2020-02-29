@@ -28,7 +28,7 @@ curl -d '{
     "jsonrpc":"2.0",
     "method":"hmy_getDelegationsByDelegatorAndValidator",
     "params":[
-      "one103q7qe5t2505lypvltkqtddaef5tzfxwsse4z7",
+      "one1km7xg8e3xjys7azp9f4xp8hkw79vm2h3f2lade",
       "one129r9pj3sk0re76f7zs3qz92rggmdgjhtwge62k"
     ],
     "id":1
@@ -41,7 +41,15 @@ curl -d '{
 {
     "jsonrpc": "2.0",
     "id": 1,
-    "result": []
+    "result": [
+        {
+            "validator_address": "one1km7xg8e3xjys7azp9f4xp8hkw79vm2h3f2lade",
+            "delegator_address": "one129r9pj3sk0re76f7zs3qz92rggmdgjhtwge62k",
+            "amount": 9899000000000000000000,
+            "reward": 2474220695683427208655,
+            "Undelegations": []
+        }
+    ]
 }
 ```
 
