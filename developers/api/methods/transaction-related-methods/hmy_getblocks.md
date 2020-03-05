@@ -17,7 +17,6 @@ hmy\_getBlocks returns blocks in range \[from; to\]
 **Returns**
 
 * `Array` : returns blocks list in json format
-
   * `number` - `Number`: The block number. `null` when its pending block.
   * `hash` 32 Bytes - `String`: Hash of the block. `null` when its pending block.
   * `parentHash` 32 Bytes - `String`: Hash of the parent block.
@@ -41,17 +40,17 @@ hmy\_getBlocks returns blocks in range \[from; to\]
 
 ```bash
 curl -d '{
-	"jsonrpc":"2.0",
-	"method":"hmy_getBlocks",
-	"params":[
-		"0x0",
-		"0x1", 
-		{
-			"withSigners": true, 
-			"fullTx": true
-		}
-	],
-	"id":1
+    "jsonrpc":"2.0",
+    "method":"hmy_getBlocks",
+    "params":[
+        "0x0",
+        "0x1", 
+        {
+            "withSigners": true, 
+            "fullTx": true
+        }
+    ],
+    "id":1
 }' -H "Content-Type: application/json" -X POST "http://localhost:9500"
 ```
 
@@ -129,7 +128,6 @@ curl -d '{
 **Returns**
 
 * `Array` : returns blocks list in json format
-
   * `number` - `Number`: The block number. `null` when its pending block.
   * `hash` 32 Bytes - `String`: Hash of the block. `null` when its pending block.
   * `parentHash` 32 Bytes - `String`: Hash of the parent block.
@@ -153,18 +151,18 @@ curl -d '{
 
 ```bash
 curl -d '{
-	"jsonrpc":"2.0",
-	"method":"hmyv2_getBlocks",
-	"params":[
-		1,
-		2, 
-		{
-			"withSigners": true, 
-			"fullTx": true,
-			"inclStaking": true
-		}
-	],
-	"id":1
+    "jsonrpc":"2.0",
+    "method":"hmyv2_getBlocks",
+    "params":[
+        1,
+        2, 
+        {
+            "withSigners": true, 
+            "fullTx": true,
+            "inclStaking": true
+        }
+    ],
+    "id":1
 }' -H "Content-Type: application/json" -X POST "http://localhost:9500"
 ```
 

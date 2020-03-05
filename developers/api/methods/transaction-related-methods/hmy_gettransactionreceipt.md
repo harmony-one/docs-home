@@ -8,11 +8,11 @@ Get transaction receipt from transaction hash.
 
 ## API v1
 
-#### Parameters
+### Parameters
 
 1. `String` - The transaction hash.
 
-#### Returns
+### Returns
 
 * `blockHash` 32 Bytes - `String`: Hash of the block where this transaction was in.
 * `blockNumber` - `Number`: Block number where this transaction was in.
@@ -63,11 +63,11 @@ curl -d '{
 
 ## API v2
 
-#### Parameters
+### Parameters
 
 1. `String` - The transaction hash.
 
-#### Returns
+### Returns
 
 * `blockHash` 32 Bytes - `String`: Hash of the block where this transaction was in.
 * `blockNumber` - `Number`: Block number where this transaction was in.

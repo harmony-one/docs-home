@@ -7,7 +7,7 @@ description: >-
 # API
 
 {% hint style="success" %}
-**Complete documentation for Harmony's API's can be found** [**here**](https://apitest.harmony.one) **including sample code and curl commands and code.**  [**https://apitest.harmony.one**](https://apitest.harmony.one)\*\*\*\*
+**Complete documentation for Harmony's API's can be found** [**here**](https://apitest.harmony.one) **including sample code and curl commands and code.** [**https://apitest.harmony.one**](https://apitest.harmony.one)\*\*\*\*
 {% endhint %}
 
 ## Development Environments
@@ -16,7 +16,7 @@ description: >-
 
 | Chains | URLs |
 | :--- | :--- |
-| mainnet | [https://api.s0.t.hmny.io](https://api.s0.t.hmny.io)  |
+| mainnet | [https://api.s0.t.hmny.io](https://api.s0.t.hmny.io) |
 | testnet | [https://api.s0.b.hmny.io](https://api.s0.pga.hmny.io) |
 | localnet | [http://localhost:9500](http://localhost:9500) |
 
@@ -24,7 +24,7 @@ Web sockets can also be used
 
 | Chains | URLs |
 | :--- | :--- |
-| mainnet | [wss://ws.s0.t.hmny.io](wss://ws.s0.t.hmny.io)  |
+| mainnet | [wss://ws.s0.t.hmny.io](wss://ws.s0.t.hmny.io) |
 | testnet | [wss://ws.s0.b.hmny.io](wss://ws.s0.pga.hmny.io) |
 | localnet | [wss://localhost:9800](./) |
 

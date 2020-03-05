@@ -9,7 +9,7 @@ Using Harmony hardware wallet on the Ledger Nano S requires a few things. You wi
 * The [harmony CLI app](https://docs.harmony.one/sdk-wiki/command-line-interface/using-the-harmony-cli-tool) on your computer to talk to the Nano S
 * Familiarity with your computer's command-line interface \(CLI\)
 
-## Download CLI 
+## Download CLI
 
 _Please use the_ [_following instructions_](https://docs.harmony.one/home/wallet-guides/harmony-cli/download-setup) _to download CLI to use Ledger Nano S._
 
@@ -63,8 +63,7 @@ Here &lt;endpoint\_address&gt; is the server address for either Mainnet or Testn
 
 * testnet - kkk
 * mainnet endpoint address-
-* 
-### **Query balance on Mainnet**
+* **Query balance on Mainnet**
 
 ```bash
 $ ./hmy balances --node="https://api.s0.t.hmny.io" <address>
@@ -88,7 +87,7 @@ The actual endpoint addresses are subject to change.
 
 ## Token transfer using Ledger Nano S
 
-To send tokens from Ledger Nano S to another wallet account, we need Ledger Nano S hardware to sign the transaction with private key inside Ledger Nano S hardware. 
+To send tokens from Ledger Nano S to another wallet account, we need Ledger Nano S hardware to sign the transaction with private key inside Ledger Nano S hardware.
 
 {% hint style="warning" %}
 If you get a permission error while running the following commands, prepend `sudo` to the commands to run them with administrative privileges.
@@ -127,5 +126,5 @@ Please note that you will need to unlock Ledger Nano S, and confirm the transact
 
 Detailed process is shown in video below:
 
-{% embed url="https://youtu.be/feRpGW1seQI" %}
+{% embed url="https://youtu.be/feRpGW1seQI" caption="" %}
 

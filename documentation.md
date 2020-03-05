@@ -6,5 +6,3 @@ Here are all the links to Harmony docs.
 * **Developers:** [https://docs.harmony.one/home/developers/which-one-are-you](https://docs.harmony.one/home/developers/which-one-are-you)
 * **Pangaea \(Testnet\):** [https://docs.harmony.one/pangaea/](https://docs.harmony.one/pangaea/)
 
-
-

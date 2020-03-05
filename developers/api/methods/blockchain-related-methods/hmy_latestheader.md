@@ -4,11 +4,11 @@ description: hmy_latestHeader
 
 # hmy\_latestHeader
 
-#### Parameters
+## Parameters
 
 None
 
-#### Returns
+## Returns
 
 * `blockHash` - `String` - block hash
 * `blockNumber` - `Number` - block number
@@ -21,7 +21,7 @@ None
 * `lastCommitSig` - `String` - BLS validators signature for the block
 * `lastCommitBitmap` - `String` - last commit bitmap for block signers
 
-#### Sample Curl Request
+## Sample Curl Request
 
 ```text
 curl --location --request POST 'https://api.s0.b.hmny.io/' \
@@ -34,7 +34,7 @@ curl --location --request POST 'https://api.s0.b.hmny.io/' \
 }'
 ```
 
-#### Same Curl Response
+## Same Curl Response
 
 ```text
 {

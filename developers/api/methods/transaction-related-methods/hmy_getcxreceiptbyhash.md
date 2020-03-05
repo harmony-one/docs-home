@@ -6,11 +6,11 @@ description: hmy_getCXReceiptByHash
 
 ## API v1
 
-#### Parameters
+### Parameters
 
 1. `String` - transactions hash for cx receipt
 
-#### Returns
+### Returns
 
 * `blockHash` - `String` - block hash
 * `blockNumber` - `Number` - block number
@@ -21,7 +21,7 @@ description: hmy_getCXReceiptByHash
 * `toShardID` - `Number` - shard id to where transaction sent
 * `value` - `Number` - transaction sent value
 
-#### Sample Curl Request
+### Sample Curl Request
 
 ```text
 curl --location --request POST 'https://api.s0.b.hmny.io/' \
@@ -36,7 +36,7 @@ curl --location --request POST 'https://api.s0.b.hmny.io/' \
 }'
 ```
 
-#### Sample Curl Response
+### Sample Curl Response
 
 ```text
 {
@@ -57,11 +57,11 @@ curl --location --request POST 'https://api.s0.b.hmny.io/' \
 
 ## API v2
 
-#### Parameters
+### Parameters
 
 1. `String` - transactions hash for cx receipt
 
-#### Returns
+### Returns
 
 * `blockHash` - `String` - block hash
 * `blockNumber` - `Number` - block number
@@ -72,7 +72,7 @@ curl --location --request POST 'https://api.s0.b.hmny.io/' \
 * `toShardID` - `Number` - shard id to where transaction sent
 * `value` - `Number` - transaction sent value
 
-#### Sample Curl Request
+### Sample Curl Request
 
 ```text
 curl --location --request POST 'https://api.s0.b.hmny.io/' \
@@ -87,7 +87,7 @@ curl --location --request POST 'https://api.s0.b.hmny.io/' \
 }'
 ```
 
-#### Sample Curl Response
+### Sample Curl Response
 
 ```text
 {

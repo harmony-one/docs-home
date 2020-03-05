@@ -6,7 +6,7 @@ description: hmy_getAllValidatorInformation
 
 Get staking validator information for all validators.
 
-#### Returns
+## Returns
 
 Array of:
 

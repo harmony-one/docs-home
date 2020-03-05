@@ -10,7 +10,7 @@ Epoch last block
 
 1. `Number` - epoch
 
-#### Returns
+## Returns
 
 * `Number` - epoch last block height
 

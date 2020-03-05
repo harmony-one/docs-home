@@ -8,16 +8,16 @@ Get latest balance of an address.
 
 ## API v1
 
-#### Parameters
+### Parameters
 
 1. `String` -  The address to get the balance of.
 2. `String` - Block to get query for balance
 
-#### Returns
+### Returns
 
 * `String` - The current balance for the given address in ATTO.
 
-#### Sample Curl Request
+### Sample Curl Request
 
 ```bash
 curl -d '{
@@ -43,15 +43,15 @@ curl -d '{
 
 ## API v2
 
-#### Parameters
+### Parameters
 
 1. `String` -  The address to get the balance of
 
-#### Returns
+### Returns
 
 * `String` - The current big.Int balance for the given address.
 
-#### Sample Curl Request
+### Sample Curl Request
 
 ```bash
 curl -d '{

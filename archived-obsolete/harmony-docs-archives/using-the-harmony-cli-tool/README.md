@@ -12,19 +12,19 @@ description: Interacting with the Harmony one blockchain
 
 ## TL;DR
 
-#### Linux \(pure statically linked binary\)
+### Linux \(pure statically linked binary\)
 
-1. curl -LO https://harmony.one/hmycli
+1. curl -LO [https://harmony.one/hmycli](https://harmony.one/hmycli)
 2. chmod +x hmycli
 3. Place anywhere on your PATH
 
-#### OS X \(needs to use wrapper script for dynamic libraries\)
+### OS X \(needs to use wrapper script for dynamic libraries\)
 
 1. Go through the steps outlined in [Download and installation](download-and-installation.md#shell-wrapper)
 
 For the impatient, use `hmy cookbook` to see the most common examples & proper arguments.
 
-![](../../../.gitbook/assets/hmy-cookbook%20%281%29.gif)
+![](../../../.gitbook/assets/hmy-cookbook-1.gif)
 
 ## Introduction
 

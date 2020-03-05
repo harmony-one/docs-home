@@ -25,7 +25,7 @@ description: hmy_getFilterChanges
   * `data`: `DATA` - contains the non-indexed arguments of the log.
   * `topics`: `Array of DATA` - Array of 0 to 4 32 Bytes `DATA` of indexed log arguments. \(In _solidity_: The first topic is the _hash_ of the signature of the event \(e.g. `Deposit(address,bytes32,uint256)`\), except you declared the event with the `anonymous` specifier.\)
 
-#### Sample Curl Request
+## Sample Curl Request
 
 ```text
 curl -X POST --data 
@@ -35,10 +35,9 @@ curl -X POST --data
    "params":["0x16"],
    "id":73
 }'
-
 ```
 
-#### Sample Curl Response
+## Sample Curl Response
 
 ```text
 {

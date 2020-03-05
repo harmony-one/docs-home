@@ -6,7 +6,7 @@ Harmony currently supports two networks: Harmony Mainnet and Pangaea \(Harmony's
 
 ### Harmony Mainnet
 
-Mainnet is Harmony's production environment. It currently has four shards. 
+Mainnet is Harmony's production environment. It currently has four shards.
 
 ### Pangaea \(Testnet\)
 

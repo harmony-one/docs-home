@@ -8,7 +8,7 @@ Get number of the most recent block.
 
 ## API v1
 
-#### Returns
+### Returns
 
 * `String` - Index of the most recent block in the chain.
 
@@ -35,7 +35,7 @@ Get number of the most recent block.
 
 ## API v2
 
-#### Returns
+### Returns
 
 * `uint64` - Index of the most recent block in the chain.
 

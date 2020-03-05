@@ -4,11 +4,11 @@ description: hmy_getCurrentUtilityMetrics
 
 # hmy\_getCurrentUtilityMetrics
 
-#### Description
+## Description
 
 Works only for shard 0 \(beacon chain\).
 
-#### Returns
+## Returns
 
 * `AccumulatorSnapshot` - `Number` - total staking
 * `CurrentStakedPercentage` - `Float` - total staking percentage from circulating supply now

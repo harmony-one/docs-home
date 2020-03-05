@@ -6,22 +6,22 @@ hmy\_getBlocksSigners returns list of block signers
 
 ## API v1
 
-#### Parameters
+### Parameters
 
 1. `String` - block number in string 0x format
 
-#### Returns
+### Returns
 
 * `Array` of `String`: one addresses list of validators who signed this block
 
-#### Sample Curl Request
+### Sample Curl Request
 
 ```bash
 curl -d '{
-	"jsonrpc": "2.0",
-	"method": "hmy_getBlockSigners",
-	"params": ["0x1"],
-	"id": 1
+    "jsonrpc": "2.0",
+    "method": "hmy_getBlockSigners",
+    "params": ["0x1"],
+    "id": 1
 }' -H "Content-Type: application/json" -X POST "http://localhost:9500"
 ```
 
@@ -45,22 +45,22 @@ curl -d '{
 
 ## API v2
 
-#### Parameters
+### Parameters
 
 1. `Number` - block number
 
-#### Returns
+### Returns
 
 * `Array` of `String`: one addresses list of validators who signed this block
 
-#### Sample Curl Request
+### Sample Curl Request
 
 ```bash
 curl -d '{
-	"jsonrpc": "2.0",
-	"method": "hmy_getBlockSigners",
-	"params": [1],
-	"id": 1
+    "jsonrpc": "2.0",
+    "method": "hmy_getBlockSigners",
+    "params": [1],
+    "id": 1
 }' -H "Content-Type: application/json" -X POST "http://localhost:9500"
 ```
 

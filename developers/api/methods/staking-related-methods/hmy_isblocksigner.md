@@ -6,16 +6,16 @@ hmy\_isBlockSigner returns true is validator signed a particular block or not
 
 ## API v1
 
-#### Parameters
+### Parameters
 
 1. `String` - block number in string 0x format
 2. `String` - validator one address \("one1..."\)
 
-#### Returns
+### Returns
 
 * `Bool` - true if validator signed block, false otherwise 
 
-#### Sample Curl Request
+### Sample Curl Request
 
 ```bash
 curl -d '{
@@ -38,16 +38,16 @@ curl -d '{
 
 ## API v2
 
-#### Parameters
+### Parameters
 
 1. `Number` - block number
 2. `String` - validator one address \("one1..."\)
 
-#### Returns
+### Returns
 
 * `Bool` - true if validator signed block, false otherwise 
 
-#### Sample Curl Request
+### Sample Curl Request
 
 ```bash
 curl -d '{

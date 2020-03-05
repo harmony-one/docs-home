@@ -4,12 +4,12 @@ description: hmy_getDelegationsByDelegatorAndValidator
 
 # hmy\_getDelegationsByDelegatorAndValidator
 
-#### Parameters
+## Parameters
 
 1. `String` - delegator bech32 address.
 2. `String` - validator bech32 address.
 
-#### Returns
+## Returns
 
 Array of:
 

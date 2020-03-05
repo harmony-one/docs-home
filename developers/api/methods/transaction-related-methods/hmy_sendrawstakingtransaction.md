@@ -8,15 +8,15 @@ description: SendRawStakingTransaction
 
 A staking transaction is like a plain sharded transaction, [hmy\_sendRawTransaction](hmy_sendrawtransaction.md), but with a single field that is not known ahead of time. This field is the staking message itself, which in the harmony go code base, we refer to as `StakeMsg`
 
-#### Input
+### Input
 
 The input is a single RLP encoded version of a StakingTransaction
 
-#### Parameters
+### Parameters
 
 * `String` - Transaction encoded in bytes.
 
-#### Returns
+### Returns
 
 * `String` - Raw transaction's hash.
 
