@@ -6,9 +6,9 @@ description: hmy_getCurrentStakingErrorSink
 
 ## API v1
 
-#### Returns
+### Returns
 
-#### Sample Curl Request
+### Sample Curl Request
 
 ```bash
 curl --location --request POST 'https://api.s0.b.hmny.io/' \
@@ -21,7 +21,7 @@ curl --location --request POST 'https://api.s0.b.hmny.io/' \
 }'
 ```
 
-#### Sample Curl Response
+### Sample Curl Response
 
 ```bash
 {
@@ -33,9 +33,9 @@ curl --location --request POST 'https://api.s0.b.hmny.io/' \
 
 ## API v2
 
-#### Returns
+### Returns
 
-#### Sample Curl Request
+### Sample Curl Request
 
 ```bash
 curl --location --request POST 'https://api.s0.b.hmny.io/' \
@@ -48,7 +48,7 @@ curl --location --request POST 'https://api.s0.b.hmny.io/' \
 }'
 ```
 
-#### Sample Curl Response
+### Sample Curl Response
 
 ```bash
 {

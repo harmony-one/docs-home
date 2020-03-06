@@ -13,7 +13,7 @@ Get block by its index in the blockchain.
 1. `String` - The block number. 
 2. `Boolean` - If `true`, the returned block will contain all transactions in the block.
 
-#### Returns
+### Returns
 
 * `number` - `Number`: The block number. `null` when its pending block.
 * `hash` 32 Bytes - `String`: Hash of the block. `null` when its pending block.
@@ -84,7 +84,7 @@ curl -d '{
    2. `withSigners`- `Bool`: Include block signes in blocks or not
    3. `inclStaking` - `Bool`: To show staking txs or not
 
-#### Returns
+### Returns
 
 * `number` - `Number`: The block number. `null` when its pending block.
 * `hash` 32 Bytes - `String`: Hash of the block. `null` when its pending block.

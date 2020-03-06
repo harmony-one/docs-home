@@ -2,7 +2,7 @@
 
 Get global staking info.
 
-#### Returns
+## Returns
 
 * `total-staking` - `Number` - big.Int total staking by validators
 * `circulating-supply` - `Float` - current circulating supply

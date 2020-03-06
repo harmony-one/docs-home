@@ -30,15 +30,15 @@ _Let's make sure your hardware wallet ready to use._
 
 At this point, you're ready to install apps on your Ledger Nano S. Remember to store your 24-word recovery phrase in a safe place, because you'll need it to recover your funds if your device is lost or damaged.
 
-## Download CLI 
+## Download CLI
 
-_Please use the_ [_following instructions_](https://docs.harmony.one/home/wallet-guides/harmony-cli/download-setup) _to download CLI to use  Ledger Nano S ._
+_Please use the_ [_following instructions_](https://docs.harmony.one/home/wallet-guides/harmony-cli/download-setup) _to download CLI to use Ledger Nano S ._
 
 ## Install Ledger Nano S Firmware In Debugging Mode
 
 _This is ONLY for wallet developers / testers. Other users please download firmware through Ledger Live._
 
-_Please use the_ [_following instructions_](https://docs.harmony.one/home/wallet-guides/ledger/install-and-setup) _to install Ledger Nano S firmware in Debugging mode._ 
+_Please use the_ [_following instructions_](https://docs.harmony.one/home/wallet-guides/ledger/install-and-setup) _to install Ledger Nano S firmware in Debugging mode._
 
 ## Display the Harmony ONE address for Ledger Nano S
 

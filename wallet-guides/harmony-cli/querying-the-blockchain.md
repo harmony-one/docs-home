@@ -76,7 +76,7 @@ $ ./hmy blockchain transaction-by-hash 0x75d91100734edcd1497200cb438f0864d2ed4a4
 }
 ```
 
-### **transaction-receipt** 
+### **transaction-receipt**
 
 Get information about a finalized transaction:
 
@@ -161,7 +161,7 @@ $ ./hmy blockchain latest-header --node=https://api.s0.t.hmny.io
 {% endtab %}
 
 {% tab title="Shard 1" %}
-```
+```text
 $ ./hmy blockchain latest-header --node=https://api.s1.t.hmny.io
 
 {
@@ -184,7 +184,7 @@ $ ./hmy blockchain latest-header --node=https://api.s1.t.hmny.io
 {% endtab %}
 
 {% tab title="Shard 2" %}
-```
+```text
 $ ./hmy blockchain latest-header --node=https://api.s2.t.hmny.io
 
 {
@@ -207,7 +207,7 @@ $ ./hmy blockchain latest-header --node=https://api.s2.t.hmny.io
 {% endtab %}
 
 {% tab title="Shard 3" %}
-```
+```text
 $ ./hmy blockchain latest-header --node=https://api.s3.t.hmny.io
 
 {

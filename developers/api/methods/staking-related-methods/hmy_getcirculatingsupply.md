@@ -6,7 +6,7 @@ description: hmy_getCirculatingSupply
 
 Get circulating ONE supply
 
-#### Returns
+## Returns
 
 * `Number` - circulating supply
 

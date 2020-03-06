@@ -4,11 +4,11 @@ description: hmy_getValidatorMetrics
 
 # hmy\_getValidatorMetrics
 
-#### Parameters
+## Parameters
 
 1. `String` - validator bech32 address.
 
-#### Returns
+## Returns
 
 * `NumJailed` - `Number` - big.Int number of times validator was banned due to downtime
 * TotalEffectiveStake - Float - total validator effective stake from delegations

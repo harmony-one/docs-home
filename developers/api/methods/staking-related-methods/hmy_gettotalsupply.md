@@ -6,7 +6,7 @@ description: hmy_getTotalSupply
 
 Get total ONE supply
 
-#### Returns
+## Returns
 
 * `Number` - total supply
 

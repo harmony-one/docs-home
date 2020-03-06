@@ -8,16 +8,16 @@ Get the balance of an address at a given block.
 
 ## API v1
 
-#### Parameters
+### Parameters
 
 1. `String` -  The address to get the balance of
 2. `String` - Block to get query for balance
 
-#### Returns
+### Returns
 
 * `String` - The current balance for the given address in ATTO.
 
-#### Sample Curl Request
+### Sample Curl Request
 
 ```bash
 curl -d '{
@@ -43,16 +43,16 @@ curl -d '{
 
 ## API v2
 
-#### Parameters
+### Parameters
 
 1. `String` -  The address to get the balance of
 2. `Number` - Block to get query for balance
 
-#### Returns
+### Returns
 
 * `String` - The big.Int balance for the given address on a particular block.
 
-#### Sample Curl Request
+### Sample Curl Request
 
 ```bash
 curl -d '{

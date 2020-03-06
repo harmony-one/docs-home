@@ -8,7 +8,7 @@ description: hmy_pendingTransactions
 
 Returns list of pending transactions object. See [hmy\_getTransactionByHash](hmy_gettransactionbyhash.md) for result format.
 
-#### Sample Curl Request
+### Sample Curl Request
 
 ```text
 curl --location --request POST 'https://api.s0.b.hmny.io/' \
@@ -25,7 +25,7 @@ curl --location --request POST 'https://api.s0.b.hmny.io/' \
 
 Returns list of pending transactions object. See [hmy\_getTransactionByHash](hmy_gettransactionbyhash.md) for result format.
 
-#### Sample Curl Request
+### Sample Curl Request
 
 ```text
 curl --location --request POST 'https://api.s0.b.hmny.io/' \

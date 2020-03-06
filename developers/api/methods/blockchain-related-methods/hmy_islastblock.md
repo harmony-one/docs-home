@@ -10,7 +10,7 @@ Is block epoch last block
 
 1. `Number` - block height
 
-#### Returns
+## Returns
 
 * `Bool` - true if block epoch last block
 

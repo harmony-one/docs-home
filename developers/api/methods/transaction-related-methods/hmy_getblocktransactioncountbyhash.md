@@ -8,11 +8,11 @@ Get the number of transactions in a block by the block's hash.
 
 ## API v1
 
-#### Parameters
+### Parameters
 
 `String` - The block hash.
 
-#### Returns
+### Returns
 
 * `Number` - The number of transactions in the given block.
 
@@ -39,11 +39,11 @@ curl -d '{
 
 ## API v2
 
-#### Parameters
+### Parameters
 
 1. `String` - The block hash.
 
-#### Returns
+### Returns
 
 * `Number` - The number of transactions in the given block.
 

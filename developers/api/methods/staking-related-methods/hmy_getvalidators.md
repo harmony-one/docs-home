@@ -6,30 +6,30 @@ hmy\_getValidators returns list of validators for a particular epoch in correspo
 
 ## API v1
 
-#### Parameters
+### Parameters
 
 1. `uint64` - epoch number
 
-#### Returns
+### Returns
 
 * `shardID` - `Uint32` - shard id
 * `validators` - `Array` : list of validators in below format
   * `address` - `String` : one address
   * `balance` - `String` : validator current balance \(will be replaced with stake soon\) 0x format
 
-#### Sample Curl Request
+### Sample Curl Request
 
 ```bash
 curl -d '{
-	"jsonrpc":"2.0",
-	"method":"hmy_getValidators",
-	"params":[0],
-	"id":1
-	
+    "jsonrpc":"2.0",
+    "method":"hmy_getValidators",
+    "params":[0],
+    "id":1
+
 }' -H "Content-Type: application/json" -X POST "http://localhost:9500"
 ```
 
-#### **Sample Curl Response**
+### **Sample Curl Response**
 
 ```javascript
 {
@@ -73,30 +73,30 @@ curl -d '{
 
 ## API v2
 
-#### Parameters
+### Parameters
 
 1. `uint64` - epoch number
 
-#### Returns
+### Returns
 
 * `shardID` - `Uint32` - shard id
 * `validators` - `Array` : list of validators in below format
   * `address` - `String` : one address
   * `balance` - `Number` : validator current balance \(will be replaced with stake soon\)
 
-#### Sample Curl Request
+### Sample Curl Request
 
 ```bash
 curl -d '{
-	"jsonrpc":"2.0",
-	"method":"hmyv2_getValidators",
-	"params":[0],
-	"id":1
-	
+    "jsonrpc":"2.0",
+    "method":"hmyv2_getValidators",
+    "params":[0],
+    "id":1
+
 }' -H "Content-Type: application/json" -X POST "http://localhost:9500"
 ```
 
-#### **Sample Curl Response**
+### **Sample Curl Response**
 
 ```javascript
 {

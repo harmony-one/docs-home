@@ -8,16 +8,16 @@ Given an account address, returns the number of transactions the account has mad
 
 ## API v1
 
-#### Parameters
+### Parameters
 
 1. `String` - Account address
 2. `String` - Block number to query for transaction count. Usually `latest`, which uses the most recent block.
 
-#### Returns
+### Returns
 
 * `String` - Number of transactions the account has made.
 
-#### Sample Curl Request
+### Sample Curl Request
 
 ```bash
 curl -d '{
@@ -31,7 +31,7 @@ curl -d '{
 }' -H "Content-Type:application/json" -X POST "http://s0.b.hmny.io:9500"
 ```
 
-#### Sample Curl Response
+### Sample Curl Response
 
 ```javascript
 {
@@ -43,16 +43,16 @@ curl -d '{
 
 ## API v2
 
-#### Parameters
+### Parameters
 
 1. `String` - Account address
 2. `Number` - Block number to query for transaction count.
 
-#### Returns
+### Returns
 
 * `Number` - Number of transactions the account has made.
 
-#### Sample Curl Request
+### Sample Curl Request
 
 ```bash
 curl -d '{
@@ -66,7 +66,7 @@ curl -d '{
 }' -H "Content-Type:application/json" -X POST "http://s0.b.hmny.io:9500"
 ```
 
-#### Sample Curl Response
+### Sample Curl Response
 
 ```javascript
 {

@@ -165,7 +165,7 @@ Simply having a transaction hash does NOT imply that the transaction was success
 
 We can pull down details of the finalized transaction with `./hmy blockchain transaction-receipt` as well:
 
-#### Using the Binary: 
+#### Using the Binary:
 
 ```text
 $ ./hmy blockchain transaction-receipt --node="<endpoint-address>" <transaction-hash>

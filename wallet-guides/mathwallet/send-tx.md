@@ -26,7 +26,7 @@ If you would like to use Math Wallet to interact with other Harmony networks suc
 
 In the toolbar at the top of the page, there is a drop down menu which defaults to **Harmony** where you can specify which network you wish to operate on.
 
-![](../../.gitbook/assets/image%20%2820%29.png)
+![](../../.gitbook/assets/image-20.png)
 
 * **Harmony** connects to Harmony's mainnet.
 * \*\*\*\*[**Pangaea**](https://docs.harmony.one/pangaea/) connects to Testnet.

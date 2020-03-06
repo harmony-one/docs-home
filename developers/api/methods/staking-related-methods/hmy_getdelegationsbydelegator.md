@@ -4,11 +4,11 @@ description: hmy_getDelegationsByDelegator
 
 # hmy\_getDelegationsByDelegator
 
-#### Parameters
+## Parameters
 
 1. `String` - delegator bech32 address.
 
-#### Returns
+## Returns
 
 Array of:
 

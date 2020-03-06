@@ -1,7 +1,7 @@
 # For Windows Users
 
 {% hint style="warning" %}
-_This section is only for advanced users who want to do manual installation of Harmony One app.  Please skip this section if you can install Harmony One app through Ledger Live._
+_This section is only for advanced users who want to do manual installation of Harmony One app. Please skip this section if you can install Harmony One app through Ledger Live._
 {% endhint %}
 
 ## Step 1
@@ -16,7 +16,7 @@ this is the latest version as 18th Jan 2019 that was tested, newer version could
 
 At the end make sure you add the python binary to the path :
 
-![](../../../.gitbook/assets/image%20%2844%29.png)
+![](../../../.gitbook/assets/image-44.png)
 
 Python and pip are now installed, execute the below command on the windows terminal:
 
@@ -36,32 +36,27 @@ If you get an error: Running setup.py install for hidapi ... error ERROR: Comman
 
 Go to [https://visualstudio.microsoft.com/downloads/\#build-tools-for-visual-studio-2017](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2017)
 
-- Download "Build Tools For Visual Studio" under "Tools for " Visual Studio
+* Download "Build Tools For Visual Studio" under "Tools for " Visual Studio
 
 -Launch it \(developer command Prompt for VS 2019\) and enter the the previous commands there
 {% endhint %}
 
-![](../../../.gitbook/assets/image%20%281%29.png)
+![](../../../.gitbook/assets/image-1.png)
 
 After the ledgerblue installation :
 
 1. Download Ledger firmware from [here](https://s3-us-west-1.amazonaws.com/pub.harmony.one/release/ledger_firmware/ver3_app.hex)
-
 2. Place the downloaded firmware file _**ver3\_app.hex**_ in the current working directory
-
 3. Run this command:
 
 ```bash
 $ python -m ledgerblue.loadApp --appFlags 0x40 --path "44'/1023'"  --curve secp256k1 --tlv --targetId 0x31100004 --delete --fileName ver3_app.hex  --appName One --appVersion 0.0.1 --dataSize 0 --icon 01ffffff00ffffff00ffffffffffffc7e1bbcdbbddbbcdbbc50bd8a3ddbbddbbddb3edc7e3ffffffff
 ```
 
-4. Now, take a look at your ledger nano S, you need to enter your password
-
-5. Allow unsafe manager
-
-6. Install app ONE, click right bottom until appears install
-
-7. Enter again your password
+1. Now, take a look at your ledger nano S, you need to enter your password
+2. Allow unsafe manager
+3. Install app ONE, click right bottom until appears install
+4. Enter again your password
 
 Congratulations, step 1 is complete!
 

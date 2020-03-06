@@ -6,11 +6,11 @@ description: hmy_getValidatorInformation
 
 Get staking validator information.
 
-#### Parameters
+## Parameters
 
 1. `String` - validator bech32 address.
 
-#### Returns
+## Returns
 
 * `address` - `String` - ECSDA validator address
 * `bls-public-keys` - `[]String` - array of validator bls public keys

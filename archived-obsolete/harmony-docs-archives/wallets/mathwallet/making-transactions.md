@@ -12,7 +12,7 @@ Make sure you are in the Web Wallet interface. To access the Web Wallet, select 
 
 ![Clicking &quot;Web Wallet&quot; opens &quot;Test Wallet&quot; in a new tab](../../../../.gitbook/assets/screen-shot-2019-09-18-at-2.33.41-pm.png)
 
-After clicking **Web Wallet**, you may be presented with a button that says **Login via MathWallet Browser Extension**. _\*\*_Click this button to continue on to the Web Wallet.
+After clicking **Web Wallet**, you may be presented with a button that says **Login via MathWallet Browser Extension**. \_\*\*\_Click this button to continue on to the Web Wallet.
 
 ![Example of a cross-shard transaction from Shard 1 to Shard 0](../../../../.gitbook/assets/screen-shot-2019-09-17-at-5.07.06-pm-1.png)
 

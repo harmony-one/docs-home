@@ -1,10 +1,10 @@
 # For Mac and Linux Users
 
 {% hint style="warning" %}
-_This section is only for advanced users who want to do manual installation of Harmony One app.  Please skip this section if you can install Harmony One app through Ledger Live._
+_This section is only for advanced users who want to do manual installation of Harmony One app. Please skip this section if you can install Harmony One app through Ledger Live._
 {% endhint %}
 
-## Install Ledger Nano S Firmware In Debugging Mode _****_ 
+## Install Ledger Nano S Firmware In Debugging Mode _\*\*_
 
 _Mac running macOS, Linux system or a Virtual Machine with USB pass through capabilities_
 
@@ -15,7 +15,7 @@ _To perform the testing of your Ledger Nano S with One tokens you need a Mac run
 * Download Ledger firmware from [here](https://s3-us-west-1.amazonaws.com/pub.harmony.one/release/ledger_firmware/ver3_app.hex) 
 * Place the downloaded firmware file _**ver3\_app.hex**_ in the current working directory
 
-#### To download using the terminal/shell:
+### To download using the terminal/shell:
 
 ```text
 cd <working-directory>
@@ -24,7 +24,7 @@ curl https://s3-us-west-1.amazonaws.com/pub.harmony.one/release/ledger_firmware/
 
 * Install dependencies:
 
-#### Ubuntu/Debian distribution
+### Ubuntu/Debian distribution
 
 ```text
 sudo apt install libudev1 libudev-dev libusb-1.0-0dev python3-dev python3-pip
@@ -32,7 +32,7 @@ pip3 install -U setuptools
 pip3 install virtualenv
 ```
 
-#### MacOS
+### MacOS
 
 ```text
 brew install python3

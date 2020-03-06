@@ -11,5 +11,5 @@ Using Harmony hardware wallet on the Ledger Nano S requires a few things. You wi
 
 _This is ONLY for wallet developers / testers. Other users please download firmware through Ledger Live._
 
-_Please use the_ [_following instructions_](https://docs.harmony.one/home/wallet-guides/ledger/install-and-setup) _to install Ledger Nano S firmware in Debugging mode._ 
+_Please use the_ [_following instructions_](https://docs.harmony.one/home/wallet-guides/ledger/install-and-setup) _to install Ledger Nano S firmware in Debugging mode._
 

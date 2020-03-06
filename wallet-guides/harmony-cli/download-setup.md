@@ -5,7 +5,7 @@ description: The Harmony CLI tool is used to interact with the Harmony blockchai
 # Download & setup
 
 {% hint style="info" %}
-Throughout this guide, we will use the following syntax: 
+Throughout this guide, we will use the following syntax:
 
 * `./hmy`:  This is the CLI program
 * `./hmy.sh --` : This is the command to use the CLI with a shell wrapper \(for macOS\)
@@ -29,7 +29,7 @@ $ curl -LO https://harmony.one/hmycli && mv hmycli hmy && chmod +x hmy
 If you have permission issues, enter the commands with "sudo" at the beginning, i.e. "sudo curl -LO [https://harmony.one/hmycli](https://harmony.one/hmycli) && mv hmycli hmy && chmod +x hmy"
 {% endhint %}
 
-### 2. For MacOS 
+### 2. For MacOS
 
 `hmy` depends on some dynamic libraries, hence we recommend using the shell wrapper. Enter there commands into your terminal:
 
@@ -64,13 +64,13 @@ bls   harmony mcl
 $ git clone https://github.com/harmony-one/go-sdk.git
 ```
 
-2. Then setup the build flags:
+1. Then setup the build flags:
 
 ```text
 $ source harmony/scripts/setup_bls_build_flags.sh
 ```
 
-3. Call `make` in the `go-sdk` repo. This builds a binary named `hmy`:
+1. Call `make` in the `go-sdk` repo. This builds a binary named `hmy`:
 
 ```text
 $ cd go-sdk

@@ -5,8 +5,8 @@
 
 ## Harmony Networks
 
-* [Mainnet](mainnet/README.md)
-  * [Explorer and RPC Endpoints](mainnet/explorer-and-rpc-endpoints.md)
+* [Mainnet](harmony-networks/mainnet/README.md)
+  * [Explorer and RPC Endpoints](harmony-networks/mainnet/explorer-and-rpc-endpoints.md)
 
 ## Wallet guides
 
