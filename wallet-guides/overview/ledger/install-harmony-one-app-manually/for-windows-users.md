@@ -16,7 +16,7 @@ this is the latest version as 18th Jan 2019 that was tested, newer version could
 
 At the end make sure you add the python binary to the path :
 
-![](../../../.gitbook/assets/image-44.png)
+![](../../../../.gitbook/assets/image-44.png)
 
 Python and pip are now installed, execute the below command on the windows terminal:
 
@@ -41,7 +41,7 @@ Go to [https://visualstudio.microsoft.com/downloads/\#build-tools-for-visual-stu
 -Launch it \(developer command Prompt for VS 2019\) and enter the the previous commands there
 {% endhint %}
 
-![](../../../.gitbook/assets/image-1.png)
+![](../../../../.gitbook/assets/image-1.png)
 
 After the ledgerblue installation :
 
