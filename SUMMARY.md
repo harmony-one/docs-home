@@ -36,6 +36,7 @@
       * [Send transaction](basics/overview/safepal/send-transaction.md)
 * [Validators](validators/README.md)
   * [First Time Setup](validators/first-time-setup/README.md)
+    * [Cloud Guides](validators/first-time-setup/cloud-guides.md)
     * [AWS](validators/first-time-setup/aws.md)
     * [Google Cloud](validators/first-time-setup/google-cloud.md)
     * [Vultr](validators/first-time-setup/vultr.md)
