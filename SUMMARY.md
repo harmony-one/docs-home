@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [Documentation](documentation.md)
 * [Basics](basics/README.md)
   * [Harmony Wallets](basics/overview/README.md)
     * [Private Key Management](basics/overview/key-management-overview.md)
@@ -137,12 +136,10 @@
   * [Partner on-boarding reference material](trading-partners/on-boarding-process/README.md)
     * [Connecting to Harmony \(Running a node\)](trading-partners/on-boarding-process/connecting-to-harmony-running-a-node.md)
   * [Onboard Process Walkthrough](trading-partners/onboard-process-walkthrough.md)
-* [Foundational Nodes](foundational-nodes/README.md)
-  * [Mainnet](foundational-nodes/mainnet/README.md)
-    * [Explorer and RPC Endpoints](foundational-nodes/mainnet/explorer-and-rpc-endpoints.md)
 
 ## Archived/Obsolete
 
+* [Documentation](archived-obsolete/documentation.md)
 * [Harmony Docs Archives](archived-obsolete/harmony-docs-archives/README.md)
   * [Overview](archived-obsolete/harmony-docs-archives/harmony-network-overview/README.md)
     * [Mainnet](archived-obsolete/harmony-docs-archives/harmony-network-overview/mainnet.md)
@@ -167,4 +164,7 @@
     * [Querying the blockchain](archived-obsolete/harmony-docs-archives/using-the-harmony-cli-tool/querying-the-blockchain.md)
     * [Full CLI Reference](archived-obsolete/harmony-docs-archives/using-the-harmony-cli-tool/full-cli-reference.md)
   * [Using Ledger For Sending Tokens & Staking](archived-obsolete/harmony-docs-archives/ledger-staking-guide.md)
+* [Foundational Nodes](archived-obsolete/foundational-nodes/README.md)
+  * [Mainnet](archived-obsolete/foundational-nodes/mainnet/README.md)
+    * [Explorer and RPC Endpoints](archived-obsolete/foundational-nodes/mainnet/explorer-and-rpc-endpoints.md)
 
