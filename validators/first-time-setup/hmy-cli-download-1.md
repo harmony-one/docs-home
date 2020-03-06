@@ -8,7 +8,7 @@ To interact with your node, we have developed the HMY CLI. With it, you will be 
 
 ## Download Harmony CLI
 
-#### Linux Download:
+### Linux Download:
 
 ```text
 curl -LO https://harmony.one/hmycli
@@ -16,7 +16,7 @@ mv hmycli hmy
 chmod +x hmy
 ```
 
-#### MacOS Download:
+### MacOS Download:
 
 ```text
 curl -O https://raw.githubusercontent.com/harmony-one/go-sdk/master/scripts/hmy.sh
@@ -25,10 +25,10 @@ chmod u+x hmy.sh
 ```
 
 {% hint style="danger" %}
-For the MacOS version, use `./hmy.sh` instead of `./hmy` for all commands.  
+For the MacOS version, use `./hmy.sh` instead of `./hmy` for all commands.
 {% endhint %}
 
-#### To double-check that it works:
+### To double-check that it works:
 
 Run `./hmy cookbook`to see some commonly used commands.Output should look similar to below.
 

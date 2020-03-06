@@ -31,5 +31,3 @@ Example output below:
 }
 ```
 
-
-

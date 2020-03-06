@@ -20,7 +20,7 @@ The CLI will ask for the passphrase for the `delegator-addr` keystore file.
 For un-delegating to your own validator, `delegator-addr` and `validator-addr` will be the same.
 {% endhint %}
 
-### When will I get my tokens back after un-delegating?
+## When will I get my tokens back after un-delegating?
 
 When you decide to un-delegate your tokens from a validator on the Open Staking Testnet, your tokens will be subjected to a cooldown period lasting **7 epochs \(~70 minutes\)**. You will receive your tokens back in your account balance on the 8th epoch after an un-delegation transaction.
 

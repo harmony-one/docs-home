@@ -19,5 +19,5 @@ Then run your node again in your `tmux` session.
 ./node.sh -S -N staking -z -k [BLS KEY FILE].key
 ```
 
-And then [create your validator]() again.
+And then [create your validator](resetting-your-node.md) again.
 

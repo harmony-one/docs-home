@@ -37,7 +37,7 @@ sudo apt-get install libgmp-dev
 ```
 {% endhint %}
 
-**2.**  Run the node.sh script with the following command. Once you do, it will ask for a passphrase for your BLS key file. Type your passphrase on the screen that follows and your node should be up and running.
+**2.** Run the node.sh script with the following command. Once you do, it will ask for a passphrase for your BLS key file. Type your passphrase on the screen that follows and your node should be up and running.
 
 ```css
 ./node.sh -S -N staking -z -k [BLS KEY FILE].key

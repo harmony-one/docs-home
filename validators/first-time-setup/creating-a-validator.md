@@ -129,6 +129,6 @@ Example output below:
 {% hint style="warning" %}
 If your validator does not sign 66% of the blocks in an Epoch, the validator will be removed from the pool of eligible validators.
 
-In order to be included in the pool again, you will have to use send an [Edit Validator transaction]() with `--active true`.
+In order to be included in the pool again, you will have to use send an [Edit Validator transaction](creating-a-validator.md) with `--active true`.
 {% endhint %}
 
