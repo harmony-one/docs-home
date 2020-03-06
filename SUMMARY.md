@@ -122,12 +122,6 @@
   * [Mainnet](foundational-nodes/mainnet/README.md)
     * [Explorer and RPC Endpoints](foundational-nodes/mainnet/explorer-and-rpc-endpoints.md)
 
-## Harmony Networks
-
-## Wallet guides
-
-## Developers
-
 ## Archived/Obsolete
 
 * [Harmony Docs Archives](archived-obsolete/harmony-docs-archives/README.md)
