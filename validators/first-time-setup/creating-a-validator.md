@@ -24,6 +24,8 @@ The faucet will fund 10,000 ONE tokens on Shard 0, per account, per hour.
 
 {% hint style="info" %}
 Copy the entire command. Extra white spaces in the command could cause errors.
+
+Name, identity, details, security-contact and website need to be put in double quotes if there is more than one word separated by space \(example --name "John the validator"\).
 {% endhint %}
 
 The CLI will prompt you to enter your BLS key file password.
