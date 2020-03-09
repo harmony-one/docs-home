@@ -4,14 +4,26 @@
 
 In order to continue and create your validator, you will need to have ONE tokens in your Shard 0 balance. To get tokens from our Faucet smart contract, use the following command:
 
+{% tabs %}
+{% tab title="Open Staking Testnet" %}
 ```text
 curl -X GET https://faucet.os.hmny.io/fund?address=[ONE ADDRESS]
 ```
+{% endtab %}
+
+{% tab title="Partner Testnet" %}
+```
+curl -X GET https://faucet.ps.hmny.io/fund?address=[ONE ADDRESS]
+```
+{% endtab %}
+{% endtabs %}
 
 The faucet will fund 10,000 ONE tokens on Shard 0, per account, per hour.
 
 ## Creating a Validator <a id="creating-a-validator"></a>
 
+{% tabs %}
+{% tab title="Open Staking Testnet" %}
 ```text
 ./hmy --node="https://api.s0.os.hmny.io" staking create-validator \
     --validator-addr [ONE ADDRESS] --amount 10 \
@@ -21,6 +33,20 @@ The faucet will fund 10,000 ONE tokens on Shard 0, per account, per hour.
     --max-change-rate 0.1 --max-rate 0.1 --rate 0.1 \
     --max-total-delegation 100 --min-self-delegation 10 --passphrase
 ```
+{% endtab %}
+
+{% tab title="Partner Testnet" %}
+```
+./hmy --node="https://api.s0.ps.hmny.io" staking create-validator \
+    --validator-addr [ONE ADDRESS] --amount 10 \
+    --bls-pubkeys [BLS PUBLIC KEY1],[BLS PUBLIC KEY2] \
+    --name [NAME] --identity [IDENTITY] --details "DETAILS" \
+    --security-contact CONTACT --website YOUR-WEBSITE.COM \
+    --max-change-rate 0.1 --max-rate 0.1 --rate 0.1 \
+    --max-total-delegation 100 --min-self-delegation 10 --passphrase
+```
+{% endtab %}
+{% endtabs %}
 
 {% hint style="info" %}
 Copy the entire command. Extra white spaces in the command could cause errors.
@@ -69,7 +95,7 @@ On the Open Staking Testnet, a validator will be set to active at the next epoch
 Once your validator is active and has been elected, the validator will receive rewards and you will be able to see "BINGO" in the logs.
 
 ```text
-tail latest/zerolog-validator-*.log | grep -i BINGO
+tail -n 1000 latest/zerolog-validator-*.log | grep -i BINGO
 ```
 
 Example output below:
@@ -82,9 +108,19 @@ Example output below:
 
 Use the below command to check your validator information
 
+{% tabs %}
+{% tab title="Open Staking Testnet" %}
 ```text
 ./hmy --node=https://api.s0.os.hmny.io/ blockchain validator information [ONE ADDRESS]
 ```
+{% endtab %}
+
+{% tab title="Partner Testnet" %}
+```
+./hmy --node=https://api.s0.ps.hmny.io/ blockchain validator information [ONE ADDRESS]
+```
+{% endtab %}
+{% endtabs %}
 
 Example output below:
 

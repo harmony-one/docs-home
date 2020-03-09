@@ -1,12 +1,24 @@
-# Undelegating To A Validator
+# Undelegating From A Validator
 
-You can un-delegate tokens to a validator using the following command.
+You can un-delegate tokens from a validator using the following command:
 
+{% tabs %}
+{% tab title="Open Staking Testnet" %}
 ```text
 ./hmy --node="https://api.s0.os.hmny.io" staking undelegate \
     --delegator-addr [ONE ADDRESS] --validator-addr [ONE ADDRESS] \ 
     --amount [AMOUNT] --passphrase
 ```
+{% endtab %}
+
+{% tab title="Partner Testnet" %}
+```
+./hmy --node="https://api.s0.ps.hmny.io" staking undelegate \
+    --delegator-addr [ONE ADDRESS] --validator-addr [ONE ADDRESS] \ 
+    --amount [AMOUNT] --passphrase
+```
+{% endtab %}
+{% endtabs %}
 
 The CLI will ask for the passphrase for the `delegator-addr` keystore file.
 

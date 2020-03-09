@@ -22,9 +22,19 @@ The BLS public key is the same as the name of the file, without the `.key`.
 
 You can check which shard your key will validate for using the following command.
 
-```text
+{% tabs %}
+{% tab title="Open Staking Network" %}
+```
 ./hmy --node="https://api.s0.os.hmny.io" utility shard-for-bls [BLS PUBLIC KEY]
 ```
+{% endtab %}
+
+{% tab title="Partner Test Network" %}
+```text
+./hmy --node="https://api.s0.ps.hmny.io" utility shard-for-bls [BLS PUBLIC KEY]
+```
+{% endtab %}
+{% endtabs %}
 
 Example output:
 
