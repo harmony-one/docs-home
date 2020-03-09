@@ -29,10 +29,9 @@ You'll want to use a tmux session in order to leave your node running, while you
 {% endhint %}
 
 {% hint style="danger" %}
-If you want to run a node on Ubuntu, also run the following commands to get the required libraries:
+For any Debian based OS like Ubuntu and others, please install the package bellow as it is required to run the node:
 
 ```text
-curl -LO http://pub.harmony.one.s3.amazonaws.com/release/linux-x86_64/testnet/libcrypto.so.10
 sudo apt-get install libgmp-dev
 ```
 {% endhint %}
