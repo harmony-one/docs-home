@@ -5,7 +5,7 @@ You can un-delegate tokens from a validator using the following command:
 {% tabs %}
 {% tab title="Open Staking Testnet" %}
 ```text
-./hmy --node="https://api.s0.os.hmny.io" staking undelegate \
+./hmy --node=https://api.s0.os.hmny.io staking undelegate \
     --delegator-addr [ONE ADDRESS] --validator-addr [ONE ADDRESS] \ 
     --amount [AMOUNT] --passphrase
 ```
@@ -13,7 +13,7 @@ You can un-delegate tokens from a validator using the following command:
 
 {% tab title="Partner Testnet" %}
 ```
-./hmy --node="https://api.s0.ps.hmny.io" staking undelegate \
+./hmy --node=https://api.s0.ps.hmny.io staking undelegate \
     --delegator-addr [ONE ADDRESS] --validator-addr [ONE ADDRESS] \ 
     --amount [AMOUNT] --passphrase
 ```

@@ -8,12 +8,22 @@ description: Using node.sh
 
 **1.** Run the following command to download the node.sh script:
 
+{% tabs %}
+{% tab title="Open Staking Network" %}
 ```text
 curl -LO https://harmony.one/node2.sh && mv node2.sh node.sh && chmod a+x node.sh
 ```
+{% endtab %}
+
+{% tab title="Partner Network" %}
+```text
+curl -LO https://raw.githubusercontent.com/harmony-one/harmony/t3/scripts/node.sh && chmod a+x node.sh
+```
+{% endtab %}
+{% endtabs %}
 
 {% hint style="warning" %}
-Node2.sh is a temporary script just for the Open Staking Testnet.
+node2.sh is a temporary script just for the Open Staking Testnet.
 {% endhint %}
 
 ## Run Node
@@ -29,7 +39,7 @@ You'll want to use a tmux session in order to leave your node running, while you
 {% endhint %}
 
 {% hint style="danger" %}
-For any Debian based OS like Ubuntu and others, please install the package bellow as it is required to run the node:
+For any Debian based OS like Ubuntu and others, please install the package below:
 
 ```text
 sudo apt-get install libgmp-dev
@@ -58,6 +68,44 @@ Use `-k [BLS KEY FILE]` to specify which BLS key to run the node with.
 
 ```text
 ./hmy blockchain latest-header
+```
+
+## Multiple BLS Keys \(Optional\)
+
+Optionally, you can run the node using multiple BLS keys if you want. Keys are loaded from `.hmy/blskeys` folder which has to be created first:
+
+```text
+mkdir -p .hmy/blskeys
+```
+
+Now move all the [previously created BLS key\(s\)](https://docs.harmony.one/home/validators/first-time-setup/generating-a-bls-key) to this new folder:
+
+```text
+mv *.key .hmy/blskeys
+```
+
+{% hint style="warning" %}
+Make sure all your BLS keys belong to the same shard when using multiple BLS keys. You can use the command below to check each one of them:
+{% endhint %}
+
+{% tabs %}
+{% tab title="Open Staking Network" %}
+```
+./hmy --node=https://api.s0.os.hmny.io utility shard-for-bls [BLS PUBLIC KEY]
+```
+{% endtab %}
+
+{% tab title="Partner Network" %}
+```text
+./hmy --node=https://api.s0.ps.hmny.io utility shard-for-bls [BLS PUBLIC KEY]
+```
+{% endtab %}
+{% endtabs %}
+
+You can now run the node using parameter **-M** for multiple BLS keys. Parameter **-k** will not be used anymore as we are loading multiple BLS keys here:
+
+```text
+./node.sh -S -N staking -z -M
 ```
 
 ## Helpful Information
