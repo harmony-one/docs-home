@@ -15,19 +15,19 @@ Creation of a new account is done as a function of a generated `bip39` mnemonic 
 #### Using the Binary:
 
 ```text
-$ ./hmy keys add <account-name> [--use-own-passphrase]
+$ ./hmy keys add <account-name> [--passphrase]
 ```
 
 #### Using the Shell Script:
 
 ```text
-$ ./hmy.sh keys add <account-name1> [--use-own-passphrase]
+$ ./hmy.sh keys add <account-name1> [--passphrase]
 ```
 
 #### Example:
 
 ```text
-$ ./hmy keys add test-account --use-own-passphrase
+$ ./hmy keys add test-account --passphrase
 Enter passphrase:
 Repeat the passphrase:
 **Important** write this seed phrase in a safe place, it is the only way to recover your account if you ever forget your password
@@ -40,7 +40,7 @@ This creates a keystore at the following directory:`$(hmy keys location)/account
 When creating keys this way, `hmy` will ask you to provide a passphrase.‌ Make sure you keep track of this passphrase for future use because the passphrase is used to decrypt the keystore when signing transactions. Also make sure you save the seed phrase, also called a mnemonic.
 
 {% hint style="info" %}
-If you don't provide a passphrase using the `--use-own-passphrase` flag, the default passphrase is an empty string `""`. The passphrase is used to decrypt the keystore when signing transactions.
+If you don't provide a passphrase using the `--passphrase` flag, the default passphrase is an empty string `""`. The passphrase is used to decrypt the keystore when signing transactions.
 {% endhint %}
 
 To know where your wallet file has been created, run the following command:
