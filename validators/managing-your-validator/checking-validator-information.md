@@ -25,49 +25,52 @@ Example output below:
   "id": "0",
   "jsonrpc": "2.0",
   "result": {
-    "active": true,
-    "address": "one1337twjy8nfcwxzjqrc6lgqxxhs0zeult242ttw",
-    "availability": {
-      "num-blocks-signed": 15448,
-      "num-blocks-to-sign": 15450
+    "current-epoch-signing-percent": {
+      "current-epoch-signed": 65,
+      "current-epoch-to-sign": 72,
+      "percentage": "0.902777777777777778"
     },
-    "banned": false,
-    "bls-public-keys": [
-      "426739d753d36fbe34f8782c01faf0c224e6fbb764fb08339010195b8e657893b8ae4f9bcdad451060518e07a87b418e"
-    ],
-    "creation-height": 173,
-    "delegations": [
+    "current-epoch-voting-power": [
       {
-        "amount": 1.11111e+23,
-        "delegator-address": "one1337twjy8nfcwxzjqrc6lgqxxhs0zeult242ttw",
-        "reward": 5.037996235473647e+22,
-        "undelegations": []
-      },
-      {
-        "amount": 79000000000000000000,
-        "delegator-address": "one15uwuu2kwth75xxspzn7r4ja2cnhtpgqkvnpgh0",
-        "reward": 20531163112060826000,
-        "undelegations": []
-      },
-      {
-        "amount": 0,
-        "delegator-address": "one1zksj3evekayy90xt4psrz8h6j2v3hla4qwz4ur",
-        "reward": 0,
-        "undelegations": []
+        "effective-stake": "15300000000000000000000.000000000000000000",
+        "shard-id": 2,
+        "voting-power-adjusted": "0.021808463251670379",
+        "voting-power-raw": "0.068151447661469933"
       }
     ],
-    "details": "Yo waddup",
-    "identity": "Harmony Test",
-    "last-epoch-in-committee": 204,
-    "max-change-rate": "0.155456293704318700",
-    "max-rate": "0.750000000000000000",
-    "max-total-delegation": 1e+24,
-    "min-self-delegation": 1e+23,
-    "name": "BBQ Validator",
-    "rate": "0.123000000000000000",
-    "security-contact": "Daniel-VDM",
-    "update-height": 173,
-    "website": "harmony.one"
+    "validator": {
+      "active": true,
+      "address": "one1337twjy8nfcwxzjqrc6lgqxxhs0zeult242ttw",
+      "availability": {
+        "num-blocks-signed": 3352,
+        "num-blocks-to-sign": 3413
+      },
+      "banned": false,
+      "bls-public-keys": [
+        "426739d753d36fbe34f8782c01faf0c224e6fbb764fb08339010195b8e657893b8ae4f9bcdad451060518e07a87b418e"
+      ],
+      "creation-height": 1499,
+      "delegations": [
+        {
+          "amount": 1.1111e+22,
+          "delegator-address": "one1337twjy8nfcwxzjqrc6lgqxxhs0zeult242ttw",
+          "reward": 2.6205838731636302e+22,
+          "undelegations": []
+        }
+      ],
+      "details": "Yo waddup",
+      "identity": "Harmony Test",
+      "last-epoch-in-committee": 66,
+      "max-change-rate": "0.155456293704318700",
+      "max-rate": "0.750000000000000000",
+      "max-total-delegation": 1e+24,
+      "min-self-delegation": 1e+22,
+      "name": "BBQ Validator",
+      "rate": "0.100000000000000000",
+      "security-contact": "Daniel-VDM",
+      "update-height": 1499,
+      "website": "harmony.one"
+    }
   }
 }
 ```
