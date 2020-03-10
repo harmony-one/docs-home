@@ -68,6 +68,45 @@ At this point you should be back on the Products page and your server should be 
 
 ![](https://blobs.gitbook.com/assets%2F-LlDqlxK8e45wuh1WH4h%2F-LmLNRdAg8YfuFxXiQq0%2F-LmLPalB_S7dykKXngEA%2Fbrave_iPGAbRSq8A.png?alt=media&token=61bfb892-af8e-480c-972c-c1620234d3fb)
 
+### Create Firewall Group <a id="create-firewall-group"></a>
+
+As we want to allow other nodes to connect to yours, we have to open the correct ports.
+
+Once you are on the [Firewall page](https://my.vultr.com/firewall/), click Add Firewall Group.
+
+![](../../../.gitbook/assets/firewall_group.png)
+
+Enter a name for the firewall group, e.g. FoundationNode.
+
+### Set Firewall Rules <a id="set-firewall-rules"></a>
+
+#### Open the following 3 ports to the public \("Anywhere" on inbound\). <a id="open-the-following-5-ports-to-the-public-anywhere-on-inbound"></a>
+
+* TCP 22 \(SSH\)
+* TCP 6000
+* TCP 9000
+
+Make sure to check that 3 Group Rules have been set.
+
+![](../../../.gitbook/assets/rules_vultr_firewall.jpg)
+
+#### Then link the instance to the firewall group. The steps are as follows: <a id="then-link-the-instance-to-the-firewall-group-the-steps-are-as-follows"></a>
+
+1. Click Linked Instances.
+2. Make sure your new server is selected.
+3. Click the + button.
+4. Click Add Linked Instance.
+
+![](../../../.gitbook/assets/manage_firewall_group.jpg)
+
+Your instance should now be added to the firewall group and the number of linked instances should increment by 1.
+
+![](../../../.gitbook/assets/vultr_linked_instances.jpg)
+
+You can now go back to the Products page and your server is now successfully set up!
+
+![](../../../.gitbook/assets/products_page.png)
+
 ## **Step 2: Connecting to your Vultr Node** <a id="step-2-connecting-to-your-vultr-node"></a>
 
 {% embed url="https://youtu.be/rtniAY1RUiM" %}
