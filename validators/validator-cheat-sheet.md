@@ -1,5 +1,5 @@
 ---
-description: Example overall alidator flow
+description: Example overall validator flow
 ---
 
 # Validator Cheat Sheet
