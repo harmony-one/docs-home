@@ -58,6 +58,7 @@
   * [Validator Cheat Sheet](validators/validator-cheat-sheet.md)
   * [Extras](validators/extras/README.md)
     * [Choosing A Cloud Provider](validators/extras/choosing-a-cloud-provider.md)
+    * [Validator Security](validators/extras/validator-security.md)
     * [Monitoring and Reporting Tools](validators/extras/monitoring-and-reporting-tools.md)
     * [Text Based User Interface \(TUI\)](validators/extras/text-based-user-interface-tui.md)
     * [Why am I not elected in the EPOS committee](validators/extras/why-am-i-not-elected-in-the-epos-committee.md)
