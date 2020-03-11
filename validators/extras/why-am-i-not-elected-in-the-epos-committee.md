@@ -68,31 +68,51 @@ If you are not above the median stake then time to ask for more delegation or de
 Make sure your max-total-delegation is high enough and above the median stake so your added delegation works
 {% endhint %}
 
-#### **Your validator node Active flag needs to be true**
+#### **Your validator node** epos-eligibility-status **flag needs to be active**
 
 Issue the command   
-./hmy -n [https://api.s0.os.hmny.io](https://api.s0.os.hmny.io) blockchain validator information &lt;ONE\_VALIDATOR\_ACCOUNT&gt; \| grep active
+./hmy -n [https://api.s0.os.hmny.io](https://api.s0.os.hmny.io) blockchain validator information &lt;ONE\_VALIDATOR\_ACCOUNT&gt; \| grep epos-eligibility-status
 
 ```text
-./hmy -n https://api.s0.os.hmny.io blockchain validator information  one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd | grep active
-    "active": false,
+./hmy -n https://api.s0.os.hmny.io blockchain validator information  one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd | grep epos-eligibility-status
+      "epos-eligibility-status": "active",
 ```
 
-If false, update it to active true via the command   
+If **inactive**, update it to active via the command   
 ./hmy -n [https://api.s0.os.hmny.io](https://api.s0.os.hmny.io) staking edit-validator --validator-addr &lt;ONE\_VALIDATOR\_ACCOUNT&gt; --active true --passphrase
 
+{% tabs %}
+{% tab title="OSTN" %}
 ```text
 ./hmy -n https://api.s0.os.hmny.io staking edit-validator --validator-addr one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd --active true --passphrase
 ```
+{% endtab %}
+
+{% tab title="" %}
+```
+./hmy -n https://api.s0.ps.hmny.io staking edit-validator --validator-addr one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd --active true --passphrase
+```
+{% endtab %}
+{% endtabs %}
 
 **Finally check your signed blocked**
 
 using the command  
 ./hmy -n [https://api.s0.os.hmny.io](https://api.s0.os.hmny.io) blockchain validator information &lt;ONE\_VALIDATOR\_ACCOUNT&gt;
 
+{% tabs %}
+{% tab title="OSTN" %}
 ```text
 ./hmy -n https://api.s0.os.hmny.io blockchain validator information one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd
 ```
+{% endtab %}
+
+{% tab title="Partner network" %}
+```
+./hmy -n https://api.s0.ps.hmny.io blockchain validator information one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd
+```
+{% endtab %}
+{% endtabs %}
 
 and search for :
 
@@ -105,7 +125,7 @@ and search for :
 
 ```
 
-the above explain why your validator became offline as the % needs to be above 66%. To fix the above, we have to make sure the node is working correctly and below are few pointers
+the above explain why your validator became offline as the % needs to be above 66% \(0.66\). To fix the above, we have to make sure the node is working correctly and below are few pointers
 
 ### Your node needs to be functional
 
@@ -124,9 +144,19 @@ It means the harmony node binary is not running. Please follow this documentatio
 
 and the network block height
 
+{% tabs %}
+{% tab title="OSTN" %}
 ```text
 ./hmy -n https://api.s0.os.hmny.io blockchain latest-header | grep blockNumber 
 ```
+{% endtab %}
+
+{% tab title="Partner network" %}
+```
+./hmy -n https://api.s0.ps.hmny.io blockchain latest-header | grep blockNumber 
+```
+{% endtab %}
+{% endtabs %}
 
 Make sure network height and your current height are very close or equal. Also, for non shard 0 node, you need 2 DBs to be synced, your non-shard 0 and the shard 0.
 
@@ -145,10 +175,10 @@ tail -f latest/zero*.log | grep BINGO
 And you’ll notice in your validator information that you started signing blocks
 
 ```text
-   "current-epoch-signing-percent": {
-      "current-epoch-signed": 5,
-      "current-epoch-to-sign": 5,
-      "percentage": "100.000000000000000000"
+    "current-epoch-signing-percent": {
+      "current-epoch-signed": 31,
+      "current-epoch-to-sign": 31,
+      "percentage": "1.000000000000000000"
     },
 
 ```
