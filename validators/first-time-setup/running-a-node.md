@@ -70,6 +70,8 @@ sudo apt-get install libgmp-dev
 {% endtab %}
 {% endtabs %}
 
+_Optionally you can also run the node using statically linked binaries using parameter -I added to the command above._
+
 {% hint style="info" %}
 Use `-S` to run node.sh as any user.
 
@@ -78,6 +80,8 @@ Use `-z` to run with staking enabled.
 Use `-N [NETWORK]` to specify which network to connect to.
 
 Use `-k [BLS KEY FILE]` to specify which BLS key to run the node with.
+
+Use -I  to run the node with statically linked binaries \(optional\)
 {% endhint %}
 
 **3.** Detach your "node" tmux session by press \[**Ctrl\]+b**, releasing and and then press **d**. Detaching from your session will allow you to safely disconnect from your instance, while leaving your node running in the cloud.
@@ -90,7 +94,9 @@ Use `-k [BLS KEY FILE]` to specify which BLS key to run the node with.
 
 ## Multiple BLS Keys \(Optional\)
 
-Optionally, you can run the node using multiple BLS keys if you want. Keys are loaded from `.hmy/blskeys` folder which has to be created first:
+Optionally, you can run the node using multiple BLS keys if you want. 
+
+Keys are loaded from `.hmy/blskeys` folder which has to be created first:
 
 ```text
 mkdir -p .hmy/blskeys
@@ -102,8 +108,14 @@ Now move all the [previously created BLS key\(s\)](https://docs.harmony.one/home
 mv *.key .hmy/blskeys
 ```
 
+Now for each BLS key file, a corresponding `<blskey>.pass` file needs to be created with the passphrase inside it. All `<blskey>.pass` files have to be created inside `.hmy/blskeys` folder.
+
 {% hint style="warning" %}
-Make sure all your BLS keys belong to the same shard when using multiple BLS keys. You can use the command below to check each one of them:
+For any `.key` if no passphrase file is available, it will use the default specified when running the node e.g., `./node.sh -p blspass.txt`
+{% endhint %}
+
+{% hint style="info" %}
+To make sure all your BLS keys belong to the same shard when using multiple BLS keys. You can use the command below to check each one of them.
 {% endhint %}
 
 {% tabs %}
