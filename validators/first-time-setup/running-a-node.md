@@ -108,14 +108,8 @@ Now move all the [previously created BLS key\(s\)](https://docs.harmony.one/home
 mv *.key .hmy/blskeys
 ```
 
-Now for each BLS key file, a corresponding `<blskey>.pass` file needs to be created with the passphrase inside it. All `<blskey>.pass` files have to be created inside `.hmy/blskeys` folder.
-
 {% hint style="warning" %}
-For any `.key` if no passphrase file is available, it will use the default specified when running the node e.g., `./node.sh -p blspass.txt`
-{% endhint %}
-
-{% hint style="info" %}
-To make sure all your BLS keys belong to the same shard when using multiple BLS keys. You can use the command below to check each one of them.
+Make sure all your BLS keys belong to the same shard when using multiple BLS keys. You can use the command below to check each one of them.
 {% endhint %}
 
 {% tabs %}
@@ -131,6 +125,12 @@ To make sure all your BLS keys belong to the same shard when using multiple BLS 
 ```
 {% endtab %}
 {% endtabs %}
+
+Now for each BLS key file, a corresponding `<blskey>.pass` file needs to be created inside folder`.hmy/blskeys`with the passphrase inside it.
+
+{% hint style="warning" %}
+For any `.key` if no passphrase file is available, it will use the default specified when running the node e.g., `./node.sh -p blspass.txt`
+{% endhint %}
 
 You can now run the node using parameter **-M** for multiple BLS keys. Parameter **-k** will not be used anymore as we are loading multiple BLS keys here:
 
