@@ -88,7 +88,7 @@ Use `-k [BLS KEY FILE]` to specify which BLS key to run the node with.
 ./hmy blockchain latest-header
 ```
 
-## Using Statically Linked Binaries \(Optional\)
+## Statically Linked Binaries \(Optional\)
 
 Optionally you can run the node using statically linked binaries. Just add parameter `-I` when running `node.sh`.
 
