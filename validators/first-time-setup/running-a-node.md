@@ -26,6 +26,14 @@ curl -LO https://raw.githubusercontent.com/harmony-one/harmony/t3/scripts/node.s
 node2.sh is a temporary script just for the Open Staking Testnet.
 {% endhint %}
 
+## TMUX
+
+Install tmux if your Linux distribution does not already come with it. 
+
+```text
+sudo yum update && sudo yum install tmux
+```
+
 ## Run Node
 
 **1.** Create a new tmux session called "node".
