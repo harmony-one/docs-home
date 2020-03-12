@@ -1,5 +1,5 @@
 ---
-description: Example overall alidator flow
+description: Example overall validator flow
 ---
 
 # Validator Cheat Sheet
@@ -149,13 +149,13 @@ curl -X GET https://faucet.ps.hmny.io/fund?address=[ONE ADDRESS]
 {% tabs %}
 {% tab title="Open Staking Testnet" %}
 ```
-./hmy --node="https://api.s0.os.hmny.io" validator information [VALIDATOR ONE ADDRESS]
+./hmy --node="https://api.s0.os.hmny.io" blockchain validator information [VALIDATOR ONE ADDRESS]
 ```
 {% endtab %}
 
 {% tab title="Partner Testnet" %}
 ```
-./hmy --node="https://api.s0.ps.hmny.io" validator information [VALIDATOR ONE ADDRESS]
+./hmy --node="https://api.s0.ps.hmny.io" blockchain validator information [VALIDATOR ONE ADDRESS]
 ```
 {% endtab %}
 {% endtabs %}
