@@ -70,8 +70,6 @@ sudo apt-get install libgmp-dev
 {% endtab %}
 {% endtabs %}
 
-_Optionally you can also run the node using statically linked binaries using parameter -I added to the command above._
-
 {% hint style="info" %}
 Use `-S` to run node.sh as any user.
 
@@ -80,8 +78,6 @@ Use `-z` to run with staking enabled.
 Use `-N [NETWORK]` to specify which network to connect to.
 
 Use `-k [BLS KEY FILE]` to specify which BLS key to run the node with.
-
-Use -I  to run the node with statically linked binaries \(optional\)
 {% endhint %}
 
 **3.** Detach your "node" tmux session by press \[**Ctrl\]+b**, releasing and and then press **d**. Detaching from your session will allow you to safely disconnect from your instance, while leaving your node running in the cloud.
@@ -91,6 +87,10 @@ Use -I  to run the node with statically linked binaries \(optional\)
 ```text
 ./hmy blockchain latest-header
 ```
+
+## Using Statically Linked Binaries \(Optional\)
+
+Optionally you can run the node using statically linked binaries. Just add parameter `-I` when running `node.sh`.
 
 ## Multiple BLS Keys \(Optional\)
 
