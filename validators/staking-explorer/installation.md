@@ -1,5 +1,9 @@
 # Installation
 
+{% hint style="warning" %}
+Save your private key before updating new extension
+{% endhint %}
+
 1. Download [buid.zip](https://drive.google.com/file/d/1TBBXLYrwCGcTld3Rg06MG1Alkl_EE7xN/view?usp=sharing) \[we update this extension everyday, so install to test it everyday\]
 
 2. Unzip build.zip
