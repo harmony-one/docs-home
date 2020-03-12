@@ -4,7 +4,11 @@
 Save your private key before updating new extension
 {% endhint %}
 
-1. Download [buid.zip](https://drive.google.com/file/d/1TBBXLYrwCGcTld3Rg06MG1Alkl_EE7xN/view?usp=sharing) \[we update this extension everyday, so install to test it everyday\]
+1. Download [buid.zip](https://drive.google.com/file/d/1TBBXLYrwCGcTld3Rg06MG1Alkl_EE7xN/view?usp=sharing) \[we update this extension everyday, so install to test it everyday\] 
+
+{% hint style="info" %}
+The latest extension version will also be updated at [https://github.com/harmony-one/staking-dashboard/tree/master/extension\_versions](https://github.com/harmony-one/staking-dashboard/tree/master/extension_versions)
+{% endhint %}
 
 2. Unzip build.zip
 
