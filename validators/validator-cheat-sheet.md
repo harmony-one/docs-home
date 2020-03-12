@@ -46,9 +46,19 @@ tmux new -s node
 
 7. Run the node
 
-```text
+{% tabs %}
+{% tab title="Open Staking Network" %}
+```
 ./node.sh -S -N staking -z -k [BLS KEY FILE].key
 ```
+{% endtab %}
+
+{% tab title="Partner Network" %}
+```text
+./node.sh -S -N partner -z -k [BLS KEY FILE].key
+```
+{% endtab %}
+{% endtabs %}
 
 8. Detach from the tmux session by pressing CTRL and B at the same time, then press D.
 

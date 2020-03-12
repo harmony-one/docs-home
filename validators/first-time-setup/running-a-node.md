@@ -56,9 +56,19 @@ sudo apt-get install libgmp-dev
 
 **2.** Run the node.sh script with the following command. Once you do, it will ask for a passphrase for your BLS key file. Type your passphrase on the screen that follows and your node should be up and running.
 
-```css
+{% tabs %}
+{% tab title="Open Staking Network" %}
+```
 ./node.sh -S -N staking -z -k [BLS KEY FILE].key
 ```
+{% endtab %}
+
+{% tab title="Partner Network" %}
+```text
+./node.sh -S -N partner -z -k [BLS KEY FILE].key
+```
+{% endtab %}
+{% endtabs %}
 
 {% hint style="info" %}
 Use `-S` to run node.sh as any user.
