@@ -86,10 +86,10 @@ Optionally, you can run the node using multiple BLS keys if you want.
 mkdir -p .hmy/blskeys
 ```
 
-**2.** Move all the [previously created BLS key\(s\)](https://docs.harmony.one/home/validators/first-time-setup/generating-a-bls-key) to this new folder:
+**2.** copy all the [previously created BLS key\(s\)](https://docs.harmony.one/home/validators/first-time-setup/generating-a-bls-key) to this new folder:
 
 ```text
-mv *.key .hmy/blskeys
+cp *.key .hmy/blskeys
 ```
 
 {% hint style="warning" %}

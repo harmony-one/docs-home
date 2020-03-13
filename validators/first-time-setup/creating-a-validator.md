@@ -28,8 +28,8 @@ The faucet will fund 10,000 ONE tokens on Shard 0, per account, per hour.
 ./hmy --node=https://api.s0.os.hmny.io staking create-validator \
     --validator-addr [ONE ADDRESS] --amount 10 \
     --bls-pubkeys [BLS PUBLIC KEY1],[BLS PUBLIC KEY2] \
-    --name "[NAME]" --identity "[IDENTITY]" --details "DETAILS" \
-    --security-contact "CONTACT" --website "YOUR-WEBSITE.COM" \
+    --name [NAME] --identity [IDENTITY] --details "DETAILS" \
+    --security-contact CONTACT --website YOUR-WEBSITE.COM \
     --max-change-rate 0.1 --max-rate 0.1 --rate 0.1 \
     --max-total-delegation 100 --min-self-delegation 10 --passphrase
 ```
@@ -40,18 +40,18 @@ The faucet will fund 10,000 ONE tokens on Shard 0, per account, per hour.
 ./hmy --node=https://api.s0.ps.hmny.io staking create-validator \
     --validator-addr [ONE ADDRESS] --amount 10 \
     --bls-pubkeys [BLS PUBLIC KEY1],[BLS PUBLIC KEY2] \
-    --name "[NAME]" --identity "[IDENTITY]" --details "DETAILS" \
-    --security-contact "CONTACT" --website "YOUR-WEBSITE.COM" \
+    --name [NAME] --identity [IDENTITY] --details "DETAILS" \
+    --security-contact CONTACT --website YOUR-WEBSITE.COM \
     --max-change-rate 0.1 --max-rate 0.1 --rate 0.1 \
     --max-total-delegation 100 --min-self-delegation 10 --passphrase
 ```
 {% endtab %}
 {% endtabs %}
 
-{% hint style="warning" %}
-Copy the entire command. **Extra white spaces in the command could cause errors.**
+{% hint style="info" %}
+Copy the entire command. Extra white spaces in the command could cause errors.
 
-Name, identity, details, security-contact and website need to be put in double quotes if there are more than one word separated by space \(example --name "John the validator"\).
+Name, identity, details, security-contact and website need to be put in double quotes if there is more than one word separated by space \(example --name "John the validator"\).
 {% endhint %}
 
 The CLI will prompt you to enter your BLS key file password.
@@ -129,57 +129,43 @@ Example output below:
   "id": "0",
   "jsonrpc": "2.0",
   "result": {
-    "current-epoch-signing-percent": {
-      "current-epoch-signed": 0,
-      "current-epoch-to-sign": 2,
-      "percentage": "0.000000000000000000"
+    "active": true,
+    "address": "one1tnnncpjdqdjyk7y4d9gaxrg9qk927ueqptmptz",
+    "availability": {
+      "num-blocks-signed": 2683,
+      "num-blocks-to-sign": 2685
     },
-    "current-epoch-voting-power": [
+    "banned": false,
+    "bls-public-keys": [
+      "6706f27d2a28d167f85d54c7fd8ee1f6177cde266f0e1669e0e90d8cb377937135fc5daa0950f339c6e9b0177f326c84"
+    ],
+    "creation-height": 181,
+    "delegations": [
       {
-        "effective-stake": "9665865000000000000000.000000000000000000",
-        "shard-id": 0,
-        "voting-power-adjusted": "0.044606060606060606",
-        "voting-power-raw": "0.139393939393939394"
+        "amount": 9e+22,
+        "delegator-address": "one1tnnncpjdqdjyk7y4d9gaxrg9qk927ueqptmptz",
+        "reward": 5.726533846121452e+22,
+        "undelegations": []
       }
     ],
-    "validator": {
-      "address": "one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd",
-      "availability": {
-        "num-blocks-signed": 0,
-        "num-blocks-to-sign": 75
-      },
-      "bls-public-keys": [
-        "bf3c6ec088cd66fdb540860bd6505b272230164b0510d5f470042d47118d4c8bbe005d28e5de5e489fa22e4ca450c080"
-      ],
-      "creation-height": 3675,
-      "delegations": [
-        {
-          "amount": 2.5e+22,
-          "delegator-address": "one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd",
-          "reward": 0,
-          "undelegations": []
-        }
-      ],
-      "details": "Soph P-OPS Validator node",
-      "epos-eligibility-status": "active",
-      "identity": "Soph",
-      "last-epoch-in-committee": 50,
-      "max-change-rate": "0.050000000000000000",
-      "max-rate": "0.900000000000000000",
-      "max-total-delegation": 1e+24,
-      "min-self-delegation": 2000000000000000000,
-      "name": "Soph P-OPS Validator node",
-      "rate": "0.100000000000000000",
-      "security-contact": "Soph",
-      "update-height": 3675,
-      "website": "soph.harmony.one"
-    }
+    "details": "Shard0Validator",
+    "identity": "J",
+    "last-epoch-in-committee": 39,
+    "max-change-rate": "0.100000000000000000",
+    "max-rate": "0.500000000000000000",
+    "max-total-delegation": 2e+23,
+    "min-self-delegation": 1000000000000000000,
+    "name": "R",
+    "rate": "0.100000000000000000",
+    "security-contact": "J",
+    "update-height": 181,
+    "website": "harmony.one"
   }
 }
 ```
 
 {% hint style="warning" %}
-If your validator does not sign 66% of the blocks in an epoch, the validator will be removed from the pool of eligible validators.
+If your validator does not sign 66% of the blocks in an Epoch, the validator will be removed from the pool of eligible validators.
 
 In order to be included in the pool again, you will have to use send an [Edit Validator transaction](creating-a-validator.md) with `--active true`.
 {% endhint %}
