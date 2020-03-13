@@ -14,12 +14,6 @@ description: Using node.sh
 curl -LO https://raw.githubusercontent.com/harmony-one/harmony/master/scripts/node.sh && chmod a+x node.sh
 ```
 {% endtab %}
-
-{% tab title="Partner Network" %}
-```text
-curl -LO https://raw.githubusercontent.com/harmony-one/harmony/t3/scripts/node.sh && chmod a+x node.sh
-```
-{% endtab %}
 {% endtabs %}
 
 {% hint style="warning" %}
