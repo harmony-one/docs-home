@@ -12,12 +12,12 @@ If you are new to setting up Validators, start [here](validator-cheat-sheet.md).
 ssh -i [KEY].pem [SSH ADDRESS]
 ```
 
-![AWS Connect Box](../.gitbook/assets/image%20%285%29.png)
+![AWS Connect Example](../.gitbook/assets/image%20%285%29.png)
 
-2. Update software & install `tmux`
+2. Install `tmux`, if your Linux distribution does not come with it
 
 ```text
-sudo yum update && sudo yum install tmux
+sudo yum install tmux
 ```
 
 3. Download the Harmony CLI.
@@ -32,10 +32,10 @@ curl -LO https://harmony.one/hmycli && mv hmycli hmy && chmod +x hmy
 ./hmy keys generate-bls-key --passphrase
 ```
 
-5. Download `node2.sh`
+5. Download `node.sh`
 
 ```text
-curl -LO https://harmony.one/node2.sh && mv node2.sh node.sh && chmod a+x node.sh
+curl -LO https://raw.githubusercontent.com/harmony-one/harmony/master/scripts/node.sh && chmod a+x node.sh
 ```
 
 6. Start a new `tmux` session called `node`
@@ -49,13 +49,13 @@ tmux new -s node
 {% tabs %}
 {% tab title="Open Staking Network" %}
 ```
-./node.sh -S -N staking -z -k [BLS KEY FILE].key
+./node.sh -S -z -I -N staking -k [BLS KEY FILE].key
 ```
 {% endtab %}
 
 {% tab title="Partner Network" %}
 ```text
-./node.sh -S -N partner -z -k [BLS KEY FILE].key
+./node.sh -S -z -I -N partner -k [BLS KEY FILE].key
 ```
 {% endtab %}
 {% endtabs %}
@@ -68,15 +68,11 @@ tmux new -s node
 ./hmy blockchain latest-header
 ```
 
-10. Create a wallet
+10. Create a new wallet
 
 ```text
 ./hmy keys add [ACCOUNT NAME] --passphrase
 ```
-
-{% hint style="info" %}
-Use `./hmy keys list` to get your ONE address.
-{% endhint %}
 
 11. Get tokens for your validator
 

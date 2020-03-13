@@ -1,6 +1,6 @@
 # Installation
 
-{% hint style="warning" %}
+{% hint style="danger" %}
 Save your private key before updating new extension
 {% endhint %}
 

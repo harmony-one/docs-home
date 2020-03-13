@@ -17,7 +17,7 @@ curl -LO https://raw.githubusercontent.com/harmony-one/harmony/master/scripts/no
 Install tmux if your Linux distribution does not already come with it. 
 
 ```text
-sudo yum update && sudo yum install tmux
+sudo yum install tmux
 ```
 
 ## Run Node
@@ -45,13 +45,13 @@ sudo apt-get install libgmp-dev
 {% tabs %}
 {% tab title="Open Staking Network" %}
 ```
-./node.sh -S -N staking -z -k [BLS KEY FILE].key
+./node.sh -S -z -I -N staking -k [BLS KEY FILE].key
 ```
 {% endtab %}
 
 {% tab title="Partner Network" %}
 ```text
-./node.sh -S -N partner -z -k [BLS KEY FILE].key
+./node.sh -S -z -I -N partner -k [BLS KEY FILE].key
 ```
 {% endtab %}
 {% endtabs %}
@@ -60,6 +60,8 @@ sudo apt-get install libgmp-dev
 Use `-S` to run node.sh as any user.
 
 Use `-z` to run with staking enabled.
+
+Use `-I` to run with the statically linked binary \(recommended\).
 
 Use `-N [NETWORK]` to specify which network to connect to.
 
@@ -73,10 +75,6 @@ Use `-k [BLS KEY FILE]` to specify which BLS key to run the node with.
 ```text
 ./hmy blockchain latest-header
 ```
-
-## Statically Linked Binaries \(Optional\)
-
-Optionally you can run the node using statically linked binaries. Just add parameter `-I` when running `node.sh`.
 
 ## Multiple BLS Keys \(Optional\)
 
