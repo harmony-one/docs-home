@@ -45,19 +45,21 @@ sudo apt-get install libgmp-dev
 {% tabs %}
 {% tab title="Open Staking Network" %}
 ```
-./node.sh -S -z -I -N staking -k [BLS KEY FILE].key
+./node.sh -S -c -z -I -N staking -k [BLS KEY FILE].key
 ```
 {% endtab %}
 
 {% tab title="Partner Network" %}
 ```text
-./node.sh -S -z -I -N partner -k [BLS KEY FILE].key
+./node.sh -S -c -z -I -N partner -k [BLS KEY FILE].key
 ```
 {% endtab %}
 {% endtabs %}
 
 {% hint style="info" %}
 Use `-S` to run node.sh as any user.
+
+Use `-c` to automatically clear old data for a refreshed network.
 
 Use `-z` to run with staking enabled.
 
@@ -66,6 +68,10 @@ Use `-I` to run with the statically linked binary \(recommended\).
 Use `-N [NETWORK]` to specify which network to connect to.
 
 Use `-k [BLS KEY FILE]` to specify which BLS key to run the node with.
+{% endhint %}
+
+{% hint style="danger" %}
+Only use `-c` for our testing networks. Do not use for Mainnet.
 {% endhint %}
 
 **3.** Detach your "node" tmux session by press \[**Ctrl\]+b**, releasing and and then press **d**. Detaching from your session will allow you to safely disconnect from your instance, while leaving your node running in the cloud.

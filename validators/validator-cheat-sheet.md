@@ -49,13 +49,13 @@ tmux new -s node
 {% tabs %}
 {% tab title="Open Staking Network" %}
 ```
-./node.sh -S -z -I -N staking -k [BLS KEY FILE].key
+./node.sh -S -c -z -I -N staking -k [BLS KEY FILE].key
 ```
 {% endtab %}
 
 {% tab title="Partner Network" %}
 ```text
-./node.sh -S -z -I -N partner -k [BLS KEY FILE].key
+./node.sh -S -c -z -I -N partner -k [BLS KEY FILE].key
 ```
 {% endtab %}
 {% endtabs %}
