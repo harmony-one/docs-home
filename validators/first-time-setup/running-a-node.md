@@ -11,7 +11,7 @@ description: Using node.sh
 {% tabs %}
 {% tab title="Open Staking Network" %}
 ```text
-curl -LO https://harmony.one/node2.sh && mv node2.sh node.sh && chmod a+x node.sh
+curl -LO https://raw.githubusercontent.com/harmony-one/harmony/master/scripts/node.sh && chmod a+x node.sh
 ```
 {% endtab %}
 
