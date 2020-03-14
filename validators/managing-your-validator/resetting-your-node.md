@@ -1,28 +1,17 @@
 # Resetting Your Node
 
-If the Open Staking Testnet network is reset, you will need to reset the database files \(`harmony_db`\), networking files \(`.dht*`\), delete the existing `harmony` binary, and `md5sum.txt` to download the new binary.
-
-{% hint style="danger" %}
-Be very careful running `sudo rm -rf` . It could delete your computer. Copy the below commands as is.
-{% endhint %}
-
-```text
-sudo rm -rf harmony_db_*
-sudo rm -rf .dht*
-sudo rm -rf harmony
-sudo rm -rf md5sum.txt
-```
+If the Open Staking Testnet network is reset, you will need to reset the database files \(`harmony_db`\), networking files \(`.dht*`\), delete the existing `harmony` binary, and `md5sum.txt` to download the new binary. Use the `-c` option on node.sh to clear away the old data.
 
 Then run your node again in your `tmux` session.
 
 ```text
-./node.sh -S -N staking -z -k [BLS KEY FILE].key
+./node.sh -S -c -I -N staking -z -k [BLS KEY FILE].key
 ```
 
 Or if you are running with Multiple BLSkeys, run your node with the following command
 
 ```text
-./node.sh -S -N staking -z -M
+./node.sh -S -c -I -N staking -z -M
 ```
 
 And then [create your validator](../first-time-setup/creating-a-validator.md) again.
