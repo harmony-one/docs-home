@@ -28,6 +28,7 @@
       * [Querying balances](basics/overview/harmony-cli/querying-balances.md)
       * [Querying the blockchain](basics/overview/harmony-cli/querying-the-blockchain.md)
       * [List of transaction error messages](basics/overview/harmony-cli/list-of-transaction-error-messages.md)
+      * [Cookbook](basics/overview/harmony-cli/cookbook.md)
       * [Other CLI references](basics/overview/harmony-cli/other-cli-references.md)
     * [Safepal](basics/overview/safepal/README.md)
       * [Download & setup](basics/overview/safepal/download-and-setup.md)
