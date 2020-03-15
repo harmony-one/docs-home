@@ -67,7 +67,7 @@ This command will then ask you for your password from the step above. When enter
 
 ![](https://blobs.gitbook.com/assets%2F-M-IDt7HenNiPUXWT_3k%2F-M1ZJQFhdhIexbw67x-l%2F-M1ZS-BIq3y1Bxq9-KYD%2Fimage.png?alt=media&token=c28cd7d6-db89-47c1-9f97-f9d7b5a4eb99)
 
-Before anything is recommended to update your system
+Before anything, it is recommended to update your system
 
 ```text
 apt update && apt upgrade

@@ -127,7 +127,7 @@ It will the prompt you for a password. The password is unique to each instance. 
 
 ![](https://blobs.gitbook.com/assets%2F-M-IDt7HenNiPUXWT_3k%2F-M1ZJQFhdhIexbw67x-l%2F-M1ZP5alORLnXftHH2V-%2Fimage.png?alt=media&token=2aaa5b5b-297c-4d93-923e-7298086035be)
 
-Before anything, it is recommended to update your system:
+Before anything is recommended to update your system:
 
 ```text
 apt update && apt upgrade
