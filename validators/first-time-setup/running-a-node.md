@@ -125,7 +125,7 @@ For any `.key` if no passphrase file is available, it will use the default speci
 **4.** You can now run the node using parameter **-M** for multiple BLS keys. Parameter **-k** will not be used anymore as we are loading multiple BLS keys here:
 
 ```text
-./node.sh -S -N staking -z -M
+./node.sh -S -c -z -I -N staking -M
 ```
 
 ## Helpful Information
