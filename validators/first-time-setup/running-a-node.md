@@ -33,7 +33,7 @@ You'll want to use a tmux session in order to leave your node running, while you
 {% endhint %}
 
 {% hint style="danger" %}
-For any Debian based OS like Ubuntu and others, please install the package below:
+For any Debian based OS like Ubuntu and others, please install the package below in case you are NOT running statically linked binaries via parameter `-I`:
 
 ```text
 sudo apt-get install libgmp-dev
