@@ -7,7 +7,7 @@ description: >-
 # API
 
 {% hint style="success" %}
-**Complete documentation for Harmony's API's can be found** [**here**](https://apitest.harmony.one) **including sample code and curl commands and code.** [**https://apitest.harmony.one**](https://apitest.harmony.one)\*\*\*\*
+**Complete documentation for Harmony's API's can be found** [**here**](https://apitest.harmony.one) **including sample code and curl commands and code.** 
 {% endhint %}
 
 ## Development Environments

@@ -141,6 +141,7 @@
         * [hmy\_getBlockSigners](developers/api/methods/staking-related-methods/hmy_getblocksigners.md)
     * [Sample Code](developers/api/sample-code.md)
     * [Sample nodejs CLI Application](developers/api/sample-nodejs-cli-application.md)
+  * [SDK](developers/sdk.md)
 * [Trading Partners](trading-partners/README.md)
   * [Partner on-boarding reference material](trading-partners/on-boarding-process/README.md)
     * [Connecting to Harmony \(Running a node\)](trading-partners/on-boarding-process/connecting-to-harmony-running-a-node.md)

@@ -6,7 +6,7 @@
 
 **Harmony HTTP API Documentation -** Harmony provides robust API integration initially modelled of Ethereum’s web3 and enhanced to support the nuances of Harmonys highly scalable and performant platform, documentation can be found [here](https://api.os.hmny.io).
 
-**Harmony SDK -** Harmony provides DApp developers with a suite of npm modules the cornerstone of which is @harmonyjs/core, Harmony's equivalent of Ethereum web3, npm modules can be found [here](https://www.npmjs.com/search?q=%40harmony-js) with the codebase [here](https://github.com/harmony-one/sdk) and [draft documentation here](https://harmony-js-sdk-doc.s3-us-west-1.amazonaws.com/index.html). 
+\*\*\*\*[**Harmony SDK** ](../../developers/sdk.md)**-** Harmony provides DApp developers with a suite of npm modules the cornerstone of which is @harmonyjs/core, Harmony's equivalent of Ethereum web3, npm modules can be found [here](https://www.npmjs.com/search?q=%40harmony-js) with the codebase [here](https://github.com/harmony-one/sdk) and [draft documentation here](https://harmony-js-sdk-doc.s3-us-west-1.amazonaws.com/index.html). 
 
 **Harmony Sending Transaction Guide -** Harmony provides a number of tutorials including a guide to sending transactions to Harmony, tutorials can be found [here](../../developers/smart-contracts/smart-contract-development-using-truffle.md).
 
