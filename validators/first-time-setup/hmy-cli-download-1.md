@@ -11,9 +11,7 @@ To interact with your node, we have developed the HMY CLI. With it, you will be 
 ### Linux Download:
 
 ```text
-curl -LO https://harmony.one/hmycli
-mv hmycli hmy
-chmod +x hmy
+curl -LO https://harmony.one/hmycli && mv hmycli hmy && chmod +x hmy
 ```
 
 ### MacOS Download:
