@@ -8,15 +8,15 @@
 
 **Harmony SDK -** Harmony provides DApp developers with a suite of npm modules the cornerstone of which is @harmonyjs/core, Harmony's equivalent of Ethereum web3, npm modules can be found [here](https://www.npmjs.com/search?q=%40harmony-js).
 
-**Harmony Sending Transaction Guide -** Harmony provides a number of tutorials including a guide to sending transactions to Harmony, tutorials can be found [here]().
+**Harmony Sending Transaction Guide -** Harmony provides a number of tutorials including a guide to sending transactions to Harmony, tutorials can be found [here](../../developers/smart-contracts/smart-contract-development-using-truffle.md).
 
-**Harmony Wallet Management Tools -** Wallet management tools are available the Harmony CLI, which is documented [here]().
+**Harmony Wallet Management Tools -** Wallet management tools are available the Harmony CLI, which is documented [here](../../basics/overview/harmony-cli/).
 
 **Harmony Explorer -** Harmony provides a blockchain explorer to review accounts, transactions, blocks, shards and node information, it can be found [here](https://explorer.harmony.one/#/).
 
-**Harmony Hardware Wallet Support -** Harmony partners with a number of hardware wallet providers, our recommended partner is [ledger](https://www.ledger.com/) and an overview of supported wallets can be found [here]().
+**Harmony Hardware Wallet Support -** Harmony partners with a number of hardware wallet providers, our recommended partner is [ledger](https://www.ledger.com/) and an overview of supported wallets can be found [here](../../basics/overview/).
 
-**Harmony Light Wallet Solution -** Harmony is partnering with a number of light wallet solutions our recommended partner is math [wallet](https://www.mathwallet.org/en/) and an overview of supported wallets can be found [here]().
+**Harmony Light Wallet Solution -** Harmony is partnering with a number of light wallet solutions our recommended partner is math [wallet](https://www.mathwallet.org/en/) and an overview of supported wallets can be found [here](../../basics/overview/).
 
 \*\*\*\*
 
