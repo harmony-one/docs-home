@@ -62,7 +62,7 @@
     * [Validator Security](validators/extras/validator-security.md)
     * [Monitoring and Reporting Tools](validators/extras/monitoring-and-reporting-tools.md)
     * [Text Based User Interface \(TUI\)](validators/extras/text-based-user-interface-tui.md)
-    * [Why am I not elected in the EPOS committee](validators/extras/why-am-i-not-elected-in-the-epos-committee.md)
+    * [Why am I not elected in the EPOS Committee](validators/extras/why-am-i-not-elected-in-the-epos-committee.md)
 * [Developers](developers/README.md)
   * [Which ONE are you?](developers/which-one-are-you.md)
   * [Smart Contracts](developers/smart-contracts/README.md)
