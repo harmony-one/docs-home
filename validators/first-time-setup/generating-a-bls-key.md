@@ -29,7 +29,7 @@ You can check which shard your key will validate for using the following command
 ```
 {% endtab %}
 
-{% tab title="Partner Test Network" %}
+{% tab title="Partner Testnet" %}
 ```text
 ./hmy --node="https://api.s0.ps.hmny.io" utility shard-for-bls [BLS PUBLIC KEY]
 ```

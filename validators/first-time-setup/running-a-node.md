@@ -49,7 +49,7 @@ sudo apt-get install libgmp-dev
 ```
 {% endtab %}
 
-{% tab title="Partner Network" %}
+{% tab title="Partner Testnet" %}
 ```text
 ./node.sh -S -c -z -I -N partner -k [BLS KEY FILE].key
 ```
@@ -109,7 +109,7 @@ Make sure all your BLS keys belong to the same shard when using multiple BLS key
 ```
 {% endtab %}
 
-{% tab title="Partner Network" %}
+{% tab title="Partner Testnet" %}
 ```text
 ./hmy --node=https://api.s0.ps.hmny.io utility shard-for-bls [BLS PUBLIC KEY]
 ```
