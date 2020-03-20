@@ -1,5 +1,13 @@
 # Creating A Validator
 
+{% hint style="info" %}
+Wait for your node to sync before creating a validator.
+
+Check your current block height with `./hmy blockchain latest-header`.
+
+Check chain block height with `./hmy blockchain latest-header --node=[endpoint]`.
+{% endhint %}
+
 ## Getting ONE Tokens <a id="getting-one-tokens"></a>
 
 In order to continue and create your validator, you will need to have ONE tokens in your **Shard 0** balance. To get tokens from our Faucet smart contract, use the following command:
