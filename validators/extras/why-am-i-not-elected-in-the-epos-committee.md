@@ -88,7 +88,7 @@ If **inactive**, update it to active via the command
 ```
 {% endtab %}
 
-{% tab title="" %}
+{% tab title="Partner Network" %}
 ```
 ./hmy -n https://api.s0.ps.hmny.io staking edit-validator --validator-addr one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd --active true --passphrase
 ```
@@ -107,7 +107,7 @@ using the command
 ```
 {% endtab %}
 
-{% tab title="Partner network" %}
+{% tab title="Partner Network" %}
 ```
 ./hmy -n https://api.s0.ps.hmny.io blockchain validator information one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd
 ```
