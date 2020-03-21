@@ -68,6 +68,8 @@ Use `-I` to run with the statically linked binary \(recommended\).
 Use `-N [NETWORK]` to specify which network to connect to.
 
 Use `-k [BLS KEY FILE]` to specify which BLS key to run the node with.
+
+For the complete list of parameters use `./node.sh --help`
 {% endhint %}
 
 {% hint style="danger" %}
