@@ -16,7 +16,7 @@ You can check your validator information using the following command:
 {% endtab %}
 {% endtabs %}
 
-Output example below:
+Output example bellow:
 
 ```text
 {
