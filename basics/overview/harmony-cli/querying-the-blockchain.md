@@ -235,7 +235,9 @@ $ ./hmy blockchain latest-header --node=https://api.s3.t.hmny.io
 {% hint style="info" %}
 Note the block-number provided must be in hex with a 0x prefix.
 
-For example if you call latest-header and get a result of `10657` you convert this to hex which is `29A1` and then use the value `0x29A1` for block-number
+For example if you call latest-header and get a result of `10657` you convert this to hex which is `29A1` and then use the value `0x29A1` for block-number. This can be done using
+
+`printf '0x%x\n' 10617 #0X29a1`
 {% endhint %}
 
 #### Using the Binary:
