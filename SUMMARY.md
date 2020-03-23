@@ -57,6 +57,7 @@
   * [Staking Explorer](validators/staking-explorer/README.md)
     * [Installation](validators/staking-explorer/installation.md)
   * [Validator Cheat Sheet](validators/validator-cheat-sheet.md)
+  * [Definitions](validators/definitions.md)
   * [Extras](validators/extras/README.md)
     * [Choosing A Cloud Provider](validators/extras/choosing-a-cloud-provider.md)
     * [Validator Security](validators/extras/validator-security.md)
