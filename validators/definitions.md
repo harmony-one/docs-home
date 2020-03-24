@@ -17,7 +17,7 @@ A fraction of the staked tokens is slashed as penalties.Slashing penalties are i
 
 ## Availability / Unavailability \(Down Time\)
 
-If a validator signed less than 66% of the total number of blocks \(from all the slots of this validator\) he should’ve signed in one epoch, the validator will be put into inactive mode. Inactive validators will lose his slots in the next epoch. / Inactive validators will not be included in the next epoch shard assignment.
+If a validator signed less than 66% of the total number of blocks \(from all the slots of this validator\) he should’ve signed in one epoch, the validator will be put into inactive mode. Inactive validators will not be included in the next epoch shard assignment.
 
 An inactive validator will be eligible to be elected again after it is edited as “active”.
 
