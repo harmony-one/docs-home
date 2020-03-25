@@ -150,19 +150,19 @@ You can recover lost wallet keys by entering the mnemonic words you received \(a
 #### Using the Binary:
 
 ```text
-$ ./hmy keys add <key_name> --recover
+$ ./hmy keys recover-from-mnemonic [wallet_name]
 ```
 
 #### Using the Shell Script:
 
 ```text
-$ ./hmy.sh keys add <key_name> --recover
+$ ./hmy.sh keys recover-from-mnemonic [wallet_name]
 ```
 
 #### Example:
 
 ```text
-$ ./hmy keys add nameofyourkey --recover
+$ ./hmy keys recover-from-mnemonic nameofyourkey
 Enter mnemonic to recover keys from
 exhibit effort describe first own warfare electric employ expire same mango lunar chief recall assume team day loan confirm orient antique robot obey leaf
 ```
