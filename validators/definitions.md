@@ -4,6 +4,30 @@ description: Here are the key definitions that validators and delegators should 
 
 # Definitions
 
+## **Multikey** 
+
+A validator can take one or multiple validating slots in the network by putting stake into the slots and participating in the EPoS ranking.   
+
+
+She can register with multiple bls keys by spinning up a node for each of the bls keys to sign blocks and earn reward. 
+
+* Up to 1/3 of the total external slots available can be added to this validator. \(Total external slots available on mainnet is 320, so 106 keys you can add per validator\). 
+* If you are running multiple slots, each slot has the same total stake \(your total stake / num of slots\).
+* Each slot will rank in the EPoS individually, so there can be the case where some of the validator’s slots are selected in the committee while the rest are not.
+* Each slot then earns its own rewards, which will get added to your validator account for you to collect.
+
+She can also utilize a single node \(or a small set of nodes\) to sign for multiple bls keys. 
+
+* One harmony binary \(or one machine\) can serve up to 4 slots. 
+* Multiple bls keys on the same node must belong to the same shard. The node that is signing for multiple bls keys only runs a single consensus and maintains a single blockchain for the shard.
+* Reduces the infrastructure cost for Harmony nodes \(~60%\). There is some non-trivial overhead on the single machine that is serving multiple slots but the cost of the second/ third/ fourth machine is saved. 
+* Too many bls keys signing using a single node creates a single point of failure \(validator’s risk\).
+
+## State Pruning
+
+State pruning is a feature we implemented in harmony nodes to prune redundant state nodes from the state DB before it was written to the DB. State pruning will reduce the blockchain size from current 80+G \(as of Feb/25/2020\) to &lt;2G. Validators can reduce the disk size significantly to save the cloud cost. You can refer to ethereum’s [State Tree Pruning](https://blog.ethereum.org/2015/06/26/state-tree-pruning/).  
+
+
 ## Slashing
 
 Slashing is an integral component of EPoS which serves as the deterring factor to prevent any non-conforming behaviors from validators such as double signing and being offline. 
