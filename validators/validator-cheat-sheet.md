@@ -96,24 +96,24 @@ curl -X GET https://faucet.ps.hmny.io/fund?address=[ONE ADDRESS]
 {% tab title="Open Staking Testnet" %}
 ```text
 ./hmy --node="https://api.s0.os.hmny.io" staking create-validator \
-    --validator-addr [ONE ADDRESS] --amount 10 \
+    --validator-addr [ONE ADDRESS] --amount 100000 \
     --bls-pubkeys [BLS PUBLIC KEY1],[BLS PUBLIC KEY2] \
     --name JohnWhitton --identity JohnIdentity --details "John The Validator" \
     --security-contact John --website john@harmony.one \
     --max-change-rate 0.1 --max-rate 0.1 --rate 0.1 \
-    --max-total-delegation 100 --min-self-delegation 10 --passphrase
+    --max-total-delegation 100000000 --min-self-delegation 100000 --passphrase
 ```
 {% endtab %}
 
 {% tab title="Partner Testnet" %}
 ```
 ./hmy --node="https://api.s0.ps.hmny.io" staking create-validator \
-    --validator-addr [ONE ADDRESS] --amount 10 \
+    --validator-addr [ONE ADDRESS] --amount 100000 \
     --bls-pubkeys [BLS PUBLIC KEY1],[BLS PUBLIC KEY2] \
     --name JohnWhitton --identity JohnIdentity --details "John The Validator" \
     --security-contact John --website john@harmony.one \
     --max-change-rate 0.1 --max-rate 0.1 --rate 0.1 \
-    --max-total-delegation 100 --min-self-delegation 10 --passphrase
+    --max-total-delegation 100000000 --min-self-delegation 100000 --passphrase
 ```
 {% endtab %}
 {% endtabs %}
