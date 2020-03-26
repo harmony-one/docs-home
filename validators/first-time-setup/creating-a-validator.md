@@ -26,7 +26,7 @@ curl -X GET https://faucet.ps.hmny.io/fund?address=[ONE ADDRESS]
 {% endtab %}
 {% endtabs %}
 
-The faucet will fund 10,000 ONE tokens on Shard 0, per account, per hour.
+The faucet will fund 11,000 ONE tokens on Shard 0, per account, per hour.
 
 ## Creating a Validator <a id="creating-a-validator"></a>
 
@@ -34,24 +34,24 @@ The faucet will fund 10,000 ONE tokens on Shard 0, per account, per hour.
 {% tab title="Open Staking Testnet" %}
 ```text
 ./hmy --node=https://api.s0.os.hmny.io staking create-validator \
-    --validator-addr [ONE ADDRESS] --amount 10 \
+    --validator-addr [ONE ADDRESS] --amount 100000 \
     --bls-pubkeys [BLS PUBLIC KEY1],[BLS PUBLIC KEY2] \
     --name "[NAME]" --identity "[IDENTITY]" --details "DETAILS" \
     --security-contact "CONTACT" --website "YOUR-WEBSITE.COM" \
     --max-change-rate 0.1 --max-rate 0.1 --rate 0.1 \
-    --max-total-delegation 100 --min-self-delegation 10 --passphrase
+    --max-total-delegation 100000000 --min-self-delegation 100000 --passphrase
 ```
 {% endtab %}
 
 {% tab title="Partner Testnet" %}
 ```
 ./hmy --node=https://api.s0.ps.hmny.io staking create-validator \
-    --validator-addr [ONE ADDRESS] --amount 10 \
+    --validator-addr [ONE ADDRESS] --amount 100000 \
     --bls-pubkeys [BLS PUBLIC KEY1],[BLS PUBLIC KEY2] \
     --name "[NAME]" --identity "[IDENTITY]" --details "DETAILS" \
     --security-contact "CONTACT" --website "YOUR-WEBSITE.COM" \
     --max-change-rate 0.1 --max-rate 0.1 --rate 0.1 \
-    --max-total-delegation 100 --min-self-delegation 10 --passphrase
+    --max-total-delegation 100000000 --min-self-delegation 100000 --passphrase
 ```
 {% endtab %}
 {% endtabs %}
@@ -93,7 +93,7 @@ The CLI will prompt you to enter your BLS key file password.
 {% hint style="danger" %}
 `--max-rate` and `--max-change-rate` cannot be changed later.
 
-`--min-self-delegation` has to be at least 1 ONE.
+`--min-self-delegation` has to be at least 10,000 ONE.
 {% endhint %}
 
 ### When does the validator become active? <a id="when-does-the-validator-become-active"></a>
