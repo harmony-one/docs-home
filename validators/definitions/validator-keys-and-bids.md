@@ -20,9 +20,15 @@ BLS keys are attached to validator via:
 * Creating a new validator \(put commas between multiple BLS keys\)
 * Adding new keys to an existing validator \(edit-validator --add-bls-key\), only one key can be added at a time
 
+![](../../.gitbook/assets/image%20%2838%29.png)
+
+![](../../.gitbook/assets/image%20%2828%29.png)
+
 #### Instance\(s\)
 
-An instance is a virtual machine session with a unique IP address. Within each instance, there could be up to 4 BLS keys signing transactions. If you have more than a single BLS key in your instance, it means that you're using the **multiBLS feature**. If you have a single BLS key in the instance, we will call that single-key instance.
+An instance is a virtual private server or dedicated hardware with a unique IP address on which a validator runs the node software. 
+
+Within each instance, there could be up to 4 BLS keys signing transactions. If you have more than a single BLS key in your instance, it means that you're using the **multiBLS feature**. If you have a single BLS key in the instance, we will call that single-key instance.
 
 Here are **some rules to follow:**
 
@@ -40,7 +46,5 @@ Validators are not required to use the multiBLS feature in order to add multiple
 * MultiBLS and single-key instance have different staking commands
 * In order to make changes to the keys in a multiBLS instance, the node needs to be stopped and restarted; whereas a single-key instance can be directly added to a validator \(since the node is running on a different instance\)
 
-![](../../.gitbook/assets/image%20%2838%29.png)
 
-![](../../.gitbook/assets/image%20%2828%29.png)
 
