@@ -37,9 +37,9 @@ Here are **some rules to follow:**
 
 Note that validators sometimes choose to run duplicate instances \(2 instances, each running with same BLS key\) as a backup mechanism.
 
-#### Important message
+## Important message
 
-Validators are not required to use the multiBLS feature in order to add multiple keys to their validator. Take a look at some possible scenarios in the illustration below. There are some differences to using multiBLS vs. single-key instance:
+Validators are not required to use the multiBLS feature in order to add multiple keys to their validator. Take a look at some possible scenarios in the illustration at the top. There are some differences to using multiBLS vs. single-key instance:
 
 * Machine cost will be lower in a multiBLS instance \(compare 'validator 2' vs. 'validator 1'\)
 * Single-key instances could run nodes for a validator in different shards, whereas a multiBLS instance requires all BLS keys to be in the same shard
