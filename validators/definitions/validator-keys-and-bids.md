@@ -45,6 +45,7 @@ Validators are not required to use the multiBLS feature in order to add multiple
 * Single-key instances could run nodes for a validator in different shards, whereas a multiBLS instance requires all BLS keys to be in the same shard
 * MultiBLS and single-key instance have different staking commands
 * In order to make changes to the keys in a multiBLS instance, the node needs to be stopped and restarted; whereas a single-key instance can be directly added to a validator \(since the node is running on a different instance\)
+* Too many bls keys signing using a single node creates a single point of failure \(validator’s risk\)
 
 
 
