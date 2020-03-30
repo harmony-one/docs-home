@@ -58,7 +58,7 @@
     * [Installation](validators/staking-explorer/installation.md)
   * [Validator Cheat Sheet](validators/validator-cheat-sheet.md)
   * [Definitions](validators/definitions/README.md)
-    * [Validator, keys and bids](validators/definitions/validator-keys-and-bids.md)
+    * [Validator, BLS key, instance](validators/definitions/validator-keys-and-bids.md)
     * [Effective Proof-of-Stake bidding process](validators/definitions/effective-proof-of-stake-bidding-process.md)
   * [Troubleshooting](validators/validator-troubleshooting/README.md)
     * [Why am I not elected in the EPOS Committee](validators/validator-troubleshooting/why-am-i-not-elected-in-the-epos-committee.md)

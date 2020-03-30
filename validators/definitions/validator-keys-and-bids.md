@@ -1,8 +1,15 @@
-# Validator, keys and bids
+# Validator, BLS key, instance
 
 #### Validator
 
 A validator technically represents a single one1.. account \(address\) that was entered into a successful create-validator transaction. Once a one1.. address is registered as a validator, the earnings of validator goes to this one1.. account.
+
+A validator has two main parameters that affect its ranking in the committee list:
+
+1. Stake amount
+2. BLS key\(s\) attached to this validator
+
+Validator's **bid is calculated by stake amount / \# of BLS keys**. Total stake is automatically and evenly distributed among the BLS keys, validator cannot change this.
 
 #### BLS key\(s\)
 
