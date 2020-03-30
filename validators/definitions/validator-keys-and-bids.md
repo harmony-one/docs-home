@@ -6,12 +6,12 @@ A validator technically represents a single one1.. account \(address\) that was 
 
 #### BLS key\(s\)
 
-A BLS key represents what the validator signs the blocks with, and is the way of authenticating the validator. A validator can have multiple keys to sign with, it means that this validator is signing blocks in parallel.
+A BLS key represents what the validator signs the blocks with, and is a way of authenticating the validator. A validator can have multiple keys to sign with, this means that a validator is signing blocks in parallel.
 
 BLS keys are attached to validator via:
 
-* Creating a new validator \(put commas between BLS keys\)
-* Adding new keys to an existing validator
+* Creating a new validator \(put commas between multiple BLS keys\)
+* Adding new keys to an existing validator \(edit-validator --add-bls-key\), only one key can be added at a time
 
 #### Instance\(s\)
 
