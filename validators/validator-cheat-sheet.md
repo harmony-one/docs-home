@@ -145,7 +145,7 @@ curl -X GET https://faucet.ps.hmny.io/fund?address=[ONE ADDRESS]
 
 {% tab title="Partner Testnet" %}
 ```
-./hmy --node="https://api.s0.ps.hmny.io" staking collect-rewards --delegator-addr [ONE ADDRESS]
+./hmy --node="https://api.s0.ps.hmny.io" staking collect-rewards --delegator-addr [ONE ADDRESS] --passphrase
 ```
 {% endtab %}
 {% endtabs %}
