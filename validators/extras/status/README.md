@@ -1,12 +1,12 @@
 # Network Status
 
 {% hint style="success" %}
-For the current network status and endpoints please go to [http://harmony.one/status](http://harmony.one/status)  
+See [https://harmony.one/status](https://harmony.one/status%20%20) for the current network status and endpoints.
 {% endhint %}
 
 #### Network Overview
 
-Harmony runs not only Mainnet but also several other testnets.
+Harmony runs not only a production mainnet but also several other testnets.
 
 | **Network** | **Audience** | **Usage** |
 | :--- | :--- | :--- |

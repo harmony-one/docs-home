@@ -1,9 +1,6 @@
-# Others
+# Slashing
 
-## State Pruning
-
-State pruning is a feature we implemented in harmony nodes to prune redundant state nodes from the state DB before it was written to the DB. State pruning will reduce the blockchain size from current 80+G \(as of Feb/25/2020\) to &lt;2G. Validators can reduce the disk size significantly to save the cloud cost. You can refer to ethereum’s [State Tree Pruning](https://blog.ethereum.org/2015/06/26/state-tree-pruning/).  
-
+##  
 
 ## Slashing
 
@@ -24,7 +21,7 @@ An inactive validator will be eligible to be elected again after it is edited as
 
 There will be no slashing on stake for unavailability as they are already punished by missing out the block rewards.
 
-## Double Signing
+## Double Signing \(Malicious Attacks\)
 
 Double signing is a bad situation when a validator node signs an alternative vote to the canonical one\(conflicting blocks are detected\). This is considered a purposefully malicious attack thus the offender must be penalized in such a scenario.
 

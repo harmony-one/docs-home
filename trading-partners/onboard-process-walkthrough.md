@@ -1,4 +1,4 @@
-# Onboard Process Walkthrough
+# Onboarding
 
 ## Overview
 
