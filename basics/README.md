@@ -1,2 +1,2 @@
-# Basics
+# Wallets
 

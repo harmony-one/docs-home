@@ -1,4 +1,4 @@
-# Effective Proof-of-Stake bidding process
+# Effective Proof-of-Stake Bidding
 
 ![](../../.gitbook/assets/screen-shot-2020-03-26-at-4.17.57-pm.png)
 

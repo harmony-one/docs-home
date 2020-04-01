@@ -2,7 +2,7 @@
 description: Example overall validator flow
 ---
 
-# Validator Cheat Sheet
+# Setup Cheatsheet
 
 If you are new to setting up Validators, start [here](validator-cheat-sheet.md).
 

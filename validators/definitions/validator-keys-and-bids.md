@@ -1,4 +1,4 @@
-# Validator, BLS key, instance
+# Validator, BLS key, Instance
 
 #### Validator
 

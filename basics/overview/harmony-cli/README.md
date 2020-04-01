@@ -1,4 +1,4 @@
-# Harmony CLI
+# Command-line tools
 
 ## Introduction
 

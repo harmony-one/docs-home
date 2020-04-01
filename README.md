@@ -2,9 +2,9 @@
 
 ## What is Harmony?
 
-Our vision is _Open Consensus for 10 Billion People_.
+Harmony is a fast and secure blockchain. Our vision is _Open Consensus for 10 Billion People_.
 
-Our open infrastructure is a high-throughput, low-latency, and low-fee consensus platform designed to power decentralized economies of the future.
+Our open infrastructure is a high-throughput, low-latency and low-fee consensus platform designed to power decentralized economies of the future.
 
 We aim to deliver both **scalability and decentralization**. The promise of open consensus is to enable decentralized coordination at scale but no platform has yet been able to achieve both.
 
