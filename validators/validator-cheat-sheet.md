@@ -139,7 +139,7 @@ curl -X GET https://faucet.ps.hmny.io/fund?address=[ONE ADDRESS]
 {% tabs %}
 {% tab title="Open Staking Testnet" %}
 ```text
-./hmy --node="https://api.s0.os.hmny.io" staking collect-rewards --delegator-addr [ONE ADDRESS]
+./hmy --node="https://api.s0.os.hmny.io" staking collect-rewards --delegator-addr [ONE ADDRESS] --passphrase
 ```
 {% endtab %}
 
