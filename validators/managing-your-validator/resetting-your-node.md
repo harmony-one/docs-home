@@ -14,7 +14,25 @@ description: Use the below steps to reset your node after OSTN refresh
 
 5. Press `control+c` to stop what’s happening in your tmux session
 
-6. Then run your node again by:
+6. Clean database `sudo rm -rf harmony_db_*`
+
+7. Clean .dht files `sudo rm -rf .dht*`
+
+8. Clean md5sum.txt file `sudo rm -rf md5sum.txt`
+
+9. Update wallet :
+
+```text
+sudo curl -LO https://harmony.one/hmycli && sudo mv hmycli hmy && sudo chmod +x hmy
+```
+
+10. Update binary:
+
+```text
+sudo curl -LO https://harmony.one/node2.sh && sudo mv node2.sh node.sh && sudo chmod a+x node.sh
+```
+
+11. Then run your node again by:
 
 ```text
 ./node.sh -S -c -I -N staking -z -k [BLS KEY FILE].key
@@ -26,15 +44,15 @@ Or if you are running with Multiple BLSkeys, run your node with the following co
 ./node.sh -S -c -I -N staking -z -M
 ```
 
-7. Press `control+b then d` to detach from tmux session
+12. Press `control+b then d` to detach from tmux session
 
-8. Fund your ONE address using: 
+13. Fund your ONE address using: 
 
 ```text
 curl -X GET https://faucet.os.hmny.io/fund?address=[ONE ADDRESS]
 ```
 
-9. Create your validator again
+14. Create your validator again
 
 {% tabs %}
 {% tab title="Open Staking Testnet" %}
