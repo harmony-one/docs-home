@@ -26,13 +26,13 @@ As Ledger Nano S is connected to PC/Mac through USB, super user's permission is 
 #### Using the Binary:
 
 ```text
-$ ./hmy keys list --ledger
+./hmy keys list --ledger
 ```
 
 #### Using the Shell Wrapper:
 
 ```text
-$ ./hmy.sh -- keys list --ledger
+./hmy.sh -- keys list --ledger
 ```
 
 1. After running the keys command with --ledger option, a GUI will be displayed on Ledger Nano S LED screen
@@ -50,13 +50,13 @@ Balance on any Harmony wallet addresses can be displayed using CLI with command 
 #### Using the binary:
 
 ```bash
-$ ./hmy balances --node="<endpoint_address>" <address>
+./hmy balances --node="<endpoint_address>" <address>
 ```
 
 #### Using the Shell Wrapper:
 
 ```bash
-$ ./hmy.sh -- balances --node="<endpoint_address>" <address>
+./hmy.sh -- balances --node="<endpoint_address>" <address>
 ```
 
 Here &lt;endpoint\_address&gt; is the server address for either Mainnet or Testnet and &lt;address&gt; is the Harmony wallet address.‌ The endpoint addres
@@ -66,19 +66,19 @@ Here &lt;endpoint\_address&gt; is the server address for either Mainnet or Testn
 * **Query balance on Mainnet**
 
 ```bash
-$ ./hmy balances --node="https://api.s0.t.hmny.io" <address>
+./hmy balances --node="https://api.s0.t.hmny.io" <address>
 ```
 
 ### ‌**Query balance on Devnet**
 
 ```bash
-$ ./hmy balances --node="https://api.s0.pga.hmny.io" <address>
+./hmy balances --node="https://api.s0.pga.hmny.io" <address>
 ```
 
 ### Query balance on Testnet
 
 ```bash
-$ ./hmy balances --node="https://api.s0.b.hmny.io" <address>
+./hmy balances --node="https://api.s0.b.hmny.io" <address>
 ```
 
 {% hint style="info" %}
@@ -96,7 +96,7 @@ If you get a permission error while running the following commands, prepend `sud
 #### Using the binary:
 
 ```bash
-$ ./hmy transfer --ledger --node="<endpoint_address>" \
+./hmy transfer --ledger --node="<endpoint_address>" \
   --chain-id={mainnet|testnet|devnet} \
   --from <from_address> --to <to_address> --amount <value> \
   --from-shard <shard_id> --to-shard <shard_id>
@@ -105,7 +105,7 @@ $ ./hmy transfer --ledger --node="<endpoint_address>" \
 #### Using the shell:
 
 ```bash
-$ ./hmy.sh -- transfer --ledger --node="<endpoint_address>" \
+./hmy.sh -- transfer --ledger --node="<endpoint_address>" \
   --chain-id={mainnet|testnet|devnet} \
   --from <from_address> --to <to_address> --amount <value> \
   --from-shard <shard_id> --to-shard <shard_id>

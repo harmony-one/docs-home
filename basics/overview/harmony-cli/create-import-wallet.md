@@ -15,19 +15,20 @@ Creation of a new account is done as a function of a generated `bip39` mnemonic 
 #### Using the Binary:
 
 ```text
-$ ./hmy keys add <account-name> [--passphrase]
+./hmy keys add <account-name> [--passphrase]
 ```
 
 #### Using the Shell Script:
 
 ```text
-$ ./hmy.sh keys add <account-name1> [--passphrase]
+./hmy.sh keys add <account-name1> [--passphrase]
 ```
 
 #### Example:
 
 ```text
-$ ./hmy keys add test-account --passphrase
+./hmy keys add test-account --passphrase
+
 Enter passphrase:
 Repeat the passphrase:
 **Important** write this seed phrase in a safe place, it is the only way to recover your account if you ever forget your password
@@ -35,7 +36,7 @@ Repeat the passphrase:
 exhibit effort describe first own warfare electric employ expire same mango lunar chief recall assume team day loan confirm orient antique robot obey leaf
 ```
 
-This creates a keystore at the following directory:`$(hmy keys location)/account-name1/UTC--2019-09-16T21-25-35.297331000Z--678e7ea3dcb5f4e9724c0e761843572f10c49b73`
+This creates a keystore at the following directory:`(hmy keys location)/account-name1/UTC--2019-09-16T21-25-35.297331000Z--678e7ea3dcb5f4e9724c0e761843572f10c49b73`
 
 When creating keys this way, `hmy` will ask you to provide a passphrase.‌ Make sure you keep track of this passphrase for future use because the passphrase is used to decrypt the keystore when signing transactions. Also make sure you save the seed phrase, also called a mnemonic.
 
@@ -48,13 +49,13 @@ To know where your wallet file has been created, run the following command:
 #### Using the Binary:
 
 ```text
-$ ./hmy keys location
+./hmy keys location
 ```
 
 #### Using the Shell Script:
 
 ```text
-$ ./hmy.sh keys location
+./hmy.sh keys location
 ```
 
 You can check the list of wallets \(local accounts\) with the following command:
@@ -68,7 +69,7 @@ You can check the list of wallets \(local accounts\) with the following command:
 #### Using the Shell Script:
 
 ```text
-$ ./hmy.sh keys list
+./hmy.sh keys list
 ```
 
 ## Import Wallet
@@ -92,13 +93,13 @@ Note that the --passphrase flag only enables a password prompt after the command
 #### Using the Binary:
 
 ```text
-$ ./hmy keys import-ks <absolute_path_to_keystore> --passphrase
+./hmy keys import-ks <absolute_path_to_keystore> --passphrase
 ```
 
 #### Using the Shell Script:
 
 ```text
-$ ./hmy.sh keys import-ks <absolute_path_to_keystore> --passphrase
+./hmy.sh keys import-ks <absolute_path_to_keystore> --passphrase
 ```
 
 #### Example:
@@ -108,7 +109,7 @@ If you are a FN runner:
 ./hmy keys import-ks /root/.hmy/keystore/UTC--2020-01-15T01-02-06.606670000Z--9689a0711642bf08ea92ed98d552f0c1b8c8cefb --passphrase
 
 ./hmy keys import-ks /home/harmony/one16qsd5ant9v94jrs89mruzx62h7ekcfxmduh2rx.key --passphrase ""
-$ ./hmy keys import-ks /home/harmony/UTC--2020-01-15T01-02-06.606670000Z--9689a0711642bf08ea92ed98d552f0c1b8c8cefb --passphrase
+./hmy keys import-ks /home/harmony/UTC--2020-01-15T01-02-06.606670000Z--9689a0711642bf08ea92ed98d552f0c1b8c8cefb --passphrase
 ```
 
 ‌Keep in mind that you should know the passphrase associated with the imported keystore and pass it as a parameter as shown in the commands above. For keystores created by Harmony's `wallet.sh`, the default passphrase is an empty string; this matters for signing transactions.‌
@@ -118,7 +119,7 @@ $ ./hmy keys import-ks /home/harmony/UTC--2020-01-15T01-02-06.606670000Z--9689a0
 Sometimes you might have a secp256k1 private key, such as the one generated from the following command:
 
 ```text
-$ openssl ecparam -genkey -name secp256k1 -text -noout -outform DER | xxd -p -c 1000 | sed 's/41534e31204f49443a20736563703235366b310a30740201010420/PrivKey: /' | sed 's/a00706052b8104000aa144034200/\'$'\nPubKey: /'
+openssl ecparam -genkey -name secp256k1 -text -noout -outform DER | xxd -p -c 1000 | sed 's/41534e31204f49443a20736563703235366b310a30740201010420/PrivKey: /' | sed 's/a00706052b8104000aa144034200/\'$'\nPubKey: /'
 ```
 
 You can import the key with an optional name and passphrase
@@ -126,19 +127,19 @@ You can import the key with an optional name and passphrase
 #### Using the Binary:
 
 ```text
-$ ./hmy keys import-private-key <secp256k1_private_key> [wallet_name] [--passphrase]
+./hmy keys import-private-key <secp256k1_private_key> [wallet_name] [--passphrase]
 ```
 
 #### Using the Shell Scripts:
 
 ```text
-$ ./hmy.sh keys import-private-key <secp256k1_private_key> [wallet_name] [--passphrase]
+./hmy.sh keys import-private-key <secp256k1_private_key> [wallet_name] [--passphrase]
 ```
 
 #### Example:
 
 ```text
-$ ./hmy keys import-private-key b8798ca0a56ce16517ea37c6b1229cbb67cf0e022c423b044fe8f537830d8be5 my_wallet_name_here --passphrase
+./hmy keys import-private-key b8798ca0a56ce16517ea37c6b1229cbb67cf0e022c423b044fe8f537830d8be5 my_wallet_name_here --passphrase
 ```
 
 If no account name is provided, a random word concatenated with `-imported` will be used. If no passphrase is provided, the default passphrase will be used \(which is blank\). Note that the CLI currently only supports importing secp256k1 private keys.
@@ -150,19 +151,20 @@ You can recover lost wallet keys by entering the mnemonic words you received \(a
 #### Using the Binary:
 
 ```text
-$ ./hmy keys recover-from-mnemonic [wallet_name]
+./hmy keys recover-from-mnemonic [wallet_name]
 ```
 
 #### Using the Shell Script:
 
 ```text
-$ ./hmy.sh keys recover-from-mnemonic [wallet_name]
+./hmy.sh keys recover-from-mnemonic [wallet_name]
 ```
 
 #### Example:
 
 ```text
-$ ./hmy keys recover-from-mnemonic nameofyourkey
+./hmy keys recover-from-mnemonic nameofyourkey
+
 Enter mnemonic to recover keys from
 exhibit effort describe first own warfare electric employ expire same mango lunar chief recall assume team day loan confirm orient antique robot obey leaf
 ```

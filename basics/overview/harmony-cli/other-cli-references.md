@@ -7,7 +7,7 @@ To see the most common examples and proper arguments run the command `./hmy cook
 Or if you want a full list of commands the `hmy` tool knows in markdown format, please run the following command:
 
 ```text
-$ ./hmy docs
+./hmy docs
 ```
 
 Then in the same directory, `hmy` creates a directory named `hmy-docs` in which you can find all markdown files for the commands and subcommands.

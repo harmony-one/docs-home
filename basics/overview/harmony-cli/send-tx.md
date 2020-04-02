@@ -9,7 +9,7 @@ Perhaps the most important feature of the `hmy` CLI is the ability to create and
 #### Using the Binary:
 
 ```text
-$ ./hmy transfer --node="<endpoint_address>" \
+./hmy transfer --node="<endpoint_address>" \
  --from <ONE_address> --to <ONE_address> \
  --from-shard <shard_#> --to-shard <shard_#> \
  --amount <amount> --chain-id <chain-id> --passphrase
@@ -18,7 +18,7 @@ $ ./hmy transfer --node="<endpoint_address>" \
 #### Using the Shell Script:
 
 ```text
-$ ./hmy.sh -- transfer --node="<endpoint_address>" \
+./hmy.sh -- transfer --node="<endpoint_address>" \
  --from <ONE_address> --to <ONE_address> \
  --from-shard <shard_#> --to-shard <shard_#> \
  --amount <amount> --chain-id <chain-id> --passphrase
@@ -27,7 +27,7 @@ $ ./hmy.sh -- transfer --node="<endpoint_address>" \
 #### Example:
 
 ```text
-$ ./hmy --node="https://api.s0.t.hmny.io" \
+./hmy --node="https://api.s0.t.hmny.io" \
  transfer --from one1yc06ghr2p8xnl2380kpfayweguuhxdtupkhqzw \
  --to one1q6gkzcap0uruuu8r6sldxuu47pd4ww9w9t7tg6 \    
  --from-shard 0 --to-shard 1 --amount 12.5 --chain-id mainnet --passphrase mypassword
@@ -40,13 +40,13 @@ Check for finality of the transaction by using the transaction hash like so:
 #### Using the Binary:
 
 ```text
-$ ./hmy blockchain transaction-receipt <transaction_id> --node="<endpoint_address>"
+./hmy blockchain transaction-receipt <transaction_id> --node="<endpoint_address>"
 ```
 
 #### Using the Shell Script:
 
 ```text
-$ ./hmy.sh -- blockchain transaction-receipt <transaction_id> --node="<node_address>"
+./hmy.sh -- blockchain transaction-receipt <transaction_id> --node="<node_address>"
 ```
 
 #### Example:
@@ -66,19 +66,19 @@ Let's first check what chain-ids are available for us to use, we can do that eas
 #### Using the Binary:
 
 ```text
-$ ./hmy blockchain known-chains
+./hmy blockchain known-chains
 ```
 
 #### Using the Shell Script:
 
 ```text
-$ ./hmy.sh -- blockchain known-chains
+./hmy.sh -- blockchain known-chains
 ```
 
 #### Example:
 
 ```text
-$ ./hmy blockchain known-chains
+./hmy blockchain known-chains
 
 [
   "mainnet",
@@ -96,7 +96,7 @@ By default, `hmy` assumes the `testnet` chain-id; override that with the `--chai
 We'll use the `transfer` subcommand of `hmy` to send a transaction.
 
 ```text
-$ ./hmy transfer
+./hmy transfer
 Error: required flag(s) "amount", "from", "from-shard", "to", "to-shard" not set
 ```
 
@@ -118,7 +118,7 @@ Thus, a correct usage of `transfer` looks like:
 #### Using the Binary:
 
 ```text
-$ ./hmy transfer --node="<node_address>" \
+./hmy transfer --node="<node_address>" \
  --from <ONE_address> --to <ONE_address> \
  --from-shard <shard_#> --to-shard <shard_#> \
  --amount <amount> --chain-id <chain-id> --passphrase
@@ -127,7 +127,7 @@ $ ./hmy transfer --node="<node_address>" \
 #### Using the Shell Wrapper:
 
 ```text
-$ ./hmy.sh -- transfer --node="<node_address>" \
+./hmy.sh -- transfer --node="<node_address>" \
  --from <ONE_address> --to <ONE_address> \
  --from-shard <shard_#> --to-shard <shard_#> \
  --amount <amount> --chain-id <chain-id> --passphrase
@@ -136,7 +136,7 @@ $ ./hmy.sh -- transfer --node="<node_address>" \
 #### Example:
 
 ```text
-$ ./hmy transfer --node="https://api.s0.t.hmny.io" \
+./hmy transfer --node="https://api.s0.t.hmny.io" \
  --from one1yc06ghr2p8xnl2380kpfayweguuhxdtupkhqzw \
  --to one1q6gkzcap0uruuu8r6sldxuu47pd4ww9w9t7tg6 \
  --from-shard 0 --to-shard 1 --amount 10 --chain-id mainnet
@@ -168,19 +168,19 @@ We can pull down details of the finalized transaction with `./hmy blockchain tra
 #### Using the Binary:
 
 ```text
-$ ./hmy blockchain transaction-receipt --node="<endpoint-address>" <transaction-hash>
+./hmy blockchain transaction-receipt --node="<endpoint-address>" <transaction-hash>
 ```
 
 #### Using the Shell Wrapper:
 
 ```text
-$ ./hmy.sh -- blockchain transaction-receipt --node="<endpoint-address>" <transaction-hash>
+./hmy.sh -- blockchain transaction-receipt --node="<endpoint-address>" <transaction-hash>
 ```
 
 #### Example:
 
 ```text
-$ ./hmy blockchain transaction-receipt \
+./hmy blockchain transaction-receipt \
     --node="https://api.s0.t.hmny.io" \
     0x25dd32397b5a69146b2dc3bbdc8ef8aae271e9b12a36c6dff1eb8995cac9dcba
 {

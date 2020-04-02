@@ -37,19 +37,19 @@ Checking the hash of your transaction to see the transaction data and if the tra
 #### Using the Binary:
 
 ```text
-$ ./hmy blockchain transaction-by-hash <transaction-hash> --node="<endpoint-address>"
+./hmy blockchain transaction-by-hash <transaction-hash> --node="<endpoint-address>"
 ```
 
 #### Using the Shell Wrapper:
 
 ```text
-$ ./hmy.sh -- blockchain transaction-by-hash <transaction-hash> --node="<endpoint-address>"
+./hmy.sh -- blockchain transaction-by-hash <transaction-hash> --node="<endpoint-address>"
 ```
 
 #### Example:
 
 ```text
-$ ./hmy blockchain transaction-by-hash 0x75d91100734edcd1497200cb438f0864d2ed4a44a88bf8c87855cb2b3cc54001 --node="https://api.s0.t.hmny.io"
+./hmy blockchain transaction-by-hash 0x75d91100734edcd1497200cb438f0864d2ed4a44a88bf8c87855cb2b3cc54001 --node="https://api.s0.t.hmny.io"
 
 {
   "id": "0",
@@ -83,19 +83,19 @@ Get information about a finalized transaction:
 #### Using the Binary:
 
 ```text
-$ ./hmy blockchain transaction-receipt <transaction-hash> --node="<endpoint-address>"
+./hmy blockchain transaction-receipt <transaction-hash> --node="<endpoint-address>"
 ```
 
 #### Using the Shell Wrapper:
 
 ```text
-$ ./hmy.sh -- blockchain transaction-receipt <transaction-hash> --node="<endpoint-address>"
+./hmy.sh -- blockchain transaction-receipt <transaction-hash> --node="<endpoint-address>"
 ```
 
 #### Example:
 
 ```text
-$ ./hmy --node="https://api.s0.t.hmny.io" blockchain transaction-receipt 0x599793f313ee17566f8d09728b9d043b8e26135ddce86beeee13f98767d452f7
+./hmy --node="https://api.s0.t.hmny.io" blockchain transaction-receipt 0x599793f313ee17566f8d09728b9d043b8e26135ddce86beeee13f98767d452f7
 
 {
   "id": "0",
@@ -125,13 +125,13 @@ Checking the network status, last block, epoch, leaders, based on the shard numb
 #### Using the Binary:
 
 ```text
-$ ./hmy blockchain latest-header --node="<endpoint-address>"
+./hmy blockchain latest-header --node="<endpoint-address>"
 ```
 
 #### Using the Shell Wrapper:
 
 ```text
-$ ./hmy.sh -- blockchain latest-header --node="<endpoint-address>"
+./hmy.sh -- blockchain latest-header --node="<endpoint-address>"
 ```
 
 #### Example:
@@ -139,7 +139,7 @@ $ ./hmy.sh -- blockchain latest-header --node="<endpoint-address>"
 {% tabs %}
 {% tab title="Shard 0" %}
 ```text
-$ ./hmy blockchain latest-header --node=https://api.s0.t.hmny.io
+./hmy blockchain latest-header --node=https://api.s0.t.hmny.io
 
 {
   "id": "0",
@@ -162,7 +162,7 @@ $ ./hmy blockchain latest-header --node=https://api.s0.t.hmny.io
 
 {% tab title="Shard 1" %}
 ```text
-$ ./hmy blockchain latest-header --node=https://api.s1.t.hmny.io
+./hmy blockchain latest-header --node=https://api.s1.t.hmny.io
 
 {
   "id": "0",
@@ -185,7 +185,7 @@ $ ./hmy blockchain latest-header --node=https://api.s1.t.hmny.io
 
 {% tab title="Shard 2" %}
 ```text
-$ ./hmy blockchain latest-header --node=https://api.s2.t.hmny.io
+./hmy blockchain latest-header --node=https://api.s2.t.hmny.io
 
 {
   "id": "0",
@@ -208,7 +208,7 @@ $ ./hmy blockchain latest-header --node=https://api.s2.t.hmny.io
 
 {% tab title="Shard 3" %}
 ```text
-$ ./hmy blockchain latest-header --node=https://api.s3.t.hmny.io
+./hmy blockchain latest-header --node=https://api.s3.t.hmny.io
 
 {
   "id": "0",
@@ -256,6 +256,7 @@ For example if you call latest-header and get a result of `10657` you convert th
 
 ```text
 ./hmy --node=https://api.s0.os.hmny.io blockchain block-by-number 0x29A1
+
 {
   "id": "0",
   "jsonrpc": "2.0",

@@ -11,7 +11,6 @@ Throughout this guide, we will use the following syntax:
 * `./hmy.sh --` : This is the command to use the CLI with a shell wrapper \(for macOS\)
 * `<argument>`: This is a required argument
 * `[argument]`: This is an optional argument
-* `$` : This is the start of a line in the shell
 * `/` : This is a line break, used to break up a line while writing a command
 {% endhint %}
 
@@ -22,7 +21,7 @@ Throughout this guide, we will use the following syntax:
 Enter the following command into your shell of choice:
 
 ```text
-$ curl -LO https://harmony.one/hmycli && mv hmycli hmy && chmod +x hmy
+curl -LO https://harmony.one/hmycli && mv hmycli hmy && chmod +x hmy
 ```
 
 {% hint style="info" %}
@@ -34,9 +33,9 @@ If you have permission issues, enter the commands with "sudo" at the beginning, 
 `hmy` depends on some dynamic libraries, hence we recommend using the shell wrapper. Enter there commands into your terminal:
 
 ```text
-$ curl -O https://raw.githubusercontent.com/harmony-one/go-sdk/master/scripts/hmy.sh
-$ chmod u+x hmy.sh
-$ ./hmy.sh -d
+curl -O https://raw.githubusercontent.com/harmony-one/go-sdk/master/scripts/hmy.sh
+chmod u+x hmy.sh
+./hmy.sh -d
 ```
 
 Now you can use `hmy.sh` as a wrapper over `hmy` and you should assume that all references to `hmy` in these documents refer to `hmy.sh`. For example, the command `./hmy` becomes `./hmy.sh --` .
@@ -58,23 +57,23 @@ Have [`mcl`](https://github.com/harmony-one/mcl), [`bls`](https://github.com/har
 {% endhint %}
 
 ```text
-$ cd /Users/edgar/Repos/harmony-work/src/github.com/harmony-one
-$ ls
-bls   harmony mcl
-$ git clone https://github.com/harmony-one/go-sdk.git
+cd /Users/edgar/Repos/harmony-work/src/github.com/harmony-one
+ls
+bls harmony mcl
+git clone https://github.com/harmony-one/go-sdk.git
 ```
 
 1. Then setup the build flags:
 
 ```text
-$ source harmony/scripts/setup_bls_build_flags.sh
+source harmony/scripts/setup_bls_build_flags.sh
 ```
 
 1. Call `make` in the `go-sdk` repo. This builds a binary named `hmy`:
 
 ```text
-$ cd go-sdk
-$ make
+cd go-sdk
+make
 ```
 
 Congratulations! You can now use the binary to run the CLI.
