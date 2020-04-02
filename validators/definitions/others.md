@@ -1,7 +1,5 @@
 # Slashing
 
-##  
-
 ## Slashing
 
 Slashing is an integral component of EPoS which serves as the deterring factor to prevent any non-conforming behaviors from validators such as double signing and being offline. 
