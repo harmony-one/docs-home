@@ -1,7 +1,7 @@
 # Installation
 
 {% hint style="danger" %}
-Save your private key\(s\) before updating the extension
+Save your private key\(s\) before updating the extension.
 {% endhint %}
 
 1. Download the latest version [here](https://github.com/harmony-one/staking-dashboard/tree/master/extension_versions).
@@ -12,9 +12,7 @@ Save your private key\(s\) before updating the extension
 
 4. Enable “Developer mode” located in the top right corner, then click on Load unpacked button.
 
-![](https://lh4.googleusercontent.com/kS-Bo5IrBSEjCuZf89ke4SKIAYkv7qSsTGUN6_LLFIVBMGaOtSTE73hGof1TdjRiHMAAQXxwzZ8gLy06VtTuGsBPZloPgjaIAB6jQkg36CZOJFPHujuUKhm2RWVBDS0Bxy5g2AuO)
-
-
+![Activating the Developer mode](../../.gitbook/assets/developer_mode.jpg)
 
 5. Then specify the unzipped folder → you may need to clear site application - go to Clear site data below.
 
