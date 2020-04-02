@@ -4,7 +4,13 @@
 
 1. Fork this github repo: [https://github.com/harmony-one/validator-logos](https://github.com/harmony-one/validator-logos)​
 
-2. Upload a 256x256px or 512x512px .jpg image of your choice to your validator-logos fork.
+2. Add your logo by creating the logo image name using your Harmony one-address as the file name and placing it inside "validators" folder. Image needs to be a .jpg file with 256x256 pixels or 512x512 pixels.  
+  
+Exemple: validators/one1pdv9lrdwl0rg5vglh4xtyrv3wjk3wsqket7zxy.jpg
+
+{% hint style="danger" %}
+Do not upload the .jpg file name in the root repository. It needs be be inside folder "validators".
+{% endhint %}
 
 3. Create a pull request for your changes. A Harmony team member will review the image & approve it.
 
