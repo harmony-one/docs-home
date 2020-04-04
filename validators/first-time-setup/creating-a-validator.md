@@ -28,6 +28,8 @@ curl -X GET https://faucet.ps.hmny.io/fund?address=[ONE ADDRESS]
 
 The faucet will fund 11,000 ONE tokens on Shard 0, per account, per hour.
 
+**Other option to get tokens is to use the faucet:** [https://faucet.os.hmny.io/](https://faucet.os.hmny.io/)
+
 ## Creating a Validator <a id="creating-a-validator"></a>
 
 {% tabs %}
