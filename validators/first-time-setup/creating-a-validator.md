@@ -36,7 +36,7 @@ The faucet will fund 11,000 ONE tokens on Shard 0, per account, per hour.
 {% tab title="Open Staking Testnet" %}
 ```text
 ./hmy --node=https://api.s0.os.hmny.io staking create-validator \
-    --validator-addr [ONE ADDRESS] --amount 100000 \
+    --validator-addr [ONE ADDRESS] --amount 10000 \
     --bls-pubkeys [BLS PUBLIC KEY1],[BLS PUBLIC KEY2] \
     --name "[NAME]" --identity "[IDENTITY]" --details "DETAILS" \
     --security-contact "CONTACT" --website "YOUR-WEBSITE.COM" \
