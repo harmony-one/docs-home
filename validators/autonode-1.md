@@ -77,10 +77,10 @@ The one address has to be in quotes
 #### Step 8: Save and exit config by pressing ctrl + O then hit enter, then press ctrl + X
 
 {% hint style="info" %}
-Optional: fund the account. If faucet it working, auto node will automatically fund the account if needed.
+Optional: fund the account. If faucet is working, auto node will automatically fund the account if needed.
 {% endhint %}
 
-#### Step 9: Open new tmux session with `tmux attach` 
+#### Step 9: Open new tmux session with `tmux new-session -s`  
 
 #### Step 10: Run node
 
