@@ -5,7 +5,7 @@ description: >-
   on AutoNode.
 ---
 
-# AutoNode
+# AutoNode on AWS
 
 #### Step 1: Spin up your instance on [AWS](first-time-setup/cloud-guides/aws.md)
 
