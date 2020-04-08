@@ -7,7 +7,7 @@ description: >-
 
 # AutoNode
 
-#### Step 1: Spin up a instance from your choice of [VPS](first-time-setup/cloud-guides/) 
+#### Step 1: Spin up your instance on [AWS](first-time-setup/cloud-guides/aws.md) 
 
 #### Step 2: [SSH](https://app.gitbook.com/@harmony-one/s/home/~/drafts/-M4Hp__k-6ugB9jMYj6E/validators/first-time-setup/cloud-guides/aws#step-2-connecting-to-your-aws-instance) into the machine
 
