@@ -22,7 +22,7 @@ Step 4: The above command with exit out of SSH for u \(needed for docker install
 Step 5: Download the `auto_node.sh` shell script
 
 ```text
-curl -O https://raw.githubusercontent.com/harmony-one/harmony-ops/master/devops/auto_node/scripts/auto_node.sh && chmod +x ./auto_node.sh && ./auto_node.sh setup
+curl -O https://raw.githubusercontent.com/harmony-one/auto-node/master/scripts/auto_node.sh && chmod +x ./auto_node.sh && ./auto_node.sh setup
 ```
 
 Step 6: Create a new key or import an existing key
