@@ -98,7 +98,13 @@ Optional: once detached, export the node information with `./auto_node.sh export
 
 ## AutoNode Reset 
 
-To reset the node after network refresh, just connect to the tmux session and run: 
+To reset the node after network refresh, kill the node with: 
+
+```text
+./auto_node.sh kill
+```
+
+Then, attach to the tmux session with `tmux attach` and run:
 
 ```text
 ./auto_node.sh run --shard 1 --auto-active --auto-interaction --clean
