@@ -1,27 +1,31 @@
 ---
 description: >-
   AutoNode allows you to spin up a node seamlessly, and will automatically make
-  sure your validator is active and signing. Note you can only run one bls key
-  on AutoNode.
+  sure your validator is active and signing as well as refresh your node on hard
+  resets.
 ---
 
 # AutoNode on AWS
 
 Step 1: Spin up your instance on [AWS](first-time-setup/cloud-guides/aws.md)
 
+> It is recommended to select the following AMI: _Amazon Linux 2 AMI \(HVM\), SSD Volume Type_
+
 Step 2: [SSH](https://docs.harmony.one/home/validators/first-time-setup/cloud-guides/aws#step-2-connecting-to-your-aws-instance) into the machine
 
 Step 3: Setup the machine \(install CLI, Docker, and tmux\) 
 
-```text
+```bash
 curl -LO https://harmony.one/hmycli && mv hmycli hmy && chmod +x hmy && sudo yum update -y && sudo yum install -y docker && sudo usermod -aG docker ec2-user && sudo service docker start && sudo yum install -y tmux && exit
 ```
+
+> For more details on how to setup docker, reference [this](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html).
 
 Step 4: The above command with exit out of SSH for u \(needed for docker install\). SSH back into the machine
 
 Step 5: Download the `auto_node.sh` shell script
 
-```text
+```bash
 curl -LO https://harmony.one/auto-node && mv auto-node auto_node.sh && chmod +x ./auto_node.sh && ./auto_node.sh setup
 ```
 
@@ -35,7 +39,7 @@ Step 6: Create a new key or import an existing key
 {% endtab %}
 
 {% tab title="Import Key" %}
-```
+```bash
 ./hmy keys import-private-key <private-key>
 ```
 {% endtab %}
@@ -45,13 +49,13 @@ Step 7: Edit the `validator_config.json` file
 
 {% tabs %}
 {% tab title="Config" %}
-```text
+```bash
 nano validator_config.json
 ```
 {% endtab %}
 
 {% tab title="Example" %}
-```
+```javascript
 {
     "validator-addr": "one1pr0xktszlvynpkf5pxft7kkwl4sauy5xcl2vsd",
     "name": "harmony_autonode",
@@ -84,29 +88,27 @@ Step 9: Open new tmux session with `tmux new-session -s`
 
 Step 10: Run the node
 
-```text
-./auto_node.sh run --shard 1 --auto-active --auto-interaction --clean
+```bash
+./auto_node.sh run --auto-active --auto-reset --auto-interaction --clean
 ```
+
+> Answer the prompts with `Y` or `N`
 
 {% hint style="info" %}
 Detach from tmux session afterwards by pressing ctrl + b, then d 
 {% endhint %}
 
 {% hint style="info" %}
-Optional: once detached, export the node information with `./auto_node.sh export`
+Optional: once detached, export the BLS key files with: 
+
+```bash
+./auto_node.sh export-bls . && mkdir harmony_bls_keys && cp -R bls_keys/. harmony_bls_keys/
+```
+
+This ensures that the BLS key will be reused should you have to relaunch your node.
 {% endhint %}
 
-## AutoNode Reset 
-
-To reset the node after network refresh, kill the node with: 
-
-```text
-./auto_node.sh kill
-```
-
-Then, attach to the tmux session with `tmux attach` and run:
-
-```text
-./auto_node.sh run --shard 1 --auto-active --auto-interaction --clean
-```
+{% hint style="info" %}
+Optional: once detached, export the node information with `./auto_node.sh export`
+{% endhint %}
 
