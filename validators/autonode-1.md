@@ -7,7 +7,7 @@ description: >-
 
 # AutoNode
 
-#### Note that steps 1 - 4 are for installing _Docker_ and _Tmux_ on an Amazon Linux or Ubuntu. So long as you have said things installed on ur machine of choice, the autonode will work.
+#### Note that steps 1 - 4 are for installing _Docker_ and _Tmux_ on an Amazon Linux or Ubuntu. So long as you have said things installed on your machine of choice, the autonode will work.
 
 {% hint style="success" %}
 Skip to step 5 if you have a machine setup with Docker and Tmux. 
