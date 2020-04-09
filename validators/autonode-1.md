@@ -9,7 +9,9 @@ description: >-
 
 #### Note that steps 1 - 4 are for installing _Docker_ and _Tmux_ on an AWS machine. So long as you have said things installed on ur machine of choice, the autonode will work.
 
-> Skip to step 5 if you have a machine setup with Docker and Tmux.
+{% hint style="success" %}
+Skip to step 5 if you have a machine setup with Docker and Tmux. 
+{% endhint %}
 
 **Step 1:** Spin up your instance on [AWS](first-time-setup/cloud-guides/aws.md)
 
