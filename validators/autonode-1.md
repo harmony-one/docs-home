@@ -1,6 +1,6 @@
 ---
 description: >-
-  AutoNode allows you to spin up a node seamlessly, and will automatically make
+  AutoNode allows you to spin up a node seamlessly. It will automatically make
   sure your validator is active and signing as well as refresh your node on hard
   resets.
 ---
