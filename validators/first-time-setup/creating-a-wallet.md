@@ -50,14 +50,14 @@ If you are not running a node or your node is not synced, use the following comm
 
 {% tabs %}
 {% tab title="Open Staking Testnet" %}
-```text
-./hmy --node=https://api.s0.os.hmny.io balances [ONE ADDRESS]
+```bash
+./hmy --node="https://api.s0.os.hmny.io" balances [ONE ADDRESS]
 ```
 {% endtab %}
 
 {% tab title="Partner Testnet" %}
-```
-./hmy --node=https://api.s0.ps.hmny.io balances [ONE ADDRESS]
+```bash
+./hmy --node="https://api.s0.ps.hmny.io" balances [ONE ADDRESS]
 ```
 {% endtab %}
 {% endtabs %}

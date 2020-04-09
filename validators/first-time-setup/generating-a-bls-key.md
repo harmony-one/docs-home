@@ -4,7 +4,7 @@
 
 You will need to generate a BLS key in order to run a validating node. When generating a BLS key, the CLI will ask you to provide a passphrase to encrypt the BLS key file.‌
 
-```text
+```bash
 ./hmy keys generate-bls-key --passphrase
 ```
 
@@ -24,13 +24,13 @@ You can check which shard your key will validate for using the following command
 
 {% tabs %}
 {% tab title="Open Staking Network" %}
-```
+```bash
 ./hmy --node="https://api.s0.os.hmny.io" utility shard-for-bls [BLS PUBLIC KEY]
 ```
 {% endtab %}
 
 {% tab title="Partner Testnet" %}
-```text
+```bash
 ./hmy --node="https://api.s0.ps.hmny.io" utility shard-for-bls [BLS PUBLIC KEY]
 ```
 {% endtab %}
@@ -38,7 +38,7 @@ You can check which shard your key will validate for using the following command
 
 Example output:
 
-```text
+```bash
 {"shard-id":1}
 ```
 

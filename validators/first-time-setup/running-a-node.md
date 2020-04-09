@@ -8,7 +8,7 @@ description: Using node.sh
 
 **1.** Run the following command to download the node.sh script:
 
-```text
+```bash
 curl -LO https://raw.githubusercontent.com/harmony-one/harmony/master/scripts/node.sh && chmod a+x node.sh
 ```
 
@@ -16,7 +16,7 @@ curl -LO https://raw.githubusercontent.com/harmony-one/harmony/master/scripts/no
 
 Install tmux if your Linux distribution does not already come with it. 
 
-```text
+```bash
 sudo yum install tmux
 ```
 
@@ -24,7 +24,7 @@ sudo yum install tmux
 
 **1.** Create a new tmux session called "node".
 
-```text
+```bash
 tmux new-session -s node
 ```
 
@@ -35,7 +35,7 @@ You'll want to use a tmux session in order to leave your node running, while you
 {% hint style="danger" %}
 For any Debian based OS like Ubuntu and others, please install the package below in case you are NOT running statically linked binaries via parameter `-I`:
 
-```text
+```bash
 sudo apt-get install libgmp-dev
 ```
 {% endhint %}
@@ -44,13 +44,13 @@ sudo apt-get install libgmp-dev
 
 {% tabs %}
 {% tab title="Open Staking Network" %}
-```
+```bash
 ./node.sh -S -c -z -I -N staking -k [BLS KEY FILE].key
 ```
 {% endtab %}
 
 {% tab title="Partner Testnet" %}
-```text
+```bash
 ./node.sh -S -c -z -I -N partner -k [BLS KEY FILE].key
 ```
 {% endtab %}
@@ -80,7 +80,7 @@ Only use `-c` for our testing networks. Do not use for Mainnet.
 
 **4.** To check if your node is syncing properly, run the below command and check that the block height is greater than 0.
 
-```text
+```bash
 ./hmy blockchain latest-header
 ```
 
@@ -90,13 +90,13 @@ Optionally, you can run the node using multiple BLS keys if you want.
 
 **1.** Keys are loaded from `.hmy/blskeys` folder which has to be created first:
 
-```text
+```bash
 mkdir -p .hmy/blskeys
 ```
 
 **2.** Copy all the [previously created BLS key\(s\)](https://docs.harmony.one/home/validators/first-time-setup/generating-a-bls-key) to this new folder:
 
-```text
+```bash
 cp *.key .hmy/blskeys
 ```
 
@@ -106,14 +106,14 @@ Make sure all your BLS keys belong to the same shard when using multiple BLS key
 
 {% tabs %}
 {% tab title="Open Staking Network" %}
-```
-./hmy --node=https://api.s0.os.hmny.io utility shard-for-bls [BLS PUBLIC KEY]
+```bash
+./hmy --node="https://api.s0.os.hmny.io" utility shard-for-bls [BLS PUBLIC KEY]
 ```
 {% endtab %}
 
 {% tab title="Partner Testnet" %}
-```text
-./hmy --node=https://api.s0.ps.hmny.io utility shard-for-bls [BLS PUBLIC KEY]
+```bash
+./hmy --node="https://api.s0.ps.hmny.io" utility shard-for-bls [BLS PUBLIC KEY]
 ```
 {% endtab %}
 {% endtabs %}
@@ -126,7 +126,7 @@ For any `.key` if no passphrase file is available, it will use the default speci
 
 **4.** You can now run the node using parameter **-M** for multiple BLS keys. Parameter **-k** will not be used anymore as we are loading multiple BLS keys here:
 
-```text
+```bash
 ./node.sh -S -c -z -I -N staking -M
 ```
 
@@ -134,7 +134,7 @@ For any `.key` if no passphrase file is available, it will use the default speci
 
 To re-attach to your tmux session where your `node.sh` is running, use the following command:
 
-```text
+```bash
 tmux attach-session -t node
 ```
 

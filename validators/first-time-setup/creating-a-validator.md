@@ -14,13 +14,13 @@ In order to continue and create your validator, you will need to have ONE tokens
 
 {% tabs %}
 {% tab title="Open Staking Testnet" %}
-```text
+```bash
 curl https://faucet.os.hmny.io/fund?address=[ONE ADDRESS]
 ```
 {% endtab %}
 
 {% tab title="Partner Testnet" %}
-```
+```bash
 curl -X GET https://faucet.ps.hmny.io/fund?address=[ONE ADDRESS]
 ```
 {% endtab %}
@@ -34,7 +34,7 @@ The faucet will fund 11,000 ONE tokens on Shard 0, per account, per hour.
 
 {% tabs %}
 {% tab title="Open Staking Testnet" %}
-```text
+```bash
 ./hmy --node=https://api.s0.os.hmny.io staking create-validator \
     --validator-addr [ONE ADDRESS] --amount 10000 \
     --bls-pubkeys [BLS PUBLIC KEY1],[BLS PUBLIC KEY2] \
@@ -46,7 +46,7 @@ The faucet will fund 11,000 ONE tokens on Shard 0, per account, per hour.
 {% endtab %}
 
 {% tab title="Partner Testnet" %}
-```
+```bash
 ./hmy --node=https://api.s0.ps.hmny.io staking create-validator \
     --validator-addr [ONE ADDRESS] --amount 100000 \
     --bls-pubkeys [BLS PUBLIC KEY1],[BLS PUBLIC KEY2] \
@@ -120,14 +120,14 @@ Use the below command to check your validator information
 
 {% tabs %}
 {% tab title="Open Staking Testnet" %}
-```text
-./hmy --node=https://api.s0.os.hmny.io/ blockchain validator information [ONE ADDRESS]
+```bash
+./hmy --node="https://api.s0.os.hmny.io" blockchain validator information [ONE ADDRESS]
 ```
 {% endtab %}
 
 {% tab title="Partner Testnet" %}
-```
-./hmy --node=https://api.s0.ps.hmny.io/ blockchain validator information [ONE ADDRESS]
+```bash
+./hmy --node="https://api.s0.ps.hmny.io" blockchain validator information [ONE ADDRESS]
 ```
 {% endtab %}
 {% endtabs %}
