@@ -30,7 +30,7 @@ sudo apt-get update -y && sudo apt install docker.io -y
 
 {% tab title="Amazon Linux" %}
 ```bash
-sudo yum update -y && sudo yum install -y docker && sudo usermod -aG docker ec2-user && sudo service docker start && sudo yum install -y tmux && exit
+sudo yum update -y && sudo yum install -y docker
 ```
 {% endtab %}
 {% endtabs %}
