@@ -66,21 +66,21 @@ sudo service docker start && sudo yum install -y tmux && exit
 {% endtab %}
 {% endtabs %}
 
-**Step 4:** The above command with exit out of SSH for you \(needed for docker install\). SSH back into the machine.
+**Step 7:** The above command with exit out of SSH for you \(needed for docker install\). SSH back into the machine.
 
-**Step 5:** Download the Harmony CLI:
+**Step 8:** Download the Harmony CLI:
 
 ```bash
 curl -LO https://harmony.one/hmycli && mv hmycli hmy && chmod +x hmy
 ```
 
-**Step 6:** Download the `auto_node.sh` shell script. All things related to the node will be done using this script:
+**Step 9:** Download the `auto_node.sh` shell script. All things related to the node will be done using this script:
 
 ```bash
 curl -LO https://harmony.one/auto-node && mv auto-node auto_node.sh && chmod +x ./auto_node.sh && ./auto_node.sh setup
 ```
 
-**Step 7:** Create a new key or import an existing key:
+**Step 10:** Create a new key or import an existing key:
 
 {% tabs %}
 {% tab title="New Key" %}
@@ -96,7 +96,7 @@ curl -LO https://harmony.one/auto-node && mv auto-node auto_node.sh && chmod +x 
 {% endtab %}
 {% endtabs %}
 
-**Step 8:** Edit the `validator_config.json` file:
+**Step 11:** Edit the `validator_config.json` file:
 
 {% tabs %}
 {% tab title="Edit Command" %}
@@ -129,19 +129,19 @@ nano validator_config.json
 Note that the one address has to be in quotes
 {% endhint %}
 
-**Step 9:** Save and exit config by pressing **Ctrl + O** then hit enter, then press **Ctrl + X**:
+**Step 12:** Save and exit config by pressing **Ctrl + O** then hit enter, then press **Ctrl + X**:
 
 {% hint style="info" %}
 Optional: fund the account. If faucet is working, auto node will automatically fund the account if needed.
 {% endhint %}
 
-**Step 10:** Open a new tmux session by running the command bellow. "Node" will be the name of your tmux session:
+**Step 13:** Open a new tmux session by running the command bellow. "Node" will be the name of your tmux session:
 
 ```bash
 tmux new-session -s node 
 ```
 
-**Step 11:** Run the node:
+**Step 14:** Run the node:
 
 ```bash
 ./auto_node.sh run --auto-active --auto-reset --auto-interaction --clean
