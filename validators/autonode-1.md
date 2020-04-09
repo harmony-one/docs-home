@@ -102,7 +102,7 @@ Detach from tmux session afterwards by pressing ctrl + b, then d
 Optional: once detached, export the BLS key files with: 
 
 ```bash
-./auto_node.sh export-bls . && mkdir harmony_bls_keys && cp -R bls_keys/. harmony_bls_keys/
+rm -rf ./bls_keys && ./auto_node.sh export-bls . && mkdir harmony_bls_keys && cp -R bls_keys/. harmony_bls_keys/
 ```
 
 This ensures that the BLS key will be reused should you have to relaunch your node.
