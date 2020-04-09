@@ -7,23 +7,33 @@ description: >-
 
 # AutoNode
 
-#### Note that steps 1 - 4 are for installing _Docker_ and _Tmux_ on an AWS machine. So long as you have said things installed on ur machine of choice, the autonode will work.
+#### Note that steps 1 - 4 are for installing _Docker_ and _Tmux_ on an Amazon Linux or Ubuntu. So long as you have said things installed on ur machine of choice, the autonode will work.
 
 {% hint style="success" %}
 Skip to step 5 if you have a machine setup with Docker and Tmux. 
 {% endhint %}
 
-**Step 1:** Spin up your instance on [AWS](first-time-setup/cloud-guides/aws.md)
+**Step 1:** Spin up your instance on [AWS](first-time-setup/cloud-guides/aws.md) or [other providers](https://docs.harmony.one/home/validators/first-time-setup/cloud-guides).
 
-> It is recommended to select the following AMI: _Amazon Linux 2 AMI \(HVM\), SSD Volume Type_
+> It is recommended to go with Ubuntu or Amazon Linux as your operating system.
 
 **Step 2:** [SSH](https://docs.harmony.one/home/validators/first-time-setup/cloud-guides/aws#step-2-connecting-to-your-aws-instance) into the machine
 
 **Step 3:** Setup the machine \(Docker and tmux\) 
 
+{% tabs %}
+{% tab title="Ubuntu" %}
+```bash
+sudo apt-get update -y && sudo apt install docker.io -y && sudo usermod -aG docker ubuntu && sudo systemctl start docker && sudo systemctl enable docker && sudo apt install tmux -y && exit
+```
+{% endtab %}
+
+{% tab title="Amazon Linux" %}
 ```bash
 sudo yum update -y && sudo yum install -y docker && sudo usermod -aG docker ec2-user && sudo service docker start && sudo yum install -y tmux && exit
 ```
+{% endtab %}
+{% endtabs %}
 
 > For more details on how to setup docker, reference [this](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html).
 
