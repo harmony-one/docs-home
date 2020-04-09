@@ -37,20 +37,22 @@ sudo yum update -y && sudo yum install -y docker && sudo usermod -aG docker ec2-
 
 > For more details on how to setup docker, reference [this](https://docs.docker.com/engine/install/).
 
-**Step 4:** Check the user you are logged with using the command `who`. It will return something like the example bellow, whereas "myuser" is the user i am logging with at the moment.
+**Step 4:** The above command with exit out of SSH for you \(needed for docker install\). SSH back into the machine.
+
+**Step 5:** Check the user you are logged with using the command `who`. It will return something like the example bellow, whereas "myuser" is the user i am logging with at the moment.
 
 ```bash
 who
 myuser pts/0        2020-04-09 12:20 (201.48.142.117)
 ```
 
-**Step 5:** Add the user returned by the command `who`to the docker group:
+**Step 6:** Add the user returned by the command `who`to the docker group:
 
 ```bash
 sudo usermod -aG docker myuser
 ```
 
-**Step 6:** Enable docker, start it and install Tmux:
+**Step 7:** Enable docker, start it and install Tmux:
 
 {% tabs %}
 {% tab title="Ubuntu" %}
@@ -66,21 +68,21 @@ sudo service docker start && sudo yum install -y tmux && exit
 {% endtab %}
 {% endtabs %}
 
-**Step 7:** The above command with exit out of SSH for you \(needed for docker install\). SSH back into the machine.
+**Step 8:** The above command with exit out of SSH for you \(needed for docker install\). SSH back into the machine.
 
-**Step 8:** Download the Harmony CLI:
+**Step 9:** Download the Harmony CLI:
 
 ```bash
 curl -LO https://harmony.one/hmycli && mv hmycli hmy && chmod +x hmy
 ```
 
-**Step 9:** Download the `auto_node.sh` shell script. All things related to the node will be done using this script:
+**Step 10:** Download the `auto_node.sh` shell script. All things related to the node will be done using this script:
 
 ```bash
 curl -LO https://harmony.one/auto-node && mv auto-node auto_node.sh && chmod +x ./auto_node.sh && ./auto_node.sh setup
 ```
 
-**Step 10:** Create a new key or import an existing key:
+**Step 11:** Create a new key or import an existing key:
 
 {% tabs %}
 {% tab title="New Key" %}
@@ -96,7 +98,7 @@ curl -LO https://harmony.one/auto-node && mv auto-node auto_node.sh && chmod +x 
 {% endtab %}
 {% endtabs %}
 
-**Step 11:** Edit the `validator_config.json` file:
+**Step 12:** Edit the `validator_config.json` file:
 
 {% tabs %}
 {% tab title="Edit Command" %}
@@ -129,19 +131,19 @@ nano validator_config.json
 Note that the one address has to be in quotes
 {% endhint %}
 
-**Step 12:** Save and exit config by pressing **Ctrl + O** then hit enter, then press **Ctrl + X**:
+**Step 13:** Save and exit config by pressing **Ctrl + O** then hit enter, then press **Ctrl + X**:
 
 {% hint style="info" %}
 Optional: fund the account. If faucet is working, auto node will automatically fund the account if needed.
 {% endhint %}
 
-**Step 13:** Open a new tmux session by running the command bellow. "Node" will be the name of your tmux session:
+**Step 14:** Open a new tmux session by running the command bellow. "Node" will be the name of your tmux session:
 
 ```bash
 tmux new-session -s node 
 ```
 
-**Step 14:** Run the node:
+**Step 15:** Run the node:
 
 ```bash
 ./auto_node.sh run --auto-active --auto-reset --auto-interaction --clean
