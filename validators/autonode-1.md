@@ -35,7 +35,7 @@ sudo yum update -y && sudo yum install -y docker && sudo usermod -aG docker ec2-
 {% endtab %}
 {% endtabs %}
 
-> For more details on how to setup docker, reference [this](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html).
+> For more details on how to setup docker, reference [this](https://docs.docker.com/engine/install/).
 
 **Step 4:** The above command with exit out of SSH for you \(needed for docker install\). SSH back into the machine.
 
