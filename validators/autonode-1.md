@@ -10,7 +10,7 @@ description: >-
 #### Note that steps 1 to 6 are for installing _Docker_ and _Tmux_ on an Amazon Linux or Ubuntu. So long as you have said things installed on your machine of choice, the autonode will work.
 
 {% hint style="success" %}
-Skip to step 5 if you have a machine setup with Docker and Tmux. 
+Skip to step 8 if you have a machine setup with Docker and Tmux. 
 {% endhint %}
 
 **Step 1:** Spin up your instance on [AWS](first-time-setup/cloud-guides/aws.md) or [other providers](https://docs.harmony.one/home/validators/first-time-setup/cloud-guides).
