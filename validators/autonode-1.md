@@ -52,9 +52,19 @@ sudo usermod -aG docker myuser
 
 **Step 6:** Enable docker, start it and install Tmux:
 
+{% tabs %}
+{% tab title="Ubuntu" %}
 ```bash
 sudo systemctl start docker && sudo systemctl enable docker && sudo apt install tmux -y && exit
 ```
+{% endtab %}
+
+{% tab title="Amazon Linux" %}
+```bash
+sudo service docker start && sudo yum install -y tmux && exit
+```
+{% endtab %}
+{% endtabs %}
 
 **Step 4:** The above command with exit out of SSH for you \(needed for docker install\). SSH back into the machine.
 
