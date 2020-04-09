@@ -79,7 +79,7 @@ curl -LO https://harmony.one/hmycli && mv hmycli hmy && chmod +x hmy
 **Step 10:** Download the `auto_node.sh` shell script. All things related to the node will be done using this script:
 
 ```bash
-curl -LO https://harmony.one/auto-node && mv auto-node auto_node.sh && chmod +x ./auto_node.sh && ./auto_node.sh setup
+curl -O https://raw.githubusercontent.com/harmony-one/auto-node/master/scripts/auto_node.sh && chmod +x ./auto_node.sh && ./auto_node.sh setup
 ```
 
 **Step 11:** Create a new key or import an existing key:
