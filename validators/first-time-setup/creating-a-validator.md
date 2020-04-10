@@ -10,27 +10,29 @@ Check chain block height with `./hmy blockchain latest-header --node=[endpoint]`
 
 ## Getting ONE Tokens <a id="getting-one-tokens"></a>
 
-In order to continue and create your validator, you will need to have ONE tokens in your **Shard 0** balance. To get tokens from our Faucet smart contract, use the following command:
+In order to continue and create your validator, you will need to have ONE tokens in your **Shard 0** balance. To get tokens from our Faucet smart contract, use the following format command : **curl** [**https://faucet.\[NETWORK\].hmny.io/fund?address=\[ONE**](https://faucet.os.hmny.io/fund?address=[ONE) **ADDRESS\]**, ex : 
 
 {% tabs %}
 {% tab title="Open Staking Testnet" %}
 ```bash
-curl https://faucet.os.hmny.io/fund?address=[ONE ADDRESS]
+curl https://faucet.os.hmny.io/fund?address=one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd
 ```
 {% endtab %}
 
 {% tab title="Partner Testnet" %}
 ```bash
-curl -X GET https://faucet.ps.hmny.io/fund?address=[ONE ADDRESS]
+curl -X GET https://faucet.ps.hmny.io/fund?address=one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd
 ```
 {% endtab %}
 {% endtabs %}
 
-The faucet will fund 11,000 ONE tokens on Shard 0, per account, per hour.
+The faucet will fund 11,000 ONE tokens on Shard 0, per account, per IP.
 
 **Other option to get tokens is to use the faucet:** [https://faucet.os.hmny.io/](https://faucet.os.hmny.io/)
 
 ## Creating a Validator <a id="creating-a-validator"></a>
+
+Replace everything in \[\] with your own data
 
 {% tabs %}
 {% tab title="Open Staking Testnet" %}
@@ -116,18 +118,19 @@ Example output below:
 
 ## Checking Validator Information <a id="checking-validator-information"></a>
 
-Use the below command to check your validator information
+Use the format command **./hmy --node="**[**https://api.s0.os.hmny.io**](https://api.s0.os.hmny.io)**" blockchain validator information \[ONE ADDRESS\]** to check your validator informationm   
+example : 
 
 {% tabs %}
 {% tab title="Open Staking Testnet" %}
 ```bash
-./hmy --node="https://api.s0.os.hmny.io" blockchain validator information [ONE ADDRESS]
+./hmy --node="https://api.s0.os.hmny.io" blockchain validator information one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd
 ```
 {% endtab %}
 
 {% tab title="Partner Testnet" %}
 ```bash
-./hmy --node="https://api.s0.ps.hmny.io" blockchain validator information [ONE ADDRESS]
+./hmy --node="https://api.s0.ps.hmny.io" blockchain validator information one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd
 ```
 {% endtab %}
 {% endtabs %}
@@ -139,49 +142,73 @@ Example output below:
   "id": "0",
   "jsonrpc": "2.0",
   "result": {
-    "current-epoch-signing-percent": {
-      "current-epoch-signed": 0,
-      "current-epoch-to-sign": 2,
-      "percentage": "0.000000000000000000"
-    },
-    "current-epoch-voting-power": [
-      {
-        "effective-stake": "9665865000000000000000.000000000000000000",
-        "shard-id": 0,
-        "voting-power-adjusted": "0.044606060606060606",
-        "voting-power-raw": "0.139393939393939394"
+    "booted-status": null,
+    "current-epoch-performance": {
+      "current-epoch-signing-percent": {
+        "current-epoch-signed": 95,
+        "current-epoch-signing-percentage": "1.000000000000000000",
+        "current-epoch-to-sign": 95,
+        "num-beacon-blocks-until-next-epoch": 21
       }
-    ],
+    },
+    "currently-in-committee": true,
+    "epos-status": "currently elected",
+    "epos-winning-stake": "6846745750000000000000000.000000000000000000",
+    "lifetime": {
+      "apr": "6.268807306506151937",
+      "blocks": {
+        "signed": 8602,
+        "to-sign": 8621
+      },
+      "reward-accumulated": 7.076705797578808e+21
+    },
+    "metrics": {
+      "by-bls-key": [
+        {
+          "earned-reward": 17373723528937510000,
+          "key": {
+            "bls-public-key": "1227f1ef2ba879562c693c2f99af023a9a127b25bfe21fa41c637039bfbd9cc68919d0edce4f2aa57983ffcbc39b1b01",
+            "earning-account": "one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd",
+            "effective-stake": "1369349150000000000000000.000000000000000000",
+            "group-percent": "0.032657375054393815",
+            "overall-percent": "0.010450360017406021",
+            "shard-id": 1
+          }
+        }
+      ]
+    },
+    "total-delegation": 4.184679e+24,
     "validator": {
       "address": "one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd",
-      "availability": {
-        "num-blocks-signed": 0,
-        "num-blocks-to-sign": 75
-      },
       "bls-public-keys": [
-        "bf3c6ec088cd66fdb540860bd6505b272230164b0510d5f470042d47118d4c8bbe005d28e5de5e489fa22e4ca450c080"
+        "1227f1ef2ba879562c693c2f99af023a9a127b25bfe21fa41c637039bfbd9cc68919d0edce4f2aa57983ffcbc39b1b01"
       ],
-      "creation-height": 3675,
+      "creation-height": 489,
       "delegations": [
         {
-          "amount": 2.5e+22,
+          "amount": 1.184679e+24,
           "delegator-address": "one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd",
-          "reward": 0,
+          "reward": 4.383229639373062e+21,
+          "undelegations": []
+        },
+        {
+          "amount": 3e+24,
+          "delegator-address": "one167gc5t3f4uvupns2h8fsem9xzdgn2egra9w8d3",
+          "reward": 2.1040394698378544e+21,
           "undelegations": []
         }
       ],
-      "details": "Soph P-OPS Validator node",
-      "epos-eligibility-status": "active",
+      "details": "Soph #P-OPS Validator node",
       "identity": "Soph",
-      "last-epoch-in-committee": 50,
+      "last-epoch-in-committee": 58,
       "max-change-rate": "0.050000000000000000",
       "max-rate": "0.900000000000000000",
-      "max-total-delegation": 1e+24,
-      "min-self-delegation": 2000000000000000000,
-      "name": "Soph P-OPS Validator node",
+      "max-total-delegation": 1e+27,
+      "min-self-delegation": 1e+22,
+      "name": "Soph #P-OPS Validator node",
       "rate": "0.100000000000000000",
       "security-contact": "Soph",
-      "update-height": 3675,
+      "update-height": 489,
       "website": "soph.harmony.one"
     }
   }
