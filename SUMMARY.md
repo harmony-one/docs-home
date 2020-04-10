@@ -5,7 +5,7 @@
   * [Harmony Wallets](basics/overview/README.md)
     * [Private Key Management](basics/overview/key-management-overview.md)
     * [Missing Funds on Exchange](basics/overview/missing-funds-on-exchange.md)
-    * [Harmony Chrome extension wallet](basics/overview/installation.md)
+    * [Harmony Chrome extension](basics/overview/installation.md)
     * [Trust Wallet](basics/overview/trustwallet.md)
     * [Ledger](basics/overview/ledger/README.md)
       * [Setting up your Ledger Nano S](basics/overview/ledger/install-and-setup.md)
