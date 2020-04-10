@@ -81,10 +81,40 @@ Only use `-c` for our testing networks. Do not use for Mainnet.
 **4.** To check if your node is syncing properly, run the below command and check that the block height is greater than 0.
 
 ```bash
-./hmy blockchain latest-header
+./hmy blockchain latest-headers
 ```
 
-## Multiple BLS Keys \(Optional\)
+{% hint style="success" %}
+Harmony rely on a beacon shard chain \(aka shard 0\) to facilitate cross shard transaction. For the node to be fully working both your non shard 0 and shard 0 needs to be fully synced
+{% endhint %}
+
+**5.** Confirm that you are fully synced before continuing. Issue  the command in the format **./hmy --node= "\[SHARD\_RPC\_ENDPOINT\]" blockchain latest-headers**,  where  
+SHARD\_RCP\_ENDPOINT would be having that format : api.s\[Shard \#\].\[NETWORK\].hmny.io   
+ex :  
+
+{% tabs %}
+{% tab title="OSTN S0" %}
+```bash
+./hmy --node="https://api.s0.os.hmny.io" blockchain latest-headers
+```
+{% endtab %}
+
+{% tab title="OSTN S1" %}
+```
+./hmy --node="https://api.s1.os.hmny.io" blockchain latest-headers
+```
+{% endtab %}
+
+{% tab title="Partner Network S0" %}
+```
+./hmy --node="https://api.s0.ps.hmny.io" blockchain latest-headers
+```
+{% endtab %}
+{% endtabs %}
+
+**6.** And verity the blocks shown in step 4 and 5 are closed or equals to each other
+
+## Multiple BLS Keys \(Optional and recommended for advanced users\)
 
 Optionally, you can run the node using multiple BLS keys if you want. 
 
