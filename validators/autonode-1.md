@@ -144,7 +144,7 @@ tmux new-session -s node
 **Step 14:** Run the node:
 
 ```bash
-./auto_node.sh run --auto-active --auto-reset --auto-interaction --clean
+./auto_node.sh run --auto-active --auto-reset --clean
 ```
 
 > Answer the prompts with `Y` or `N`
