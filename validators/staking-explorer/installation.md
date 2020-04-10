@@ -4,7 +4,7 @@
 Save your private key\(s\) before updating the extension.
 {% endhint %}
 
-1. Download the latest version here.
+1. Download the latest version [here](https://github.com/harmony-one/staking-dashboard/raw/master/extension_versions/0.0.10.zip).
 
 2. Unzip the file.
 
