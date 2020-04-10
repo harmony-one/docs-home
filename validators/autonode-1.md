@@ -118,7 +118,7 @@ nano validator_config.json
     "rate": 0.1,
     "max-rate": 0.75,
     "max-change-rate": 0.05,
-    "max-total-delegation": 1000000.0,
+    "max-total-delegation": 100000000.0,
     "details": "None"
 }
 ```
