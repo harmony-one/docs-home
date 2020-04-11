@@ -70,7 +70,8 @@ curl -LO https://harmony.one/hmycli && mv hmycli hmy && chmod +x hmy
 **Step 3:** Download the `auto_node.sh` shell script. All things related to the node will be done using this script:
 
 ```bash
-curl -O https://raw.githubusercontent.com/harmony-one/auto-node/master/scripts/auto_node.sh && chmod +x ./auto_node.sh && ./auto_node.sh setup
+curl -O https://raw.githubusercontent.com/harmony-one/auto-node/master/scripts/auto_node.sh \
+&& chmod +x ./auto_node.sh && ./auto_node.sh setup
 ```
 
 **Step 4:** Edit the `validator_config.json` file:
@@ -140,7 +141,8 @@ Detach from tmux session afterwards by pressing ctrl + b, then d
 Optional: once detached, export the BLS key files with: 
 
 ```bash
-./auto_node.sh export-bls . && mkdir -p harmony_bls_keys && cp -R bls_keys/. harmony_bls_keys/
+./auto_node.sh export-bls . && mkdir -p harmony_bls_keys \
+&& cp -R bls_keys/. harmony_bls_keys/
 ```
 
 This ensures that the BLS key will be reused should you have to relaunch your node.
