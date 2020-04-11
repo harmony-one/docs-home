@@ -7,7 +7,7 @@ description: >-
 
 # AutoNode
 
-## Install Docker & Tmux
+## 1. Install Docker & Tmux
 
 **Step 1:** Spin up your instance on [AWS](first-time-setup/cloud-guides/aws.md) or [other providers](https://docs.harmony.one/home/validators/first-time-setup/cloud-guides).
 
@@ -43,7 +43,7 @@ sudo yum update -y && sudo yum install -y docker \
 The above command with exit out of SSH for you \(needed for docker install\). SSH back into the machine.
 {% endhint %}
 
-## Configure Validator
+## 2. Configure Validator
 
 **Step 1:** Download the Harmony CLI:
 
@@ -67,14 +67,20 @@ curl -LO https://harmony.one/hmycli && mv hmycli hmy && chmod +x hmy
 {% endtab %}
 {% endtabs %}
 
-**Step 3:** Download the `auto_node.sh` shell script. All things related to the node will be done using this script:
+**Step 3:** Download latest `auto_node.sh` version:
 
 ```bash
 curl -O https://raw.githubusercontent.com/harmony-one/auto-node/master/scripts/auto_node.sh \
-&& chmod +x ./auto_node.sh && ./auto_node.sh setup
+&& chmod +x ./auto_node.sh
 ```
 
-**Step 4:** Edit the `validator_config.json` file:
+**Step 4**: Setup `auto_node.sh`:
+
+```bash
+./auto_node.sh setup
+```
+
+**Step 5:** Edit the `validator_config.json` file:
 
 {% tabs %}
 {% tab title="Edit Command" %}
@@ -113,7 +119,7 @@ Note that the ONE address has to be in quotes
 Optional: fund the account. If faucet is working, auto node will automatically fund the account if needed.
 {% endhint %}
 
-## **Run AutoNode**
+## **3. Run AutoNode**
 
 **Step 1:** Open a new tmux session by running the command bellow. "Node" will be the name of your tmux session:
 
@@ -126,6 +132,10 @@ In case you already have a tmux session named "node" running you can just attach
 {% endhint %}
 
 **Step 2:** Run the node:
+
+{% hint style="info" %}
+Make sure you have the latest AutoNode version installed before running it. To download the latest version proceed to [Section 3](https://docs.harmony.one/home/validators/autonode-1#configure-validator) and execute Step 3.
+{% endhint %}
 
 ```bash
 ./auto_node.sh run --auto-active --auto-reset --clean
