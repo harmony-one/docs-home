@@ -41,6 +41,7 @@
       * [AWS](validators/first-time-setup/cloud-guides/aws.md)
       * [Google Cloud](validators/first-time-setup/cloud-guides/google-cloud.md)
       * [Vultr](validators/first-time-setup/cloud-guides/vultr.md)
+      * [Digital Ocean](validators/first-time-setup/cloud-guides/digital-ocean.md)
     * [HMY CLI Download](validators/first-time-setup/hmy-cli-download-1.md)
     * [Generating A BLS Key](validators/first-time-setup/generating-a-bls-key.md)
     * [Running a Node](validators/first-time-setup/running-a-node.md)
