@@ -7,84 +7,55 @@ description: >-
 
 # AutoNode
 
-#### Note that steps 1 to 6 are for installing _Docker_ and _Tmux_ on an Amazon Linux or Ubuntu. So long as you have said things installed on your machine of choice, the autonode will work.
-
-{% hint style="success" %}
-Skip to step 7 if you have a machine setup with Docker and Tmux. 
-{% endhint %}
+## Install Docker & Tmux
 
 **Step 1:** Spin up your instance on [AWS](first-time-setup/cloud-guides/aws.md) or [other providers](https://docs.harmony.one/home/validators/first-time-setup/cloud-guides).
 
 > It is recommended to go with Ubuntu or Amazon Linux as your operating system.
 
-**Step 2:** [SSH](https://docs.harmony.one/home/validators/first-time-setup/cloud-guides/aws#step-2-connecting-to-your-aws-instance) into the machine
+**Step 2:** [SSH](https://docs.harmony.one/home/validators/first-time-setup/cloud-guides/aws#step-2-connecting-to-your-aws-instance) into the machine.
 
-**Step 3:** Setup the machine \(Docker\) 
+**Step 3:** Setup the machine \(Docker\):
 
 {% tabs %}
 {% tab title="Ubuntu" %}
 ```bash
-sudo apt-get update -y && sudo apt install docker.io -y
+sudo apt-get update -y && sudo apt install docker.io -y \
+&& sudo usermod -aG docker $USER && sudo systemctl start docker \
+&& sudo systemctl enable docker && sudo apt install tmux -y \
+&& exit
 ```
 {% endtab %}
 
 {% tab title="Amazon Linux" %}
 ```bash
-sudo yum update -y && sudo yum install -y docker
+sudo yum update -y && sudo yum install -y docker \
+&& sudo usermod -aG docker $USER && sudo service docker start \
+&& sudo yum install -y tmux \
+&& exit
 ```
 {% endtab %}
 {% endtabs %}
 
 > For more details on how to setup docker, reference [this](https://docs.docker.com/engine/install/).
 
-**Step 4:** Check the user you are logged with using the command `who`. It will return something like the example bellow, whereas "myuser" is the user i am logging with at the moment.
+{% hint style="info" %}
+The above command with exit out of SSH for you \(needed for docker install\). SSH back into the machine.
+{% endhint %}
 
-```bash
-who
-myuser pts/0        2020-04-09 12:20 (201.48.142.117)
-```
+## Configure Validator
 
-**Step 5:** Add the user returned by the command `who`to the docker group:
-
-```bash
-sudo usermod -aG docker myuser
-```
-
-**Step 6:** Enable docker, start it and install Tmux:
-
-{% tabs %}
-{% tab title="Ubuntu" %}
-```bash
-sudo systemctl start docker && sudo systemctl enable docker && sudo apt install tmux -y && exit
-```
-{% endtab %}
-
-{% tab title="Amazon Linux" %}
-```bash
-sudo service docker start && sudo yum install -y tmux && exit
-```
-{% endtab %}
-{% endtabs %}
-
-**Step 7:** The above command with exit out of SSH for you \(needed for docker install\). SSH back into the machine.
-
-**Step 8:** Download the Harmony CLI:
+**Step 1:** Download the Harmony CLI:
 
 ```bash
 curl -LO https://harmony.one/hmycli && mv hmycli hmy && chmod +x hmy
 ```
 
-**Step 9:** Download the `auto_node.sh` shell script. All things related to the node will be done using this script:
-
-```bash
-curl -O https://raw.githubusercontent.com/harmony-one/auto-node/master/scripts/auto_node.sh && chmod +x ./auto_node.sh && ./auto_node.sh setup
-```
-
-**Step 10:** Create a new key or import an existing key:
+**Step 2:** Create a new key or import an existing key:
 
 {% tabs %}
 {% tab title="New Key" %}
-```text
+```bash
 ./hmy keys add validator
 ```
 {% endtab %}
@@ -96,7 +67,13 @@ curl -O https://raw.githubusercontent.com/harmony-one/auto-node/master/scripts/a
 {% endtab %}
 {% endtabs %}
 
-**Step 11:** Edit the `validator_config.json` file:
+**Step 3:** Download the `auto_node.sh` shell script. All things related to the node will be done using this script:
+
+```bash
+curl -O https://raw.githubusercontent.com/harmony-one/auto-node/master/scripts/auto_node.sh && chmod +x ./auto_node.sh && ./auto_node.sh setup
+```
+
+**Step 4:** Edit the `validator_config.json` file:
 
 {% tabs %}
 {% tab title="Edit Command" %}
@@ -106,7 +83,7 @@ nano validator_config.json
 {% endtab %}
 
 {% tab title="Example File" %}
-```javascript
+```bash
 {
     "validator-addr": "one1pr0xktszlvynpkf5pxft7kkwl4sauy5xcl2vsd",
     "name": "harmony_autonode",
@@ -126,22 +103,28 @@ nano validator_config.json
 {% endtabs %}
 
 {% hint style="warning" %}
-Note that the one address has to be in quotes
+Note that the ONE address has to be in quotes
 {% endhint %}
 
-**Step 12:** Save and exit config by pressing **Ctrl + O** then hit enter, then press **Ctrl + X**:
+**Step 4:** Save and exit config by pressing **Ctrl + O** then hit enter, then press **Ctrl + X**:
 
 {% hint style="info" %}
 Optional: fund the account. If faucet is working, auto node will automatically fund the account if needed.
 {% endhint %}
 
-**Step 13:** Open a new tmux session by running the command bellow. "Node" will be the name of your tmux session:
+## **Run AutoNode**
+
+**Step 1:** Open a new tmux session by running the command bellow. "Node" will be the name of your tmux session:
 
 ```bash
-tmux new-session -s node 
+tmux new-session -s node
 ```
 
-**Step 14:** Run the node:
+{% hint style="info" %}
+In case you already have a tmux session named "node" running you can just attach it by running:`tmux attach-session -t node`
+{% endhint %}
+
+**Step 2:** Run the node:
 
 ```bash
 ./auto_node.sh run --auto-active --auto-reset --clean
