@@ -184,7 +184,7 @@ Once detached, deactivate your node with:
 ./auto_node.sh deactivate
 ```
 
-Then once you are ready to validate again, activate your node with 
+Then once you are ready to validate again, activate your node with:
 
 ```bash
 ./auto_node.sh activate
