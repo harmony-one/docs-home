@@ -134,7 +134,7 @@ In case you already have a tmux session named "node" running you can just attach
 **Step 2:** Run the node:
 
 {% hint style="info" %}
-Make sure you have the latest AutoNode version installed before running it. To download the latest version proceed to[ Section 3](https://docs.harmony.one/home/validators/autonode-1#2-configure-validator) and execute Step 3.
+Make sure you have the latest AutoNode version installed before running it. To download the latest version proceed to [Section 2](https://docs.harmony.one/home/validators/autonode-1#2-configure-validator) and execute Step 3.
 {% endhint %}
 
 ```bash
