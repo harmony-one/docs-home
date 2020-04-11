@@ -155,6 +155,16 @@ If detached for AutoNode, attach with:
 ./auto_node.sh attach
 ```
 
+### Manually creating a validator:
+
+Once detached, create a validator with:
+
+```bash
+./auto_node.sh create-validator
+```
+
+> This might have to be done if the associated validator address had insufficient funds when AutoNode attempted to create a validator.
+
 ### Saving BLS keys for reuse:
 
 Once detached, export the BLS key files with: 
