@@ -7,7 +7,7 @@ description: >-
 
 # AutoNode
 
-## 1. Install Docker & Tmux
+## 1. Install Docker
 
 **Step 1:** Spin up your instance on [AWS](first-time-setup/cloud-guides/aws.md) or [other providers](https://docs.harmony.one/home/validators/first-time-setup/cloud-guides).
 
@@ -22,8 +22,7 @@ description: >-
 ```bash
 sudo apt-get update -y && sudo apt install docker.io -y \
 && sudo usermod -aG docker $USER && sudo systemctl start docker \
-&& sudo systemctl enable docker && sudo apt install tmux -y \
-&& exit
+&& sudo systemctl enable docker && exit
 ```
 {% endtab %}
 
@@ -31,7 +30,6 @@ sudo apt-get update -y && sudo apt install docker.io -y \
 ```bash
 sudo yum update -y && sudo yum install -y docker \
 && sudo usermod -aG docker $USER && sudo service docker start \
-&& sudo yum install -y tmux \
 && exit
 ```
 {% endtab %}
@@ -116,39 +114,50 @@ Note that the ONE address has to be in quotes
 **Step 6:** Save and exit config by pressing **Ctrl + O** then hit enter, then press **Ctrl + X**:
 
 {% hint style="info" %}
-Optional: fund the account. If faucet is working, auto node will automatically fund the account if needed.
+Optional: fund the account. For OSTN, the faucet is [here](https://faucet.os.hmny.io/).
 {% endhint %}
 
 ## **3. Run AutoNode**
 
-**Step 1:** Open a new tmux session by running the command bellow. "Node" will be the name of your tmux session:
-
-```bash
-tmux new-session -s node
-```
-
-{% hint style="info" %}
-In case you already have a tmux session named "node" running you can just attach it by running:`tmux attach-session -t node`
-{% endhint %}
-
-**Step 2:** Run the node:
-
-{% hint style="info" %}
+{% hint style="success" %}
 Make sure you have the latest AutoNode version installed before running it. To download the latest version proceed to [Section 2](https://docs.harmony.one/home/validators/autonode-1#2-configure-validator) and execute Step 3.
 {% endhint %}
+
+**Step 1:** Run autonode with the following command:
 
 ```bash
 ./auto_node.sh run --auto-active --auto-reset --clean
 ```
 
-> Answer the prompts with `Y` or `N`
+**Step 2:** Answer the prompts with `Y` or `N`
+
+**Step 3:** After you see a loop of the node's header information \(labeled something like `This node's latest header at 2020-04-11 05:35:06.065816: { ...`\), detach from the AutoNode session by pressing **Ctrl + b**, _then_ **d** 
+
+And that's it, you're done! Feel free to exit the SSH session. 
 
 {% hint style="info" %}
-Detach from tmux session afterwards by pressing ctrl + b, then d 
+Optional: once detached, export the node information with `./auto_node.sh export` and save it.
 {% endhint %}
 
-{% hint style="info" %}
-Optional: once detached, export the BLS key files with: 
+## 4. Maintenance
+
+{% hint style="success" %}
+Make sure you are [SSH](https://docs.harmony.one/home/validators/first-time-setup/cloud-guides/aws#step-2-connecting-to-your-aws-instance)-ed into your node's machine.
+
+Make sure you are not attached to your AutoNode's session. If you are attached, detach by pressing **Ctrl + b**, _then_ **d.** 
+{% endhint %}
+
+### Viewing node progress:
+
+If detached for AutoNode, attach with:
+
+```bash
+./auto_node.sh attach
+```
+
+### Saving BLS keys for reuse:
+
+Once detached, export the BLS key files with: 
 
 ```bash
 ./auto_node.sh export-bls . && mkdir -p harmony_bls_keys \
@@ -156,9 +165,34 @@ Optional: once detached, export the BLS key files with:
 ```
 
 This ensures that the BLS key will be reused should you have to relaunch your node.
-{% endhint %}
+
+### Deactivate your node for maintenance:
+
+Once detached, deactivate your node with:
+
+```bash
+./auto_node.sh deactivate
+```
+
+Then once you are ready to validate again, activate your node with 
+
+```bash
+./auto_node.sh activate
+```
+
+> This requires that you **DO NOT** run AutoNode with `--auto-active` option.
+
+### Kill your node:
+
+Once detached, kill your node with:
+
+```bash
+./auto_node.sh kill
+```
 
 {% hint style="info" %}
-Optional: once detached, export the node information with `./auto_node.sh export`
+More details about AutoNode can be found [here](https://github.com/harmony-one/auto-node). Feel free to contribute!
 {% endhint %}
+
+##  
 
