@@ -3,9 +3,9 @@
 {% hint style="info" %}
 Wait for your node to sync before creating a validator.
 
-Check your current block height with `./hmy blockchain latest-header`.
+Check your current block height with `./hmy blockchain latest-headers`
 
-Check chain block height with `./hmy blockchain latest-header --node=[endpoint]`.
+Check chain block height with `./hmy blockchain latest-header --node=[endpoint]`
 {% endhint %}
 
 ## Getting ONE Tokens <a id="getting-one-tokens"></a>
