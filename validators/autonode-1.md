@@ -113,9 +113,7 @@ Note that the ONE address has to be in quotes
 
 **Step 6:** Save and exit config by pressing **Ctrl + O** then hit enter, then press **Ctrl + X**:
 
-{% hint style="info" %}
-Fund your one1 account. For OSTN, the faucet is [here](https://faucet.os.hmny.io/).
-{% endhint %}
+**Step 7:** Fund your one1 account. For OSTN, the faucet is here.
 
 ## **3. Run AutoNode**
 
@@ -129,7 +127,7 @@ Make sure you have the latest AutoNode version installed before running it. To d
 ./auto_node.sh run --auto-active --auto-reset --clean
 ```
 
-**Step 2:** Answer the prompts with `Y` or `N`
+**Step 2:** Answer the prompts with `Y` or `N` \(this process may take a minute\)
 
 **Step 3:** After you see a loop of the node's header information \(labeled something like `This node's latest header at 2020-04-11 05:35:06.065816: { ...`\), detach from the AutoNode session by pressing **Ctrl + b**, _then_ **d** 
 
