@@ -20,7 +20,7 @@ Throughout this guide, we will use the following syntax:
 
 Enter the following command into your shell of choice:
 
-```text
+```bash
 curl -LO https://harmony.one/hmycli && mv hmycli hmy && chmod +x hmy
 ```
 
@@ -32,7 +32,7 @@ If you have permission issues, enter the commands with "sudo" at the beginning, 
 
 `hmy` depends on some dynamic libraries, hence we recommend using the shell wrapper. Enter there commands into your terminal:
 
-```text
+```bash
 curl -O https://raw.githubusercontent.com/harmony-one/go-sdk/master/scripts/hmy.sh
 chmod u+x hmy.sh
 ./hmy.sh -d
@@ -56,7 +56,7 @@ If you are interested in compiling from source, then the process is more involve
 Have [`mcl`](https://github.com/harmony-one/mcl), [`bls`](https://github.com/harmony-one/bls) all built and prepared. This may require you to see instructions in the [`harmony`](https://github.com/harmony-one/harmony) repo's readme.
 {% endhint %}
 
-```text
+```bash
 cd /Users/edgar/Repos/harmony-work/src/github.com/harmony-one
 ls
 bls harmony mcl
@@ -65,13 +65,13 @@ git clone https://github.com/harmony-one/go-sdk.git
 
 1. Then setup the build flags:
 
-```text
+```bash
 source harmony/scripts/setup_bls_build_flags.sh
 ```
 
 1. Call `make` in the `go-sdk` repo. This builds a binary named `hmy`:
 
-```text
+```bash
 cd go-sdk
 make
 ```

@@ -8,25 +8,25 @@ Perhaps the most important feature of the `hmy` CLI is the ability to create and
 
 #### Using the Binary:
 
-```text
+```bash
 ./hmy transfer --node="<endpoint_address>" \
  --from <ONE_address> --to <ONE_address> \
- --from-shard <shard_#> --to-shard <shard_#> \
+ --from-shard <shard> --to-shard <shard> \
  --amount <amount> --chain-id <chain-id> --passphrase
 ```
 
 #### Using the Shell Script:
 
-```text
+```bash
 ./hmy.sh -- transfer --node="<endpoint_address>" \
  --from <ONE_address> --to <ONE_address> \
- --from-shard <shard_#> --to-shard <shard_#> \
+ --from-shard <shard> --to-shard <shard> \
  --amount <amount> --chain-id <chain-id> --passphrase
 ```
 
 #### Example:
 
-```text
+```bash
 ./hmy --node="https://api.s0.t.hmny.io" \
  transfer --from one1yc06ghr2p8xnl2380kpfayweguuhxdtupkhqzw \
  --to one1q6gkzcap0uruuu8r6sldxuu47pd4ww9w9t7tg6 \    
@@ -39,19 +39,19 @@ Check for finality of the transaction by using the transaction hash like so:
 
 #### Using the Binary:
 
-```text
+```bash
 ./hmy blockchain transaction-receipt <transaction_id> --node="<endpoint_address>"
 ```
 
 #### Using the Shell Script:
 
-```text
+```bash
 ./hmy.sh -- blockchain transaction-receipt <transaction_id> --node="<node_address>"
 ```
 
 #### Example:
 
-```text
+```bash
 ./hmy --node="https://api.s0.t.hmny.io" \
  blockchain transaction-receipt \
  0x599793f313ee17566f8d09728b9d043b8e26135ddce86beeee13f98767d452f7
@@ -65,19 +65,19 @@ Let's first check what chain-ids are available for us to use, we can do that eas
 
 #### Using the Binary:
 
-```text
+```bash
 ./hmy blockchain known-chains
 ```
 
 #### Using the Shell Script:
 
-```text
+```bash
 ./hmy.sh -- blockchain known-chains
 ```
 
 #### Example:
 
-```text
+```bash
 ./hmy blockchain known-chains
 
 [
@@ -117,25 +117,25 @@ Thus, a correct usage of `transfer` looks like:
 
 #### Using the Binary:
 
-```text
+```bash
 ./hmy transfer --node="<node_address>" \
  --from <ONE_address> --to <ONE_address> \
- --from-shard <shard_#> --to-shard <shard_#> \
+ --from-shard <shard> --to-shard <shard> \
  --amount <amount> --chain-id <chain-id> --passphrase
 ```
 
 #### Using the Shell Wrapper:
 
-```text
+```bash
 ./hmy.sh -- transfer --node="<node_address>" \
  --from <ONE_address> --to <ONE_address> \
- --from-shard <shard_#> --to-shard <shard_#> \
+ --from-shard <shard> --to-shard <shard> \
  --amount <amount> --chain-id <chain-id> --passphrase
 ```
 
 #### Example:
 
-```text
+```bash
 ./hmy transfer --node="https://api.s0.t.hmny.io" \
  --from one1yc06ghr2p8xnl2380kpfayweguuhxdtupkhqzw \
  --to one1q6gkzcap0uruuu8r6sldxuu47pd4ww9w9t7tg6 \
@@ -167,13 +167,13 @@ We can pull down details of the finalized transaction with `./hmy blockchain tra
 
 #### Using the Binary:
 
-```text
+```bash
 ./hmy blockchain transaction-receipt --node="<endpoint-address>" <transaction-hash>
 ```
 
 #### Using the Shell Wrapper:
 
-```text
+```bash
 ./hmy.sh -- blockchain transaction-receipt --node="<endpoint-address>" <transaction-hash>
 ```
 

@@ -14,13 +14,13 @@ Creation of a new account is done as a function of a generated `bip39` mnemonic 
 
 #### Using the Binary:
 
-```text
+```bash
 ./hmy keys add <account-name> [--passphrase]
 ```
 
 #### Using the Shell Script:
 
-```text
+```bash
 ./hmy.sh keys add <account-name1> [--passphrase]
 ```
 
@@ -48,13 +48,13 @@ To know where your wallet file has been created, run the following command:
 
 #### Using the Binary:
 
-```text
+```bash
 ./hmy keys location
 ```
 
 #### Using the Shell Script:
 
-```text
+```bash
 ./hmy.sh keys location
 ```
 
@@ -62,13 +62,13 @@ You can check the list of wallets \(local accounts\) with the following command:
 
 #### Using the Binary:
 
-```text
+```bash
 ./hmy keys list
 ```
 
 #### Using the Shell Script:
 
-```text
+```bash
 ./hmy.sh keys list
 ```
 
@@ -92,19 +92,19 @@ Note that the --passphrase flag only enables a password prompt after the command
 
 #### Using the Binary:
 
-```text
+```bash
 ./hmy keys import-ks <absolute_path_to_keystore> --passphrase
 ```
 
 #### Using the Shell Script:
 
-```text
+```bash
 ./hmy.sh keys import-ks <absolute_path_to_keystore> --passphrase
 ```
 
 #### Example:
 
-```text
+```bash
 If you are a FN runner:
 ./hmy keys import-ks /root/.hmy/keystore/UTC--2020-01-15T01-02-06.606670000Z--9689a0711642bf08ea92ed98d552f0c1b8c8cefb --passphrase
 
@@ -118,7 +118,7 @@ If you are a FN runner:
 
 Sometimes you might have a secp256k1 private key, such as the one generated from the following command:
 
-```text
+```bash
 openssl ecparam -genkey -name secp256k1 -text -noout -outform DER | xxd -p -c 1000 | sed 's/41534e31204f49443a20736563703235366b310a30740201010420/PrivKey: /' | sed 's/a00706052b8104000aa144034200/\'$'\nPubKey: /'
 ```
 
@@ -126,19 +126,19 @@ You can import the key with an optional name and passphrase
 
 #### Using the Binary:
 
-```text
+```bash
 ./hmy keys import-private-key <secp256k1_private_key> [wallet_name] [--passphrase]
 ```
 
 #### Using the Shell Scripts:
 
-```text
+```bash
 ./hmy.sh keys import-private-key <secp256k1_private_key> [wallet_name] [--passphrase]
 ```
 
 #### Example:
 
-```text
+```bash
 ./hmy keys import-private-key b8798ca0a56ce16517ea37c6b1229cbb67cf0e022c423b044fe8f537830d8be5 my_wallet_name_here --passphrase
 ```
 
@@ -150,19 +150,19 @@ You can recover lost wallet keys by entering the mnemonic words you received \(a
 
 #### Using the Binary:
 
-```text
+```bash
 ./hmy keys recover-from-mnemonic [wallet_name]
 ```
 
 #### Using the Shell Script:
 
-```text
+```bash
 ./hmy.sh keys recover-from-mnemonic [wallet_name]
 ```
 
 #### Example:
 
-```text
+```bash
 ./hmy keys recover-from-mnemonic nameofyourkey
 
 Enter mnemonic to recover keys from
