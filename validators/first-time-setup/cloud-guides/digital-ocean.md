@@ -10,11 +10,15 @@ To launch your Digital Ocean instance, we will go through 2 steps.
 
 * Connecting to your Digital Ocean instance 
 
+{% hint style="info" %}
+For new users, you can get $100 dollars free credits to run Digital Ocean services for 2 months using the link bellow
+{% endhint %}
+
 ## Step 1: Launching your Digital Ocean Node <a id="step-1-launching-your-aws-node"></a>
 
 ### Logging into **Digital Ocean** <a id="logging-into-vultr"></a>
 
-[​Digital Ocean Main Page](https://www.digitalocean.com/) If you don’t already have an Digital Ocean account, register one by clicking on "Sign up". Otherwise, log into your Digital Ocean Account by clicking on "Sign in".
+[​](https://www.digitalocean.com/)Click [here](https://try.digitalocean.com/performance/) to register a new Digital Ocean account or login if you have an existing one.
 
 ### Create a new P**roject** <a id="create-a-new-instance"></a>
 
