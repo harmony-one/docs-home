@@ -40,15 +40,39 @@ Paste your public SSH key, give it a name and click on button "Add SSH key" as s
 
 ![](../../../.gitbook/assets/do3.3%20%281%29.png)
 
+Choose a custom hostname if you want and then click on "Create Droplet".
+
 ![](../../../.gitbook/assets/do3.4.png)
 
-![](../../../.gitbook/assets/do4.png)
+### Setup the Firewall <a id="create-firewall-group"></a>
 
-![](../../../.gitbook/assets/do5.png)
+Wait a few seconds till your droplet is created and then click on "Networking" on the left bar.
 
-![](../../../.gitbook/assets/do5.1.png)
+![](../../../.gitbook/assets/do4%20%281%29.png)
+
+Click on "Firewall" and then on "Create Firewall".
+
+![](../../../.gitbook/assets/do5%20%281%29.png)
+
+In the Inbound Rules section, click on "New rule" and select "Custom". Leave the protocol as **TCP** and fill the port range field with **6000**. Repeat the same procedure for port **9000**. You will be left with 2 inbound rules as shown by the image bellow.
+
+![](../../../.gitbook/assets/do5.1%20%281%29.png)
+
+In the Outbound Rules section leave it as it is. Type the name of the droplet you want to apply your firewall rules \(the droplet name is the same as your hostname you chose previously\).Click now on "Create Firewall".
 
 ![](../../../.gitbook/assets/do5.2.png)
+
+## **Step 2: Connecting to your Digital Ocean Node** <a id="step-2-connecting-to-your-vultr-node"></a>
+
+**Connect to your Vultr Instance by using Git Bash.**
+
+If you do not have gitbash installed. Please visit this [link to install](https://gitforwindows.org/). Everything can be default selection when you are installing.
+
+In your Vultr instance console overview. You will see your instance information. To go into your instance from git bash. We will use the command:
+
+```text
+ssh root@<INSTANCEIPADDRESS>
+```
 
 ![](../../../.gitbook/assets/dossh.png)
 
