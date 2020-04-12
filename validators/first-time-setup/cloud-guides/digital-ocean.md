@@ -78,5 +78,3 @@ It will the prompt you for a password. Just login in using your credentials.
 
 ![](../../../.gitbook/assets/dossh.png)
 
-
-
