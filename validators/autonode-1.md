@@ -114,7 +114,7 @@ Note that the ONE address has to be in quotes
 **Step 6:** Save and exit config by pressing **Ctrl + O** then hit enter, then press **Ctrl + X**:
 
 {% hint style="info" %}
-Optional: fund the account. For OSTN, the faucet is [here](https://faucet.os.hmny.io/).
+Fund the account. For OSTN, the faucet is [here](https://faucet.os.hmny.io/).
 {% endhint %}
 
 ## **3. Run AutoNode**
