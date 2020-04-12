@@ -28,7 +28,7 @@ Save your private key\(s\) before updating the extension.
 
 8. Click on the icon, create a new address. \(do not forget to remember passphrase\).
 
-9. Go to [https://staking.harmony.one](https://staking.harmony.one/portfolio).
+9. Go to [https://staking.harmony.one](https://staking.harmony.one).
 
 10. Click on Sign in, Use an existing address, Use Lunie Browser Extension \(sorry we will modify as Harmony Browser Extension\), Use Account.
 
