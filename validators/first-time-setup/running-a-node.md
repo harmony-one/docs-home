@@ -100,13 +100,13 @@ ex :
 {% endtab %}
 
 {% tab title="OSTN S1" %}
-```
+```bash
 ./hmy --node="https://api.s1.os.hmny.io" blockchain latest-headers
 ```
 {% endtab %}
 
 {% tab title="Partner Network S0" %}
-```
+```bash
 ./hmy --node="https://api.s0.ps.hmny.io" blockchain latest-headers
 ```
 {% endtab %}
