@@ -31,7 +31,7 @@ Non election in the EPOS committee are caused by two main issues :
 {% tabs %}
 {% tab title="CLI" %}
 ```bash
- ./hmy -n https://api.s0.os.hmny.io blockchain median-stake | grep median
+ ./hmy --node="https://api.s0.os.hmny.io" blockchain median-stake | grep median
     "epos-median-stake": "1550000000000000000000000.000000000000000000",
 
 ```
@@ -72,8 +72,8 @@ Make sure your max-total-delegation is high enough and above the median stake so
 Issue the command   
 ./hmy -n [https://api.s0.os.hmny.io](https://api.s0.os.hmny.io) blockchain validator information \[VALIDATOR-ACCOUNT\] \| grep epos-status
 
-```text
-./hmy -n https://api.s0.os.hmny.io blockchain validator information  one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd | grep epos-status
+```bash
+./hmy --node="https://api.s0.os.hmny.io" blockchain validator information  one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd | grep epos-status
     "epos-status": "currently elected",      
 ```
 
@@ -81,15 +81,15 @@ If **not eligible**, update it to active via the command
 ./hmy -n [https://api.s0.os.hmny.io](https://api.s0.os.hmny.io) staking edit-validator --validator-addr &lt;ONE\_VALIDATOR\_ACCOUNT&gt; --active true --passphrase
 
 {% tabs %}
-{% tab title="OSTN" %}
-```text
-./hmy -n https://api.s0.os.hmny.io staking edit-validator --validator-addr one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd --active true --passphrase
+{% tab title="Open Staking Network" %}
+```bash
+./hmy --node="https://api.s0.os.hmny.io" staking edit-validator --validator-addr one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd --active true --passphrase
 ```
 {% endtab %}
 
-{% tab title="Partner Network" %}
-```
-./hmy -n https://api.s0.ps.hmny.io staking edit-validator --validator-addr one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd --active true --passphrase
+{% tab title="Partner Testnet" %}
+```bash
+./hmy --node="https://api.s0.ps.hmny.io" staking edit-validator --validator-addr one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd --active true --passphrase
 ```
 {% endtab %}
 {% endtabs %}
@@ -100,15 +100,15 @@ using the command
 ./hmy -n [https://api.s0.os.hmny.io](https://api.s0.os.hmny.io) blockchain validator information &lt;ONE\_VALIDATOR\_ACCOUNT&gt;
 
 {% tabs %}
-{% tab title="OSTN" %}
-```text
-./hmy -n https://api.s0.os.hmny.io blockchain validator information one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd
+{% tab title="Open Staking Network" %}
+```bash
+./hmy --node="https://api.s0.os.hmny.io" blockchain validator information one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd
 ```
 {% endtab %}
 
-{% tab title="Partner Network" %}
-```
-./hmy -n https://api.s0.ps.hmny.io blockchain validator information one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd
+{% tab title="Partner Testnet" %}
+```bash
+./hmy --node="https://api.s0.ps.hmny.io" blockchain validator information one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd
 ```
 {% endtab %}
 {% endtabs %}
@@ -137,7 +137,7 @@ To fix the above, we have to make sure the node is working correctly and below a
 
 Compare your block height
 
-```text
+```bash
 ./hmy blockchain latest-headers | grep blockNumber
 ```
 
@@ -149,15 +149,15 @@ It means the harmony node binary is not running. Please follow this documentatio
 and the network block height
 
 {% tabs %}
-{% tab title="OSTN" %}
-```text
-./hmy -n https://api.s0.os.hmny.io blockchain latest-headers | grep blockNumber 
+{% tab title="Open Staking Network" %}
+```bash
+./hmy --node="https://api.s0.os.hmny.io" blockchain latest-headers | grep blockNumber 
 ```
 {% endtab %}
 
-{% tab title="Partner network" %}
-```
-./hmy -n https://api.s0.ps.hmny.io blockchain latest-headers | grep blockNumber 
+{% tab title="Partner Testnet" %}
+```bash
+./hmy --node="https://api.s0.ps.hmny.io" blockchain latest-headers | grep blockNumber 
 ```
 {% endtab %}
 {% endtabs %}
@@ -172,7 +172,7 @@ When you are fully synced and your validator profile is satisfactory you should 
 
 You can check BINGOs via this command
 
-```text
+```bash
 tail -f latest/zero*.log | grep BINGO
 ```
 

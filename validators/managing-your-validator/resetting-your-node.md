@@ -22,25 +22,25 @@ description: Use the below steps to reset your node after OSTN refresh
 
 9. Update wallet :
 
-```text
+```bash
 sudo curl -LO https://harmony.one/hmycli && sudo mv hmycli hmy && sudo chmod +x hmy
 ```
 
 10. Update binary:
 
-```text
+```bash
 sudo curl -LO https://harmony.one/node2.sh && sudo mv node2.sh node.sh && sudo chmod a+x node.sh
 ```
 
 11. Then run your node again by:
 
-```text
+```bash
 ./node.sh -S -c -I -N staking -z -k [BLS KEY FILE].key
 ```
 
 Or if you are running with Multiple BLSkeys, run your node with the following command
 
-```text
+```bash
 ./node.sh -S -c -I -N staking -z -M
 ```
 
@@ -48,22 +48,22 @@ Or if you are running with Multiple BLSkeys, run your node with the following co
 
 13. Fund your ONE address using: 
 
-```text
+```bash
 curl -X GET https://faucet.os.hmny.io/fund?address=[ONE ADDRESS]
 ```
 
-14. Create your validator again
+14. Create your validator again:
 
 {% tabs %}
 {% tab title="Open Staking Testnet" %}
-```text
-./hmy --node=https://api.s0.os.hmny.io staking create-validator \
-    --validator-addr [ONE ADDRESS] --amount 10 \
+```bash
+./hmy --node="https://api.s0.os.hmny.io" staking create-validator \
+    --validator-addr [ONE ADDRESS] --amount 10000 \
     --bls-pubkeys [BLS PUBLIC KEY1],[BLS PUBLIC KEY2] \
     --name "[NAME]" --identity "[IDENTITY]" --details "DETAILS" \
     --security-contact "CONTACT" --website "YOUR-WEBSITE.COM" \
     --max-change-rate 0.1 --max-rate 0.1 --rate 0.1 \
-    --max-total-delegation 100 --min-self-delegation 10 --passphrase
+    --max-total-delegation 100000000 --min-self-delegation 10000 --passphrase
 
 ```
 {% endtab %}

@@ -4,14 +4,14 @@ You can see the number of delegations to your validator with the following comma
 
 {% tabs %}
 {% tab title="Open Staking Testnet" %}
-```text
-./hmy --node=https://api.s0.os.hmny.io blockchain delegation by-validator [VALIDATOR ADDRESS]
+```bash
+./hmy --node="https://api.s0.os.hmny.io" blockchain delegation by-validator [VALIDATOR ADDRESS]
 ```
 {% endtab %}
 
 {% tab title="Partner Testnet" %}
-```
-./hmy --node=https://api.s0.ps.hmny.io blockchain delegation by-validator [VALIDATOR ADDRESS]
+```bash
+./hmy --node="https://api.s0.ps.hmny.io" blockchain delegation by-validator [VALIDATOR ADDRESS]
 ```
 {% endtab %}
 {% endtabs %}

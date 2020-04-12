@@ -5,7 +5,7 @@
 {% hint style="info" %}
 The Harmony blockchain is a _sharded_ blockchain, therefore some commands depend on which _shard_ you target. The shard you target when querying is controlled by the `--node` flag. For example, if a transaction is made between shard 0 and shard 1, the transaction receipt must be queried from whichever shard sent the funds - in this case shard 0, so the --node flag would look like this:
 
-```text
+```bash
 --node="https://api.s0.t.hmny.io"
 ```
 
@@ -36,13 +36,13 @@ Checking the hash of your transaction to see the transaction data and if the tra
 
 #### Using the Binary:
 
-```text
+```bash
 ./hmy blockchain transaction-by-hash <transaction-hash> --node="<endpoint-address>"
 ```
 
 #### Using the Shell Wrapper:
 
-```text
+```bash
 ./hmy.sh -- blockchain transaction-by-hash <transaction-hash> --node="<endpoint-address>"
 ```
 
@@ -82,13 +82,13 @@ Get information about a finalized transaction:
 
 #### Using the Binary:
 
-```text
+```bash
 ./hmy blockchain transaction-receipt <transaction-hash> --node="<endpoint-address>"
 ```
 
 #### Using the Shell Wrapper:
 
-```text
+```bash
 ./hmy.sh -- blockchain transaction-receipt <transaction-hash> --node="<endpoint-address>"
 ```
 
@@ -124,13 +124,13 @@ Checking the network status, last block, epoch, leaders, based on the shard numb
 
 #### Using the Binary:
 
-```text
+```bash
 ./hmy blockchain latest-header --node="<endpoint-address>"
 ```
 
 #### Using the Shell Wrapper:
 
-```text
+```bash
 ./hmy.sh -- blockchain latest-header --node="<endpoint-address>"
 ```
 
@@ -242,14 +242,14 @@ For example if you call latest-header and get a result of `10657` you convert th
 
 #### Using the Binary:
 
-```text
-./hmy --node=https://api.s0.os.hmny.io blockchain block-by-number <<block-number>>
+```bash
+./hmy --node="https://api.s0.os.hmny.io" blockchain block-by-number <block-number>
 ```
 
 #### Using the Shell Wrapper:
 
-```text
-./hmy.sh --node=https://api.s0.os.hmny.io blockchain block-by-number <<block-number>>
+```bash
+./hmy.sh --node="https://api.s0.os.hmny.io" blockchain block-by-number <block-number>
 ```
 
 #### Example:

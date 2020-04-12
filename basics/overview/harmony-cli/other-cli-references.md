@@ -4,7 +4,7 @@
 
 if you want a full list of commands the `hmy` tool knows in markdown format, please run the following command:
 
-```text
+```bash
 ./hmy docs
 ```
 
@@ -14,7 +14,7 @@ Then in the same directory, `hmy` creates a directory named `hmy-docs` in which 
 
 Deletion of a one account is possible by issuing the below command
 
-```text
+```bash
  ./hmy keys remove [ACCOUNT-NAME]
 ```
 

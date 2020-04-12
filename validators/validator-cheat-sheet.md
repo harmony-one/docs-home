@@ -8,53 +8,54 @@ If you are new to setting up Validators, start [here](validator-cheat-sheet.md).
 
 1. Access your cloud instance.
 
-```text
+```bash
 ssh -i [KEY].pem [SSH ADDRESS]
 ```
 
 ![AWS Connect Example](../.gitbook/assets/image%20%287%29.png)
 
-2. Install `tmux`, if your Linux distribution does not come with it
+2. Install `tmux`, if your Linux distribution does not come with it.
 
-```text
+```bash
 sudo yum install tmux
 ```
 
 3. Download the Harmony CLI.
 
-```text
+```bash
 curl -LO https://harmony.one/hmycli && mv hmycli hmy && chmod +x hmy
 ```
 
-4. Create a BLS Key
+4. Create a BLS Key.
 
 ```text
 ./hmy keys generate-bls-key --passphrase
 ```
 
-5. Download `node.sh`
+5. Download `node.sh`.
 
-```text
-curl -LO https://raw.githubusercontent.com/harmony-one/harmony/master/scripts/node.sh && chmod a+x node.sh
+```bash
+curl -LO https://raw.githubusercontent.com/harmony-one/harmony/master/scripts/node.sh \
+&& chmod a+x node.sh
 ```
 
-6. Start a new `tmux` session called `node`
+6. Start a new `tmux` session called `node`.
 
-```text
-tmux new -s node
+```bash
+tmux new-session -s node
 ```
 
-7. Run the node
+7. Run the node.
 
 {% tabs %}
 {% tab title="Open Staking Network" %}
-```
+```bash
 ./node.sh -S -c -z -I -N staking -k [BLS KEY FILE].key
 ```
 {% endtab %}
 
 {% tab title="Partner Network" %}
-```text
+```bash
 ./node.sh -S -c -z -I -N partner -k [BLS KEY FILE].key
 ```
 {% endtab %}
@@ -62,15 +63,15 @@ tmux new -s node
 
 8. Detach from the tmux session by pressing CTRL and B at the same time, then press D.
 
-9. Check that your node is syncing \(block height &gt; 0\)
+9. Check that your node is syncing \(block height &gt; 0\).
 
-```text
+```bash
 ./hmy blockchain latest-header
 ```
 
-10. Create a new wallet
+10. Create a new wallet.
 
-```text
+```bash
 ./hmy keys add [ACCOUNT NAME] --passphrase
 ```
 
@@ -78,13 +79,13 @@ tmux new -s node
 
 {% tabs %}
 {% tab title="Open Staking Testnet" %}
-```text
+```bash
 curl -X GET https://faucet.os.hmny.io/fund?address=[ONE ADDRESS]
 ```
 {% endtab %}
 
 {% tab title="Partner Testnet" %}
-```
+```bash
 curl -X GET https://faucet.ps.hmny.io/fund?address=[ONE ADDRESS]
 ```
 {% endtab %}
@@ -94,7 +95,7 @@ curl -X GET https://faucet.ps.hmny.io/fund?address=[ONE ADDRESS]
 
 {% tabs %}
 {% tab title="Open Staking Testnet" %}
-```text
+```bash
 ./hmy --node="https://api.s0.os.hmny.io" staking create-validator \
     --validator-addr [ONE ADDRESS] --amount 100000 \
     --bls-pubkeys [BLS PUBLIC KEY1],[BLS PUBLIC KEY2] \
@@ -106,7 +107,7 @@ curl -X GET https://faucet.ps.hmny.io/fund?address=[ONE ADDRESS]
 {% endtab %}
 
 {% tab title="Partner Testnet" %}
-```
+```bash
 ./hmy --node="https://api.s0.ps.hmny.io" staking create-validator \
     --validator-addr [ONE ADDRESS] --amount 100000 \
     --bls-pubkeys [BLS PUBLIC KEY1],[BLS PUBLIC KEY2] \
@@ -122,29 +123,29 @@ curl -X GET https://faucet.ps.hmny.io/fund?address=[ONE ADDRESS]
 
 {% tabs %}
 {% tab title="Open Staking Testnet" %}
-```text
+```bash
 ./hmy --node="https://api.s0.os.hmny.io" blockchain validator all | grep [ONE ADDRESS]
 ```
 {% endtab %}
 
 {% tab title="Partner Testnet" %}
-```
+```bash
 ./hmy --node="https://api.s0.ps.hmny.io" blockchain validator all | grep [ONE ADDRESS]
 ```
 {% endtab %}
 {% endtabs %}
 
-14. Collect rewards
+14. Collect rewards.
 
 {% tabs %}
 {% tab title="Open Staking Testnet" %}
-```text
+```bash
 ./hmy --node="https://api.s0.os.hmny.io" staking collect-rewards --delegator-addr [ONE ADDRESS] --passphrase
 ```
 {% endtab %}
 
 {% tab title="Partner Testnet" %}
-```
+```bash
 ./hmy --node="https://api.s0.ps.hmny.io" staking collect-rewards --delegator-addr [ONE ADDRESS] --passphrase
 ```
 {% endtab %}
@@ -154,13 +155,13 @@ curl -X GET https://faucet.ps.hmny.io/fund?address=[ONE ADDRESS]
 
 {% tabs %}
 {% tab title="Open Staking Testnet" %}
-```
+```bash
 ./hmy --node="https://api.s0.os.hmny.io" blockchain validator information [VALIDATOR ONE ADDRESS]
 ```
 {% endtab %}
 
 {% tab title="Partner Testnet" %}
-```
+```bash
 ./hmy --node="https://api.s0.ps.hmny.io" blockchain validator information [VALIDATOR ONE ADDRESS]
 ```
 {% endtab %}
