@@ -8,9 +8,9 @@ description: >-
 
 ## Create New Wallet
 
-![](../../../.gitbook/assets/image-60.png)
+![](../../.gitbook/assets/image-60.png)
 
 ## Import Wallet \(Recover\)
 
-![](../../../.gitbook/assets/image-33.png)
+![](../../.gitbook/assets/image-33.png)
 

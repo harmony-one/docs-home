@@ -1,6 +1,6 @@
 # Trust Wallet
 
-![](../../.gitbook/assets/screen-shot-2020-01-15-at-8.42.26-am.png)
+![](../.gitbook/assets/screen-shot-2020-01-15-at-8.42.26-am.png)
 
 Trust Wallet is a mobile cryptocurrency wallet. Please visit [https://trustwallet.com](https://trustwallet.com) with your mobile device to download the app.
 
@@ -20,7 +20,7 @@ Since there is no shard selection in the Trust Wallet UI, all transactions will 
 
 ### **For more details, please see these example cross-shard transactions using Trust Wallet:**
 
-![](../../.gitbook/assets/image-34.png)
+![](../.gitbook/assets/image-34.png)
 
 ### What to do if you receive funds in a shard other than shard 0 when using Trust Wallet?
 

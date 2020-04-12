@@ -16,7 +16,7 @@ Save your private key\(s\) before updating the extension.
 
 4. Enable “Developer mode” located in the top right corner, then click on Load unpacked button.
 
-![Activating the Developer mode](../../.gitbook/assets/developer_mode.jpg)
+![Activating the Developer mode](../.gitbook/assets/developer_mode.jpg)
 
 5. Then specify the unzipped folder → you may need to clear site application - go to Clear site data below.
 
