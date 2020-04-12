@@ -64,15 +64,17 @@ In the Outbound Rules section leave it as it is. Type the name of the droplet yo
 
 ## **Step 2: Connecting to your Digital Ocean Node** <a id="step-2-connecting-to-your-vultr-node"></a>
 
-**Connect to your Vultr Instance by using Git Bash.**
+**Connect to your Digital Ocean Instance by using Git Bash.**
 
 If you do not have gitbash installed. Please visit this [link to install](https://gitforwindows.org/). Everything can be default selection when you are installing.
 
-In your Vultr instance console overview. You will see your instance information. To go into your instance from git bash. We will use the command:
+Click on your project and then on Droplets. You will see the associated IP address of your selected droplet. Run the command bellow for your IP address on Gitbash:
 
 ```text
 ssh root@<INSTANCEIPADDRESS>
 ```
+
+It will the prompt you for a password. Just login in using your credentials.
 
 ![](../../../.gitbook/assets/dossh.png)
 
