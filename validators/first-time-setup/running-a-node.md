@@ -9,7 +9,8 @@ description: Using node.sh
 **1.** Run the following command to download the node.sh script:
 
 ```bash
-curl -LO https://raw.githubusercontent.com/harmony-one/harmony/master/scripts/node.sh && chmod a+x node.sh
+curl -LO https://raw.githubusercontent.com/harmony-one/harmony/master/scripts/node.sh \
+&& chmod a+x node.sh
 ```
 
 ## TMUX
