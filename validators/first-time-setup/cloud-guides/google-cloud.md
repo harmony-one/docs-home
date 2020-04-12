@@ -69,15 +69,14 @@ This command will then ask you for your password from the step above. When enter
 
 Before anything, it is recommended to update your system
 
-```text
-apt update && apt upgrade
+```bash
+sudo apt update && apt upgrade
 ```
 
 Now install the following packages that will be needed to run Harmony by typing:
 
-```text
-apt-get install dnsutils
-apt-get install tmux
+```bash
+apt-get install dnsutils && sudo apt-get install tmux
 ```
 
 You will be asked to confirm if you would like to download and install these packages. Just press Y to confirm.

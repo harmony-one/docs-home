@@ -112,7 +112,7 @@ Congratulations! You should be logged into your new AWS instance!
 
  **6.** Run the following command to make sure your instance is properly updated:
 
-```text
+```bash
 sudo yum update
 ```
 
@@ -120,7 +120,7 @@ When prompted whether or not you want to download packages, enter "y" for yes.
 
 **7.** Now install the following packages that will be needed to run Harmony by typing:
 
-```text
+```bash
 sudo yum install tmux
 ```
 
