@@ -74,7 +74,22 @@ Click on your project and then on Droplets. You will see the associated IP addre
 ssh root@<INSTANCEIPADDRESS>
 ```
 
-It will the prompt you for a password. Just login in using your credentials.
+It will the prompt you for the root password. Just login in using your credentials.
 
 ![](../../../.gitbook/assets/dossh.png)
+
+Before anything, it is recommended to update your system:
+
+```text
+sudo apt update && apt upgrade
+```
+
+Now install the following packages that will be needed to run Harmony by typing:
+
+```text
+sudo apt-get install dnsutils
+sudo apt-get install tmux
+```
+
+You will be asked to confirm if you would like to download and install these packages. Just press Y to confirm.
 
