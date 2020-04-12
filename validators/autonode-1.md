@@ -90,7 +90,7 @@ nano validator_config.json
 {% tab title="Example File" %}
 ```bash
 {
-    "validator-addr": "one1pr0xktszlvynpkf5pxft7kkwl4sauy5xcl2vsd",
+    "validator-addr": "YOUR ONE1 ADDRESS",
     "name": "harmony_autonode",
     "website": "harmony.one",
     "security-contact": "Daniel-VDM",
