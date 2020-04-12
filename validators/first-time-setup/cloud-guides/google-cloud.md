@@ -10,9 +10,13 @@ To launch your Google Cloud instance, we will go through 2 steps.
 
 * Connecting to your Google Cloud instance 
 
+{% hint style="success" %}
+Google Cloud has a free tier for new users. You get $300 to spend on Google Cloud Platform products during your first 12 months
+{% endhint %}
+
 ## Step 1: Launching your Google Cloud Instance <a id="step-1-launching-your-google-cloud-instance"></a>
 
-Go to [https://cloud.google.com](https://cloud.google.com/) and click on “Get Started for Free” if you don’t have an account yet or on “Sign in” if you already have a Google Account. If you haven’t used Google Cloud yet, you will get a $300 USD dollars credit for 1 year!
+Go to [https://cloud.google.com/free](https://cloud.google.com/free) and click on “Get Started for Free”. Login using an existing account or create a new one.
 
 After you login and validate your credit card, you will be shown a page pretty much like this one. Click on “Compute Engine” and then in “VM Instances”.
 
