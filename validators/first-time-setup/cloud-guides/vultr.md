@@ -68,7 +68,7 @@ At this point you should be back on the Products page and your server should be 
 
 ![](https://blobs.gitbook.com/assets%2F-LlDqlxK8e45wuh1WH4h%2F-LmLNRdAg8YfuFxXiQq0%2F-LmLPalB_S7dykKXngEA%2Fbrave_iPGAbRSq8A.png?alt=media&token=61bfb892-af8e-480c-972c-c1620234d3fb)
 
-### Create Firewall Group <a id="create-firewall-group"></a>
+### Setup the Firewall <a id="create-firewall-group"></a>
 
 As we want to allow other nodes to connect to yours, we have to open the correct ports.
 
@@ -77,8 +77,6 @@ Once you are on the [Firewall page](https://my.vultr.com/firewall/), click Add F
 ![](../../../.gitbook/assets/firewall_group.png)
 
 Enter a name for the firewall group, e.g. FoundationNode.
-
-### Set Firewall Rules <a id="set-firewall-rules"></a>
 
 #### Open the following 3 ports to the public \("Anywhere" on inbound\). <a id="open-the-following-5-ports-to-the-public-anywhere-on-inbound"></a>
 
