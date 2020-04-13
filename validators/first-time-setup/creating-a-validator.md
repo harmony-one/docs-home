@@ -43,7 +43,7 @@ Replace everything in \[\] with your own data
     --name "[NAME]" --identity "[IDENTITY]" --details "DETAILS" \
     --security-contact "CONTACT" --website "YOUR-WEBSITE.COM" \
     --max-change-rate 0.1 --max-rate 0.1 --rate 0.1 \
-    --max-total-delegation 100000000 --min-self-delegation 100000 --passphrase
+    --max-total-delegation 100000000 --min-self-delegation 10000 --passphrase
 ```
 {% endtab %}
 
