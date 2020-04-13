@@ -38,7 +38,7 @@ sudo yum update -y && sudo yum install -y docker \
 > For more details on how to setup docker, reference [this](https://docs.docker.com/engine/install/).
 
 {% hint style="info" %}
-The above command with exit out of SSH for you \(needed for docker install\). SSH back into the machine.
+The above command will exit out your SSH session \(needed for docker install\). SSH back into the machine.
 {% endhint %}
 
 ## 2. Configure Validator
