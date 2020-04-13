@@ -32,7 +32,7 @@ On the top right corner click on "Create"-&gt;"Droplets".
 
 ![](../../../.gitbook/assets/do2.png)
 
-Choose now your desired Linux image. We recommend either the latest **LTS version of Ubuntu** or the latest version of **Debian**. Use the left and right arrows to navigate between the different plans available. Choose the "Standard" plan and then select a virtual machine with at least 2 CPUs, 4GB of RAM and 80GB SSD.
+Choose now your desired Linux image. We recommend either the latest **LTS version of Ubuntu** \(18.04 as of date of now\) or the latest version of **Debian**. Use the left and right arrows to navigate between the different plans available. Choose the "Standard" plan and then select a virtual machine with at least 2 CPUs, 4GB of RAM and 80GB SSD.
 
 ![](../../../.gitbook/assets/do3.1%20%281%29.png)
 
