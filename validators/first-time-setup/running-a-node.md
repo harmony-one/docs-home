@@ -96,7 +96,7 @@ Only use `-c` for our testing networks. Do not use for Mainnet.
 ```
 
 {% hint style="success" %}
-Harmony rely on a beacon shard chain \(aka shard 0\) to facilitate cross shard transaction. For the node to be fully working both your non shard 0 and shard 0 needs to be fully synced
+Harmony relies on a beacon shard chain \(aka shard 0\) to facilitate cross shard transaction. For the node to be fully working both your non shard 0 and shard 0 needs to be fully synced
 {% endhint %}
 
 **5.** Confirm that you are fully synced before continuing. Issue  the command in the format **./hmy --node= "\[SHARD\_RPC\_ENDPOINT\]" blockchain latest-headers**,  where  
