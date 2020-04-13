@@ -22,7 +22,7 @@ If you have root access follow the useradd process below first.
 
 {% tabs %}
 {% tab title="Ubuntu" %}
-You will be logged on as root on your system and need to create a user to work with your auto\_node. _**You can choose every username you want**_, it will ask for a password and a password confirmation. \(please keep track of this password for future use!\)  
+You will be logged on as root on your system and need to create a user to work with your auto\_node. _**You can choose any username you want**_, it will ask for a password and a password confirmation. \(please keep track of this password for future use!\)  
 Then we need to add this user to the sudoers group \(to give them superuser privilege\).
 
 ```bash
@@ -43,7 +43,7 @@ After giving the password you can pick up the process of setting up auto\_node.
 {% endtabs %}
 
 {% hint style="warning" %}
-You need to open ports 6000 and 9000 on your instance in case you have a firewall. The firewall configuration varies from cloud to cloud provider. As an example, you can check how it is done on [Digital Ocean](https://docs.harmony.one/home/validators/first-time-setup/cloud-guides/digital-ocean#firewall-setup) or [Vultr](https://docs.harmony.one/home/validators/first-time-setup/cloud-guides/vultr#firewall-setup) or in any other of our [Cloud Guides](https://docs.harmony.one/home/validators/first-time-setup/cloud-guides).
+Make sure you have opened ports **6000** and **9000** on your instance in case you have a firewall. The firewall configuration varies from cloud to cloud provider. As an example, you can check how it is done on [Digital Ocean](https://docs.harmony.one/home/validators/first-time-setup/cloud-guides/digital-ocean#firewall-setup) or [Vultr](https://docs.harmony.one/home/validators/first-time-setup/cloud-guides/vultr#firewall-setup) or in any other of our [Cloud Guides](https://docs.harmony.one/home/validators/first-time-setup/cloud-guides).
 {% endhint %}
 
 **Step 3:** Setup the machine \(Docker\):
