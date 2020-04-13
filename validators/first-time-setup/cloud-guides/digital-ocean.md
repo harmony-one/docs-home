@@ -46,7 +46,9 @@ Paste your public SSH key, give it a name and click on button "Add SSH key" as s
 
 Choose a custom hostname if you want and then click on "Create Droplet".
 
-### Firewall Setup <a id="firewall-setup"></a>
+![](../../../.gitbook/assets/do3.4.png)
+
+### Setup the Firewall <a id="create-firewall-group"></a>
 
 Wait a few seconds till your droplet is created and then click on "Networking" on the left bar.
 

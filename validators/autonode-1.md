@@ -42,7 +42,9 @@ After giving the password you can pick up the process of setting up auto\_node.
 {% endtab %}
 {% endtabs %}
 
-\*\*\*\*
+{% hint style="warning" %}
+You need to open ports 6000 and 9000 on your instance in case you have a firewall. The firewall configuration varies from cloud to cloud provider. As an example, you can check how it is done on [Digital Ocean](https://docs.harmony.one/home/validators/first-time-setup/cloud-guides/digital-ocean#firewall-setup) or [Vultr](https://docs.harmony.one/home/validators/first-time-setup/cloud-guides/vultr#firewall-setup).
+{% endhint %}
 
 **Step 3:** Setup the machine \(Docker\):
 
@@ -167,7 +169,7 @@ Make sure you are [SSH](https://docs.harmony.one/home/validators/first-time-setu
 Make sure you are not attached to your AutoNode's session. If you are attached, detach by pressing **Ctrl + b**, _then_ **d.** 
 {% endhint %}
 
-### Viewing node progress:
+### Viewing Node progress
 
 If detached for AutoNode, attach with:
 
@@ -175,7 +177,7 @@ If detached for AutoNode, attach with:
 ./auto_node.sh attach
 ```
 
-### Manually creating a validator:
+### Manually creating a Validator
 
 Once detached, create a validator with:
 
@@ -185,7 +187,7 @@ Once detached, create a validator with:
 
 > This might have to be done if the associated validator address had insufficient funds when AutoNode attempted to create a validator.
 
-### Saving BLS keys for reuse:
+### Saving the BLS keys for reuse
 
 Once detached, export the BLS key files with: 
 
@@ -196,7 +198,7 @@ Once detached, export the BLS key files with:
 
 This ensures that the BLS key will be reused should you have to relaunch your node.
 
-### Deactivate your node for maintenance:
+### Deactivating the Node for Maintenance
 
 > This requires that you **DO NOT** run AutoNode with `--auto-active` option.
 
@@ -212,9 +214,9 @@ Then once you are ready to validate again, activate your node with:
 ./auto_node.sh activate
 ```
 
-### Kill your node:
+### Killing your Node
 
-Once detached, kill your node with:
+Once detached, you can kill your node using:
 
 ```bash
 ./auto_node.sh kill
