@@ -65,20 +65,13 @@ curl -LO https://harmony.one/hmycli && mv hmycli hmy && chmod +x hmy
 {% endtab %}
 {% endtabs %}
 
-**Step 3:** Download latest `auto_node.sh` version:
+**Step 3:** Install/Update AutoNode with:
 
 ```bash
-curl -O https://raw.githubusercontent.com/harmony-one/auto-node/master/scripts/auto_node.sh \
-&& chmod +x ./auto_node.sh
+bash <(curl -s -S -L https://raw.githubusercontent.com/harmony-one/auto-node/master/scripts/install.sh)
 ```
 
-**Step 4**: Setup `auto_node.sh`:
-
-```bash
-./auto_node.sh setup
-```
-
-**Step 5:** Edit the `validator_config.json` file:
+**Step 4:** Edit the `validator_config.json` file:
 
 {% tabs %}
 {% tab title="Edit Command" %}
@@ -111,9 +104,9 @@ nano validator_config.json
 Note that the ONE address has to be in quotes
 {% endhint %}
 
-**Step 6:** Save and exit config by pressing **Ctrl + O** then hit enter, then press **Ctrl + X**:
+**Step 5:** Save and exit config by pressing **Ctrl + O** then hit enter, then press **Ctrl + X**:
 
-**Step 7:** Fund your one1 account. For OSTN, the faucet is [here](https://faucet.os.hmny.io/).
+**Step 6:** Fund your one1 account. For OSTN, the faucet is [here](https://faucet.os.hmny.io/).
 
 ## **3. Run AutoNode**
 
