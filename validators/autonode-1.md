@@ -15,6 +15,30 @@ description: >-
 
 **Step 2:** [SSH](https://docs.harmony.one/home/validators/first-time-setup/cloud-guides/aws#step-2-connecting-to-your-aws-instance) into the machine.
 
+{% hint style="warning" %}
+For other providers, like DO and Vultr, you will get root access, therefore one needs to do some user setup to make the process work correctly.  
+If you have root access follow the useradd process below first
+{% endhint %}
+
+{% tabs %}
+{% tab title="Ubuntu" %}
+You will be logged on as root on your system and need to create a user to work with your auto\_node. _**You can choose every username you want**_, for example we use **autonode** here, it will ask for a password and a password confirmation. \(please keep track of this password for future use!\)
+
+```bash
+useradd autonode
+passwd autonode
+```
+
+Now logout of the root session \(type `exit`\), you should see a **login as** prompt, use here the username you just created
+
+```bash
+login as: autonode <or TYPE_YOUR_CREATED_USERNAME_HERE>
+```
+
+After giving the password you can pick up the process of setting up auto\_node.
+{% endtab %}
+{% endtabs %}
+
 **Step 3:** Setup the machine \(Docker\):
 
 {% tabs %}
