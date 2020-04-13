@@ -42,6 +42,8 @@ After giving the password you can pick up the process of setting up auto\_node.
 {% endtab %}
 {% endtabs %}
 
+\*\*\*\*
+
 **Step 3:** Setup the machine \(Docker\):
 
 {% tabs %}

@@ -66,9 +66,7 @@ You can now set the name of your server, e.g. PangaeaNode Then you should click 
 
 At this point you should be back on the Products page and your server should be installing. However, the setup isn't completely done, as you need to still create a firewall.
 
-![](https://blobs.gitbook.com/assets%2F-LlDqlxK8e45wuh1WH4h%2F-LmLNRdAg8YfuFxXiQq0%2F-LmLPalB_S7dykKXngEA%2Fbrave_iPGAbRSq8A.png?alt=media&token=61bfb892-af8e-480c-972c-c1620234d3fb)
-
-### Setup the Firewall <a id="create-firewall-group"></a>
+### Firewall Setup <a id="firewall-setup"></a>
 
 As we want to allow other nodes to connect to yours, we have to open the correct ports.
 
