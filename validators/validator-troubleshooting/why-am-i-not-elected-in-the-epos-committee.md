@@ -138,7 +138,7 @@ To fix the above, we have to make sure the node is working correctly and below a
 Compare your block height
 
 ```bash
-./hmy blockchain latest-headers | grep blockNumber
+ ./hmy blockchain latest-headers | grep block-number
 ```
 
 {% hint style="danger" %}
