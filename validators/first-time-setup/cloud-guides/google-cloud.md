@@ -30,7 +30,9 @@ We recommend to name it something like "pangaea” \(the instance name cannot be
 
 ![](https://blobs.gitbook.com/assets%2F-LlDqlxK8e45wuh1WH4h%2F-LmBR5kBgg9922w3-lIM%2F-LmBgeT41L-Y04ge1Nq6%2Fvminstancesetup.PNG?alt=media&token=7c89277f-eb66-429b-b8e9-06749e983f73)
 
-For Pangaea, keep everything default after you have configured the cores and memory. Pangaea with 10GB is perfectly fine for now.
+Keep everything default after you have configured the cores and memory. For storage, 80GB is perfectly fine for now.
+
+For the Boot Disk, we recommend either the latest **LTS version of Ubuntu** \(18.04 as of date of now\) or the latest version of **Debian**.
 
 ![](https://blobs.gitbook.com/assets%2F-LlDqlxK8e45wuh1WH4h%2F-LmBR5kBgg9922w3-lIM%2F-LmBhv4-FTM_WdWJGxhY%2Fcreateinstance.PNG?alt=media&token=54639c2e-217d-41d1-8885-469919855bf4)
 
