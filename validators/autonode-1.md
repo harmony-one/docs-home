@@ -43,7 +43,7 @@ After giving the password you can pick up the process of setting up auto\_node.
 {% endtabs %}
 
 {% hint style="warning" %}
-You need to open ports 6000 and 9000 on your instance in case you have a firewall. The firewall configuration varies from cloud to cloud provider. As an example, you can check how it is done on [Digital Ocean](https://docs.harmony.one/home/validators/first-time-setup/cloud-guides/digital-ocean#firewall-setup) or [Vultr](https://docs.harmony.one/home/validators/first-time-setup/cloud-guides/vultr#firewall-setup) or in any other of our [Cloud Guies](https://docs.harmony.one/home/validators/first-time-setup/cloud-guides).
+You need to open ports 6000 and 9000 on your instance in case you have a firewall. The firewall configuration varies from cloud to cloud provider. As an example, you can check how it is done on [Digital Ocean](https://docs.harmony.one/home/validators/first-time-setup/cloud-guides/digital-ocean#firewall-setup) or [Vultr](https://docs.harmony.one/home/validators/first-time-setup/cloud-guides/vultr#firewall-setup) or in any other of our [Cloud Guides](https://docs.harmony.one/home/validators/first-time-setup/cloud-guides).
 {% endhint %}
 
 **Step 3:** Setup the machine \(Docker\):
