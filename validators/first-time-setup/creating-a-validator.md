@@ -37,7 +37,7 @@ Replace everything in \[\] with your own data
 {% tabs %}
 {% tab title="Open Staking Testnet" %}
 ```bash
-./hmy --node=https://api.s0.os.hmny.io staking create-validator \
+./hmy --node="https://api.s0.os.hmny.io" staking create-validator \
     --validator-addr [ONE ADDRESS] --amount 10000 \
     --bls-pubkeys [BLS PUBLIC KEY1],[BLS PUBLIC KEY2] \
     --name "[NAME]" --identity "[IDENTITY]" --details "DETAILS" \
@@ -49,7 +49,7 @@ Replace everything in \[\] with your own data
 
 {% tab title="Partner Testnet" %}
 ```bash
-./hmy --node=https://api.s0.ps.hmny.io staking create-validator \
+./hmy --node="https://api.s0.ps.hmny.io" staking create-validator \
     --validator-addr [ONE ADDRESS] --amount 100000 \
     --bls-pubkeys [BLS PUBLIC KEY1],[BLS PUBLIC KEY2] \
     --name "[NAME]" --identity "[IDENTITY]" --details "DETAILS" \
