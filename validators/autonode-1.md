@@ -169,6 +169,8 @@ This ensures that the BLS key will be reused should you have to relaunch your no
 
 ### Deactivate your node for maintenance:
 
+> This requires that you **DO NOT** run AutoNode with `--auto-active` option.
+
 Once detached, deactivate your node with:
 
 ```bash
@@ -180,8 +182,6 @@ Then once you are ready to validate again, activate your node with:
 ```bash
 ./auto_node.sh activate
 ```
-
-> This requires that you **DO NOT** run AutoNode with `--auto-active` option.
 
 ### Kill your node:
 
