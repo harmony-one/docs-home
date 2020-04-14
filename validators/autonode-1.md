@@ -16,13 +16,11 @@ description: >-
 **Step 2:** [SSH](https://docs.harmony.one/home/validators/first-time-setup/cloud-guides/aws#step-2-connecting-to-your-aws-instance) into the machine.
 
 {% hint style="warning" %}
-For some cloud providers, like Digital Ocean or Vultr, you will get straight root access, therefore one needs to do some user setup to make the process work correctly. If you have root access follow the useradd process below first.
+AutoNode **DOES NOT run with root**, thus you need to login with a user that is not root. If you don't haver a user that is not root, follow the procedures bellow to create one, otherwise you can just skip this part and go to **Step 3**.
 {% endhint %}
 
 {% tabs %}
 {% tab title="Ubuntu LTS" %}
-If you are logged on as root ****on your system you need to create a user to work with `auto_node.sh`. If you are not logged on as root you can skip this part as your current logged user is not root.
-
 _**You can choose any username you want**_, it will ask for a password and a password confirmation. \(please keep track of this password for future use!\)  
 Then we need to add this user to the sudoers group \(to give them superuser privilege\).
 
@@ -46,11 +44,13 @@ For Amazon Linux you can skip this part. Default **ec2-user** is not the **root*
 {% endtab %}
 {% endtabs %}
 
+**Step 3:** Firewall Setup
+
 {% hint style="warning" %}
 Make sure you have opened ports **6000** and **9000** on your instance in case you have a firewall. The firewall configuration varies from cloud to cloud provider. As an example, you can check how it is done on [Digital Ocean](https://docs.harmony.one/home/validators/first-time-setup/cloud-guides/digital-ocean#firewall-setup) or [Vultr](https://docs.harmony.one/home/validators/first-time-setup/cloud-guides/vultr#firewall-setup) or in any other of our [Cloud Guides](https://docs.harmony.one/home/validators/first-time-setup/cloud-guides).
 {% endhint %}
 
-**Step 3:** Setup the machine \(Docker\):
+**Step 4:** Setup the machine \(Docker\)
 
 {% tabs %}
 {% tab title="Ubuntu LTS" %}
