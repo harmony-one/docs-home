@@ -25,7 +25,7 @@ _**You can choose any username you want**_, it will ask for a password and a pas
 Then we need to add this user to the sudoers group \(to give them superuser privilege\).
 
 ```bash
-sudo useradd <your username>
+sudo useradd -m <your username>
 sudo passwd <your username>
 sudo usermod -aG sudo <your username>
 ```
