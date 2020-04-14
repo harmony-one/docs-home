@@ -21,7 +21,7 @@ For some cloud providers, like Digital Ocean or Vultr, you will get straight roo
 
 {% tabs %}
 {% tab title="Ubuntu LTS" %}
-If you are logged on as root ****on your system you need to create a user to work with your auto\_node. If you are not logged on as root you can skip this part as your current logged user is not root.
+If you are logged on as root ****on your system you need to create a user to work with `auto_node.sh`. If you are not logged on as root you can skip this part as your current logged user is not root.
 
 _**You can choose any username you want**_, it will ask for a password and a password confirmation. \(please keep track of this password for future use!\)  
 Then we need to add this user to the sudoers group \(to give them superuser privilege\).
