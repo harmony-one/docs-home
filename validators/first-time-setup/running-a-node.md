@@ -18,7 +18,7 @@ curl -LO https://raw.githubusercontent.com/harmony-one/harmony/master/scripts/no
 Install tmux if your Linux distribution does not already come with it. 
 
 {% tabs %}
-{% tab title="Ubuntu LTS" %}
+{% tab title="Ubuntu" %}
 ```bash
 sudo apt-get install tmux
 ```

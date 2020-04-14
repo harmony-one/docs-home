@@ -16,20 +16,20 @@ description: >-
 **Step 2:** [SSH](https://docs.harmony.one/home/validators/first-time-setup/cloud-guides/aws#step-2-connecting-to-your-aws-instance) into the machine.
 
 {% hint style="warning" %}
-For other providers, like Digital Ocean or Vultr, you will get root access, therefore one needs to do some user setup to make the process work correctly.  
-If you have root access follow the useradd process below first.
+For some cloud providers, like Digital Ocean or Vultr, you will get straight root access, therefore one needs to do some user setup to make the process work correctly. If you have root access follow the useradd process below first.
 {% endhint %}
 
 {% tabs %}
-{% tab title="Ubuntu" %}
-You will be logged on as root on your system and need to create a user to work with your auto\_node. _**You can choose any username you want**_, it will ask for a password and a password confirmation. \(please keep track of this password for future use!\)  
+{% tab title="Ubuntu LTS" %}
+If you are logged on as root ****on your system you need to create a user to work with your auto\_node. If you are not logged on as root you can skip this part as your current logged user is not root.
+
+_**You can choose any username you want**_, it will ask for a password and a password confirmation. \(please keep track of this password for future use!\)  
 Then we need to add this user to the sudoers group \(to give them superuser privilege\).
 
 ```bash
-useradd <your username>
-passwd <your username>
-
-usermod -aG sudo <your username>
+sudo useradd <your username>
+sudo passwd <your username>
+sudo usermod -aG sudo <your username>
 ```
 
 Now logout of the root session \(type `exit`\), you should see a **login as** prompt, use here the username you just created.
@@ -40,6 +40,10 @@ login as: <your username>
 
 After giving the password you can pick up the process of setting up auto\_node.
 {% endtab %}
+
+{% tab title="Amazon Linux" %}
+For Amazon Linux you can skip this part. Default **ec2-user** is not the **root** user.
+{% endtab %}
 {% endtabs %}
 
 {% hint style="warning" %}
@@ -49,7 +53,7 @@ Make sure you have opened ports **6000** and **9000** on your instance in case y
 **Step 3:** Setup the machine \(Docker\):
 
 {% tabs %}
-{% tab title="Ubuntu" %}
+{% tab title="Ubuntu LTS" %}
 ```bash
 sudo apt-get update -y && sudo apt install docker.io -y \
 && sudo usermod -aG docker $USER && sudo systemctl start docker \
