@@ -21,7 +21,7 @@ If you have root access follow the useradd process below first.
 {% endhint %}
 
 {% tabs %}
-{% tab title="Ubuntu LTS" %}
+{% tab title="Ubuntu" %}
 You will be logged on as root on your system and need to create a user to work with your auto\_node. _**You can choose any username you want**_, it will ask for a password and a password confirmation. \(please keep track of this password for future use!\)  
 Then we need to add this user to the sudoers group \(to give them superuser privilege\).
 
@@ -40,10 +40,6 @@ login as: <your username>
 
 After giving the password you can pick up the process of setting up auto\_node.
 {% endtab %}
-
-{% tab title="Amazon Linux" %}
-For Amazon Linux you can skip this part. Default **ec2-user** is not the **root** user.
-{% endtab %}
 {% endtabs %}
 
 {% hint style="warning" %}
@@ -53,7 +49,7 @@ Make sure you have opened ports **6000** and **9000** on your instance in case y
 **Step 3:** Setup the machine \(Docker\):
 
 {% tabs %}
-{% tab title="Ubuntu LTS" %}
+{% tab title="Ubuntu" %}
 ```bash
 sudo apt-get update -y && sudo apt install docker.io -y \
 && sudo usermod -aG docker $USER && sudo systemctl start docker \
