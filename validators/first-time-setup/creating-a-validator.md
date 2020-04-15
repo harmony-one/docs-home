@@ -116,7 +116,9 @@ Example output below:
 {"level":"info","port":"9000","ip":"213.136.79.89","blockNum":3916,"epochNum":26,"ViewId":3916,"blockHash":"0xca71fc9aa92f694f664aa34d7e3e82cf9b678e3a062d3bbbabebfbc5f0598d84","numTxns":0,"numStakingTxns":0,"caller":"/mnt/jenkins/workspace/harmony-release/harmony/node/node_handler.go:359","time":"2019-12-11T14:49:08.983338784+01:00","message":"BINGO !!! Reached Consensus"}
 ```
 
-If you don't want to participate in the election anymore, you can turn your validator inactive by setting --active false with EditValidator transaction.
+{% hint style="warning" %}
+If you don't want to participate in the election anymore, you can turn your validator inactive using an [Edit Validator transaction](https://docs.harmony.one/validators/validator/managing-your-validator/changing-your-validator-profile) with`--active false.`
+{% endhint %}
 
 ## Checking Validator Information <a id="checking-validator-information"></a>
 
