@@ -26,9 +26,9 @@ The CLI will ask for the passphrase for the `delegator-addr` keystore file.
 
 `--validator-addr` is the ONE address of the validator
 
-`--amount` is the number of ONE tokens to un-delegate
+`--amount` is the number of ONE tokens to delegate to the validator
 
 {% hint style="info" %}
-If you want to increase your stake, you will have to delegate to yourself. For delegating to your own validator, `delegator-addr` and `validator-addr` will be the same.
+As a validator, if you want to increase your stake, you will have to delegate to yourself. For delegating to your own validator, `delegator-addr` and `validator-addr` will be the same.
 {% endhint %}
 
