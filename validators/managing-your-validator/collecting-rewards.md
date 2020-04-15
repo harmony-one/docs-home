@@ -23,7 +23,7 @@ The CLI will prompt your for the passphrase of the delegation account.
 `--delegator-addr` is the account to collect rewards for
 
 {% hint style="warning" %}
-You can only collect ALL of your block rewards at once, not partially.
+You can only collect ALL of your block rewards from all validators.
 {% endhint %}
 
 

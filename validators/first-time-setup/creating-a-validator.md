@@ -68,31 +68,31 @@ Name, identity, details, security-contact and website need to be put in double q
 
 The CLI will prompt you to enter your BLS key file password.
 
-`--validator-addr` is the address that will receive the rewards
+`--validator-addr` is the validator ONE address **\(string\)**
 
-`--amount` is the initial amount you want to stake
+`--amount` is the initial amount of ONE you want to stake **\(float\)**
 
-`--bls-pubkeys` takes a comma-separated list of BLS public keys \(not files\)
+`--bls-pubkeys` takes a comma-separated list of BLS public keys **\(string\)**
 
-`--name` will be the name displayed on the Staking Explorer
+`--name` will be the name displayed on the Staking Explorer **\(string\)**
 
-`--identity` is additional information for the validator
+`--identity` is additional information for the validator **\(string\)**
 
-`--details` is the description of the validator
+`--details` is the description of the validator **\(string\)**
 
-`--security-contact` is additional information for the validator
+`--security-contact` is security contact for the validator **\(string\)**
 
-`--website` will be displayed on the Staking Explorer
+`--website` will be the website displayed on the Staking Explorer **\(string\)**
 
-`--max-change-rate` is the maximum increase the validator can add to their commission rate
+`--max-change-rate` is the maximum rate change the validator can do to their commission rate every epoch **\(float\)**
 
-`--max-rate` is the maximum commission rate that the validator can set
+`--max-rate` is the maximum commission rate that the validator can set **\(float\)**
 
-`--rate` is the starting commission rate of the validator
+`--rate` is the commission rate of the validator **\(float\)**
 
-`--max-total-delegation` is the maximum amount that can be delegated to this validator
+`--max-total-delegation` is the maximum amount of ONE that can be delegated to this validator **\(float\)**
 
-`--min-self-delegation` is the minimum amount of stake the validator must delegate to itself
+`--min-self-delegation` is the minimum amount of ONE the validator must stake to itself **\(float\)**
 
 {% hint style="danger" %}
 `--max-rate` and `--max-change-rate` cannot be changed later.
@@ -100,11 +100,11 @@ The CLI will prompt you to enter your BLS key file password.
 `--min-self-delegation` has to be at least 10,000 ONE.
 {% endhint %}
 
-### When does the validator become active? <a id="when-does-the-validator-become-active"></a>
+### When does the validator become elected? <a id="when-does-the-validator-become-active"></a>
 
-On the Open Staking Testnet, a validator will be set to active at the next epoch. You can see the time until the next epoch on the [Staking Explorer](https://staking.harmony.one/portfolio).
+On the Open Staking Testnet, a new validator will be eligible for election starting at next epoch. You can see the time until the next epoch on the [Staking Explorer](https://staking.harmony.one/portfolio).
 
-Once your validator is active and has been elected, the validator will receive rewards and you will be able to see "BINGO" in the logs.
+Once your validator is elected, the validator will receive rewards and you will be able to see "BINGO" in the logs.
 
 ```text
 tail -n 1000 latest/zerolog-validator-*.log | grep -i BINGO
@@ -115,6 +115,8 @@ Example output below:
 ```text
 {"level":"info","port":"9000","ip":"213.136.79.89","blockNum":3916,"epochNum":26,"ViewId":3916,"blockHash":"0xca71fc9aa92f694f664aa34d7e3e82cf9b678e3a062d3bbbabebfbc5f0598d84","numTxns":0,"numStakingTxns":0,"caller":"/mnt/jenkins/workspace/harmony-release/harmony/node/node_handler.go:359","time":"2019-12-11T14:49:08.983338784+01:00","message":"BINGO !!! Reached Consensus"}
 ```
+
+If you don't want to participate in the election anymore, you can turn your validator inactive by setting --active false with EditValidator transaction.
 
 ## Checking Validator Information <a id="checking-validator-information"></a>
 
