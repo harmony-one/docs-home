@@ -100,9 +100,9 @@ The CLI will prompt you to enter your BLS key file password.
 `--min-self-delegation` has to be at least 10,000 ONE.
 {% endhint %}
 
-### When does the validator become elected? <a id="when-does-the-validator-become-active"></a>
+### When does the validator participate in election? <a id="when-does-the-validator-become-active"></a>
 
-On the Open Staking Testnet, a new validator will be eligible for election starting at next epoch. You can see the time until the next epoch on the [Staking Explorer](https://staking.harmony.one/portfolio).
+On the Open Staking Testnet, a new validator will be eligible for the election for next epoch. You can see the time until the next epoch on the [Staking Explorer](https://staking.harmony.one/portfolio).
 
 Once your validator is elected, the validator will receive rewards and you will be able to see "BINGO" in the logs.
 
@@ -220,7 +220,7 @@ Example output below:
 ```
 
 {% hint style="warning" %}
-If your validator does not sign 66% of the blocks in an epoch, the validator will be removed from the pool of eligible validators.
+If your validator does not sign more than 2/3 of the blocks in an epoch, the validator will be removed from the pool of eligible validators.
 
 In order to be included in the pool again, you will have to use send an [Edit Validator transaction](creating-a-validator.md) with `--active true`.
 {% endhint %}
