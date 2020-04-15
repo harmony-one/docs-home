@@ -93,7 +93,7 @@ Output example bellow:
 ```
 
 {% hint style="warning" %}
-If your validator does not sign more than 2/3 of the blocks in an epoch, the validator will be removed from the pool of eligible validators.
+If your validator does not sign 66% of the blocks in an epoch, the validator will be removed from the pool of eligible validators.
 
 In order to be included in the pool again, you will have to use send an [Edit Validator transaction](https://docs.harmony.one/validators/validator/managing-your-validator/changing-your-validator-profile) with `--active true.`
 {% endhint %}

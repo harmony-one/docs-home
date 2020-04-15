@@ -20,18 +20,18 @@ You can edit your validator’s information using the CLI with the following com
 
 The CLI will prompt you to enter your BLS key file password. Only the `--validator-addr` field is required; all other fields are optional.
 
-* `--validator-addr` is the validator address that you want to edit
-* `--active true` to set validator as eligible to be elected
-* `--name` to change the name displayed on the Staking Explorer
-* `--identity` to change the identity field
-* `--website` to change the website field
-* `--details` to change the details field
-* `--security-contact` to change the security contact field
-* `--rate` to change the current commission rate
-* `--min-self-delegation` to change the minimum stake by the validator
-* `--max-total-delegation` to change the maximum stake that the validator can have
-* `--remove-bls-key` to remove a BLS public key associated with your validator
-* `--add-bls-key` to add another BLS public key to your validator 
+* `--validator-addr` is the validator ONE address that you want to edit **\(string\)**
+* `--active` to set validator as eligible or not to be elected **\(bool\)**
+* `--name` to change the name displayed on the Staking Explorer **\(string\)**
+* `--identity` to change the identity field **\(string\)**
+* `--website` to change the website field **\(string\)**
+* `--details` to change the details field **\(string\)**
+* `--security-contact` to change the security contact field **\(string\)**
+* `--rate` to change the current commission rate **\(float\)**
+* `--min-self-delegation` to change the minimum stake by the validator **\(float\)**
+* `--max-total-delegation` to change the maximum stake that the validator can take **\(float\)**
+* `--remove-bls-key` to remove a BLS public key associated with your validator **\(string\)**
+* `--add-bls-key` to add another BLS public key to your validator **\(string\)**
 
 {% hint style="info" %}
 `--validator-addr`is the only field that is required.
