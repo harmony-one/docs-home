@@ -5,7 +5,7 @@ description: >-
   resets.
 ---
 
-# AutoNode
+# AutoNode with Docker
 
 ## 1. Install Docker
 
