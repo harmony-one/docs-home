@@ -7,6 +7,8 @@ description: >-
 
 # AutoNode without Docker
 
+_**Note:** our team is currently working on optimizing AutoNode. If you face any issues, please ask our 24/7 support group for assistance at_ [_https://harmony.one/volunteers_](https://harmony.one/volunteers)_._ 
+
 **Step 1:** Spin up your instance on [AWS](first-time-setup/cloud-guides/aws.md) or [other providers](https://docs.harmony.one/home/validators/first-time-setup/cloud-guides).
 
 > It is recommended to go with Ubuntu or Amazon Linux as your operating system.
