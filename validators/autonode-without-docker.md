@@ -96,12 +96,13 @@ Note that the ONE address has to be in quotes
 {% endtab %}
 {% endtabs %}
 
-Answer the prompts with `Y` or `N` \(this process may take a minute\)  
-****Once you see a loop of the node's header information \(labeled something like `This node's latest header at 2020-04-11 05:35:06.065816: { ...`\), feel free to exit with **Ctrl+Z**
+Answer the prompts with `Y` or `N` \(this process may take a minute\)
+
+Once you see a loop of the node's header information \(labeled something like `This node's latest header at 2020-04-11 05:35:06.065816: { ...`\), feel free to exit with **Ctrl+Z**
 
 And that's it, you're done! Feel free to exit the SSH session. 
 
-**Step 8:** Monitor your node
+**Step 9:** Monitor your node
 
 {% tabs %}
 {% tab title="Amazon Linux" %}
