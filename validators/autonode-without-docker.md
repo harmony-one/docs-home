@@ -38,13 +38,13 @@ bash <(curl -s -S -L https://raw.githubusercontent.com/harmony-one/auto-node/mig
 {% tabs %}
 {% tab title="New Key" %}
 ```bash
-/hmy keys add validator
+./hmy keys add validator
 ```
 {% endtab %}
 
 {% tab title="Import Key" %}
 ```
-~/hmy keys import-private-key <private-key-string>
+./hmy keys import-private-key <private-key-string>
 ```
 {% endtab %}
 {% endtabs %}
@@ -54,7 +54,7 @@ bash <(curl -s -S -L https://raw.githubusercontent.com/harmony-one/auto-node/mig
 {% tabs %}
 {% tab title="Edit Command" %}
 ```bash
-nano ~/validator_config.json
+nano validator_config.json
 ```
 {% endtab %}
 
@@ -91,7 +91,7 @@ Note that the ONE address has to be in quotes
 {% tabs %}
 {% tab title="Amazon Linux" %}
 ```bash
-~/auto_node.sh run --auto-active --auto-reset --clean
+./auto_node.sh run --auto-active --auto-reset --clean
 ```
 {% endtab %}
 {% endtabs %}
@@ -107,7 +107,7 @@ And that's it, you're done! Feel free to exit the SSH session.
 {% tabs %}
 {% tab title="Amazon Linux" %}
 ```bash
-auto_node.sh status
+./auto_node.sh status
 ```
 {% endtab %}
 {% endtabs %}
