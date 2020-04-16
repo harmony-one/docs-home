@@ -13,27 +13,29 @@ description: >-
 
 **Step 2:** [SSH](https://docs.harmony.one/home/validators/first-time-setup/cloud-guides/aws#step-2-connecting-to-your-aws-instance) into the machine.
 
-**Step 3:** Install dependencies: \(python3-pip, jq\)
+**Step 3:** Install dependencies: \(python3-pip and jq\).
 
 {% tabs %}
-{% tab title="Amazon Linux" %}
+{% tab title="Ubuntu LTS" %}
 ```bash
+sudo apt update && sudo apt install python3-pip jq -y
+```
+{% endtab %}
+
+{% tab title="Amazon Linux" %}
+```
 sudo yum update && sudo yum install python3-pip jq -y
 ```
 {% endtab %}
 {% endtabs %}
 
-**Step 4:** Install AutoNode
+**Step 4:** Install AutoNode.
 
-{% tabs %}
-{% tab title="Amazon Linux" %}
-```bash
+```text
 bash <(curl -s -S -L https://raw.githubusercontent.com/harmony-one/auto-node/migrate_off_docker/scripts/install.sh)
 ```
-{% endtab %}
-{% endtabs %}
 
-**Step 5:** Add or import validator Key
+**Step 5:** Add or import a validator key.
 
 {% tabs %}
 {% tab title="New Key" %}
@@ -49,7 +51,7 @@ bash <(curl -s -S -L https://raw.githubusercontent.com/harmony-one/auto-node/mig
 {% endtab %}
 {% endtabs %}
 
-**Step 5:** Edit the config
+**Step 5:** Edit the `validator_config.json` file.
 
 {% tabs %}
 {% tab title="Edit Command" %}
@@ -86,15 +88,11 @@ Note that the ONE address has to be in quotes
 
 **Step 7:** Fund your one1 account. For OSTN, the faucet is [here](https://faucet.os.hmny.io/).
 
-**Step 8:** Run your validator
+**Step 8:** Run your validator.
 
-{% tabs %}
-{% tab title="Amazon Linux" %}
-```bash
+```text
 ./auto_node.sh run --auto-active --auto-reset --clean
 ```
-{% endtab %}
-{% endtabs %}
 
 Answer the prompts with `Y` or `N` \(this process may take a minute\)
 
@@ -102,15 +100,11 @@ Once you see a loop of the node's header information \(labeled something like `T
 
 And that's it, you're done! Feel free to exit the SSH session. 
 
-**Step 9:** Monitor your node
+**Step 9:** Monitor your node.
 
-{% tabs %}
-{% tab title="Amazon Linux" %}
-```bash
+```text
 ./auto_node.sh status
 ```
-{% endtab %}
-{% endtabs %}
 
-feel free to exit with Ctrl+Z
+Feel free to exit with **Ctrl**+**Z**.
 
