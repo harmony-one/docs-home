@@ -2,7 +2,7 @@
 description: This wallet option is currently recommended for testing purposes
 ---
 
-# Harmony Chrome extension
+# Chrome Extension
 
 {% hint style="danger" %}
 Save your private key\(s\) before updating the extension.
