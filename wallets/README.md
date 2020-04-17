@@ -1,4 +1,4 @@
-# Harmony Wallets
+# Wallets
 
 Harmony's native token ONE is supported on the following wallets:
 
