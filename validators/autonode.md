@@ -19,6 +19,34 @@ Our team is currently working on optimizing AutoNode. If you face any issues, pl
 
 **Step 2:** [SSH](https://docs.harmony.one/home/validators/first-time-setup/cloud-guides/aws#step-2-connecting-to-your-aws-instance) into the machine.
 
+{% hint style="info" %}
+AutoNode DOES NOT run with root, thus you need to login with a user that is not root. If you don't have a user that is not root, follow the procedures bellow to create one, otherwise you can just skip this part and go to Step 3.
+{% endhint %}
+
+{% tabs %}
+{% tab title="Ubuntu LTS" %}
+You can choose any username you want, it will ask for a password and a password confirmation. \(please keep track of this password for future use!\) Then we need to add this user to the sudoers group \(to give them superuser privilege\).
+
+```text
+sudo useradd -m <your username>
+sudo passwd <your username>
+sudo usermod -aG sudo <your username>
+```
+
+Now logout of the root session \(type exit \), you should see a login as prompt, use here the username you just created.
+
+```text
+login as: <your username>
+```
+
+After giving the password you can pick up the process of install auto\_node.
+{% endtab %}
+
+{% tab title="Amazon Linux" %}
+For Amazon Linux you can skip this part. Default ec2-user is not the root user.
+{% endtab %}
+{% endtabs %}
+
 **Step 3:** Install AutoNode.
 
 ```text
