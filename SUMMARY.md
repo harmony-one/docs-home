@@ -72,7 +72,7 @@
     * [Network Status](validators/extras/status/README.md)
       * [Outages](validators/extras/status/outages/README.md)
         * [Post-Mortem: OSTN Rolling Upgrade failure Mar 21, 2020](validators/extras/status/outages/post-mortem-ostn-rolling-upgrade-failure-mar-21-2020.md)
-  * [AutoNode](validators/autonode-1.md)
+  * [AutoNode](validators/autonode.md)
 * [Developers](developers/README.md)
   * [Which ONE are you?](developers/which-one-are-you.md)
   * [Smart Contracts](developers/smart-contracts/README.md)
