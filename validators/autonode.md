@@ -25,7 +25,7 @@ AutoNode **DOES NOT** run with root, thus you need to login with a user that is 
 
 {% tabs %}
 {% tab title="Ubuntu LTS" %}
-You can choose any username you want, it will ask for a password and a password confirmation. \(please keep track of this password for future use!\) Then we need to add this user to the sudoers group \(to give them superuser privilege\).
+You can choose any username you want. It will ask for a password and a password confirmation. Please keep track of this password for future use!
 
 ```text
 sudo useradd -m <your username>
@@ -37,12 +37,10 @@ Now logout of the root session \(type exit \), you should see a login as prompt,
 ```text
 login as: <your username>
 ```
-
-After giving the password you can pick up the process of install auto\_node.
 {% endtab %}
 
 {% tab title="Amazon Linux" %}
-For Amazon Linux you can skip this part. Default **ec2-user** is not the **root** user.
+For Amazon Linux you can skip this part. Default ec2-user is not the root user.
 {% endtab %}
 {% endtabs %}
 
