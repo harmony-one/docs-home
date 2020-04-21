@@ -32,10 +32,10 @@ sudo useradd -m <your username>
 sudo passwd <your username>
 ```
 
-Now logout of the root session \(type exit \), you should see a login as prompt, use here the username you just created.
+Now login with the new username you just created.
 
 ```text
-login as: <your username>
+su - <your username>
 ```
 {% endtab %}
 
