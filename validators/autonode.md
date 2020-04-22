@@ -13,11 +13,11 @@ Our team is currently working on optimizing AutoNode. If you face any issues, pl
 
 ## **Installing AutoNode**
 
-**Step 1:** Spin up your instance on [AWS](first-time-setup/cloud-guides/aws.md) or [other providers](https://docs.harmony.one/home/validators/first-time-setup/cloud-guides).
+### **Step 1:** Spin up your instance on [AWS](first-time-setup/cloud-guides/aws.md) or [other providers](https://docs.harmony.one/home/validators/first-time-setup/cloud-guides).
 
 > It is recommended to go with Ubuntu or Amazon Linux as your operating system.
 
-**Step 2:** [SSH](https://docs.harmony.one/home/validators/first-time-setup/cloud-guides/aws#step-2-connecting-to-your-aws-instance) into the machine.
+### **Step 2:** [SSH](https://docs.harmony.one/home/validators/first-time-setup/cloud-guides/aws#step-2-connecting-to-your-aws-instance) into the machine.
 
 {% hint style="warning" %}
 AutoNode **DOES NOT** run with root, thus you need to login with a user that is not root. 
@@ -49,10 +49,10 @@ For Amazon Linux you can skip this part. Default ec2-user is not the root user.
 {% hint style="warning" %}
 If you wish to automatically reset your node during hard resets \(the `--auto-reset` option in step 7\) your user \(`<your username>`\)  must have sudo access without a passphrase. Follow instructions [here](https://www.cyberciti.biz/faq/linux-unix-running-sudo-command-without-a-password/) to set that up. 
 
-If you don't want to do that, you can still run AutoNode with no issues! Only thing is that on hard resets, you have to do is step 6 and 7 to restart your node.
+If you don't want to do that, you can still run AutoNode! Only thing is that on hard resets, you have to do is step 6 and 7 to restart your node.
 {% endhint %}
 
-**Step 3:** Install AutoNode.
+### **Step 3:** Install AutoNode.
 
 ```bash
 curl -O https://raw.githubusercontent.com/harmony-one/auto-node/master/scripts/install.sh && chmod +x ./install.sh && ./install.sh && rm ./install.sh
@@ -62,7 +62,7 @@ curl -O https://raw.githubusercontent.com/harmony-one/auto-node/master/scripts/i
 If you are upgrading your AutoNode from a previous version the installer might ask you some questions. Answer with Y for the upgrading process to go on.
 {% endhint %}
 
-**Step 4:** Add or import a validator key.
+### **Step 4:** Add or import a validator key.
 
 {% tabs %}
 {% tab title="New Key" %}
@@ -84,29 +84,27 @@ If you are upgrading your AutoNode from a previous version the installer might a
 {% endtab %}
 {% endtabs %}
 
-**Step 5:** Edit the configuration file and change the `validator-addr`to the ONE address created on Step 4. 
+### **Step 5:** Edit the configuration file and change the `validator-addr`to the ONE address created on Step 4. 
 
 ```text
 ~/auto_node.sh edit-config
 ```
 
+> Save and exit the configuration by pressing **Ctrl + X** then **Y**, then by hitting **enter**.
+
 {% hint style="warning" %}
 Note that the ONE address has to be in quotes
 {% endhint %}
 
-Save and exit the configuration by pressing **Ctrl + X** then **Y**, then by hitting **enter**.
+### **Step 6:** Fund your ONE account. For OSTN, the faucet is [here](https://faucet.os.hmny.io/).
 
-**Step 6:** Fund your ONE account. For OSTN, the faucet is [here](https://faucet.os.hmny.io/).
-
-**Step 7:** Run your validator.
+### **Step 7:** Run your validator.
 
 ```text
 ~/auto_node.sh run --auto-active --auto-reset --clean
 ```
 
-> Answer the prompts with `Y` or `N` \(this process may take a minute\). 
->
->   
+> Answer the prompts with `Y` or `N` \(this process may take a minute\).   
 > Feel free to exit with **Ctrl+Z** after your node syncs!
 
 {% hint style="info" %}
