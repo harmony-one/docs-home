@@ -22,7 +22,7 @@ Our team is currently working on optimizing AutoNode. If you face any issues, pl
 {% hint style="warning" %}
 AutoNode **DOES NOT** run with root, thus you need to login with a user that is not root. 
 
-Most cloud providers give you such an account as the default login. However, if you don't have a user that is not root, follow the procedures below to create one, otherwise you can just skip this part and go to Step 3.
+**Most cloud providers give you such an account as the default login.** However, if you don't have a user that is not root, follow the procedures below to create one, otherwise you can just skip this part and go to Step 3.
 {% endhint %}
 
 {% tabs %}
