@@ -137,7 +137,7 @@ If any of the commands activates a monitoring screen,  you can always exit using
 ~/auto_node.sh monitor restart
 ```
 
-## Maintenance / Upgrade
+## Upgrade AutoNode
 
 ### 1\) Deactivate your validator during the upgrade process
 
