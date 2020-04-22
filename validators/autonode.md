@@ -11,7 +11,7 @@ description: >-
 Our team is currently working on optimizing AutoNode. If you face any issues, please ask our 24/7 support group for assistance at: [https://harmony.one/volunteers](https://harmony.one/volunteers).
 {% endhint %}
 
-## **Installing/Upgrading**
+## **Installing AutoNode**
 
 **Step 1:** Spin up your instance on [AWS](first-time-setup/cloud-guides/aws.md) or [other providers](https://docs.harmony.one/home/validators/first-time-setup/cloud-guides).
 
