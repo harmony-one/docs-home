@@ -163,7 +163,7 @@ curl -O https://raw.githubusercontent.com/harmony-one/auto-node/master/scripts/i
  ~/auto_node.sh run --auto-active --auto-reset
 ```
 
-> Once your node is done syncing, AutoNode will automatically activate your validator to be elected in the next epoch
+> Once your node is done syncing, AutoNode will automatically activate your validator to be elected in the next epoch!
 
 ### 5\) \(Optional\) If needed, you might have to activate your validator manually, do so with:
 
