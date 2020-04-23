@@ -49,31 +49,15 @@ Once the instance is created. We will open 4 ingoing ports. To do this click on 
 
 ![](https://blobs.gitbook.com/assets%2F-LlDqlxK8e45wuh1WH4h%2F-LvzuQOmNvRXBWd1suxY%2F-LvzvhQqA76BwNmSY3AT%2Fports.jpg?alt=media&token=160965b3-2b20-4a80-98f5-fc76f7da070d)
 
-Now go back to the VM instances page and click on SSH. This will open a new window and connect via SSH to your instance.
+## **Step 2: Connecting via SSH to your Instance** <a id="step-2-connecting-to-your-google-cloud-instance-and-copying-keys"></a>
+
+Go back to the VM instances page and click on SSH. This will open a new window and connect via SSH to your instance:
 
 ![](https://blobs.gitbook.com/assets%2F-LlDqlxK8e45wuh1WH4h%2F-LmBR5kBgg9922w3-lIM%2F-LmBv5tDs9HYgcS64Ppa%2Fssh.PNG?alt=media&token=d6162ff5-f5be-403b-8cde-78fe4585354b)
 
-## **Step 2: Connecting to your Google Cloud Instance and copying keys** <a id="step-2-connecting-to-your-google-cloud-instance-and-copying-keys"></a>
+## Step 3: Installing Required Packages
 
-{% embed url="https://youtu.be/mhy8M5OVezQ" %}
-
-You will be thrown to the ssh session with your default user. We will have to first make a password for yourself to change to root user. To do so, enter in
-
-```text
-sudo passwd
-```
-
-Once you have done that, to enter into root mode enter in
-
-```text
-su
-```
-
-This command will then ask you for your password from the step above. When entered correctly it will show you as root user.
-
-![](https://blobs.gitbook.com/assets%2F-M-IDt7HenNiPUXWT_3k%2F-M1ZJQFhdhIexbw67x-l%2F-M1ZS-BIq3y1Bxq9-KYD%2Fimage.png?alt=media&token=c28cd7d6-db89-47c1-9f97-f9d7b5a4eb99)
-
-Before anything, it is recommended to update your system
+Before anything, it is recommended to update your system:
 
 ```bash
 sudo apt update && apt upgrade
@@ -82,7 +66,7 @@ sudo apt update && apt upgrade
 Now install the following packages that will be needed to run Harmony by typing:
 
 ```bash
-apt-get install dnsutils && sudo apt-get install tmux
+sudo apt install dnsutils && sudo apt install tmux
 ```
 
 You will be asked to confirm if you would like to download and install these packages. Just press Y to confirm.
