@@ -72,15 +72,13 @@ To launch your AWS instance, we will go through 2 steps.
 
 ## Step 2: Connecting to your AWS Instance <a id="step-2-connecting-to-your-aws-instance"></a>
 
-{% embed url="https://youtu.be/SyeZF\_3iZME" %}
-
 **1.** Open a Terminal window on your computer.
 
  **For Mac:** If you can’t find Terminal, use spotlight to search for it. Or go to your "Applications' folder, and it should be inside of “Utilities”.
 
 ![](https://blobs.gitbook.com/assets%2F-M-IDt7HenNiPUXWT_3k%2F-M-SpPev7Rx3tI5_8vit%2F-M-SwDSVomei_wm8RgU8%2Fassets_-LlDqlxK8e45wuh1WH4h_-LlEvL4ccZjjcXwS1WWY_-LlErPyudVu-nb4ZLB4D_assets%252F-LiQYKCcGux_Ib7Gddno%252F-Lj2HFbsGU29d_abCLle%252F-Lj2HGcLt-ekXY8UUO4g%252Fkey-step1.png?alt=media&token=04abdbb4-bec6-4c09-94ae-b9aca707139d)
 
-**For Windows:** Download PuTTY to allow your computer to SSH into the AWS instance. For instructions on connecting to an EC2 instance using Putty follow [these instructions](https://docs.aws.amazon.com/quickstarts/latest/vmlaunch/step-2-connect-to-instance.html) from Amazon. Skip to Step 6.
+**For Windows:** Download PuTTY to allow your computer to SSH into the AWS instance. For instructions on connecting to an EC2 instance using Putty follow [these instructions](https://docs.aws.amazon.com/quickstarts/latest/vmlaunch/step-2-connect-to-instance.html) from Amazon.
 
 **2.** Once Terminal is open, use the `cd` command to change your directory to where the key pair file \(Pangaea-key.pem\) that you generated is. Hint it may be in your “Downloads” folder.
 

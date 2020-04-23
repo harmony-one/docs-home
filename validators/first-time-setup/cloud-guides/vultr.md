@@ -105,10 +105,6 @@ You can now go back to the Products page and your server is now successfully set
 
 ## **Step 2: Connecting to your Vultr Node** <a id="step-2-connecting-to-your-vultr-node"></a>
 
-{% embed url="https://youtu.be/rtniAY1RUiM" %}
-
-**Connect to your Vultr Instance by using Git Bash.**
-
 If you do not have gitbash installed. Please visit this [link to install](https://gitforwindows.org/). Everything can be default selection when you are installing.
 
 In your Vultr instance console overview. You will see your instance information. To go into your instance from git bash. We will use the command:
@@ -132,10 +128,8 @@ sudo apt update && apt upgrade
 Now install the following packages that will be needed to run Harmony by typing:
 
 ```bash
-sudo apt-get install dnsutils && sudo apt-get install tmux
+sudo apt install dnsutils && sudo apt install tmux
 ```
 
 You will be asked to confirm if you would like to download and install these packages. Just press Y to confirm.
-
-
 
