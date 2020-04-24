@@ -103,14 +103,21 @@ You can now go back to the Products page and your server is now successfully set
 
 ![](../../../.gitbook/assets/products_page.png)
 
-## **Step 2: Connecting via SSH to your Instance** <a id="step-2-connecting-to-your-vultr-node"></a>
+## **Step 2: Connecting to your Vultr Node** <a id="step-2-connecting-to-your-vultr-node"></a>
 
-Follow the instructions bellow accordingly to the operating system you are connecting from:
+If you do not have gitbash installed. Please visit this [link to install](https://gitforwindows.org/). Everything can be default selection when you are installing.
 
-* [Windows](https://www.vultr.com/docs/connecting-to-your-server-with-ssh-via-putty-on-windows)
-* [Linux](https://www.vultr.com/docs/how-to-access-your-vultr-vps#SSH__Linux_)
+In your Vultr instance console overview. You will see your instance information. To go into your instance from git bash. We will use the command:
 
-## Step 3: Installing Required Packages
+```text
+ssh root@<INSTANCEIPADDRESS>
+```
+
+![](https://blobs.gitbook.com/assets%2F-M-IDt7HenNiPUXWT_3k%2F-M1ZJQFhdhIexbw67x-l%2F-M1ZP-2I7upBywwunoi8%2Fimage.png?alt=media&token=76a43985-cbcb-470e-989b-7d6fe5eb65c3)
+
+It will the prompt you for a password. The password is unique to each instance. To find your password. Look at the Vultr Console website. There is a unique password that is associated with your instance. Copy and paste that in.
+
+![](https://blobs.gitbook.com/assets%2F-M-IDt7HenNiPUXWT_3k%2F-M1ZJQFhdhIexbw67x-l%2F-M1ZP5alORLnXftHH2V-%2Fimage.png?alt=media&token=2aaa5b5b-297c-4d93-923e-7298086035be)
 
 Before anything, it is recommended to update your system:
 
