@@ -72,6 +72,8 @@ To connect via SSH to your Digital Ocean instance, please follow the instruction
 
 ## Step 3: Installing Required Packages
 
+Before anything, it is recommended to update your system:
+
 ```bash
 sudo apt update && apt upgrade
 ```
