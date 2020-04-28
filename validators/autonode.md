@@ -90,6 +90,8 @@ If you are upgrading your AutoNode from a previous version the installer might a
 ~/auto_node.sh edit-config
 ```
 
+> Note that `identity` must be unique or else your validator won't get created.
+
 > Save and exit the configuration by pressing **Ctrl + X** then **Y**, then by hitting **enter**.
 
 {% hint style="warning" %}
