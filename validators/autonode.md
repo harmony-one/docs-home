@@ -67,19 +67,19 @@ If you are upgrading your AutoNode from a previous version the installer might a
 {% tabs %}
 {% tab title="New Key" %}
 ```bash
-~/hmy keys add validator
+./hmy keys add validator
 ```
 {% endtab %}
 
 {% tab title="Import Keystore File" %}
 ```
-~/hmy keys import-ks <path-to-keystore-file>
+./hmy keys import-ks <path-to-keystore-file>
 ```
 {% endtab %}
 
 {% tab title="Import Private Key \(not recommended\)" %}
 ```
-~/hmy keys import-private-key <private-key-string>
+./hmy keys import-private-key <private-key-string>
 ```
 {% endtab %}
 {% endtabs %}
@@ -87,7 +87,7 @@ If you are upgrading your AutoNode from a previous version the installer might a
 ### **Step 5:** Edit the configuration file and change the `validator-addr`to the ONE address created on Step 4. 
 
 ```text
-~/auto_node.sh edit-config
+./auto_node.sh edit-config
 ```
 
 > Note that `identity` must be unique or else your validator won't get created.
@@ -103,7 +103,7 @@ Note that the ONE address has to be in quotes
 ### **Step 7:** Run your validator.
 
 ```text
-~/auto_node.sh run --auto-active --auto-reset --clean
+./auto_node.sh run --auto-active --auto-reset --clean
 ```
 
 > Answer the prompts with `Y` or `N` \(this process may take a minute\).   
@@ -122,19 +122,27 @@ If any of the commands activates a monitoring screen,  you can always exit using
 ### **1\) View the log of your Harmony Monitor:**
 
 ```text
-~/auto_node.sh monitor log
+./auto_node.sh monitor log
 ```
 
-### 2\) View the status of your Harmony Monitor daemon:
+### 2\) Using TUI
 
 ```text
-~/auto_node.sh monitor status
+./auto_node.sh tui run
 ```
 
-### 3\) Restart your Harmony Monitor daemon:
+![](../.gitbook/assets/image%20%2834%29.png)
+
+### 3\) View the status of your Harmony Monitor daemon:
 
 ```text
-~/auto_node.sh monitor restart
+./auto_node.sh monitor status
+```
+
+### 4\) Restart your Harmony Monitor daemon:
+
+```text
+./auto_node.sh monitor restart
 ```
 
 ## Upgrade AutoNode
@@ -142,13 +150,13 @@ If any of the commands activates a monitoring screen,  you can always exit using
 ### 1\) Deactivate your validator during the upgrade process
 
 ```text
-~/auto_node.sh deactivate
+./auto_node.sh deactivate
 ```
 
 ### 2\) Safely kill AutoNode & its monitor \(if alive\)
 
 ```text
- ~/auto_node.sh kill
+ ./auto_node.sh kill
 ```
 
 ### 3\) Update AutoNode by running the install step again:
@@ -160,7 +168,7 @@ curl -O https://raw.githubusercontent.com/harmony-one/auto-node/master/scripts/i
 ### 4\) Start up your node again but this time _without_ the `--clean` option.
 
 ```text
- ~/auto_node.sh run --auto-active --auto-reset
+ ./auto_node.sh run --auto-active --auto-reset
 ```
 
 > Once your node is done syncing, AutoNode will automatically activate your validator to be elected in the next epoch!
@@ -168,7 +176,21 @@ curl -O https://raw.githubusercontent.com/harmony-one/auto-node/master/scripts/i
 ### 5\) \(Optional\) If needed, you might have to activate your validator manually, do so with:
 
 ```text
-~/auto_node.sh activate
+./auto_node.sh activate
+```
+
+## Cleaning Keys
+
+### 1\) You can cleanse your BLS \(based on performance of a key\) with:
+
+```text
+ ./auto_node.sh cleanse-bls
+```
+
+### 2\) Remove all keys except for keys running on your current autonode with:
+
+```text
+./auto_node.sh cleanse-bls --hard
 ```
 
 ## More detailed documentation can be found [here](https://github.com/harmony-one/auto-node).

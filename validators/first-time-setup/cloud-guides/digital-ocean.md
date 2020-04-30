@@ -36,11 +36,13 @@ Choose now your desired Linux image. We recommend either the latest **LTS versio
 
 ![](../../../.gitbook/assets/do3.1%20%281%29.png)
 
-You can select the datacenter region of your choice here. We chose "Frankurt" in our example. Use the "SSH Keys" as your authentication method \(more secure\). A button with the name "New SSH key" will appear on screen, just click on it.
+You can select the datacenter region of your choice here. We chose "Frankurt" in our example. We recommend using the "SSH Keys" as your authentication method \(more secure\) instead of the "One-time password" method. A button with the name "New SSH key" will appear on screen, just click on it.
 
 ![](../../../.gitbook/assets/do3.2.png)
 
-Paste your public SSH key, give it a name and click on button "Add SSH key" as shown by the image bellow. In case you don't have a public SSH key yet, just follow the instructions to create it.
+To create your SSH key click [here](https://www.digitalocean.com/docs/droplets/how-to/add-ssh-keys/) for instructions.
+
+When you generated your public SSH key, give it a name and click on button "Add SSH key" as shown by the image bellow. In case you don't have a public SSH key yet, just follow the instructions to create it.
 
 ![](../../../.gitbook/assets/do3.3%20%281%29.png)
 
@@ -64,21 +66,11 @@ In the Outbound Rules section leave it as it is. Type the name of the droplet yo
 
 ![](../../../.gitbook/assets/do5.2.png)
 
-## **Step 2: Connecting to your Digital Ocean Node** <a id="step-2-connecting-to-your-vultr-node"></a>
+## **Step 2: Connecting via SSH to your Instance** <a id="step-2-connecting-to-your-vultr-node"></a>
 
-**Connect to your Digital Ocean Instance by using Git Bash.**
+To connect via SSH to your Digital Ocean instance, please follow the instructions [here](https://www.digitalocean.com/docs/droplets/how-to/connect-with-ssh/).
 
-If you do not have gitbash installed. Please visit this [link to install](https://gitforwindows.org/). Everything can be default selection when you are installing.
-
-Click on your project and then on Droplets. You will see the associated IP address of your selected droplet. Run the command bellow for your IP address on Gitbash:
-
-```text
-ssh root@<INSTANCEIPADDRESS>
-```
-
-It will the prompt you for the root password. Just login in using your credentials.
-
-![](../../../.gitbook/assets/dossh.png)
+## Step 3: Installing Required Packages
 
 Before anything, it is recommended to update your system:
 
