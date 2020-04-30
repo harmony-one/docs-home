@@ -144,7 +144,7 @@ You can import the key with an optional name and passphrase
 
 If no account name is provided, a random word concatenated with `-imported` will be used. If no passphrase is provided, the default passphrase will be used \(which is blank\). Note that the CLI currently only supports importing secp256k1 private keys.
 
-### Importing a Mnemonic Phrase <a id="importing-an-existing-private-key"></a>
+### Importing a Mnemonic Phrase <a id="importing-an-existing-mnemonic-phrase"></a>
 
 You can recover lost wallet keys by entering the mnemonic words you received \(and hopefully saved\) when creating it:
 
