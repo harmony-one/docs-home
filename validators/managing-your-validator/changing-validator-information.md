@@ -39,3 +39,9 @@ The CLI will prompt you to enter your BLS key file password. Only the `--validat
 Sending the command without the arguments will leave those fields of your validator as is.
 {% endhint %}
 
+{% hint style="danger" %}
+`--max-rate` and `--max-change-rate` cannot be changed later.
+
+`--min-self-delegation` has to be at least 10,000 ONE.
+{% endhint %}
+
