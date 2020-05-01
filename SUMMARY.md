@@ -153,6 +153,7 @@
     * [Sample nodejs CLI Application](developers/api/sample-nodejs-cli-application.md)
   * [SDK](developers/sdk.md)
 * [Partners](trading-partners/README.md)
+  * [Case Studies](trading-partners/case-studies.md)
   * [Reference](trading-partners/on-boarding-process.md)
   * [Onboarding](trading-partners/onboard-process-walkthrough.md)
 
