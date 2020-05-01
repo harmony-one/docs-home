@@ -10,14 +10,6 @@ You can un-delegate tokens from a validator using the following command:
     --amount [AMOUNT] --passphrase
 ```
 {% endtab %}
-
-{% tab title="Partner Testnet" %}
-```bash
-./hmy --node="https://api.s0.ps.hmny.io" staking undelegate \
-    --delegator-addr [ONE ADDRESS] --validator-addr [ONE ADDRESS] \ 
-    --amount [AMOUNT] --passphrase
-```
-{% endtab %}
 {% endtabs %}
 
 The CLI will ask for the passphrase for the `delegator-addr` keystore file.

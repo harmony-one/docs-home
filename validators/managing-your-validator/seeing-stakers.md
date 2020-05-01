@@ -8,12 +8,6 @@ You can see the number of delegations to your validator with the following comma
 ./hmy --node="https://api.s0.os.hmny.io" blockchain delegation by-validator [VALIDATOR ADDRESS]
 ```
 {% endtab %}
-
-{% tab title="Partner Testnet" %}
-```bash
-./hmy --node="https://api.s0.ps.hmny.io" blockchain delegation by-validator [VALIDATOR ADDRESS]
-```
-{% endtab %}
 {% endtabs %}
 
 Example output below:

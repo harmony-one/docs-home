@@ -10,14 +10,6 @@ You can delegate tokens to a validator using the following command.
     --amount [AMOUNT] --passphrase
 ```
 {% endtab %}
-
-{% tab title="Partner Testnet" %}
-```bash
-./hmy --node="https://api.s0.ps.hmny.io" staking delegate \
-    --delegator-addr [ONE ADDRESS] --validator-addr [ONE ADDRESS] \
-    --amount [AMOUNT] --passphrase
-```
-{% endtab %}
 {% endtabs %}
 
 The CLI will ask for the passphrase for the `delegator-addr` keystore file.

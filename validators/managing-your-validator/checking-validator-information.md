@@ -8,12 +8,6 @@ You can check your validator information using the following command:
 ./hmy --node="https://api.s0.os.hmny.io" blockchain validator information [ONE ADDRESS]
 ```
 {% endtab %}
-
-{% tab title="Partner Testnet" %}
-```bash
-./hmy --node="https://api.s0.ps.hmny.io" blockchain validator information [ONE ADDRESS]
-```
-{% endtab %}
 {% endtabs %}
 
 Output example bellow:

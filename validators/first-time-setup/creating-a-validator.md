@@ -8,7 +8,7 @@ Check your current block height with `./hmy blockchain latest-headers`
 Check chain block height with `./hmy blockchain latest-header --node=[endpoint]`
 {% endhint %}
 
-## Getting ONE Tokens <a id="getting-one-tokens"></a>
+## Getting ONE Tokens \(for P3 Faucet is not working\) <a id="getting-one-tokens"></a>
 
 In order to continue and create your validator, you will need to have ONE tokens in your **Shard 0** balance. To get tokens from our Faucet smart contract, use the following format command : **curl** [**https://faucet.\[NETWORK\].hmny.io/fund?address=\[ONE**](https://faucet.os.hmny.io/fund?address=[ONE) **ADDRESS\]**, ex : 
 
@@ -16,12 +16,6 @@ In order to continue and create your validator, you will need to have ONE tokens
 {% tab title="Open Staking Testnet" %}
 ```bash
 curl https://faucet.os.hmny.io/fund?address=one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd
-```
-{% endtab %}
-
-{% tab title="Partner Testnet" %}
-```bash
-curl -X GET https://faucet.ps.hmny.io/fund?address=one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd
 ```
 {% endtab %}
 {% endtabs %}
@@ -44,18 +38,6 @@ Replace everything in \[\] with your own data
     --security-contact "CONTACT" --website "YOUR-WEBSITE.COM" \
     --max-change-rate 0.1 --max-rate 0.1 --rate 0.1 \
     --max-total-delegation 100000000 --min-self-delegation 10000 --passphrase
-```
-{% endtab %}
-
-{% tab title="Partner Testnet" %}
-```bash
-./hmy --node="https://api.s0.ps.hmny.io" staking create-validator \
-    --validator-addr [ONE ADDRESS] --amount 100000 \
-    --bls-pubkeys [BLS PUBLIC KEY1],[BLS PUBLIC KEY2] \
-    --name "[NAME]" --identity "[IDENTITY]" --details "DETAILS" \
-    --security-contact "CONTACT" --website "YOUR-WEBSITE.COM" \
-    --max-change-rate 0.1 --max-rate 0.1 --rate 0.1 \
-    --max-total-delegation 100000000 --min-self-delegation 100000 --passphrase
 ```
 {% endtab %}
 {% endtabs %}
@@ -129,12 +111,6 @@ example :
 {% tab title="Open Staking Testnet" %}
 ```bash
 ./hmy --node="https://api.s0.os.hmny.io" blockchain validator information one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd
-```
-{% endtab %}
-
-{% tab title="Partner Testnet" %}
-```bash
-./hmy --node="https://api.s0.ps.hmny.io" blockchain validator information one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd
 ```
 {% endtab %}
 {% endtabs %}
