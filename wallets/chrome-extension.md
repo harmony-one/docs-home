@@ -4,6 +4,8 @@ description: This wallet option is currently recommended for testing purposes
 
 # Chrome Extension
 
+## How to install
+
 {% hint style="danger" %}
 Save your private key\(s\) before updating the extension.
 {% endhint %}
@@ -26,21 +28,27 @@ Save your private key\(s\) before updating the extension.
 
 7. Click on the icon, create a new address.
 
-8. Click on the icon, create a new address. \(do not forget to remember passphrase\).
+8. Click on the icon, create a new address. \(do not forget the passphrase\).
 
 9. Go to [https://staking.harmony.one](https://staking.harmony.one).
 
-10. Click on Sign in, Use an existing address, Use Lunie Browser Extension \(sorry we will modify as Harmony Browser Extension\), Use Account.
+10. Click on Sign in, Use an existing address, Use Harmony Browser Extension Use Account.
 
-11. Click on your address to copy the address. Ask the team to fund some money to your address.
+## Here are some action available to use while with the extension
 
-12. For transfer, go to Portfolio page, for staking go Validators page \(pick a validator for staking/unstaking\).
+###  Shard 0 fund transfer or claim reward
 
-13. Click on transfer Send, or Stake for staking, Unstake for unstaking. Then Next, Next, NexT.
+ Go to Portfolio page click on "transfer fund" or "claim reward", follow instruction until signing of the transaction is required
 
-14. You would see H icon with label 1 like below.
+### Delegation/undelegation
+
+Go Validators page, pick a validator for delegation or undelegation, then click on either "delegate" or "undelegate", follow instruction until signing of the transaction is required
+
+### Signing a transfer/claim/delegation/undelegation
+
+You would see H icon with label 1 like below.
 
 ![Notification on the icon](https://lh5.googleusercontent.com/MyGOtSPQFFRzcl2f8VXfhuDlOoVN4SI-nLkPZH2fPxykzKUpGegNoz6ZICegqWlIDSWLpYPNSBve0vpvDhvfIQszptyMjE9r5Z3mC5gCBb4iDvJrHp3S_d8rB1hFcvxlalXUAHkI)
 
-15. Click on that and specify password for signing and sending the txn to the network.
+Click on that and specify password for signing and sending the transaction to the network.
 
