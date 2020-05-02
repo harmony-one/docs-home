@@ -1,14 +1,6 @@
 # AWS
 
-To launch your AWS instance, we will go through 2 steps.
-
-**Step 1: Launching your AWS Node**
-
-* Registering AWS and choosing the correct instance.
-
-**Step 2: Connecting to your AWS Node**
-
-* Connecting to your AWS instance.
+To launch your AWS instance, we will go through the steps bellow.
 
 ## Step 1: Launching your AWS Node <a id="step-1-launching-your-aws-node"></a>
 

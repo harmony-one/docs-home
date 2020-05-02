@@ -1,16 +1,8 @@
 # Digital Ocean
 
-To launch your Digital Ocean instance, we will go through 2 steps.
+To launch your Digital Ocean instance, we will go through the steps bellow.
 
-**Step 1: Launching your Digital Ocean Instance**
-
-* Registering Digital Ocean and choosing the correct instance.
-
-**Step 2: Connecting to your Digital Ocean Instance** 
-
-* Connecting to your Digital Ocean instance 
-
-{% hint style="info" %}
+{% hint style="success" %}
 For new users, you can get $100 dollars free credits to run Digital Ocean services for 2 months using the link bellow
 {% endhint %}
 

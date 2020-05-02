@@ -1,14 +1,10 @@
 # Vultr
 
-To launch your Vultr instance, we will go through 2 steps.
+To launch your Vultr instance, we will go through the steps bellow.
 
-**Step 1: Launching Your Vultr Node**
-
-* Registering Vultr and choosing the correct instance.
-
-**Step 2: Connecting to your Vultr Node**
-
-* Connecting to your Vultr instance.
+{% hint style="success" %}
+For new users, check if you can get a promo link to register on Vultr. Usually Vultr offers free credits on the first month
+{% endhint %}
 
 ## **Step 1: Launching Your Vultr Instance** <a id="step-1-launching-your-vultr-instance"></a>
 

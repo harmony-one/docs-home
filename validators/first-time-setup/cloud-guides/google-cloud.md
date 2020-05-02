@@ -1,14 +1,6 @@
 # Google Cloud
 
-To launch your Google Cloud instance, we will go through 2 steps.
-
-**Step 1: Launching your Google Cloud Instance**
-
-* Registering Google Cloud and choosing the correct instance.
-
-**Step 2: Connecting to your Google Cloud Instance** 
-
-* Connecting to your Google Cloud instance 
+To launch your Google Cloud instance, we will go through the steps bellow.
 
 {% hint style="success" %}
 Google Cloud has a free tier for new users. You get $300 to spend on Google Cloud Platform products during your first 12 months
