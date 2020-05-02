@@ -10,13 +10,13 @@ To interact with your node, we have developed the HMY CLI. With it, you will be 
 
 ### Linux Download:
 
-```text
+```bash
 curl -LO https://harmony.one/hmycli && mv hmycli hmy && chmod +x hmy
 ```
 
 ### MacOS Download:
 
-```text
+```bash
 curl -O https://raw.githubusercontent.com/harmony-one/go-sdk/master/scripts/hmy.sh
 chmod u+x hmy.sh
 ./hmy.sh -d
@@ -30,8 +30,8 @@ For the MacOS version, use `./hmy.sh` instead of `./hmy` for all commands.
 
 Run `./hmy cookbook`to see some commonly used commands. 
 
-```text
-./hmy --node=https://api.s0.os.hmny.io cookbook
+```bash
+./hmy --node="https://api.s0.os.hmny.io" cookbook
 ```
 
 Example output:

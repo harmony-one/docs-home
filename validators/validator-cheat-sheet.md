@@ -53,12 +53,6 @@ tmux new-session -s node
 ./node.sh -S -c -z -I -N staking -k [BLS KEY FILE].key
 ```
 {% endtab %}
-
-{% tab title="Partner Network" %}
-```bash
-./node.sh -S -c -z -I -N partner -k [BLS KEY FILE].key
-```
-{% endtab %}
 {% endtabs %}
 
 8. Detach from the tmux session by pressing CTRL and B at the same time, then press D.
@@ -83,12 +77,6 @@ tmux new-session -s node
 curl -X GET https://faucet.os.hmny.io/fund?address=[ONE ADDRESS]
 ```
 {% endtab %}
-
-{% tab title="Partner Testnet" %}
-```bash
-curl -X GET https://faucet.ps.hmny.io/fund?address=[ONE ADDRESS]
-```
-{% endtab %}
 {% endtabs %}
 
 12. Create your Validator
@@ -97,18 +85,6 @@ curl -X GET https://faucet.ps.hmny.io/fund?address=[ONE ADDRESS]
 {% tab title="Open Staking Testnet" %}
 ```bash
 ./hmy --node="https://api.s0.os.hmny.io" staking create-validator \
-    --validator-addr [ONE ADDRESS] --amount 100000 \
-    --bls-pubkeys [BLS PUBLIC KEY1],[BLS PUBLIC KEY2] \
-    --name JohnWhitton --identity JohnIdentity --details "John The Validator" \
-    --security-contact John --website john@harmony.one \
-    --max-change-rate 0.1 --max-rate 0.1 --rate 0.1 \
-    --max-total-delegation 100000000 --min-self-delegation 100000 --passphrase
-```
-{% endtab %}
-
-{% tab title="Partner Testnet" %}
-```bash
-./hmy --node="https://api.s0.ps.hmny.io" staking create-validator \
     --validator-addr [ONE ADDRESS] --amount 100000 \
     --bls-pubkeys [BLS PUBLIC KEY1],[BLS PUBLIC KEY2] \
     --name JohnWhitton --identity JohnIdentity --details "John The Validator" \
@@ -127,12 +103,6 @@ curl -X GET https://faucet.ps.hmny.io/fund?address=[ONE ADDRESS]
 ./hmy --node="https://api.s0.os.hmny.io" blockchain validator all | grep [ONE ADDRESS]
 ```
 {% endtab %}
-
-{% tab title="Partner Testnet" %}
-```bash
-./hmy --node="https://api.s0.ps.hmny.io" blockchain validator all | grep [ONE ADDRESS]
-```
-{% endtab %}
 {% endtabs %}
 
 14. Collect rewards.
@@ -143,12 +113,6 @@ curl -X GET https://faucet.ps.hmny.io/fund?address=[ONE ADDRESS]
 ./hmy --node="https://api.s0.os.hmny.io" staking collect-rewards --delegator-addr [ONE ADDRESS] --passphrase
 ```
 {% endtab %}
-
-{% tab title="Partner Testnet" %}
-```bash
-./hmy --node="https://api.s0.ps.hmny.io" staking collect-rewards --delegator-addr [ONE ADDRESS] --passphrase
-```
-{% endtab %}
 {% endtabs %}
 
 15. Check validator information for active flag / availability \(block signed\) / etc ...
@@ -157,12 +121,6 @@ curl -X GET https://faucet.ps.hmny.io/fund?address=[ONE ADDRESS]
 {% tab title="Open Staking Testnet" %}
 ```bash
 ./hmy --node="https://api.s0.os.hmny.io" blockchain validator information [VALIDATOR ONE ADDRESS]
-```
-{% endtab %}
-
-{% tab title="Partner Testnet" %}
-```bash
-./hmy --node="https://api.s0.ps.hmny.io" blockchain validator information [VALIDATOR ONE ADDRESS]
 ```
 {% endtab %}
 {% endtabs %}

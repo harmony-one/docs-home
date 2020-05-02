@@ -59,12 +59,6 @@ sudo apt-get install libgmp-dev
 ./node.sh -S -c -z -I -N staking -k [BLS KEY FILE].key
 ```
 {% endtab %}
-
-{% tab title="Partner Testnet" %}
-```bash
-./node.sh -S -c -z -I -N partner -k [BLS KEY FILE].key
-```
-{% endtab %}
 {% endtabs %}
 
 {% hint style="info" %}

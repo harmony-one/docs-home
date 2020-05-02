@@ -55,11 +55,5 @@ If you are not running a node or your node is not synced, use the following comm
 ./hmy --node="https://api.s0.os.hmny.io" balances one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd
 ```
 {% endtab %}
-
-{% tab title="Partner Testnet" %}
-```bash
-./hmy --node="https://api.s0.ps.hmny.io" balances one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd
-```
-{% endtab %}
 {% endtabs %}
 

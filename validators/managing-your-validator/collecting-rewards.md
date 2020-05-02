@@ -19,5 +19,3 @@ The CLI will prompt your for the passphrase of the delegation account.
 You can only collect ALL of your block rewards at once, not partially.
 {% endhint %}
 
-
-
