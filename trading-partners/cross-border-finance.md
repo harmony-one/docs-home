@@ -1,5 +1,5 @@
 ---
-description: 'Harmony #CrossFi — Forex & Liquidity'
+description: Harmony CrossFi — Forex & Liquidity
 ---
 
 # Cross-Border Finance
