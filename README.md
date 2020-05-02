@@ -16,6 +16,8 @@ Sharding significantly uplifts a blockchain’s performance, however, if not don
 
 The core of any blockchain is the consensus mechanism where transactions are acknowledged among all participants and can not be reverted thereafter. Harmony built on the decades of research on byzantine fault tolerance \(BFT\) algorithm and came up with FBFT consensus which scales to hundreds of nodes, provides instant finality in every block, and, of course, is super fast. In Harmony mainnet, FBFT is run among 250 nodes in each shard to produce blocks every 8 seconds, and 10+ millions of blocks have been successfully confirmed since mainnet launch.
 
+Integrated with the FBFT consensus is the view change protocol where the majority of honest validators can jointly vote out the adversarial block proposer to prevent single point of failures. Compared to the original view change protocol in PBFT, the FBFT view change protocol is more efficient, reliable and battle-tested in our mainnet ever since June 2019.
+
 ### **Effective Proof-of-Stake and Tokenomics**
 
 Proof-of-Stake has been the standard approach for next-generation blockchains to secure the network. As one of the first PoS blockchain with sharding, Harmony designed a new staking mechanism called Effective Proof-of-Stake \(EPoS\) which fit seamlessly with the sharding scheme to ensure network security. EPoS features an incentive design that fairly rewards all validators, big or small, and a slashing mechanism that punishes misbehaviors according to their severity.
