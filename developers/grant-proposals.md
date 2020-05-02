@@ -1,6 +1,6 @@
 # Grant Proposals
 
-Our grant program activates our entire community to build Harmony's protocol and ecosystem. 
+Our grant program activates our community to build up Harmony's protocol and ecosystem. 
 
 ### Ecosystem and Protocol Incentives
 
@@ -10,9 +10,9 @@ Our model **unlock 62M ecosystem tokens every month** to boost growth in our app
 
 ### Areas of Focus
 
-We will give grants to decentralized finance \(DeFi\) projects with 1,000 users and to  wallets with 10,000 users that are fully integrated with our mainnet.
+We will provide grants to decentralized finance \(DeFi\) projects with 1,000 users and to wallets with 10,000 users that are fully integrated with our mainnet.
 
 Also, we will give grants to blockchain hackers to build BTC/ETH bridges and Truffle tooling and fintech developers to create identity and currency gateways that are fully integrated with our mainnet and SDK.
 
-Join our journey and submit a proposal to grants@harmony.one.
+Submit a proposal to grants@harmony.one.
 
