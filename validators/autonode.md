@@ -25,13 +25,12 @@ AutoNode **DOES NOT** run with root, thus you need to login with a user that is 
 **Most cloud providers \(like AWS\) give you such an account as the default login.** However, if you don't have a user that is not root, follow the procedures below to create one, otherwise you can just skip this part and go to Step 3.
 {% endhint %}
 
-{% tabs %}
-{% tab title="Ubuntu LTS" %}
-You can choose any username you want. It will ask for a password and a password confirmation. Please keep track of this password for future use!
+You can choose any username you want. It will ask for a password and a password confirmation. We will also add this user to the sudo group. Please keep track of this password for future use!
 
 ```text
 sudo useradd -m <your username>
 sudo passwd <your username>
+sudo adduser <your username> sudo
 ```
 
 Now login with the new username you just created.
@@ -39,12 +38,6 @@ Now login with the new username you just created.
 ```text
 su - <your username>
 ```
-{% endtab %}
-
-{% tab title="Amazon Linux" %}
-For Amazon Linux you can skip this part. Default ec2-user is not the root user.
-{% endtab %}
-{% endtabs %}
 
 {% hint style="warning" %}
 If you wish to automatically reset your node during hard resets \(the `--auto-reset` option in step 7\) your user \(`<your username>`\)  must have sudo access without a passphrase. Follow instructions [here](https://www.cyberciti.biz/faq/linux-unix-running-sudo-command-without-a-password/) to set that up. 
