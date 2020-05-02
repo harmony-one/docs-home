@@ -6,7 +6,7 @@ description: Use the below steps to reset your node after OSTN refresh
 
 1. Login into your SSH session.
 
-2. Attach your current tmux session in case you are not on it alredy using the "node" named session:
+2. Attach your current tmux session in case you are not logged in on it already:
 
 ```bash
 tmux attach-session -t node
