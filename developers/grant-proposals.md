@@ -8,5 +8,5 @@ We will give grants to decentralized finance \(DeFi\) projects with 1,000 users 
 
 Also, we will give grants to blockchain hackers to build BTC/ETH bridges and Truffle tooling and fintech developers to create identity and currency gateways that are fully integrated with our mainnet and SDK.
 
-Please email us at grants@harmony.one with your proposal.
+Email us at grants@harmony.one with your proposal.
 
