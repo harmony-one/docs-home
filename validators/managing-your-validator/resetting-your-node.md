@@ -4,7 +4,7 @@ description: Use the below steps to reset your validator
 
 # Resetting Your Validator
 
-1. Login into your SSH session.
+1. Login via SSH.
 
 2. Attach your current tmux session in case you are not logged in on it already:
 
