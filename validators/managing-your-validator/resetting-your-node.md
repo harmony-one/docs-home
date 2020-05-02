@@ -1,5 +1,5 @@
 ---
-description: Use the below steps to reset your node after OSTN refresh
+description: Use the below steps to reset your validator
 ---
 
 # Resetting Your Validator
