@@ -2,37 +2,50 @@
 description: Use the below steps to reset your node after OSTN refresh
 ---
 
-# Resetting Your Node
+# Resetting Your Validator
 
-1. Open your terminal 
+1. Login into your SSH session.
 
-2. `CD` into the folder with your .pem file
+2. Attach your current tmux session in case you are not on it alredy using the "node" named session:
 
-3. Connect to your instance by the SSH command you get from AWS: `ssh -i "pangaea-key.pem" ec2-user@ec2-13-250-30-215.ap-southeast-1.compute.amazonaws.com`
+```bash
+tmux attach-session -t node
+```
 
-4. Start a tmux session`tmux attach`
+3. Press **Ctrl** + **c** to stop what’s happening in your tmux session.
 
-5. Press `control+c` to stop what’s happening in your tmux session
+4. Manually clean the databases:
 
-6. Clean database `sudo rm -rf harmony_db_*`
+```bash
+sudo rm -rf harmony_db_*
+```
 
-7. Clean .dht files `sudo rm -rf .dht*`
+5. Clean the .dht files:
 
-8. Clean md5sum.txt file `sudo rm -rf md5sum.txt`
+```bash
+sudo rm -rf .dht*
+```
 
-9. Update wallet :
+6. Clean md5sum.txt file:
+
+```bash
+sudo rm -rf md5sum.txt
+```
+
+7. Update the `hmy` :
 
 ```bash
 sudo curl -LO https://harmony.one/hmycli && sudo mv hmycli hmy && sudo chmod +x hmy
 ```
 
-10. Update binary:
+8. Update the binary:
 
 ```bash
-sudo curl -LO https://harmony.one/node2.sh && sudo mv node2.sh node.sh && sudo chmod a+x node.sh
+curl -LO https://raw.githubusercontent.com/harmony-one/harmony/master/scripts/node.sh \
+&& chmod a+x node.sh
 ```
 
-11. Then run your node again by:
+9. Then run your node again by:
 
 ```bash
 ./node.sh -S -c -I -N staking -z -k [BLS KEY FILE].key
@@ -44,15 +57,15 @@ Or if you are running with Multiple BLSkeys, run your node with the following co
 ./node.sh -S -c -I -N staking -z -M
 ```
 
-12. Press `control+b then d` to detach from tmux session
+10. Press **Ctrl** + **b** then **d** to dettach from the tmux session.
 
-13. Fund your ONE address using: 
+11. Fund your ONE address using: 
 
 ```bash
 curl -X GET https://faucet.os.hmny.io/fund?address=[ONE ADDRESS]
 ```
 
-14. Create your validator again:
+12. Create your validator again:
 
 {% tabs %}
 {% tab title="Open Staking Testnet" %}
@@ -70,6 +83,6 @@ curl -X GET https://faucet.os.hmny.io/fund?address=[ONE ADDRESS]
 {% endtabs %}
 
 {% hint style="info" %}
-Your validator should be up and you should get elected after one epoch — check on staking dashboard
+Your validator should be up and you should get elected after one epoch — check on staking dashboard.
 {% endhint %}
 
