@@ -1,6 +1,6 @@
 # Grant Proposals
 
-Our grant program activates our community to build up Harmony's protocol and ecosystem. 
+We activates our community through our grant program to grow our protocol and ecosystem. Applicants can apply for grants to build core protocol features, developer tooling, and critical applications including wallets and financial applications.
 
 ### Ecosystem and Protocol Incentives
 
