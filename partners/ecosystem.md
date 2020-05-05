@@ -4,7 +4,7 @@
 
 Buy ONE Tokens From 9 Exchanges
 
-![](../.gitbook/assets/screen-shot-2020-05-05-at-4.38.33-pm.png)
+![](../.gitbook/assets/exchanges1.png)
 
 **Binance**
 
@@ -44,7 +44,7 @@ Buy ONE Tokens From 9 Exchanges
 
 Secure ONE Tokens In 6 Wallets
 
-![](../.gitbook/assets/screen-shot-2020-05-05-at-4.39.39-pm.png)
+![](../.gitbook/assets/wallets1.png)
 
 **Trust Wallet** 
 
@@ -74,7 +74,7 @@ Secure ONE Tokens In 6 Wallets
 
 Delegate ONE Tokens To 14 Pools
 
-![](../.gitbook/assets/screen-shot-2020-05-05-at-4.39.59-pm.png)
+![](../.gitbook/assets/stakers1.png)
 
 #### Blockdaemon
 
@@ -136,9 +136,9 @@ Delegate ONE Tokens To 14 Pools
 
 Integrate ONE Tokens With 9 Partners
 
-![](../.gitbook/assets/screen-shot-2020-05-05-at-4.40.38-pm.png)
+![](../.gitbook/assets/partners1.png)
 
-#### Animoca Brands
+**Animoca Brands**
 
 {% embed url="https://medium.com/harmony-one/harmony-partners-with-gaming-industry-leader-animoca-e29f4624c055" %}
 
@@ -178,7 +178,7 @@ Integrate ONE Tokens With 9 Partners
 
 Backed By 17 Global Investors
 
-![](../.gitbook/assets/screen-shot-2020-05-05-at-4.40.59-pm.png)
+![](../.gitbook/assets/investors1.png)
 
 **Anmi Group**
 
