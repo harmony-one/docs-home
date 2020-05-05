@@ -90,11 +90,7 @@ Delegate ONE Tokens To 14 Pools
 
 **Wetez**
 
-{% embed url="https://www.wetez.io/pc/wetez" %}
-
 **EverStake**
-
-{% embed url="https://everstake.one/harmony" %}
 
 **Infstones** 
 
@@ -113,8 +109,6 @@ Delegate ONE Tokens To 14 Pools
 {% embed url="https://honestmining.com/" %}
 
 **Staking Team**
-
-{% embed url="https://stakingteam.com/" %}
 
 \*\*\*\*
 
