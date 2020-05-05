@@ -2,25 +2,35 @@
 
 ## **What is Harmony?‌**
 
-**‌**Harmony is a decentralized blockchain ecosystem where digital assets can be securely managed and trustless computation can be efficiently executed, supporting the decentralized economy for billions of people.
+**‌**Harmony is a fast and secure blockchain for decentralized applications. Our production mainnet supports 4 shards of 1000 nodes, producing blocks in 8 seconds with finality.
 
-For the last few years, the blockchain trilemma — decentralization vs scalability vs security — has hindered mainstream adoption of decentralized applications. Harmony breaks the limitation with carefully designed protocol combining the technology of sharding and Proof-of-Stake.
+Our Effective Proof-of-Stake \(EPoS\) reduces centralization while supporting stake delegation, reward compounding and double-sign slashing.
 
-### **Secure Sharding**
+Harmony aims to build an open network of nodes operated and governed by a large community. This node community is called Pangaea.
 
-Sharding is a broadly recognized solution to solve the scalability problem without compromising security and decentralization. The basic principle of sharding is to divide the workload of transaction processing into separate parts and handle them in parallel across multiple shards. Harmony’s innovative sharding approach goes far deeper by separating the storage of ledger data within each shard, massively increasing the storage capacity of the network.
+Are we decentralized yet? There’s no consensus without participation. There are now 1,000 Harmony nodes – so far 320 of them run by the community – in line with thousands of Bitcoin and Ethereum nodes. Pangaea consists of volunteers and validators from more than 100 countries and most of them have never run a node before.
 
-Sharding can bring about significant improvements in a blockchain’s performance, however, it also creates more challenges at the security level. If not done right, the security of a sharded network is only as strong as its weakest shard. But by employing the fully random shuffle and periodic reshuffle of its validators, Harmony makes the security of a single shard as strong as that of the whole network. With the help of a cryptographics-based \(VRF and VDF\) un-biasable random function, Harmony ensures its security with strong statistical guarantee.
+### Secure, Random State Sharding
 
-### **Fast Consensus with Instant Finality**
+Harmony has transcended the blockchain trilemma by bringing the best research to production. Sharding is proven to _scale_ blockchains without compromising _security_ and _decentralization_.
 
-The core of any blockchain is its consensus mechanism where transactions are confirmed among all participants and can not be reverted. Harmony has built on decades of research on byzantine fault tolerance \(BFT\) algorithm to develop what we call Fast Byzantine Fault Tolerance \(FBFT\). FBFT allows Harmony to scale to hundreds of nodes, providing instant finality in every block and allowing low-cost transactions. In Harmony mainnet, FBFT is run by 250 nodes per shard to produce blocks every 8 seconds and 10+ millions of blocks have been successfully confirmed since the mainnet launched in June 2019.
+We divide not only our network nodes but also the _blockchain states_ into shards, scaling linearly in all three aspects of machines, transactions and storages.
 
-The second key innovation is our variant of the view change protocol where a majority of honest validators can jointly vote out an adversarial block proposer to prevent single point of failures. Compared to the original view change protocol in PBFT, the FBFT view change protocol is more efficient, reliable and successfully battle-tested in our mainnet.
+To prevent single shard attacks, we must have a sufficiently large number of nodes per shard and cryptographic randomness to re-shard regularly. Each shard has 250 nodes for strong security guarantee against Byzantine behaviors. We use Verifiable Random Function \(VDF\) for unbiasable and unpredictable shard membership.
 
-### **Effective Proof-of-Stake and Tokenomics**
+### Fast Consensus w/ Instant Finality
 
-Proof-of-Stake has become the most commonly adopted standard for the next-generation of high-speed blockchains. Harmony’s key innovation was to design a radically new staking mechanism called Effective Proof-of-Stake \(EPoS\) which fit seamlessly with our sharding scheme to ensure network security. EPoS features an incentive design that fairly rewards all validators, big or small, and a slashing mechanism that punishes misbehaviors according to their severity.
+Harmony has innovated on the battle-tested Practical Byzantine Fault Tolerance \(PBFT\) for fast consensus of block transactions. Our Fast BFT \(FBFT\) leads to low transaction fees and 1-block-time finality in Harmony Mainnet.
 
-Harmony’s token economic model is a combination of simplicity and practicality. The annual inflation is capped at 441 million ONE tokens to give validators a predictable and profitable return, while making the inflation rate as small as 3%. All transaction fees are burnt which will further offset the inflation and achieve zero inflation when network usage is high.
+We use Boneh–Lynn–Shacham \(BLS\) constant-sized signatures to commit blocks in a single round of consensus messages. We achieve 8-second block time with _view changes in production_ against adversarial or unavailable leaders.
+
+Harmony Mainnet was launched in June 2019. Our network has produced 10M+ blocks with 20k+ transactions in _publicly traded, native_ ONE tokens.
+
+### Effective PoS & Token Economics
+
+Harmony has designed a novel Proof-of-Stake \(PoS\) mechanism for network security and economics. Our Effective Proof-of-Stake \(EPoS\) reduces centralization and _distributes rewards fairly_ to thousands of validators.
+
+Our staking mechanism supports delegation and reward compounding. To support 100% uptime but fully open participation, EPoS slashes validators who double-sign and it penalizes elected but unavailable nodes.
+
+Harmony Economics Model caps the annual insurance at 441 million tokens \(about 3% rate in long term\). Our model gives validators a simple and predictable return. All transaction fees are burnt to offset the insurance, naturally leading to _zero inflation_ when our network usage becomes high.
 
