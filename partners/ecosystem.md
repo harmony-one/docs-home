@@ -90,7 +90,11 @@ Delegate ONE Tokens To 14 Pools
 
 **Wetez**
 
+{% embed url="https://medium.com/@Wetezwallet" %}
+
 **EverStake**
+
+{% embed url="https://everstake.one/" %}
 
 **Infstones** 
 
@@ -110,7 +114,7 @@ Delegate ONE Tokens To 14 Pools
 
 **Staking Team**
 
-\*\*\*\*
+{% embed url="https://www.stakingrewards.com/provider/staking-team" %}
 
 **JetStake** 
 
@@ -146,23 +150,23 @@ Integrate ONE Tokens With 9 Partners
 
 **Safehaven**
 
-{% embed url="https://medium.com/harmony-one/safe-haven-brings-preservation-of-capital-to-harmony-mainnet-f60867c24296" %}
+{% embed url="https://medium.com/@safehavenio" %}
 
 **Incognito**
 
-{% embed url="https://medium.com/harmony-one/one-is-going-incognito-mode-b1107fb87b0d" %}
+{% embed url="https://incognito.org/" %}
 
 **Debrief**
 
-{% embed url="https://medium.com/harmony-one/debrief-will-build-dapi-middleware-on-harmony-388d595af04d" %}
+{% embed url="https://debrief.co/" %}
 
 **Suterusu**
 
-{% embed url="https://medium.com/harmony-one/suterusu-will-build-a-privacy-layer-on-top-of-harmony-blockchain-60f365371b45" %}
+{% embed url="https://www.suterusu.io/" %}
 
 **IBC**
 
-{% embed url="https://medium.com/harmony-one/harmony-expands-to-india-bolsters-the-growth-of-defi-in-the-rapidly-growing-fintech-sector-251862f8a4d9" %}
+{% embed url="https://ibc.media/" %}
 
 ## Investors
 
@@ -218,19 +222,17 @@ Backed By 18 Global Investors
 
 **SNZ** 
 
-{% embed url="https://snzholding.com/" %}
+{% embed url="https://snzholding.com/portfolio.html" %}
 
 **DACM** 
 
-{% embed url="https://dacm.io" %}
+{% embed url="https://dacm.io/portfolio.html" %}
 
 **Cyphermines** 
 
-{% embed url="https://www.cyphermines.io" %}
-
-
+{% embed url="https://www.cyphermines.io/" %}
 
 **Hayek Capital** 
 
-**HM Capital** 
+{% embed url="https://www.crunchbase.com/organization/hayek-capital" %}
 
