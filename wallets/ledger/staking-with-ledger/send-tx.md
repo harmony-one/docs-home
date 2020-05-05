@@ -2,11 +2,11 @@
 
 To send any token to an address, please click the send button and the send screen will display as the following:
 
-![](../../../.gitbook/assets/assets_-lleolyqeg_gkuo5rehq_-lw-til_4d3hoiy6ona2_-lw0dy2mt5zefjoimpz0_screen-shot-2019-12-13-at-1.48.jpg)
+![](../../../.gitbook/assets/assets_-lleolyqeg_gkuo5rehq_-lw-til_4d3hoiy6ona2_-lw0dy2mt5zefjoimpz0_screen-shot-2019-12-13-at-1.48.03-pm.jpg)
 
 Input the amount of tokens to send and the destination address, then click the next buttons until you see the send button. Click the send button as shown below:
 
-![](../../../.gitbook/assets/assets_-lleolyqeg_gkuo5rehq_-lw-til_4d3hoiy6ona2_-lw0eaumsidiu8iayj5v_screen-shot-2019-12-13-at-1.50.jpg)
+![](../../../.gitbook/assets/assets_-lleolyqeg_gkuo5rehq_-lw-til_4d3hoiy6ona2_-lw0eaumsidiu8iayj5v_screen-shot-2019-12-13-at-1.50.27-pm.jpg)
 
 Check your ledger Nano S, the LED display on Nano S is shown as below.
 
@@ -36,7 +36,7 @@ Detailed process is shown in video below:
 
 On the computer, you will find that the transaction is sent and confirming:
 
-![](../../../.gitbook/assets/assets_-lleolyqeg_gkuo5rehq_-lw-til_4d3hoiy6ona2_-lw0f5w9adopprr8pa-j_screen-shot-2019-12-13-at-1.52.jpg)
+![](../../../.gitbook/assets/assets_-lleolyqeg_gkuo5rehq_-lw-til_4d3hoiy6ona2_-lw0f5w9adopprr8pa-j_screen-shot-2019-12-13-at-1.52.32-pm.jpg)
 
 After a while, it will change to "Successful Send"
 

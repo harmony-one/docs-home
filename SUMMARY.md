@@ -154,6 +154,7 @@
   * [Which ONE are you?](developers/which-one-are-you.md)
   * [Grant Proposals](developers/grant-proposals.md)
 * [Partners](partners/README.md)
+  * [Ecosystem & Partners](partners/partners.md)
   * [Case Studies](partners/case-studies.md)
   * [Cross-Border Finance](partners/cross-border-finance.md)
   * [Reference](partners/on-boarding-process.md)
