@@ -1,8 +1,10 @@
-# Ecosystem & Partners
+# Ecosystem
 
 ## Exchanges
 
 Buy ONE Tokens From 9 Exchanges
+
+![](../.gitbook/assets/screen-shot-2020-05-05-at-4.38.33-pm.png)
 
 **Binance**
 
@@ -38,11 +40,11 @@ Buy ONE Tokens From 9 Exchanges
 
 **HitBTC** 
 
-{% embed url="https://hitbtc.com/ONE-to-BTC" %}
-
 ## Wallets
 
 Secure ONE Tokens In 6 Wallets
+
+![](../.gitbook/assets/screen-shot-2020-05-05-at-4.39.39-pm.png)
 
 **Trust Wallet** 
 
@@ -71,6 +73,8 @@ Secure ONE Tokens In 6 Wallets
 ## Stakers
 
 Delegate ONE Tokens To 14 Pools
+
+![](../.gitbook/assets/screen-shot-2020-05-05-at-4.39.59-pm.png)
 
 #### Blockdaemon
 
@@ -132,6 +136,8 @@ Delegate ONE Tokens To 14 Pools
 
 Integrate ONE Tokens With 9 Partners
 
+![](../.gitbook/assets/screen-shot-2020-05-05-at-4.40.38-pm.png)
+
 #### Animoca Brands
 
 {% embed url="https://medium.com/harmony-one/harmony-partners-with-gaming-industry-leader-animoca-e29f4624c055" %}
@@ -170,7 +176,9 @@ Integrate ONE Tokens With 9 Partners
 
 ## Investors
 
-Backed By 18 Global Investors
+Backed By 17 Global Investors
+
+![](../.gitbook/assets/screen-shot-2020-05-05-at-4.40.59-pm.png)
 
 **Anmi Group**
 
