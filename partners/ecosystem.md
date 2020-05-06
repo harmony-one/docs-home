@@ -6,39 +6,43 @@ Buy ONE Tokens From 9 Exchanges
 
 ![](../.gitbook/assets/exchanges1.png)
 
-**Binance**
-
+{% tabs %}
+{% tab title="Binance" %}
 {% embed url="https://www.binance.com/en/trade/ONE\_USDT" %}
+{% endtab %}
 
-**Huobi**
-
+{% tab title="Huobi" %}
 {% embed url="https://www.huobi.com/en-us/exchange/one\_usdt/" %}
+{% endtab %}
 
-**Gate** 
-
+{% tab title="Gate" %}
 {% embed url="https://www.gate.io/trade/ONE\_USDT" %}
+{% endtab %}
 
-**WazirX** 
-
+{% tab title="WazirX" %}
 {% embed url="https://wazirx.com/exchange/ONE-USDT" %}
+{% endtab %}
 
-**Kucoin** 
-
+{% tab title="Kucoin" %}
 {% embed url="https://trade.kucoin.com/spot" %}
+{% endtab %}
 
-**Bitmax**  
-
+{% tab title="Bitmax" %}
 {% embed url="https://bitmax.io/\#/trade/usdt/one" %}
+{% endtab %}
 
-**Bitsonic**
-
+{% tab title="Bitsonic" %}
 {% embed url="https://bitsonic.co.kr/front/en/exchange/one-krw" %}
+{% endtab %}
 
-**Vitex**
-
+{% tab title="Vitex" %}
 {% embed url="https://x.vite.net/trade?symbol=ONE-000\_BTC-000" %}
+{% endtab %}
 
-**HitBTC** 
+{% tab title="HitBTC" %}
+{% embed url="https://hitbtc.com/" %}
+{% endtab %}
+{% endtabs %}
 
 ## Wallets
 
@@ -46,133 +50,151 @@ Secure ONE Tokens In 6 Wallets
 
 ![](../.gitbook/assets/wallets1.png)
 
-**Trust Wallet** 
-
+{% tabs %}
+{% tab title="Trust Wallet" %}
 {% embed url="https://trustwallet.com/harmony-wallet/" %}
+{% endtab %}
 
-**Ledger** 
-
+{% tab title="Ledger" %}
 {% embed url="https://www.ledger.com/" %}
+{% endtab %}
 
-**Math Wallet** 
-
+{% tab title="Math Wallet " %}
 {% embed url="https://www.mathwallet.org/harmony-wallet/en/" %}
+{% endtab %}
 
-**Guarda Wallet**
-
+{% tab title=" Guarda Wallet" %}
 {% embed url="https://guarda.co/" %}
+{% endtab %}
 
-**Safepal**
-
+{% tab title="Safepal" %}
 {% embed url="https://safepal.io/" %}
+{% endtab %}
 
-**Sprout**
-
+{% tab title="Sprout" %}
 {% embed url="https://sprout.sesameseed.org/" %}
+{% endtab %}
+{% endtabs %}
 
 ## Stakers
 
-Delegate ONE Tokens To 14 Pools
+Delegate ONE Tokens To 16 Pools
 
-![](../.gitbook/assets/stakers1.png)
+![](../.gitbook/assets/image%20%2856%29.png)
 
-#### Blockdaemon
-
+{% tabs %}
+{% tab title="Blockdaemon" %}
 {% embed url="https://blockdaemon.com/" %}
+{% endtab %}
 
-**Stakefish**
+{% tab title="Stakefish" %}
+{% embed url="https://stake.fish/" %}
+{% endtab %}
 
-{% embed url="https://Stake.fish" %}
-
-#### Staked
-
+{% tab title="Staked" %}
 {% embed url="https://staked.us/" %}
+{% endtab %}
 
-**Figment Networks**
-
+{% tab title="Figment Networks" %}
 {% embed url="https://figment.network/networks/harmony/" %}
+{% endtab %}
 
-**Wetez**
+{% tab title="Wetez" %}
+{% embed url="https://www.wetez.io/" %}
+{% endtab %}
 
-{% embed url="https://medium.com/@Wetezwallet" %}
-
-**EverStake**
-
+{% tab title="EverStake" %}
 {% embed url="https://everstake.one/" %}
+{% endtab %}
 
-**Infstones** 
+{% tab title="Infstones" %}
+{% embed url="https://infinitystones.io/" %}
+{% endtab %}
+{% endtabs %}
 
-{% embed url="https://infinitystones.io" %}
-
-**HashQuark** 
-
+{% tabs %}
+{% tab title="HashQuark" %}
 {% embed url="https://www.hashquark.io/\#/" %}
+{% endtab %}
 
-**Stakin** 
-
+{% tab title="Stakin" %}
 {% embed url="https://stakin.com/" %}
+{% endtab %}
 
-**HonestMining** 
-
+{% tab title="HonestMining" %}
 {% embed url="https://honestmining.com/" %}
+{% endtab %}
 
-**Staking Team**
-
+{% tab title="Staking Team" %}
 {% embed url="https://www.stakingrewards.com/provider/staking-team" %}
+{% endtab %}
 
-**JetStake** 
-
+{% tab title="JetStake" %}
 {% embed url="https://dev.jetstake.com/" %}
+{% endtab %}
 
-**My Constant** 
-
+{% tab title="My Constant" %}
 {% embed url="https://www.myconstant.com/" %}
+{% endtab %}
 
-**Moonstake** 
-
+{% tab title="Moonstake" %}
 {% embed url="https://www.moonstake.io/" %}
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="P-Ops" %}
+{% embed url="https://pops.one/" %}
+{% endtab %}
+
+{% tab title="Chainode Tech" %}
+{% embed url="https://chainode.tech/" %}
+{% endtab %}
+{% endtabs %}
 
 ## Partners
 
 Integrate ONE Tokens With 9 Partners
 
-![](../.gitbook/assets/partners1.png)
+![](https://gblobscdn.gitbook.com/assets%2F-LlEOlYqEG_GKuO5Rehq%2F-M6bE3LGhEwO-1xDWuS2%2F-M6bFDOv2eRz7EbF3LOi%2Fpartners1.png?alt=media&token=91f3b7a5-4e1a-4b2a-93a2-b32ed88ce198)
 
-**Animoca Brands**
-
+{% tabs %}
+{% tab title="Animoca Brands" %}
 {% embed url="https://medium.com/harmony-one/harmony-partners-with-gaming-industry-leader-animoca-e29f4624c055" %}
+{% endtab %}
 
-**Quidd**
-
+{% tab title="Quidd" %}
 {% embed url="https://cryptobriefing.com/harmony-blockchain-gaming-speed/" %}
+{% endtab %}
 
-**Lympo**
-
+{% tab title="Lympo" %}
 {% embed url="https://lympo.com/harmony-and-lympo-partner-to-provide-scalable-and-secure-sharing-of-health-data/" %}
+{% endtab %}
 
-**Ankr**
-
+{% tab title="Ankr" %}
 {% embed url="https://www.ankr.com/article/161" %}
+{% endtab %}
 
-**Safehaven**
-
+{% tab title="Safehaven" %}
 {% embed url="https://medium.com/@safehavenio" %}
+{% endtab %}
 
-**Incognito**
-
+{% tab title="Incognito" %}
 {% embed url="https://incognito.org/" %}
+{% endtab %}
 
-**Debrief**
-
+{% tab title="Debrief" %}
 {% embed url="https://debrief.co/" %}
+{% endtab %}
 
-**Suterusu**
-
+{% tab title="Suterusu" %}
 {% embed url="https://www.suterusu.io/" %}
+{% endtab %}
 
-**IBC**
-
+{% tab title="IBC" %}
 {% embed url="https://ibc.media/" %}
+{% endtab %}
+{% endtabs %}
 
 ## Investors
 
@@ -180,67 +202,73 @@ Backed By 17 Global Investors
 
 ![](../.gitbook/assets/investors1.png)
 
-**Anmi Group**
-
+{% tabs %}
+{% tab title="Anmi Group" %}
 {% embed url="https://anmi.group/en/" %}
+{% endtab %}
 
-**Lemniscap**
-
+{% tab title="Lemniscap" %}
 {% embed url="https://lemniscap.com/portfolio" %}
+{% endtab %}
 
-**Binance Labs**
-
+{% tab title="Binance Labs" %}
 {% embed url="https://labs.binance.com/" %}
+{% endtab %}
 
-**Hashkey**
-
+{% tab title="Hashkey" %}
 {% embed url="https://www.hashkey.com/" %}
+{% endtab %}
 
-**Blockchain Assets** 
-
+{% tab title="Blockchain Assets " %}
 {% embed url="https://www.bca.fund/" %}
+{% endtab %}
 
-**BTC12 Capital** 
-
+{% tab title="BTC12 Capital " %}
 {% embed url="https://btc12.com/" %}
+{% endtab %}
+{% endtabs %}
 
-**Coinfund** 
-
+{% tabs %}
+{% tab title="Coinfund" %}
 {% embed url="https://coinfund.io/" %}
+{% endtab %}
 
-**Consensus Capital** 
-
+{% tab title="Consensus Capital " %}
 {% embed url="http://consensuscapital.ca/" %}
+{% endtab %}
 
-**Continue Capital** 
-
+{% tab title="Continue Capital" %}
 {% embed url="https://continue.capital/" %}
+{% endtab %}
 
-**QTUM** 
+{% tab title="QTUM" %}
+{% embed url="https://qtum.org/" %}
+{% endtab %}
 
-{% embed url="https://qtum.org" %}
-
-**Skunk Capital** 
-
+{% tab title="Skunk Capital " %}
 {% embed url="https://skunk.capital/" %}
+{% endtab %}
 
-**UniValues Associates** 
-
+{% tab title="UniValues Associates " %}
 {% embed url="https://uva.fund/" %}
+{% endtab %}
 
-**SNZ** 
-
+{% tab title="SNZ" %}
 {% embed url="https://snzholding.com/portfolio.html" %}
+{% endtab %}
+{% endtabs %}
 
-**DACM** 
-
+{% tabs %}
+{% tab title="DACM" %}
 {% embed url="https://dacm.io/portfolio.html" %}
+{% endtab %}
 
-**Cyphermines** 
-
+{% tab title="Cyphermines" %}
 {% embed url="https://www.cyphermines.io/" %}
+{% endtab %}
 
-**Hayek Capital** 
-
+{% tab title="Hayek Capital" %}
 {% embed url="https://www.crunchbase.com/organization/hayek-capital" %}
+{% endtab %}
+{% endtabs %}
 
