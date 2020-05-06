@@ -136,6 +136,16 @@ Delegate ONE Tokens To 14 Pools
 {% endtab %}
 {% endtabs %}
 
+{% tabs %}
+{% tab title="P-Ops" %}
+{% embed url="https://pops.one/" %}
+{% endtab %}
+
+{% tab title="Chainode Tech" %}
+{% embed url="https://chainode.tech/" %}
+{% endtab %}
+{% endtabs %}
+
 ## Partners
 
 Integrate ONE Tokens With 9 Partners
