@@ -1,4 +1,4 @@
-# Ecosystem
+# Ecosystem \(Tabs\)
 
 ## Exchanges
 

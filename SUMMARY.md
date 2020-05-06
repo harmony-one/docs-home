@@ -157,7 +157,7 @@
   * [Case Studies](partners/case-studies.md)
   * [Cross-Border Finance](partners/cross-border-finance.md)
   * [Ecosystem](partners/ecosystem/README.md)
-    * [Ecosystem](partners/ecosystem/ecosystem.md)
+    * [Ecosystem \(Tabs\)](partners/ecosystem/ecosystem.md)
   * [Reference](partners/on-boarding-process.md)
   * [Onboarding](partners/onboard-process-walkthrough.md)
 * [Governance](governance.md)
