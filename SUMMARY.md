@@ -21,6 +21,7 @@
     * [Download & Setup](wallets/mathwallet/download-and-setup.md)
     * [Create or Import Wallet](wallets/mathwallet/create-import-wallet.md)
     * [Sending Transactions](wallets/mathwallet/send-tx.md)
+    * [Staking Transactions](wallets/mathwallet/staking-transactions.md)
   * [Command-line Tools](wallets/harmony-cli/README.md)
     * [Download & setup](wallets/harmony-cli/download-setup.md)
     * [Create or import wallet](wallets/harmony-cli/create-import-wallet.md)
