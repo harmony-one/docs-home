@@ -10,11 +10,11 @@ description: This wallet option is currently recommended for testing purposes
 Save your private key\(s\) before updating the extension.
 {% endhint %}
 
-1. Download the latest version [here](https://github.com/harmony-one/staking-dashboard/raw/master/extension_versions/0.0.10.zip).
+1. Download the latest version [here](https://github.com/harmony-one/staking-dashboard/tree/master/extension_versions).
 
 2. Unzip the file.
 
-3. Type chrome://extensions on Google Chrome web browser.
+3. Type **chrome://extensions** on Google Chrome web browser.
 
 4. Enable “Developer mode” located in the top right corner, then click on Load unpacked button.
 
