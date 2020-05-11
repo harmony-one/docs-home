@@ -6,8 +6,6 @@ description: Harmony's Chrome extension wallet is a secure native crypto wallet
 
 ## Installation 
 
-1. Download the latest version [here](https://chrome.google.com/webstore/detail/harmony/bjaeebonnimhcakeckbnemejhdpngdmd).
-
 1. Go to [Harmony.one/chrome-store](https://chrome.google.com/webstore/detail/harmony/bjaeebonnimhcakeckbnemejhdpngdmd) and install extension 
 2. Click on the extension icon and create a new ONE address or import an existing address by selecting "Recover account"
 
