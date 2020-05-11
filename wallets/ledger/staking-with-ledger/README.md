@@ -1,4 +1,4 @@
-# Ledger Nano S With Staking Portal
+# Stake with Ledger Nano S
 
 ## Get everything together
 

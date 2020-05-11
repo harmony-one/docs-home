@@ -20,9 +20,9 @@ BLS keys are attached to validator via:
 * Creating a new validator \(put commas between multiple BLS keys\)
 * Adding new keys to an existing validator \(edit-validator --add-bls-key\), only one key can be added at a time
 
-![](../../.gitbook/assets/image%20%2856%29.png)
+![](../../.gitbook/assets/image%20%2881%29.png)
 
-![](../../.gitbook/assets/image%20%2840%29.png)
+![](../../.gitbook/assets/image%20%2858%29.png)
 
 #### Instance\(s\)
 

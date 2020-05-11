@@ -1,44 +1,46 @@
+---
+description: 'Note: staking dashboard only process transactions on shard 0.'
+---
+
 # Sending transactions
 
-To send any token to an address, please click the send button and the send screen will display as the following:
+ To send ONE tokens to an address, click the **"**Transfer funds" button and the send window will pop-up.
 
-![](../../../.gitbook/assets/assets_-lleolyqeg_gkuo5rehq_-lw-til_4d3hoiy6ona2_-lw0dy2mt5zefjoimpz0_screen-shot-2019-12-13-at-1.48.03-pm.jpg)
+![](../../../.gitbook/assets/image%20%28112%29.png)
 
-Input the amount of tokens to send and the destination address, then click the next buttons until you see the send button. Click the send button as shown below:
+Input the amount of tokens to send and the destination address, then click the "next" buttons.
 
-![](../../../.gitbook/assets/assets_-lleolyqeg_gkuo5rehq_-lw-til_4d3hoiy6ona2_-lw0eaumsidiu8iayj5v_screen-shot-2019-12-13-at-1.50.27-pm.jpg)
+![](../../../.gitbook/assets/image%20%28105%29.png)
 
-Check your ledger Nano S, the LED display on Nano S is shown as below.
+Click the "Confirm and Sign" button to sign the transaction.
+
+![](../../../.gitbook/assets/image%20%2830%29.png)
+
+Check your ledger Nano S, the LED display on Nano S is shown as below.  Click on the right button to review transaction on Ledger.
+
+![](../../../.gitbook/assets/image%20%2822%29.png)
+
+Check and confirm the destination address is correct.
+
+![](../../../.gitbook/assets/image%20%28107%29.png)
+
+Check and confirm the amount is correct.
+
+![](../../../.gitbook/assets/image%20%28117%29.png)
+
+Currently, staking dashboard only supports transaction on shard0.
+
+![](../../../.gitbook/assets/image%20%2832%29.png)
 
 Click the right button to start signing the transaction:
 
-![](../../../.gitbook/assets/assets_-llydmt-wp5uywcf_tmw_-lp1rbqypgiebehfw8of_-lp1fc7z1fvyt5c5rjal_1-1.jpg)
+![](../../../.gitbook/assets/image%20%2868%29.png)
 
-Check and confirm the transfer to address is correct:
+Once transaction is signed, Delegate window will pop-up on the staking dashboard and display the transaction status.
 
-![](../../../.gitbook/assets/assets_-llydmt-wp5uywcf_tmw_-lo6dy17b06jv4usf0x9_-lo6eqqlsb2bdwimq2ri_3-1.jpg)
+![](../../../.gitbook/assets/image%20%2877%29.png)
 
-Check and confirm the amount is correct:
+ It will display "Successful Send" once the transactions completes.
 
-![](../../../.gitbook/assets/assets_-llydmt-wp5uywcf_tmw_-lo6dy17b06jv4usf0x9_-lo6ess-qahgw53hl09s_4-1.jpg)
-
-Check and confirm the source shard ID is correct:
-
-![](../../../.gitbook/assets/assets_-llydmt-wp5uywcf_tmw_-lo6dy17b06jv4usf0x9_-lo6ewojrmregmfnecvn_5-1.jpg)
-
-Check and confirm the destination shard ID is correct:
-
-![](../../../.gitbook/assets/assets_-llydmt-wp5uywcf_tmw_-lo6dy17b06jv4usf0x9_-lo6eyzo-z2dia94jfx3_6-2.jpg)
-
-Detailed process is shown in video below:
-
-{% embed url="https://youtu.be/feRpGW1seQI" caption="" %}
-
-On the computer, you will find that the transaction is sent and confirming:
-
-![](../../../.gitbook/assets/assets_-lleolyqeg_gkuo5rehq_-lw-til_4d3hoiy6ona2_-lw0f5w9adopprr8pa-j_screen-shot-2019-12-13-at-1.52.32-pm.jpg)
-
-After a while, it will change to "Successful Send"
-
-![](../../../.gitbook/assets/screen-shot-2019-12-13-at-1.53.30-pm.png)
+![](../../../.gitbook/assets/image%20%28127%29.png)
 

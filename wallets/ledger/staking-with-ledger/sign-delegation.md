@@ -1,46 +1,50 @@
-# Sign delegation
+# Staking transactions
 
-Harmony app also supports signing staking transactions. To sign a staking delegation, click the validators menu on the left side. A list of validators will be displayed as below:
+Harmony Staking Dashboard \([staking.harmony.one](https://staking.harmony.one/validators)\) also supports staking transactions. 
 
-![](../../../.gitbook/assets/screen-shot-2019-12-13-at-2.04.49-pm.png)
+Check the validators page to see list of validators. Click on desired validator logo to check validator details.
 
-Click on any validator you want to delegate, it will show as below:
+![](../../../.gitbook/assets/image%20%2853%29.png)
 
-![](../../../.gitbook/assets/screen-shot-2019-12-13-at-2.05.19-pm.png)
+Click on the "Delegate" button to delegate to this validator.
 
-Click the stake button to start delegation as shown below:
+![](../../../.gitbook/assets/image%20%285%29.png)
 
-![](../../../.gitbook/assets/screen-shot-2019-12-13-at-2.05.53-pm.png)
+Enter the desired delegation amount or scroll the percentage slider in the pop-up Delegate window. Delegation must be more than 1000 ONE. Click on "Next" and confirm the signature request.
 
-Input the amount of tokens you want to delegate and keep clicking the next button until it shows "Send". Click the "Send" button and screen will display as below:
+![](../../../.gitbook/assets/image%20%2826%29.png)
 
-![](../../../.gitbook/assets/screen-shot-2019-12-13-at-2.07.00-pm.png)
+![](../../../.gitbook/assets/image%20%2818%29.png)
 
-Check your Ledger Nano S. It should display "Delegate Stake" in the LED screen. Click the right button to start signing the transaction:
+Check your ledger Nano S, the LED display on Nano S displays "Delegate Stake" in the LED screen. Press the right button to start signing the transaction.
 
-![](../../../.gitbook/assets/img_4188.jpeg)
+![](../../../.gitbook/assets/image%20%284%29.png)
 
-Check the delegator address is correct by pressing left/right buttons. Once confirmed, you can press only the right button to continue:
+Check the delegator address. Press the right button to show full address. If correct, press both left/right buttons to continue.
 
-![](../../../.gitbook/assets/img_4192.jpeg)
+![](../../../.gitbook/assets/image%20%2811%29.png)
 
-Check the delegate transaction amount is correct. Once confirmed, you can press only the right button to continue:
+Check the validator address. If correct, press both left/right buttons to continue.
 
-![](../../../.gitbook/assets/img_4194.jpeg)
+![](../../../.gitbook/assets/image%20%2883%29.png)
 
-At the last step, you will find the Sign Stake confirmation, press the right button if you want to sign it. Otherwise, you can press the left button to cancel the signing.
+Check the delegation amount. If correct, press the right button to continue:
 
-![](../../../.gitbook/assets/img_4196.jpeg)
+![](../../../.gitbook/assets/image%20%2889%29.png)
+
+Press right button to sign Delegate Stake confirmation.
+
+![](../../../.gitbook/assets/image%20%28141%29.png)
 
 The entire process is shown below:
 
 {% embed url="https://youtu.be/HWECABLQN0Q" caption="" %}
 
-On the computer, you will find that the transaction is sent and confirming:
+Once transaction is signed, Delegate window will pop-up on the staking dashboard and display the transaction status.
 
-![](../../../.gitbook/assets/screen-shot-2019-12-13-at-2.09.50-pm.png)
+![](../../../.gitbook/assets/image%20%28138%29.png)
 
-After a while, it will change to "Successful delegation!"
+![](../../../.gitbook/assets/image%20%289%29.png)
 
-![](../../../.gitbook/assets/screen-shot-2019-12-13-at-2.13.08-pm.png)
+
 
