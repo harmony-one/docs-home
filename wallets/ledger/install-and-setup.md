@@ -11,7 +11,7 @@ _Let's make sure your hardware wallet ready to use._
 {% embed url="https://youtu.be/JlojlZiVK8E" caption="" %}
 
 1. Download [Ledger Live](https://support.ledgerwallet.com/hc/en-us/articles/360006395553/) onto your computer. Ledger Live is the app you use to manage your Ledger device.  Please follow the official installation instruction [here](https://support.ledger.com/hc/en-us/articles/360006395553).
-2. [Install the latest firmware](https://support.ledgerwallet.com/hc/en-us/articles/360002731113) on your Nano S. This ensures compatibility with the Harmony app. The latest firmware is version 1.6.0.le
+2. [Install the latest firmware](https://support.ledgerwallet.com/hc/en-us/articles/360002731113) on your Nano S. This ensures compatibility with the Harmony app. The latest firmware is version 1.0.2.
 
 {% embed url="https://youtu.be/\_5CymmI4BTQ" caption="" %}
 
