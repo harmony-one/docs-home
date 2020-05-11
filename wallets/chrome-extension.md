@@ -10,7 +10,7 @@ description: This wallet option is currently recommended for testing purposes
 Save your private key\(s\) before updating the extension.
 {% endhint %}
 
-1. Download the latest version [here](https://github.com/harmony-one/staking-dashboard/tree/master/extension_versions).
+1. Download the latest version [here](https://chrome.google.com/webstore/detail/harmony/bjaeebonnimhcakeckbnemejhdpngdmd).
 
 2. Unzip the file.
 

@@ -18,7 +18,7 @@ Choose your preferred validator and click on Delegate button. Enter the desired 
 
 ![](../../.gitbook/assets/image%20%2826%29.png)
 
-Confirm the signature request
+Confirm the signature request.
 
 ![](../../.gitbook/assets/image%20%2850%29.png)
 
