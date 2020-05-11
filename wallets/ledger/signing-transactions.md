@@ -1,27 +1,8 @@
-# Ledger Nano S With CLI
+# Using HMY CLI
 
-## Get everything together
+## Displaying your Wallet Address
 
-Using Harmony hardware wallet on the Ledger Nano S requires a few things. You will need:
-
-* Your Ledger Nano S
-* The Harmony app installed on your Nano S
-* The [harmony CLI app](https://docs.harmony.one/sdk-wiki/command-line-interface/using-the-harmony-cli-tool) on your computer to talk to the Nano S
-* Familiarity with your computer's command-line interface \(CLI\)
-
-## Download CLI
-
-_Please use the_ [_following instructions_](https://docs.harmony.one/home/wallet-guides/harmony-cli/download-setup) _to download CLI to use Ledger Nano S._
-
-## Install Ledger Nano S Firmware In Debugging Mode
-
-_This is ONLY for wallet developers / testers. Other users please download firmware through Ledger Live._
-
-_Please use the_ [_following instructions_](https://docs.harmony.one/home/wallet-guides/ledger/install-and-setup) _to install Ledger Nano S firmware in Debugging mode._
-
-## Display the Harmony ONE address for Ledger Nano S
-
-As Ledger Nano S is connected to PC/Mac through USB, super user's permission is needed to open the USB. To use the Ledger Nano S hardware wallet, run harmony CLI **under sudo** and **use command** keys list --ledger
+As Ledger Nano S is connected to computer through USB, super user's permission is needed to open the USB. To use the Ledger Nano S hardware wallet, run  HMY CLI under **sudo** with the command below**:**
 
 #### Using the Binary:
 
@@ -32,7 +13,7 @@ As Ledger Nano S is connected to PC/Mac through USB, super user's permission is 
 #### Using the Shell Wrapper:
 
 ```text
-./hmy.sh -- keys list --ledger
+./hmy.sh --keys list --ledger
 ```
 
 1. After running the keys command with --ledger option, a GUI will be displayed on Ledger Nano S LED screen
@@ -43,9 +24,9 @@ The entire process is shown in the video below:
 
 {% embed url="https://youtu.be/m5RLYGWosuk" caption="" %}
 
-## Display token balance for Ledger Nano S <a id="display-token-balance-for-ledger-nano-s"></a>
+## Displaying your Wallet Balance <a id="display-token-balance-for-ledger-nano-s"></a>
 
-Balance on any Harmony wallet addresses can be displayed using CLI with command **balances** using the following command line options:
+Balance on any Harmony wallet addresses can be displayed using the HMY CLI with command **balances** using the following command line options:
 
 #### Using the binary:
 

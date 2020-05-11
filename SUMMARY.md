@@ -8,7 +8,7 @@
   * [Trust Wallet](wallets/trustwallet.md)
   * [Ledger](wallets/ledger/README.md)
     * [Download & Setup](wallets/ledger/download-and-setup.md)
-    * [Ledger Nano S With CLI](wallets/ledger/signing-transactions.md)
+    * [Using HMY CLI](wallets/ledger/signing-transactions.md)
     * [Stake with Ledger Nano S](wallets/ledger/staking-with-ledger/README.md)
       * [Sign In With Ledger](wallets/ledger/staking-with-ledger/sign-in-with-ledger.md)
       * [Sending transactions](wallets/ledger/staking-with-ledger/send-tx.md)
