@@ -4,7 +4,7 @@
 * [Wallets](wallets/README.md)
   * [Private Key Management](wallets/key-management-overview.md)
   * [Missing Funds on Exchange](wallets/missing-funds-on-exchange.md)
-  * [Chrome Extension](wallets/chrome-extension.md)
+  * [Harmony Wallet](wallets/chrome-extension.md)
   * [Trust Wallet](wallets/trustwallet.md)
   * [Ledger](wallets/ledger/README.md)
     * [Download & Setup](wallets/ledger/download-and-setup.md)

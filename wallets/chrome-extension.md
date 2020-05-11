@@ -1,54 +1,35 @@
 ---
-description: This wallet option is currently recommended for testing purposes
+description: Harmony's Chrome extension wallet is a secure native crypto wallet
 ---
 
-# Chrome Extension
+# Harmony Wallet
 
-## How to install
-
-{% hint style="danger" %}
-Save your private key\(s\) before updating the extension.
-{% endhint %}
+## Installation 
 
 1. Download the latest version [here](https://chrome.google.com/webstore/detail/harmony/bjaeebonnimhcakeckbnemejhdpngdmd).
 
-2. Unzip the file.
+1. Go to [Harmony.one/chrome-store](https://chrome.google.com/webstore/detail/harmony/bjaeebonnimhcakeckbnemejhdpngdmd) and install extension 
+2. Click on the extension icon and create a new ONE address or import an existing address by selecting "Recover account"
 
-3. Type **chrome://extensions** on Google Chrome web browser.
+![](../.gitbook/assets/screen-shot-2020-05-11-at-4.22.24-pm.png)
 
-4. Enable “Developer mode” located in the top right corner, then click on Load unpacked button.
+## Transferring Funds 
 
-![Activating the Developer mode](../.gitbook/assets/developer_mode.jpg)
+1. After logging into your account on the extension you'll be directed to the staking dashboard.  Click on "Portfolio" , and then "Transfer funds"
 
-5. Then specify the unzipped folder → you may need to clear site application - go to Clear site data below.
+![](../.gitbook/assets/screen-shot-2020-05-11-at-4.28.52-pm.png)
 
-6. You should see small H icon as following.
+2. In the pop-up input the destination address and amount you want to transfer. Click next, and then click "Confirm and Sign" to authorize the transfer
 
-![Extension icon in taskbar](https://lh5.googleusercontent.com/QmPyhz1K8kErXosXuv1RIV8ur6zGPSoMDkqONVzPgM0UvGnNtyAUNehQeclKNz4fLq3VB-d47s27kilEQjRNfLN4VK2opts1Sozd1_W9YhceuIzoDiCtqfkigtxPYzfJzQEQ13lx)
+![Pop-Up ](../.gitbook/assets/screen-shot-2020-05-11-at-4.36.45-pm.png)
 
-7. Click on the icon, create a new address.
+## Staking
 
-8. Click on the icon, create a new address. \(do not forget the passphrase\).
+1. Click on "Validators" in the staking dashboard to see all the validators 
 
-9. Go to [https://staking.harmony.one](https://staking.harmony.one).
+![](../.gitbook/assets/screen-shot-2020-05-11-at-4.41.22-pm.png)
 
-10. Click on Sign in, Use an existing address, Use Harmony Browser Extension Use Account.
+2. Select the validator you would like to stake by clicking on their name, and then click "Delegate". Enter the amount you would like to stake, and confirm the transaction
 
-## Here are some action available to use while with the extension
-
-###  Shard 0 fund transfer or claim reward
-
- Go to Portfolio page click on "transfer fund" or "claim reward", follow instruction until signing of the transaction is required
-
-### Delegation/undelegation
-
-Go Validators page, pick a validator for delegation or undelegation, then click on either "delegate" or "undelegate", follow instruction until signing of the transaction is required
-
-### Signing a transfer/claim/delegation/undelegation
-
-You would see H icon with label 1 like below.
-
-![Notification on the icon](https://lh5.googleusercontent.com/MyGOtSPQFFRzcl2f8VXfhuDlOoVN4SI-nLkPZH2fPxykzKUpGegNoz6ZICegqWlIDSWLpYPNSBve0vpvDhvfIQszptyMjE9r5Z3mC5gCBb4iDvJrHp3S_d8rB1hFcvxlalXUAHkI)
-
-Click on that and specify password for signing and sending the transaction to the network.
+![](../.gitbook/assets/screen-shot-2020-05-11-at-4.45.27-pm.png)
 
