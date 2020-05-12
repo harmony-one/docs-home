@@ -54,6 +54,8 @@
   * [First Time Setup](validators/first-time-setup/README.md)
     * [HMY CLI Download](validators/first-time-setup/hmy-cli-download-1.md)
     * [Generating A BLS Key](validators/first-time-setup/generating-a-bls-key.md)
+    * [Fast State Syncing](validators/first-time-setup/fast-state-syncing/README.md)
+      * [Using Rclone](validators/first-time-setup/fast-state-syncing/using-rclone.md)
     * [Running a Node](validators/first-time-setup/running-a-node.md)
     * [Creating A Wallet](validators/first-time-setup/creating-a-wallet.md)
     * [Creating A Validator](validators/first-time-setup/creating-a-validator.md)
