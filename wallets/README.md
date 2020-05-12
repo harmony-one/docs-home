@@ -1,15 +1,6 @@
----
-description: >-
-  All the following wallets supporting native ONE tokens are non-custodial
-  wallets. Currently Harmony Wallet, Math Wallet and Ledger support staking
-  transactions.
----
-
 # Wallets
 
 Harmony's native token ONE is supported on the following wallets:
-
-{% page-ref page="chrome-extension.md" %}
 
 {% page-ref page="trustwallet.md" %}
 
@@ -21,5 +12,7 @@ Harmony's native token ONE is supported on the following wallets:
 
 {% page-ref page="safepal/" %}
 
-
+{% hint style="info" %}
+Trust Wallet does not support Harmony's sharded network architecture yet, so **all transactions to or from Trust Wallet must go through shard 0.**
+{% endhint %}
 

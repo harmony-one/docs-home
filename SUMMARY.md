@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Wallets](wallets/README.md)
-  * [Private Key Management](wallets/key-management-overview.md)
+  * [Key Management](wallets/key-management-overview.md)
   * [Missing Funds on Exchange](wallets/missing-funds-on-exchange.md)
   * [Harmony Wallet](wallets/chrome-extension.md)
   * [Trust Wallet](wallets/trustwallet.md)
