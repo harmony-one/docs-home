@@ -1,6 +1,6 @@
 # Validator, BLS key, Instance
 
-### Validator Setup and Configuration <a id="6a31"></a>
+### Validator Setup and Configuration
 
 A validator in Harmony blockchain is a single person or entity who stakes tokens and runs nodes \(validator client software\) to validate blocks. A validator can specify one or multiple validating keys \(a.k.a. [BLS](https://en.wikipedia.org/wiki/Boneh%E2%80%93Lynn%E2%80%93Shacham) keys\) which will be used to sign on validated blocks.
 
@@ -27,7 +27,7 @@ A validator has two main parameters that affect its ranking in the committee lis
 
 Validator's **bid is calculated by stake amount / \# of BLS keys**. Total stake is automatically and evenly distributed among the BLS keys, validator cannot change this.
 
-#### BLS key\(s\)
+### BLS key\(s\)
 
 {% hint style="info" %}
 [BLS](https://en.wikipedia.org/wiki/Boneh%E2%80%93Lynn%E2%80%93Shacham) stands for **Boneh–Lynn–Shacham**. It is a digital signature method used for verifying the authenticity of digital messages or documents. 
@@ -44,7 +44,7 @@ BLS keys are attached to validator via:
 
 ![](../../.gitbook/assets/image%20%2862%29.png)
 
-#### Instance\(s\)
+### Instance\(s\)
 
 An instance is a virtual private server or dedicated hardware with a unique IP address on which a validator runs the node software. 
 
@@ -57,7 +57,7 @@ Here are **some rules to follow:**
 
 Note that validators sometimes choose to run duplicate instances \(2 instances, each running with same BLS key\) as a backup mechanism.
 
-## Multi-BLS keys
+### Multi-BLS keys
 
 Validators are not required to use the multiBLS feature in order to add multiple keys to their validator. Take a look at some possible scenarios in the illustration at the top. There are some differences to using multiBLS vs. single-key instance:
 
