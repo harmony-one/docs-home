@@ -1,4 +1,4 @@
-# Using with HMY CLI
+# Ledger with HMY CLI
 
 ## Download & Setup HMY
 
