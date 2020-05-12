@@ -4,7 +4,7 @@ You can go to [Harmony Staking Dashboard](https://staking.harmony.one/welcome) t
 
 ![](../.gitbook/assets/image%20%28119%29.png)
 
-Staking Dashbaord is an easy way to delegate, undelegate, claim rewards and manage your delegations. Currently, staking transaction is supported on Ledger, Harmony Browser Extension and Math Wallet, you can log in or create a new address via those three wallets.
+Staking Dashboard is an easy way to delegate, undelegate, claim rewards and manage your delegations. Currently, staking transaction is supported on Ledger Nano S, Harmony Browser Extension and Math Wallet, you can log in or create a new address via those three wallets.
 
 ![](../.gitbook/assets/image%20%2865%29.png)
 
