@@ -32,7 +32,7 @@
   * [Wallet Management](wallets/wallet-management/README.md)
     * [Key Management](wallets/wallet-management/key-management.md)
     * [Missing Funds on Exchange](wallets/wallet-management/missing-funds-on-exchange.md)
-* [Delegator](delegator/README.md)
+* [Delegators](delegator/README.md)
   * [Untitled](delegator/untitled.md)
   * [Staking Dashboard](delegator/staking-dashboard.md)
 * [Validators](validators/README.md)

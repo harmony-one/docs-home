@@ -1,4 +1,4 @@
-# Delegator
+# Delegators
 
 Delegators secure the Harmony block chain by delegating native ONE tokens to the validators and earning rewards.
 
