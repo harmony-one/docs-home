@@ -14,23 +14,23 @@ Make sure to i[nstall the latest firmware](https://support.ledgerwallet.com/hc/e
 
 Open Ledger Live,  select Manager.  Turn on **Developer Mode** in Manager: Settings -&gt; Experimental Features -&gt; Developer Mode, as shown below:
 
-![](../../.gitbook/assets/image%20%2836%29.png)
+![](../../.gitbook/assets/image%20%2837%29.png)
 
 ## **Step 2. Search for the App in the Catalog**
 
 Ledger live provides app catalog for different types of apps, as shown below:
 
-![](../../.gitbook/assets/image%20%2838%29.png)
+![](../../.gitbook/assets/image%20%2839%29.png)
 
 To find the Harmony app, type **harmony** in the search bar, as shown below:
 
-![](../../.gitbook/assets/image%20%2877%29.png)
+![](../../.gitbook/assets/image%20%2880%29.png)
 
 ## **Step 3. Install/Remove the App**
 
 There are two buttons associated with Harmony One app. The **install** button can be clicked to install Harmony One app to Ledger Nano. The app can be uninstalled by clicking the trash bin button.
 
-![](../../.gitbook/assets/image%20%2840%29.png)
+![](../../.gitbook/assets/image%20%2841%29.png)
 
 ## **Step 4. Using the App**
 
