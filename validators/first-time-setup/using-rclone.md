@@ -1,8 +1,8 @@
 # Syncing with Rclone
 
-This document introduces another centralized fast state syncing method using rclone. The document is still working-in-progress. Please use it with caution. This guide is mainly used for a newly started node to catch up with the blockchain faster. Otherwise, the blockchain syncing may take weeks.
+This document introduces another centralized fast state syncing method using rclone. Please use it with caution. This guide is mainly used for a newly started node to catch up with the blockchain faster. Otherwise, the blockchain syncing may take weeks.
 
-Rclone db snapshot is sync'ed with blockchain once a day. It is more recent than the db tarball. However, there maybe a potential race condition when the rclone may fail due to our nodes were updating the db files at the same time. In this case, just re-run the rclone command to re-sync again.
+Rclone db snapshot is sync'ed with blockchain frequently. However, there maybe a potential race condition when the rclone may fail due to our nodes were updating the db files at the same time. In this case, just re-run the rclone command to re-sync again.
 
 ## 1. Installing Rclone
 
