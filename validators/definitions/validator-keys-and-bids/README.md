@@ -16,17 +16,6 @@ There are many fields to configure for your validator. It’s worth clarifying s
 2. **rate:** The commission fee \(%\) the validator charges from the block reward. 
 3. **bls-pubkeys:** One or multiple BLS public keys the validator will sign with. Each BLS key will be used separately to bid for a slot and if successful, the key is obligated to validate blocks. 
 
-For a detailed guide on how to configure your validator, please follow [**here**](https://docs.harmony.one/home/validators/managing-your-validator/changing-validator-information).
-
-A validator technically represents a single one1.. account \(address\) that was entered into a successful create-validator transaction. Once a one1.. address is registered as a validator, the earnings of validator goes to this one1.. account.
-
-A validator has two main parameters that affect its ranking in the committee list:
-
-1. Stake amount
-2. BLS key\(s\) attached to this validator
-
-Validator's **bid is calculated by stake amount / \# of BLS keys**. Total stake is automatically and evenly distributed among the BLS keys, validator cannot change this.
-
 ### BLS key\(s\)
 
 {% hint style="info" %}
@@ -40,11 +29,7 @@ BLS keys are attached to validator via:
 * Creating a new validator \(put commas between multiple BLS keys\)
 * Adding new keys to an existing validator \(edit-validator --add-bls-key\), only one key can be added at a time
 
-![](../../.gitbook/assets/image%20%2888%29.png)
-
-![](../../.gitbook/assets/image%20%2862%29.png)
-
-### Instance\(s\)
+### Instance\(s\) & Multi-BLS keys
 
 An instance is a virtual private server or dedicated hardware with a unique IP address on which a validator runs the node software. 
 
@@ -57,19 +42,21 @@ Here are **some rules to follow:**
 
 Note that validators sometimes choose to run duplicate instances \(2 instances, each running with same BLS key\) as a backup mechanism.
 
-### Multi-BLS keys
-
-Validators are not required to use the multiBLS feature in order to add multiple keys to their validator. Take a look at some possible scenarios in the illustration at the top. There are some differences to using multiBLS vs. single-key instance:
+Below are some differences to using multiBLS vs. single-key instance:
 
 * Machine cost will be lower in a multiBLS instance \(compare 'validator 2' vs. 'validator 1'\)
 * Single-key instances could run nodes for a validator in different shards, whereas a multiBLS instance requires all BLS keys to be in the same shard
 * MultiBLS and single-key instance have different staking commands
 * In order to make changes to the keys in a multiBLS instance, the node needs to be stopped and restarted; whereas a single-key instance can be directly added to a validator \(since the node is running on a different instance\)
-* Too many bls keys signing using a single node creates a single point of failure \(validator’s risk\)
+* Too many BLS keys signing using a single node creates a single point of failure \(validator’s risk\)
+
+### Visualization
+
+![](../../../.gitbook/assets/image%20%2888%29.png)
+
+![](../../../.gitbook/assets/image%20%2862%29.png)
 
 ## 
 
-### Shard Assignment
-
-After a validator is elected, each of its elected BLS keys will be semi-randomly assigned to a shard in the network \(fully random shard assignment will come in the final phase of mainnet\). In the current stage of mainnet, the rule of assignment is simply based on the modulus of the BLS public key’s underlying bytes. For example, with 4 shards, a BLS public key like “xxxxxx8ad5” will be assigned to shard 1 because 5 % 4 = 1. Note that, for each of the elected BLS keys, the validator is obligated to spin up a validator node and validate blocks in the assigned shard.
+### 
 
