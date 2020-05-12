@@ -1,4 +1,4 @@
-# Staking Transactions
+# Staking Transactions via Math Wallet
 
 Sign in from the staking dashboard [https://staking.harmony.one/validators 1](https://staking.harmony.one/validators) for staking transactions. 
 

@@ -4,11 +4,17 @@ Here is the Staking Dashboard link:  [https://staking.harmony.one/welcome](https
 
 ![](../.gitbook/assets/image%20%28119%29.png)
 
-Using the Staking Dashbaord is an easy way to stake, delegate, send funds and control all information associated with the validators.
+Staking Dashbaord is an easy way to stake, delegate, transfer funds and control all information associated with the validators.
 
 First you need to login into an account , you can create new address or using an existing address, for example your validator account that you created using CLI
 
 ![](../.gitbook/assets/image%20%2865%29.png)
+
+{% page-ref page="../wallets/mathwallet/staking-transactions.md" %}
+
+{% page-ref page="../wallets/mathwallet/staking-transactions.md" %}
+
+
 
 After you login, there are several option available, for example you can check all available validators that you can delegate
 

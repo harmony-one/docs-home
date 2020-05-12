@@ -1,4 +1,4 @@
-# Sending Transactions
+# Sending Transactions via Math Wallet
 
 Make sure you've set up your Math Wallet extension according to the directions in [Download & Setup](https://docs.harmony.one/home/wallet-guides/mathwallet/download-and-setup).
 
