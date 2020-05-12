@@ -6,7 +6,7 @@ Here is the Staking Dashboard link:  [https://staking.harmony.one/welcome](https
 
 Staking Dashbaord is an easy way to stake, delegate, transfer funds and control all information associated with the validators.
 
-First you need to login into an account , you can create new address or using an existing address, for example your validator account that you created using CLI
+First you need to login into an account , you can create new address or using an existing address.
 
 ![](../.gitbook/assets/image%20%2865%29.png)
 
@@ -23,8 +23,4 @@ After you login, there are several option available, for example you can check a
 ![](../.gitbook/assets/image%20%2885%29.png)
 
 For each transation/delegation you will need to confirm it, for that you can use several ways, using Harmony Browser Extension or ledger nano S.
-
-**Harmony Browser Extension :** [https://docs.harmony.one/home/basics/overview/installation](https://docs.harmony.one/home/basics/overview/installation)
-
-**Wallets:** [https://docs.harmony.one/home/basics/overview](https://docs.harmony.one/home/basics/overview)
 
