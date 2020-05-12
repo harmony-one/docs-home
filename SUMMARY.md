@@ -30,7 +30,7 @@
     * [Create/import account](wallets/safepal/create-import-account.md)
     * [Send transaction](wallets/safepal/send-transaction.md)
   * [Wallet Management](wallets/wallet-management/README.md)
-    * [Key Management](wallets/wallet-management/key-management.md)
+    * [Private Key Management](wallets/wallet-management/key-management.md)
     * [Missing Funds on Exchange](wallets/wallet-management/missing-funds-on-exchange.md)
 * [Delegators](delegator/README.md)
   * [Undelegation](delegator/undelegation.md)
