@@ -2,13 +2,23 @@
 
 In order to choose their validators, delegators have access to a range of information on the Validator page of the Staking Dashboard.
 
-* **Validator's moniker**: Name of the validator candidate.
+* **Status**: election status of validator in the current epoch
+* **Name:** validator name
+* **Expected Return:** expected annual percentage return rate
+  * The Expected Return of a validator is the expected block reward earned in a year divided by the currently staked tokens on this validator. The expected block reward earned in a year is estimated by extrapolating the total reward earned over the last epoch when the validator was elected.
+* **Stake:** total ONE staked by the validator
+* **Fees:** commission on rewards charged by a validator
+* **Uptime:** signing percentage for this validator's nodes
+
+
+
+* **Validator's name**: Name of the validator candidate.
 * **Validator's description**: Description provided by the validator operator.
 * **Validator's website**: Link to the validator's website.
 * **Initial commission rate**: The commission rate on revenue charged to any delegator by the validator \(see below for more detail\).
 * **Commission max change rate:** The maximum daily increase of the validator's commission. This parameter cannot be changed by the validator operator.
 * **Maximum commission:** The maximum commission rate this validator candidate can charge. This parameter cannot be changed by the validator operator.
-* **Minimum self-bond amount**: Minimum amount of Atoms the validator candidate need to have bonded at all time. If the validator's self-bonded stake falls below this limit, their entire staking pool \(i.e. all its delegators\) will unbond. This parameter exists as a safeguard for delegators. Indeed, when a validator misbehaves, part of their total stake gets slashed. This included the validator's self-delegateds stake as well as their delegators' stake. Thus, a validator with a high amount of self-delegated Atoms has more skin-in-the-game than a validator with a low amount. The minimum self-bond amount parameter guarantees to delegators that a validator will never fall below a certain amount of self-bonded stake, thereby ensuring a minimum level of skin-in-the-game. This parameter can only be increased by the validator operator.
+* **Minimum self-delegated amount**: Minimum amount of ONEs the validator candidate need to have as self-delegation at all time. If the validator's self-delegation falls below this limit, this validator will be inactive. 
 
 ![](../.gitbook/assets/image%20%28136%29.png)
 
