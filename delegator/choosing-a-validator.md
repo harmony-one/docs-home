@@ -9,9 +9,6 @@ In order to choose their validators, delegators have access to a range of inform
 * **Stake:** total ONE staked by the validator
 * **Fees:** commission on rewards charged by a validator
 * **Uptime:** signing percentage for this validator's nodes
-
-
-
 * **Validator's name**: Name of the validator candidate.
 * **Validator's description**: Description provided by the validator operator.
 * **Validator's website**: Link to the validator's website.
