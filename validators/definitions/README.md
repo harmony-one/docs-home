@@ -14,7 +14,7 @@ The following links can also help you better understand Harmony's staking mechan
 
 
 
-{% page-ref page="validator-keys-and-bids.md" %}
+{% page-ref page="validator-keys-and-bids/" %}
 
 {% page-ref page="effective-proof-of-stake-bidding-process.md" %}
 
