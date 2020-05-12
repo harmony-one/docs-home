@@ -2,7 +2,7 @@
 
 Here is the Staking Explorer link:  [https://staking.harmony.one/welcome](https://staking.harmony.one/welcome)
 
-![](../.gitbook/assets/image%20%28115%29.png)
+![](../.gitbook/assets/image%20%28116%29.png)
 
 Using the Staking Explorer is an easy way to stake, delegate, send funds and control all information associated with the validators.
 

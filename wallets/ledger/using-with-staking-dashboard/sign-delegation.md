@@ -34,7 +34,7 @@ Check the delegation amount. If correct, press the right button to continue:
 
 Press right button to sign Delegate Stake confirmation.
 
-![](../../../.gitbook/assets/image%20%28151%29.png)
+![](../../../.gitbook/assets/image%20%28152%29.png)
 
 The entire process is shown below:
 
@@ -42,7 +42,7 @@ The entire process is shown below:
 
 Once transaction is signed, Delegate window will pop-up on the staking dashboard and display the transaction status.
 
-![](../../../.gitbook/assets/image%20%28148%29.png)
+![](../../../.gitbook/assets/image%20%28149%29.png)
 
 ![](../../../.gitbook/assets/image%20%289%29.png)
 

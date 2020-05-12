@@ -1,4 +1,4 @@
-# Effective Proof-of-Stake Bidding
+# Effective Proof-of-Stake
 
 Effective stake is a new measure introduced in EPoS in order to prevent stake centralization and still provide capitalistic fairness. For exactly how it achieves that, [here](https://medium.com/harmony-one/introducing-harmonys-effective-proof-of-stake-epos-2d39b4b8d58) is the design rationale behind it.
 

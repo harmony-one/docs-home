@@ -10,7 +10,7 @@ Our official partner _Lympo_ incentivizes healthy lifestyle and corporate fitnes
 
 There are 140M profiles for mobile fitness alone. Lympo’s _reward tokens_ will be **exclusively** built on Harmony and our _data-sharing marketplace_.
 
-![](../.gitbook/assets/image%20%28125%29.png)
+![](../.gitbook/assets/image%20%28126%29.png)
 
 We  also announced Harmony’s **$8M joint acquisition** with Animoca of _Quidd_.
 
