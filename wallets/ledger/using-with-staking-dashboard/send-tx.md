@@ -1,10 +1,10 @@
----
-description: 'Note: staking dashboard only process transactions on shard 0.'
----
-
 # Sending transactions
 
- To send ONE tokens to an address, click the **"**Transfer funds" button and the send window will pop-up.
+{% hint style="info" %}
+Note: staking dashboard only process transactions on shard 0.
+{% endhint %}
+
+To send ONE tokens to an address, click the **"**Transfer funds" button and the send window will pop-up.
 
 ![](../../../.gitbook/assets/image%20%28117%29.png)
 

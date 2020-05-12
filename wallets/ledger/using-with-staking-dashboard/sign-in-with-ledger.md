@@ -1,6 +1,6 @@
 # Sign In With Ledger
 
-Plug in your Ledger Nano and open the Harmony Ledger App. Your device will be detected by your computer.
+Plug in your Ledger and open the Harmony Ledger App. Your device will be detected by your computer.
 
 ![](../../../.gitbook/assets/image%20%28151%29.png)
 

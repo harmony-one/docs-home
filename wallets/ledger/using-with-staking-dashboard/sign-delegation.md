@@ -10,13 +10,13 @@ Click on the "Delegate" button to delegate to this validator.
 
 ![](../../../.gitbook/assets/image%20%285%29.png)
 
-Enter the desired delegation amount or scroll the percentage slider in the pop-up Delegate window. Delegation must be more than 1000 ONE. Click on "Next" and confirm the signature request.
+Enter the desired delegation amount or scroll the percentage slider in the pop-up Delegate window. Delegation must be at least 1000 ONE. Click on "Next" and confirm the signature request.
 
 ![](../../../.gitbook/assets/image%20%2826%29.png)
 
 ![](../../../.gitbook/assets/image%20%2818%29.png)
 
-Check your ledger Nano S, the LED display on Nano S displays "Delegate Stake" in the LED screen. Press the right button to start signing the transaction.
+Check your Ledger, it will display "Delegate Stake" in the LED screen. Press the right button to start signing the transaction.
 
 ![](../../../.gitbook/assets/image%20%284%29.png)
 
