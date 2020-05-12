@@ -6,7 +6,7 @@ Currently Harmony is available only on Ledger Nano S.
 
 ## **Step 1. Turn on Developer**
 
-Download the latest [Ledger Live](https://www.ledger.com/ledger-live/download) version onto your computer. Ledger Live is the app you use to manage your Ledger device.  Please follow the official installation instruction [here](https://support.ledger.com/hc/en-us/articles/360006395553).
+Download and install the latest Ledger Live version onto your computer. Ledger Live is the app you use to manage your Ledger device.  Please follow the official installation instruction [here](https://support.ledger.com/hc/en-us/articles/360006395553).
 
 {% hint style="success" %}
 Make sure to i[nstall the latest firmware](https://support.ledgerwallet.com/hc/en-us/articles/360002731113) on your device. This ensures compatibility with the Harmony app.
