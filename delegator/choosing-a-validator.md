@@ -1,6 +1,6 @@
 # Choosing a Validator
 
-In order to choose their validators, delegators have access to a range of information directly in [Lunie](https://lunie.io/) or other Cosmos block explorers.
+In order to choose their validators, delegators have access to a range of information on the Validator page of the Staking Dashboard.
 
 * **Validator's moniker**: Name of the validator candidate.
 * **Validator's description**: Description provided by the validator operator.
