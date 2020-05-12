@@ -7,13 +7,9 @@ description: >-
 
 # AutoNode
 
-{% hint style="info" %}
-Our team is currently working on optimizing AutoNode. If you face any issues, please ask our 24/7 support group for assistance at: [https://harmony.one/volunteers](https://harmony.one/volunteers).
-{% endhint %}
-
 ## **Installing AutoNode**
 
-### **Step 1:** Spin up your instance on [AWS](first-time-setup/cloud-guides/aws.md) or [other providers](https://docs.harmony.one/home/validators/first-time-setup/cloud-guides).
+### **Step 1:** Spin up your instance on [AWS](cloud-guides/aws.md) or [other providers](https://docs.harmony.one/home/validators/first-time-setup/cloud-guides).
 
 > It is recommended to go with Ubuntu or Amazon Linux as your operating system.
 
@@ -124,7 +120,7 @@ If any of the commands activates a monitoring screen,  you can always exit using
 ./auto_node.sh tui run
 ```
 
-![](../.gitbook/assets/image%20%2869%29.png)
+![](../.gitbook/assets/image%20%2872%29.png)
 
 ### 3\) View the status of your Harmony Monitor daemon:
 
