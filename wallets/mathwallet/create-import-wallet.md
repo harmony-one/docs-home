@@ -14,7 +14,7 @@ You may also import your Harmony Account using your mnemonic or private key.
 
 You can also choose to export your keys in Settings. Your keys will be exported into a txt file with both private key and mnemonic.
 
-![](../../.gitbook/assets/image%20%282%29.png)
+![](../../.gitbook/assets/image%20%283%29.png)
 
-![](../../.gitbook/assets/image%20%2847%29.png)
+![](../../.gitbook/assets/image%20%2850%29.png)
 
