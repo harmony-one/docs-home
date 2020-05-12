@@ -1,4 +1,4 @@
-# Stake with Ledger Nano S
+# Using with Staking Dashboard
 
 ## Get everything together
 

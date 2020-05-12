@@ -1,4 +1,4 @@
-# Using HMY CLI
+# Using with HMY CLI
 
 ## Download & Setup HMY
 
