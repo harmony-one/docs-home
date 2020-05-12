@@ -6,13 +6,17 @@ Rclone db snapshot is sync'ed with blockchain frequently. However, there maybe a
 
 ## 1. Installing Rclone
 
-If you don't know what is rclone, please visit the rclone website for some more info and usage.
-
-Install rclone =&gt; [https://rclone.org/](https://rclone.org/)
+For installing Rclone, please follow the instructions at [https://rclone.org](https://rclone.org/).
 
 ## 2. Configuring Rclone
 
-Add the following `rclone.conf` file to `~/.config/rclone` directory
+To check the location of the `rclone.conf`file run:
+
+```bash
+rclone config file
+```
+
+The `rclone.conf` file is usually located at `~/.config/rclone/rclone.conf` . Now edit the file and add the information below:
 
 ```text
 [mainnet]
