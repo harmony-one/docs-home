@@ -24,7 +24,7 @@ Ledger live provides app catalog for different types of apps, as shown below:
 
 To find the Harmony app, type **harmony** in the search bar, as shown below:
 
-![](../../.gitbook/assets/image%20%2876%29.png)
+![](../../.gitbook/assets/image%20%2877%29.png)
 
 ## **Step 3. Install/Remove the App**
 
