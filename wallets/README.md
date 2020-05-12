@@ -2,6 +2,8 @@
 
 Harmony's native token ONE is supported on the following wallets:
 
+{% page-ref page="chrome-extension.md" %}
+
 {% page-ref page="trustwallet.md" %}
 
 {% page-ref page="ledger/" %}
