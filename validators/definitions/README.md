@@ -4,7 +4,7 @@ description: This section helps validators ramp up about Harmony staking
 
 # Terms & Concepts
 
-Our token economics model incentivizes early stakers with higher rewards to bootstrap the network successfully. For those validators or delegators who would like to join [Harmony Open Staking](http://staking.harmony.one/), this section will help you get started and learn about how everything works. 
+For those validators or delegators who would like to join [Harmony Open Staking](http://staking.harmony.one/), this section will help you get started and learn about how everything works. 
 
 The following links can also help you better understand Harmony's staking mechanism and token economics.
 
@@ -14,7 +14,7 @@ The following links can also help you better understand Harmony's staking mechan
 
 
 
-{% page-ref page="validator-keys-and-bids/" %}
+{% page-ref page="validator-keys-and-bids.md" %}
 
 {% page-ref page="effective-proof-of-stake-bidding-process.md" %}
 

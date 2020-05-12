@@ -2,7 +2,7 @@
 
 Plug in your Ledger and open the Harmony Ledger App. Your device will be detected by your computer.
 
-![](../../../.gitbook/assets/image%20%28153%29.png)
+![](../../../.gitbook/assets/image%20%28154%29.png)
 
 ![](../../../.gitbook/assets/image%20%2899%29.png)
 
