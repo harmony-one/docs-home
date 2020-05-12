@@ -33,5 +33,9 @@ Below is the command to sync the shard you want. Replace `<ShardID>`with the sha
 rclone sync mainnet:pub.harmony.one/mainnet.min/harmony_db_<ShardID> harmony_db_<ShardID>
 ```
 
+{% hint style="info" %}
+Nodes in shard 0 just need to sync `harmony_db_0`
 
+Nodes in shard 1, 2, 3 need to sync both `harmony_db_0`, and `harmony_db_<ShardID>`
+{% endhint %}
 
