@@ -12,7 +12,9 @@ First you need to login into an account , you can create new address or using an
 
 {% page-ref page="../wallets/mathwallet/staking-transactions.md" %}
 
-{% page-ref page="../wallets/mathwallet/staking-transactions.md" %}
+{% page-ref page="../wallets/ledger/using-with-staking-dashboard/sign-delegation.md" %}
+
+{% page-ref page="../wallets/chrome-extension.md" %}
 
 
 
