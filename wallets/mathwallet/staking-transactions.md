@@ -18,11 +18,11 @@ Choose your preferred validator and click on Delegate button. Enter the desired 
 
 ![](../../.gitbook/assets/image%20%2829%29.png)
 
-Confirm the signature request.
+Confirm the signature request on the Math Wallet pop-up window.
 
 ![](../../.gitbook/assets/image%20%2857%29.png)
 
-That’s it! You have successfully delegated your test-net tokens to a validator. Now you will also be able to see your wallet address in the list of delegates and the validator on your portfolio page.
+That’s it! You have successfully delegated your tokens to a validator. Now you will also be able to see your wallet address in the list of delegates and the validator on your portfolio page.
 
 ![](../../.gitbook/assets/image%20%28119%29.png)
 

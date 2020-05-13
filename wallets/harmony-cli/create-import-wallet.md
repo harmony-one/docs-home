@@ -12,19 +12,19 @@ When we mention the shell scripts, we are referencing the `./hmy.sh` shell scrip
 Creation of a new account is done as a function of a generated `bip39` mnemonic with 256 bits of entropy. You must provide an account alias name.
 {% endhint %}
 
-### Using the Binary:
+#### Using the Binary:
 
 ```bash
 ./hmy keys add <account-name> [--passphrase]
 ```
 
-### Using the Shell Script:
+#### Using the Shell Script:
 
 ```bash
-./hmy.sh -- keys add <account-name1> [--passphrase]
+./hmy.sh keys add <account-name1> [--passphrase]
 ```
 
-### Example:
+#### Example:
 
 ```bash
 ./hmy keys add test-account --passphrase
@@ -53,7 +53,7 @@ To know where your wallet file has been created, run the following command:
 #### Using the Shell Script:
 
 ```bash
-./hmy.sh -- keys location
+./hmy.sh keys location
 ```
 
 You can check the list of wallets \(local accounts\) with the following command:
@@ -67,7 +67,7 @@ You can check the list of wallets \(local accounts\) with the following command:
 #### Using the Shell Script:
 
 ```bash
-./hmy.sh -- keys list
+./hmy.sh keys list
 ```
 
 ## Import Wallet
@@ -97,7 +97,7 @@ Note that the --passphrase flag only enables a password prompt after the command
 #### Using the Shell Script:
 
 ```bash
-./hmy.sh -- keys import-ks <absolute_path_to_keystore> --passphrase
+./hmy.sh keys import-ks <absolute_path_to_keystore> --passphrase
 ```
 
 #### Examples:
@@ -125,10 +125,10 @@ You can import the key with an optional name and passphrase
 ./hmy keys import-private-key <secp256k1_private_key> [wallet_name] [--passphrase]
 ```
 
-#### Using the Shell Script:
+#### Using the Shell Scripts:
 
 ```bash
-./hmy.sh -- keys import-private-key <secp256k1_private_key> [wallet_name] [--passphrase]
+./hmy.sh keys import-private-key <secp256k1_private_key> [wallet_name] [--passphrase]
 ```
 
 #### Example:
@@ -152,12 +152,15 @@ You can recover lost wallet keys by entering the mnemonic words you received \(a
 #### Using the Shell Script:
 
 ```bash
-./hmy.sh -- keys recover-from-mnemonic [wallet_name]
+./hmy.sh keys recover-from-mnemonic [wallet_name]
 ```
 
 #### Example:
 
 ```bash
 ./hmy keys recover-from-mnemonic nameofyourkey
+
+Enter mnemonic to recover keys from
+exhibit effort describe first own warfare electric employ expire same mango lunar chief recall assume team day loan confirm orient antique robot obey leaf
 ```
 
