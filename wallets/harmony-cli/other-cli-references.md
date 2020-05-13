@@ -1,6 +1,6 @@
 # Other CLI references
 
-## Generate Markdown documentation
+## Generate Markdown Documentation
 
 if you want a full list of commands the `hmy` tool knows in markdown format, please run the following command:
 
@@ -10,7 +10,7 @@ if you want a full list of commands the `hmy` tool knows in markdown format, ple
 
 Then in the same directory, `hmy` creates a directory named `hmy-docs` in which you can find all markdown files for the commands and subcommands.
 
-## Delete one account
+## Delete Account
 
 Deletion of a one account is possible by issuing the below command
 
