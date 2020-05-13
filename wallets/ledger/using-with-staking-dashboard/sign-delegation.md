@@ -1,7 +1,5 @@
 # Staking Transactions via Ledger
 
-Harmony Staking Dashboard \([staking.harmony.one](https://staking.harmony.one/validators)\) also supports staking transactions. 
-
 Check the validators page to see list of validators. Click on desired validator logo to check validator details.
 
 ![](../../../.gitbook/assets/image%20%2861%29.png)
