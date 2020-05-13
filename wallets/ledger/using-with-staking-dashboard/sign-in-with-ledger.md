@@ -22,7 +22,7 @@ Click the "Show on Ledger" button to display your address on your Ledger device.
 
 ![](../../../.gitbook/assets/image%20%28117%29.png)
 
-Click the right button on Ledger to continue and confirm the address is correct.
+Press the right button on Ledger to continue and confirm the address is correct.
 
 ![](../../../.gitbook/assets/image%20%28108%29.png)
 
