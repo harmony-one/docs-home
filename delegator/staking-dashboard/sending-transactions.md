@@ -6,6 +6,10 @@ description: >-
 
 # Sending Transactions
 
+{% hint style="danger" %}
+Note: staking dashboard only process transactions on shard 0.
+{% endhint %}
+
 To send ONE tokens to an address, click the **"**Transfer funds" button and the send window will pop-up.
 
 ![](../../.gitbook/assets/image%20%28130%29.png)
@@ -27,4 +31,6 @@ Once transaction is signed, Delegate window will pop-up on the staking dashboard
  It will display "Successful Send" once the transactions completes.
 
 ![](../../.gitbook/assets/image%20%28150%29.png)
+
+
 
