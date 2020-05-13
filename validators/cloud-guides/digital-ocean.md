@@ -16,7 +16,7 @@ For new users, you can get $100 dollars free credits to run Digital Ocean servic
 
 ### Create a new P**roject** <a id="create-a-new-instance"></a>
 
-Once you have set up and logged into your Digital Ocean account, click on the top left bar “Projects -&gt; New Project". Enter the desired project name and click on "Create Project" as shown by the image below:
+Once you have set up and logged into your Digital Ocean account, click on the top left bar “Projects -&gt; New Project". Enter the desired project name and click on "Create Project" as shown by the image bellow:
 
 ![](../../.gitbook/assets/do1%20%281%29.png)
 
@@ -36,7 +36,7 @@ You can select the datacenter region of your choice here. We chose "Frankurt" in
 
 To create your SSH key click [here](https://www.digitalocean.com/docs/droplets/how-to/add-ssh-keys/) for instructions.
 
-When you generated your public SSH key, give it a name and click on button "Add SSH key" as shown by the image below. In case you don't have a public SSH key yet, just follow the instructions to create it.
+When you generated your public SSH key, give it a name and click on button "Add SSH key" as shown by the image bellow. In case you don't have a public SSH key yet, just follow the instructions to create it.
 
 ![](../../.gitbook/assets/do3.3%20%281%29.png)
 
@@ -52,7 +52,7 @@ Click on "Firewall" and then on "Create Firewall".
 
 ![](../../.gitbook/assets/do5%20%281%29.png)
 
-In the Inbound Rules section, click on "New rule" and select "Custom". Leave the protocol as **TCP** and fill the port range field with **6000**. Repeat the same procedure for port **9000**. You will be left with 2 inbound rules as shown by the image below.
+In the Inbound Rules section, click on "New rule" and select "Custom". Leave the protocol as **TCP** and fill the port range field with **6000**. Repeat the same procedure for port **9000**. You will be left with 2 inbound rules as shown by the image bellow.
 
 ![](../../.gitbook/assets/do5.1%20%281%29.png)
 
