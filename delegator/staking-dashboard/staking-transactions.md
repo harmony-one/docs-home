@@ -18,7 +18,7 @@ Different wallets use different ways to confirm signature request. Please check 
 
 Once transaction is signed, Delegate window will pop-up on the staking dashboard and display the transaction status.
 
-![](../../.gitbook/assets/image%20%28164%29.png)
+![](../../.gitbook/assets/image%20%28165%29.png)
 
 ![](../../.gitbook/assets/image%20%2811%29.png)
 
