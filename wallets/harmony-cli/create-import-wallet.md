@@ -26,15 +26,13 @@ Creation of a new account is done as a function of a generated `bip39` mnemonic 
 
 #### Example:
 
-```text
+```bash
 ./hmy keys add test-account --passphrase
-
-Enter passphrase:
-Repeat the passphrase:
-**Important** write this seed phrase in a safe place, it is the only way to recover your account if you ever forget your password
-
-exhibit effort describe first own warfare electric employ expire same mango lunar chief recall assume team day loan confirm orient antique robot obey leaf
 ```
+
+{% hint style="warning" %}
+Write/store this seed phrase in a safe place. it is the only way to recover your account if you ever forget your password.
+{% endhint %}
 
 This creates a keystore at the following directory:`(hmy keys location)/account-name1/UTC--2019-09-16T21-25-35.297331000Z--678e7ea3dcb5f4e9724c0e761843572f10c49b73`
 
@@ -105,7 +103,7 @@ Note that the --passphrase flag only enables a password prompt after the command
 #### Examples:
 
 ```bash
-./hmy keys import-ks /home/harmony/one16qsd5ant9v94jrs89mruzx62h7ekcfxmduh2rx.key --passphrase ""
+./hmy keys import-ks /home/harmony/one16qsd5ant9v94jrs89mruzx62h7ekcfxmduh2rx.key --passphrase
 ./hmy keys import-ks /home/harmony/UTC--2020-01-15T01-02-06.606670000Z--9689a0711642bf08ea92ed98d552f0c1b8c8cefb --passphrase
 ```
 
