@@ -31,7 +31,7 @@ Non election in the EPOS committee are caused by two main issues :
 {% tabs %}
 {% tab title="CLI" %}
 ```bash
- ./hmy --node="https://api.s0.t.hmny.io" blockchain median-stake | grep median
+ ./hmy --node="https://api.s0.os.hmny.io" blockchain median-stake | grep median
     "epos-median-stake": "1550000000000000000000000.000000000000000000",
 
 ```
@@ -41,7 +41,7 @@ Non election in the EPOS committee are caused by two main issues :
 go to : [https://staking.harmony.one/validators](https://staking.harmony.one/validators)  
 
 
-![https://staking.harmony.one/validators](../../.gitbook/assets/image%20%28128%29.png)
+![https://staking.harmony.one/validators](../../.gitbook/assets/image%20%28129%29.png)
 {% endtab %}
 {% endtabs %}
 
@@ -57,9 +57,9 @@ Example : [https://staking.harmony.one/validators/one1u6c4wer2dkm767hmjeehnwu6tq
 
 ![Validator Total stake](https://lh4.googleusercontent.com/NLgZVG_11gM5bVMv-17Rwsjc8-TG7nTfXuDs6tdxtUbVFgtD0uNbx39GIDoGcUXEkJhmu9s2pDTBk88ZdrdVj_N5Lz_TVDHvivMBVOlrbwV1l2Kubs1NRTvnLMi5qXlCm79sP__k)
 
-Your current total stake has to be among the 320 highest stake before the change of next epoch. For that, one way to make sure of it is to be near / above the median stake.
+Your current total stake has to be among the 320 \(in P3 or mainnet, 200 for OSTN\) highest stake before the change of next epoch. For that, one way to make sure of it is to be near / above the median stake.
 
-Being just above the last bidder would ensure you a place but it is risky as you might be outbid during the next election. 
+Being just above the last bidder would ensure your a place but it is risky as you might be outbid during the next election. 
 
 If you are not above the median stake then time to ask for more delegation or delegate yourself more ONE token following this doc on [how to delegate more ONE token](https://docs.harmony.one/validators/validator/managing-your-validator/delegating-to-a-validator)
 
@@ -70,20 +70,26 @@ Make sure your max-total-delegation is high enough and above the median stake so
 #### **Your validator node** epos-eligibility-status **flag needs to be active**
 
 Issue the command   
-./hmy -n https://api.s0.t.hmny.io blockchain validator information \[VALIDATOR-ACCOUNT\] \| grep epos-status
+./hmy -n [https://api.s0.os.hmny.io](https://api.s0.os.hmny.io) blockchain validator information \[VALIDATOR-ACCOUNT\] \| grep epos-status
 
 ```bash
-./hmy --node="https://api.s0.t.hmny.io" blockchain validator information  one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd | grep epos-status
+./hmy --node="https://api.s0.os.hmny.io" blockchain validator information  one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd | grep epos-status
     "epos-status": "currently elected",      
 ```
 
 If **not eligible**, update it to active via the command   
-./hmy -n https://api.s0.t.hmny.io staking edit-validator --validator-addr &lt;ONE\_VALIDATOR\_ACCOUNT&gt; --active true --passphrase
+./hmy -n [https://api.s0.os.hmny.io](https://api.s0.os.hmny.io) staking edit-validator --validator-addr &lt;ONE\_VALIDATOR\_ACCOUNT&gt; --active true --passphrase
 
 {% tabs %}
-{% tab title="Mainnet" %}
+{% tab title="Open Staking Network" %}
 ```bash
-./hmy --node="https://api.s0.t.hmny.io" staking edit-validator --validator-addr one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd --active true --passphrase
+./hmy --node="https://api.s0.os.hmny.io" staking edit-validator --validator-addr one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd --active true --passphrase
+```
+{% endtab %}
+
+{% tab title="Partner Testnet" %}
+```bash
+./hmy --node="https://api.s0.ps.hmny.io" staking edit-validator --validator-addr one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd --active true --passphrase
 ```
 {% endtab %}
 {% endtabs %}
@@ -91,12 +97,18 @@ If **not eligible**, update it to active via the command
 **Finally check your signed blocked**
 
 using the command  
-./hmy -n https://api.s0.t.hmny.io blockchain validator information &lt;ONE\_VALIDATOR\_ACCOUNT&gt;
+./hmy -n [https://api.s0.os.hmny.io](https://api.s0.os.hmny.io) blockchain validator information &lt;ONE\_VALIDATOR\_ACCOUNT&gt;
 
 {% tabs %}
-{% tab title="Mainnet" %}
+{% tab title="Open Staking Network" %}
 ```bash
-./hmy --node="https://api.s0.t.hmny.io" blockchain validator information one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd
+./hmy --node="https://api.s0.os.hmny.io" blockchain validator information one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd
+```
+{% endtab %}
+
+{% tab title="Partner Testnet" %}
+```bash
+./hmy --node="https://api.s0.ps.hmny.io" blockchain validator information one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd
 ```
 {% endtab %}
 {% endtabs %}
@@ -137,9 +149,15 @@ It means the harmony node binary is not running. Please follow this documentatio
 and the network block height
 
 {% tabs %}
-{% tab title="Mainnet" %}
+{% tab title="Open Staking Network" %}
 ```bash
-./hmy --node="https://api.s0.t.hmny.io" blockchain latest-headers | grep blockNumber 
+./hmy --node="https://api.s0.os.hmny.io" blockchain latest-headers | grep blockNumber 
+```
+{% endtab %}
+
+{% tab title="Partner Testnet" %}
+```bash
+./hmy --node="https://api.s0.ps.hmny.io" blockchain latest-headers | grep blockNumber 
 ```
 {% endtab %}
 {% endtabs %}

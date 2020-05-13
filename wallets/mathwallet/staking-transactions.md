@@ -2,7 +2,7 @@
 
 Sign in from the staking dashboard [https://staking.harmony.one/validators 1](https://staking.harmony.one/validators) for staking transactions. 
 
-![](../../.gitbook/assets/image%20%28155%29.png)
+![](../../.gitbook/assets/image%20%28156%29.png)
 
 ![](https://aws1.discourse-cdn.com/standard11/uploads/harmony1/original/1X/1741e6cfd8e92141bee6c67fdab05954281bc98c.png)
 

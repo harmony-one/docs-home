@@ -17,5 +17,5 @@ In order to choose their validators, delegators have access to a range of inform
 * **Maximum commission:** The maximum commission rate this validator candidate can charge. This parameter cannot be changed by the validator operator.
 * **Minimum self-delegated amount**: Minimum amount of ONEs the validator candidate need to have as self-delegation at all time. If the validator's self-delegation falls below this limit, this validator will be inactive. 
 
-![](../.gitbook/assets/image%20%28141%29.png)
+![](../.gitbook/assets/image%20%28142%29.png)
 

@@ -80,7 +80,7 @@ Secure ONE Tokens In 6 Wallets
 
 Delegate ONE Tokens To 16 Pools
 
-![](../.gitbook/assets/image%20%28125%29.png)
+![](../.gitbook/assets/image%20%28126%29.png)
 
 {% tabs %}
 {% tab title="Blockdaemon" %}
@@ -99,20 +99,10 @@ Delegate ONE Tokens To 16 Pools
 {% embed url="https://figment.network/networks/harmony/" %}
 {% endtab %}
 
-{% tab title="P-Ops" %}
-{% embed url="http://pops.one" %}
-{% endtab %}
-
-{% tab title="Chainode Tech" %}
-{% embed url="https://chainode.tech/" %}
-{% endtab %}
-
 {% tab title="Wetez" %}
 {% embed url="https://www.wetez.io/" %}
 {% endtab %}
-{% endtabs %}
 
-{% tabs %}
 {% tab title="EverStake" %}
 {% embed url="https://everstake.one/" %}
 {% endtab %}
@@ -120,7 +110,9 @@ Delegate ONE Tokens To 16 Pools
 {% tab title="Infstones" %}
 {% embed url="https://infinitystones.io/" %}
 {% endtab %}
+{% endtabs %}
 
+{% tabs %}
 {% tab title="HashQuark" %}
 {% embed url="https://www.hashquark.io/\#/" %}
 {% endtab %}
@@ -140,15 +132,23 @@ Delegate ONE Tokens To 16 Pools
 {% tab title="JetStake" %}
 {% embed url="https://dev.jetstake.com/" %}
 {% endtab %}
-{% endtabs %}
 
-{% tabs %}
 {% tab title="My Constant" %}
 {% embed url="https://www.myconstant.com/" %}
 {% endtab %}
 
 {% tab title="Moonstake" %}
 {% embed url="https://www.moonstake.io/" %}
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="P-Ops" %}
+{% embed url="https://pops.one/" %}
+{% endtab %}
+
+{% tab title="Chainode Tech" %}
+{% embed url="https://chainode.tech/" %}
 {% endtab %}
 {% endtabs %}
 
