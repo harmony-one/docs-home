@@ -12,7 +12,7 @@ You can check your validator information using the following command:
 
 Output example below:
 
-```text
+```bash
 {
   "id": "0",
   "jsonrpc": "2.0",
