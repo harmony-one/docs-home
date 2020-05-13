@@ -6,15 +6,15 @@ description: Command-line interface to interact with Harmony blockchain
 
 To interact with your node, we have developed the HMY CLI. With it, you will be able to do everything in your terminal
 
-## Download Harmony CLI
+## Download the HMY CLI
 
-### Linux Download:
+### Linux
 
 ```bash
 curl -LO https://harmony.one/hmycli && mv hmycli hmy && chmod +x hmy
 ```
 
-### MacOS Download:
+### MacOS
 
 ```bash
 curl -O https://raw.githubusercontent.com/harmony-one/go-sdk/master/scripts/hmy.sh
