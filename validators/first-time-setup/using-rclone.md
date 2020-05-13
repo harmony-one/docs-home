@@ -20,7 +20,7 @@ rclone config file
 
 The `rclone.conf` file is usually located at `~/.config/rclone/rclone.conf` . Now edit the file and add the information below:
 
-```bash
+```text
 [mainnet]
 type = s3
 provider = AWS

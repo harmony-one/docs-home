@@ -95,11 +95,15 @@ Harmony relies on a beacon shard chain \(aka shard 0\) to facilitate cross shard
 
 **5.** Confirm that you are fully synced before continuing. Issue  the command in the format **./hmy --node= "\[SHARD\_RPC\_ENDPOINT\]" blockchain latest-headers**,  where  
 SHARD\_RCP\_ENDPOINT would be having that format : api.s\[Shard \#\].\[NETWORK\].hmny.io   
-ex :
+ex :  
 
+{% tabs %}
+{% tab title="Mainnet" %}
 ```bash
 ./hmy --node="https://api.s0.t.hmny.io" blockchain latest-headers
 ```
+{% endtab %}
+{% endtabs %}
 
 **6.** And verity the blocks shown in step 4 and 5 are closed or equals to each other
 
@@ -123,9 +127,13 @@ cp *.key .hmy/blskeys
 Make sure all your BLS keys belong to the same shard when using multiple BLS keys. You can use the command below to check each one of them.
 {% endhint %}
 
+{% tabs %}
+{% tab title="Mainnet" %}
 ```bash
 ./hmy --node="https://api.s0.t.hmny.io" utility shard-for-bls [BLS PUBLIC KEY]
 ```
+{% endtab %}
+{% endtabs %}
 
 **3.** For each BLS key file, a corresponding `<blskey>.pass` file needs to be created inside folder`.hmy/blskeys`with the passphrase inside it.
 
