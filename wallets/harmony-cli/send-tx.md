@@ -9,7 +9,7 @@ Perhaps the most important feature of the `hmy` CLI is the ability to create and
 #### Using the Binary:
 
 ```bash
-./hmy transfer --node="<endpoint_address>" \
+./hmy transfer --node="<endpoint-address>" \
  --from <ONE_address> --to <ONE_address> \
  --from-shard <shard> --to-shard <shard> \
  --amount <amount> --chain-id <chain-id> --passphrase
@@ -18,7 +18,7 @@ Perhaps the most important feature of the `hmy` CLI is the ability to create and
 #### Using the Shell Script:
 
 ```bash
-./hmy.sh -- transfer --node="<endpoint_address>" \
+./hmy.sh -- transfer --node="<endpoint-address>" \
  --from <ONE_address> --to <ONE_address> \
  --from-shard <shard> --to-shard <shard> \
  --amount <amount> --chain-id <chain-id> --passphrase
@@ -40,13 +40,13 @@ Check for finality of the transaction by using the transaction hash like so:
 #### Using the Binary:
 
 ```bash
-./hmy blockchain transaction-receipt <transaction_id> --node="<endpoint_address>"
+./hmy blockchain transaction-receipt <transaction_id> --node="<endpoint-address>"
 ```
 
 #### Using the Shell Script:
 
 ```bash
-./hmy.sh -- blockchain transaction-receipt <transaction_id> --node="<node_address>"
+./hmy.sh -- blockchain transaction-receipt <transaction_id> --node="<endpoint-address>"
 ```
 
 #### Example:
@@ -118,7 +118,7 @@ Thus, a correct usage of `transfer` looks like:
 #### Using the Binary:
 
 ```bash
-./hmy transfer --node="<node_address>" \
+./hmy transfer --node="<endpoint-address>" \
  --from <ONE_address> --to <ONE_address> \
  --from-shard <shard> --to-shard <shard> \
  --amount <amount> --chain-id <chain-id> --passphrase
@@ -127,7 +127,7 @@ Thus, a correct usage of `transfer` looks like:
 #### Using the Shell Wrapper:
 
 ```bash
-./hmy.sh -- transfer --node="<node_address>" \
+./hmy.sh -- transfer --node="<endpoint-address>" \
  --from <ONE_address> --to <ONE_address> \
  --from-shard <shard> --to-shard <shard> \
  --amount <amount> --chain-id <chain-id> --passphrase
