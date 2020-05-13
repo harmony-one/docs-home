@@ -44,3 +44,11 @@ You will need to export the account in which you received the funds and import i
 12. Name your new imported wallet
 13. Open "web wallet" from the extension and you can access all your funds in all shards
 
+### Import/Export Wallet
+
+Below are the official instruction on how to restore/import private keys on Trust wallet.
+
+#### [How to Restore a Multi-Coin Wallet](https://community.trustwallet.com/t/how-to-restore-a-multi-coin-wallet/43)
+
+#### [How to Import a Wallet](https://community.trustwallet.com/t/how-to-import-a-wallet/87)
+
