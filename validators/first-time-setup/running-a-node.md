@@ -98,15 +98,15 @@ SHARD\_RCP\_ENDPOINT would be having that format : api.s\[Shard \#\].\[NETWORK\]
 ex :  
 
 {% tabs %}
-{% tab title="Mainnet S0" %}
+{% tab title="Open Staking Network S0" %}
 ```bash
-./hmy --node="https://api.s0.t.hmny.io" blockchain latest-headers
+./hmy --node="https://api.s0.os.hmny.io" blockchain latest-headers
 ```
 {% endtab %}
 
-{% tab title="Mainnet S1" %}
+{% tab title="Open Staking Network S1" %}
 ```bash
-./hmy --node="https://api.s1.t.hmny.io" blockchain latest-headers
+./hmy --node="https://api.s1.os.hmny.io" blockchain latest-headers
 ```
 {% endtab %}
 {% endtabs %}
@@ -134,9 +134,9 @@ Make sure all your BLS keys belong to the same shard when using multiple BLS key
 {% endhint %}
 
 {% tabs %}
-{% tab title="Mainnet" %}
+{% tab title="Open Staking Network" %}
 ```bash
-./hmy --node="https://api.s0.t.hmny.io" utility shard-for-bls [BLS PUBLIC KEY]
+./hmy --node="https://api.s0.os.hmny.io" utility shard-for-bls [BLS PUBLIC KEY]
 ```
 {% endtab %}
 {% endtabs %}

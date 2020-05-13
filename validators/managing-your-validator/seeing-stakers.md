@@ -3,9 +3,9 @@
 You can see the number of delegations to your validator with the following command.
 
 {% tabs %}
-{% tab title="Mainnet" %}
+{% tab title="Open Staking Testnet" %}
 ```bash
-./hmy --node="https://api.s0.t.hmny.io" blockchain delegation by-validator [VALIDATOR ADDRESS]
+./hmy --node="https://api.s0.os.hmny.io" blockchain delegation by-validator [VALIDATOR ADDRESS]
 ```
 {% endtab %}
 {% endtabs %}

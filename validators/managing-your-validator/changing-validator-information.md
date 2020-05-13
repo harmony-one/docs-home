@@ -3,9 +3,9 @@
 You can edit your validator’s information using the CLI with the following command.
 
 {% tabs %}
-{% tab title="Mainnet" %}
+{% tab title="Open Staking Testnet" %}
 ```bash
-./hmy --node="https://api.s0.t.hmny.io" staking edit-validator \
+./hmy --node="https://api.s0.os.hmny.io" staking edit-validator \
     --validator-addr [ONE ADDRESS] [FIELDS TO EDIT] --passphrase
 ```
 {% endtab %}

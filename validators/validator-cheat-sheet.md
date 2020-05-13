@@ -2,7 +2,7 @@
 description: Example overall validator flow
 ---
 
-# Node.sh Setup Cheatsheet
+# Setup Cheatsheet
 
 If you are new to setting up Validators, start [here](validator-cheat-sheet.md).
 
@@ -69,12 +69,22 @@ tmux new-session -s node
 ./hmy keys add [ACCOUNT NAME] --passphrase
 ```
 
-11. Create your Validator
+11. Get tokens for your validator
 
 {% tabs %}
-{% tab title="Mainnet" %}
+{% tab title="Open Staking Testnet" %}
 ```bash
-./hmy --node="https://api.s0.t.hmny.io" staking create-validator \
+curl -X GET https://faucet.os.hmny.io/fund?address=[ONE ADDRESS]
+```
+{% endtab %}
+{% endtabs %}
+
+12. Create your Validator
+
+{% tabs %}
+{% tab title="Open Staking Testnet" %}
+```bash
+./hmy --node="https://api.s0.os.hmny.io" staking create-validator \
     --validator-addr [ONE ADDRESS] --amount 100000 \
     --bls-pubkeys [BLS PUBLIC KEY1],[BLS PUBLIC KEY2] \
     --name JohnWhitton --identity JohnIdentity --details "John The Validator" \
@@ -85,32 +95,32 @@ tmux new-session -s node
 {% endtab %}
 {% endtabs %}
 
-12. Check that your ONE address exists as a validator
+13. Check that your ONE address exists as a validator
 
 {% tabs %}
-{% tab title="Mainnet" %}
+{% tab title="Open Staking Testnet" %}
 ```bash
-./hmy --node="https://api.s0.t.hmny.io" blockchain validator all | grep [ONE ADDRESS]
+./hmy --node="https://api.s0.os.hmny.io" blockchain validator all | grep [ONE ADDRESS]
 ```
 {% endtab %}
 {% endtabs %}
 
-13. Collect rewards.
+14. Collect rewards.
 
 {% tabs %}
-{% tab title="Mainnet" %}
+{% tab title="Open Staking Testnet" %}
 ```bash
-./hmy --node="https://api.s0.t.hmny.io" staking collect-rewards --delegator-addr [ONE ADDRESS] --passphrase
+./hmy --node="https://api.s0.os.hmny.io" staking collect-rewards --delegator-addr [ONE ADDRESS] --passphrase
 ```
 {% endtab %}
 {% endtabs %}
 
-14. Check validator information for active flag / availability \(block signed\) / etc ...
+15. Check validator information for active flag / availability \(block signed\) / etc ...
 
 {% tabs %}
-{% tab title="Mainnet" %}
+{% tab title="Open Staking Testnet" %}
 ```bash
-./hmy --node="https://api.s0.t.hmny.io" blockchain validator information [VALIDATOR ONE ADDRESS]
+./hmy --node="https://api.s0.os.hmny.io" blockchain validator information [VALIDATOR ONE ADDRESS]
 ```
 {% endtab %}
 {% endtabs %}

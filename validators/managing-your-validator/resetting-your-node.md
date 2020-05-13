@@ -68,9 +68,9 @@ curl -X GET https://faucet.os.hmny.io/fund?address=[ONE ADDRESS]
 12. Create your validator again:
 
 {% tabs %}
-{% tab title="Mainnet" %}
+{% tab title="Open Staking Testnet" %}
 ```bash
-./hmy --node="https://api.s0.t.hmny.io" staking create-validator \
+./hmy --node="https://api.s0.os.hmny.io" staking create-validator \
     --validator-addr [ONE ADDRESS] --amount 10000 \
     --bls-pubkeys [BLS PUBLIC KEY1],[BLS PUBLIC KEY2] \
     --name "[NAME]" --identity "[IDENTITY]" --details "DETAILS" \

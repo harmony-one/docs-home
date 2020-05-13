@@ -50,9 +50,9 @@ If you are running a node and your node is synced to the latest block, use the f
 If you are not running a node or your node is not synced, use the following command to check your balance : **./hmy --node="\[API\_endpoint\]" balances \[ONE ADDRESS\]** ex:
 
 {% tabs %}
-{% tab title="Mainnet" %}
+{% tab title="Open Staking Testnet" %}
 ```bash
-./hmy --node="https://api.s0.t.hmny.io" balances one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd
+./hmy --node="https://api.s0.os.hmny.io" balances one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd
 ```
 {% endtab %}
 {% endtabs %}
