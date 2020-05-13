@@ -5,33 +5,25 @@ Below is an index that shows you which wallets can allow to you import or export
 <table>
   <thead>
     <tr>
-      <th style="text-align:left"></th>
-      <th style="text-align:left"></th>
-      <th style="text-align:left"></th>
-      <th style="text-align:left"></th>
-      <th style="text-align:left"></th>
-      <th style="text-align:left"></th>
+      <th style="text-align:left">Wallet</th>
+      <th style="text-align:left">Export
+        <br />Mnemonic</th>
+      <th style="text-align:left">
+        <p>Export</p>
+        <p>Private Key</p>
+      </th>
+      <th style="text-align:left">
+        <p>Import</p>
+        <p>Mnemonic</p>
+      </th>
+      <th style="text-align:left">
+        <p>Import</p>
+        <p>Private Key</p>
+      </th>
+      <th style="text-align:left">Sharded Network Support</th>
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td style="text-align:left">Wallet</td>
-      <td style="text-align:left">Export
-        <br />Mnemonic</td>
-      <td style="text-align:left">
-        <p>Export</p>
-        <p>Private Key</p>
-      </td>
-      <td style="text-align:left">
-        <p>Import</p>
-        <p>Mnemonic</p>
-      </td>
-      <td style="text-align:left">
-        <p>Import</p>
-        <p>Private Key</p>
-      </td>
-      <td style="text-align:left">Sharded Network Support</td>
-    </tr>
     <tr>
       <td style="text-align:left">Harmony Wallet</td>
       <td style="text-align:left">No</td>
