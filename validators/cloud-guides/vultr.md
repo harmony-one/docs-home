@@ -103,7 +103,7 @@ You can now go back to the Products page and your server is now successfully set
 
 ## **Step 2: Connecting via SSH to your Instance** <a id="step-2-connecting-to-your-vultr-node"></a>
 
-Follow the instructions bellow accordingly to the operating system you are connecting from:
+Follow the instructions below accordingly to the operating system you are connecting from:
 
 * [Windows](https://www.vultr.com/docs/connecting-to-your-server-with-ssh-via-putty-on-windows)
 * [Linux](https://www.vultr.com/docs/how-to-access-your-vultr-vps#SSH__Linux_)

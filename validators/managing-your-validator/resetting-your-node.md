@@ -51,7 +51,7 @@ curl -LO https://raw.githubusercontent.com/harmony-one/harmony/master/scripts/no
 ./node.sh -S -c -I -N staking -z -k [BLS KEY FILE].key
 ```
 
-Or if you are running with Multiple BLSkeys, run your node with the following command
+Or if you are running with Multiple BLSkeys, run your node with the following command:
 
 ```bash
 ./node.sh -S -c -I -N staking -z -M

@@ -64,13 +64,13 @@ Make sure to **back-up this password** and also be aware where you place it so t
 
 #### 5. Once logged in, update your OS
 
-For Debian based systems like Ubuntu or Debian use the command bellow: 
+For Debian based systems like Ubuntu or Debian use the command below: 
 
 ```text
 sudo apt-get update && sudo apt-get upgrade
 ```
 
-For Amazon Linux use the command bellow:
+For Amazon Linux use the command below:
 
 ```text
 sudo yum update
