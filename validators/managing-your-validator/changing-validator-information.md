@@ -2,19 +2,14 @@
 
 You can edit your validator’s information using the CLI with the following command.
 
-## Using the Binary:
-
+{% tabs %}
+{% tab title="Mainnet" %}
 ```bash
-./hmy --node="<endpoint-address>" staking edit-validator \
+./hmy --node="https://api.s0.t.hmny.io" staking edit-validator \
     --validator-addr [ONE ADDRESS] [FIELDS TO EDIT] --passphrase
 ```
-
-## Using the Shell Wrapper:
-
-```bash
-./hmy.sh -- node="<endpoint-address>" staking edit-validator \
-    --validator-addr [ONE ADDRESS] [FIELDS TO EDIT] --passphrase
-```
+{% endtab %}
+{% endtabs %}
 
 The CLI will prompt you to enter your BLS key file password. Only the `--validator-addr` field is required; all other fields are optional.
 
