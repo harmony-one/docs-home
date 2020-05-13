@@ -4,3 +4,5 @@ If a delegator decides to stop delegating to a validator, he or she can choose t
 
 For undelegating from a non-elected validator, the token will be unlocked 7 epochs after the validator was last elected. For example, if you are undelegating from a validator who was last elected 3 epochs ago, your token will be locked for 4 epochs after the undelegation starts. This leads to a convenient result that if you undelegate from a validator who is never elected before, you can have your token returned in the current epoch.
 
+
+
