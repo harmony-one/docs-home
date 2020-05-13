@@ -10,7 +10,7 @@ Our official partner _Lympo_ incentivizes healthy lifestyle and corporate fitnes
 
 There are 140M profiles for mobile fitness alone. Lympo’s _reward tokens_ will be **exclusively** built on Harmony and our _data-sharing marketplace_.
 
-![](../.gitbook/assets/image%20%28136%29.png)
+![](../.gitbook/assets/image%20%28137%29.png)
 
 We  also announced Harmony’s **$8M joint acquisition** with Animoca of _Quidd_.
 
@@ -18,7 +18,7 @@ Collectibles and digital assets are the best way to jumpstart _bringing values_ 
 
 Quidd is a marketplace for collectibles. It has **6.8 millions of users** and 2 billions of licensed items. Quidd has already achieved $10M user purchases and averaged 6 transactions/sec.
 
-![](../.gitbook/assets/image%20%2894%29.png)
+![](../.gitbook/assets/image%20%2895%29.png)
 
 To enable easy migration and quick adoption, we are excited to work with _Carbon_ as our official partner for **fiat integration**.
 

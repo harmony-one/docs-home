@@ -20,15 +20,7 @@ You will need to open Web Wallet in order to view account details and perform tr
 
 ![](../../.gitbook/assets/assets-lleolyqeg_gkuo5rehq-lybzqswxmaxzckbefto-lyc0-a584r4odsvs_9b-image.png)
 
-## Switching Networks
+Please make sure you are using the Harmony Mainnet environment.
 
-If you would like to use Math Wallet to interact with other Harmony networks such as Testnet, you will need to switch networks.
-
-In the toolbar at the top of the page, there is a drop down menu which defaults to **Harmony** where you can specify which network you wish to operate on.
-
-![](../../.gitbook/assets/image-20.png)
-
-* **Harmony** connects to Harmony's mainnet.
-* \*\*\*\*[**Pangaea**](https://docs.harmony.one/pangaea/) connects to Testnet.
-* **Localhost** connects to a [network hosted locally on your machine](https://github.com/harmony-one/harmony/). This endpoint is only active if you are running a local network on your machine.
+![](../../.gitbook/assets/image%20%2860%29.png)
 

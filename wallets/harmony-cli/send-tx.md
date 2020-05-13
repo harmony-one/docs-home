@@ -179,7 +179,7 @@ We can pull down details of the finalized transaction with `./hmy blockchain tra
 
 #### Example:
 
-```text
+```bash
 ./hmy blockchain transaction-receipt \
     --node="https://api.s0.t.hmny.io" \
     0x25dd32397b5a69146b2dc3bbdc8ef8aae271e9b12a36c6dff1eb8995cac9dcba

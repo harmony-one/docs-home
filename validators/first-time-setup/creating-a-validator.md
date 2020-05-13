@@ -10,10 +10,8 @@ Check chain block height with `./hmy blockchain latest-header --node=[endpoint]`
 
 ## Creating a Validator <a id="creating-a-validator"></a>
 
-Replace everything in \[ \] with your own data
+Replace everything in \[ \] with your own data:
 
-{% tabs %}
-{% tab title="Mainnet" %}
 ```bash
 ./hmy --node="https://api.s0.t.hmny.io" staking create-validator \
     --validator-addr [ONE ADDRESS] --amount 10000 \
@@ -23,8 +21,6 @@ Replace everything in \[ \] with your own data
     --max-change-rate 0.1 --max-rate 0.1 --rate 0.1 \
     --max-total-delegation 100000000 --min-self-delegation 10000 --passphrase
 ```
-{% endtab %}
-{% endtabs %}
 
 {% hint style="warning" %}
 Copy the entire command. **Extra white spaces in the command could cause errors.**
@@ -72,13 +68,13 @@ On the Open Staking Testnet, a new validator will be eligible for the election f
 
 Once your validator is elected, the validator will receive rewards and you will be able to see "BINGO" in the logs.
 
-```text
+```bash
 tail -n 1000 latest/zerolog-validator-*.log | grep -i BINGO
 ```
 
-Example output below:
+Example output:
 
-```text
+```bash
 {"level":"info","port":"9000","ip":"213.136.79.89","blockNum":3916,"epochNum":26,"ViewId":3916,"blockHash":"0xca71fc9aa92f694f664aa34d7e3e82cf9b678e3a062d3bbbabebfbc5f0598d84","numTxns":0,"numStakingTxns":0,"caller":"/mnt/jenkins/workspace/harmony-release/harmony/node/node_handler.go:359","time":"2019-12-11T14:49:08.983338784+01:00","message":"BINGO !!! Reached Consensus"}
 ```
 
@@ -88,20 +84,15 @@ If you don't want to participate in the election anymore, you can turn your vali
 
 ## Checking Validator Information <a id="checking-validator-information"></a>
 
-Use the format command **./hmy --node="**[**https://api.s0.os.hmny.io**](https://api.s0.os.hmny.io)**" blockchain validator information \[ONE ADDRESS\]** to check your validator informationm   
-example : 
+Use the format command **./hmy --node="**[**https://api.s0.os.hmny.io**](https://api.s0.os.hmny.io)**" blockchain validator information \[ONE ADDRESS\]** to check your validator information:
 
-{% tabs %}
-{% tab title="Mainnet" %}
 ```bash
 ./hmy --node="https://api.s0.t.hmny.io" blockchain validator information one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd
 ```
-{% endtab %}
-{% endtabs %}
 
-Example output below:
+Example output:
 
-```text
+```bash
 {
   "id": "0",
   "jsonrpc": "2.0",

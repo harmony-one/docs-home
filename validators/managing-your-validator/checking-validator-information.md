@@ -1,18 +1,26 @@
 # Checking Validator Information
 
-You can check your validator information using the following command:
+## Using the Binary:
 
-{% tabs %}
-{% tab title="Mainnet" %}
 ```bash
-./hmy --node="https://api.s0.t.hmny.io" blockchain validator information [ONE ADDRESS]
+./hmy blockchain validator information [ONE ADDRESS] --node="<endpoint-address>"
 ```
-{% endtab %}
-{% endtabs %}
 
-Output example below:
+## Using the Shell Wrapper:
 
-```text
+```bash
+./hmy.sh -- blockchain validator information [ONE ADDRESS] --node="<endpoint-address>"
+```
+
+## Example:
+
+```bash
+./hmy blockchain validator information [ONE ADDRESS] --node="https://api.s0.t.hmny.io"
+```
+
+### Output:
+
+```bash
 {
   "id": "0",
   "jsonrpc": "2.0",

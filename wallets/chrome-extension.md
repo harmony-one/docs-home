@@ -10,7 +10,7 @@ description: Harmony's Chrome extension wallet is a secure native crypto wallet
 
 Go to [Harmony.one/chrome-store](https://chrome.google.com/webstore/detail/harmony/bjaeebonnimhcakeckbnemejhdpngdmd) and install extension 
 
-![](../.gitbook/assets/image%20%28101%29.png)
+![](../.gitbook/assets/image%20%28102%29.png)
 
 ## **Step 2: Create a new address**
 
@@ -20,7 +20,7 @@ Click on the HARMONY H icon on top right and select create a new address.
 
 Choose a name and password for your account and copy the seed phrase somewhere safe as a backup. This is VERY IMPORTANT because lost seeds cannot be recovered.
 
-![](../.gitbook/assets/image%20%28138%29.png)
+![](../.gitbook/assets/image%20%28139%29.png)
 
 After you have created a new address you can click on the "Go to Harmony" button which will direct you to the staking dashboard.
 
@@ -30,7 +30,7 @@ After you have created a new address you can click on the "Go to Harmony" button
 
 ## **Step 3: Add another account**
 
-![](../.gitbook/assets/image%20%28159%29.png)
+![](../.gitbook/assets/image%20%28160%29.png)
 
 If you want to import your account from other wallets, e.g. cli, you can recover account with Mnemonic or Private Key.
 
