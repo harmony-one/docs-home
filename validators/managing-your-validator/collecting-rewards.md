@@ -2,26 +2,14 @@
 
 You can collect your block rewards with the following command.
 
-## Using the Binary:
-
-```bash
-./hmy --node="<endpoint-address>" staking collect-rewards \
---delegator-addr [ONE ADDRESS] --passphrase
-```
-
-## Using the Shell Wrapper:
-
-```bash
-./hmy.sh -- node="<endpoint-address>" staking collect-rewards \
---delegator-addr [ONE ADDRESS] --passphrase
-```
-
-### Example:
-
+{% tabs %}
+{% tab title="Mainnet" %}
 ```bash
 ./hmy --node="https://api.s0.t.hmny.io" staking collect-rewards \
---delegator-addr one1km7xg8e3xjys7azp9f4xp8hkw79vm2h3f2lade --passphrase
+--delegator-addr [ONE ADDRESS] --passphrase
 ```
+{% endtab %}
+{% endtabs %}
 
 The CLI will prompt your for the passphrase of the delegation account.
 

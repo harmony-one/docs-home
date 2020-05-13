@@ -63,8 +63,6 @@ Or if you are running with Multiple BLSkeys, run your node with the following co
 
 12. Create your validator again:
 
-{% tabs %}
-{% tab title="Mainnet" %}
 ```bash
 ./hmy --node="https://api.s0.t.hmny.io" staking create-validator \
     --validator-addr [ONE ADDRESS] --amount 10000 \
@@ -73,10 +71,7 @@ Or if you are running with Multiple BLSkeys, run your node with the following co
     --security-contact "CONTACT" --website "YOUR-WEBSITE.COM" \
     --max-change-rate 0.1 --max-rate 0.1 --rate 0.1 \
     --max-total-delegation 100000000 --min-self-delegation 10000 --passphrase
-
 ```
-{% endtab %}
-{% endtabs %}
 
 {% hint style="info" %}
 Your validator should be up and you should get elected after one epoch — check on staking dashboard.
