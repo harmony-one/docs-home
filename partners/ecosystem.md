@@ -80,7 +80,7 @@ Secure ONE Tokens In 6 Wallets
 
 Delegate ONE Tokens To 16 Pools
 
-![](../.gitbook/assets/image%20%28126%29.png)
+![](../.gitbook/assets/image%20%28127%29.png)
 
 {% tabs %}
 {% tab title="Blockdaemon" %}

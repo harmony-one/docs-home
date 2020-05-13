@@ -20,7 +20,7 @@ Click on the HARMONY H icon on top right and select create a new address.
 
 Choose a name and password for your account and copy the seed phrase somewhere safe as a backup. This is VERY IMPORTANT because lost seeds cannot be recovered.
 
-![](../.gitbook/assets/image%20%28136%29.png)
+![](../.gitbook/assets/image%20%28137%29.png)
 
 After you have created a new address you can click on the "Go to Harmony" button which will direct you to the staking dashboard.
 
@@ -30,7 +30,7 @@ After you have created a new address you can click on the "Go to Harmony" button
 
 ## **Step 3: Add another account**
 
-![](../.gitbook/assets/image%20%28157%29.png)
+![](../.gitbook/assets/image%20%28158%29.png)
 
 If you want to import your account from other wallets, e.g. cli, you can recover account with Mnemonic or Private Key.
 
