@@ -20,7 +20,8 @@ Below is an index that shows you which wallets can allow to you import or export
         <p>Import</p>
         <p>Private Key</p>
       </th>
-      <th style="text-align:left">Sharded Network Support</th>
+      <th style="text-align:left">Sharded Network
+        <br />Support</th>
     </tr>
   </thead>
   <tbody>
