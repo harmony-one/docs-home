@@ -8,30 +8,14 @@ Check your current block height with `./hmy blockchain latest-headers`
 Check chain block height with `./hmy blockchain latest-header --node=[endpoint]`
 {% endhint %}
 
-## Getting ONE Tokens \(for P3 Faucet is not working\) <a id="getting-one-tokens"></a>
-
-In order to continue and create your validator, you will need to have ONE tokens in your **Shard 0** balance. To get tokens from our Faucet smart contract, use the following format command : **curl** [**https://faucet.\[NETWORK\].hmny.io/fund?address=\[ONE**](https://faucet.os.hmny.io/fund?address=[ONE) **ADDRESS\]**, ex : 
-
-{% tabs %}
-{% tab title="Open Staking Testnet" %}
-```bash
-curl https://faucet.os.hmny.io/fund?address=one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd
-```
-{% endtab %}
-{% endtabs %}
-
-The faucet will fund 11,000 ONE tokens on Shard 0, per account, per IP. If it doesn't work please use the faucet site.
-
-**Other option to get tokens is to use the faucet site, click the following link:** [https://faucet.os.hmny.io/](https://faucet.os.hmny.io/)
-
 ## Creating a Validator <a id="creating-a-validator"></a>
 
 Replace everything in \[\] with your own data
 
 {% tabs %}
-{% tab title="Open Staking Testnet" %}
+{% tab title=" Mainnet" %}
 ```bash
-./hmy --node="https://api.s0.os.hmny.io" staking create-validator \
+./hmy --node="https://api.s0.t.hmny.io" staking create-validator \
     --validator-addr [ONE ADDRESS] --amount 10000 \
     --bls-pubkeys [BLS PUBLIC KEY1],[BLS PUBLIC KEY2] \
     --name "[NAME]" --identity "[IDENTITY]" --details "DETAILS" \
@@ -108,9 +92,9 @@ Use the format command **./hmy --node="**[**https://api.s0.os.hmny.io**](https:/
 example : 
 
 {% tabs %}
-{% tab title="Open Staking Testnet" %}
+{% tab title="Mainnet" %}
 ```bash
-./hmy --node="https://api.s0.os.hmny.io" blockchain validator information one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd
+./hmy --node="https://api.s0.t.hmny.io" blockchain validator information one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd
 ```
 {% endtab %}
 {% endtabs %}

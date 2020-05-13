@@ -25,7 +25,7 @@ You can check which shard your key will validate for using the following command
 {% tabs %}
 {% tab title="Open Staking Network" %}
 ```bash
-./hmy --node="https://api.s0.os.hmny.io" utility shard-for-bls [BLS PUBLIC KEY]
+./hmy --node="https://api.s0.t.hmny.io" utility shard-for-bls [BLS PUBLIC KEY]
 ```
 {% endtab %}
 {% endtabs %}

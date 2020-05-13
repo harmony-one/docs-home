@@ -3,9 +3,9 @@
 You can delegate tokens to a validator using the following command.
 
 {% tabs %}
-{% tab title="Open Staking Testnet" %}
+{% tab title="Mainnet" %}
 ```bash
-./hmy --node="https://api.s0.os.hmny.io" staking delegate \
+./hmy --node="https://api.s0.t.hmny.io" staking delegate \
     --delegator-addr [ONE ADDRESS] --validator-addr [ONE ADDRESS] \
     --amount [AMOUNT] --passphrase
 ```
