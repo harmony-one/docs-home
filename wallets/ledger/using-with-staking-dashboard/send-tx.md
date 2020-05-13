@@ -36,7 +36,7 @@ Click the right button to start signing the transaction:
 
 ![](../../../.gitbook/assets/image%20%2879%29.png)
 
-Once transaction is signed, Send window will pop-up on the staking dashboard and display the transaction status.
+Once transaction is signed, Delegate window will pop-up on the staking dashboard and display the transaction status.
 
 ![](../../../.gitbook/assets/image%20%2888%29.png)
 

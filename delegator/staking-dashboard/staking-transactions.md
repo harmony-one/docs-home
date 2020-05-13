@@ -1,6 +1,6 @@
 # Staking Transactions
 
-Check the validators page to see list of validators. Click on desired validator logo to check validator details.
+Check the validators page to see list of validators. Click on desired validator logo to direct to the Validator profile for more details.
 
 ![](../../.gitbook/assets/image%20%2861%29.png)
 
