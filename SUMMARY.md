@@ -13,7 +13,7 @@
       * [Staking Transactions via Ledger](wallets/ledger/using-with-staking-dashboard/sign-delegation.md)
   * [Math Wallet](wallets/mathwallet/README.md)
     * [Download & Setup](wallets/mathwallet/download-and-setup.md)
-    * [Create or Import Wallet](wallets/mathwallet/create-import-wallet.md)
+    * [Create/Import/Export Wallet](wallets/mathwallet/create-import-wallet.md)
     * [Sending Transactions via Math Wallet](wallets/mathwallet/send-tx.md)
     * [Staking Transactions via Math Wallet](wallets/mathwallet/staking-transactions.md)
   * [Command-line Tools](wallets/harmony-cli/README.md)

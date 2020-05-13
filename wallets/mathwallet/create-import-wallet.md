@@ -1,4 +1,4 @@
-# Create or Import Wallet
+# Create/Import/Export Wallet
 
 You can choose to create a wallet through the extension or import your existing wallet using a mnemonic phrase or a private key.
 
