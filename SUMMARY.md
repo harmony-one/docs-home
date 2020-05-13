@@ -45,6 +45,7 @@
     * [Block Reward](validators/definitions/block-reward.md)
     * [Epoch Transition](validators/definitions/epoch-transition.md)
     * [Slashing](validators/definitions/others.md)
+    * [Undelegation](validators/definitions/undelegation.md)
   * [Cloud Guides](validators/cloud-guides/README.md)
     * [AWS](validators/cloud-guides/aws.md)
     * [Google Cloud](validators/cloud-guides/google-cloud.md)
