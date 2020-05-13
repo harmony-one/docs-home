@@ -33,7 +33,7 @@ In order to choose their validators, delegators have access to a range of inform
 | Reward rate history | Expected annual percentage return rate for validator at every epoch |
 | Delegators | List of accounts that delegated to this validator and delegation amount |
 
-![](../.gitbook/assets/image%20%28143%29.png)
+![](../.gitbook/assets/image%20%28144%29.png)
 
 Delegators can delegate on the Validator Profile page and check detailed information of validators.
 

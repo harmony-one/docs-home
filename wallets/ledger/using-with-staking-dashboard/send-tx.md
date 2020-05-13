@@ -6,7 +6,7 @@ Note: staking dashboard only process transactions on shard 0.
 
 To send ONE tokens to an address, click the **"**Transfer funds" button and the send window will pop-up.
 
-![](../../../.gitbook/assets/image%20%28128%29.png)
+![](../../../.gitbook/assets/image%20%28129%29.png)
 
 Input the amount of tokens to send and the destination address, then click the "next" buttons.
 
@@ -26,7 +26,7 @@ Check and confirm the destination address is correct.
 
 Check and confirm the amount is correct.
 
-![](../../../.gitbook/assets/image%20%28133%29.png)
+![](../../../.gitbook/assets/image%20%28134%29.png)
 
 Currently, staking dashboard only supports transaction on shard0.
 
@@ -42,5 +42,5 @@ Once transaction is signed, Delegate window will pop-up on the staking dashboard
 
  It will display "Successful Send" once the transactions completes.
 
-![](../../../.gitbook/assets/image%20%28147%29.png)
+![](../../../.gitbook/assets/image%20%28148%29.png)
 

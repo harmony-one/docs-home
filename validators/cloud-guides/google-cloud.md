@@ -1,5 +1,5 @@
 ---
-description: 'To launch your Google Cloud instance, follow the steps bellow.'
+description: 'To launch your Google Cloud instance, follow the steps below.'
 ---
 
 # Google Cloud

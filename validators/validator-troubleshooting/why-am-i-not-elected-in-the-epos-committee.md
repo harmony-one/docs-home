@@ -41,7 +41,7 @@ Non election in the EPOS committee are caused by two main issues :
 go to : [https://staking.harmony.one/validators](https://staking.harmony.one/validators)  
 
 
-![https://staking.harmony.one/validators](../../.gitbook/assets/image%20%28130%29.png)
+![https://staking.harmony.one/validators](../../.gitbook/assets/image%20%28131%29.png)
 {% endtab %}
 {% endtabs %}
 

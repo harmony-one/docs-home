@@ -7,9 +7,9 @@ description: >-
 
 # Smartphone Node Setup
 
-1. Download and Install the Termux app in the [Playstore](https://play.google.com/store/apps/details?id=com.termux&hl=en). 
+1. Download and Install the Termux app in the [Playstore](https://play.google.com/store/apps/details?id=com.termux&hl=en).
 
-![](../.gitbook/assets/screen-shot-2020-05-12-at-11.01.48-am.png)
+![](../.gitbook/assets/image%20%28125%29.png)
 
 2. Run the app and install the SSH for the program by typing:
 
@@ -136,12 +136,4 @@ Remember your passphrase. You will need it to decrypt the account keystore in or
 ```text
 ./hmy --node="https://api.s0.t.hmny.io" blockchain validator information [ONE ADDRESS]
 ```
-
-  
-  
-  
-  
-  
-  
-
 

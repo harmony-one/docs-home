@@ -3,9 +3,9 @@
 You can collect your block rewards with the following command.
 
 {% tabs %}
-{% tab title="Open Staking Testnet" %}
+{% tab title="Mainnet" %}
 ```bash
-./hmy --node="https://api.s0.os.hmny.io" staking collect-rewards \
+./hmy --node="https://api.s0.t.hmny.io" staking collect-rewards \
 --delegator-addr [ONE ADDRESS] --passphrase
 ```
 {% endtab %}
