@@ -1,7 +1,5 @@
 # Choosing a Validator
 
-
-
 <table>
   <thead>
     <tr>
