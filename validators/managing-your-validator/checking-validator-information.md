@@ -3,14 +3,14 @@
 You can check your validator information using the following command:
 
 {% tabs %}
-{% tab title="Mainnet" %}
+{% tab title="Open Staking Testnet" %}
 ```bash
-./hmy --node="https://api.s0.t.hmny.io" blockchain validator information [ONE ADDRESS]
+./hmy --node="https://api.s0.os.hmny.io" blockchain validator information [ONE ADDRESS]
 ```
 {% endtab %}
 {% endtabs %}
 
-Output example bellow:
+Output example below:
 
 ```text
 {
