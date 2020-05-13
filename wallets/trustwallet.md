@@ -1,3 +1,7 @@
+---
+description: 'Currently, Trust Wallet only supports transactions on shard 0.'
+---
+
 # Trust Wallet
 
 ![](../.gitbook/assets/screen-shot-2020-01-15-at-8.42.26-am.png)

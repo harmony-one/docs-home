@@ -1,5 +1,7 @@
 ---
-description: Harmony's Chrome extension wallet is a secure native crypto wallet
+description: >-
+  Harmony's Chrome extension wallet is a secure native crypto wallet. Currently,
+  Harmony Wallet only supports transactions on shard 0.
 ---
 
 # Harmony Wallet \(Harmony Browser Extension\)
@@ -43,6 +45,12 @@ If you want to import your account from other wallets, e.g. cli, you can recover
 ![](../.gitbook/assets/screen-shot-2020-05-11-at-4.28.52-pm.png)
 
 2. In the pop-up input the destination address and amount you want to transfer. Click next, and then click "Confirm and Sign" to authorize the transfer
+
+{% hint style="danger" %}
+Currently, Harmony Wallet only supports transaction on Shard 0.
+
+Please note that Trust Wallet does not support Harmony's sharded network architecture yet, so **all transactions to or from Harmony Wallet must go through shard 0.** You can only view and access your funds in shard 0.
+{% endhint %}
 
 ![Pop-Up ](../.gitbook/assets/screen-shot-2020-05-11-at-4.36.45-pm.png)
 
