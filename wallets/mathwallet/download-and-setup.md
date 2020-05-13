@@ -5,7 +5,7 @@
 1. Access the Google Chrome web store and install the [Math Wallet extension](https://chrome.google.com/webstore/detail/math-wallet/afbcbjpbpfadlkmhmclhkeeodmamcflc?hl=en).
 
 {% hint style="info" %}
-Note : Ensure you use version 2.1.9 or later of MathWallet
+Note : Ensure you use version 2.07 or later of MathWallet \(2.1.9 is the latest version\).
 
 Previous versions have a known bug and are not supported.
 {% endhint %}
