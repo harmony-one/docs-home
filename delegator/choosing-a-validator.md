@@ -2,20 +2,54 @@
 
 
 
-| Portfolio Page |  |
-| :--- | :--- |
-| Staked | Amount of ONE delegated |
-| Available | Amount of ONE that available to delegate |
-| Rewards | Rewards yet to be claimed |
-| Lifetime rewards | Total lifetime rewards earned |
-| Portfolio allocation | Delegation amount across different validators |
-| Reward \(up to date\) | Unclaimed rewards |
-| Expected return | expected annual percentage return rate |
-| Ending in | Epochs left until undelegation funds will be accessible |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left"><b>Portfolio Page</b>
+      </th>
+      <th style="text-align:left">
+        <p>Delegators can check and claim rewards on the port-</p>
+        <p>folio page and monitor their delegation portfolio.</p>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">Staked</td>
+      <td style="text-align:left">Amount of ONE delegated</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Available</td>
+      <td style="text-align:left">Amount of ONE that available to delegate</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Rewards</td>
+      <td style="text-align:left">Rewards yet to be claimed</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Lifetime rewards</td>
+      <td style="text-align:left">Total lifetime rewards earned</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Portfolio allocation</td>
+      <td style="text-align:left">Delegation amount across different validators</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Reward (up to date)</td>
+      <td style="text-align:left">Unclaimed rewards</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Expected return</td>
+      <td style="text-align:left">expected annual percentage return rate</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Ending in</td>
+      <td style="text-align:left">Epochs left until undelegation funds will be accessible</td>
+    </tr>
+  </tbody>
+</table>
 
-In order to choose their validators, delegators have access to a range of information on the Validator page of the Staking Dashboard.
-
-| Validator list |  |
+| **Validator list** | In order to choose their validators, delegators have access to a range of information on the Validator page. |
 | :--- | :--- |
 | Delegated | Total ONE delegated to this validator |
 | Self stake | Amount of ONE staked by validator |
@@ -35,9 +69,9 @@ In order to choose their validators, delegators have access to a range of inform
 
 ![](../.gitbook/assets/image%20%28144%29.png)
 
-Delegators can delegate on the Validator Profile page and check detailed information of validators.
 
-| Validator Profile |  |
+
+| **Validator Profile** | Delegators can delegate on the Validator Profile page and check detailed information of validators. |
 | :--- | :--- |
 | Delegated | Total ONE delegated to this validator |
 | Self stake | Amount of ONE staked by validator |
