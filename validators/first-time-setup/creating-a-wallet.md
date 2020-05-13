@@ -25,14 +25,15 @@ The command above will return the location of your account keystore. You may wan
 
 You can check the list of wallets \(local accounts\) with the following command:
 
-```bash
+```text
 ./hmy keys list
 ```
 
 Example output from above command:
 
-```bash
-#NAME                                  ADDRESS
+```text
+NAME                                  ADDRESS
+
 example-account1                      one1wh4p0kuc7unxez2z8f82zfnhsg4ty6dupqyjt2
 ```
 
@@ -42,15 +43,17 @@ example-account1                      one1wh4p0kuc7unxez2z8f82zfnhsg4ty6dupqyjt2
 
 If you are running a node and your node is synced to the latest block, use the following command to check your balance : **./hmy balances \[ONE ADDRESS\]** ex:
 
-```bash
-./hmy balances one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd --node="<endpoint-address>"
+```text
+./hmy balances one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd
 ```
 
 If you are not running a node or your node is not synced, use the following command to check your balance : **./hmy --node="\[API\_endpoint\]" balances \[ONE ADDRESS\]** ex:
 
+{% tabs %}
+{% tab title="Mainnet" %}
 ```bash
 ./hmy --node="https://api.s0.t.hmny.io" balances one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd
 ```
-
-
+{% endtab %}
+{% endtabs %}
 
