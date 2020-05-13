@@ -1,5 +1,7 @@
 # Choosing a Validator
 
+In order to choose their validators and manage their delegation, delegators have access to a range of information on the Staking Dashboard.
+
 <table>
   <thead>
     <tr>
@@ -47,7 +49,7 @@
   </tbody>
 </table>
 
-| **Validator list** | In order to choose their validators, delegators have access to a range of information on the Validator page. |
+| **Validator list** | Delegators can access information taken into consideration during delegation on the Validator list at a glance. |
 | :--- | :--- |
 | Delegated | Total ONE delegated to this validator |
 | Self stake | Amount of ONE staked by validator |
