@@ -30,7 +30,7 @@ After you have created a new address you can click on the "Go to Harmony" button
 
 ## **Step 3: Add another account**
 
-![](../.gitbook/assets/image%20%28160%29.png)
+![](../.gitbook/assets/image%20%28161%29.png)
 
 If you want to import your account from other wallets, e.g. cli, you can recover account with Mnemonic or Private Key.
 
