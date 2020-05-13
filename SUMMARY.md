@@ -20,6 +20,7 @@
     * [Download & setup](wallets/harmony-cli/download-setup.md)
     * [Create or import wallet](wallets/harmony-cli/create-import-wallet.md)
     * [Sending transactions](wallets/harmony-cli/send-tx.md)
+    * [Staking Transactions](wallets/harmony-cli/staking-transactions.md)
     * [Querying balances](wallets/harmony-cli/querying-balances.md)
     * [Querying the blockchain](wallets/harmony-cli/querying-the-blockchain.md)
     * [List of transaction error messages](wallets/harmony-cli/list-of-transaction-error-messages.md)
