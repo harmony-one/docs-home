@@ -2,27 +2,17 @@
 
 You can see the number of delegations to your validator with the following command.
 
-## Using the Binary:
-
+{% tabs %}
+{% tab title="Mainnet" %}
 ```bash
-./hmy --node="<endpoint-address>" blockchain delegation by-validator [VALIDATOR ADDRESS]
+./hmy --node="https://api.s0.t.hmny.io" blockchain delegation by-validator [VALIDATOR ADDRESS]
 ```
+{% endtab %}
+{% endtabs %}
 
-## Using the Shell Wrapper:
+Example output below:
 
-```bash
-./hmy.sh -- node="<endpoint-address>" blockchain delegation by-validator [VALIDATOR ADDRESS]
-```
-
-### Example:
-
-```bash
-./hmy node="https://api.s0.t.hmny.io" blockchain delegation by-validator one1km7xg8e3xjys7azp9f4xp8hkw79vm2h3f2lade
-```
-
-#### Output:
-
-```bash
+```text
 {
   "id": "0",
   "jsonrpc": "2.0",
