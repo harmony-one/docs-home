@@ -17,6 +17,6 @@ Get JSON output of balances on all shards of a given ONE address with the `balan
 ## Example:
 
 ```bash
-./hmy --node="https://api.s0.os.hmny.io" balances one1km7xg8e3xjys7azp9f4xp8hkw79vm2h3f2lade
+./hmy --node="https://api.s0.t.hmny.io" balances one1km7xg8e3xjys7azp9f4xp8hkw79vm2h3f2lade
 ```
 
