@@ -1,16 +1,14 @@
----
-description: 'Currently, Trust Wallet only supports transactions on shard 0.'
----
-
 # Trust Wallet
 
 ![](../.gitbook/assets/screen-shot-2020-01-15-at-8.42.26-am.png)
 
 Trust Wallet is a mobile cryptocurrency wallet. Please visit [https://trustwallet.com](https://trustwallet.com) with your mobile device to download the app.
 
-## IMPORTANT DISCLAIMER
+{% hint style="danger" %}
+**IMPORTANT DISCLAIMER**
 
 Please note that Trust Wallet does not support Harmony's sharded network architecture yet, so **all transactions to or from Trust Wallet must go through shard 0.** You can only view and access your funds in shard 0.
+{% endhint %}
 
 ### Incoming transactions
 

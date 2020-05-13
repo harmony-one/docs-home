@@ -46,12 +46,6 @@ If you want to import your account from other wallets, e.g. cli, you can recover
 
 ![Pop-Up ](../.gitbook/assets/screen-shot-2020-05-11-at-4.36.45-pm.png)
 
-{% hint style="danger" %}
-## IMPORTANT DISCLAIMER
-
-Please note that Harmony Wallet does not support Harmony's sharded network architecture yet, so **all transactions to or from Trust Wallet must go through shard 0.** You can only view and access your funds in shard 0.
-{% endhint %}
-
 ## Staking
 
 1. Click on "Validators" in the staking dashboard to see all the validators 
