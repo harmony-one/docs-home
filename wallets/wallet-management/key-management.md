@@ -5,74 +5,121 @@ Below is an index that shows you which wallets can allow to you import or export
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Wallet</th>
-      <th style="text-align:left">Export
-        <br />Mnemonic</th>
-      <th style="text-align:left">
-        <p>Export</p>
-        <p>Private Key</p>
+      <th style="text-align:left"><b>Wallet</b>
+      </th>
+      <th style="text-align:left"><b>Export<br />Mnemonic</b>
       </th>
       <th style="text-align:left">
-        <p>Import</p>
-        <p>Mnemonic</p>
+        <p><b>Export</b>
+        </p>
+        <p><b>Private Key</b>
+        </p>
       </th>
       <th style="text-align:left">
-        <p>Import</p>
-        <p>Private Key</p>
+        <p><b>Import</b>
+        </p>
+        <p><b>Mnemonic</b>
+        </p>
       </th>
-      <th style="text-align:left">Sharded Network
-        <br />Support</th>
+      <th style="text-align:left">
+        <p><b>Import</b>
+        </p>
+        <p><b>Private Key</b>
+        </p>
+      </th>
+      <th style="text-align:left"><b>Sharded Network<br /> Support</b>
+      </th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">Harmony Wallet</td>
-      <td style="text-align:left">No</td>
-      <td style="text-align:left">No</td>
-      <td style="text-align:left">Yes</td>
-      <td style="text-align:left">Yes</td>
-      <td style="text-align:left">No</td>
+      <td style="text-align:left"><b>Harmony Wallet</b>
+      </td>
+      <td style="text-align:left"><b>No</b>
+      </td>
+      <td style="text-align:left"><b>No</b>
+      </td>
+      <td style="text-align:left"><b>Yes</b>
+      </td>
+      <td style="text-align:left"><b>Yes</b>
+      </td>
+      <td style="text-align:left"><b>No</b>
+      </td>
     </tr>
     <tr>
-      <td style="text-align:left">Trust Wallet</td>
-      <td style="text-align:left">Yes</td>
-      <td style="text-align:left">No</td>
-      <td style="text-align:left">Yes</td>
-      <td style="text-align:left">No</td>
-      <td style="text-align:left">No</td>
+      <td style="text-align:left"><b>Trust Wallet</b>
+      </td>
+      <td style="text-align:left"><b>Yes</b>
+      </td>
+      <td style="text-align:left"><b>No</b>
+      </td>
+      <td style="text-align:left"><b>Yes</b>
+      </td>
+      <td style="text-align:left"><b>No</b>
+      </td>
+      <td style="text-align:left"><b>No</b>
+      </td>
     </tr>
     <tr>
-      <td style="text-align:left">Ledger</td>
-      <td style="text-align:left">No</td>
-      <td style="text-align:left">Yes</td>
-      <td style="text-align:left">No</td>
-      <td style="text-align:left">Yes</td>
-      <td style="text-align:left">Yes</td>
+      <td style="text-align:left"><b>Ledger</b>
+      </td>
+      <td style="text-align:left"><b>No</b>
+      </td>
+      <td style="text-align:left"><b>Yes</b>
+      </td>
+      <td style="text-align:left"><b>No</b>
+      </td>
+      <td style="text-align:left"><b>Yes</b>
+      </td>
+      <td style="text-align:left"><b>Yes</b>
+      </td>
     </tr>
     <tr>
-      <td style="text-align:left">Math Wallet</td>
-      <td style="text-align:left">Yes</td>
-      <td style="text-align:left">Yes</td>
-      <td style="text-align:left">Yes</td>
-      <td style="text-align:left">Yes</td>
-      <td style="text-align:left">Yes</td>
+      <td style="text-align:left"><b>Math Wallet</b>
+      </td>
+      <td style="text-align:left"><b>Yes</b>
+      </td>
+      <td style="text-align:left"><b>Yes</b>
+      </td>
+      <td style="text-align:left"><b>Yes</b>
+      </td>
+      <td style="text-align:left"><b>Yes</b>
+      </td>
+      <td style="text-align:left"><b>Yes</b>
+      </td>
     </tr>
     <tr>
-      <td style="text-align:left">Harmony CLI</td>
-      <td style="text-align:left">No</td>
-      <td style="text-align:left">Yes</td>
-      <td style="text-align:left">Yes</td>
-      <td style="text-align:left">Yes</td>
-      <td style="text-align:left">Yes</td>
+      <td style="text-align:left"><b>Harmony CLI</b>
+      </td>
+      <td style="text-align:left"><b>No</b>
+      </td>
+      <td style="text-align:left"><b>Yes</b>
+      </td>
+      <td style="text-align:left"><b>Yes</b>
+      </td>
+      <td style="text-align:left"><b>Yes</b>
+      </td>
+      <td style="text-align:left"><b>Yes</b>
+      </td>
     </tr>
     <tr>
-      <td style="text-align:left">SafePal</td>
-      <td style="text-align:left">No</td>
-      <td style="text-align:left">No</td>
-      <td style="text-align:left">Yes</td>
-      <td style="text-align:left">No</td>
-      <td style="text-align:left">Yes</td>
+      <td style="text-align:left"><b>SafePal</b>
+      </td>
+      <td style="text-align:left"><b>No</b>
+      </td>
+      <td style="text-align:left"><b>No</b>
+      </td>
+      <td style="text-align:left"><b>Yes</b>
+      </td>
+      <td style="text-align:left"><b>No</b>
+      </td>
+      <td style="text-align:left"><b>Yes</b>
+      </td>
     </tr>
   </tbody>
-</table>
+</table>**Trust Wallet**
+
+#### [How to Restore a Multi-Coin Wallet](https://community.trustwallet.com/t/how-to-restore-a-multi-coin-wallet/43)
+
+#### [How to Import a Wallet](https://community.trustwallet.com/t/how-to-import-a-wallet/87)
 

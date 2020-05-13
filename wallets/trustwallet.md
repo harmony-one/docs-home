@@ -46,7 +46,7 @@ You will need to export the account in which you received the funds and import i
 
 ### Import/Export Wallet
 
-Below are the official instruction on how to restore/import private keys on Trust wallet.
+Below are the official instruction on how to restore/import Recovery Phrase \(mnemonic\) on Trust wallet.
 
 #### [How to Restore a Multi-Coin Wallet](https://community.trustwallet.com/t/how-to-restore-a-multi-coin-wallet/43)
 
