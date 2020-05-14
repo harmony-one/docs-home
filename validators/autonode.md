@@ -17,7 +17,7 @@ AutoNode isn't optimized for mainnet yet. The team is currently resolving issue.
 
 > It is recommended to go with Ubuntu or Amazon Linux as your operating system.
 
-### **Step 2:** [SSH](https://docs.harmony.one/home/validators/first-time-setup/cloud-guides/aws#step-2-connecting-to-your-aws-instance) into the machine.
+### **Step 2:** SSH into the machine.
 
 {% hint style="warning" %}
 AutoNode **DOES NOT** run with root, thus you need to login with a user that is not root. 
