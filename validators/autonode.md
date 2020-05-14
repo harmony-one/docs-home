@@ -7,6 +7,10 @@ description: >-
 
 # AutoNode
 
+{% hint style="danger" %}
+AutoNode isn't optimized for mainnet yet. The team is currently resolving issue. Will remove this notification when AutoNode is mainnet compatible. 
+{% endhint %}
+
 ## **Installing AutoNode**
 
 ### **Step 1:** Spin up your instance on [AWS](cloud-guides/aws.md) or [other providers](https://docs.harmony.one/home/validators/first-time-setup/cloud-guides).
