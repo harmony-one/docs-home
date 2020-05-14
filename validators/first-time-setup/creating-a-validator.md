@@ -84,7 +84,7 @@ If you don't want to participate in the election anymore, you can turn your vali
 
 ## Checking Validator Information <a id="checking-validator-information"></a>
 
-Use the format command **./hmy --node="**[**https://api.s0.os.hmny.io**](https://api.s0.os.hmny.io)**" blockchain validator information \[ONE ADDRESS\]** to check your validator information:
+Use the format command **./hmy --node="https://api.s0.t.hmny.io" blockchain validator information \[ONE ADDRESS\]** to check your validator information:
 
 ```bash
 ./hmy --node="https://api.s0.t.hmny.io" blockchain validator information one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd
