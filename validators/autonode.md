@@ -87,9 +87,7 @@ If you are upgrading your AutoNode from a previous version the installer might a
 Note that the ONE address has to be in quotes
 {% endhint %}
 
-### **Step 6:** Fund your ONE account. For OSTN, the faucet is [here](https://faucet.os.hmny.io/).     \*\*_**\(for OSTN P3 phase the faucet is not active\)**_
-
-### **Step 7:** Run your validator.
+### **Step 6:** Run your validator.
 
 ```text
 ./auto_node.sh run --auto-active --auto-reset --clean
