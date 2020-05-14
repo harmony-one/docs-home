@@ -3,13 +3,13 @@
 ## Using the Binary:
 
 ```bash
-./hmy blockchain validator information [ONE ADDRESS] --node="<endpoint-address>"
+./hmy blockchain validator information [ONE ADDRESS] --node="https://api.s0.t.hmny.io"
 ```
 
 ## Using the Shell Wrapper:
 
 ```bash
-./hmy.sh -- blockchain validator information [ONE ADDRESS] --node="<endpoint-address>"
+./hmy.sh -- blockchain validator information [ONE ADDRESS] --node="https://api.s0.t.hmny.io"
 ```
 
 ## Example:
