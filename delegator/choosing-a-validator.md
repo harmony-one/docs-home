@@ -54,7 +54,7 @@ In order to choose their validators and manage their delegation, delegators have
 
 ![Screen shot is zoomed for demonstration purpose.](../.gitbook/assets/image%20%2872%29.png)
 
-| **Validator list** | Delegators can access information taken into consideration during delegation on the Validator list at a glance. |
+| **Validator list** | Delegators can access information taken into consideration during delegation at a glance. |
 | :--- | :--- |
 | Effective Median Stake | Median of ONE staked among the top elected slots |
 | Total Stake | Total ONE staked in the Harmony network  |
