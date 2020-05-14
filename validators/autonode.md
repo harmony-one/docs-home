@@ -8,7 +8,7 @@ description: >-
 # AutoNode
 
 {% hint style="danger" %}
-AutoNode is not optimized for mainnet yet. The team is currently resolving issue. Will remove this notification when AutoNode is mainnet compatible.   
+AutoNode is not optimized for mainnet yet. This notification will be removed when AutoNode is mainnet compatible.   
   
 **Use "**[**First Time Setup**](first-time-setup/)**" to spin up your validator node!**  
 {% endhint %}
