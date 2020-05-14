@@ -56,7 +56,7 @@ sudo apt-get install libgmp-dev
 {% tabs %}
 {% tab title="Mainnet" %}
 ```bash
-./node.sh -S -c -z -I -N staking -k [BLS KEY FILE].key
+./node.sh -S -z -I -N staking -k [BLS KEY FILE].key
 ```
 {% endtab %}
 {% endtabs %}
@@ -101,7 +101,7 @@ ex :
 ./hmy --node="https://api.s0.t.hmny.io" blockchain latest-headers
 ```
 
-**6.** And verity the blocks shown in step 4 and 5 are closed or equals to each other
+**6.** And verity the blocks shown in step 4 and 5 are closed or equals to each other.
 
 ## Multiple BLS Keys \(Optional and recommended for advanced users\)
 
