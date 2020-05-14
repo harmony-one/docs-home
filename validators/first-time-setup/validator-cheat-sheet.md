@@ -69,17 +69,7 @@ tmux new-session -s node
 ./hmy keys add [ACCOUNT NAME] --passphrase
 ```
 
-11. Get tokens for your validator.
-
-{% tabs %}
-{% tab title="Open Staking Testnet" %}
-```bash
-curl -X GET https://faucet.os.hmny.io/fund?address=[ONE ADDRESS]
-```
-{% endtab %}
-{% endtabs %}
-
-12. Create your Validator.
+11. Create your Validator.
 
 {% tabs %}
 {% tab title="Mainnet" %}
@@ -95,7 +85,7 @@ curl -X GET https://faucet.os.hmny.io/fund?address=[ONE ADDRESS]
 {% endtab %}
 {% endtabs %}
 
-13. Check that your ONE address exists as a validator
+12. Check that your ONE address exists as a validator
 
 {% tabs %}
 {% tab title="Mainnet" %}
@@ -105,7 +95,7 @@ curl -X GET https://faucet.os.hmny.io/fund?address=[ONE ADDRESS]
 {% endtab %}
 {% endtabs %}
 
-14. Collect rewards
+13. Collect rewards
 
 {% tabs %}
 {% tab title="Mainnet" %}
@@ -115,7 +105,7 @@ curl -X GET https://faucet.os.hmny.io/fund?address=[ONE ADDRESS]
 {% endtab %}
 {% endtabs %}
 
-15. Check validator information for active flag / availability \(block signed\) / etc ...
+14. Check validator information for active flag / availability \(block signed\) / etc ...
 
 {% tabs %}
 {% tab title="Mainnet" %}
