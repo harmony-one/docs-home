@@ -126,7 +126,7 @@ If any of the commands activates a monitoring screen,  you can always exit using
 ./auto_node.sh tui run
 ```
 
-![](../.gitbook/assets/image%20%2882%29.png)
+![](../.gitbook/assets/image%20%2884%29.png)
 
 ### 3\) View the status of your Harmony Monitor daemon:
 
