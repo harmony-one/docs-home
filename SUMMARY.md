@@ -37,7 +37,7 @@
   * [Staking Dashboard](delegator/staking-dashboard/README.md)
     * [Staking Transactions](delegator/staking-dashboard/staking-transactions.md)
     * [Sending Transactions](delegator/staking-dashboard/sending-transactions.md)
-  * [Choosing a Validator](delegator/choosing-a-validator.md)
+  * [Dashboard Walkthrough](delegator/choosing-a-validator.md)
   * [Undelegation](delegator/undelegation.md)
   * [Delegator Journey \(video\)](delegator/delegator-journey.md)
 * [Validators](validators/README.md)

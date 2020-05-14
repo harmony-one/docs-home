@@ -1,4 +1,4 @@
-# Choosing a Validator
+# Dashboard Walkthrough
 
 In order to choose their validators and manage their delegation, delegators have access to a range of information on the Staking Dashboard.
 
