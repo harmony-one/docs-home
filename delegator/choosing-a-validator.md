@@ -4,7 +4,7 @@ In order to choose their validators and manage their delegation, delegators have
 
 ![Screen zoomed for demonstration purpose.](../.gitbook/assets/image%20%28161%29.png)
 
-| **Portfolio Page** | Delegators can check and claim full rewards  and monitor validators in their delegation portfolio.  |
+| **Portfolio Page** | Delegators can claim full rewards and monitor validators in their delegation portfolio.  |
 | :--- | :--- |
 | Staked | Amount of ONE delegated |
 | Available | Amount of ONE that available to delegate |
