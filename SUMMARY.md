@@ -39,7 +39,7 @@
     * [Sending Transactions](delegator/staking-dashboard/sending-transactions.md)
   * [Choosing a Validator](delegator/choosing-a-validator.md)
   * [Undelegation](delegator/undelegation.md)
-  * [Delegator Journey](delegator/delegator-journey.md)
+  * [Delegator Journey \(video\)](delegator/delegator-journey.md)
 * [Validators](validators/README.md)
   * [Terms & Concepts](validators/definitions/README.md)
     * [Validator, BLS key, Instance](validators/definitions/validator-keys-and-bids/README.md)
