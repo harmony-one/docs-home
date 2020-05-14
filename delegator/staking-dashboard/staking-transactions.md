@@ -2,7 +2,7 @@
 
 Check the validators page to see list of validators. Click on desired validator logo to direct to the Validator profile for more details.
 
-![](../../.gitbook/assets/image%20%2861%29.png)
+![](../../.gitbook/assets/image%20%2862%29.png)
 
 Click on the "Delegate" button to delegate to this validator.
 
@@ -18,7 +18,7 @@ Different wallets use different ways to confirm signature request. Please check 
 
 Once transaction is signed, Delegate window will pop-up on the staking dashboard and display the transaction status.
 
-![](../../.gitbook/assets/image%20%28169%29.png)
+![](../../.gitbook/assets/image%20%28172%29.png)
 
 ![](../../.gitbook/assets/image%20%2811%29.png)
 

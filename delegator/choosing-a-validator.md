@@ -2,14 +2,17 @@
 
 In order to choose their validators and manage their delegation, delegators have access to a range of information on the Staking Dashboard.
 
+![Screen zoomed for demonstration purpose.](../.gitbook/assets/image%20%28153%29.png)
+
 <table>
   <thead>
     <tr>
       <th style="text-align:left"><b>Portfolio Page</b>
       </th>
       <th style="text-align:left">
-        <p>Delegators can check and claim rewards on the port-</p>
-        <p>folio page and monitor their delegation portfolio.</p>
+        <p>Delegators can check and claim rewards on the Portfolio Page and monitor
+          validators in their delegation portfolio.</p>
+        <p>Delegators can also claim whole rewards earned from staking.</p>
       </th>
     </tr>
   </thead>
@@ -27,10 +30,6 @@ In order to choose their validators and manage their delegation, delegators have
       <td style="text-align:left">Rewards yet to be claimed</td>
     </tr>
     <tr>
-      <td style="text-align:left">Lifetime rewards</td>
-      <td style="text-align:left">Total lifetime rewards earned</td>
-    </tr>
-    <tr>
       <td style="text-align:left">Portfolio allocation</td>
       <td style="text-align:left">Delegation amount across different validators</td>
     </tr>
@@ -39,11 +38,21 @@ In order to choose their validators and manage their delegation, delegators have
       <td style="text-align:left">expected annual percentage return rate</td>
     </tr>
     <tr>
-      <td style="text-align:left">Ending in</td>
+      <td style="text-align:left">Returned in</td>
       <td style="text-align:left">Epochs left until undelegation funds will be accessible</td>
     </tr>
+    <tr>
+      <td style="text-align:left">Reward (up to date)</td>
+      <td style="text-align:left">Unclaimed rewards</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Status</td>
+      <td style="text-align:left">Election status of the validator in current epoch</td>
+    </tr>
   </tbody>
-</table>![this screen shot is zoomed for demonstration purpose.](../.gitbook/assets/image%20%2894%29.png)
+</table>
+
+![Screen shot is zoomed for demonstration purpose.](../.gitbook/assets/image%20%2872%29.png)
 
 | **Validator list** | Delegators can access information taken into consideration during delegation on the Validator list at a glance. |
 | :--- | :--- |
@@ -60,7 +69,9 @@ In order to choose their validators and manage their delegation, delegators have
 | Status | Election status of validator in current epoch  |
 | Name | Validator name |
 
-![this screen shot is zoomed for demonstration purpose.](../.gitbook/assets/image%20%2871%29.png)
+
+
+![this screen shot is zoomed for demonstration purpose.](../.gitbook/assets/image%20%28163%29.png)
 
 | **Validator Profile** | Delegators can delegate on the Validator Profile page and check detailed information of validators. |
 | :--- | :--- |
@@ -79,6 +90,4 @@ In order to choose their validators and manage their delegation, delegators have
 | Stake & delegation history | Stake and delegation amount for the validator at every epoch |
 | Reward rate history | Expected annual percentage return rate for validator at every epoch |
 | Delegators | List of accounts that delegated to this validator and delegation amount |
-
-![this screen shot is zoomed for demonstration purpose.](../.gitbook/assets/image%20%28160%29.png)
 

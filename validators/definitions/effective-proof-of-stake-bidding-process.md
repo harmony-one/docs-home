@@ -6,7 +6,7 @@ Let’s call the bid price of the elected BLS keys the _raw stake_. The effectiv
 
 The effective stake of each BLS key is determined at the last block of an epoch during the election process and will stay the same throughout the next epoch.
 
-![](../../.gitbook/assets/image%20%2847%29.png)
+![](../../.gitbook/assets/image%20%2848%29.png)
 
 ![](../../.gitbook/assets/screen-shot-2020-03-26-at-4.17.57-pm.png)
 
