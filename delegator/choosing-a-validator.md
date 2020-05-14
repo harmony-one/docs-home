@@ -2,6 +2,10 @@
 
 In order to choose their validators and manage their delegation, delegators have access to a range of information on the Staking Dashboard.
 
+{% embed url="https://www.youtube.com/watch?time\_continue=4&v=k3cwL2tB3DI&feature=emb\_logo" caption="OPEN STAKING: The Delegator Journey on Harmony Protocol" %}
+
+
+
 ![Screen zoomed for demonstration purpose.](../.gitbook/assets/image%20%28155%29.png)
 
 | **Portfolio Page** | Delegators can check and claim full rewards  and monitor validators in their delegation portfolio.  |
