@@ -9,7 +9,7 @@ description: Using node.sh
 **1.** Run the following command to download the node.sh script:
 
 ```bash
-curl -LO https://raw.githubusercontent.com/harmony-one/harmony/master/scripts/node.sh \
+curl -LO https://harmony.one/node.sh
 && chmod a+x node.sh
 ```
 
@@ -56,23 +56,27 @@ sudo apt-get install libgmp-dev
 {% tabs %}
 {% tab title="Mainnet" %}
 ```bash
-./node.sh -S -c -z -I -N staking -k [BLS KEY FILE].key
+./node.sh -S -z -k [BLS KEY FILE].key
 ```
 {% endtab %}
 {% endtabs %}
 
 {% hint style="info" %}
-Use `-S` to run node.sh as any user.
+Use `-S` to run node.sh as non root user.
 
 Use `-c` to automatically clear old data for a refreshed network.
 
 Use `-z` to run with staking enabled.
 
-Use `-I` to run with the statically linked binary \(recommended\).
+Use `-I` to run with the statically linked binary \(enabled by default\).
 
-Use `-N [NETWORK]` to specify which network to connect to.
+Use `-N [NETWORK]` to specify which network to connect to \(default: mainnet\).
 
 Use `-k [BLS KEY FILE]` to specify which BLS key to run the node with.
+
+Use   -M  to run with multiBLS \(all keys should be in .hmy/blskeys\)
+
+
 
 For the complete list of parameters use `./node.sh --help`
 {% endhint %}
@@ -101,7 +105,7 @@ ex :
 ./hmy --node="https://api.s0.t.hmny.io" blockchain latest-headers
 ```
 
-**6.** And verity the blocks shown in step 4 and 5 are closed or equals to each other
+**6.** And verity the blocks shown in step 4 and 5 are closed or equals to each other.
 
 ## Multiple BLS Keys \(Optional and recommended for advanced users\)
 
@@ -136,7 +140,7 @@ For any `.key` if no passphrase file is available, it will use the default speci
 **4.** You can now run the node using parameter **-M** for multiple BLS keys. Parameter **-k** will not be used anymore as we are loading multiple BLS keys here:
 
 ```bash
-./node.sh -S -c -z -I -N staking -M
+./node.sh -S -z -I -N staking -M
 ```
 
 ## Helpful Information
