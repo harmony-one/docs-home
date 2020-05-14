@@ -2,13 +2,17 @@
 
 ## Delegating to a Validator
 
-You can delegate tokens to a validator using the following command:
+You can delegate tokens to a validator using the following command.
 
+{% tabs %}
+{% tab title="Mainnet" %}
 ```bash
 ./hmy --node="https://api.s0.t.hmny.io" staking delegate \
     --delegator-addr [ONE ADDRESS] --validator-addr [ONE ADDRESS] \
     --amount [AMOUNT] --passphrase
 ```
+{% endtab %}
+{% endtabs %}
 
 The CLI will ask for the passphrase for the `delegator-addr` keystore file.
 
@@ -26,11 +30,15 @@ As a validator, if you want to increase your stake, you will have to delegate to
 
 You can un-delegate tokens from a validator using the following command:
 
+{% tabs %}
+{% tab title="Mainnet" %}
 ```bash
 ./hmy --node="https://api.s0.t.hmny.io" staking undelegate \
     --delegator-addr [ONE ADDRESS] --validator-addr [ONE ADDRESS] \ 
     --amount [AMOUNT] --passphrase
 ```
+{% endtab %}
+{% endtabs %}
 
 The CLI will ask for the passphrase for the `delegator-addr` keystore file.
 
@@ -46,12 +54,16 @@ As a validator, for un-delegating from your own validator, `delegator-addr` and 
 
 ## Collecting Rewards
 
-You can collect your block rewards with the following command:
+You can collect your block rewards with the following command.
 
+{% tabs %}
+{% tab title="Mainnet" %}
 ```bash
 ./hmy --node="https://api.s0.t.hmny.io" staking collect-rewards \
 --delegator-addr [ONE ADDRESS] --passphrase
 ```
+{% endtab %}
+{% endtabs %}
 
 The CLI will prompt your for the passphrase of the delegation account.
 
