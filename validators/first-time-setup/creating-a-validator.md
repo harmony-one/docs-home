@@ -64,7 +64,7 @@ The CLI will prompt you to enter your BLS key file password.
 
 ### When does the validator participate in election? <a id="when-does-the-validator-become-active"></a>
 
-On the Open Staking Testnet, a new validator will be eligible for the election for next epoch. You can see the time until the next epoch on the [Staking Explorer](https://staking.harmony.one/portfolio).
+A new validator will be eligible for the election for next epoch. You can see the time until the next epoch on the [Staking Dashboard](https://staking.harmony.one/validators).
 
 Once your validator is elected, the validator will receive rewards and you will be able to see "BINGO" in the logs.
 
