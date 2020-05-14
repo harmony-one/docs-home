@@ -5,7 +5,7 @@ You can delegate tokens to a validator using the following command.
 ## Using the Binary:
 
 ```bash
-./hmy --node="https://api.s0.t.hmny.io" staking delegate \
+./hmy --node="<endpoint-address>" staking delegate \
     --delegator-addr [ONE ADDRESS] --validator-addr [ONE ADDRESS] \
     --amount [AMOUNT] --passphrase
 ```
@@ -13,7 +13,7 @@ You can delegate tokens to a validator using the following command.
 ## Using the Shell Wrapper:
 
 ```bash
-./hmy.sh -- node="https://api.s0.t.hmny.io" staking delegate \
+./hmy.sh -- node="<endpoint-address>" staking delegate \
     --delegator-addr [ONE ADDRESS] --validator-addr [ONE ADDRESS] \
     --amount [AMOUNT] --passphrase
 ```
