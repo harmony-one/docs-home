@@ -69,7 +69,9 @@ tmux new-session -s node
 ./hmy keys add [ACCOUNT NAME] --passphrase
 ```
 
-11. Create your Validator.
+11. Fund your ONE address.
+
+12. Create your Validator.
 
 {% tabs %}
 {% tab title="Mainnet" %}
@@ -85,7 +87,7 @@ tmux new-session -s node
 {% endtab %}
 {% endtabs %}
 
-12. Check that your ONE address exists as a validator
+13. Check that your ONE address exists as a validator
 
 {% tabs %}
 {% tab title="Mainnet" %}
@@ -95,7 +97,7 @@ tmux new-session -s node
 {% endtab %}
 {% endtabs %}
 
-13. Collect rewards
+14. Collect rewards
 
 {% tabs %}
 {% tab title="Mainnet" %}
@@ -105,7 +107,7 @@ tmux new-session -s node
 {% endtab %}
 {% endtabs %}
 
-14. Check validator information for active flag / availability \(block signed\) / etc ...
+15. Check validator information for active flag / availability \(block signed\) / etc ...
 
 {% tabs %}
 {% tab title="Mainnet" %}
