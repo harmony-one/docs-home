@@ -20,7 +20,5 @@ You will need to open Web Wallet in order to view account details and perform tr
 
 ![](../../.gitbook/assets/assets-lleolyqeg_gkuo5rehq-lybzqswxmaxzckbefto-lyc0-a584r4odsvs_9b-image.png)
 
-Please make sure you are using the Harmony Mainnet environment.
 
-![](../../.gitbook/assets/image%20%2860%29.png)
 
