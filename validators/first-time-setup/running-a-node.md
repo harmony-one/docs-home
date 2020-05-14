@@ -9,13 +9,12 @@ description: Using node.sh
 **1.** Run the following command to download the node.sh script:
 
 ```bash
-curl -LO https://harmony.one/node.sh
-&& chmod a+x node.sh
+curl -LO https://harmony.one/node.sh && chmod a+x node.sh
 ```
 
 ## TMUX
 
-Install tmux if your Linux distribution does not already come with it. 
+Install [tmux](https://github.com/tmux/tmux/wiki) if your Linux distribution does not already come with it. 
 
 {% tabs %}
 {% tab title="Ubuntu LTS" %}
@@ -26,7 +25,7 @@ sudo apt-get install tmux
 
 {% tab title="Amazon Linux" %}
 ```bash
-sudo yum install tmux
+sudo yum install -y tmux
 ```
 {% endtab %}
 {% endtabs %}
@@ -62,13 +61,13 @@ sudo apt-get install libgmp-dev
 {% endtabs %}
 
 {% hint style="info" %}
-Use `-S` to run node.sh as non root user.
+Use `-S` to run node.sh as non root user. \(Recommended\)
 
 Use `-c` to automatically clear old data for a refreshed network.
 
-Use `-z` to run with staking enabled.
+Use `-z` to run with staking enabled. \(Mandatory to setup validator nodes for open staking\)
 
-Use `-I` to run with the statically linked binary \(enabled by default\).
+Use `-I` to run with the statically linked binary \(enabled by default already, may ignore\).
 
 Use `-N [NETWORK]` to specify which network to connect to \(default: mainnet\).
 
@@ -140,7 +139,7 @@ For any `.key` if no passphrase file is available, it will use the default speci
 **4.** You can now run the node using parameter **-M** for multiple BLS keys. Parameter **-k** will not be used anymore as we are loading multiple BLS keys here:
 
 ```bash
-./node.sh -S -z -I -N staking -M
+./node.sh -S -z -M
 ```
 
 ## Helpful Information
