@@ -8,7 +8,9 @@ description: >-
 # AutoNode
 
 {% hint style="danger" %}
-AutoNode isn't optimized for mainnet yet. The team is currently resolving issue. Will remove this notification when AutoNode is mainnet compatible. 
+AutoNode is not optimized for mainnet yet. The team is currently resolving issue. Will remove this notification when AutoNode is mainnet compatible.   
+  
+**Use** [**Node.Sh method**](first-time-setup/) **to setup your validator node!**  
 {% endhint %}
 
 ## **Installing AutoNode**
