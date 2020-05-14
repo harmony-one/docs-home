@@ -80,5 +80,5 @@ In order to choose their validators and manage their delegation, delegators have
 | Reward rate history | Expected annual percentage return rate for validator at every epoch |
 | Delegators | List of accounts that delegated to this validator and delegation amount |
 
-![this screen shot is zoomed for demonstration purpose.](../.gitbook/assets/image%20%28159%29.png)
+![this screen shot is zoomed for demonstration purpose.](../.gitbook/assets/image%20%28160%29.png)
 

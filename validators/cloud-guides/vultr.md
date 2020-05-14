@@ -14,7 +14,7 @@ For new users, check if you can get a promo link to register on Vultr. Usually V
 
 ​First, go to the [Vultr Main Page](https://www.vultr.com/). If you don’t already have an Vultr account, register one by clicking on "Sign up". Otherwise, log into your Vultr Account by clicking on "Sign in".
 
-![](https://blobs.gitbook.com/assets%2F-LlDqlxK8e45wuh1WH4h%2F-LmN5L0MtjVtbA_GYd6S%2F-LmN5N4DxS6VF1s2zswY%2Fbrave_5ABtBQkPcT.png?alt=media&token=ba1288f4-0c76-48ea-bf39-68109f2d2b64)
+![](../../.gitbook/assets/image%20%28104%29.png)
 
 ### Create a new instance <a id="create-a-new-instance"></a>
 

@@ -19,7 +19,7 @@ description: 'To launch your Ankr validator node, follow the steps below.'
 
 4. In order to deploy the Node, Ankr will generate a BLS Key and a Harmony Wallet for you. For security reasons, these two keys will be encoded with a password that must be set in the **Encryption Password** field. Please make sure to write this password somewhere safe in order to regain access to your keys.
 
-![](../../.gitbook/assets/image%20%28153%29.png)
+![](../../.gitbook/assets/image%20%28154%29.png)
 
 5. Next, you need to insert a node name in order to identify and get realtime stats of the node on the [Harmony Validator Explorer](https://staking.harmony.one/validators), once your node is elected as a Validator.
 
@@ -37,13 +37,13 @@ description: 'To launch your Ankr validator node, follow the steps below.'
 
 2. In order to be eligible for a Validator seat, you need to have ONE tokens in your wallet. You can transfer ONE tokens from any wallet to the generated ONE wallet address from the **Information** tab.
 
-![](../../.gitbook/assets/image%20%28151%29.png)
+![](../../.gitbook/assets/image%20%28152%29.png)
 
 3. Once the ONE tokens are visible in your token wallet, you can **Apply** for a Validator spot.
 
-![](../../.gitbook/assets/image%20%28161%29.png)
+![](../../.gitbook/assets/image%20%28162%29.png)
 
 4. You can check your Validator Information on the Harmony Validator Explorer by clicking the **View** Button.
 
-![](../../.gitbook/assets/image%20%28150%29.png)
+![](../../.gitbook/assets/image%20%28151%29.png)
 
