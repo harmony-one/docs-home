@@ -5,14 +5,14 @@ You can collect your block rewards with the following command.
 ## Using the Binary:
 
 ```bash
-./hmy --node="<endpoint-address>" staking collect-rewards \
+./hmy --node="https://api.s0.t.hmny.io" staking collect-rewards \
 --delegator-addr [ONE ADDRESS] --passphrase
 ```
 
 ## Using the Shell Wrapper:
 
 ```bash
-./hmy.sh -- node="<endpoint-address>" staking collect-rewards \
+./hmy.sh -- node="https://api.s0.t.hmny.io" staking collect-rewards \
 --delegator-addr [ONE ADDRESS] --passphrase
 ```
 
