@@ -45,5 +45,34 @@ Nodes in shard 0 just need to sync `harmony_db_0`
 Nodes in shard 1, 2, 3 need to sync both `harmony_db_0`, and `harmony_db_<ShardID>`
 {% endhint %}
 
+## 4. Cheat Sheet
+
+#### shard0:
+
+```bash
+rclone sync mainnet:pub.harmony.one/mainnet.min/harmony_db_0 harmony_db_0
+```
+
+#### shard1:
+
+```bash
+rclone sync mainnet:pub.harmony.one/mainnet.min/harmony_db_0 harmony_db_0
+rclone sync mainnet:pub.harmony.one/mainnet.min/harmony_db_1 harmony_db_1
+```
+
+#### shard2:
+
+```bash
+rclone sync mainnet:pub.harmony.one/mainnet.min/harmony_db_0 harmony_db_0
+rclone sync mainnet:pub.harmony.one/mainnet.min/harmony_db_2 harmony_db_2
+```
+
+#### shard3:
+
+```bash
+rclone sync mainnet:pub.harmony.one/mainnet.min/harmony_db_0 harmony_db_0
+rclone sync mainnet:pub.harmony.one/mainnet.min/harmony_db_3 harmony_db_3
+```
+
 After the sync, you may use a simple `du -h harmony_db_*` command to check the size of the downloaded snapshots.
 
