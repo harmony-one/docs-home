@@ -70,7 +70,6 @@
     * [Undelegating From A Validator](validators/managing-your-validator/undelegating-to-a-validator.md)
     * [Seeing Stakers](validators/managing-your-validator/seeing-stakers.md)
     * [Collecting Rewards](validators/managing-your-validator/collecting-rewards.md)
-    * [Resetting Your Validator](validators/managing-your-validator/resetting-your-node.md)
     * [Adding A Validator Logo](validators/managing-your-validator/adding-a-validator-logo.md)
   * [Staking Explorer](validators/staking-explorer.md)
   * [Troubleshooting](validators/validator-troubleshooting/README.md)

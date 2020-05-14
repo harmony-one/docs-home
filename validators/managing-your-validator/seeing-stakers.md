@@ -5,13 +5,13 @@ You can see the number of delegations to your validator with the following comma
 ## Using the Binary:
 
 ```bash
-./hmy --node="<endpoint-address>" blockchain delegation by-validator [VALIDATOR ADDRESS]
+./hmy --node="https://api.s0.t.hmny.io" blockchain delegation by-validator [VALIDATOR ADDRESS]
 ```
 
 ## Using the Shell Wrapper:
 
 ```bash
-./hmy.sh -- node="<endpoint-address>" blockchain delegation by-validator [VALIDATOR ADDRESS]
+./hmy.sh -- node="https://api.s0.t.hmny.io" blockchain delegation by-validator [VALIDATOR ADDRESS]
 ```
 
 ### Example:
