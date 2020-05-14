@@ -71,7 +71,7 @@
     * [Seeing Stakers](validators/managing-your-validator/seeing-stakers.md)
     * [Collecting Rewards](validators/managing-your-validator/collecting-rewards.md)
     * [Adding A Validator Logo](validators/managing-your-validator/adding-a-validator-logo.md)
-  * [Staking Explorer](validators/staking-explorer.md)
+  * [Staking Dashboard](validators/staking-dashboard.md)
   * [Troubleshooting](validators/validator-troubleshooting/README.md)
     * [Why am I not elected in the EPOS Committee](validators/validator-troubleshooting/why-am-i-not-elected-in-the-epos-committee.md)
   * [Monitoring & Security](validators/extras/README.md)

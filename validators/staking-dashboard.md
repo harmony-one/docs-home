@@ -1,4 +1,4 @@
-# Staking Explorer
+# Staking Dashboard
 
 Here is the Staking Explorer link:  [https://staking.harmony.one/welcome](https://staking.harmony.one/welcome)
 
