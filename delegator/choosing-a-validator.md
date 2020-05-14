@@ -62,7 +62,7 @@ In order to choose their validators and manage their delegation, delegators have
 
 ![](../.gitbook/assets/image%20%28175%29.png)
 
-| **Analytics** | Delegator can access both intuitive and statistical information on the stake distribution among validators. |
+| **Analytics** | Delegator can access both intuitive and statistical information on the stake distribution among validators and 4 shards. |
 | :--- | :--- |
 | Slots | The slots occupied by this validator |
 | Bid | Bid per BLS key |
