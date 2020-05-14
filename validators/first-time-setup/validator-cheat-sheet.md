@@ -47,13 +47,9 @@ tmux new-session -s node
 
 7. Run the node.
 
-{% tabs %}
-{% tab title="Open Staking Network" %}
 ```bash
-./node.sh -S -c -z -I -N staking -k [BLS KEY FILE].key
+./node.sh -S -z -I -N staking -k [BLS KEY FILE].key
 ```
-{% endtab %}
-{% endtabs %}
 
 8. Detach from the tmux session by pressing CTRL and B at the same time, then press D.
 
@@ -73,8 +69,6 @@ tmux new-session -s node
 
 12. Create your Validator.
 
-{% tabs %}
-{% tab title="Mainnet" %}
 ```bash
 ./hmy --node="https://api.s0.t.hmny.io" staking create-validator \
     --validator-addr [ONE ADDRESS] --amount 100000 \
@@ -84,38 +78,22 @@ tmux new-session -s node
     --max-change-rate 0.1 --max-rate 0.1 --rate 0.1 \
     --max-total-delegation 100000000 --min-self-delegation 100000 --passphrase
 ```
-{% endtab %}
-{% endtabs %}
 
-13. Check that your ONE address exists as a validator
+13. Check that your ONE address exists as a validator.
 
-{% tabs %}
-{% tab title="Mainnet" %}
 ```bash
 ./hmy --node="https://api.s0.t.hmny.io" blockchain validator all | grep [ONE ADDRESS]
 ```
-{% endtab %}
-{% endtabs %}
 
-14. Collect rewards
+14. Collect rewards.
 
-{% tabs %}
-{% tab title="Mainnet" %}
 ```bash
 ./hmy --node="https://api.s0.t.hmny.io" staking collect-rewards --delegator-addr [ONE ADDRESS] --passphrase
 ```
-{% endtab %}
-{% endtabs %}
 
 15. Check validator information for active flag / availability \(block signed\) / etc ...
 
-{% tabs %}
-{% tab title="Mainnet" %}
 ```bash
 ./hmy --node="https://api.s0.t.hmny.io" blockchain validator information [VALIDATOR ONE ADDRESS]
 ```
-{% endtab %}
-{% endtabs %}
-
-
 
