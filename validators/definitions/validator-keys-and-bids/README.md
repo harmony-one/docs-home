@@ -52,9 +52,9 @@ Below are some differences to using multiBLS vs. single-key instance:
 
 ### Visualization
 
-![](../../../.gitbook/assets/image%20%2897%29.png)
+![](../../../.gitbook/assets/image%20%28101%29.png)
 
-![](../../../.gitbook/assets/image%20%2869%29.png)
+![](../../../.gitbook/assets/image%20%2871%29.png)
 
 ## 
 

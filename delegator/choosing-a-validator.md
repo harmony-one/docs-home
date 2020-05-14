@@ -2,7 +2,7 @@
 
 In order to choose their validators and manage their delegation, delegators have access to a range of information on the Staking Dashboard.
 
-![Screen zoomed for demonstration purpose.](../.gitbook/assets/image%20%28155%29.png)
+![Screen zoomed for demonstration purpose.](../.gitbook/assets/image%20%28161%29.png)
 
 | **Portfolio Page** | Delegators can check and claim full rewards  and monitor validators in their delegation portfolio.  |
 | :--- | :--- |
@@ -17,7 +17,7 @@ In order to choose their validators and manage their delegation, delegators have
 
 
 
-![Screen shot is zoomed for demonstration purpose.](../.gitbook/assets/image%20%2874%29.png)
+![Screen shot is zoomed for demonstration purpose.](../.gitbook/assets/image%20%2876%29.png)
 
 | **Validator list** | Delegators can access necessary information when choosing a validator at a glance. |
 | :--- | :--- |
@@ -36,7 +36,7 @@ In order to choose their validators and manage their delegation, delegators have
 
 
 
-![Screen zoomed for demonstration purpose.](../.gitbook/assets/image%20%28165%29.png)
+![Screen zoomed for demonstration purpose.](../.gitbook/assets/image%20%28171%29.png)
 
 | **Validator Profile** | Delegators can check detailed information of a validator and delegate/undelegate this validator. |
 | :--- | :--- |
@@ -58,9 +58,9 @@ In order to choose their validators and manage their delegation, delegators have
 
 
 
-![](../.gitbook/assets/image%20%28180%29.png)
+![](../.gitbook/assets/image%20%28186%29.png)
 
-![](../.gitbook/assets/image%20%28169%29.png)
+![](../.gitbook/assets/image%20%28175%29.png)
 
 | **Analytics** | Delegator can access both intuitive and statistical information on the stake distribution among validators. |
 | :--- | :--- |
