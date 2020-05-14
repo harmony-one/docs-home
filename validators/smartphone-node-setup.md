@@ -9,7 +9,7 @@ description: >-
 
 1. Download and Install the Termux app in the [Playstore](https://play.google.com/store/apps/details?id=com.termux&hl=en).
 
-![](../.gitbook/assets/image%20%28126%29.png)
+![](../.gitbook/assets/image%20%28128%29.png)
 
 2. Run the app and install the SSH for the program by typing:
 

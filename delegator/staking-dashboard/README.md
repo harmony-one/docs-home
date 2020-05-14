@@ -2,7 +2,7 @@
 
 You can go to [Harmony Staking Dashboard](https://staking.harmony.one/welcome) to stake your tokens. 
 
-![](../../.gitbook/assets/image%20%28125%29.png)
+![](../../.gitbook/assets/image%20%28127%29.png)
 
 Staking Dashboard is an easy way to delegate, undelegate, claim rewards and manage your delegations. Currently, staking transaction is supported on Ledger Nano S, Harmony Browser Extension and Math Wallet, you can log in or create a new address via those three wallets.
 

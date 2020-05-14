@@ -35,10 +35,6 @@ In order to choose their validators and manage their delegation, delegators have
       <td style="text-align:left">Delegation amount across different validators</td>
     </tr>
     <tr>
-      <td style="text-align:left">Reward (up to date)</td>
-      <td style="text-align:left">Unclaimed rewards</td>
-    </tr>
-    <tr>
       <td style="text-align:left">Expected return</td>
       <td style="text-align:left">expected annual percentage return rate</td>
     </tr>
@@ -47,29 +43,24 @@ In order to choose their validators and manage their delegation, delegators have
       <td style="text-align:left">Epochs left until undelegation funds will be accessible</td>
     </tr>
   </tbody>
-</table>
+</table>![this screen shot is zoomed for demonstration purpose.](../.gitbook/assets/image%20%2894%29.png)
 
 | **Validator list** | Delegators can access information taken into consideration during delegation on the Validator list at a glance. |
 | :--- | :--- |
-| Delegated | Total ONE delegated to this validator |
-| Self stake | Amount of ONE staked by validator |
-| Max delegation | Maximum ONE stake allowed by the validator, including self-stake |
-| Validator since | Block number at which validator registered |
-| Commission \(rename to fee for consistency\) | Commission on rewards charged by validator |
-| Max daily change | daily change in commission allowed for this validator |
-| Uptime \(AVG\) | Signing percentage for this validator's nodes |
-| Slots | Number of seats \(bls keys\) associated with the Validator |
-| Elected slots | Number of seats \(bls keys\) elected in the current committee |
+| Effective Median Stake | Median of ONE staked among the top elected slots |
+| Total Stake | Total ONE staked in the Harmony network  |
+| Current block height | current block height of Harmony blockchain |
+| All | All validators created & listed onchain |
+| Elected | Validator currently selected & eligible to sign blocks & earn rewards |
+| Not Elected | Validator currently not-selected to sign blocks due to low stake or insufficient uptime |
 | Expected return | Expected annual return rate |
-| Lifetime rewards | all rewards collected by the validator |
-| Shards | Shards in which validator's BLS keys belong, shown order is based on time to add |
-| Stake & delegation history | Stake and delegation amount for the validator at every epoch |
-| Reward rate history | Expected annual percentage return rate for validator at every epoch |
-| Delegators | List of accounts that delegated to this validator and delegation amount |
+| Stake | Total ONE staked by the validator |
+| Fees | Commission on rewards charged by validator  |
+| Uptime \(AVG\) | Signing percentage for this validator's nodes  |
+| Status | Election status of validator in current epoch  |
+| Name | Validator name |
 
-![](../.gitbook/assets/image%20%28146%29.png)
-
-
+![this screen shot is zoomed for demonstration purpose.](../.gitbook/assets/image%20%2871%29.png)
 
 | **Validator Profile** | Delegators can delegate on the Validator Profile page and check detailed information of validators. |
 | :--- | :--- |
@@ -77,7 +68,7 @@ In order to choose their validators and manage their delegation, delegators have
 | Self stake | Amount of ONE staked by validator |
 | Max delegation | Maximum ONE stake allowed by the validator, including self-stake |
 | Validator since | Block number at which validator registered |
-| Commission \(rename to fee for consistency\) | Commission on rewards charged by validator |
+| Fee | Commission on rewards charged by validator |
 | Max daily change | daily change in commission allowed for this validator |
 | Uptime \(AVG\) | Signing percentage for this validator's nodes |
 | Slots | Number of seats \(bls keys\) associated with the Validator |
@@ -88,4 +79,6 @@ In order to choose their validators and manage their delegation, delegators have
 | Stake & delegation history | Stake and delegation amount for the validator at every epoch |
 | Reward rate history | Expected annual percentage return rate for validator at every epoch |
 | Delegators | List of accounts that delegated to this validator and delegation amount |
+
+![this screen shot is zoomed for demonstration purpose.](../.gitbook/assets/image%20%28159%29.png)
 

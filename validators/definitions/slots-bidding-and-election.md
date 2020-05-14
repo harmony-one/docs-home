@@ -15,7 +15,7 @@ The election for the slots works as follows.
 
 The BLS key that successfully bids for a slot is deemed **elected**. Elected BLS keys will eventually form the committees of the shards. A validator in possession of at least one elected BLS key is also deemed **elected.**
 
-![](../../.gitbook/assets/image%20%28115%29.png)
+![](../../.gitbook/assets/image%20%28117%29.png)
 
 Above is a simple example of bidding and election process with 10 slots and 5 validators. 
 

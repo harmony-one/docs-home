@@ -24,7 +24,7 @@ Ledger live provides app catalog for different types of apps, as shown below:
 
 To find the Harmony app, type **harmony** in the search bar, as shown below:
 
-![](../../.gitbook/assets/image%20%2884%29.png)
+![](../../.gitbook/assets/image%20%2885%29.png)
 
 ## **Step 3. Install/Remove the App**
 
@@ -36,5 +36,5 @@ There are two buttons associated with Harmony One app. The **install** button ca
 
 To use Harmony One app, please check your Ledger Nano device and click both buttons to open the app.
 
-![](../../.gitbook/assets/image%20%28142%29.png)
+![](../../.gitbook/assets/image%20%28144%29.png)
 
