@@ -38,7 +38,6 @@
     * [Staking Transactions](delegator/staking-dashboard/staking-transactions.md)
     * [Sending Transactions](delegator/staking-dashboard/sending-transactions.md)
   * [Dashboard Walkthrough](delegator/choosing-a-validator.md)
-  * [Undelegation](delegator/undelegation.md)
   * [Delegator Journey \(video\)](delegator/delegator-journey.md)
 * [Validators](validators/README.md)
   * [Terms & Concepts](validators/definitions/README.md)
