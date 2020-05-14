@@ -18,7 +18,7 @@ You may want to refer to the [Choosing A Cloud Provider ](https://app.gitbook.co
 
 {% page-ref page="ankr.md" %}
 
-{% page-ref page="../extras/choosing-a-cloud-provider.md" %}
+{% page-ref page="choosing-a-cloud-provider.md" %}
 
 
 

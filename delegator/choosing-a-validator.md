@@ -4,7 +4,7 @@ In order to choose their validators and manage their delegation, delegators have
 
 ![Screen zoomed for demonstration purpose.](../.gitbook/assets/image%20%28161%29.png)
 
-| **Portfolio Page** | Delegators can check and claim full rewards  and monitor validators in their delegation portfolio.  |
+| **Portfolio Page** | Delegators can claim full rewards and monitor validators in their delegation portfolio.  |
 | :--- | :--- |
 | Staked | Amount of ONE delegated |
 | Available | Amount of ONE that available to delegate |
@@ -19,7 +19,7 @@ In order to choose their validators and manage their delegation, delegators have
 
 ![Screen shot is zoomed for demonstration purpose.](../.gitbook/assets/image%20%2876%29.png)
 
-| **Validator list** | Delegators can access necessary information when choosing a validator at a glance. |
+| **Validator list** | Delegators can access necessary information of validators at a glance to choose desired validator\(s\). |
 | :--- | :--- |
 | Effective Median Stake | Median of ONE staked among the top elected slots |
 | Total Stake | Total ONE staked in the Harmony network  |
@@ -62,7 +62,7 @@ In order to choose their validators and manage their delegation, delegators have
 
 ![](../.gitbook/assets/image%20%28175%29.png)
 
-| **Analytics** | Delegator can access both intuitive and statistical information on the stake distribution among validators. |
+| **Analytics** | Delegator can access both intuitive and statistical information on the stake distribution among validators and 4 shards. |
 | :--- | :--- |
 | Slots | The slots occupied by this validator |
 | Bid | Bid per BLS key |
