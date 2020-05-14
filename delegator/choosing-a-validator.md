@@ -56,7 +56,17 @@ In order to choose their validators and manage their delegation, delegators have
 | Reward rate history | Expected annual percentage return rate for validator at every epoch |
 | Delegators | List of accounts that delegated to this validator and delegation amount |
 
-| \*\*\*\* |
-| :--- |
 
+
+![](../.gitbook/assets/image%20%28180%29.png)
+
+![](../.gitbook/assets/image%20%28169%29.png)
+
+| **Analytics** | Delegator can access both intuitive and statistical information on the stake distribution among validators. |
+| :--- | :--- |
+| Slots | The slots occupied by this validator |
+| Bid | Bid per BLS key |
+| Effective | Validator's effective ONE staked |
+| total | Validator's total ONE staked |
+| Self stake | Amount of ONE staked by validator |
 
