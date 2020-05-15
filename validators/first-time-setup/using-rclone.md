@@ -43,7 +43,13 @@ EOF
 
 ## 3. Running Rclone
 
-Below is the command to sync the shard you want. Replace `<ShardID>`with the shard number you want to sync. Each of the rclone snapshot is around ~1.7 Gb as of 05/14/2020. It may take up to 10 minutes for the full sync depending on your network condition.
+Below is the command to sync the shard you want. Replace `<ShardID>`with the shard number you want to sync. Each of the rclone snapshot is around 1.7 Gb as of 05/14/2020. Shard 0 is around 1.8 Gb as of 5/14/2020. 
+
+It may take up to 10 minutes for the full sync depending on your network condition.
+
+You won't see anything on your Terminal screen after running Rclone but you'll know it's complete if you get the next line of prompt.
+
+After the sync, you may use `du -h harmony_db_*` command to check the size of the downloaded snapshots.
 
 ```bash
 rclone sync mainnet:pub.harmony.one/mainnet.min/harmony_db_<ShardID> harmony_db_<ShardID>
@@ -84,5 +90,5 @@ rclone sync mainnet:pub.harmony.one/mainnet.min/harmony_db_0 harmony_db_0
 rclone sync mainnet:pub.harmony.one/mainnet.min/harmony_db_3 harmony_db_3
 ```
 
-After the sync, you may use a simple `du -h harmony_db_*` command to check the size of the downloaded snapshots.
+After the sync, you may use `du -h harmony_db_*` command to check the size of the downloaded snapshots.
 
