@@ -6,13 +6,13 @@ We've put together a list of possible cloud providers and some examples of their
 
 Since we are about to see EPoS go live on Harmony network, I decided to put together a list of possible cloud providers and some examples of their instances that can be used. 
 
-[TLDR](https://docs.google.com/spreadsheets/d/19K94NbXD7kv9UdLrp95mRs-LB8MZYvcEbm1gwzHke5c/edit#gid=0)
+TLDR:
 
 CPU we recommend 2 core, 2G ram for running single BLS key; 2 core, 4G ram for running up to 4 BLS keys. Bandwidth better be 100M or better for downlink, uplink 10M or better. Although you can probably run away with a lower instance, it is not recommended, as the performance might be impacted and so are the rewards\(slashing risk due to unavailability\). In case of computer crash or power outage, you need backup or UPS. Currently the blockchain size is around 30GB. 
 
 Based on the different cloud service you choose, machine cost can vary from a few dollars \(digital ocean\) to 29 dollar fixed price per month \(Ankr\). All prices displayed are based on a monthly basis.
 
-[AWS \(Amazon Web Services\)](https://aws.amazon.com/ec2/?nc2=h_ql_prod_fs_ec2)
+[AWS \(Amazon Web Services\)](https://aws.amazon.com/ec2/?nc2=h_ql_prod_fs_ec2):
 
 Amazon offers powerful networking options and a large array of hardware specs. They offer speeds from 1 Gigabit and up to 100 Gigabit. Their T instances are burst instances, which means they are capable of high performance for a while only. After that, if the instance is still stretched you might get charged extra. They offer 3 kinds of instance purchases:
 
@@ -41,7 +41,7 @@ Payment options: Credit card – they prefer business accounts, you will have a 
 
 Setup: instantly
 
-[Digital Ocean](https://www.digitalocean.com/products/droplets/?_campaign=DO_Dev_Awareness_BA_Search_B_GENERIC&_adgroup=&_keyword=digitalocean&_device=c&_copytype=nonbiz_ad&_adposition=&_medium=brand_sem&_source=bing&msclkid=7557b0b28d151775d0e6ee3916eadc75&utm_source=bing&utm_medium=cpc&utm_campaign=DO_Dev_Awareness_BA_Search_B_GENERIC&utm_term=digitalocean&utm_content=GENERIC_DO)
+[Digital Ocean](https://www.digitalocean.com/products/droplets/?_campaign=DO_Dev_Awareness_BA_Search_B_GENERIC&_adgroup=&_keyword=digitalocean&_device=c&_copytype=nonbiz_ad&_adposition=&_medium=brand_sem&_source=bing&msclkid=7557b0b28d151775d0e6ee3916eadc75&utm_source=bing&utm_medium=cpc&utm_campaign=DO_Dev_Awareness_BA_Search_B_GENERIC&utm_term=digitalocean&utm_content=GENERIC_DO):
 
 Digital Ocean is another seasoned provider with a good reputation and stability. They do not disclose their network speed performance, however, based on user experience from node runners, it is satisfactory. Digital Ocean does not charge any fee on data transfer thus is highly recommended.
 
@@ -55,19 +55,17 @@ Payment options: credit card, Paypal
 Setup: instantly  
 
 
-[Ankr](https://www.ankr.com/)
+[Ankr](https://www.ankr.com/):
 
 Ankr has developed a one-click node deployment application for Harmony Open Staking Validator nodes,which takes a lot less manual work to set up and maintain the node. 
 
 * 2 core, 4GB Memory, 60GB Storage, 29.00 USD per month
 
-Ankr is now providing a 2 month free period for 200 external validators on our testnet: [Ankr provides 2 months of free hosting for Harmony Open Staking Validators](https://medium.com/ankr-network/ankr-provides-2-months-of-free-hosting-for-harmony-open-staking-validators-bb8269729966).  
-  
-
+Ankr is now providing a 2 month free period for 200 external validators on our testnet: [Ankr provides 2 months of free hosting for Harmony Open Staking Validators](https://medium.com/ankr-network/ankr-provides-2-months-of-free-hosting-for-harmony-open-staking-validators-bb8269729966).
 
 Payment options: credit card, PayPal
 
-[Vultr](https://www.vultr.com/)
+[Vultr](https://www.vultr.com/):
 
 Vultr is another very popular option amongst Harmony node runners. It has good pricing and setting it up within your Vultr account is quite simple. They also do not charge anything extra per month, except for the instance price. They do not show their network speed performance, but based on user experience it is more than enough, and probably is around 1 Gigabit.
 
@@ -91,7 +89,7 @@ Payment options: credit card, Bitcoin, Paypal, Alipay, Wechat pay
 Setup: instantly  
 
 
-Hetzner
+[Hetzner](https://www.hetzner.com/cloud):
 
 Hetzner is one of the latest popular options amongst node runners. Their prices are great and their service is stable. They also do not show the network speed performance, but based on user experience they are fast enough, and most probably up to 1 Gigabit.
 
@@ -107,18 +105,18 @@ Payment options: credit card, Paypal, wire transfer
 Setup: instantly  
 
 
-[Microsoft Azure](https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/)
+[Microsoft Azure](https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/):
 
 Azure offers a similar service like Amazon, with RI instances which are up to 70% cheaper than on-demand instance. However their pricing tiers are even more expensive than Amazon, so I will not go into details about this provider.
 
-[Google Cloud Platform](https://cloud.google.com/)
+[Google Cloud Platform](https://cloud.google.com/):
 
 Google has also similar offers to Amazon and Azure, but it seems to be even more expensive. They charge a lot for data transfer as far as I heard from the node runners. The only bonus they have is the 300 USD free credits for new signups, which can be used within 1 year. 
 
 Google Cloud Platform Pricing Calculator: [https://cloud.google.com/products/calculator](https://cloud.google.com/products/calculator)  
 
 
-[Contabo](https://contabo.com/?show=home)
+[Contabo](https://contabo.com/?show=home):
 
 Contabo is one of the newest possibilities amongst node runners, although the service provider itself is quite established already. The pricing is great, albeit not much tested yet within the node runners. Their web interface is a bit more simplified and doesn’t provide all the extra tools that some others do, but for these prices I think its worth it. Their network speed performance varies based on the instance type you choose.
 
@@ -137,7 +135,7 @@ Payment options: Paypal and wire transfer
 Setup: after the first payment is received  
 
 
-[Linode](https://www.linode.com/pricing/)
+[Linode](https://www.linode.com/pricing/):
 
 Linode is an established provider with competitive pricing and very good stability. They do show network speeds based on the instance type you choose, but they are all satisfactory.
 
@@ -150,7 +148,7 @@ Payment options: credit card, Paypal
 Setup: instantly  
 
 
-[Scaleaway](https://www.scaleway.com/en/pricing/)
+[Scaleaway](https://www.scaleway.com/en/pricing/):
 
 Scaleaway is a newer provider to me, but it does offer its services for quite some time already. They offer various options within your account and their network speed performances are good.
 
@@ -164,7 +162,7 @@ Setup: instantly
   
 
 
-Final Notes
+Final Notes:
 
 There are a few clear front runners in these cloud providers, however, I would advise diversity here, as it will make the network stronger and more secure. If you run more than one node, I would also recommend different cloud providers for them. For example, I currently use Vultr and Hetzner. Once EPoS is live I might try some other providers too. 
 
