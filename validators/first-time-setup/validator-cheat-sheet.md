@@ -48,7 +48,7 @@ tmux new-session -s node
 7. Run the node.
 
 ```bash
-./node.sh -S -z -I -N staking -k [BLS KEY FILE].key
+./node.sh -S -z -k [BLS KEY FILE].key
 ```
 
 8. Detach from the tmux session by pressing CTRL and B at the same time, then press D.
