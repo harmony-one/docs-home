@@ -137,8 +137,8 @@ Delegate ONE Tokens To 16 Pools
 {% embed url="https://www.stakingrewards.com/provider/staking-team" %}
 {% endtab %}
 
-{% tab title="JetStake" %}
-{% embed url="https://dev.jetstake.com/" %}
+{% tab title="SesameSeed" %}
+{% embed url="https://sprout.sesameseed.org/" %}
 {% endtab %}
 {% endtabs %}
 
@@ -149,6 +149,10 @@ Delegate ONE Tokens To 16 Pools
 
 {% tab title="Moonstake" %}
 {% embed url="https://www.moonstake.io/" %}
+{% endtab %}
+
+{% tab title="JetStake" %}
+{% embed url="https://dev.jetstake.com/" %}
 {% endtab %}
 {% endtabs %}
 
