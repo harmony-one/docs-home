@@ -26,19 +26,10 @@ rclone config file
 
 The `rclone.conf` file is usually located at `~/.config/rclone/rclone.conf` . 
 
-Now edit the file \(using your favorite editor vi or nano\):
+Now run the following command to create the rclone.conf file.
 
 ```bash
-cd .config/rclone
-```
-
-```bash
-vi rclone.conf
-```
-
- Add the information below and save and exit after using :xa + enter:
-
-```bash
+cat<<-EOF > ~/.config/rclone/rclone.conf
 [mainnet]
 type = s3
 provider = AWS
@@ -47,6 +38,7 @@ region = us-west-1
 acl = public-read
 server_side_encryption = AES256
 storage_class = REDUCED_REDUNDANCY
+EOF
 ```
 
 ## 3. Running Rclone

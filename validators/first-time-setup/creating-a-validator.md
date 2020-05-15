@@ -62,10 +62,6 @@ The CLI will prompt you to enter your BLS key file password.
 `--min-self-delegation` has to be at least 10,000 ONE.
 {% endhint %}
 
-{% hint style="info" %}
-rate, max-rate max-change-rate takes value between 0 and 1 with 0.1 = 10%
-{% endhint %}
-
 ### When does the validator participate in election? <a id="when-does-the-validator-become-active"></a>
 
 A new validator will be eligible for the election for next epoch. You can see the time until the next epoch on the [Staking Dashboard](https://staking.harmony.one/validators).
