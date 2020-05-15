@@ -71,12 +71,12 @@ tmux new-session -s node
 
 ```bash
 ./hmy --node="https://api.s0.t.hmny.io" staking create-validator \
-    --validator-addr [ONE ADDRESS] --amount 100000 \
+    --validator-addr [ONE ADDRESS] --amount 10000 \
     --bls-pubkeys [BLS PUBLIC KEY1],[BLS PUBLIC KEY2] \
     --name JohnWhitton --identity JohnIdentity --details "John The Validator" \
     --security-contact John --website john@harmony.one \
     --max-change-rate 0.1 --max-rate 0.1 --rate 0.1 \
-    --max-total-delegation 100000000 --min-self-delegation 100000 --passphrase
+    --max-total-delegation 100000000 --min-self-delegation 10000 --passphrase
 ```
 
 13. Check that your ONE address exists as a validator.
