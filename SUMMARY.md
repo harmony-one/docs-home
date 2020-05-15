@@ -55,7 +55,6 @@
     * [Vultr](validators/cloud-guides/vultr.md)
     * [Digital Ocean](validators/cloud-guides/digital-ocean.md)
     * [Ankr](validators/cloud-guides/ankr.md)
-    * [Choosing A Cloud Provider](validators/cloud-guides/choosing-a-cloud-provider.md)
   * [First Time Setup](validators/first-time-setup/README.md)
     * [HMY CLI Download](validators/first-time-setup/hmy-cli-download-1.md)
     * [Generating A BLS Key](validators/first-time-setup/generating-a-bls-key.md)
