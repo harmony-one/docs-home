@@ -40,9 +40,9 @@ As a validator, for un-delegating from your own validator, `delegator-addr` and 
 
 ## When will I get my tokens back after un-delegating?
 
-When you decide to un-delegate your tokens from a validator, your tokens will be subjected to a cool-down period lasting **7 epochs**. You will receive your tokens back in your account balance on the 8th epoch after an un-delegation transaction. 
+When you decide to un-delegate your tokens from a validator, your tokens will be released at the end of the epoch from when you un-delegate.
 
-This means that you **will NOT have access to these tokens and can NOT transfer them** after choosing to un-delegate your tokens from a validator.
+This means that you **will NOT have access to these tokens and can NOT transfer them** after choosing to un-delegate your tokens from a validator until the tokens are in your account.
 
-If your validator didn't get elected in the last 7 epoch, there is no cool-down period and you will get the token back at the end of current epoch.
+If your validator didn't get elected in the last epoch, you will get the token back at the end of current epoch.
 

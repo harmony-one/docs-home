@@ -1,4 +1,4 @@
-# Create or import wallet
+# Create or Import Wallet
 
 {% hint style="info" %}
 When we mention the binary, we are referencing the `./hmy` binary from the [setup procedure](download-setup.md#1-for-linux-pure-statically-linked-binary).
@@ -18,7 +18,7 @@ Creation of a new account is done as a function of a generated `bip39` mnemonic 
 ./hmy keys add <account-name> [--passphrase]
 ```
 
-### Using the Shell Script:
+### Using the Shell Wrapper:
 
 ```bash
 ./hmy.sh -- keys add <account-name1> [--passphrase]
@@ -50,7 +50,7 @@ To know where your wallet file has been created, run the following command:
 ./hmy keys location
 ```
 
-#### Using the Shell Script:
+#### Using the Shell Wrapper:
 
 ```bash
 ./hmy.sh -- keys location
@@ -64,7 +64,7 @@ You can check the list of wallets \(local accounts\) with the following command:
 ./hmy keys list
 ```
 
-#### Using the Shell Script:
+#### Using the Shell Wrapper:
 
 ```bash
 ./hmy.sh -- keys list

@@ -1,4 +1,4 @@
-# Sending transactions
+# Sending Transactions
 
 Perhaps the most important feature of the `hmy` CLI is the ability to create and send signed transactions to the `Harmony` blockchain.
 
@@ -15,7 +15,7 @@ Perhaps the most important feature of the `hmy` CLI is the ability to create and
  --amount <amount> --chain-id <chain-id> --passphrase
 ```
 
-#### Using the Shell Script:
+#### Using the Shell Wrapper:
 
 ```bash
 ./hmy.sh -- transfer --node="<endpoint-address>" \
@@ -43,7 +43,7 @@ Check for finality of the transaction by using the transaction hash like so:
 ./hmy blockchain transaction-receipt <transaction_id> --node="<endpoint-address>"
 ```
 
-#### Using the Shell Script:
+#### Using the Shell Wrapper:
 
 ```bash
 ./hmy.sh -- blockchain transaction-receipt <transaction_id> --node="<endpoint-address>"
@@ -69,7 +69,7 @@ Let's first check what chain-ids are available for us to use, we can do that eas
 ./hmy blockchain known-chains
 ```
 
-#### Using the Shell Script:
+#### Using the Shell Wrapper:
 
 ```bash
 ./hmy.sh -- blockchain known-chains

@@ -4,10 +4,6 @@ description: 'To launch your Vultr instance, follow the steps below.'
 
 # Vultr
 
-{% hint style="success" %}
-For new users, check if you can get a promo link to register on Vultr. Usually Vultr offers free credits for the first month.
-{% endhint %}
-
 ## **Step 1: Launching Your Vultr Instance** <a id="step-1-launching-your-vultr-instance"></a>
 
 ### Logging into Vultr <a id="logging-into-vultr"></a>
@@ -119,7 +115,7 @@ sudo apt update && apt upgrade
 Now install the following packages that will be needed to run Harmony by typing:
 
 ```bash
-sudo apt install dnsutils && sudo apt install tmux
+sudo apt install dnsutils
 ```
 
 You will be asked to confirm if you would like to download and install these packages. Just press Y to confirm.

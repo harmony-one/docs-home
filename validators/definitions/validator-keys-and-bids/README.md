@@ -56,7 +56,3 @@ Below are some differences to using multiBLS vs. single-key instance:
 
 ![](../../../.gitbook/assets/image%20%2871%29.png)
 
-## 
-
-### 
-

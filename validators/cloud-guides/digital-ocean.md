@@ -75,7 +75,7 @@ sudo apt update && apt upgrade
 Now install the following packages that will be needed to run Harmony by typing:
 
 ```bash
-sudo apt install dnsutils && sudo apt install tmux
+sudo apt install dnsutils
 ```
 
 You will be asked to confirm if you would like to download and install these packages. Just press Y to confirm.

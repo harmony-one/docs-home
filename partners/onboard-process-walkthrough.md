@@ -4,8 +4,6 @@
 
 Here we will walkthrough the process of becoming a Harmony ONE trading partner.
 
-## Initial Decisions
-
 ## Preparation for Partner on-boarding
 
 * Installation of Harmony Software

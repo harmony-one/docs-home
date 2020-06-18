@@ -45,14 +45,10 @@ EOF
 
 Below is the command to sync the shard you want. Replace `<ShardID>`with the shard number you want to sync. Each of the rclone snapshot is around 1.7 Gb as of 05/14/2020. Shard 0 is around 1.8 Gb as of 5/14/2020. 
 
-It may take up to 10 minutes for the full sync depending on your network condition.
-
-You won't see anything on your Terminal screen after running Rclone but you'll know it's complete if you get the next line of prompt.
-
-After the sync, you may use `du -h harmony_db_*` command to check the size of the downloaded snapshots.
+It may take up to 10 minutes to download depending on your network connection.
 
 ```bash
-rclone sync mainnet:pub.harmony.one/mainnet.min/harmony_db_<ShardID> harmony_db_<ShardID>
+rclone -P sync mainnet:pub.harmony.one/mainnet.min/harmony_db_<ShardID> harmony_db_<ShardID>
 ```
 
 {% hint style="info" %}
@@ -66,29 +62,35 @@ Nodes in shard 1, 2, 3 need to sync both `harmony_db_0`, and `harmony_db_<ShardI
 #### shard0:
 
 ```bash
-rclone sync mainnet:pub.harmony.one/mainnet.min/harmony_db_0 harmony_db_0
+rclone -P sync mainnet:pub.harmony.one/mainnet.min/harmony_db_0 harmony_db_0
 ```
 
 #### shard1:
 
 ```bash
-rclone sync mainnet:pub.harmony.one/mainnet.min/harmony_db_0 harmony_db_0
-rclone sync mainnet:pub.harmony.one/mainnet.min/harmony_db_1 harmony_db_1
+rclone -P sync mainnet:pub.harmony.one/mainnet.min/harmony_db_0 harmony_db_0
+rclone -P sync mainnet:pub.harmony.one/mainnet.min/harmony_db_1 harmony_db_1
 ```
 
 #### shard2:
 
 ```bash
-rclone sync mainnet:pub.harmony.one/mainnet.min/harmony_db_0 harmony_db_0
-rclone sync mainnet:pub.harmony.one/mainnet.min/harmony_db_2 harmony_db_2
+rclone -P sync mainnet:pub.harmony.one/mainnet.min/harmony_db_0 harmony_db_0
+rclone -P sync mainnet:pub.harmony.one/mainnet.min/harmony_db_2 harmony_db_2
 ```
 
 #### shard3:
 
 ```bash
-rclone sync mainnet:pub.harmony.one/mainnet.min/harmony_db_0 harmony_db_0
-rclone sync mainnet:pub.harmony.one/mainnet.min/harmony_db_3 harmony_db_3
+rclone -P sync mainnet:pub.harmony.one/mainnet.min/harmony_db_0 harmony_db_0
+rclone -P sync mainnet:pub.harmony.one/mainnet.min/harmony_db_3 harmony_db_3
 ```
 
 After the sync, you may use `du -h harmony_db_*` command to check the size of the downloaded snapshots.
+
+{% hint style="info" %}
+`-P` will display a download progress & ETA.
+{% endhint %}
+
+
 

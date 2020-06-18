@@ -1,4 +1,4 @@
-# Other CLI references
+# Other CLI References
 
 ## Generate Markdown Documentation
 

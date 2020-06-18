@@ -1,4 +1,4 @@
-# Querying balances
+# Querying Balances
 
 Get JSON output of balances on all shards of a given ONE address with the `balances` subcommand:
 

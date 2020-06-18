@@ -117,7 +117,9 @@ Below is an index that shows you which wallets can allow to you import or export
       </td>
     </tr>
   </tbody>
-</table>**Trust Wallet**
+</table>
+
+**Trust Wallet**
 
 #### [How to Restore a Multi-Coin Wallet](https://community.trustwallet.com/t/how-to-restore-a-multi-coin-wallet/43)
 

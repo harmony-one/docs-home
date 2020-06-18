@@ -87,11 +87,11 @@ If you are upgrading your AutoNode from a previous version the installer might a
 
 > Note that `identity` must be unique or else your validator won't get created.
 
-> Save and exit the configuration by pressing **Ctrl + X** then **Y**, then by hitting **enter**.
-
 {% hint style="warning" %}
 Note that the ONE address has to be in quotes
 {% endhint %}
+
+> Save and exit the configuration by pressing **Ctrl + X** then **Y**, then by hitting **enter**.
 
 ### **Step 6: Fund your ONE address.**
 

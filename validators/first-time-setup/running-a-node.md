@@ -4,113 +4,28 @@ description: Using node.sh
 
 # Running a Node
 
-## Download node.sh
+{% hint style="warning" %}
+As per instructions on the [cloud guides](../cloud-guides/), the host needs to open up port **9000** for blockchain consensus messages and port **6000** for blockchain state syncing. Other ports are NOT necessary for syncing and should NOT be opened to the internet if you are staking only.
+{% endhint %}
 
-**1.** Run the following command to download the node.sh script:
+* 9000 port is used for blockchain consensus messages \(**base port**\)
+* 6000 port is used for blockchain state syncing \(base port - 3000\)
+* 9500 port is used for SDK RPC service \(base port + 500\)
+* 9800 port is used for Websocket service \(base port + 800\)
+
+The 9500, 9800 ports are only listened by localhost 127.0.0.1 by default. If it is required for the host to accept external links, the `-P` command line option can be specified in `node.sh` to listen to a public IP. Be careful opening these two ports to the internet!
+
+## Downloading node.sh
+
+Run the following command to download the node.sh script:
 
 ```bash
 curl -LO https://harmony.one/node.sh && chmod a+x node.sh
 ```
 
-## TMUX
+## Configuring the BLS keys
 
-Install [tmux](https://github.com/tmux/tmux/wiki) if your Linux distribution does not already come with it. 
-
-{% tabs %}
-{% tab title="Ubuntu LTS" %}
-```bash
-sudo apt-get install tmux
-```
-{% endtab %}
-
-{% tab title="Amazon Linux" %}
-```bash
-sudo yum install -y tmux
-```
-{% endtab %}
-{% endtabs %}
-
-## Run Node
-
-**1.** Create a new tmux session called "node".
-
-```bash
-tmux new-session -s node
-```
-
-{% hint style="info" %}
-You'll want to use a tmux session in order to leave your node running, while you are not connected to your instance.
-{% endhint %}
-
-{% hint style="danger" %}
-For any Debian based OS like Ubuntu and others, please install the package below in case you are NOT running statically linked binaries via parameter `-I`:
-
-```bash
-sudo apt-get install libgmp-dev
-```
-{% endhint %}
-
-**2.** Run the node.sh script with the following command. Once you do, it will ask for a passphrase for your BLS key file. Type your passphrase on the screen that follows and your node should be up and running.
-
-{% tabs %}
-{% tab title="Mainnet" %}
-```bash
-./node.sh -S -z -k [BLS KEY FILE].key
-```
-{% endtab %}
-{% endtabs %}
-
-{% hint style="info" %}
-Use `-S` to run node.sh as non root user. \(Recommended\)
-
-Use `-c` to automatically clear old data for a refreshed network.
-
-Use `-z` to run with staking enabled. \(Mandatory to setup validator nodes for open staking\)
-
-Use `-I` to run with the statically linked binary \(enabled by default already, may ignore\).
-
-Use `-N [NETWORK]` to specify which network to connect to \(default: mainnet\).
-
-Use `-k [BLS KEY FILE]` to specify which BLS key to run the node with.
-
-Use   -M  to run with multiBLS \(all keys should be in .hmy/blskeys\)
-
-
-
-For the complete list of parameters use `./node.sh --help`
-{% endhint %}
-
-{% hint style="danger" %}
-Only use `-c` for our testing networks. Do not use for Mainnet.
-{% endhint %}
-
-**3.** Detach your "node" tmux session by press \[**Ctrl\]+b**, releasing and and then press **d**. Detaching from your session will allow you to safely disconnect from your instance, while leaving your node running in the cloud.
-
-**4.** To check if your node is syncing properly, run the below command and check that the block height is greater than 0.
-
-```bash
-./hmy blockchain latest-headers
-```
-
-{% hint style="success" %}
-Harmony relies on a beacon shard chain \(aka shard 0\) to facilitate cross shard transaction. For the node to be fully working both your non shard 0 and shard 0 needs to be fully synced
-{% endhint %}
-
-**5.** Confirm that you are fully synced before continuing. Issue  the command in the format **./hmy --node= "\[SHARD\_RPC\_ENDPOINT\]" blockchain latest-headers**,  where  
-SHARD\_RCP\_ENDPOINT would be having that format : api.s\[Shard \#\].\[NETWORK\].hmny.io   
-ex :
-
-```bash
-./hmy --node="https://api.s0.t.hmny.io" blockchain latest-headers
-```
-
-**6.** And verity the blocks shown in step 4 and 5 are closed or equals to each other.
-
-## Multiple BLS Keys \(Optional and recommended for advanced users\)
-
-Optionally, you can run the node using multiple BLS keys if you want. 
-
-**1.** Keys are loaded from `.hmy/blskeys` folder which has to be created first:
+**1.** You need to manually create a folder called `.hmy/blskeys`:
 
 ```bash
 mkdir -p .hmy/blskeys
@@ -136,19 +51,190 @@ Make sure all your BLS keys belong to the same shard when using multiple BLS key
 For any `.key` if no passphrase file is available, it will use the default specified when running the node e.g., `./node.sh -p blspass.txt`
 {% endhint %}
 
-**4.** You can now run the node using parameter **-M** for multiple BLS keys. Parameter **-k** will not be used anymore as we are loading multiple BLS keys here:
+## Running Using Systemd
 
+{% hint style="success" %}
+This is the recommended way to run your node on production.
+{% endhint %}
+
+{% hint style="info" %}
+Execute all the following commands  using the `root` user. On this example, we will be installing the harmony daemon for user `harmony-user` on its home directory. Daemon will be configured with the `root` user but it will run with `harmony-user`at the end.
+{% endhint %}
+
+Create the `harmony.service` file:
+
+{% tabs %}
+{% tab title="Ubuntu LTS" %}
+```bash
+vi /etc/systemd/system/harmony.service
+```
+{% endtab %}
+{% endtabs %}
+
+Add the content below to the file and save it. Change `User` to the local user you will be running the daemon and also `WorkingDirectory` to the home directory where you downloaded `node.sh` previously. Parameter `ExecStart` needs to point to this same directory.
+
+{% tabs %}
+{% tab title="Ubuntu LTS" %}
+```bash
+[Unit]
+Description=Harmony daemon
+After=network-online.target
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=harmony-user
+WorkingDirectory=/home/harmony-user
+ExecStart=/home/harmony-user/node.sh -S -z -M
+SyslogIdentifier=harmony
+StandardOutput=file:/var/log/hmy.log
+StandardError=file:/var/log/hmy_error.log
+StartLimitInterval=0
+LimitNOFILE=65536
+LimitNPROC=65536
+
+[Install]
+WantedBy=multi-user.target
+```
+{% endtab %}
+{% endtabs %}
+
+Give the necessary permissions to run the daemon service, enable it and start it:
+
+```bash
+chmod 755 /etc/systemd/system/harmony.service
+systemctl enable harmony.service
+service harmony start
+```
+
+If you want to check if the daemon is running correctly you can use:
+
+```bash
+service harmony status
+```
+
+To stop the service use:
+
+```bash
+service harmony stop
+```
+
+You can skip the section below and check if your node is syncing correctly.
+
+## Running Using Tmux
+
+{% hint style="warning" %}
+Use this option only to run your node on testnets. For production, prefer [Systemd](running-a-node.md#running-using-systemd).
+{% endhint %}
+
+**1.** Install [tmux](https://github.com/tmux/tmux/wiki) if your Linux distribution does not already come with it. 
+
+{% tabs %}
+{% tab title="Ubuntu LTS" %}
+```bash
+sudo apt-get install tmux
+```
+{% endtab %}
+
+{% tab title="Amazon Linux" %}
+```
+sudo yum install -y tmux
+```
+{% endtab %}
+{% endtabs %}
+
+**2.** Create a new tmux session called "node".
+
+```bash
+tmux new-session -s node
+```
+
+{% hint style="info" %}
+You'll want to use a tmux session in order to leave your node running, while you are not connected to your instance.
+{% endhint %}
+
+**3.** Run the node.sh script with the following command. Once you do, it will ask for a passphrase for your BLS key file. Type your passphrase on the screen that follows and your node should be up and running.
+
+{% tabs %}
+{% tab title="Mainnet" %}
 ```bash
 ./node.sh -S -z -M
 ```
+{% endtab %}
 
-## Helpful Information
+{% tab title="Testnet" %}
+```
+./node.sh -S -z -N testnet -M
+```
+{% endtab %}
+{% endtabs %}
 
-To re-attach to your tmux session where your `node.sh` is running, use the following command:
+{% hint style="info" %}
+Use `-S` to run node.sh as non root user. \(Recommended\)
+
+Use `-z` to run with staking enabled. \(Mandatory to setup validator nodes for open staking\)
+
+Use `-I` to run with the statically linked binary \(enabled by default already, may ignore\).
+
+Use `-N [NETWORK]` to specify which network to connect to \(default: mainnet\).
+
+Use `-k [BLS KEY FILE]` to specify only one BLS key. This parameter replaces `-M`.
+
+Use`-M` to run with multiBLS \(all keys should be in `.hmy/blskeys`\)
+
+For the complete list of parameters use `./node.sh --help`
+{% endhint %}
+
+{% hint style="danger" %}
+Only use `-c` for our testing networks. Do not use for Mainnet.
+{% endhint %}
+
+**4.** Detach your "node" tmux session by press \[**Ctrl\]+b**, releasing and and then press **d**. Detaching from your session will allow you to safely disconnect from your instance, while leaving your node running in the cloud.
+
+**5.** To re-attach to your tmux session where your `node.sh` is running, use the following command:
 
 ```bash
 tmux attach-session -t node
 ```
 
 [TMUX Cheatsheet](https://gist.github.com/henrik/1967800)
+
+## Checking if the Node is Syncing
+
+**1.** To check if your node is syncing properly, run the below command and check that the block height is greater than 0.
+
+```bash
+./hmy blockchain latest-headers
+```
+
+{% hint style="success" %}
+Harmony relies on a beacon shard chain \(aka shard 0\) to facilitate cross shard transaction. For the node to be fully working both your non shard 0 and shard 0 needs to be fully synced.
+{% endhint %}
+
+**2.** Confirm that you are fully synced before continuing. Issue  the command in the format **./hmy --node= "\[SHARD\_RPC\_ENDPOINT\]" blockchain latest-headers**,  where  
+SHARD\_RCP\_ENDPOINT would be having that format : api.s\[Shard \#\].\[NETWORK\].hmny.io   
+ex :
+
+```bash
+./hmy --node="https://api.s0.t.hmny.io" blockchain latest-headers
+```
+
+{% hint style="success" %}
+For a complete reference of all available enpoints on both mainnet and testnet, please click [here](https://monitor.hmny.io/status). For examples, we will be using the shard 0 mainnet endpoint.
+{% endhint %}
+
+**3.** Verify the blocks shown on steps 1 and 2 are closed or equals to each other.
+
+## Non-validating Node
+
+{% hint style="info" %}
+Non-validating nodes will not sign blocks on blockchain, thus they cannot be used for staking. They can be used though by exchanges or wallet providers to broadcast transactions, query balances, fetch transaction data using RPC interfaces, etc.
+{% endhint %}
+
+Use parameter `-T` to define the node type and `-i` to define the shard you want your non-validating node to work. On the example below we will be running our non-validating node on shard 0:
+
+```text
+./node.sh -S -M -T explorer -i 0
+```
 

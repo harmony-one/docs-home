@@ -12,7 +12,11 @@ Harmony's native token ONE is supported on the following non-custodial wallets. 
 
 {% page-ref page="harmony-cli/" %}
 
+{% page-ref page="sprout.md" %}
+
 {% page-ref page="safepal/" %}
+
+{% page-ref page="wallet-management/" %}
 
 
 

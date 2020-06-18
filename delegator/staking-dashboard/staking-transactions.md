@@ -1,10 +1,6 @@
 # Staking Transactions
 
-## Delegate
-
-If the tokens are delegated to an elected validator, a portion of the block reward earned by the validator will be credited to the delegator
-
-#### Delegate transaction
+## Delegating to A Validador
 
 Check the validators page to see list of validators. Click on desired validator logo to direct to the Validator profile for more details.
 
@@ -28,13 +24,21 @@ Once transaction is signed, Delegate window will pop-up on the staking dashboard
 
 ![](../../.gitbook/assets/image%20%2814%29.png)
 
-## Undelegate
+## Delegating to Multiple Validators
 
-If a delegator decides to stop delegating to a validator, he or she can choose to undelegate their tokens from the validator. After undelegation is initiated from a currently elected validator, the tokens will be locked for 7 [epochs](https://docs.harmony.one/home/validators/definitions/epoch-transition) \(10.5 days\) before being credited to the delegator’s account balance. Note that the unlocking of the undelegated tokens only happens at the end of every epoch. Locked tokens are still slashable if the validator double signs.
+Check the validators page to see list of validators. Selected the validators you want to delegate to using the checkbox as shown by the image below, then click on "Delegate":
 
-For undelegating from a non-elected validator, the token will be unlocked 7 epochs after the validator was last elected. For example, if you are undelegating from a validator who was last elected 3 epochs ago, your token will be locked for 4 epochs after the undelegation starts. This leads to a convenient result that if you undelegate from a validator who is never elected before, you can have your token returned in the current epoch.
+![](../../.gitbook/assets/multiple_delegations.png)
 
-#### Undelegate transaction
+Now, on the new window, input the total amount you want to split between the validators you selected previously. On this example, we are delegating a total amount of 4000 ONE's which will be split equality between all the validators we selected. Each one of them will receive 1000 ONE's. You can split any amount you want, as long as the minimum amount per validator is 1000 ONE's.
+
+![](../../.gitbook/assets/multiple_delegations_amounts.png)
+
+Click on "Next" to confirm the delegations.
+
+## Undelegating
+
+If a delegator decides to stop delegating to a validator, he or she can choose to undelegate their tokens from the validator. After undelegation transaction is submitted, the undelegated tokens will be locked until the end of the current epoch. Note that the unlocked tokens can be used for a new delegation transaction only starting from next epoch. This means the same token can only possibly generate rewards for you starting from the epoch after next epoch.
 
 Click the "Undelegate" button on validator profile.
 
@@ -46,11 +50,9 @@ This transaction will display on the Pending Undelegations section on the Portfo
 
 ![](../../.gitbook/assets/image%20%28115%29.png)
 
-## Claim rewards
+## Claiming Rewards
 
 The earned block rewards are stored in a separate reward balance of the delegator, which can be immediately withdrawn to the delegator’s account balance. The block rewards can also be staked again to achieve the compounding effect of staking. You can only claim full rewards, not partially.
-
-#### Claim Rewards transaction
 
 Click on Claim Rewards button.
 
@@ -58,5 +60,5 @@ Click on Claim Rewards button.
 
 ![](../../.gitbook/assets/image%20%288%29.png)
 
-Signing process same as Delegate transactions.
+Click on "Next" to sign the transaction.
 

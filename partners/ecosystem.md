@@ -78,7 +78,7 @@ Secure ONE Tokens In 6 Wallets
 
 ## Stakers
 
-Delegate ONE Tokens To 16 Pools
+Delegate ONE Tokens To 18 Pools
 
 ![](../.gitbook/assets/image%20%28141%29.png)
 
@@ -107,8 +107,8 @@ Delegate ONE Tokens To 16 Pools
 {% embed url="https://chainode.tech/" %}
 {% endtab %}
 
-{% tab title="Wetez" %}
-{% embed url="https://www.wetez.io/" %}
+{% tab title="FreshONEs" %}
+{% embed url="https://freshones.net/" %}
 {% endtab %}
 {% endtabs %}
 
@@ -134,11 +134,11 @@ Delegate ONE Tokens To 16 Pools
 {% endtab %}
 
 {% tab title="Staking Team" %}
-{% embed url="https://www.stakingrewards.com/provider/staking-team" %}
+{% embed url="https://stakingteam.com" %}
 {% endtab %}
 
 {% tab title="SesameSeed" %}
-{% embed url="https://sprout.sesameseed.org/" %}
+{% embed url="https://www.sesameseed.org/" %}
 {% endtab %}
 {% endtabs %}
 
@@ -153,6 +153,14 @@ Delegate ONE Tokens To 16 Pools
 
 {% tab title="JetStake" %}
 {% embed url="https://dev.jetstake.com/" %}
+{% endtab %}
+
+{% tab title="Wetez" %}
+{% embed url="https://www.wetez.io/" %}
+{% endtab %}
+
+{% tab title="KysenPool" %}
+{% embed url="https://kysenpool.io/" %}
 {% endtab %}
 {% endtabs %}
 
@@ -237,10 +245,6 @@ Backed By 17 Global Investors
 {% embed url="https://coinfund.io/" %}
 {% endtab %}
 
-{% tab title="Consensus Capital " %}
-{% embed url="http://consensuscapital.ca/" %}
-{% endtab %}
-
 {% tab title="Continue Capital" %}
 {% embed url="https://continue.capital/" %}
 {% endtab %}
@@ -275,4 +279,6 @@ Backed By 17 Global Investors
 {% embed url="https://www.crunchbase.com/organization/hayek-capital" %}
 {% endtab %}
 {% endtabs %}
+
+ 
 

@@ -28,7 +28,7 @@ Since there is no shard selection in the Trust Wallet UI, all transactions will 
 
 You will need to export the account in which you received the funds and import it to another wallet such as the CLI or Math Wallet.
 
-**Example Using Trust Wallet:**
+**Example Using Math Wallet:**
 
 1. Open Trust Wallet app 
 2. Click on "Settings" on the bottom right

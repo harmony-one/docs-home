@@ -19,7 +19,7 @@ description: >-
 | Chains | URLs |
 | :--- | :--- |
 | mainnet | [https://api.s0.t.hmny.io](https://api.s0.t.hmny.io) |
-| testnet | [https://api.s0.b.hmny.io](https://api.s0.pga.hmny.io) |
+| testnet | [https://api.s0.b.hmny.io](https://api.s0.b.hmny.io) |
 | localnet | [http://localhost:9500](http://localhost:9500) |
 
 Web sockets can also be used

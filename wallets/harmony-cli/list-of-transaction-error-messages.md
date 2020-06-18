@@ -1,18 +1,26 @@
-# List of transaction error messages
+# List of Transaction Error Messages
 
 Here is the list of failed transaction messages which can be checked by querying your transaction hash, checking the transaction hash on explorer or checking the blockchain pool transactions.
 
 Here is how with the hmy cli :
 
+{% tabs %}
+{% tab title="Linux" %}
 ```bash
 ./hmy failures plain --node="https://api.s0.t.hmny.io"
 ```
+{% endtab %}
+
+{% tab title="MacOS" %}
+```bash
+./hmy.sh -- failures plain --node="https://api.s0.t.hmny.io"
+```
+{% endtab %}
+{% endtabs %}
 
 {% hint style="info" %}
-failed messages are network and shard specifics, please use the shard you were sending the transaction from and change the --node value accordingly
-
-Example above is for shard 1 in the test network.  
-Mainnet example on shard 0 would be : [https://api.s0.t.hmny.io](https://api.s0.t.hmny.io)
+failed messages are network and shard specifics, please use the shard you were sending the transaction from and change the --node value accordingly.  
+Mainnet example on shard 1 would be : https://api.s1.t.hmny.io
 {% endhint %}
 
 | **Message** | **Notes** |

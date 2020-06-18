@@ -2,7 +2,7 @@
 description: The Harmony CLI tool is used to interact with the Harmony blockchain.
 ---
 
-# Download & setup
+# Download & Setup
 
 {% hint style="info" %}
 Throughout this guide, we will use the following syntax:

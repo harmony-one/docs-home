@@ -16,7 +16,7 @@ After you login, there are several option available, for example you can check a
 
 For each transation/delegation you will need to confirm it, for that you can use several ways, using Harmony Browser Extension or ledger nano S.
 
-**Harmony Browser Extension :** [https://docs.harmony.one/home/basics/overview/installation](https://docs.harmony.one/home/basics/overview/installation)
+**Harmony Browser Extension:** [https://docs.harmony.one/home/wallets/chrome-extension](https://docs.harmony.one/home/wallets/chrome-extension)
 
 **Wallets:** [https://docs.harmony.one/home/basics/overview](https://docs.harmony.one/home/basics/overview)
 

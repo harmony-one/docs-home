@@ -13,7 +13,7 @@ description: >-
 
 2. Run the app and install the SSH for the program by typing:
 
-```text
+```bash
 pkg install openssh
 ```
 
@@ -21,7 +21,7 @@ pkg install openssh
 
 4. Connect your instance by using the Termux app and use the following command:
 
-```text
+```bash
 ssh root@<INSTANCEIPADDRESS>
 ```
 
@@ -29,30 +29,26 @@ ssh root@<INSTANCEIPADDRESS>
 
 6. Before doing anything, update your system by using the command:
 
-```text
+```bash
 sudo apt update && apt upgrade
 ```
 
 7. Install the following packages that will be needed to run the Harmony:
 
-```text
+```bash
 sudo apt update && apt upgrade
 ```
 
 8. Download Harmony CLI to interact with your node:
 
-{% tabs %}
-{% tab title="Linux Download" %}
-```text
+```bash
 curl -LO https://harmony.one/hmycli && mv hmycli hmy && chmod +x hmy
 ```
-{% endtab %}
-{% endtabs %}
 
 9. Run ./hmy cookbook to see some commonly commands that will help you:
 
-```text
-./hmy --node=https://api.s0.t.hmny.io cookbook
+```bash
+./hmy --node="https://api.s0.t.hmny.io" cookbook
 ```
 
 10. Create a new BLS key in order to run your validating node. When generating a BLS key, the CLI will ask you to provide a passphrase to encrypt the BLS key file.‌ To generate the BLS key file type the following command:
@@ -67,7 +63,7 @@ curl -LO https://harmony.one/hmycli && mv hmycli hmy && chmod +x hmy
 
 11. Check which shard your key will validate by using the command:
 
-```text
+```bash
 ./hmy --node="https://api.s0.t.hmny.io" utility shard-for-bls [BLS PUBLIC KEY]
 ```
 
@@ -77,33 +73,33 @@ curl -LO https://harmony.one/hmycli && mv hmycli hmy && chmod +x hmy
 
 12. Download the node.sh by running the command:
 
-```text
+```bash
 curl -LO https://raw.githubusercontent.com/harmony-one/harmony/master/scripts/node.sh && chmod a+x node.sh
 ```
 
-13. Install tmux
+13. Install tmux:
 
-```text
+```bash
 sudo yum install tmux
 ```
 
 14. Create a new tmux session called "node" by using the command:
 
-```text
+```bash
 tmux new-session -s node
 ```
 
 15. Run the node.sh script with the following command. Once you do, it will ask for a passphrase for your BLS key file. Type your passphrase on the screen that follows and your node should be up and running.
 
-```text
-./node.sh -S -c -z -I -N staking -k [BLS KEY FILE].key
+```bash
+./node.sh -S -z -k [BLS KEY FILE].key
 ```
 
 16. Detach your "node" tmux session by press \[Ctrl\]+b, releasing and and then press d.
 
 17. Create a new wallet and provide your local account name by using the command:
 
-```text
+```bash
 ./hmy keys add mylocalaccountname --passphrase 
 ```
 
@@ -113,7 +109,7 @@ Remember your passphrase. You will need it to decrypt the account keystore in or
 
 18. You can check the account balance:
 
-```text
+```bash
 ./hmy balances [ONE ADDRESS]
 ```
 
@@ -121,8 +117,8 @@ Remember your passphrase. You will need it to decrypt the account keystore in or
 
 20. Creating a validator by replacing everything in \[ \] with your own data. 
 
-```text
-./hmy --node=https://api.s0.t.hmny.io staking create-validator \
+```bash
+./hmy --node="https://api.s0.t.hmny.io" staking create-validator \
 --validator-addr [ONE ADDRESS] --amount 10000 \
 --bls-pubkeys [BLS PUBLIC KEY1],[BLS PUBLIC KEY2] \
 --name "[NAME]" --identity "[IDENTITY]" --details "DETAILS" \
@@ -133,7 +129,7 @@ Remember your passphrase. You will need it to decrypt the account keystore in or
 
 21. Check your validator information by using the command below:
 
-```text
+```bash
 ./hmy --node="https://api.s0.t.hmny.io" blockchain validator information [ONE ADDRESS]
 ```
 

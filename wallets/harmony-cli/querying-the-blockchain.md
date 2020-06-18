@@ -1,4 +1,4 @@
-# Querying the blockchain
+# Querying the Blockchain
 
 `hmy` provides several subcommands under the `blockchain` subcommand which let you query the blockchain.
 
