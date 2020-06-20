@@ -28,7 +28,7 @@ You can find which shard a public BLS key belongs to with the following command:
 auto-node bls-shard 9024162cfebaaafcbd097156b67c9f33b8e57dd2aecde3cae55524692c9e0d60467ead669ede298a9aa8a51a1a30f787
 ```
 
-### Cleanse BLS Key\(s\) from Validator
+### Cleanse BLS key\(s\) from Validator
 
 You can remove BLS key\(s\) from a Validator if a BLS key has not signed any blocks in the current epoch. Do so with the following command:
 
