@@ -1,5 +1,5 @@
 ---
-description: Get your ONEs
+description: Get your ONEs for validating!
 ---
 
 # Collect Rewards

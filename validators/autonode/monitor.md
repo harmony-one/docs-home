@@ -1,5 +1,5 @@
 ---
-description: Track your node's status with AutoNode
+description: Track your node's status with AutoNode.
 ---
 
 # Monitor

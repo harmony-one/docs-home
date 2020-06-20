@@ -1,5 +1,5 @@
 ---
-description: Manage and re-use your BLS keys
+description: Manage and re-use your BLS keys.
 ---
 
 # BLS key management
