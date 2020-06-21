@@ -25,5 +25,5 @@ While commands here do work and will probably not change, the default network is
 
 ## Contribute!
 
-Want to add a feature to AutoNode? Feel free to contribute to the Open Sourced repo [here](https://github.com/harmony-one/auto-node)!
+Want to add a feature to AutoNode? Feel free to contribute to the open-sourced repo [here](https://github.com/harmony-one/auto-node)!
 
