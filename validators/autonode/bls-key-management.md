@@ -1,12 +1,12 @@
 ---
-description: Manage and re-use your BLS keys.
+description: Manage & re-use your BLS keys.
 ---
 
 # BLS key management
 
 ### BLS key\(s\) location
 
-You can find the path to your BLS keys directory with the following command:
+You can find the path to your BLS keys directory \(used by the harmony node\) with the following command:
 
 ```bash
 python3 -c "from AutoNode import common; print(common.bls_key_dir)"

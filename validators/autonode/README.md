@@ -22,7 +22,6 @@ Documentation is also being finalized
 * \*\*\*\*[**BLS key management**](https://docs.harmony.one/home/validators/autonode/bls-key-management)\*\*\*\*
 * \*\*\*\*[**Collect Rewards**](https://docs.harmony.one/home/validators/autonode/collect-rewards)\*\*\*\*
 * **Maintenance**
-* **Run an explorer node**
 * **Troubleshoot**
 * **Code**
 

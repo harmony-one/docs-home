@@ -89,6 +89,8 @@
     * [Monitor](validators/autonode/monitor.md)
     * [BLS key management](validators/autonode/bls-key-management.md)
     * [Collect Rewards](validators/autonode/collect-rewards.md)
+    * [Maintenance](validators/autonode/maintenance.md)
+    * [Troubleshoot](validators/autonode/troubleshoot.md)
   * [Smartphone Node Setup](validators/smartphone-node-setup.md)
 * [Developers](developers/README.md)
   * [Which ONE are you?](developers/which-one-are-you.md)

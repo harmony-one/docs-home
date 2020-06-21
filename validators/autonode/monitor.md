@@ -5,7 +5,7 @@ description: Track your node's status with AutoNode.
 # Monitor
 
 {% hint style="success" %}
-If any of the commands activates a monitoring screen,  you can always exit using **Ctrl**+**Z**.
+If any of the commands activates a monitoring screen,  you can always exit using `Ctrl+C`.
 {% endhint %}
 
 ### **1\) Harmony Monitor**

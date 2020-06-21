@@ -26,6 +26,8 @@ Note the `shard 0` balance, this is where the rewards get deposited.
 Next, transfer the funds to your 'main' wallet with the following command:
 
 ```bash
-auto-node balances
+validator_addr=$(auto-node config | jq '.["validator-addr"]' -r)
+auto-node hmy transfer -n https://api.s0.t.hmny.io/ --from-shard 0 --to-shard 0 \
+    --from $validator_addr --to <main-wallet-address> --amount <amount>
 ```
 

@@ -31,7 +31,7 @@ su - <your username>
 ### **Step 3:** Install AutoNode.
 
 ```bash
-install_file_source="https://raw.githubusercontent.com/harmony-one/auto-node/mainnet-pt2/scripts/first-install.sh"
+install_file_source="https://raw.githubusercontent.com/harmony-one/auto-node/master/scripts/first-install.sh"
 tmp_install_file="/tmp/autonode-first-install.sh"
 curl -o "$tmp_install_file" "$install_file_source" && bash "$tmp_install_file" && rm -f "$tmp_install_file"
 ```
@@ -97,6 +97,12 @@ auto-node run --clean --fast-sync
 ```
 
 > If you are curious, `--clean` is the option to ensure old node files are removed \(if present\). The `--fast-sync`option will [rclone](https://rclone.org/) the correct Harmony DB to reduce sync time. One can choose to sync from scratch by removing the `--fast-sync` option.
+
+If you wish to expose [RPC](https://en.wikipedia.org/wiki/Remote_procedure_call) for your node for endpoint functionality, you can run your node with the following command:
+
+```text
+auto-node run --clean --fast-sync --expose-rpc
+```
 
 {% hint style="info" %}
 Make sure to **respond** to the **prompts**. If you are unable to create a validator \(but started your node\) don't worry! Follow the next step on how to create your validator.
