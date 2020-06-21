@@ -12,7 +12,7 @@ AutoNode will quickly check for an update on each execution of the `auto-node` c
 
 ## Updating AutoNode
 
-{% hint style="danger" %}
+{% hint style="warning" %}
 You will need to briefly stop your node to execute an update. Updates should be fast.
 {% endhint %}
 
