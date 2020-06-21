@@ -4,6 +4,10 @@ description: Manage & re-use your BLS keys.
 
 # BLS key management
 
+{% hint style="danger" %}
+Currently, _all_ BLS keys **MUST** have the same passphrase. A feature to improve this is in the works.
+{% endhint %}
+
 ### BLS key\(s\) location
 
 You can find the path to your BLS keys directory \(used by the harmony node\) with the following command:
