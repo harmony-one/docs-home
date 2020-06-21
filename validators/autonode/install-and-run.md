@@ -98,7 +98,7 @@ auto-node run --clean --fast-sync
 
 > If you are curious, `--clean` is the option to ensure old node files are removed \(if present\). The `--fast-sync`option will [rclone](https://rclone.org/) the correct Harmony DB to reduce sync time. One can choose to sync from scratch by removing the `--fast-sync` option.
 
-If you wish to expose [RPC](https://en.wikipedia.org/wiki/Remote_procedure_call) for your node for endpoint functionality, you can run your node with the following command:
+If you wish to expose [RPC](https://en.wikipedia.org/wiki/Remote_procedure_call) for your node to enable endpoint functionality, you can run your node with the following command:
 
 ```text
 auto-node run --clean --fast-sync --expose-rpc
