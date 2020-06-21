@@ -4,7 +4,7 @@ description: Run the latest AutoNode!
 
 # Update
 
-## Checking for updates
+## Checking for AutoNode updates
 
 AutoNode will quickly check for an update on each execution of the AutoNode command. If there is an update you will see the following message:
 
