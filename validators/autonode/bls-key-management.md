@@ -25,7 +25,7 @@ This assumes AutoNode has been initialized.
 You can find which shard a public BLS key belongs to with the following command:
 
 ```bash
-auto-node bls-shard 9024162cfebaaafcbd097156b67c9f33b8e57dd2aecde3cae55524692c9e0d60467ead669ede298a9aa8a51a1a30f787
+auto-node bls-shard <public-bls-key>
 ```
 
 ### Cleanse BLS key\(s\) from Validator
@@ -53,6 +53,6 @@ auto-node cleanse-bls --hard
 You can remove an explicit BLS key from your validator with the following command:
 
 ```bash
-auto-node remove-bls <pub-bls-key>
+auto-node remove-bls <public-bls-key>
 ```
 
