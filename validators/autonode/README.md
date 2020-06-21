@@ -19,9 +19,9 @@ While commands here do work and will probably not change, the default network is
 * \*\*\*\*[**Monitor**](https://docs.harmony.one/home/validators/autonode/monitor)\*\*\*\*
 * \*\*\*\*[**BLS key management**](https://docs.harmony.one/home/validators/autonode/bls-key-management)\*\*\*\*
 * \*\*\*\*[**Collect Rewards**](https://docs.harmony.one/home/validators/autonode/collect-rewards)\*\*\*\*
-* **Maintenance**
-* **Troubleshoot**
-* **Extra**
+* \*\*\*\*[**Maintenance**](https://docs.harmony.one/home/validators/autonode/maintenance)\*\*\*\*
+* \*\*\*\*[**Troubleshoot**](https://docs.harmony.one/home/validators/autonode/troubleshoot)\*\*\*\*
+* \*\*\*\*[**Extra**](https://docs.harmony.one/home/validators/autonode/extra)\*\*\*\*
 
 ## Contribute!
 
