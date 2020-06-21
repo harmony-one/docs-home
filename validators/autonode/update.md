@@ -53,7 +53,7 @@ auto-node run
 
 ## Updating `hmy` CLI
 
-For your convenience, AutoNode wraps the `hmy`[CLI. ](https://docs.harmony.one/home/wallets/harmony-cli)You can update it with the following command:
+For your convenience, AutoNode wraps the `hmy` [CLI. ](https://docs.harmony.one/home/wallets/harmony-cli)You can update it with the following command:
 
 ```text
 auto-node hmy-update
