@@ -10,24 +10,6 @@ description: Quick start to running a Harmony Validator.
 
 ### **Step 2:** SSH into the machine.
 
-### Step 2.5: \(Optional\) Create a user for AutoNode
-
-You can choose any username you want. It will ask for a password and a password confirmation. We will also add this user to the `sudo` group. Please keep track of this password for future use!
-
-```text
-sudo useradd -m <your username>
-sudo passwd <your username>
-sudo adduser <your username> sudo
-```
-
-Now login with the new username you just created.
-
-```text
-su - <your username>
-```
-
-> Note that everytime you SSH into your machine, you can swap to your user with the command above.
-
 ### **Step 3:** Install AutoNode.
 
 ```bash
