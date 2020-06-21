@@ -29,7 +29,7 @@ You will need to have access to `systemd` in user mode. This may require upgradi
 You can reload your shell by exiting your SSH session and SSH-ing back into the machine, or you can execute the following command:
 
 ```bash
-export export PATH=$PATH:~/bin
+export PATH=$PATH:~/bin
 ```
 
 > This step is only needed if the command: `auto-node` does not work.
