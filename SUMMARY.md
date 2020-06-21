@@ -84,6 +84,7 @@
       * [Outages](validators/extras/status/outages/README.md)
         * [Post-Mortem: OSTN Rolling Upgrade failure Mar 21, 2020](validators/extras/status/outages/post-mortem-ostn-rolling-upgrade-failure-mar-21-2020.md)
   * [AutoNode](validators/autonode/README.md)
+    * [Extra](validators/autonode/extra.md)
     * [Install & Run](validators/autonode/install-and-run.md)
     * [Update](validators/autonode/update.md)
     * [Monitor](validators/autonode/monitor.md)

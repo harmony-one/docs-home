@@ -106,7 +106,7 @@ systemctl --user disable autonoded@node.service
 systemctl --user disable autonoded@monitor.service
 rm -rf ~/.hmy
 rm -rf ~/harmony_node
-rm -rf ~/harmony_wallet_passphrase
+rm -rf ~/harmony_wallet_pass
 rm -f ~/harmony_validator_config.json
 rm -f ~/bin/auto-node
 rm -f ~/bin/autonode-service.py
