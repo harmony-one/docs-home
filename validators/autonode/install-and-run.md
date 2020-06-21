@@ -112,9 +112,9 @@ Make sure to **respond** to the **prompts**. If you are unable to create a valid
 One the monitor has started and you see repeated prints of the node information & headers, you can exit with `ctrl+C.`From here, you are free to do whatever on the machine, or you can exit the machine. Your Harmony node will keep running!
 {% endhint %}
 
-### **Step 5.5: \(Optional\) Create your validator after the initial Run.**
+### **Step 5.5: \(Optional\) Create your validator after the initial run.**
 
-You can go through the create validator logic by executing the following command:
+You can go through the create validator flow again by executing the following command:
 
 ```text
 auto-node create-validator
