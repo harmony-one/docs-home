@@ -26,6 +26,24 @@ vim $HOME/harmony_node/latest/zero*.log
 
 > You can change the `vim` part of the command for your favorite text editor.
 
+## Fixing Signing Issues
+
+Sometimes the Harmony Node may have some signing issues. In this case, we have found it best to just restart the Node. You can do so by first killing AutoNode:
+
+```bash
+auto-node kill
+```
+
+Then restarting AutoNode with whatever your initial run command was. For example, one could run it with:
+
+```bash
+auto-node run --expose-rpc
+```
+
+{% hint style="warning" %}
+**DO NOT** re-run with the `--clean` or `--fast-sync` options as they will most likely _regress_ your block height to the last snapshotted DB.
+{% endhint %}
+
 ## Restart the Harmony Node
 
 You can restart the Harmony Node service with the following command:
