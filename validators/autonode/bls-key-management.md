@@ -12,6 +12,8 @@ You can find the path to your BLS keys directory with the following command:
 python3 -c "from AutoNode import common; print(common.bls_key_dir)"
 ```
 
+> By default, this should be `~/.hmy/blskeys`
+
 {% hint style="warning" %}
 Any BLS key **present** in that directory will be attempted to be used when launching the node. This means that all BLS keys in the said directory **need** to be for the **same** **shard**. Moreover, any `.pass`files will also be attempted to be used when launching a node
 {% endhint %}

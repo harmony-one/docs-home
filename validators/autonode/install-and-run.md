@@ -10,7 +10,7 @@ description: Quick start to running a Harmony Validator.
 
 ### **Step 2:** SSH into the machine.
 
-### \(Optional\) Step 2.5: Create a user for AutoNode
+### Step 2.5: \(Optional\) Create a user for AutoNode
 
 You can choose any username you want. It will ask for a password and a password confirmation. We will also add this user to the `sudo` group. Please keep track of this password for future use!
 
@@ -42,7 +42,7 @@ curl -o "$tmp_install_file" "$install_file_source" && bash "$tmp_install_file" &
 You will need to have access to `systemd` in user mode. This may require upgrading `systemd` or choosing another Operating System from your cloud provider. Ubuntu 18+ is known to work. 
 {% endhint %}
 
-### \(Optional\) Step 3.5: Update your shell.
+### Step 3.5: \(Optional\) Update your shell.
 
 You can reload your shell by exiting your SSH session and SSH-ing back into the machine, or you can execute the following command:
 
@@ -106,7 +106,7 @@ Make sure to **respond** to the **prompts**. If you are unable to create a valid
 One the monitor has started and you see repeated prints of the node information & headers, you can exit with `ctrl+C.`From here, you are free to do whatever on the machine, or you can exit the machine. Your Harmony node will keep running!
 {% endhint %}
 
-### **\(Optional\) Step 5.5: Create your validator after the initial Run.**
+### **Step 5.5: \(Optional\) Create your validator after the initial Run.**
 
 You can go through the create validator logic by executing the following command:
 
