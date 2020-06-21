@@ -30,24 +30,29 @@ auto-node bls-shard 9024162cfebaaafcbd097156b67c9f33b8e57dd2aecde3cae55524692c9e
 
 ### Cleanse BLS key\(s\) from Validator
 
-You can remove BLS key\(s\) from a Validator if a BLS key has not signed any blocks in the current epoch. Do so with the following command:
+You can automatically cleanse your validator of BLS key\(s\) that have not signed any blocks in the current epoch with the following command:
 
 ```bash
 auto-node cleanse-bls
 ```
 
-You can remove all BLS keys that are not for the current Nodes with the following command:
+You can cleanse all BLS key\(s\) that are not on the same shard as the BLS key\(s\) used by the current harmony node's shard with the following command:
 
 ```bash
 auto-node cleanse-bls --keep-shard
 ```
 
-You can also remove BLS key\(s\) from a validator if they are not being used by the node program. Do so with the following command:
+You can also cleanse the BLS key\(s\) that are not being used by the current harmony node with the following command:
 
 ```bash
 auto-node cleanse-bls --hard
 ```
 
-  
+### Remove BLS key from Validator
 
+You can remove an explicit BLS key from your validator with the following command:
+
+```bash
+auto-node remove-bls <pub-bls-key>
+```
 
