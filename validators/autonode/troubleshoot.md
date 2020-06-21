@@ -94,7 +94,25 @@ If you want to revert the optimization/tune applied by AutoNode, you can do so b
 auto-node tune restore
 ```
 
-> Note that you can run the command muliple times to restore previous tunes chronologically. Moveover, the
+> Note that you can run the command muliple times to restore previous tunes chronologically. Moveover, the restored tunes will be displayed and a confirmation will be asked before applying the restoreation.
+
+## Fresh Install
+
+First, remove all of the AutoNode files. You can do so with the following command:
+
+```bash
+auto-node kill
+systemctl --user disable autonoded@node.service
+systemctl --user disable autonoded@monitor.service
+rm -rf ~/.hmy
+rm -rf ~/harmony_node
+rm -rf ~/harmony_wallet_passphrase
+rm -f ~/harmony_validator_config.json
+rm -f ~/bin/auto-node
+rm -f ~/bin/autonode-service.py
+```
+
+After, you can re-install AutoNode from fresh using the steps in the Install & Run section.
 
 
 
