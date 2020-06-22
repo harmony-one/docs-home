@@ -52,7 +52,7 @@ auto-node kill
 auto-node run <params>
 ```
 
-> Substitute `<params>` with whatever run params you want to use
+> Substitute `<params>` with whatever run params you want to use.
 
 ## Fixing Signing Issues
 
