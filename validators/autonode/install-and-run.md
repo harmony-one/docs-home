@@ -65,7 +65,7 @@ export DBUS_SESSION_BUS_ADDRESS="unix:path=${XDG_RUNTIME_DIR}/bus"
 
 ```bash
 install_file_source="https://raw.githubusercontent.com/harmony-one/auto-node/master/scripts/first-install.sh"
-tmp_install_file="/tmp/autonode-first-install.sh"
+tmp_install_file="/tmp/autonode-first-install.$(date +'%s').sh"
 curl -o "$tmp_install_file" "$install_file_source" && bash "$tmp_install_file" && rm -f "$tmp_install_file"
 ```
 
@@ -139,6 +139,12 @@ If you wish to expose [RPC](https://en.wikipedia.org/wiki/Remote_procedure_call)
 auto-node run --clean --fast-sync --expose-rpc
 ```
 
+If you wish to run a node for a specific shard, use the `--shard` option. For example, if you want to run a node for shard 1 your run command may look something like this:
+
+```text
+auto-node run --clean --fast-sync --expose-rpc --shard 1
+```
+
 {% hint style="info" %}
 Make sure to **respond** to the **prompts**. If you are unable to create a validator \(but started your node\) don't worry! Follow the next step on how to create your validator.
 {% endhint %}
@@ -154,4 +160,6 @@ You can go through the create validator flow again by executing the following co
 ```text
 auto-node create-validator
 ```
+
+> Note that this can only be done if you failed to create a validator on the inital run of auto-node
 
