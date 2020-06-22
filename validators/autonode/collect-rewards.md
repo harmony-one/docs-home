@@ -31,3 +31,8 @@ auto-node hmy transfer -n https://api.s0.t.hmny.io/ --from-shard 0 --to-shard 0 
     --from $validator_addr --to <main-wallet-address> --amount <amount>
 ```
 
+> Substitute `<main-wallet-address>` with the ONE address of your main wallet.  
+> Substitute `<amount>` with how much you want to transfer from your validator wallet.
+
+
+
