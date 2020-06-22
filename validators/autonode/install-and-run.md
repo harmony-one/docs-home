@@ -139,6 +139,12 @@ If you wish to expose [RPC](https://en.wikipedia.org/wiki/Remote_procedure_call)
 auto-node run --clean --fast-sync --expose-rpc
 ```
 
+If you wish to run a node for a specific shard, use the `--shard` option. For example, if you want to run a node for shard 1 your run command may look something like this:
+
+```text
+auto-node run --clean --fast-sync --expose-rpc --shard 1
+```
+
 {% hint style="info" %}
 Make sure to **respond** to the **prompts**. If you are unable to create a validator \(but started your node\) don't worry! Follow the next step on how to create your validator.
 {% endhint %}
