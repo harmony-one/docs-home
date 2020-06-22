@@ -161,3 +161,5 @@ You can go through the create validator flow again by executing the following co
 auto-node create-validator
 ```
 
+> Note that this can only be done if you failed to create a validator on the inital run of auto-node
+
