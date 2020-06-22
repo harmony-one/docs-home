@@ -28,7 +28,7 @@ vim $HOME/harmony_node/latest/zero*.log
 
 ## Node failed to start
 
-A symptom of this is seeing an error to connect to http://localhost:9500/.   
+A symptom of this is seeing an error to connect to `http://localhost:9500/`.   
 You can inspect what went wrong with the following command:
 
 ```bash
