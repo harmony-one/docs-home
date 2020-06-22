@@ -10,6 +10,55 @@ description: Quick start to running a Harmony Validator.
 
 ### **Step 2:** SSH into the machine.
 
+### Step 2.5: \(Optional\) Create a new user
+
+You can choose any `<new-user-name>` you want. The command below will ask for a passphrase for the user, choose one and keep track of this password for future use! The command below will also add the user to the sudo group for convenience. 
+
+```bash
+new_user_name=<new-user-name>
+sudo adduser $new_user_name
+```
+
+Answer the prompts, then execute:
+
+```bash
+sudo adduser $new_user_name sudo
+sudo loginctl enable-linger $new_user_name
+```
+
+Next, if you wish to use the same SSH credentials as your current user to log into your new user, execute the following commands:
+
+```bash
+sudo mkdir -p /home/$new_user_name/.ssh
+sudo cp ~/.ssh/authorized_keys /home/$new_user_name/.ssh/authorized_keys
+sudo chown $new_user_name:$new_user_name /home/$new_user_name/.ssh/authorized_keys
+```
+
+> Command above assumes you use the default home directory for your new user
+
+Otherwise, you can create your own SSH key for your user following [this](https://www.cyberciti.biz/faq/how-to-set-up-ssh-keys-on-linux-unix/) documentation.
+
+Lastly, exit your SSH session and re-SSH back into your machine under your new user. Your ssh command may look something like this:
+
+```bash
+ssh -i "key.pem" <new-user-name>@your-server.com
+```
+
+Alternatively, you can swap users when SSH-ed in as your default user with the following command:
+
+```bash
+su - <new-user-name>
+```
+
+If you choose to swap users, you must export 2 environment variables to install AutoNode. Do so with the following command:
+
+```bash
+export XDG_RUNTIME_DIR="/run/user/$UID"
+export DBUS_SESSION_BUS_ADDRESS="unix:path=${XDG_RUNTIME_DIR}/bus"
+```
+
+> It may be convient to add this command to your `~/.bashrc` profile.
+
 ### **Step 3:** Install AutoNode.
 
 ```bash
@@ -21,7 +70,9 @@ curl -o "$tmp_install_file" "$install_file_source" && bash "$tmp_install_file" &
 > Make sure to answer the prompts!
 
 {% hint style="warning" %}
-You will need to have access to `systemd` in user mode. This may require upgrading `systemd` or choosing another Operating System from your cloud provider. Ubuntu 18+ is known to work. 
+You will need to have access to `systemd` in user mode. This may require SSH-ing in as the user running AutoNode, or upgrading `systemd.` It may be easier to choose another Operating System if you have to upgrade `systemd`, Ubuntu 18+ is known to work. 
+
+If you created a user just for AutoNode, make sure to follow all parts of step 2. 
 {% endhint %}
 
 ### Step 3.5: \(Optional\) Update your shell.
