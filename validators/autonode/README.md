@@ -6,6 +6,14 @@ description: >-
 
 # AutoNode
 
+{% hint style="danger" %}
+**AutoNode is in the last stages of development before it is officially ready for Mainnet.**
+
+While commands here do work and will probably not change, the default network is the Harmony Testnet.  
+  
+Documentation is also being finalized
+{% endhint %}
+
 ## **Sections:**
 
 * \*\*\*\*[**Install & Run**](https://docs.harmony.one/home/validators/autonode/install-and-run) ****
@@ -13,11 +21,7 @@ description: >-
 * \*\*\*\*[**Monitor**](https://docs.harmony.one/home/validators/autonode/monitor)\*\*\*\*
 * \*\*\*\*[**BLS key management**](https://docs.harmony.one/home/validators/autonode/bls-key-management)\*\*\*\*
 * \*\*\*\*[**Collect Rewards**](https://docs.harmony.one/home/validators/autonode/collect-rewards)\*\*\*\*
-* \*\*\*\*[**Maintenance**](https://docs.harmony.one/home/validators/autonode/maintenance)\*\*\*\*
-* \*\*\*\*[**Troubleshoot**](https://docs.harmony.one/home/validators/autonode/troubleshoot)\*\*\*\*
-* \*\*\*\*[**Extra**](https://docs.harmony.one/home/validators/autonode/extra)\*\*\*\*
-
-## Contribute!
-
-Want to add a feature to AutoNode? Feel free to contribute to the open-sourced repo [here](https://github.com/harmony-one/auto-node)!
+* **Maintenance**
+* **Troubleshoot**
+* **Code**
 

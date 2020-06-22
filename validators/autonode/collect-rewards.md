@@ -28,7 +28,7 @@ Next, transfer the funds to your 'main' wallet with the following command:
 ```bash
 validator_addr=$(auto-node config | jq '.["validator-addr"]' -r)
 auto-node hmy transfer -n https://api.s0.t.hmny.io/ --from-shard 0 --to-shard 0 \
-    --from $validator_addr --to <main-wallet-address> --amount <amount>
+  --from $validator_addr --to <main-wallet-address> --amount <amount> --passphrase
 ```
 
 > Substitute `<main-wallet-address>` with the ONE address of your main wallet.  
