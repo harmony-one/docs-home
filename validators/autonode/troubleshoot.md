@@ -43,7 +43,7 @@ You can check your disk space usage with the following command:
 df -H 
 ```
 
-> If your `use%` is at 95-100% and your node failed to start, you probably have insufficna disk space. Look into how to increase your disk space on your cloud provider.
+> If your `use%` is at 95-100% and your node failed to start, you probably have insufficient disk space. Look into how to increase your disk space on your cloud provider.
 
 You can also try to reboot your AutoNode with:
 
