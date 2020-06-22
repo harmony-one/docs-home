@@ -61,6 +61,8 @@ export DBUS_SESSION_BUS_ADDRESS="unix:path=${XDG_RUNTIME_DIR}/bus"
 
 ### **Step 3:** Install AutoNode.
 
+`sudo` access for your user is needed for installation.
+
 ```bash
 install_file_source="https://raw.githubusercontent.com/harmony-one/auto-node/master/scripts/first-install.sh"
 tmp_install_file="/tmp/autonode-first-install.sh"
