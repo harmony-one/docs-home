@@ -4,15 +4,15 @@ description: Run the latest AutoNode!
 
 # Update
 
-## Checking for updates
+## Checking for AutoNode updates
 
-AutoNode will quickly check for an update on each execution of the AutoNode command. If there is an update you will see the following message:
+AutoNode will quickly check for an update on each execution of the `auto-node` command. If there is an update you will see the following message:
 
 ![](../../.gitbook/assets/image%20%28192%29.png)
 
 ## Updating AutoNode
 
-{% hint style="danger" %}
+{% hint style="warning" %}
 You will need to briefly stop your node to execute an update. Updates should be fast.
 {% endhint %}
 
@@ -53,7 +53,7 @@ auto-node run
 
 ## Updating `hmy` CLI
 
-For your convenience, AutoNode wraps the `hmy`[CLI. ](https://docs.harmony.one/home/wallets/harmony-cli)You can update it with the following command:
+For your convenience, AutoNode wraps the `hmy` [CLI. ](https://docs.harmony.one/home/wallets/harmony-cli)You can update it with the following command:
 
 ```text
 auto-node hmy-update

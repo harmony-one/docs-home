@@ -34,7 +34,7 @@ auto-node deactivate
 When you are ready to get elected and sign the following epoch, you can activate your validator with the following command:
 
 ```bash
-auto-node deactivate
+auto-node activate
 ```
 
 ## Inspect the Harmon Node logs
