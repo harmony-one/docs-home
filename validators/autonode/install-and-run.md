@@ -140,8 +140,7 @@ auto-node run --clean --fast-sync
 
 {% tab title="Testnet" %}
 ```
-auto-node run --clean --fast-sync \ 
-    --network testnet --beacon-endpoint https://api.s0.b.hmny.io/
+auto-node run --clean --fast-sync --auto-active --network testnet --beacon-endpoint https://api.s0.b.hmny.io/
 ```
 {% endtab %}
 {% endtabs %}
@@ -155,7 +154,9 @@ Use `--expose-rpc` if you wish to expose [RPC](https://en.wikipedia.org/wiki/Rem
 
 Use `--shard` \(your shard number here\) to run a node for a specific shard
 
-Use `--archival` to run in archival mode. Make sure your machine has enough space. We expect around 500GB is needed to run an Archival node \(Jun 2020\).
+Use `--archival` to run in archival mode. Make sure your machine has enough space. We expect around 500GB is needed to run an Archival node \(Jun 2020\)
+
+Use `--auto-active` to automatically activate your validator on next epoch in case it gets deactivated
 {% endhint %}
 
 {% hint style="warning" %}
