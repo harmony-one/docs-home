@@ -1,14 +1,18 @@
 ---
-description: Quick start to running a Harmony Validator.
+description: Quick start to running a Harmony Validator
 ---
 
 # Install & Run
 
-### **Step 1:** Spin up your instance on [AWS](../cloud-guides/aws.md) or [other providers](https://docs.harmony.one/home/validators/first-time-setup/cloud-guides).
+{% hint style="info" %}
+All commands for `auto-node` have a help message that describes its usage. Just append `--help` to the command you wish to learn more about. For example: `auto-node --help.`
+{% endhint %}
+
+### **Step 1:** Spin up your instance on [AWS](../cloud-guides/aws.md) or [other providers](https://docs.harmony.one/home/validators/first-time-setup/cloud-guides)
 
 > It is recommended to go with Ubuntu 18+ or Red Hat Enterprise Linux 8+ as your operating system.
 
-### **Step 2:** SSH into the machine.
+### **Step 2:** SSH into the machine
 
 ### Step 2.5: \(Optional\) Create a new user
 
@@ -59,7 +63,7 @@ export DBUS_SESSION_BUS_ADDRESS="unix:path=${XDG_RUNTIME_DIR}/bus"
 
 > It may be convient to add this command to your `~/.bashrc` profile.
 
-### **Step 3:** Install AutoNode.
+### **Step 3:** Install AutoNode
 
 `sudo` access for your user is needed for installation.
 
@@ -77,7 +81,7 @@ You will need to have access to `systemd` in user mode. This may require SSH-ing
 If you created a user just for AutoNode, make sure to follow all parts of step 2. 
 {% endhint %}
 
-### Step 3.5: \(Optional\) Update your shell.
+### Step 3.5: \(Optional\) Update your shell
 
 You can reload your shell by exiting your SSH session and SSH-ing back into the machine, or you can execute the following command:
 
@@ -87,7 +91,7 @@ export PATH=$PATH:~/bin
 
 > This step is only needed if the command: `auto-node` does not work.
 
-### **Step 4:** Add or import a validator key.
+### **Step 4:** Add or import a Validator Key
 
 {% tabs %}
 {% tab title="New Key" %}
@@ -125,27 +129,36 @@ auto-node hmy keys list
 ```
 {% endhint %}
 
-### **Step 5: Run AutoNode & start your validator!** 
+### **Step 5: Run AutoNode & start your Validator**
 
-```text
+{% tabs %}
+{% tab title="Mainnet" %}
+```bash
 auto-node run --clean --fast-sync
 ```
+{% endtab %}
 
-> If you are curious, `--clean` is the option to ensure old node files are removed \(if present\). The `--fast-sync`option will [rclone](https://rclone.org/) the correct Harmony DB to reduce sync time. One can choose to sync from scratch by removing the `--fast-sync` option.
-
-If you wish to expose [RPC](https://en.wikipedia.org/wiki/Remote_procedure_call) for your node to enable endpoint functionality, you can run your node with the following command:
-
-```text
-auto-node run --clean --fast-sync --expose-rpc
+{% tab title="Testnet" %}
 ```
-
-If you wish to run a node for a specific shard, use the `--shard` option. For example, if you want to run a node for shard 1 your run command may look something like this:
-
-```text
-auto-node run --clean --fast-sync --expose-rpc --shard 1
+auto-node run --clean --fast-sync \ 
+    --network testnet --beacon-endpoint https://api.s0.b.hmny.io/
 ```
+{% endtab %}
+{% endtabs %}
 
 {% hint style="info" %}
+Use `--clean` to start fresh/remove old node files \(if present\)
+
+Use `--fast-sync` option to rclone the correct Harmony DB to reduce sync time. One can choose to sync from scratch by removing the `--fast-sync` option
+
+Use `--expose-rpc` if you wish to expose [RPC](https://en.wikipedia.org/wiki/Remote_procedure_call) for your node to enable endpoint functionality
+
+Use `--shard` \(your shard number here\) to run a node for a specific shard
+
+Use `--archival` to run in archival mode. Make sure your machine has enough space. We expect around 500GB is needed to run an Archival node \(Jun 2020\).
+{% endhint %}
+
+{% hint style="warning" %}
 Make sure to **respond** to the **prompts**. If you are unable to create a validator \(but started your node\) don't worry! Follow the next step on how to create your validator.
 {% endhint %}
 
@@ -153,7 +166,7 @@ Make sure to **respond** to the **prompts**. If you are unable to create a valid
 One the monitor has started and you see repeated prints of the node information & headers, you can exit with `ctrl+C.`From here, you are free to do whatever on the machine, or you can exit the machine. Your Harmony node will keep running!
 {% endhint %}
 
-### **Step 5.5: \(Optional\) Create your validator after the initial run.**
+### **Step 5.5: \(Optional\) Create your validator after the initial run**
 
 You can go through the create validator flow again by executing the following command:
 
