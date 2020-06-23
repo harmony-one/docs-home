@@ -5,7 +5,7 @@ description: Some steps for troubleshooting your AutoNode
 # Troubleshoot
 
 {% hint style="success" %}
-If you encounter any issue you cannot solve, feel free to reach out to us at **autonode@harmony.one**.
+If you encounter any issue you cannot solve, feel free to reach out to us at **autonode@harmony.one.** Alternatively you can open a Github issue [here](https://github.com/harmony-one/auto-node/issues).
 {% endhint %}
 
 ## Inspect AutoNode logs
