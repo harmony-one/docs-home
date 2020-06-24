@@ -140,7 +140,7 @@ auto-node run --clean --fast-sync
 
 {% tab title="Testnet" %}
 ```
-auto-node run --clean --fast-sync --auto-active --network testnet --beacon-endpoint https://api.s0.b.hmny.io/
+auto-node run --clean --fast-sync --auto-active --network testnet --beacon-endpoint https://api.s0.b.hmny.io/ --shard 0
 ```
 {% endtab %}
 {% endtabs %}
