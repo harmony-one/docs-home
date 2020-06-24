@@ -164,7 +164,7 @@ Make sure to **respond** to the **prompts**. If you are unable to create a valid
 {% endhint %}
 
 {% hint style="success" %}
-One the monitor has started and you see repeated prints of the node information & headers, you can exit with `ctrl+C.`From here, you are free to do whatever on the machine, or you can exit the machine. Your Harmony node will keep running!
+Once the monitor has started and you see repeated prints of the node information & headers, you can exit with `ctrl+C.`From here, you are free to do whatever on the machine, or you can exit the machine. Your Harmony node will keep running!
 {% endhint %}
 
 ### **Step 5.5: \(Optional\) Create your validator after the initial run**
