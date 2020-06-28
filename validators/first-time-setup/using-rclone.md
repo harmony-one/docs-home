@@ -41,15 +41,29 @@ storage_class = REDUCED_REDUNDANCY
 EOF
 ```
 
+{% hint style="info" %}
+The above rclone config also work for the pangaea testnet network
+{% endhint %}
+
 ## 3. Running Rclone
 
 Below is the command to sync the shard you want. Replace `<ShardID>`with the shard number you want to sync. Each of the rclone snapshot is around 1.7 Gb as of 05/14/2020. Shard 0 is around 1.8 Gb as of 5/14/2020. 
 
 It may take up to 10 minutes to download depending on your network connection.
 
+{% tabs %}
+{% tab title="mainnet" %}
 ```bash
 rclone -P sync mainnet:pub.harmony.one/mainnet.min/harmony_db_<ShardID> harmony_db_<ShardID>
 ```
+{% endtab %}
+
+{% tab title="testnet" %}
+```
+rclone -P sync mainnet:pub.harmony.one/testnet.min/harmony_db_<ShardID> harmony_db_<ShardID>
+```
+{% endtab %}
+{% endtabs %}
 
 {% hint style="info" %}
 Nodes in shard 0 just need to sync `harmony_db_0`
@@ -61,30 +75,73 @@ Nodes in shard 1, 2, 3 need to sync both `harmony_db_0`, and `harmony_db_<ShardI
 
 #### shard0:
 
+{% tabs %}
+{% tab title="mainnet" %}
 ```bash
 rclone -P sync mainnet:pub.harmony.one/mainnet.min/harmony_db_0 harmony_db_0
 ```
+{% endtab %}
 
-#### shard1:
+{% tab title="testnet" %}
+```
+rclone -P sync mainnet:pub.harmony.one/testnet.min/harmony_db_0 harmony_db_0
+```
+{% endtab %}
+{% endtabs %}
 
+#### Shard 1:
+
+{% tabs %}
+{% tab title="mainnet" %}
 ```bash
 rclone -P sync mainnet:pub.harmony.one/mainnet.min/harmony_db_0 harmony_db_0
 rclone -P sync mainnet:pub.harmony.one/mainnet.min/harmony_db_1 harmony_db_1
 ```
+{% endtab %}
 
-#### shard2:
+{% tab title="testnet" %}
+```
+rclone -P sync mainnet:pub.harmony.one/testnet.min/harmony_db_0 harmony_db_0
+rclone -P sync mainnet:pub.harmony.one/testnet.min/harmony_db_1 harmony_db_1
+```
+{% endtab %}
+{% endtabs %}
 
+#### Shard 2:
+
+{% tabs %}
+{% tab title="mainnet" %}
 ```bash
 rclone -P sync mainnet:pub.harmony.one/mainnet.min/harmony_db_0 harmony_db_0
 rclone -P sync mainnet:pub.harmony.one/mainnet.min/harmony_db_2 harmony_db_2
 ```
+{% endtab %}
 
-#### shard3:
+{% tab title="testnet" %}
+```
+rclone -P sync mainnet:pub.harmony.one/testnet.min/harmony_db_0 harmony_db_0
+rclone -P sync mainnet:pub.harmony.one/testnet.min/harmony_db_2 harmony_db_2
+```
+{% endtab %}
+{% endtabs %}
 
+#### Shard 3:
+
+{% tabs %}
+{% tab title="mainnet" %}
 ```bash
 rclone -P sync mainnet:pub.harmony.one/mainnet.min/harmony_db_0 harmony_db_0
 rclone -P sync mainnet:pub.harmony.one/mainnet.min/harmony_db_3 harmony_db_3
 ```
+{% endtab %}
+
+{% tab title="testnet" %}
+```
+rclone -P sync mainnet:pub.harmony.one/testnet.min/harmony_db_0 harmony_db_0
+rclone -P sync mainnet:pub.harmony.one/testnet.min/harmony_db_3 harmony_db_3
+```
+{% endtab %}
+{% endtabs %}
 
 After the sync, you may use `du -h harmony_db_*` command to check the size of the downloaded snapshots.
 
