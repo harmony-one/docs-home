@@ -86,7 +86,7 @@
   * [Validator Info Doc](validators/validator-info-doc.md)
   * [Troubleshooting](validators/validator-troubleshooting/README.md)
     * [Why am I not elected in the EPOS Committee](validators/validator-troubleshooting/why-am-i-not-elected-in-the-epos-committee.md)
-    * [Open Staking — Frequently Asked Questions](validators/validator-troubleshooting/open-staking-frequently-asked-questions.md)
+    * [Frequently Asked Questions \(FAQ\)](validators/validator-troubleshooting/open-staking-frequently-asked-questions.md)
   * [Monitoring & Security](validators/extras/README.md)
     * [Validator Security](validators/extras/validator-security.md)
     * [Network Status](validators/extras/network-status.md)

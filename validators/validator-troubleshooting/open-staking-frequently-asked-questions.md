@@ -4,7 +4,7 @@ description: >-
   Harmony’s Open Staking.
 ---
 
-# Open Staking — Frequently Asked Questions
+# Frequently Asked Questions \(FAQ\)
 
 **1.** **How to Stake Harmony \($ONE\)?**
 
