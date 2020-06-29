@@ -2,7 +2,7 @@
 description: Text based user interface for Harmony node.
 ---
 
-# Text Based User Interface \(TUI\)
+# Text User Interface \(TUI\)
 
 ## Harmony TUI
 
