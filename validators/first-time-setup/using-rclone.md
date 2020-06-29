@@ -52,13 +52,13 @@ Below is the command to sync the shard you want. Replace `<ShardID>`with the sha
 It may take up to 10 minutes to download depending on your network connection.
 
 {% tabs %}
-{% tab title="mainnet" %}
+{% tab title="Mainnet" %}
 ```bash
 rclone -P sync mainnet:pub.harmony.one/mainnet.min/harmony_db_<ShardID> harmony_db_<ShardID>
 ```
 {% endtab %}
 
-{% tab title="testnet" %}
+{% tab title="Testnet" %}
 ```
 rclone -P sync mainnet:pub.harmony.one/testnet.min/harmony_db_<ShardID> harmony_db_<ShardID>
 ```
@@ -76,13 +76,13 @@ Nodes in shard 1, 2, 3 need to sync both `harmony_db_0`, and `harmony_db_<ShardI
 #### shard0:
 
 {% tabs %}
-{% tab title="mainnet" %}
+{% tab title="Mainnet" %}
 ```bash
 rclone -P sync mainnet:pub.harmony.one/mainnet.min/harmony_db_0 harmony_db_0
 ```
 {% endtab %}
 
-{% tab title="testnet" %}
+{% tab title="Testnet" %}
 ```
 rclone -P sync mainnet:pub.harmony.one/testnet.min/harmony_db_0 harmony_db_0
 ```
@@ -92,14 +92,14 @@ rclone -P sync mainnet:pub.harmony.one/testnet.min/harmony_db_0 harmony_db_0
 #### Shard 1:
 
 {% tabs %}
-{% tab title="mainnet" %}
+{% tab title="Mainnet" %}
 ```bash
 rclone -P sync mainnet:pub.harmony.one/mainnet.min/harmony_db_0 harmony_db_0
 rclone -P sync mainnet:pub.harmony.one/mainnet.min/harmony_db_1 harmony_db_1
 ```
 {% endtab %}
 
-{% tab title="testnet" %}
+{% tab title="Testnet" %}
 ```
 rclone -P sync mainnet:pub.harmony.one/testnet.min/harmony_db_0 harmony_db_0
 rclone -P sync mainnet:pub.harmony.one/testnet.min/harmony_db_1 harmony_db_1
@@ -110,14 +110,14 @@ rclone -P sync mainnet:pub.harmony.one/testnet.min/harmony_db_1 harmony_db_1
 #### Shard 2:
 
 {% tabs %}
-{% tab title="mainnet" %}
+{% tab title="Mainnet" %}
 ```bash
 rclone -P sync mainnet:pub.harmony.one/mainnet.min/harmony_db_0 harmony_db_0
 rclone -P sync mainnet:pub.harmony.one/mainnet.min/harmony_db_2 harmony_db_2
 ```
 {% endtab %}
 
-{% tab title="testnet" %}
+{% tab title="Testnet" %}
 ```
 rclone -P sync mainnet:pub.harmony.one/testnet.min/harmony_db_0 harmony_db_0
 rclone -P sync mainnet:pub.harmony.one/testnet.min/harmony_db_2 harmony_db_2
@@ -128,14 +128,14 @@ rclone -P sync mainnet:pub.harmony.one/testnet.min/harmony_db_2 harmony_db_2
 #### Shard 3:
 
 {% tabs %}
-{% tab title="mainnet" %}
+{% tab title="Mainnet" %}
 ```bash
 rclone -P sync mainnet:pub.harmony.one/mainnet.min/harmony_db_0 harmony_db_0
 rclone -P sync mainnet:pub.harmony.one/mainnet.min/harmony_db_3 harmony_db_3
 ```
 {% endtab %}
 
-{% tab title="testnet" %}
+{% tab title="Testnet" %}
 ```
 rclone -P sync mainnet:pub.harmony.one/testnet.min/harmony_db_0 harmony_db_0
 rclone -P sync mainnet:pub.harmony.one/testnet.min/harmony_db_3 harmony_db_3
