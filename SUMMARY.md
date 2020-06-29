@@ -174,6 +174,7 @@
     * [Sample Files](developers/smart-contracts/sample-files.md)
   * [Grant Proposals](developers/grant-proposals.md)
   * [Block Explorers](developers/block-explorers.md)
+  * [Faucets](developers/faucets.md)
 * [Partners](partners/README.md)
   * [Case Studies](partners/case-studies.md)
   * [Cross-Border Finance](partners/cross-border-finance.md)
