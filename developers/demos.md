@@ -21,9 +21,9 @@ Please keep in mind that all design of the players is irrelevant in this open so
  ****![](https://lh6.googleusercontent.com/Es6aaeVgajGAd8WOCC1sR4twguBdKxUHzW8MkY64PpSq1dIombR8sywdCe3fdaaD8jNA3AY-OtHvOyQouUqXiSNnDqFl7xnjo_4XsnNCm5BGnds6irM1_A3d28r6kIt8dJfsPnA_)![](https://lh6.googleusercontent.com/fimKzfRuSVB4wlJc5syDTXcTeSbWT20XI_WmoIWf7EbKKEfgA54tmYiHNpiR2GR-jiXcvzP0Ywuv_5Z3kJOjhYqCX4mynhZWlEAUkwDRm6FsbAN_96JLHFZMAdfP93mCa83mwW2o)  
 ****
 
-## [Harmony Punks](https://punks.hmy.cc.ink/#/home)
+## [Harmonauts](https://punks.hmy.cc.ink/#/home)
 
-Harmony Punks is a collection game, made by harmony characters, people can either claim a punk or buy punks from someone else. All characters are unique and collectible with proof of ownership stored on the blockchain. 
+Harmonauts is a collection game, made by harmony characters, people can either claim a punk or buy punks from someone else. All characters are unique and collectible with proof of ownership stored on the blockchain. 
 
 We adopt the playing mode of cryptopunks \(collection with bidding\), but need to add our own \(Harmony\) style and make the project a new project.  
   
