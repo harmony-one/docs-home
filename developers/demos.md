@@ -4,17 +4,15 @@
 
 Harmony Angels 😇 - as our Radically Decentralized Community 👩‍👩‍👧‍👦 with 250k ONE rewards per week.
 
-How? Openly associate yourself with Harmony on Twitter, retweet our \#pow project progress with craft and impact. Influence or change can never be achieved through one-off engagements. We will reward the committed ones with radical incentives.
+How? Openly associate yourself with Harmony on Twitter, retweet our \#pow project progress with craft and impact. Influence or change can never be achieved through one-off engagements. We will reward the committed ones with radical incentives. 
 
-![](https://lh3.googleusercontent.com/4hJ-vCqoHX7_Bajrt4lBNB04rVTqPSPij8VWIbQ6Y4brneEY_P9faFw3ll-L2wXhiMM19xLgycW8phvCKbn19BNJaVnuo0PO7v1k7X6zmvTBZ1h1Af2L4nN9I74TFMnMaDeVZ2hI)
+![](../.gitbook/assets/angels_stse.jpg)
 
-![](https://lh4.googleusercontent.com/ELfcj-wOkqalAzBHsSJ4406n3ehFp3keozA5vLrNxpBgo-N5FKf2VPwFyiZHl0OWRF_LfESxx7TBFhEwM5cRmiIWc5MxXLiXqkFIFCv4hlLjoLSWr7_BWIHLxRolSPU56yOkKxyW)
+## \*\*\*\*[**Harmony Soccer Players**](https://soccerplayers-87d85.firebaseapp.com/)\*\*\*\*
 
-## \*\*\*\*[**Soccerplayers**](https://soccerplayers-87d85.firebaseapp.com/)\*\*\*\*
+Soccer Players is sourced from an open source project. We are building it for technology demonstration, and not for commercial purposes. The open source project is running in Harmony Blockchain.
 
-Soccer players app is sourced from an open source project. We are building it for technology demonstration, and not for commercial purposes. The open source project is running in Harmony Blockchain.
-
-This open source project is special because it gives you the chance to collect and own your favorite smart contract soccer player. If someone buys your player, you will get the amount as reward. The soccer player smart contracts are automatically placed on the marketplace, so others can collect them.
+This project is special because it gives you the chance to collect and own your favorite smart contract soccer player. If someone buys your player, you will get the amount as reward. The soccer player smart contracts are automatically placed on the marketplace, so others can collect them.
 
 {% hint style="warning" %}
 Please keep in mind that all design of the players is irrelevant in this open source project, and may be subject to changes in the future, what is important is the smart contract that remains unique.
