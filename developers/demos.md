@@ -1,5 +1,15 @@
 # Demos
 
+## [Radical Ones ](https://harmony.one/angels)
+
+**Harmony Angels 😇 - as our Radically Decentralized Community 👩‍👩‍👧‍👦 with 250k ONE rewards per week.**
+
+**How? Openly associate yourself with Harmony on Twitter, retweet our \#pow project progress with craft and impact. Influence or change can never be achieved through one-off engagements. We will reward the committed ones with radical incentives.**
+
+![](https://lh3.googleusercontent.com/4hJ-vCqoHX7_Bajrt4lBNB04rVTqPSPij8VWIbQ6Y4brneEY_P9faFw3ll-L2wXhiMM19xLgycW8phvCKbn19BNJaVnuo0PO7v1k7X6zmvTBZ1h1Af2L4nN9I74TFMnMaDeVZ2hI)![](https://lh4.googleusercontent.com/ELfcj-wOkqalAzBHsSJ4406n3ehFp3keozA5vLrNxpBgo-N5FKf2VPwFyiZHl0OWRF_LfESxx7TBFhEwM5cRmiIWc5MxXLiXqkFIFCv4hlLjoLSWr7_BWIHLxRolSPU56yOkKxyW)  
+  
+
+
 ## \*\*\*\*[**Soccerplayers**](https://soccerplayers-87d85.firebaseapp.com/)\*\*\*\*
 
 **Soccer players app is sourced from an open source project. We are building it for technology demonstration, and not for commercial purposes. The open source project is running in Harmony Blockchain**
