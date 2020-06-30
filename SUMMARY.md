@@ -173,7 +173,7 @@
     * [Smart Contract Development using Truffle](developers/smart-contracts/smart-contract-development-using-truffle.md)
     * [Sample Files](developers/smart-contracts/sample-files.md)
   * [Grant Proposals](developers/grant-proposals.md)
-  * [Demos](developers/demos-1.md)
+  * [Demos](developers/demos.md)
   * [Block Explorers](developers/block-explorers.md)
   * [Faucets](developers/faucets.md)
 * [Partners](partners/README.md)
