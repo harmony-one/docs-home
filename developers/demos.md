@@ -22,13 +22,13 @@ This app is built for technology demonstration, and not for commercial purpose. 
 
 ## [Harmonauts](https://punks.hmy.cc.ink/#/home)
 
-Harmonauts is a collection game, made by harmony characters, people can either claim a punk or buy punks from someone else. All characters are unique and collectible with proof of ownership stored on the blockchain. 
+Harmonauts is also an NFT collectible game ported from CryptoPunks and built on the Harmony Blockchain. The Harmonauts are 24 pixelated images of Harmony personnel. These are the guys and girls that make Harmony work! The value of Harmonaut depends on the characteristics \(which is our Harmony culture\) it has. Rarer characteristic the Harmonaut has, higher price it will be in the market. There are currently three ways to get the valuable Harmonauts. 
 
-We adopt the playing mode of cryptopunks \(collection with bidding\), but need to add our own \(Harmony\) style and make the project a new project.
+* Initially you can claim it for free based on the "first come first serve" rule
+* Once all the Harmonauts are claimed, you can buy those are actively on sale.
+* Another way is to bid on the Harmonauts you have no matter it's on sale or not. 
 
-![](../.gitbook/assets/screen-shot-2020-06-30-at-4.07.20-pm.png)
-
-![](https://lh4.googleusercontent.com/QdHRO5LVNCSpan7M0GB3TWh1mpF4nzPPHZ7vPT29BcZELzjYl9ZPSHNK_7AV8s0QZgPSTEm2xM_yDyQ9jV81zQi0hm3V9f5JF-saEXJcd37TEjYxeeRMYMramlC9j6X92K0HLV37)
+![](../.gitbook/assets/img_0939.jpg)
 
 ## [Good One](http://crowdfunding.s3-website-us-west-1.amazonaws.com/) 
 
