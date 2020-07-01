@@ -24,9 +24,11 @@ This app is built for technology demonstration, and not for commercial purpose. 
 
 Harmonauts is also an NFT collectible game ported from CryptoPunks and built on the Harmony Blockchain. The Harmonauts are 24 pixelated images of Harmony personnel. These are the guys and girls that make Harmony work! The value of Harmonaut depends on the characteristics \(which is our Harmony culture\) it has. Rarer characteristic the Harmonaut has, higher price it will be in the market. There are currently three ways to get the valuable Harmonauts. 
 
-* Initially you can claim it for free based on the "first come first serve" rule
-* Once all the Harmonauts are claimed, you can buy those are actively on sale.
-* Another way is to bid on the Harmonauts you have no matter it's on sale or not. 
+* Initially you can claim it for free based on the "first come first serve" rule.
+* Once all the Harmonauts are claimed, you can only buy those are actively on sale from others.
+* Another way is to bid on the Harmonauts you want no matter it's on sale or not, the owner will decide which bid to accept. 
+
+Notice you can withdraw the token you have in the smart contract to your ONE wallet anytime. 
 
 ![](../.gitbook/assets/img_0939.jpg)
 
