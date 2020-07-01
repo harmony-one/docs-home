@@ -10,12 +10,10 @@ How? Openly associate yourself with Harmony on Twitter, retweet our \#pow projec
 
 ## \*\*\*\*[**Harmony Soccer Players**](https://soccerplayers-87d85.firebaseapp.com/)\*\*\*\*
 
-Soccer Players is sourced from an open source project. We are building it for technology demonstration, and not for commercial purposes. The open source project is running in Harmony Blockchain.
-
-This project is special because it gives you the chance to collect and own your favorite smart contract soccer player. If someone buys your player, you will get the amount as reward. The soccer player smart contracts are automatically placed on the marketplace, so others can collect them.
+SoccerPlayers is an NFT collectible game deployed on Harmony blockchain. It is like CryptoKitties, but for collecting your favorite soccer player cards. Each soccer player has a unique token as part of a ERC721 smart contract deployed on Harmony blockchain, that are available to buy. All soccer player cards are open in the market all the time, so that anyone can buy. Every purchase increases the card value by 15%, and the seller will make a profit of 13% when their card is bought by others. A 2% commission is paid to the minting account to cover the app maintenance costs. 
 
 {% hint style="warning" %}
-Please keep in mind that all design of the players is irrelevant in this open source project, and may be subject to changes in the future, what is important is the smart contract that remains unique.
+This app is built for technology demonstration, and not for commercial purpose. We do NOT own or license the trademarks of any of the digital assets.
 {% endhint %}
 
 ![](https://lh6.googleusercontent.com/fimKzfRuSVB4wlJc5syDTXcTeSbWT20XI_WmoIWf7EbKKEfgA54tmYiHNpiR2GR-jiXcvzP0Ywuv_5Z3kJOjhYqCX4mynhZWlEAUkwDRm6FsbAN_96JLHFZMAdfP93mCa83mwW2o)
