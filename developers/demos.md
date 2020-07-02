@@ -49,11 +49,13 @@ Good One is a simple crowdfunding dApp which will have the ‘minimum’ functio
 
 ## [OneMoji](https://peekpi.github.io/onemoji/dist/)\*\*\*\*
 
+{% embed url="https://www.youtube.com/watch?v=SF7T\_7FlxNU" %}
+
 Get your special emoji and lucky number with only 20 $ONE! Limited edition of 3,470 emojis on the blockchain, first come first serve!
 
 Enter your lucky number and sign the transaction on Math Wallet. 3 values will be randomly generated to decide the features of your emoji: token ID, power, luck.
 
-[https://www.youtube.com/watch?v=SF7T\_7FlxNU](https://www.youtube.com/watch?v=SF7T_7FlxNU)
+![](../.gitbook/assets/onemoji-2.png)
 
   
 
