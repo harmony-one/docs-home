@@ -51,9 +51,10 @@ Good One is a simple crowdfunding dApp which will have the ‘minimum’ functio
 
 Get your special emoji and lucky number with only 20 $ONE! Limited edition of 3,470 emojis on the blockchain, first come first serve!
 
-Enter your lucky number and sign the transaction on Math Wallet. 3 values will be randomly generated to decide the features of your emoji: token ID, power, luck.  
-****
+Enter your lucky number and sign the transaction on Math Wallet. 3 values will be randomly generated to decide the features of your emoji: token ID, power, luck.
 
-![](https://lh4.googleusercontent.com/D1iPtrFVcsTeKrssiwWcX3jrquZFEa7f1l9-orZvU0Hp9Ircjwcp1FMA2gK2ANYpcLiDOqLfPixcUVYae-kXoxD6Ganar2CnVoiW1-qJnbSpa3rSfZLxoDWQt6zEF0hi4pzrUF0o)  
-![](https://lh6.googleusercontent.com/UJ2m--R2rgEXd6uhbwPyipKNfb1HaBBsjvR2eFx00S72dS_JmAs_G49nijQ47NoRI3x1LP2ew2S4VjQTiUfHxKoomXoQVs0kbo3Nh2SnUSM3A6_SKVauTwICM7Z6MNEbMsj3_hzd)
+[https://www.youtube.com/watch?v=SF7T\_7FlxNU](https://www.youtube.com/watch?v=SF7T_7FlxNU)
+
+  
+
 
