@@ -10,7 +10,7 @@ Influence or change can never be achieved through one-off engagements. We will r
 
 ![](../.gitbook/assets/angels_stse.jpg)
 
-## \*\*\*\*[**Harmony Soccer Players**](https://soccerplayers.demo.harmony.one/)\*\*\*\*
+## [**Harmony Soccer Players**](https://soccerplayers.demo.harmony.one/)\*\*\*\*
 
 SoccerPlayers is an NFT collectible game deployed on Harmony blockchain. It is like CryptoKitties, but for collecting your favorite soccer player cards. Each soccer player has a unique token as part of a ERC721 smart contract deployed on Harmony blockchain, that are available to buy. All soccer player cards are open in the market all the time, so that anyone can buy. Every purchase increases the card value by 15%, and the seller will make a profit of 13% when their card is bought by others. A 2% commission is paid to the minting account to cover the app maintenance costs. 
 
@@ -36,7 +36,7 @@ Notice you can withdraw the token you have in the smart contract to your ONE wal
 
 ## [Good One](http://crowdfunding.s3-website-us-west-1.amazonaws.com/) 
 
-Good One is a crowdfunding dApp which will have the ‘minimum’ functionalities that you’d expect from a crowdfunding platform. Basically, one should be able to start crowdfunding projects, and fund them.
+Good One is a simple crowdfunding dApp which will have the ‘minimum’ functionalities that you’d expect from a crowdfunding platform. Basically, one should be able to start crowdfunding projects, and fund them.
 
 * Start Project — we should be able to start a new crowdfunding project, along with setting its details like goal amount, etc
 * View Projects — we should be able to retrieve our existing projects’ details and display it
