@@ -22,7 +22,7 @@ This app is built for technology demonstration, and not for commercial purpose. 
 
 ![](https://lh6.googleusercontent.com/Es6aaeVgajGAd8WOCC1sR4twguBdKxUHzW8MkY64PpSq1dIombR8sywdCe3fdaaD8jNA3AY-OtHvOyQouUqXiSNnDqFl7xnjo_4XsnNCm5BGnds6irM1_A3d28r6kIt8dJfsPnA_)
 
-## [Harmonauts](https://punks.hmy.cc.ink/#/home)
+## [Harmonauts](https://harmony.one/harmonauts-nft)
 
 Harmonauts is also an NFT collectible game ported from CryptoPunks and built on the Harmony Blockchain. The Harmonauts are 24 pixelated images of Harmony personnel. These are the guys and girls that make Harmony work! The value of Harmonaut depends on the characteristics \(which is our Harmony culture\) it has. Rarer characteristic the Harmonaut has, higher price it will be in the market. There are currently three ways to get the valuable Harmonauts. 
 
