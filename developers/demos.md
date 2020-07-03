@@ -57,6 +57,12 @@ Enter your lucky number and sign the transaction on Math Wallet. 3 values will b
 
 ![](../.gitbook/assets/onemoji-2.png)
 
-  
+## Ript.io
 
+[Ript.io](https://ript.io/) is the first ever Harmony dApp warehouse. We create the most used, functional decentralized applications for use in one location. Ript.io was built by Michael Otis \(Twitter: @OHHHtis\), currently there are 2 dApps available with a dozen more on the way!  
+
+
+![](../.gitbook/assets/screen-shot-2020-07-03-at-10.22.15-am.png)
+
+![](../.gitbook/assets/screen-shot-2020-07-03-at-10.26.56-am.png)
 
