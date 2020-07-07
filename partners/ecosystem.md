@@ -1,4 +1,4 @@
-# Ecosystem
+# Partners
 
 ## Exchanges
 

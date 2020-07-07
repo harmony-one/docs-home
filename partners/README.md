@@ -1,4 +1,4 @@
-# Partners
+# Ecosystem
 
 ## Becoming a Harmony ONE Trading Partner
 
