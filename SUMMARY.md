@@ -175,8 +175,6 @@
   * [Grant Proposals](developers/grant-proposals.md)
   * [Block Explorers](developers/block-explorers.md)
   * [Faucets](developers/faucets.md)
-* [Applications](demos.md)
-* [Community/Angels](community-angels.md)
 * [Ecosystem](partners/README.md)
   * [Case Studies](partners/case-studies.md)
   * [Cross-Border Finance](partners/cross-border-finance.md)
@@ -184,4 +182,6 @@
   * [Reference](partners/on-boarding-process.md)
   * [Onboarding](partners/onboard-process-walkthrough.md)
   * [Governance](partners/governance.md)
+* [Applications](demos.md)
+* [Community/Angels](community-angels.md)
 
