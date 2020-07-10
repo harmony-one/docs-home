@@ -170,6 +170,7 @@
     * [Sample Code](developers/api/sample-code.md)
     * [Sample nodejs CLI Application](developers/api/sample-nodejs-cli-application.md)
   * [Smart Contracts](developers/smart-contracts/README.md)
+    * [Deploying an Ethereum Smart Contract onto Harmony](developers/smart-contracts/deploying-an-ethereum-smart-contract-onto-harmony.md)
     * [Smart Contract Development using Truffle](developers/smart-contracts/smart-contract-development-using-truffle.md)
     * [Sample Files](developers/smart-contracts/sample-files.md)
   * [Grant Proposals](developers/grant-proposals.md)
