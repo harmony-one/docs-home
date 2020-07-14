@@ -65,6 +65,12 @@ Secure ONE Tokens In 6 Wallets
 
 {% tab title=" Guarda Wallet" %}
 {% embed url="https://guarda.co/" %}
+
+Guarda Wallet supports staking ONE from the wallet.
+
+![](../.gitbook/assets/image%20%28198%29.png)
+
+![](../.gitbook/assets/image%20%28197%29.png)
 {% endtab %}
 
 {% tab title="Safepal" %}
