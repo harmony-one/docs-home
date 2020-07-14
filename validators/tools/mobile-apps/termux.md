@@ -9,7 +9,7 @@ description: >-
 
 1. Download and Install the Termux app in the [Playstore](https://play.google.com/store/apps/details?id=com.termux&hl=en).
 
-![](../../.gitbook/assets/image%20%28138%29.png)
+![](../../../.gitbook/assets/image%20%28138%29.png)
 
 2. Run the app and install the SSH for the program by typing:
 
@@ -17,7 +17,7 @@ description: >-
 pkg install openssh
 ```
 
-3. Setup your instance in the different [cloud providers](../cloud-guides/).
+3. Setup your instance in the different [cloud providers](../../cloud-guides/).
 
 4. Connect your instance by using the Termux app and use the following command:
 
