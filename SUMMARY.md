@@ -92,6 +92,7 @@
     * [Network Status](validators/extras/network-status.md)
   * [Tools](validators/tools/README.md)
     * [Telegram Bots](validators/tools/telegram-bots.md)
+    * [Dashboards](validators/tools/dashboards.md)
     * [Text User Interface \(TUI\)](validators/tools/text-user-interface-tui.md)
     * [Termux](validators/tools/termux.md)
 * [Developers](developers/README.md)
