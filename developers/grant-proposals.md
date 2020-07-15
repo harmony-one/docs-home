@@ -1,6 +1,16 @@
+---
+description: >-
+  This page describes the Harmony Grant Program, requirements, and areas of
+  focus.
+---
+
 # Grant Proposals
 
-We activates our community through our grant program to grow our protocol and ecosystem. Applicants can apply for grants to build core protocol features, developer tooling, and critical applications including wallets and financial applications.
+In order to continue to grow the Harmony protocol and ecosystem, Harmony has established a Grant Program. [The details of the program are highlighted in this Blog Post](https://medium.com/harmony-one/harmony-grant-guideline-58ff9cec02a6).
+
+In what follows below is some information, but go read the [blog post](https://medium.com/harmony-one/harmony-grant-guideline-58ff9cec02a6) for a more comprehensive and most up-to-date information.
+
+Applicants can apply for grants to build core protocol features, developer tooling, and critical applications including wallets and financial applications.
 
 ### Ecosystem and Protocol Incentives
 
