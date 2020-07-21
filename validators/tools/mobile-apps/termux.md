@@ -1,8 +1,7 @@
 ---
 description: >-
   Termux is an Android terminal emulator and Linux environment app that works
-  directly with no rooting or setup required. A minimal base system is installed
-  automatically - additional packages are avail
+  directly with no rooting or setup required
 ---
 
 # Termux
