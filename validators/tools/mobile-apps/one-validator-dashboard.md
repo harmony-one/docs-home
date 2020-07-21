@@ -1,5 +1,5 @@
 ---
-description: This is an iOS App for Validators.
+description: Mobile App for Validators
 ---
 
 # One Validator Dashboard
