@@ -4,5 +4,8 @@ description: This is an iOS App for Validators.
 
 # One Validator Dashboard
 
-Click [here](https://apps.apple.com/us/app/one-validator-dashboard/id1511067261) to download it for you mobile device.
+| OS | Link |
+| :--- | :--- |
+| Android | [Click here](https://play.google.com/store/apps/details?id=com.prarysoft.one.validator) |
+| iOS | [Click here](https://apps.apple.com/us/app/one-validator-dashboard/id1511067261) |
 
