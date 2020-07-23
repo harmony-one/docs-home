@@ -189,5 +189,6 @@
   * [Onboarding](partners/onboard-process-walkthrough.md)
   * [Governance](partners/governance.md)
 * [Applications](demos.md)
+* [Showcases](showcases.md)
 * [Community/Angels](community-angels.md)
 

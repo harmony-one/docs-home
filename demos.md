@@ -47,7 +47,7 @@ You can use 20 $one tokens to mint an emoji token \(HRC 721 token\) using smart 
 
 ![](.gitbook/assets/onemoji-2.png)
 
-## Ript.io
+## [Ript.io](https://ript.io/)
 
 [Ript.io](https://ript.io/) is the first ever Harmony dApp warehouse. We create the most used, functional decentralized applications for use in one location. Ript.io was built by Michael Otis \(Twitter: @OHHHtis\), currently there are 2 dApps available with a dozen more on the way!  
 
@@ -55,4 +55,14 @@ You can use 20 $one tokens to mint an emoji token \(HRC 721 token\) using smart 
 ![](.gitbook/assets/screen-shot-2020-07-03-at-10.22.15-am.png)
 
 ![](.gitbook/assets/screen-shot-2020-07-03-at-10.26.56-am.png)
+
+##  [Jelly Swap](https://jelly.market/) <a id="ript-io"></a>
+
+​Jelly Swap enables peer to peer trades across different blockchains. It is an automated cross-chain exchange and is decentralized, permissionless and open-source. Everyone can participate, provide liquidity, and execute swaps. It offers fiat/crypto on & off ramps and has a unique market making model.
+
+
+
+![](https://lh6.googleusercontent.com/lp9Nil04MAMKTwrQRKay3e5p4HRKHQ1kCDUNUNT_z8fXloXH2MjDF84ZVAqU29CNOxYaAIB8I4mwm9MLUvtGnzKnRkJyCvj0hXoYMzP2sUui06xagvRa1cXDEbQttIc0GQImC6UJ)
+
+![](https://lh3.googleusercontent.com/eDfUbDP_MNzaD_kg9NZC4OQcRulGrVpHy7KOsu7WL9UUN--59WQyHqbtZPbWx6Z-zqvQLxj6AVNSxnZQbrB29d1XWAakTF-VRE6_lFTFfcH_eF0ctUJGJHQQ6VW425U17ZxBEYRS)
 
