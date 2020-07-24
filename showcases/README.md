@@ -8,19 +8,19 @@
 {% endtab %}
 
 {% tab title="Rupiah Token" %}
-[https://rupiahtoken.com/](https://rupiahtoken.com/)
+{% embed url="https://rupiahtoken.com/" %}
 {% endtab %}
 
 {% tab title="Wyre" %}
-[https://www.sendwyre.com/](https://www.sendwyre.com/)
+{% embed url="https://www.sendwyre.com/" %}
 {% endtab %}
 
 {% tab title="Changelly" %}
-[https://changelly.com/](https://changelly.com/)
+{% embed url="https://changelly.com/" %}
 {% endtab %}
 
 {% tab title="Transak" %}
-[https://transak.com/](https://transak.com/)
+{% embed url="https://transak.com/" %}
 {% endtab %}
 {% endtabs %}
 
@@ -32,7 +32,7 @@
 {% endtab %}
 
 {% tab title="OneMoji" %}
-[https://peekpi.github.io/onemoji/dist/](https://peekpi.github.io/onemoji/dist/)
+{% embed url="https://peekpi.github.io/onemoji/dist/" %}
 {% endtab %}
 {% endtabs %}
 
@@ -44,11 +44,11 @@
 {% endtab %}
 
 {% tab title="Cobo" %}
-[https://cobo.com/](https://cobo.com/)
+{% embed url="https://cobo.com/" %}
 {% endtab %}
 
 {% tab title="Sprout" %}
-[https://sprout.sesameseed.org/](https://sprout.sesameseed.org/)
+{% embed url="https://sprout.sesameseed.org/" %}
 {% endtab %}
 {% endtabs %}
 
