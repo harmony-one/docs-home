@@ -19,7 +19,7 @@ SoccerPlayers is an NFT collectible game deployed on Harmony blockchain. It is l
 
 _Disclaimer: this game is ported from_ [_Nyftimoji_](https://niftymoji.com/)_, an Ethereum based game, for non-commercial purposes._‌
 
-You can use 20 $one tokens to mint an emoji token \(HRC 721 token\) using smart contract. The lucky number you input and the block hash will decide which emoji you are going to get from a library of 3,470 emojis.
+You can use 20 $ONE tokens to mint an emoji token \(HRC 721 token\) using smart contract. The lucky number you input and the block hash will decide which emoji you are going to get from a library of 3,470 emojis.
 
 ![](../.gitbook/assets/onemoji-2%20%281%29.png)
 
