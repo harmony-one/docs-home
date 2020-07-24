@@ -190,6 +190,8 @@
   * [Governance](partners/governance.md)
 * [Showcases](showcases/README.md)
   * [Fiat](showcases/fiat.md)
+  * [Apps](showcases/apps.md)
+  * [Staking Wallets](showcases/staking-wallets.md)
 * [Applications](demos.md)
 * [Community/Angels](community-angels.md)
 

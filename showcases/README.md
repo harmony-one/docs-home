@@ -38,21 +38,5 @@
 
 ### Staking Wallets
 
-{% tabs %}
-{% tab title="Guarda" %}
-
-{% endtab %}
-
-{% tab title="Second Tab" %}
-
-{% endtab %}
-{% endtabs %}
-
-Portals
-
-Mobile Wallets
-
-Desktop Wallets
-
 
 
