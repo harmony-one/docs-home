@@ -188,8 +188,8 @@
   * [Reference](partners/on-boarding-process.md)
   * [Onboarding](partners/onboard-process-walkthrough.md)
   * [Governance](partners/governance.md)
-* [Applications](demos.md)
 * [Showcases](showcases/README.md)
   * [Fiat](showcases/fiat.md)
+* [Applications](demos.md)
 * [Community/Angels](community-angels.md)
 
