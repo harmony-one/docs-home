@@ -9,7 +9,7 @@ description: >-
 {% hint style="success" %}
 **Complete documentation for Harmony's API's production API's can be found** [**here**](https://apitest.harmony.one/) **including sample code and curl commands and code.** 
 
-**For partners preparing for Open Staking the latest version of the API's are** [**here**](https://api.os.hmny.io/)**.**
+**For partners preparing for Open Staking the latest version of the API's are** [**here**](https://api.hmny.io/?version=latest)**.**
 {% endhint %}
 
 ## Development Environments
