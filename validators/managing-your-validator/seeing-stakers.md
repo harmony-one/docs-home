@@ -1,23 +1,27 @@
-# Seeing Stakers
+---
+description: How to see your delegators
+---
+
+# Check Your Delegations
 
 You can see the number of delegations to your validator with the following command.
 
 ## Using the Binary:
 
 ```bash
-./hmy --node="https://api.s0.t.hmny.io" blockchain delegation by-validator [VALIDATOR ADDRESS]
+./hmy blockchain delegation by-validator [VALIDATOR ADDRESS] --node="https://api.s0.t.hmny.io"
 ```
 
 ## Using the Shell Wrapper:
 
 ```bash
-./hmy.sh -- node="https://api.s0.t.hmny.io" blockchain delegation by-validator [VALIDATOR ADDRESS]
+./hmy.sh -- blockchain delegation by-validator [VALIDATOR ADDRESS] --node="https://api.s0.t.hmny.io"
 ```
 
-### Example:
+## Example:
 
 ```bash
-./hmy node="https://api.s0.t.hmny.io" blockchain delegation by-validator one1km7xg8e3xjys7azp9f4xp8hkw79vm2h3f2lade
+./hmy blockchain delegation by-validator one1km7xg8e3xjys7azp9f4xp8hkw79vm2h3f2lade --node="https://api.s0.t.hmny.io"
 ```
 
 #### Output:

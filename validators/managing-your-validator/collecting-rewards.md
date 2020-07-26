@@ -1,6 +1,10 @@
+---
+description: How to collect your rewards
+---
+
 # Collecting Rewards
 
-You can collect your block rewards with the following command.
+You can collect your rewards with the following command.
 
 ## Using the Binary:
 

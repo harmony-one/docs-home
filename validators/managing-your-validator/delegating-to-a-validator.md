@@ -1,3 +1,7 @@
+---
+description: How to delegate tokens to a validator
+---
+
 # Delegating To A Validator
 
 You can delegate tokens to a validator using the following command.

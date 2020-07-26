@@ -1,3 +1,7 @@
+---
+description: How to see your current validator information
+---
+
 # Checking Validator Information
 
 ## Using the Binary:
@@ -97,6 +101,6 @@
 {% hint style="warning" %}
 If your validator does not sign more than 2/3 of the blocks in an epoch, the validator will be removed from the pool of eligible validators.
 
-In order to be included in the pool again, you will have to use send an [Edit Validator transaction](https://docs.harmony.one/validators/validator/managing-your-validator/changing-your-validator-profile) with `--active true.`
+In order to be included in the pool again, you will have to use send an [Edit Validator transaction](changing-validator-information.md) with `--active true.`
 {% endhint %}
 

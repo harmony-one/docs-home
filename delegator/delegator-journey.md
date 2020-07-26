@@ -1,12 +1,12 @@
 ---
-description: How to maximize returns under the EPOS mechanism
+description: Media content for staking on Harmony
 ---
 
-# Delegation on Harmony \(video\)
+# Informational Videos
 
-Harmony's revolutionary Effective Proof of Stake mechanism \([https://youtu.be/M8c06bxWyQc](https://www.youtube.com/watch?v=M8c06bxWyQc)\) is the fairest yet for allowing open participation in a public blockchain. 
 
-{% embed url="https://www.youtube.com/watch?time\_continue=4&v=k3cwL2tB3DI&feature=emb\_logo" caption="OPEN STAKING: The Delegator Journey on Harmony Protocol" %}
+
+{% embed url="https://www.youtube.com/watch?time\_continue=4&v=k3cwL2tB3DI&feature=emb\_logo" caption="" %}
 
 {% embed url="https://www.youtube.com/watch?v=U8\_6bJZqGpQ&list=PLAzkb1vJXQOR3ZEl25MKiz5-CMw6xVkaW&index=2" %}
 

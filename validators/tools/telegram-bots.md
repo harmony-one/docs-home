@@ -1,3 +1,7 @@
+---
+description: Community developed Telegram bots to help monitor your validator
+---
+
 # Telegram Bots
 
 Below is a list of a few community run **Telegram Bots** to be used for monitoring of your Harmony Validator:

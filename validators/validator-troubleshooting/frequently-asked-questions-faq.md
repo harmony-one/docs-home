@@ -48,31 +48,31 @@ When you send 1 ONE, what you will get is 0.99 ONE due to transaction fee. Howev
 
 **8. Is reward per validator/delegator fixed?**
 
-No, it consists of the validator’s effective stake, uptime and total stake within a shard.
+No, a validator's rewards is dependent on their effective stake and their uptime during the epoch.
 
 **9. I want to undelegate my token, how long do I have to wait?**
 
-Your undelegated tokens will be returned back to you by the end of the epoch.
+Your undelegated tokens will be available in your wallet at the end of the epoch.
 
-**10. My validator wasn’t elected, can I undelegate and stake to another validator?**
+**10. My validator was not elected, can I undelegate and stake to another validator?**
 
-Yes, you can.
+Yes, however you will have to wait for your tokens to be available at the end of the epoch.
 
 **11. How can I change my wallet password?**
 
 Ensure you have access to your seed phrase or private key first. Uninstall the [extension](https://chrome.google.com/webstore/detail/harmony/bjaeebonnimhcakeckbnemejhdpngdmd?hl=en), go to chrome store and reinstall. Launch the extension and choose the option to recover your account. Enter your seed or private key and input your new password.
 
-**12. Is there a window between epochs to delegate for example if I just received my undelegated token, can I get in on the next epoch?**
+**12. Is there a window between epochs to delegate un-delegated tokens?**
 
-There is no window between epochs, however, you can collect rewards close to the end of the current epoch, and immediately delegate, to be active and earning rewards in the next epoch.
+There is no window between epochs. Unfortunately, any delegations made after the tokens are available again will not be taken into account until the following epoch.
 
 **13. What does Fee mean?**
 
-It is the amount that the validator will charge from the generated rewards for services rendered \(running servers, maintenance, maintaining high uptime\).
+The validators can charge a fee in order to offset the cost of running their validating nodes. The fee is automatically deducted from your rewards and included in the validator's rewards.
 
-**14. Unable to claim rewards, what can I do?**
+**14. Why can't I claim rewards?**
 
-Please ensure you have enough to cover gas fee. Gas fee is deducted from your Available balance and not from the reward you’ve earned.
+Rewards are claimed via a transaction, therefore you must have enough ONE tokens to pay the gas fee in order to claim your rewards.
 
 **15. What’s the minimum claim amount for delegators?**
 
@@ -84,19 +84,9 @@ Please ensure you have enough to cover gas fee. Gas fee is deducted from your Av
 
 **17. How long does an epoch last?**
 
-Roughly 36 hours
+Approximately 36 hours. Epochs are dependent on blocks produced on Shard 0.
 
-**18. Are there any risks involved with Harmony Staking?**
+**18.** **How do I check Mainnet network status?**
 
-There are risks associated with Staking on Harmony.
-
-Among those could be the following:
-
-* Account lost: Mnemonic / Private key backup
-* Firmware Problems
-* Network Centralization
-* Price Volatility of $ONE Coins
-* Technical Dept
-
-We [report here](https://nodes.harmony.one/harmony-status/outages) Network Outages which might affect the Staking Rewards of your Harmony Node.
+We report all Mainnet network outages [here](https://nodes.harmony.one/harmony-status/outages). You can also check network status [here](https://monitor.hmny.io/status).
 

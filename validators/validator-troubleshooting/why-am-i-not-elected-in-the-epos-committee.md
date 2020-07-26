@@ -1,16 +1,16 @@
 ---
-description: >-
-  This document is to share a list of steps to help troubleshoot why your
-  validator node is not elected in the EPOS committee.
+description: Reasons why your validator is not elected & how to get elected.
 ---
 
-# Why am I not elected in the EPOS Committee
+# My validator is not elected
 
-## EPOS medium document
+## How is the committee chosen?
 
-[https://harmony.one/epos](https://harmony.one/epos)
+Harmony operates with Effective Proof of Stake \(EPoS\) to keep the network security from collecting in the hands of a few validators. You can find our full Medium article on EPoS [here](https://harmony.one/epos)!
 
-## **Now let’s get into action.**
+TL;DR Validators are elected based on their **effective** stake, instead of their absolute stake. The effective stake is calculated based on the median stake in the network. The top 480 BLS keys with the highest effective stake will be elected for the epoch.
+
+## **Why am I not elected?**
 
 Non election in the EPOS committee are caused by two main issues :
 
@@ -45,8 +45,8 @@ go to : [https://staking.harmony.one/validators](https://staking.harmony.one/val
 {% endtab %}
 {% endtabs %}
 
-{% hint style="success" %}
-the CLI returned a value in wei, it can be converted online converter like [https://eth-converter.com/](https://eth-converter.com/)
+{% hint style="info" %}
+The value returned by the CLI is in Atto, which is equivalent to Gwei in Ethereum.
 {% endhint %}
 
 #### Total delegation is above the median stake
@@ -144,7 +144,7 @@ and the network block height
 {% endtab %}
 {% endtabs %}
 
-Make sure network height and your current height are very close or equal. Also, for non shard 0 node, you need 2 DBs to be synced, your non-shard 0 and the shard 0.
+Make sure network height and your current height are very close or equal. Additionally if your node is validating for a
 
 {% hint style="info" %}
 the above command is for network height on shard 0, change s0 to s1, s2, .. to match yours in the api URL

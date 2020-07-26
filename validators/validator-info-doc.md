@@ -1,32 +1,52 @@
-# Validator Info Doc
+---
+description: Definition of validator information terms
+---
+
+# Validator Information Terms
 
 This page introduces main terms about validator infos in the [harmony-mainnet-tracker spreadsheet](https://docs.google.com/spreadsheets/d/1AyYHWSkKOCzMY0ZvoT049DapIDvkEhpnfbA1WidJm3o/edit?usp=sharing), you can also read some of the terms in [staking dashboard](https://staking.harmony.one/validators).
 
 ## APR
 
-APR represents the annual percentage rate of the last epoch _**the validator is elected**_. You can also get the data from the performance section on the validator page in staking dashboard website. 
+Annual Percentage Return \(APR\) is the percent return of rewards for the last epoch that _**the validator was last elected**_. 
 
-![apr / latest expected return example](../.gitbook/assets/image%20%28191%29.png)
+{% hint style="warning" %}
+This field reflects the data of the last epoch this validator elected, not the current epoch. 
 
-{% hint style="info" %}
-This field is different from the _**expected return**_ on the dashboard main page. The _**expected return**_ on dashboard list is the average aprs in last `min(30, epochs you were elected)`epochs.
+For example, if a validator was elected in epoch 186 with 50% APR and they were never elected again, they will still display 50% APR.
 {% endhint %}
 
-{% hint style="info" %}
-This filed reflects the data of the last epoch this validator elected, but not the latest epoch. For example, one validator was only elected in epoch 186, and his apr is 50% in that epoch, if later he was never elected, his apr will not reduce, still show 50%.
-{% endhint %}
+### Latest Expected Return
+
+![Example Validator Profile](../.gitbook/assets/screen-shot-2020-07-25-at-9.37.37-pm.png)
+
+Latest expected return is the validator's APR for the latest epoch.
+
+![Example Validator List](../.gitbook/assets/screen-shot-2020-07-25-at-9.34.32-pm.png)
+
+The Expected Return field here is average of the validator's APR for the past 30 epochs that they were elected.
 
 ## Uptime
 
-Uptime = signed blocks / to-sign blocks. There are two types of data, _**"None"**_ or a number.
+Validator uptime is calculated as:
 
-Based on the definition, if the validator is never elected, his uptime will show as _**None.**_ In the staking dashboard, he will have empty result in the main page, and in the validator page, the uptime will be 0.00%.
+$$
+s / b * 100
+$$
 
-![uptime example](../.gitbook/assets/image%20%28190%29.png)
+Where s is the number of blocks signed by the validator and b is the number of blocks in the epoch so far.
 
-{% hint style="info" %}
-Only those validators who are elected will have to-sign blocks. So similar to apr, if the validator is only elected in epoch 186 and his uptime is 100% in epoch 186. If later he is not elected, his uptime will still show as 100%.
+If a validator has never been elected, their uptime will display as _**None**_ in the tracking spreadsheet_**.**_ In the staking dashboard, their uptime will be 0.00%.
+
+![Example of a validate that has never been elected](../.gitbook/assets/screen-shot-2020-07-25-at-11.18.51-pm.png)
+
+{% hint style="warning" %}
+Similarly to APR, uptime is also only updated if the validator is currently elected. 
+
+For example, if the same validator was elected in epoch 186 with 100% uptime and they were never elected again, they will still have 100% uptime displayed.
 {% endhint %}
+
+ 
 
 ## Epos-status
 

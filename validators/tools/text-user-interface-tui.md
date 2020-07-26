@@ -9,16 +9,16 @@ description: Text based user interface for Harmony node.
 Text based user interface for Harmony node.  
 Below information is currently displayed on Harmony-TUI
 
-1. **Section - Harmony Blockchain** - _\*\*_Connected peers - Leader's one address - Current epoch number - Recent timestamps of various stages
-2. **Section - Harmony Node** - _\*\*_Harmony node binary version - ShardId of local node - Balance of user's one account
-3. **Section - Current Block** - _\*\*_Current block number - Size of current block in bytes - Hash of current block - StateRoot - BlockEpoch - Number of signers who signed last block
+1. **Section - Harmony Blockchain** - Connected peers - Leader's one address - Current epoch number - Recent timestamps of various stages
+2. **Section - Harmony Node** - Harmony node binary version - ShardId of local node - Balance of user's one account
+3. **Section - Current Block** - Current block number - Size of current block in bytes - Hash of current block - StateRoot - BlockEpoch - Number of signers who signed last block
 4. **Section - System Stats** - CPU usage in percentage - Memory/RAM usage of system - Used disk space
 5. **Section - Validator Logs** This section shows validator log file
 
 ## Dependencies
 
-1. harmony node running on localhost:9000
-2. shared libraries required for running harmony node
+1. Harmony node running on localhost:9000
+2. Shared libraries required for running harmony node
 3. Harmony TUI binary should be in same directory as harmony node binary
 
 ## Build and run harmony-tui binary
@@ -66,7 +66,7 @@ Below information is currently displayed on Harmony-TUI
 1. Run binary - `path_to_binary/harmony-tui --address=YOUR_ONE_ADDRESS --env=local`
 2. Check version - `path_to_binary/harmony-tui --version`
 
-## Sample screenshot​[​](https://raw.githubusercontent.com/harmony-one/harmony-tui/master/doc/images/tui-sample.gif?token=AEY7S2JV6DIWLODPOXCKMN25VED6W) <a id="sample-screenshot"></a>
+## Sample GIF​[​](https://raw.githubusercontent.com/harmony-one/harmony-tui/master/doc/images/tui-sample.gif?token=AEY7S2JV6DIWLODPOXCKMN25VED6W) <a id="sample-screenshot"></a>
 
 ![](https://raw.githubusercontent.com/harmony-one/harmony-tui/master/doc/images/tui-sample.gif?token=AEY7S2JV6DIWLODPOXCKMN25VED6W)
 

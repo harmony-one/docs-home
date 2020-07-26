@@ -1,3 +1,7 @@
+---
+description: How to undelegate your tokens from a validator
+---
+
 # Undelegating From A Validator
 
 You can un-delegate tokens from a validator using the following command:

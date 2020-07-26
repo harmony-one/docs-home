@@ -1,3 +1,7 @@
+---
+description: How to update your validator information
+---
+
 # Changing Validator Information
 
 You can edit your validator’s information using the CLI with the following command.
@@ -38,8 +42,8 @@ Sending the command without the arguments will leave those fields of your valida
 {% endhint %}
 
 {% hint style="danger" %}
-`--max-rate` and `--max-change-rate` cannot be changed later.
+`--max-rate` and `--max-change-rate` cannot be changed after creation.
 
-`--min-self-delegation` has to be at least 10,000 ONE.
+`--min-self-delegation` must be minimum 10,000 ONE.
 {% endhint %}
 

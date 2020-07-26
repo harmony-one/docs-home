@@ -38,7 +38,7 @@ The CLI will prompt you to enter your BLS key file password.
 
 `--name` will be the name displayed on the Staking Explorer **\(string\)**
 
-`--identity` is additional information for the validator **\(string\)**
+`--identity` unique identifier for the validator **\(string\)**
 
 `--details` is the description of the validator **\(string\)**
 
@@ -63,7 +63,11 @@ The CLI will prompt you to enter your BLS key file password.
 {% endhint %}
 
 {% hint style="info" %}
-rate, max-rate max-change-rate takes value between 0 and 1 with 0.1 = 10%
+`--rate`, `--max-rate`, and `--max-change-rate` accepts numbers between 0 and 1 representing percentages
+{% endhint %}
+
+{% hint style="info" %}
+If you have a Keybase account, we recommend you use your Keybase public key fingerprint as your validator's identity. The field is unique, ensuring that other validator's can not attempt to impersonate you. This data will also help with some awesome integrations & features in the future!
 {% endhint %}
 
 ### When does the validator participate in election? <a id="when-does-the-validator-become-active"></a>
@@ -83,15 +87,15 @@ Example output:
 ```
 
 {% hint style="warning" %}
-If you don't want to participate in the election anymore, you can turn your validator inactive using an [Edit Validator transaction](https://docs.harmony.one/home/validators/managing-your-validator/changing-validator-information) with`--active false.`
+If you do not wish to participate anymore, you can turn your validator inactive using an [Edit Validator transaction](https://docs.harmony.one/home/validators/managing-your-validator/changing-validator-information) with`--active false.`
 {% endhint %}
 
 ## Checking Validator Information <a id="checking-validator-information"></a>
 
-Use the format command **./hmy --node="https://api.s0.t.hmny.io" blockchain validator information \[ONE ADDRESS\]** to check your validator information:
+Example command:
 
 ```bash
-./hmy --node="https://api.s0.t.hmny.io" blockchain validator information one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd
+./hmy blockchain validator information one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd --node="https://api.s0.t.hmny.io"
 ```
 
 Example output:
@@ -175,7 +179,7 @@ Example output:
 ```
 
 {% hint style="warning" %}
-If your validator does not sign more than 2/3 of the blocks in an epoch, the validator will be removed from the pool of eligible validators.
+If your validator has signed less than 66% of the blocks in an epoch, it will be removed from the pool of eligible validators.
 
 In order to be included in the pool again, you will have to use send an [Edit Validator transaction](creating-a-validator.md) with `--active true`.
 {% endhint %}

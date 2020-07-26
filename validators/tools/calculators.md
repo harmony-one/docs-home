@@ -1,4 +1,8 @@
-# Calculators
+---
+description: Community developed Staking reward calculators
+---
+
+# Reward Calculators
 
 | Name | Link |
 | :--- | :--- |

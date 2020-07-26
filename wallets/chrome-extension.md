@@ -2,7 +2,7 @@
 description: Harmony's Chrome extension wallet is a secure native crypto wallet
 ---
 
-# Harmony Wallet \(Harmony Browser Extension\)
+# Harmony Chrome Extension
 
 ## **Step 1: Install the Harmony Wallet Chrome Extension**
 

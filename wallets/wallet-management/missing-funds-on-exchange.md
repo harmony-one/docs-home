@@ -1,4 +1,4 @@
-# Missing Funds on Exchange
+# Missing Funds on Exchanges
 
 If you transfer funds to an exchange wallet on any shard other than shard 0, the funds will not reflect in your exchange account. **Fear not, your funds are not lost!** You will need to contact the exchange and provide them the corresponding transaction ID for them to help you fix the problem.
 

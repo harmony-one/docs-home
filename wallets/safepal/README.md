@@ -1,5 +1,5 @@
 ---
-description: Safepal Introduction
+description: A hardware wallet with a mobile app
 ---
 
 # Safepal

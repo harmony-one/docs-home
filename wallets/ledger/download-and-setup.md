@@ -1,10 +1,14 @@
+---
+description: Setup your Ledger device for ONE tokens
+---
+
 # Download & Setup
 
 {% hint style="info" %}
 Currently Harmony is available only on Ledger Nano S. Please use preferably the "Installing using Ledger Live" method, as this is the easiest way to get your Harmony App installed on Ledger.
 {% endhint %}
 
-## Installing using Ledger Live
+## Installing using Ledger Live \(RECOMMENDED\)
 
 ### **1. Turn on Developer**
 
@@ -42,7 +46,7 @@ To use Harmony One app, please check your Ledger Nano device and click both butt
 
 ## Installing Manually \(Windows\)
 
-{% hint style="warning" %}
+{% hint style="danger" %}
 These instructions are only for advanced users who want to install Ledger manually.
 {% endhint %}
 
@@ -94,7 +98,7 @@ Confirm the installation of the app on your Ledger.
 
 ## Installing Manually \(Ubuntu Linux\)
 
-{% hint style="warning" %}
+{% hint style="danger" %}
 These instructions are only for advanced users who want to install Ledger manually.
 {% endhint %}
 

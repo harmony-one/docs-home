@@ -1,5 +1,5 @@
 ---
-description: A web-based wallet for holding cryptocurrency
+description: A web-based wallet
 ---
 
 # Math Wallet
