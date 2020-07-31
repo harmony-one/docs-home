@@ -23,5 +23,17 @@ You can use 20 $ONE tokens to mint an emoji token \(HRC 721 token\) using smart 
 
 ![](../.gitbook/assets/onemoji-2%20%281%29.png)
 
+## [Ript](https://ript.io/)
 
+Ript is the first ever Harmony dApp warehouse. They create the most used, functional decentralized applications for use in one location!
+
+![](../.gitbook/assets/ript-showcase.png)
+
+![](../.gitbook/assets/ript-the-contractor.png)
+
+## [Smartstake](https://www.smartstake.io/)
+
+Transparent, professional, and feature rich staking service provider. Provide staking services with realtime performance assessment tools for validator pools.
+
+![](../.gitbook/assets/smartstake.png)
 

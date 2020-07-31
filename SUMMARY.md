@@ -191,6 +191,11 @@
   * [Fiat](showcases/fiat.md)
   * [Apps](showcases/apps.md)
   * [Staking Wallets](showcases/staking-wallets.md)
+  * [Mobile Wallets](showcases/mobile-wallets.md)
+  * [Hardware Wallets](showcases/hardware-wallets.md)
+  * [Exchanges](showcases/exchanges.md)
+  * [DEX/Swaps](showcases/dex-swaps.md)
+  * [Grants](showcases/grants.md)
 * [Applications](demos.md)
 * [Community/Angels](community-angels.md)
 

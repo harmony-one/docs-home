@@ -10,3 +10,17 @@ CoinDCX is the first hybrid crypto exchange. It's an all inclusive cryptocurrenc
 
 ![](../.gitbook/assets/coindcx-harmony-tweet.png)
 
+## [Rupiah Token](https://rupiahtoken.com/)
+
+Rupiah Token \(IDRT\) enables you to use Indonesian Rupiah directly on top of Ethereum & Binance and Harmony Chain. You can use IDRT to trade with many Crypto-Exchange Partners.
+
+![](../.gitbook/assets/rupiah-token-harmony.png)
+
+## Moneyhome
+
+Instant cross-border payments using stablecoins such as BUSD, specifically in the USD&lt;&gt;INR corridor.
+
+![](../.gitbook/assets/moneyhome-minh.png)
+
+
+
