@@ -86,7 +86,7 @@ Restart=always
 RestartSec=1
 User=harmony-user
 WorkingDirectory=/home/harmony-user
-ExecStart=/home/harmony-user/node.sh -S -z -M
+ExecStart=/home/harmony-user/node.sh -S -z
 SyslogIdentifier=harmony
 StandardOutput=file:/var/log/hmy.log
 StandardError=file:/var/log/hmy_error.log
@@ -159,13 +159,13 @@ You'll want to use a tmux session in order to leave your node running, while you
 {% tabs %}
 {% tab title="Mainnet" %}
 ```bash
-./node.sh -S -z -M
+./node.sh -S -z
 ```
 {% endtab %}
 
 {% tab title="Testnet" %}
 ```
-./node.sh -S -z -N testnet -M
+./node.sh -S -z -N testnet
 ```
 {% endtab %}
 {% endtabs %}
@@ -179,9 +179,9 @@ Use `-I` to run with the statically linked binary \(enabled by default already, 
 
 Use `-N [NETWORK]` to specify which network to connect to \(default: mainnet\).
 
-Use `-k [BLS KEY FILE]` to specify only one BLS key. This parameter replaces `-M`.
+Use `-k [BLS KEY FILE]` to specify only one BLS key.
 
-Use`-M` to run with multiBLS \(all keys should be in `.hmy/blskeys`\)
+
 
 For the complete list of parameters use `./node.sh --help`
 {% endhint %}
@@ -235,6 +235,6 @@ Non-validating nodes will not sign blocks on blockchain, thus they cannot be use
 Use parameter `-T` to define the node type and `-i` to define the shard you want your non-validating node to work. On the example below we will be running our non-validating node on shard 0:
 
 ```text
-./node.sh -S -M -T explorer -i 0
+./node.sh -S -T explorer -i 0
 ```
 
