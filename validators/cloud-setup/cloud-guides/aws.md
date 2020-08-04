@@ -20,9 +20,7 @@ description: 'To launch your AWS instance, follow the steps below.'
 
 ![](https://blobs.gitbook.com/assets%2F-M-IDt7HenNiPUXWT_3k%2F-M18EnlHhxfs4IlN_Xhi%2F-M18Eym_BjlKXaPChBdj%2Fassets_-LlDqlxK8e45wuh1WH4h_-LlEvL4ccZjjcXwS1WWY_-LlEoyu2o6s4Sjkvm34W_assets%252F-LiQYKCcGux_Ib7Gddno%252F-Lj2HFbsGU29d_abCLle%252F-Lj2HGc7aUnyzpkZdHd7%252FAWS-step5.png?alt=media&token=d89a9daf-e89c-4472-97ff-c2890379be82)
 
-**5.** Choose instance type “t3.small”.
-
-![](https://blobs.gitbook.com/assets%2F-M-IDt7HenNiPUXWT_3k%2F-M18EnlHhxfs4IlN_Xhi%2F-M18F2JIm4erwMfI-q2t%2FScreen%20Shot%202020-02-12%20at%206.20.12%20PM.png?alt=media&token=6eafd968-4468-4b58-b843-5360050982ce)
+**5.** Choose instance type “t3.medium”.
 
 **6.** Click “Next: Configure Instance Details” at the bottom right corner of the page.
 

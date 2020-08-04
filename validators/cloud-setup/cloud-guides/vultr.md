@@ -32,7 +32,7 @@ For Pangaea requirements, two instance types would fit: Cloud Compute and High F
 
 ### Select Server Location and Server Type <a id="select-server-location-and-server-type"></a>
 
-Choose now your desired server type. We recommend either the latest **LTS version of Ubuntu** \(18.04 as of date of now\) or the latest version of **Debian**.
+Choose now your desired server type. We recommend the latest **LTS version of Ubuntu** \(18.04 as of date of now\).
 
 ![](https://blobs.gitbook.com/assets%2F-LlDqlxK8e45wuh1WH4h%2F-LlxvSktdLiGcUCOJpxp%2F-Lly3uMNT60Id55f1x7K%2Fbrave_qvMA6y4YCr.png?alt=media&token=bc26c01f-1a11-49bd-8fe5-638f46feee6a)
 
