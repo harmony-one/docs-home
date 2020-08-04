@@ -26,7 +26,7 @@ On the top right corner click on "Create"-&gt;"Droplets".
 
 ![](../../../.gitbook/assets/do2.png)
 
-Choose now your desired Linux image. We recommend the latest **LTS version of Ubuntu** \(18.04 as of date of now\). Use the left and right arrows to navigate between the different plans available. Choose the "Standard" plan and then select a virtual machine with at least 2 CPUs, 4GB of RAM and 80GB SSD.
+Choose now your desired Linux image. We recommend the latest **LTS version of Ubuntu** \(18.04 as of date of now\). Use the left and right arrows to navigate between the different plans available. Choose the "Standard" plan and then select a virtual machine with at least 2 CPUs, 4GB of RAM and 80GB SSD accordingly to the [minimum requirements](https://docs.harmony.one/home/validators/cloud-setup/minimum-requirements).
 
 ![](../../../.gitbook/assets/do3.1%20%281%29.png)
 

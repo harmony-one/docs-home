@@ -38,7 +38,7 @@ Choose now your desired server type. We recommend the latest **LTS version of Ub
 
 ### Choose Server Size <a id="choose-server-size"></a>
 
-Harmony recommends one of the two following:
+Harmony recommends one of the two following accordingly to the [minimum requirements](https://docs.harmony.one/home/validators/cloud-setup/minimum-requirements):
 
 **Cloud Compute**
 
