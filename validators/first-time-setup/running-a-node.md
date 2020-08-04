@@ -5,7 +5,7 @@ description: Using node.sh
 # Running a Node
 
 {% hint style="warning" %}
-As per instructions on the [cloud guides](../cloud-setup/), the host needs to open up port **9000** for blockchain consensus messages and port **6000** for blockchain state syncing. Other ports are NOT necessary for syncing and should NOT be opened to the internet if you are staking only.
+As per instructions on the [cloud guides](../cloud-setup/cloud-guides/), the host needs to open up port **9000** for blockchain consensus messages and port **6000** for blockchain state syncing. Other ports are NOT necessary for syncing and should NOT be opened to the internet if you are staking only.
 {% endhint %}
 
 * 9000 port is used for blockchain consensus messages \(**base port**\)
@@ -52,10 +52,6 @@ For any `.key` if no passphrase file is available, it will use the default speci
 {% endhint %}
 
 ## Running Using Systemd
-
-{% hint style="success" %}
-This is the recommended way to run your node on production.
-{% endhint %}
 
 {% hint style="info" %}
 Execute all the following commands  using the `root` user. On this example, we will be installing the harmony daemon for user `harmony-user` on its home directory. Daemon will be configured with the `root` user but it will run with `harmony-user`at the end.
@@ -120,86 +116,6 @@ To stop the service use:
 service harmony stop
 ```
 
-You can skip the section below and check if your node is syncing correctly.
-
-## Running Using Tmux
-
-{% hint style="warning" %}
-Use this option only to run your node on testnets. For production, prefer [Systemd](running-a-node.md#running-using-systemd).
-{% endhint %}
-
-**1.** Install [tmux](https://github.com/tmux/tmux/wiki) if your Linux distribution does not already come with it. 
-
-{% tabs %}
-{% tab title="Ubuntu LTS" %}
-```bash
-sudo apt-get install tmux
-```
-{% endtab %}
-
-{% tab title="Amazon Linux" %}
-```
-sudo yum install -y tmux
-```
-{% endtab %}
-{% endtabs %}
-
-**2.** Create a new tmux session called "node".
-
-```bash
-tmux new-session -s node
-```
-
-{% hint style="info" %}
-You'll want to use a tmux session in order to leave your node running, while you are not connected to your instance.
-{% endhint %}
-
-**3.** Run the node.sh script with the following command. Once you do, it will ask for a passphrase for your BLS key file. Type your passphrase on the screen that follows and your node should be up and running.
-
-{% tabs %}
-{% tab title="Mainnet" %}
-```bash
-./node.sh -S -z
-```
-{% endtab %}
-
-{% tab title="Testnet" %}
-```
-./node.sh -S -z -N testnet
-```
-{% endtab %}
-{% endtabs %}
-
-{% hint style="info" %}
-Use `-S` to run node.sh as non root user. \(Recommended\)
-
-Use `-z` to run with staking enabled. \(Mandatory to setup validator nodes for open staking\)
-
-Use `-I` to run with the statically linked binary \(enabled by default already, may ignore\).
-
-Use `-N [NETWORK]` to specify which network to connect to \(default: mainnet\).
-
-Use `-k [BLS KEY FILE]` to specify only one BLS key.
-
-
-
-For the complete list of parameters use `./node.sh --help`
-{% endhint %}
-
-{% hint style="danger" %}
-Only use `-c` for our testing networks. Do not use for Mainnet.
-{% endhint %}
-
-**4.** Detach your "node" tmux session by press \[**Ctrl\]+b**, releasing and and then press **d**. Detaching from your session will allow you to safely disconnect from your instance, while leaving your node running in the cloud.
-
-**5.** To re-attach to your tmux session where your `node.sh` is running, use the following command:
-
-```bash
-tmux attach-session -t node
-```
-
-[TMUX Cheatsheet](https://gist.github.com/henrik/1967800)
-
 ## Checking if the Node is Syncing
 
 **1.** To check if your node is syncing properly, run the below command and check that the block height is greater than 0.
@@ -226,7 +142,7 @@ For a complete reference of all available enpoints on both mainnet and testnet, 
 
 **3.** Verify the blocks shown on steps 1 and 2 are closed or equals to each other.
 
-## Non-validating Node
+## Non-validating Nodes
 
 {% hint style="info" %}
 Non-validating nodes will not sign blocks on blockchain, thus they cannot be used for staking. They can be used though by exchanges or wallet providers to broadcast transactions, query balances, fetch transaction data using RPC interfaces, etc.
