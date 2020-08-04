@@ -23,7 +23,7 @@ Once logged in, you'll want to add a new instance. Depending on whether your acc
 
 ### Choose Instance Type <a id="choose-instance-type"></a>
 
-For Pangaea requirements, two instance types would fit: Cloud Compute and High Frequency. Cloud Compute is recommended for Pangaea.
+For Harmony, two instance types would fit: Cloud Compute and High Frequency.
 
 * **Cloud Compute instances** also work properly with 2 CPUs, 4 GB RAM with 80 GB SSDs.
 * **High Frequency Instances** were recently introduced by Vultr and offer latest generation high performance 3GHz+ CPUs and NVMe SSDs.

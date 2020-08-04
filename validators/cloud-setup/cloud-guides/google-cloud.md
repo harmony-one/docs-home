@@ -26,7 +26,7 @@ We recommend to name it something like "pangaea” \(the instance name cannot be
 
 Keep everything default after you have configured the cores and memory.
 
-For the Boot Disk, we recommend the latest **LTS version of Ubuntu** \(18.04 as of date of now\).
+For the Boot Disk, we recommend the latest **LTS version of Ubuntu** \(18.04 as of date of now\). Change the boot disk size to the [minimum storage requirements](https://docs.harmony.one/home/validators/cloud-setup/minimum-requirements).
 
 ![](https://blobs.gitbook.com/assets%2F-LlDqlxK8e45wuh1WH4h%2F-LmBR5kBgg9922w3-lIM%2F-LmBhv4-FTM_WdWJGxhY%2Fcreateinstance.PNG?alt=media&token=54639c2e-217d-41d1-8885-469919855bf4)
 
