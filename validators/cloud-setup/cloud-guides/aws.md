@@ -26,9 +26,7 @@ description: 'To launch your AWS instance, follow the steps below.'
 
 **7.** Don't change anything. Click “Next: Add Storage” at the bottom right corner of the page.
 
-**8.** Change the “Size \(GiB\)” category to 30.
-
-![](https://blobs.gitbook.com/assets%2F-M-IDt7HenNiPUXWT_3k%2F-M18EnlHhxfs4IlN_Xhi%2F-M18F8KuOllmF1Crzz68%2FScreen%20Shot%202020-02-27%20at%204.01.10%20PM.png?alt=media&token=feb59374-66c5-4e85-adb7-e020c172ad92)
+**8.** Change the “Size \(GiB\)” accordingly to the [minimum storage requirements](https://docs.harmony.one/home/validators/cloud-setup/minimum-requirements).
 
 **9.** Click “Next: Add Tags".
 
