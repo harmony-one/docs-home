@@ -5,7 +5,7 @@ description: Using node.sh
 # Running a Node
 
 {% hint style="warning" %}
-As per instructions on the [cloud guides](../cloud-guides/), the host needs to open up port **9000** for blockchain consensus messages and port **6000** for blockchain state syncing. Other ports are NOT necessary for syncing and should NOT be opened to the internet if you are staking only.
+As per instructions on the [cloud guides](../cloud-setup/), the host needs to open up port **9000** for blockchain consensus messages and port **6000** for blockchain state syncing. Other ports are NOT necessary for syncing and should NOT be opened to the internet if you are staking only.
 {% endhint %}
 
 * 9000 port is used for blockchain consensus messages \(**base port**\)

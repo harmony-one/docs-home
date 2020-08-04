@@ -16,7 +16,7 @@ description: >-
 pkg install openssh
 ```
 
-3. Setup your instance in the different [cloud providers](../../cloud-guides/).
+3. Setup your instance in the different [cloud providers](../../cloud-setup/).
 
 4. Connect your instance by using the Termux app and use the following command:
 
