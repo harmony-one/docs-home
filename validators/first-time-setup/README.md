@@ -1,4 +1,4 @@
 # First Time Setup
 
-This documentation describes all necessary steps to run manually run a validator on Harmony blockchain. If you chose to run using [AutoNode](../autonode/), you don't need to follow these steps.
+This documentation describes all the necessary steps to run a Harmony Validator. If you chose to run it using [AutoNode](../autonode/), you don't need to follow these steps.
 
