@@ -17,7 +17,7 @@ The elected validators are obligated to validate blocks with their elected BLS k
 
 The signing performance is represented by a percentage value called **uptime**. A validator’s uptime is the ratio of the number of signatures its elected BLS keys signed over the total number of signatures the keys should sign. For example, a validator has 2 elected BLS keys and each of the keys is presented 100 blocks to sign. In the final tally, the first key signed 70 blocks and the second key signed 80 blocks. Overall, the validator’s uptime is \(70+80\) / \(100\*2\) = 75%.
 
-At the end of each epoch, the validators with uptime of no more than 2/3 \(66.66%\) will have their status set to “Inactive” and be ruled out from the new election. For these inactive validators, they are required to manually set their status to “Active” by sending an **EditValidator** transaction in order to participate in future elections. We encourage validators to be proactive in maintaining a high uptime to ensure they remain elected and earn the most block reward possible.
+At the end of each epoch, the validators with uptime of no more than 2/3 will have their status set to “Inactive” and be ruled out from the new election. For these inactive validators, they are required to manually set their status to “Active” by sending an **EditValidator** transaction in order to participate in future elections. We encourage validators to be proactive in maintaining a high uptime to ensure they remain elected and earn the most block reward possible.
 
 ### Double Sign Slashing <a id="258b"></a>
 
