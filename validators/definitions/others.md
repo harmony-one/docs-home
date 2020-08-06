@@ -6,7 +6,7 @@ Slashing is an integral component of EPoS which serves as the deterring factor t
 
 If validators breach the protocol in the two ways:
 
-1. Unavailability — a validator temporarily loses his slot if he misses more than 66% of the blocks in an epoch; this unresponsiveness is due to nodes being offline, largely not malicious behavior.
+1. Unavailability — a validator temporarily loses his slot if he misses more than 1/3 of the blocks in an epoch; this unresponsiveness is due to nodes being offline, largely not malicious behavior.
 2. Double signing -- a validator loses at least 2% of the stake depending on how many slots are corrupted; this behavior is considered a malicious behavior.
 
 A fraction of the staked tokens is slashed as penalties.Slashing penalties are imposed on both validators and delegators.
