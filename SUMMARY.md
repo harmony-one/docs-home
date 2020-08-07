@@ -198,6 +198,7 @@
   * [Exchanges](showcases/exchanges.md)
   * [DEX/Swaps](showcases/dex-swaps.md)
   * [Grants](showcases/grants.md)
+  * [DeFi](showcases/defi.md)
 * [Applications](demos.md)
 * [Community/Angels](community-angels.md)
 
