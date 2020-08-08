@@ -56,11 +56,9 @@ You can use 20 $one tokens to mint an emoji token \(HRC 721 token\) using smart 
 
 ![](.gitbook/assets/screen-shot-2020-07-03-at-10.26.56-am.png)
 
-##  [Jelly Swap](https://jelly.market/) <a id="ript-io"></a>
+## [Jelly Swap](https://jelly.market/) <a id="ript-io"></a>
 
 ​Jelly Swap enables peer to peer trades across different blockchains. It is an automated cross-chain exchange and is decentralized, permissionless and open-source. Everyone can participate, provide liquidity, and execute swaps. It offers fiat/crypto on & off ramps and has a unique market making model.
-
-
 
 ![](https://lh6.googleusercontent.com/lp9Nil04MAMKTwrQRKay3e5p4HRKHQ1kCDUNUNT_z8fXloXH2MjDF84ZVAqU29CNOxYaAIB8I4mwm9MLUvtGnzKnRkJyCvj0hXoYMzP2sUui06xagvRa1cXDEbQttIc0GQImC6UJ)
 
