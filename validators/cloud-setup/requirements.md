@@ -1,7 +1,5 @@
 # Requirements
 
-We recommend you run your nodes using one or multiple VPS Providers. Below are the minimum requirements to run a node:
-
 {% hint style="success" %}
 We recommend that you run two nodes, one at each different region around the globe for **better signing rate** and **high availability**. Differently from other blockchains, Harmony allows you to run multiple nodes with the same BLS keys. This is not considered double signing.  
   
