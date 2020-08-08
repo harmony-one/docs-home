@@ -52,7 +52,7 @@
     * [Slashing](validators/definitions/others.md)
     * [Undelegation](validators/definitions/undelegation.md)
   * [Cloud Setup](validators/cloud-setup/README.md)
-    * [Minimum Requirements](validators/cloud-setup/minimum-requirements.md)
+    * [Requirements](validators/cloud-setup/requirements.md)
     * [Cloud Guides](validators/cloud-setup/cloud-guides/README.md)
       * [Digital Ocean](validators/cloud-setup/cloud-guides/digital-ocean.md)
       * [Vultr](validators/cloud-setup/cloud-guides/vultr.md)
