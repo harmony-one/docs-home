@@ -2,7 +2,7 @@
 
 ## **Aave**
 
-Uncollateralized flash loans \(for arbitrage & market making\), leverage on interest rate swaps, diverse collaterals \(liquidity & governance tokens\)
+Uncollateralized flash loans \(for arbitrage & market making\), leverage on interest rate swaps, diverse collaterals \(liquidity & governance tokens\).
 
 ## **seeSWAP \(Balancer\)**
 
@@ -16,15 +16,31 @@ Indexed asset & exchange  incentivized liquidity pools from trading profits & au
 
 Exchange for stablecoins & wrapped tokens; minimal volatility/slippage.
 
-**Try now:** [**http://curve.demo.harmony.one/**](http://curve.demo.harmony.one/)\*\*\*\*
+**Try alpha version:** [**curve.demo.harmony.one**](http://curve.demo.harmony.one)\*\*\*\*
+
+![](../.gitbook/assets/image%20%28204%29.png)
+
+## **1earn \(Yearn\)**
+
+A liquidity aggregator with rebalancing; earn fees from staking, trading, lending, leverage, balancer, liquidation, and governance.
+
+**Try alpha version:** [**1earn.finance**](https://1earn.finance)\*\*\*\*
+
+**Join community:** [**https://harmony.one/telegram-1earn**](https://harmony.one/telegram-1earn)\*\*\*\*
 
 ![](../.gitbook/assets/image%20%28202%29.png)
 
-## **Yearn**
+## **1BTC \(wBTC\)**
 
-A liquidity aggregator of aave/compound w/ rebalancing; earn fees from staking, trading, lending, leverage, balancer, liquidation, and governance
+Wrapped HRC20 tokens w/ trusted custodians to mint/burn 1:1 backing Bitcoin at no cost, with on-chain proof of reserves.
+
+
 
 ## **Maker**
 
-Lending collateralized eth, manual market makers & liquidators using oracles to balance dai \(dollar\) vs mkr \(gold\), stability fees as interests
+Lending collateralized ONE, manual market makers & liquidators using oracles to balance 1DAI \(dollar\) vs 1MKR \(gold\), stability fees as interests.
+
+**Try alpha version:** [**maker.demo.harmony.one**](https://maker.demo.harmony.one) ****
+
+![](../.gitbook/assets/image%20%28203%29.png)
 
