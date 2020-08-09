@@ -2,15 +2,23 @@
 
 ## **Aave**
 
-Uncollateralized flash loans \(for arbitrage & market making\), 10x leverage on interest rate swaps, diverse collaterals \(liquidity & governance tokens\)
+Uncollateralized flash loans \(for arbitrage & market making\), leverage on interest rate swaps, diverse collaterals \(liquidity & governance tokens\)
 
-## **Balancer**
+## **seeSWAP \(Balancer\)**
 
-Indexed asset & exchange for mkr, rep, lend; incentivized liquidity pools from trading profits & automated market making to minimize slippage**.**
+Indexed asset & exchange  incentivized liquidity pools from trading profits & automated market making to minimize slippage**.**
+
+**Join community:** [**https://harmony.one/telegram-seeswap**](https://harmony.one/telegram-seeswap)\*\*\*\*
+
+![](../.gitbook/assets/image%20%28201%29.png)
 
 ## **Curve**
 
-Exchange for eth stablecoins \(dai usdc usdt tusd busd susd\) & wrapped btc \(renbtc wbtc sbtc\); minimal volatility/slippage, 1000x depth than uniswap
+Exchange for stablecoins & wrapped tokens; minimal volatility/slippage.
+
+**Try now:** [**http://curve.demo.harmony.one/**](http://curve.demo.harmony.one/)\*\*\*\*
+
+![](../.gitbook/assets/image%20%28202%29.png)
 
 ## **Yearn**
 
