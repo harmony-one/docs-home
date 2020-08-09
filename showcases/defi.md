@@ -8,6 +8,10 @@ Lending collateralized ONE, manual market makers & liquidators using oracles to 
 
 ![](../.gitbook/assets/image%20%28205%29.png)
 
+
+
+![](../.gitbook/assets/image%20%28205%29.png)
+
 ## **seeSWAP \(Balancer\)**
 
 Indexed asset & exchange  incentivized liquidity pools from trading profits & automated market making to minimize slippage**.**
