@@ -1,10 +1,12 @@
 # DeFi
 
-## **Aave**
+## **Maker**
 
-Uncollateralized flash loans \(for arbitrage & market making\), leverage on interest rate swaps, diverse collaterals \(liquidity & governance tokens\).
+Lending collateralized ONE, manual market makers & liquidators using oracles to balance 1DAI \(dollar\) vs 1MKR \(gold\), stability fees as interests.
 
-![](../.gitbook/assets/image%20%28203%29.png)
+**Try alpha version:** [**maker.demo.harmony.one**](https://maker.demo.harmony.one) ****
+
+![](../.gitbook/assets/image%20%28205%29.png)
 
 ## **seeSWAP \(Balancer\)**
 
@@ -38,11 +40,11 @@ Wrapped HRC20 tokens w/ trusted custodians to mint/burn 1:1 backing Bitcoin at n
 
 ![](../.gitbook/assets/image%20%28202%29.png)
 
-## **Maker**
+## **Aave**
 
-Lending collateralized ONE, manual market makers & liquidators using oracles to balance 1DAI \(dollar\) vs 1MKR \(gold\), stability fees as interests.
+Uncollateralized flash loans \(for arbitrage & market making\), leverage on interest rate swaps, diverse collaterals \(liquidity & governance tokens\).
 
-**Try alpha version:** [**maker.demo.harmony.one**](https://maker.demo.harmony.one) ****
+![](../.gitbook/assets/image%20%28203%29.png)
 
-![](../.gitbook/assets/image%20%28205%29.png)
+## \*\*\*\*
 
