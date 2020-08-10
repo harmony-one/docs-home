@@ -36,6 +36,8 @@ Note that you can make changes to your vault by depositing more ONE or withdrawi
 
 ![](../../.gitbook/assets/image%20%28213%29.png)
 
+Note that your ONE address has a balance of 1 DAI at this point. You can see this in your vault details under Wallet Balances. DAI balance cannot be viewed in chrome extension yet.
+
 ### 6. Let's close the vault. Click 'Close Vault and withdraw ONE'
 
 ![](../../.gitbook/assets/image%20%28217%29.png)
