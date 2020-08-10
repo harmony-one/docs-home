@@ -26,7 +26,7 @@ Exchange for stablecoins & wrapped tokens; minimal volatility/slippage.
 
 **Try alpha version:** [**curve.demo.harmony.one**](http://curve.demo.harmony.one)\*\*\*\*
 
-![](../../.gitbook/assets/image%20%28206%29.png)
+![](../../.gitbook/assets/image%20%28219%29.png)
 
 ## **1earn \(Yearn\)**
 
