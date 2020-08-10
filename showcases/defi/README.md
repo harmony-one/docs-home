@@ -6,6 +6,8 @@ Lending collateralized ONE, manual market makers & liquidators using oracles to 
 
 **Try alpha version:** [**maker.demo.harmony.one**](https://maker.demo.harmony.one) ****
 
+**Join community:** [**https://harmony.one/telegram-maker**](https://harmony.one/telegram-maker)\*\*\*\*
+
 
 
 ![](../../.gitbook/assets/image%20%28205%29.png)
