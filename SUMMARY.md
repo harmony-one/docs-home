@@ -199,6 +199,7 @@
   * [DEX/Swaps](showcases/dex-swaps.md)
   * [Grants](showcases/grants.md)
   * [DeFi](showcases/defi/README.md)
+    * [1EARN Demo App](showcases/defi/1earn-demo-app.md)
     * [Maker Demo steps](showcases/defi/maker-demo-steps.md)
 * [Applications](demos.md)
 * [Community/Angels](community-angels.md)
