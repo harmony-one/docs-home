@@ -11,10 +11,6 @@
 {% embed url="https://rupiahtoken.com/" %}
 {% endtab %}
 
-{% tab title="Wyre" %}
-{% embed url="https://www.sendwyre.com/" %}
-{% endtab %}
-
 {% tab title="Changelly" %}
 {% embed url="https://changelly.com/" %}
 {% endtab %}
