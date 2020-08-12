@@ -23,3 +23,5 @@ Here is a list of some cheap and reliable Cloud Providers \(August, 2020\):
 **Storage**: 30GB for Shard 0. Double the size of Shard0 for Shard 1, 2 and 3 \(August, 2020\).  
 **OS**: Latest Ubuntu Linux \(LTS Version\)
 
+Check our [Cloud Guide](https://docs.harmony.one/home/validators/cloud-setup/cloud-guides) for instructions.
+
