@@ -51,7 +51,25 @@ Make sure all your BLS keys belong to the same shard when using multiple BLS key
 
 For each BLS key file, a corresponding `<blskey>.pass` file needs to be created inside folder`.hmy/blskeys`with the passphrase inside it.
 
-## 3. Running Using Systemd
+## 3. Dump the Default Config
+
+The command below will create the default `harmony.conf` file.
+
+{% tabs %}
+{% tab title="Mainnet" %}
+```bash
+./harmony dumpconfig --network mainnet harmony.conf
+```
+{% endtab %}
+
+{% tab title="Testnet" %}
+```
+./harmony dumpconfig --network testnet harmony.conf
+```
+{% endtab %}
+{% endtabs %}
+
+## 4. Running Using Systemd
 
 {% hint style="info" %}
 On this example, we will be installing the harmony daemon for user `harmony-user` on its home directory. Daemon will be configured with the `sudo` user but it will run with `harmony-user`at the end.
