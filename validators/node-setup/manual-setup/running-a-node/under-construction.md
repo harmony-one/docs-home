@@ -73,7 +73,7 @@ The esiest way is setting up via config file. A `harmony.conf` file will be crea
 {% endtab %}
 {% endtabs %}
 
-If you want, you can make adjustments to the default configuration file yourself. By default, ports 9500 and 9800 listend to localhost \(127.0.0.1\) only.
+The content of the config file can be modified for custom node start up. By default, ports 9500 and 9800 listend to localhost \(127.0.0.1\) only.
 
 If you want, you can start the Node Binary with **CLI flags parsing only** or **CLI flag and config file combined**. For a full list of active flags as well as examples run the Node Binary with  the`--help` option:
 
@@ -152,7 +152,7 @@ sudo service harmony status
 {% endtab %}
 {% endtabs %}
 
-## Checking if the Node is Syncing
+## 5. Checking if the Node is Syncing
 
 **1.** To check if your node is syncing properly, run the below command and check that the block height is greater than 0.
 
@@ -177,20 +177,4 @@ For a complete reference of all available enpoints on both mainnet and testnet, 
 {% endhint %}
 
 **3.** Verify the blocks shown on steps 1 and 2 are closed or equals to each other.
-
-## Non-validating Nodes
-
-{% hint style="info" %}
-Non-validating nodes will not sign blocks on blockchain, thus they cannot be used for staking. They can be used though by exchanges or wallet providers to broadcast transactions, query balances, fetch transaction data using RPC interfaces, etc.
-{% endhint %}
-
-```bash
-./harmony --run=explorer --run.archive --run.shard=[shard_id]
-```
-
-{% hint style="info" %}
-`--run.archive` run node in archive mode
-
-`--run.shard int` run node on the given shard ID \(-1 automatically configured by BLS keys\) \(default -1\)
-{% endhint %}
 
