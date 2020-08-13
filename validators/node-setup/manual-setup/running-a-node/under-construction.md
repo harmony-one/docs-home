@@ -57,7 +57,7 @@ Harmony Node binary can be started with:
 2. A config file
 3. CLI flag and config file combined
 
-The esiest way is starting via config file. The command below will create the default `harmony.conf` file:
+The esiest way is setting up via config file. The command below will create the default `harmony.conf` file:
 
 {% tabs %}
 {% tab title="Mainnet" %}
