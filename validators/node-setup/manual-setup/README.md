@@ -1,4 +1,4 @@
 # Manual Setup
 
-This documentation describes all the necessary steps to run a Harmony Validator. If you chose to run it using [AutoNode](../autonode-setup/), you don't need to follow these steps.
+The Manual Setup allows you do have **full control** of the whole setup process, while many of the common validator actions will have to done manually.
 

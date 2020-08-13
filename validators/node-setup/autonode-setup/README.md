@@ -1,7 +1,7 @@
 ---
 description: >-
   AutoNode allows you to spin up a node seamlessly and automate common validator
-  actions!
+  actions.
 ---
 
 # AutoNode Setup
