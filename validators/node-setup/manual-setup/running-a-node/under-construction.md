@@ -59,18 +59,12 @@ Execute all the following commands  using the `root` user. On this example, we w
 
 Create the `harmony.service` file:
 
-{% tabs %}
-{% tab title="Ubuntu LTS" %}
 ```bash
 vi /etc/systemd/system/harmony.service
 ```
-{% endtab %}
-{% endtabs %}
 
 Add the content below to the file and save it. Change `User` to the local user you will be running the daemon and also `WorkingDirectory` to the home directory where you downloaded `node.sh` previously. Parameter `ExecStart` needs to point to this same directory.
 
-{% tabs %}
-{% tab title="Ubuntu LTS" %}
 ```bash
 [Unit]
 Description=Harmony daemon
@@ -91,8 +85,6 @@ LimitNPROC=65536
 [Install]
 WantedBy=multi-user.target
 ```
-{% endtab %}
-{% endtabs %}
 
 Give the necessary permissions to run the daemon service, enable it and start it:
 
@@ -162,11 +154,13 @@ For a complete reference of all available enpoints on both mainnet and testnet, 
 Non-validating nodes will not sign blocks on blockchain, thus they cannot be used for staking. They can be used though by exchanges or wallet providers to broadcast transactions, query balances, fetch transaction data using RPC interfaces, etc.
 {% endhint %}
 
-Use parameter `-T` to define the node type and `-i` to define the shard you want your non-validating node to work. On the example below we will be running our non-validating node on shard 0:
-
-```text
-./node.sh -S -T explorer -i 0
+```bash
+./harmony --run=explorer --run.archive --run.shard=[shard_id]
 ```
 
+{% hint style="info" %}
+`--run.archive` run node in archive mode
 
+`--run.shard int` run node on the given shard ID \(-1 automatically configured by BLS keys\) \(default -1\)
+{% endhint %}
 
