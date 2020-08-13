@@ -54,13 +54,13 @@ For each BLS key file, a corresponding `<blskey>.pass` file needs to be created 
 ## 3. Running Using Systemd
 
 {% hint style="info" %}
-Execute all the following commands  using the `root` user. On this example, we will be installing the harmony daemon for user `harmony-user` on its home directory. Daemon will be configured with the `root` user but it will run with `harmony-user`at the end.
+On this example, we will be installing the harmony daemon for user `harmony-user` on its home directory. Daemon will be configured with the `sudo` user but it will run with `harmony-user`at the end.
 {% endhint %}
 
 Create the `harmony.service` file:
 
 ```bash
-vi /etc/systemd/system/harmony.service
+sudo vi /etc/systemd/system/harmony.service
 ```
 
 Add the content below to the file and save it. Change `User` to the local user you will be running the daemon and also `WorkingDirectory` to the home directory where you downloaded `node.sh` previously. Parameter `ExecStart` needs to point to this same directory.
@@ -89,9 +89,9 @@ WantedBy=multi-user.target
 Give the necessary permissions to run the daemon service, enable it and start it:
 
 ```bash
-chmod 755 /etc/systemd/system/harmony.service
-systemctl enable harmony.service
-service harmony start
+sudo chmod 755 /etc/systemd/system/harmony.service
+sudo systemctl enable harmony.service
+sudo service harmony start
 ```
 
 You can **stop**, **start**, **restart** or get the **status** of the harmony service running the commands below:
