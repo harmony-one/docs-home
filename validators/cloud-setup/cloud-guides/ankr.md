@@ -7,7 +7,7 @@ description: 'To launch your Ankr validator node, follow the steps below.'
 {% hint style="danger" %}
 Ankr is **not optimized for mainnet** yet. We will update this notification once the necessary upgrades have been completed.  
 ****  
-**Use "**[**First Time Setup**](../../first-time-setup/)**" to spin up your validator node!**  
+**Use "**[**First Time Setup**](../../node-setup/manual-setup/)**" to spin up your validator node!**  
 {% endhint %}
 
 ## Deploying a Harmony Node on Ankr

@@ -10,7 +10,7 @@
 
 {% page-ref page="seeing-stakers.md" %}
 
-{% page-ref page="../autonode/collect-rewards.md" %}
+{% page-ref page="../node-setup/autonode-setup/collect-rewards.md" %}
 
 {% page-ref page="adding-a-validator-logo.md" %}
 

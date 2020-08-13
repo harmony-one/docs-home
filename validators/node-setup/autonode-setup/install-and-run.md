@@ -8,7 +8,7 @@ description: Quick start to running a Harmony Validator
 All commands for `auto-node` have a help message that describes its usage. Just append `--help` to the command you wish to learn more about. For example: `auto-node --help.`
 {% endhint %}
 
-### **Step 1:** Spin up your instance on [AWS](../cloud-setup/cloud-guides/aws.md) or [other providers](https://docs.harmony.one/home/validators/first-time-setup/cloud-guides)
+### **Step 1:** Spin up your instance on [AWS](../../cloud-setup/cloud-guides/aws.md) or [other providers](https://docs.harmony.one/home/validators/first-time-setup/cloud-guides)
 
 > It is recommended to go with Ubuntu 18+ or Red Hat Enterprise Linux 8+ as your operating system.
 

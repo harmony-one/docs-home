@@ -4,7 +4,7 @@ description: >-
   actions!
 ---
 
-# AutoNode
+# AutoNode Setup
 
 ## **Sections:**
 

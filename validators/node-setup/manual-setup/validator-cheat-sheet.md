@@ -12,7 +12,7 @@ If you are new to setting up Validators, start [here](validator-cheat-sheet.md).
 ssh -i [KEY].pem [SSH ADDRESS]
 ```
 
-![AWS Connect Example](../../.gitbook/assets/image%20%2822%29.png)
+![AWS Connect Example](../../../.gitbook/assets/image%20%2822%29.png)
 
 2. Install `tmux`, if your Linux distribution does not come with it.
 

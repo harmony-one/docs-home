@@ -24,7 +24,7 @@ View an overview of your validator and node with a text-based user interface. Yo
 auto-node tui run
 ```
 
-![Sample of TUI](../../.gitbook/assets/image%20%2887%29.png)
+![Sample of TUI](../../../.gitbook/assets/image%20%2887%29.png)
 
 ### 3\) Harmony Node
 

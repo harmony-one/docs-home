@@ -12,15 +12,15 @@ Harmony’s Effective Proof-of-Stake \(EPoS\) is the first staking mechanism in 
 
 {% page-ref page="cloud-setup/" %}
 
-{% page-ref page="autonode/" %}
+{% page-ref page="node-setup/autonode-setup/" %}
 
-{% page-ref page="first-time-setup/" %}
+{% page-ref page="node-setup/manual-setup/" %}
 
 {% page-ref page="managing-your-validator/" %}
 
 {% page-ref page="staking-dashboard.md" %}
 
-{% page-ref page="first-time-setup/validator-cheat-sheet.md" %}
+{% page-ref page="node-setup/manual-setup/validator-cheat-sheet.md" %}
 
 {% page-ref page="validator-troubleshooting/" %}
 
