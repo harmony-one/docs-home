@@ -1,5 +1,7 @@
 # Managing Your Validator
 
+You can interact with your validator directly via HMY CLI. Check the links below for more information on how to do this.
+
 {% page-ref page="checking-validator-information.md" %}
 
 {% page-ref page="changing-validator-information.md" %}
