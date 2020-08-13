@@ -9,6 +9,7 @@
       * [Sign In With Ledger](wallets/ledger/using-with-staking-dashboard/sign-in-with-ledger.md)
       * [Sending transactions via Ledger](wallets/ledger/using-with-staking-dashboard/send-tx.md)
       * [Staking Transactions via Ledger](wallets/ledger/using-with-staking-dashboard/sign-delegation.md)
+  * [ONE Wallet](wallets/one-wallet.md)
   * [Math Wallet](wallets/mathwallet/README.md)
     * [Download & Setup](wallets/mathwallet/download-and-setup.md)
     * [Create/Import/Export Wallet](wallets/mathwallet/create-import-wallet.md)
