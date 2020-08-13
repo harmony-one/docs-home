@@ -87,7 +87,7 @@ Example output:
 ```
 
 {% hint style="warning" %}
-If you do not wish to participate anymore, you can turn your validator inactive using an [Edit Validator transaction](https://docs.harmony.one/home/validators/managing-your-validator/changing-validator-information) with`--active false.`
+If you do not wish to participate anymore, you can turn your validator inactive using an [Edit Validator transaction](../../managing-your-validator/changing-validator-information.md) with`--active false.`
 {% endhint %}
 
 ## Checking Validator Information <a id="checking-validator-information"></a>
@@ -181,6 +181,6 @@ Example output:
 {% hint style="warning" %}
 If your validator has signed less than 66% of the blocks in an epoch, it will be removed from the pool of eligible validators.
 
-In order to be included in the pool again, you will have to use send an [Edit Validator transaction](creating-a-validator.md) with `--active true`.
+In order to be included in the pool again, you will have to use send an [Edit Validator transaction](../../managing-your-validator/changing-validator-information.md) with `--active true`.
 {% endhint %}
 
