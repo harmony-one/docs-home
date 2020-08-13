@@ -19,7 +19,7 @@ As per instructions on the [cloud guides](../../../cloud-setup/cloud-guides/), t
 
 The 9500, 9800 ports are only listened by localhost 127.0.0.1 by default. If it is required for the host to accept external links, the `-P` command line option can be specified in `node.sh` to listen to a public IP. Be careful opening these two ports to the internet!
 
-## Downloading node.sh
+## 1. Downloading node.sh
 
 Run the following command to download the node.sh script:
 
@@ -27,15 +27,15 @@ Run the following command to download the node.sh script:
 curl -LO https://harmony.one/node.sh && chmod a+x node.sh
 ```
 
-## Configuring the BLS keys
+## 2.Configuring the BLS keys
 
-**1.** You need to manually create a folder called `.hmy/blskeys`:
+You need to manually create a folder called `.hmy/blskeys`:
 
 ```bash
 mkdir -p .hmy/blskeys
 ```
 
-**2.** Copy all the [previously created BLS key\(s\)](https://docs.harmony.one/home/validators/first-time-setup/generating-a-bls-key) to this new folder:
+Copy all the [previously created BLS key\(s\)](https://docs.harmony.one/home/validators/first-time-setup/generating-a-bls-key) to this new folder:
 
 ```bash
 cp *.key .hmy/blskeys
@@ -49,13 +49,9 @@ Make sure all your BLS keys belong to the same shard when using multiple BLS key
 ./hmy --node="https://api.s0.t.hmny.io" utility shard-for-bls [BLS PUBLIC KEY]
 ```
 
-**3.** For each BLS key file, a corresponding `<blskey>.pass` file needs to be created inside folder`.hmy/blskeys`with the passphrase inside it.
+For each BLS key file, a corresponding `<blskey>.pass` file needs to be created inside folder`.hmy/blskeys`with the passphrase inside it.
 
-{% hint style="warning" %}
-For any `.key` if no passphrase file is available, it will use the default specified when running the node e.g., `./node.sh -p blspass.txt`
-{% endhint %}
-
-## Running Using Systemd
+## 3. Running Using Systemd
 
 {% hint style="info" %}
 Execute all the following commands  using the `root` user. On this example, we will be installing the harmony daemon for user `harmony-user` on its home directory. Daemon will be configured with the `root` user but it will run with `harmony-user`at the end.
