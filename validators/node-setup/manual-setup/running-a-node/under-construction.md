@@ -17,9 +17,7 @@ As per instructions on the [cloud guides](../../../cloud-setup/cloud-guides/), t
 * 9500 port is used for SDK RPC service \(base port + 500\)
 * 9800 port is used for Websocket service \(base port + 800\)
 
-The 9500, 9800 ports are only listened by localhost 127.0.0.1 by default. If it is required for the host to accept external links, the `-P` command line option can be specified in `node.sh` to listen to a public IP. Be careful opening these two ports to the internet!
-
-## 1. Downloading node.sh
+## 1. Downloading Node.sh
 
 Run the following command to download the node.sh script:
 
@@ -27,7 +25,7 @@ Run the following command to download the node.sh script:
 curl -LO https://harmony.one/node.sh && chmod a+x node.sh
 ```
 
-## 2.Configuring the BLS keys
+## 2.Configuring the BLS Keys
 
 You need to manually create a folder called `.hmy/blskeys`:
 
@@ -51,9 +49,15 @@ Make sure all your BLS keys belong to the same shard when using multiple BLS key
 
 For each BLS key file, a corresponding `<blskey>.pass` file needs to be created inside folder`.hmy/blskeys`with the passphrase inside it.
 
-## 3. Dump the Default Config
+## 3. Configuring the Node Binary
 
-The command below will create the default `harmony.conf` file.
+Harmony Node binary can be started with:
+
+1. CLI flags parsing
+2. A config file
+3. CLI flag and config file combined
+
+The esiest way is starting via config file. The command below will create the default `harmony.conf` file:
 
 {% tabs %}
 {% tab title="Mainnet" %}
@@ -68,6 +72,14 @@ The command below will create the default `harmony.conf` file.
 ```
 {% endtab %}
 {% endtabs %}
+
+If you want, you can make adjustments to the default configuration file yourself. By default, ports 9500 and 9800 listend to localhost \(127.0.0.1\) only.
+
+If you want, you can start the Node Binary with **CLI flags parsing only** or **CLI flag and config file combined**. For a full list of active flags as well as examples run the Node Binary with  the`--help` option:
+
+```bash
+./harmony --help
+```
 
 ## 4. Running Using Systemd
 
