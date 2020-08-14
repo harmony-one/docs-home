@@ -6,6 +6,8 @@ description: >-
 
 # Using AutoNode
 
+To configure AutoNode proceed to the sections below:
+
 {% page-ref page="update.md" %}
 
 {% page-ref page="install-and-run.md" %}
