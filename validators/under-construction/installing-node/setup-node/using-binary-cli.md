@@ -219,7 +219,7 @@ Harmony node binary is able to start with options provided by the config file:
 
 The values stored in config file will be read and parsed to harmony as node start options.
 
-### 3. Setup \(Using CLI Flags Parsing and a Config file combined\)
+### 1.3. Setup \(Using CLI Flags Parsing and a Config file combined\)
 
 If both config file and flag is provided, the node option stored in config file will be override by the values given in flag.
 
@@ -245,5 +245,5 @@ In this case, the command line flags will override the settings in config file a
 curl: (7) Failed to connect to localhost port 9500: Connection refused
 ```
 
-## 2. Setup Systemd Service
+
 
