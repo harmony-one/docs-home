@@ -1,4 +1,4 @@
-# Setup Node
+# 1. Setup Node
 
 {% page-ref page="using-binary-cli.md" %}
 
