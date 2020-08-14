@@ -170,6 +170,12 @@ If you want to check the status of the daemon you can use:
 sudo service harmony status
 ```
 
+To check the version that is running use:
+
+```bash
+./hmy utility metadata
+```
+
 To restart, or stop the service daemon you can run:
 
 {% tabs %}

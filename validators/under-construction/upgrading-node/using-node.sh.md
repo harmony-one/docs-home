@@ -48,3 +48,9 @@ Check the Binary CLI and node.sh version that was downloaded:
 sudo service harmony restart
 ```
 
+To check the version that is running use:
+
+```bash
+./hmy utility metadata
+```
+
