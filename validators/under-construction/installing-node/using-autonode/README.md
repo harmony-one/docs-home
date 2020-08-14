@@ -6,9 +6,9 @@ description: >-
 
 # Using AutoNode
 
-{% page-ref page="update.md" %}
-
 {% page-ref page="install-and-run.md" %}
+
+{% page-ref page="update.md" %}
 
 {% page-ref page="monitor.md" %}
 
