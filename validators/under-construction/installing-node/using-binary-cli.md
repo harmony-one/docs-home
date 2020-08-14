@@ -128,7 +128,122 @@ All the start options can be persisted and loaded from a single config file. To 
 {% endtab %}
 {% endtabs %}
 
+A file `harmony.conf` is created and the default node options are set in the file in TOML formatting. Here is an example:
+
+```text
+Version = "1.0.0"
+
+[BLSKeys]
+  KMSConfigFile = ""
+  KMSConfigSrcType = "shared"
+  KMSEnabled = true
+  KeyDir = "./.hmy/blskeys"
+  KeyFiles = []
+  MaxKeys = 10
+  PassEnabled = true
+  PassFile = ""
+  PassSrcType = "auto"
+  SavePassphrase = false
+
+[General]
+  DataDir = "./"
+  IsArchival = false
+  NoStaking = false
+  NodeType = "validator"
+  ShardID = -1
+
+[HTTP]
+  Enabled = true
+  IP = "127.0.0.1"
+  Port = 9500
+
+[Log]
+  FileName = "harmony.log"
+  Folder = "./latest"
+  RotateSize = 100
+  Verbosity = 3
+
+[Network]
+  BootNodes = ["/ip4/100.26.90.187/tcp/9874/p2p/Qmdfjtk6hPoyrH1zVD9PEH4zfWLo38dP2mDvvKXfh3tnEv","/ip4/54.213.43.194/tcp/9874/p2p/QmZJJx6AdaoEkGLrYG4JeLCKeCKDjnFz2wfHNHxAqFSGA9","/ip4/13.113.101.219/tcp/12019/p2p/QmQayinFSgMMw5cSpDUiD9pQ2WeP6WNmGxpZ6ou3mdVFJX","/ip4/99.81.170.167/tcp/12019/p2p/QmRVbTpEYup8dSaURZfF6ByrMTSKa4UyUzJhSjahFzRqNj"]
+  DNSPort = 9000
+  DNSZone = "t.hmny.io"
+  LegacySyncing = false
+  NetworkType = "mainnet"
+
+[P2P]
+  KeyFile = "./.hmykey"
+  Port = 9000
+
+[Pprof]
+  Enabled = false
+  ListenAddr = "127.0.0.1:6060"
+
+[TxPool]
+  BlacklistFile = "./.hmy/blacklist.txt"
+
+[WS]
+  Enabled = true
+  IP = "127.0.0.1"
+  Port = 9800
+```
+
+The content of the config file can be modified for custom node start up command.
+
+For example, to open the public HTTP RPCs, change the field `IP` under `[HTTP]` tag to `"0.0.0.0"`:
+
+```text
+[HTTP]
+  Enabled = true
+  IP = "0.0.0.0"
+  Port = 9500
+```
+
+To run harmony internal nodes under legacy mode instead of staking mode, change the field `NoStaking` under `[General]` tag to `true`:
+
+```text
+[General]
+  DataDir = "./"
+  IsArchival = false
+  NoStaking = true
+  NodeType = "validator"
+  ShardID = -1
+```
+
+#### 1.2.3 Start the node with Config File
+
+Harmony node binary is able to start with options provided by the config file:
+
+```text
+./harmony -c harmony.conf
+```
+
+The values stored in config file will be read and parsed to harmony as node start options.
+
 ### 3. Setup \(Using CLI Flags Parsing and a Config file combined\)
+
+If both config file and flag is provided, the node option stored in config file will be override by the values given in flag.
+
+For example, In config file `harmony.conf`, HTTP server is enabled, and is open to public:
+
+```text
+[HTTP]
+  Enabled = true
+  IP = "0.0.0.0"
+  Port = 9500
+```
+
+And a flag is also provided during the node start command to disable the HTTP server:
+
+```text
+./harmony -c harmony.conf --http=false
+```
+
+In this case, the command line flags will override the settings in config file and thus the HTTP server is disabled.
+
+```text
+> curl localhost:9500
+curl: (7) Failed to connect to localhost port 9500: Connection refused
+```
 
 ## 2. Setup Systemd Service
 
