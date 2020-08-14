@@ -1,4 +1,4 @@
-# Upgrading Node
+# Updating Node
 
 There are three ways of upgrading the Node:
 
