@@ -17,39 +17,27 @@ As per instructions on the [cloud guides](../../../cloud-setup/cloud-guides/), t
 * 9500 port is used for SDK RPC service \(base port + 500\)
 * 9800 port is used for Websocket service \(base port + 800\)
 
-## 1. Downloading Node.sh
+## 1. Downloading Files
 
-Run the following command to download the node.sh script:
+Download the latest `node.sh` file:
 
 ```bash
 curl -LO https://harmony.one/node.sh && chmod a+x node.sh
 ```
 
-## 2.Configuring the BLS Keys
-
-You need to manually create a folder called `.hmy/blskeys`:
+Download the binary files into the `staging` folder:
 
 ```bash
-mkdir -p .hmy/blskeys
+./node.sh -d
 ```
 
-Copy all the [previously created BLS key\(s\)](https://docs.harmony.one/home/validators/first-time-setup/generating-a-bls-key) to this new folder:
+Move files from `staging` folder to current folder:
 
 ```bash
-cp *.key .hmy/blskeys
+mv staging/* ./
 ```
 
-{% hint style="warning" %}
-Make sure all your BLS keys belong to the same shard when using multiple BLS keys. You can use the command below to check each one of them.
-{% endhint %}
-
-```bash
-./hmy --node="https://api.s0.t.hmny.io" utility shard-for-bls [BLS PUBLIC KEY]
-```
-
-For each BLS key file, a corresponding `<blskey>.pass` file needs to be created inside folder`.hmy/blskeys`with the passphrase inside it.
-
-## 3. Configuring the Node Binary
+## 2. Configuring the Node Binary
 
 Harmony Node binary can be started with:
 
@@ -81,7 +69,7 @@ If you want, you can start the Node Binary with **CLI flags parsing only** or **
 ./harmony --help
 ```
 
-## 4. Running Using Systemd
+## 3. Running Using Systemd
 
 {% hint style="info" %}
 On this example, we will be installing the harmony daemon for user `harmony-user` on its home directory. Daemon will be configured with the `sudo` user but it will run with `harmony-user`at the end.
@@ -152,7 +140,7 @@ sudo service harmony status
 {% endtab %}
 {% endtabs %}
 
-## 5. Checking if the Node is Syncing
+## 4. Checking if the Node is Syncing
 
 **1.** To check if your node is syncing properly, run the below command and check that the block height is greater than 0.
 
