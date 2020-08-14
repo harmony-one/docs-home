@@ -48,9 +48,3 @@ Desktop wallet with staking to delegate/undelegate and claim rewards.
 
 ![](../.gitbook/assets/staking4all-tweet.png)
 
-## Harmony-Insights
-
-Harmony dashboard aggregating on-chain and off-chain data for easy exploration and visualization.
-
-![](../.gitbook/assets/mitchell-insight.png)
-
