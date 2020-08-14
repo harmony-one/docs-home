@@ -15,6 +15,13 @@ curl -LO https://harmony.one/node.sh && chmod +x node.sh
 ./node.sh -d && mv staging/* ./
 ```
 
+Check the Binary CLI and node.sh version that was downloaded:
+
+```text
+./harmony -V
+./node.sh -v
+```
+
 ## 2. Setup Node.sh
 
 You can run your the node using flags parsing:
