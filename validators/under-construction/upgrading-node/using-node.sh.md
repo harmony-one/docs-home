@@ -1,9 +1,5 @@
 # Using Node.sh
 
-{% hint style="warning" %}
-This option will be **deprecated** and is **not recommended** anymore. Please setup your node [Using Binary CLI](../installing-node/using-binary-cli.md) or [Using AutoNode](../installing-node/using-autonode/) and use the upgrade tutorials accordingly.
-{% endhint %}
-
 ## 1. Stop Systemd Service
 
 ```bash
@@ -25,8 +21,6 @@ cp {node.sh,harmony} backup
 ```
 
 ## Download Node.sh
-
-Before we proceed to next steps we need to download `node.sh` , extract files into the `staging` folder and then move them into the previous folder:
 
 ```bash
 curl -LO https://harmony.one/node.sh && chmod a+x node.sh
