@@ -8,7 +8,7 @@ description: Run the latest AutoNode!
 
 AutoNode will quickly check for an update on each execution of the `auto-node` command. If there is an update you will see the following message:
 
-![](../../../../.gitbook/assets/image%20%28192%29.png)
+![](../../../../../.gitbook/assets/image%20%28192%29.png)
 
 ## Updating AutoNode
 
