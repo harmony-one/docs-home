@@ -8,9 +8,15 @@ Before we proceed to next steps we need to download the Binary CLI first:
 curl -LO https://harmony.one/binary && mv binary harmony && chmod a+x harmony
 ```
 
+Check the Binary CLI version that was downloaded:
+
+```text
+./harmony -V
+```
+
 The node can be setup using three different options. You **can choose** the option that fits you better:
 
-### 1.1 Setup \(Using CLI Flags Parsing\)
+### Option 1: Setup Using CLI Flags Parsing
 
 You can run your Node Binary using CLI Flags Parsing:
 
@@ -28,7 +34,7 @@ You can run your Node Binary using CLI Flags Parsing:
 {% endtab %}
 {% endtabs %}
 
-A full list of active flags as well as examples can be access through running binary with `--help` option:
+A full list of active flags as well as examples can be accessed through running the binary with `--help` option:
 
 ```text
 ./harmony --help
@@ -104,7 +110,7 @@ Flags:
 Use "harmony [command] --help" for more information about a command.
 ```
 
-### 1.2 Setup \(Using Config File\)
+### Option 2: Setup Using Config File
 
 All the start options can be persisted and loaded from a single config file. To start a node, the following steps are also available**:**
 
@@ -112,7 +118,7 @@ All the start options can be persisted and loaded from a single config file. To 
 2. Customize the config file.
 3. Run harmony node with the config file.
 
-#### 1.2.1 Dump the Default Config File
+####  Dump the Default Config File
 
 {% tabs %}
 {% tab title="Mainnet" %}
@@ -217,11 +223,13 @@ Harmony node binary is able to start with options provided by the config file:
 ./harmony -c harmony.conf
 ```
 
-The values stored in config file will be read and parsed to harmony as node start options.
+The values stored in the config file will be read and parsed to harmony as node start options.
 
-### 1.3. Setup \(Using CLI Flags Parsing and a Config file combined\)
+### Option 3: Setup Using CLI Flags Parsing and a Config file combined
 
+{% hint style="info" %}
 If both config file and flag is provided, the node option stored in config file will be override by the values given in flag.
+{% endhint %}
 
 For example, In config file `harmony.conf`, HTTP server is enabled, and is open to public:
 
@@ -238,7 +246,7 @@ And a flag is also provided during the node start command to disable the HTTP se
 ./harmony -c harmony.conf --http=false
 ```
 
-In this case, the command line flags will override the settings in config file and thus the HTTP server is disabled.
+In this case, the command line flags will override the settings in the config file and thus the HTTP server is disabled.
 
 ```text
 > curl localhost:9500
