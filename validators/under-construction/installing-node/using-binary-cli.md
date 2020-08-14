@@ -21,12 +21,6 @@ You can run your Node Binary using CLI Flags Parsing:
 ```
 {% endtab %}
 
-{% tab title="" %}
-```
-
-```
-{% endtab %}
-
 {% tab title="Testnet" %}
 ```
 ./harmony --network testnet
@@ -34,7 +28,7 @@ You can run your Node Binary using CLI Flags Parsing:
 {% endtab %}
 {% endtabs %}
 
-A full list of active flags as well as examples can be accessed through running the binary with `--help` option:
+A full list of active flags as well as examples can be access through running binary with `--help` option:
 
 ```text
 ./harmony --help
@@ -223,13 +217,11 @@ Harmony node binary is able to start with options provided by the config file:
 ./harmony -c harmony.conf
 ```
 
-The values stored in the config file will be read and parsed to harmony as node start options.
+The values stored in config file will be read and parsed to harmony as node start options.
 
 ### 1.3. Setup \(Using CLI Flags Parsing and a Config file combined\)
 
-{% hint style="info" %}
 If both config file and flag is provided, the node option stored in config file will be override by the values given in flag.
-{% endhint %}
 
 For example, In config file `harmony.conf`, HTTP server is enabled, and is open to public:
 
@@ -246,7 +238,7 @@ And a flag is also provided during the node start command to disable the HTTP se
 ./harmony -c harmony.conf --http=false
 ```
 
-In this case, the command line flags will override the settings in the config file and thus the HTTP server is disabled.
+In this case, the command line flags will override the settings in config file and thus the HTTP server is disabled.
 
 ```text
 > curl localhost:9500

@@ -122,7 +122,7 @@ Create the `harmony.service` file:
 sudo vi /etc/systemd/system/harmony.service
 ```
 
-Add the content below to the file and save it. Change `User` to the local user you will be running the daemon and also `WorkingDirectory` to the home directory where you downloaded the harmony binary file previously. Parameter `ExecStart` needs to point to this same directory. On the example below we will be running node.sh using the `harmony.conf` file.
+Add the content below to the file and save it. Change `User` to the local user you will be running the daemon and also `WorkingDirectory` to the home directory where you downloaded the harmony binary file previously. Parameter `ExecStart` needs to point to this same directory. On the example below we will be running `node.sh` using parameters `-S` and `-z`.
 
 ```bash
 [Unit]
