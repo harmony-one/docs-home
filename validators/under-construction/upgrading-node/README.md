@@ -1,6 +1,6 @@
 # Updating Node
 
-There are three ways of upgrading the Node:
+There are three ways of updating the Node:
 
 * [Using Binary CLI](../installing-node/using-binary-cli.md) \(**recommended**\): Binary CLI allows you to have full control of all the node configuration settings. Node configuration with this option is manual.
 * [Using AutoNode](using-autonode.md) \(**recommended**\): AutoNode allows you to spin up a node seamlessly and automate common validator actions. Node configuration with this option is automated.
