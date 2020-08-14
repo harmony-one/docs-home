@@ -6,8 +6,6 @@ This option will be **deprecated** and is **not recommended** anymore. Please se
 
 ## 1. Download Node.sh
 
-Before we proceed to next steps we need to download `node.sh` , extract files into the `staging` folder and then move them into the previous folder:
-
 ```bash
 curl -LO https://harmony.one/node.sh && chmod a+x node.sh
 ./node.sh -d && mv staging/* ./
@@ -124,7 +122,7 @@ Create the `harmony.service` file:
 sudo vi /etc/systemd/system/harmony.service
 ```
 
-Add the content below to the file and save it. Change `User` to the local user you will be running the daemon and also `WorkingDirectory` to the home directory where you downloaded the harmony binary file previously. Parameter `ExecStart` needs to point to this same directory. On the example below we will be running `node.sh` using parameters `-S` and `-z`.
+Add the content below to the file and save it. Change `User` to the local user you will be running the daemon and also `WorkingDirectory` to the home directory where you downloaded the harmony binary file previously. Parameter `ExecStart` needs to point to this same directory. On the example below we will be running node.sh using the `harmony.conf` file.
 
 ```bash
 [Unit]
