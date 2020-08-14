@@ -114,6 +114,7 @@
         * [Troubleshoot](validators/under-construction/installing-node/using-autonode/troubleshoot.md)
         * [Extra](validators/under-construction/installing-node/using-autonode/extra.md)
       * [Using Node.sh](validators/under-construction/installing-node/using-node.sh.md)
+      * [Using Tmux + Binary CLI](validators/under-construction/installing-node/using-tmux-+-binary-cli.md)
     * [Updating Node](validators/under-construction/upgrading-node/README.md)
       * [Using Binary CLI](validators/under-construction/upgrading-node/using-binary-cli.md)
       * [Using AutoNode](validators/under-construction/upgrading-node/using-autonode.md)
