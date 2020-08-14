@@ -3,7 +3,7 @@
 {% hint style="warning" %}
 This option will be **deprecated** and is **not recommended** anymore. Please setup your node [Using Binary CLI](using-binary-cli.md) or [Using AutoNode](using-autonode/).
 
-If you are still using **Tmux** to run your node, migrate as soon as possible! We don't recommend running via Tmux anymore since the node now requires some special server configurations that are better loaded via system.
+If you are still using **Tmux** to run your node or running  **node.sh via Systemd**, we recommend that you migrate as soon as possible to one of the options mentioned above.
 {% endhint %}
 
 ## 1. Download Node.sh
