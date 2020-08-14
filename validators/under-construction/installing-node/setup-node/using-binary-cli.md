@@ -8,7 +8,7 @@ Before we proceed to next steps we need to download the Binary CLI first:
 curl -LO https://harmony.one/binary && mv binary harmony && chmod a+x harmony
 ```
 
-The node can be setup using three different options. You can choose the option that fits you better:
+The node can be setup using three different options. You **can choose** the option that fits you better:
 
 ### 1.1 Setup \(Using CLI Flags Parsing\)
 
@@ -219,7 +219,7 @@ Harmony node binary is able to start with options provided by the config file:
 
 The values stored in config file will be read and parsed to harmony as node start options.
 
-### 3. Setup \(Using CLI Flags Parsing and a Config file combined\)
+### 1.3. Setup \(Using CLI Flags Parsing and a Config file combined\)
 
 If both config file and flag is provided, the node option stored in config file will be override by the values given in flag.
 
@@ -245,5 +245,68 @@ In this case, the command line flags will override the settings in config file a
 curl: (7) Failed to connect to localhost port 9500: Connection refused
 ```
 
-## 2. Setup Systemd Service
+## 2. Setup Systemd
+
+{% hint style="info" %}
+On this example, we will be installing the harmony daemon for user `harmony` on its home directory. Daemon will be configured with `sudo`but it will run with the `harmony`user at the end.
+{% endhint %}
+
+Create the `harmony.service` file:
+
+```bash
+sudo vi /etc/systemd/system/harmony.service
+```
+
+Add the content below to the file and save it. Change `User` to the local user you will be running the daemon and also `WorkingDirectory` to the home directory where you downloaded the harmony binary file previously. Parameter `ExecStart` needs to point to this same directory. On the example below we will be running the harmony binary using the `harmony.conf` file.
+
+```bash
+[Unit]
+Description=Harmony daemon
+After=network-online.target
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=harmony-user
+WorkingDirectory=/home/harmony-user
+ExecStart=/home/harmony-user/harmony -c harmony.conf
+SyslogIdentifier=harmony
+StartLimitInterval=0
+LimitNOFILE=65536
+LimitNPROC=65536
+
+[Install]
+WantedBy=multi-user.target
+```
+
+Give the necessary permissions to run the daemon service, enable it and start it:
+
+```bash
+sudo chmod 755 /etc/systemd/system/harmony.service
+sudo systemctl enable harmony.service
+sudo service harmony start
+```
+
+If you want to check the status of the daemon you can use:
+
+```bash
+sudo service harmony status
+```
+
+To restart, or stop the service daemon you can run:
+
+{% tabs %}
+{% tab title="Restart" %}
+```bash
+sudo service harmony restart
+```
+{% endtab %}
+
+{% tab title="Stop" %}
+```
+sudo service harmony stop
+```
+{% endtab %}
+{% endtabs %}
 
