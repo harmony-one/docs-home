@@ -72,7 +72,7 @@
       * [Extra](validators/node-setup/autonode-setup/extra.md)
     * [Manual Setup](validators/node-setup/manual-setup/README.md)
       * [HMY CLI Download](validators/node-setup/manual-setup/hmy-cli-download.md)
-      * [Generating A BLS Key](validators/node-setup/manual-setup/generating-a-bls-key.md)
+      * [Setting up BLS Keys](validators/node-setup/manual-setup/generating-a-bls-key.md)
       * [Syncing with Rclone](validators/node-setup/manual-setup/using-rclone.md)
       * [Running a Node](validators/node-setup/manual-setup/running-a-node/README.md)
         * [Under Construction](validators/node-setup/manual-setup/running-a-node/under-construction.md)
