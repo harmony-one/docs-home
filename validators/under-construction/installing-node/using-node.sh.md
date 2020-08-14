@@ -167,5 +167,11 @@ To restart, or stop the service daemon you can run:
 sudo service harmony restart
 ```
 {% endtab %}
+
+{% tab title="Stop" %}
+```
+sudo service harmony stop
+```
+{% endtab %}
 {% endtabs %}
 
