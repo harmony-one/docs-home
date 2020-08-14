@@ -2,7 +2,7 @@
 
 ## 1. Backup Files
 
-Backup Node Binary file. Change ".bkp1" accordingly to the backup you are doing.
+Backup Node Binary file. Change "`harmony.bkp1`" accordingly to the backup number you are doing:
 
 ```bash
 mkdir -p backups
