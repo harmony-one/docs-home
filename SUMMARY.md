@@ -118,7 +118,6 @@
       * [Using Binary CLI](validators/under-construction/upgrading-node/using-binary-cli.md)
       * [Using AutoNode](validators/under-construction/upgrading-node/using-autonode.md)
       * [Using Node.sh](validators/under-construction/upgrading-node/using-node.sh.md)
-      * [Using Tmux](validators/under-construction/upgrading-node/using-tmux.md)
 * [Developers](developers/README.md)
   * [Which ONE are you?](developers/which-one-are-you.md)
   * [SDK](developers/sdk.md)
