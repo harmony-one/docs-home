@@ -108,7 +108,7 @@
         * [Install & Run](validators/under-construction/installing-node/using-autonode/install-and-run.md)
         * [Update](validators/under-construction/installing-node/using-autonode/update.md)
         * [Monitor](validators/under-construction/installing-node/using-autonode/monitor.md)
-        * [BLS key Management](validators/under-construction/installing-node/using-autonode/bls-key-management.md)
+        * [BLS Key Management](validators/under-construction/installing-node/using-autonode/bls-key-management.md)
         * [Collect Rewards](validators/under-construction/installing-node/using-autonode/collect-rewards.md)
         * [Maintenance](validators/under-construction/installing-node/using-autonode/maintenance.md)
         * [Troubleshoot](validators/under-construction/installing-node/using-autonode/troubleshoot.md)

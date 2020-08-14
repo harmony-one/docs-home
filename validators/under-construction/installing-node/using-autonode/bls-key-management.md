@@ -2,7 +2,7 @@
 description: Manage & re-use your BLS keys.
 ---
 
-# BLS key Management
+# BLS Key Management
 
 {% hint style="danger" %}
 Currently, _all_ BLS keys **MUST** have the same passphrase. A feature to improve this is in the works.
