@@ -8,9 +8,9 @@ Before we proceed to next steps we need to download the Binary CLI first:
 curl -LO https://harmony.one/binary && mv binary harmony && chmod a+x harmony
 ```
 
-The Harmony Binary CLI can be setup using three different options. You can choose the option that fits you better.
+The node can be setup using three different options. You can choose the option that fits you better:
 
-### 1. Setup \(Using CLI Flags Parsing\)
+### 1.1 Setup \(Using CLI Flags Parsing\)
 
 You can run your Node Binary using CLI Flags Parsing:
 
@@ -104,7 +104,29 @@ Flags:
 Use "harmony [command] --help" for more information about a command.
 ```
 
-### 2. Setup \(Using Config file\)
+### 1.2 Setup \(Using Config File\)
+
+All the start options can be persisted and loaded from a single config file. To start a node, the following steps are also available**:**
+
+1. Dump the default config.
+2. Customize the config file.
+3. Run harmony node with the config file.
+
+#### 1.2.1 Dump the Default Config File
+
+{% tabs %}
+{% tab title="Mainnet" %}
+```bash
+./harmony dumpconfig harmony.conf
+```
+{% endtab %}
+
+{% tab title="Testnet" %}
+```
+./harmony dumpconfig --network testnet harmony.conf
+```
+{% endtab %}
+{% endtabs %}
 
 ### 3. Setup \(Using CLI Flags Parsing and a Config file combined\)
 
