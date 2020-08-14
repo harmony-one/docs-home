@@ -2,15 +2,17 @@
 
 ## 1. Backup Files
 
-Backup Node Binary file. Change "`harmony.bkp1`" accordingly to the backup number you are doing:
+Create a folder called "`backup`" in case it does not exist:
 
 ```bash
-mkdir -p backups
-cp harmony backups
-mv backups/harmony backups/harmony.bkp1
+mkdir -p backup
 ```
 
-The commands above will create a new folder called "`backups`", will copy current `harmony` binary file inside it and rename the file to "`harmony.bkp1".`
+Backup the `harmony` binary file:
+
+```bash
+cp harmony backup
+```
 
 ## 2. Download Binary CLI
 
