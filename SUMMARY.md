@@ -78,7 +78,6 @@
         * [Under Construction](validators/node-setup/manual-setup/running-a-node/under-construction/README.md)
           * [Installing Node](validators/node-setup/manual-setup/running-a-node/under-construction/installing-node/README.md)
             * [Using Binary CLI](validators/node-setup/manual-setup/running-a-node/under-construction/installing-node/using-binary-cli.md)
-            * [Using Node.sh](validators/node-setup/manual-setup/running-a-node/under-construction/installing-node/using-node.sh.md)
             * [Using AutoNode](validators/node-setup/manual-setup/running-a-node/under-construction/installing-node/using-autonode.md)
           * [Upgrading Node](validators/node-setup/manual-setup/running-a-node/under-construction/upgrading-node/README.md)
             * [Using Binary CLI](validators/node-setup/manual-setup/running-a-node/under-construction/upgrading-node/using-binary-cli.md)
