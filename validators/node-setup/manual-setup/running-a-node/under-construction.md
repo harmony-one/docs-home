@@ -17,15 +17,27 @@ As per instructions on the [cloud guides](../../../cloud-setup/cloud-guides/), t
 * 9500 port is used for SDK RPC service \(base port + 500\)
 * 9800 port is used for Websocket service \(base port + 800\)
 
-## 1. Downloading Node.sh
+## 1. Downloading Files
 
-Run the following command to download the node.sh script:
+Download the latest `node.sh` file:
 
 ```bash
 curl -LO https://harmony.one/node.sh && chmod a+x node.sh
 ```
 
-## 2.Configuring the BLS Keys
+Download the binary files into the `staging` folder:
+
+```bash
+./node.sh -d
+```
+
+Move files from `staging` folder to current folder:
+
+```bash
+mv staging/* ./
+```
+
+## 2. Configuring the BLS Keys
 
 You need to manually create a folder called `.hmy/blskeys`:
 
