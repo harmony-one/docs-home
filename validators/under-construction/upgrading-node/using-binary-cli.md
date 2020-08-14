@@ -22,6 +22,12 @@ Before we proceed to next steps we need to download the Binary CLI first:
 curl -LO https://harmony.one/binary && mv binary harmony && chmod a+x harmony
 ```
 
+Check the Binary CLI version that was downloaded:
+
+```text
+./harmony -V
+```
+
 ## 3. Restart Systemd Service
 
 ```bash
