@@ -29,3 +29,7 @@ curl -LO https://harmony.one/node.sh && chmod a+x node.sh
 
 ## 3. Restart Systemd Service
 
+```bash
+sudo service harmony restart
+```
+
