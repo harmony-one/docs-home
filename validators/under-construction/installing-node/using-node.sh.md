@@ -6,6 +6,8 @@ This option will be **deprecated** and is **not recommended** anymore. Please se
 
 ## 1. Download Node.sh
 
+Before we proceed to next steps we need to download `node.sh` , extract files into the `staging` folder and then move them into the previous folder:
+
 ```bash
 curl -LO https://harmony.one/node.sh && chmod a+x node.sh
 ./node.sh -d && mv staging/* ./
