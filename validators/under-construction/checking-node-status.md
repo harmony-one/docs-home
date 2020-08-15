@@ -1,4 +1,4 @@
-# Checking Node Status
+# Checking A Node
 
 ## 1. Check Node Running Version
 
