@@ -1,5 +1,15 @@
 # Checking Node Status
 
+## 1. Check Node Running Version
+
+To check the node version that is running, run the command below:
+
+```bash
+./hmy utility metadata
+```
+
+## **2. Check if Node is Syncing**
+
 **1.** To check if your node is syncing properly, run the command below and check that the block height of the shard\(s\).
 
 ```bash
