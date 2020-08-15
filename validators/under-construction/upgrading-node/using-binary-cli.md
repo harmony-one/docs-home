@@ -19,7 +19,7 @@ cp harmony backup
 Before we proceed to next steps we need to download the Binary CLI first:
 
 ```bash
-curl -LO https://harmony.one/binary && mv binary harmony && chmod +x harmony
+curl -LO https://harmony.one/binary && mv binary harmony && chmod a+x harmony
 ```
 
 Check the Binary CLI version that was downloaded:
@@ -34,9 +34,5 @@ Check the Binary CLI version that was downloaded:
 sudo service harmony restart
 ```
 
-To check the version that is running use:
 
-```bash
-./hmy utility metadata
-```
 
