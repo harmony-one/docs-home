@@ -30,5 +30,5 @@ Harmony relies on a beacon shard chain \(aka shard 0\) to facilitate cross shard
 For a complete reference of all available enpoints on both mainnet and testnet, please click [here](https://monitor.hmny.io/status). Alternatively you can use the [Block Explorers](../../developers/block-explorers.md) for a visual comparison.
 {% endhint %}
 
-**3.** Verify if blocks shown on steps 1 and 2 are closed or equal to each other. If so, your node should have caught up!
+**3.** Verify if blocks shown on steps 1 and 2 are closer or equal to each other. If so, your node should have caught up!
 
