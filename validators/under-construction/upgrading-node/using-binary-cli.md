@@ -34,3 +34,5 @@ Check the Binary CLI version that was downloaded:
 sudo service harmony restart
 ```
 
+To check your node follow instructions on [Checking A Node](../checking-node-status.md).
+

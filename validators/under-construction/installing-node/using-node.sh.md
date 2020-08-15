@@ -186,3 +186,5 @@ sudo service harmony stop
 {% endtab %}
 {% endtabs %}
 
+To check your node follow instructions on [Checking A Node](../checking-node-status.md).
+
