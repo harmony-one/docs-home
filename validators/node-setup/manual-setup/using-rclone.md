@@ -47,7 +47,10 @@ The above rclone config also work for the pangaea testnet network
 
 ## 3. Running Rclone
 
-Below is the command to sync the shard you want. Replace `<ShardID>`with the shard number you want to sync. Each of the rclone snapshot is around 1.7 Gb as of 05/14/2020. Shard 0 is around 1.8 Gb as of 5/14/2020. 
+Below is the command to sync the shard you want. Replace `<ShardID>`with the shard number you want to sync.  
+As of 8 Dec 2020: 
+- Shard 0 is around 10.7 Gb  
+- Each rclone snapshot is around 3.6 Gb
 
 It may take up to 10 minutes to download depending on your network connection.
 
