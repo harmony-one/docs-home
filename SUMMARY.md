@@ -50,6 +50,7 @@
 
 * [Getting Started](developers/getting-started/README.md)
   * [Ethereum Compatibility](developers/getting-started/ethereum-compatibility.md)
+* [Network & Faucets](developers/network-and-faucets.md)
 * [SDK](developers/sdk/README.md)
   * [Harmony & Web3](developers/sdk/web3/README.md)
     * [Using Web3.js to Send Transactions on Harmony](developers/sdk/web3/send-transaction.md)
@@ -156,9 +157,6 @@
   * [Remix IDE](developers/tools/remix-ide.md)
   * [Harmony-React](developers/tools/harmony-react.md)
   * [Oracle: Band Protocol](developers/tools/oracle-band-protocol.md)
-* [Resources](developers/resources/README.md)
-  * [Faucets](developers/resources/faucets.md)
-  * [Block Explorers](developers/resources/block-explorers.md)
 * [Showcases](developers/showcases/README.md)
   * [Games](developers/showcases/games/README.md)
     * [Harmony Puzzle](developers/showcases/games/harmony-puzzle.md)
