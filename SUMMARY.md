@@ -167,6 +167,9 @@
     * [Hack the Horizon](developers/showcases/hackathons/hack-the-horizon.md)
   * [Other Showcases](developers/showcases/other-showcases.md)
 * [Hackathon & Bounties](developers/hackathon-and-bounties.md)
+* [Learn](developers/learn/README.md)
+  * [How-to-dos](developers/learn/how-to-dos.md)
+  * [Tutorials](developers/learn/tutorials.md)
 
 ## 🌏 Network
 
