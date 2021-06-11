@@ -1,4 +1,4 @@
-# Deploying an Ethereum Smart Contract onto Harmony
+# Deploying an Ethereum Smart Contract on Harmony
 
 Since Harmony is fully EVM-compatible \(Ethereum Virtual Machine\), it makes it really easy to port existing contracts to Harmony. Here's a short demo on how to port an existing Ethereum smart contract to the Harmony testnet:
 

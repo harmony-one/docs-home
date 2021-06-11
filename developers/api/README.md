@@ -7,9 +7,7 @@ description: >-
 # API
 
 {% hint style="success" %}
-**Complete documentation for Harmony's API's production API's can be found** [**here**](https://apitest.harmony.one/) **including sample code and curl commands and code.** 
-
-**For partners preparing for Open Staking the latest version of the API's are** [**here**](https://api.hmny.io/?version=latest)**.**
+**Complete documentation for Harmony's API's production API's can be found** [**here**](https://api.hmny.io/?version=latest) **including sample code and curl commands and code.** 
 {% endhint %}
 
 ## Development Environments
@@ -18,7 +16,7 @@ description: >-
 
 | Chains | URLs |
 | :--- | :--- |
-| mainnet | [https://api.s0.t.hmny.io](https://api.s0.t.hmny.io) |
+| mainnet | [https://api.s0.t.hmny.io](https://api.s0.t.hmny.io) or [https://api.harmony.one](https://api.harmony.one) |
 | testnet | [https://api.s0.b.hmny.io](https://api.s0.b.hmny.io) |
 | localnet | [http://localhost:9500](http://localhost:9500) |
 
