@@ -58,7 +58,7 @@ In order to choose their validators and manage their delegation, delegators have
 
 
 
-![](../../../../.gitbook/assets/image%20%28186%29.png)
+![](../../../../.gitbook/assets/image%20%2831%29%20%281%29.png)
 
 ![](../../../../.gitbook/assets/image%20%28175%29.png)
 

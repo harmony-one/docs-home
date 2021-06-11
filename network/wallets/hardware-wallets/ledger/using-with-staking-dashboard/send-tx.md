@@ -10,7 +10,7 @@ To send ONE tokens to an address, click the **"**Transfer funds" button and the 
 
 Input the amount of tokens to send and the destination address, then click the "next" buttons.
 
-![](../../../../../.gitbook/assets/image%20%28133%29.png)
+![](../../../../../.gitbook/assets/image%20%28157%29.png)
 
 Click the "Confirm and Sign" button to sign the transaction.
 

@@ -12,5 +12,5 @@ description: >-
 
 ## Import Wallet \(Recover\)
 
-![](../../../../.gitbook/assets/image-33.png)
+![](../../../../.gitbook/assets/image%20%2899%29.png)
 

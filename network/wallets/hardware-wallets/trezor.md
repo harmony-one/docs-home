@@ -16,7 +16,7 @@ Trezor wallet can be used along with Metamask to perform ONE transfers on Harmon
 
 
 
-![2. Select &quot;Connect Hardware Wallet&quot;](../../../.gitbook/assets/begin%20%281%29.png)
+![2. Select &quot;Connect Hardware Wallet&quot;](../../../.gitbook/assets/begin%20%281%29%20%281%29.png)
 
 ![3. Select Trezor and continue](../../../.gitbook/assets/metamask-trezor.png)
 

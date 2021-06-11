@@ -14,7 +14,7 @@ Steps:
 
 ![](../../../../.gitbook/assets/add-harmony-network.png)
 
-![2. Select &quot;Connect Hardware Wallet&quot;](../../../../.gitbook/assets/begin%20%281%29.png)
+![2. Select &quot;Connect Hardware Wallet&quot;](../../../../.gitbook/assets/begin%20%281%29%20%281%29.png)
 
 ![3. Select the ledger account that you want to use](../../../../.gitbook/assets/select-account.png)
 
