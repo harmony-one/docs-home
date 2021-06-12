@@ -2,7 +2,7 @@
 
 {% page-ref page="definitions/" %}
 
-{% page-ref page="cloud-setup/" %}
+{% page-ref page="server-setup/" %}
 
 {% page-ref page="node-setup/" %}
 
