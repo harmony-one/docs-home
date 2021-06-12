@@ -16,7 +16,7 @@ Here is a list of some cheap and reliable Cloud Providers \(August, 2020\):
 * [AWS](https://aws.amazon.com/)
 * [Ankr](https://www.ankr.com/)
 
-## VPS Recommendation
+## Server Recommendation
 
 **CPU**: for shard 0 nodes, 4 dedicated cores is recommended such like [c5d.xlarge](https://aws.amazon.com/blogs/aws/ec2-instance-update-c5-instances-with-local-nvme-storage-c5d/) instance type on AWS. If you use VPS with shared CPU, at least 8 cores with 50%+ CPU credit; for shard 1,2,3, the requirement can be halved right now since there is not much transactions.  
 **RAM Memory**: 8GB  
