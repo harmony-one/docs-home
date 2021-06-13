@@ -1,4 +1,8 @@
-# Using Ganache
+---
+description: This page describes how to use ganache-cli to connect to Harmony networks.
+---
+
+# Ganache
 
 Install Ganache CLI
 

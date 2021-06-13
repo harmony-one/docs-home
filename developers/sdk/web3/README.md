@@ -2,7 +2,7 @@
 description: Using web3.js with harmony protocol.
 ---
 
-# Harmony & Web3
+# Web3.js
 
 ## Introduction
 
