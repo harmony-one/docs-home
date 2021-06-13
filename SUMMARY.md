@@ -174,8 +174,8 @@
   * [Other Showcases](developers/showcases/other-showcases.md)
 * [Hackathon & Bounties](developers/hackathon-and-bounties.md)
 * [Learn](developers/learn/README.md)
-  * [How-to-dos](developers/learn/how-to-dos.md)
-  * [Tutorials](developers/learn/tutorials.md)
+  * [Tutorials](developers/learn/tutorials/README.md)
+    * [Deploying HRC20](developers/learn/tutorials/deploying-hrc20.md)
 
 ## 🌏 Network
 
