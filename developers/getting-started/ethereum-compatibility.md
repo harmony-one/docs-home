@@ -20,7 +20,7 @@ You can read more about Harmony One Ecosystem - here
 
 {% page-ref page="../sdk/web3/find-the-last-transaction.md" %}
 
-{% page-ref page="../smart-contracts/deploy-using-web3.md" %}
+{% page-ref page="../deploying-on-harmony/deploy-using-web3.md" %}
 
 ### Harmony & Metamask
 

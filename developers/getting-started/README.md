@@ -46,8 +46,8 @@ We provide SDKs in several different languages. However most feature complete is
 
 ### How to deploy a smart contract on Harmony?
 
-* [Tutorial](https://docs.harmony.one/home/developers/smart-contracts)
-* [Github repo](https://github.com/rachit2501/Smart-Contract-Demo)
+* [Tutorial](https://docs.harmony.one/home/developers/deploying-on-harmony)
+* [Github repo](https://github.com/harmony-one/Smart-Contract-Demo)
 * [Interacting with wallets programmatically](https://docs.harmony.one/home/developers/interacting-with-wallet-extensions)
 
 ### How to create a simple DApp on Harmony?
