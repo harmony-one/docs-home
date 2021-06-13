@@ -176,6 +176,7 @@
 * [Learn](developers/learn/README.md)
   * [Tutorials](developers/learn/tutorials/README.md)
     * [Deploying HRC20](developers/learn/tutorials/deploying-hrc20.md)
+    * [Deploying HRC721/NFT](developers/learn/tutorials/deploying-hrc721-nft.md)
 
 ## 🌏 Network
 
