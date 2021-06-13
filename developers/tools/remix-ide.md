@@ -4,5 +4,7 @@ Remix is a powerful, open source tool that helps you write Solidity contracts st
 
 Remix also supports testing, debugging and deploying of smart contracts and much more.
 
-Our Remix project with all its features is available at [https://ide.harmony.one](https://ide.harmony.one).
+Ethereum remix can be directly used along with metamask using harmony custom rpcs as described in [here](https://docs.harmony.one/home/developers/deploying-on-harmony/using-remix/ethereum-remix).
+
+However, we also have forked Remix and customized to Harmony at [https://ide.harmony.one](https://ide.harmony.one). A guide for deploying smart contracts using Harmony Remix is provided [here](https://docs.harmony.one/home/developers/deploying-on-harmony/using-remix/deployment-using-remix).
 

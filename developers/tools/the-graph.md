@@ -21,3 +21,55 @@ GRAPH_ETH_CALL_BY_NUMBER: 1
 GRAPH_NO_EIP_1898_SUPPORT: 1
 ```
 
+#### Graph docker for Harmony
+
+Docker for running graph node for Harmony mainnet. Copy the code below to `docker-compose.yml` and run `docker-compose up` command to launch a local graph node for Harmony mainnet. 
+
+```text
+version: "3"
+services:
+  graph-node:
+    image: graphprotocol/graph-node:1fcc47f
+    ports:
+      - "8000:8000"
+      - "8001:8001"
+      - "8020:8020"
+      - "8030:8030"
+      - "8040:8040"
+    depends_on:
+      - ipfs
+      - postgres
+    environment:
+      postgres_host: postgres
+      postgres_user: graph-node
+      postgres_pass: let-me-in
+      postgres_db: graph-node
+      ipfs: "ipfs:5001"
+      GRAPH_ETH_CALL_BY_NUMBER: 1
+      GRAPH_NO_EIP_1898_SUPPORT: 1
+      GRAPH_ALLOW_NON_DETERMINISTIC_IPFS: 1
+      ethereum: "mainnet:https://a.api.s0.t.hmny.io/"
+      RUST_LOG: info
+  ipfs:
+    image: ipfs/go-ipfs:v0.4.23
+    ports:
+      - "5001:5001"
+    volumes:
+      - ./data/ipfs:/data/ipfs
+  postgres:
+    image: postgres
+    ports:
+      - "5432:5432"
+    command: ["postgres", "-cshared_preload_libraries=pg_stat_statements"]
+    environment:
+      POSTGRES_USER: graph-node
+      POSTGRES_PASSWORD: let-me-in
+      POSTGRES_DB: graph-node
+    volumes:
+      - ./data/postgres:/var/lib/postgresql/data
+```
+
+#### An example subgraph 
+
+[horizon-bridge-subgraph](https://github.com/harmony-one/horizon-bridge-subgraph) is built to support querying [http://bridge.harmony.one/](http://bridge.harmony.one/)
+
