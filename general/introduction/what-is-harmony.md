@@ -6,7 +6,7 @@ Our Effective Proof-of-Stake \(EPoS\) reduces centralization while supporting st
 
 Harmony aims to build an open network of nodes operated and governed by a large community. This node community is called Pangaea.
 
-Are we decentralized yet? There’s no consensus without participation. There are now 1,000 Harmony nodes – so far 640 of them run by the community – in line with thousands of Bitcoin and Ethereum nodes. Pangaea consists of volunteers and validators from more than 100 countries and most of them have never run a node before.
+Are we decentralized yet? There’s no consensus without participation. There are now 1,000 Harmony nodes – so far 800 of them run by the community – in line with thousands of Bitcoin and Ethereum nodes. Pangaea consists of volunteers and validators from more than 100 countries and most of them have never run a node before.
 
 ## Key Innovations
 

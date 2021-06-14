@@ -48,20 +48,13 @@ All requests follow the standard JSON-RPC format and include 4 variables in the 
 
 ### Key Differences between Harmony and Ethereum
 
-1. The prefix of RPC calls is different - **'hmy' for API v1** or **'hmyv2' for API v2** is used instead of 'eth'.
-2. Address format, SDK uses two, the default use checksum, it is recommended to use Bech32. has been defined in the SDK.
-3. Transaction uses RLP, but adds two fields, one is shardID and the other is toShardID.
-4. There are some RPC Ethereum, there is no Harmony, we will discuss it in detail during the process.
+1. The prefix of RPC calls is different - **'hmy' for API v1** or **'hmyv2' for API v2** is used instead of 'eth'. Note that, Harmony also fully supports most `eth_` rpcs defined in [here](https://eth.wiki/json-rpc/API).
+2. Address format: Harmony uses [bech32](https://en.bitcoin.it/wiki/Bech32) address format with `one1` prefix, however Ethereum style hex address can also be used. For example: `one1pdv9lrdwl0rg5vglh4xtyrv3wjk3wsqket7zxy` bech32 address is equivalent to `0x0B585F8DaEfBC68a311FbD4cB20d9174aD174016` hex address. Quick way to convert between formats is using explorer: [https://explorer.harmony.one/\#/address/one1pdv9lrdwl0rg5vglh4xtyrv3wjk3wsqket7zxy](https://explorer.harmony.one/#/address/one1pdv9lrdwl0rg5vglh4xtyrv3wjk3wsqket7zxy), at the top you will find "Address Format" ONE \| ETH options.
+3. Harmony transactions are encoded using RLP, with two additional fields to represent from and to shard ids \(`shardID` and `toShardID`\), which is where it differs from Ethereum v1.
 
 ### API v1 and v2
 
-1. **Harmony API has two versions**: **v1 with prefix 'hmy',** which returns hex numbers in API json results and **v2 with prefix 'hmyv2'** which mostly returns decimal numbers in API json results.
+1. **Harmony API has two versions**: **v1 with prefix 'hmy',** which returns hex numbers in API json response and **v2 with prefix 'hmyv2'** which mostly returns decimal numbers in API json response.
 2. For each method which curl and response are different for API v1 and API v2: **there are two sections in description for API v1 and API v2** with examples. If there are no sections then examples are the same for v1 and v2 and can be quired both with 'hmy' prefix and 'hmyv2' prefix same way.
 3. You can see in API response examples which variables **correspond to 0x format** and which to **decimal format**
-
-So for the JS project, you can directly modify the existing Ethereum library, or you can use the SDK package to see your engineering needs.
-
-**The best practice is to extend the SDK's Transaction class and then add customization.**
-
-The biggest difference is that Harmony does not use `eth_sendTransaction` and uses `eth_sendRawTransaction` to send the signed bytes, this is called `hmy_sendRawTransaction`.
 
