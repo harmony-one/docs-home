@@ -157,6 +157,8 @@
     * [Security Audit](developers/wallets/onewallet/security-audit.md)
   * [Math Wallet](developers/wallets/mathwallet.md)
 * [Tools](developers/tools/README.md)
+  * [Bridge](developers/tools/bridge/README.md)
+    * [Horizon SDK](developers/tools/bridge/horizon-sdk.md)
   * [The Graph](developers/tools/the-graph.md)
   * [Remix IDE](developers/tools/remix-ide.md)
   * [Ganache](developers/tools/using-ganache/README.md)
