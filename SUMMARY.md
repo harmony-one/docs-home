@@ -251,6 +251,7 @@
       * [Vultr](network/validators/server-setup/cloud-guides/vultr.md)
       * [AWS](network/validators/server-setup/cloud-guides/aws.md)
       * [Google Cloud](network/validators/server-setup/cloud-guides/google-cloud.md)
+    * [Raspberry Pi Guide](network/validators/server-setup/raspberry-pi-guide.md)
   * [Node Setup](network/validators/node-setup/README.md)
     * [HMY CLI Download](network/validators/node-setup/hmy-cli-download.md)
     * [Setting up BLS Keys](network/validators/node-setup/generating-a-bls-key.md)
