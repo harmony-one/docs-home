@@ -8,7 +8,7 @@ description: >-
 
 ### Remix IDE Harmony
 
-Open Harmony Remix IDE in your browser: [http://ide.harmony.one/](http://ide.harmony.one/). 
+Open [Harmony Remix IDE](https://peekpi.github.io/remixide/#optimize=false&evmVersion=null) in your browser.
 
 ### Writing your Smart Contract
 
