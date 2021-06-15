@@ -4,19 +4,19 @@
 
 Connect the UPS to the power supply and let it charge.
 
-## 2. Connect the modem to the UPS and set it up
+## 2. Connect the Modem to the UPS and Set it up
 
-Plug in the modem, the swith and the Raspberries into the UPS and access the Modem. Later we need to set up a fixed IP address and port forwarding \(TCP 6000/9000/9500\) for the Rasperry.
+Plug in the modem, the swith and the Raspberry into the UPS and access the Modem. Later we need to set up a fixed IP address and port forwarding \(TCP 6000/9000/9500\) for the Rasperry.
 
 ## 3. Prepare the Raspberry
 
-3.1.  Install Heatsinker in Rasperry
+3.1.  Install Heatsinker on Rasperry
 
 3.2.  Install Fan
 
 3.3.  Connect Mini HDMI -&gt; HDMI cable \(if you like, otherwise you can use SSH\)
 
-3.4.  Connect keyboard \(if you like, otherwise you can use SSH\)
+3.4.  Connect the keyboard \(if you like, otherwise you can use SSH\)
 
 3.5.  Connect Ethernet
 
@@ -26,29 +26,33 @@ Plug in the modem, the swith and the Raspberries into the UPS and access the Mod
 
 ## 4. Update Raspberry Pi
 
-4.1.  Access via Powershell or Terminal or directly on Keyboard & Monitor
+4.1.  Access via Powershell, Terminal or directly via Keyboard and Monitor
 
 ```text
 ssh username@ip address
 ```
 
-4.2.  Login: ubuntu / Password: ubuntu. Change the password!
+4.2.  Login: ubuntu / Password: ubuntu
 
-4.3.  Update & upgrade start by command
+{% hint style="warning" %}
+For security, change the default ubuntu password.
+{% endhint %}
+
+4.3.  Update & Upgrade
 
 ```text
 sudo apt update && sudo apt upgrade
 ```
 
-During update we can set up a fix IP in the Modem and set up Port forwarding.
+During update we can set up a fix IP on the Modem and set up Port forwarding.
 
-4.4.  Restart by command
+4.4.  Restart
 
 ```text
 sudo reboot
 ```
 
-## 5. Install the SSD
+## 5. Install SSD
 
 {% hint style="info" %}
 Codes adapted from an Instruction, check [here](https://jamesachambers.com/raspberry-pi-4-ubuntu-20-04-usb-mass-storage-boot-guide/) if you need further information’s.
@@ -80,15 +84,22 @@ sudo lsusb
 
 5.5.  Mount the hard disk
 
-5.6.  Check again with point 5.3 if mount has worked well
-
-5.7.  Automatic boot from SSD by this script
-
 ```text
  sudo mkdir /mnt/boot
  sudo mkdir /mnt/writable
- sudo mount /dev/sda1/mnt/boot
- sudo mount /dev/sda2/mnt/writable
+ sudo mount /dev/sda1 /mnt/boot
+ sudo mount /dev/sda2 /mnt/writable
+```
+
+5.6.  Check again with point 5.3 if mount has worked
+
+5.7.  Automatically boot from SSD using this script
+
+```bash
+ sudo curl https://raw.githubusercontent.com/TheRemote/Ubuntu-Server-raspi4-unofficial/master/BootFix.sh | sudo bash
+ sudo umount /mnt/boot
+ sudo umount /mnt/writable
+ sudo shutdown now
 ```
 
 5.8.  Create Quirks driver  
@@ -96,7 +107,7 @@ sudo lsusb
 In point 5.4. the SSD ID was read out via «sudo lsusb» xxxx:xxxx  
 Now connect the hard disk to a computer and in /boot/firmware/cmdline.txt “usb- storage.quirks=xxxx:xxxx:u” in the first place and save "usb-storage.quirks=04e8 4001:u” for Samsung T7
 
-5.9.  Remove MircoSD and boot from SSD
+5.9.  Remove the MicroSD and boot from SSD
 
 Now it should start from the SSD, let it around 20 Minutes so settle down everything, special if you have a bigger SSD.
 
@@ -116,7 +127,7 @@ Codes adapted from an Instruction, check [here](https://www.elektronik-kompendiu
 
 7.1.  Update by command
 
-```text
+```bash
 sudo apt update && sudo apt upgrade
 ```
 
@@ -128,7 +139,7 @@ sudo reboot
 
 7.3.  Change the keyboard to your Language \(if wished\)
 
-```text
+```bash
 sudo dpkg-reconfigure keyboard-configuration
 ```
 
@@ -178,7 +189,11 @@ Save via ctrl + x and confirm.
 
 ## 9. Final Establishment
 
-9.1.  Change host name \(Codes adapted from an Instruction, check here if you need further information’s\)
+9.1.  Change host name
+
+{% hint style="info" %}
+Codes adapted from an Instruction, check [here](https://www.elektronik-kompendium.de/sites/raspberry-pi/2007031.htm) if you need further information’s\).
+{% endhint %}
 
 ```text
 hostnamectl set-hostname NEWHOSTNAME
@@ -204,6 +219,11 @@ sudo usermod -aG sudo NEWUSER
 ```
 
 9.4.  Check and even extend authorization
+
+```text
+ groups NEWUSER && groups ubuntu
+ sudo usermod -G ubuntu, adm, dialout, cdrom, floppy, sudo, audio, dip, video, plugdev, netdev, lxd, root NEWUSER
+```
 
 9.5.  Add the entry for the new user in Visudo
 
@@ -259,10 +279,10 @@ sudo ufw allow 9500/tcp
 sudo ufw status
 ```
 
-Congratulation you set up your Raspberry Pi and it is ready for setting up as Node.
+_Congratulation you set up your Raspberry Pi and it is ready for setting up as Node!_
 
 {% hint style="warning" %}
-Since, HMY CLI is not natively running on ARM Systems yet, install it on a x86 system to create the BLS keys and respective `.pass` files. After that, copy them to the same  `.hmy/blskeys` folder on the Raspberry Pi.
+Since, [HMY CLI](../node-setup/hmy-cli-download.md) is not natively running on ARM Systems yet, install it on a x86 system to [setup the BLS Keys](../node-setup/generating-a-bls-key.md). After that, copy them to the same  `.hmy/blskeys` folder on the Raspberry Pi.
 {% endhint %}
 
 ## 11. Continue Node Setup
