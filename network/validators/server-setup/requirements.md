@@ -26,7 +26,7 @@ Here is a list of some cheap and reliable Cloud Providers \(August, 2020\):
 * [AWS](https://aws.amazon.com/)
 * [Ankr](https://www.ankr.com/)
 
-Check our [Cloud Guide](https://docs.harmony.one/home/validators/cloud-setup/cloud-guides) for instructions.
+Check [Cloud Guides](cloud-guides/) for instructions.
 
 ### For Raspberry Pi
 
@@ -35,4 +35,6 @@ Check our [Cloud Guide](https://docs.harmony.one/home/validators/cloud-setup/clo
 **Storage**: Fast external SSD with minimum 100GB. Suggestion is Samsung T7 500GB  
 **OS**: Latest Ubuntu Linux \(LTS Version\)  
 **Network**: A Modem where you have access to settings like set IP address, Port forwarding and priority settings, 100Mbit/s bandwidth, low latency and flat rate usage. Minimum category 6 Cables
+
+Check [Raspberry Pi Guide](raspberry-pi-guide.md) for instructions.
 
