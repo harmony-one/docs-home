@@ -282,7 +282,7 @@ sudo ufw status
 _Congratulation you set up your Raspberry Pi and it is ready for setting up as Node!_
 
 {% hint style="warning" %}
-Since, [HMY CLI](../node-setup/hmy-cli-download.md) is not natively running on ARM Systems yet, install it on a x86 system to [setup the BLS Keys](../node-setup/generating-a-bls-key.md). After that, copy them to the same  `.hmy/blskeys` folder on the Raspberry Pi.
+Since [HMY CLI](../node-setup/hmy-cli-download.md) is not natively supported ARM systems yet, install it on a x86\_64 system to [setup the BLS Keys](../node-setup/generating-a-bls-key.md). After that, copy them to the same  `.hmy/blskeys` folder on Raspberry Pi.
 {% endhint %}
 
 ## 11. Continue Node Setup
