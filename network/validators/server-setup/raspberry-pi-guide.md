@@ -265,8 +265,8 @@ Congratulation you set up your Raspberry Pi and it is ready for setting up as No
 Since, HMY CLI is not natively running on ARM Systems yet, install it on a x86 system to create the BLS keys and respective `.pass` files. After that, copy them to the same  `.hmy/blskeys` folder on the Raspberry Pi.
 {% endhint %}
 
-## 11. Setup Rclone
+## 11. Continue Node Setup
 
-Continue from [Rclone](../node-setup/using-rclone.md) onwards.  
+Continue node setup from [Rclone](../node-setup/using-rclone.md) onwards.  
 
 
