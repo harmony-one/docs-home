@@ -55,7 +55,7 @@ sudo reboot
 ## 5. Install SSD
 
 {% hint style="info" %}
-Codes adapted from an Instruction, check [here](https://jamesachambers.com/raspberry-pi-4-ubuntu-20-04-usb-mass-storage-boot-guide/) if you need further information’s.
+Code is adapted from an Instruction, check [here](https://jamesachambers.com/raspberry-pi-4-ubuntu-20-04-usb-mass-storage-boot-guide/) if you need further information’s.
 {% endhint %}
 
 5.1.  Download Eeprom
@@ -122,7 +122,7 @@ By starting from the SSD, the password must be changed again.
 ## 7. Change basic settings
 
 {% hint style="info" %}
-Codes adapted from an Instruction, check [here](https://www.elektronik-kompendium.de/sites/raspberry-pi/2007031.htm) if you need further information’s\).
+Code is adapted from an Instruction, check [here](https://www.elektronik-kompendium.de/sites/raspberry-pi/2007031.htm) if you need further information’s\).
 {% endhint %}
 
 7.1.  Update by command
@@ -192,7 +192,7 @@ Save via ctrl + x and confirm.
 9.1.  Change host name
 
 {% hint style="info" %}
-Codes adapted from an Instruction, check [here](https://www.elektronik-kompendium.de/sites/raspberry-pi/2007031.htm) if you need further information’s\).
+Code is adapted from an Instruction, check [here](https://www.elektronik-kompendium.de/sites/raspberry-pi/2007031.htm) if you need further information’s\).
 {% endhint %}
 
 ```text
@@ -202,7 +202,7 @@ hostnamectl set-hostname NEWHOSTNAME
 9.2.  Create user
 
 {% hint style="info" %}
-Codes adapted from an Instruction, check [here](https://www.elektronik-kompendium.de/sites/raspberry-pi/2007031.htm) if you need further information’s\).
+Code is adapted from an Instruction, check [here](https://www.elektronik-kompendium.de/sites/raspberry-pi/2007031.htm) if you need further information’s\).
 {% endhint %}
 
 ```text
@@ -254,7 +254,7 @@ sudo su - NEWUSER
 ## 10. Setup Firewall
 
 {% hint style="info" %}
-Codes adapted from an Instruction, check [here](https://www.elektronik-kompendium.de/sites/raspberry-pi/2007031.htm) if you need further information’s\).
+Code is adapted from an Instruction, check [here](https://www.elektronik-kompendium.de/sites/raspberry-pi/2007031.htm) if you need further information’s\).
 {% endhint %}
 
 10.1.  Install & activate the firewall
