@@ -10,7 +10,7 @@ Plug in the modem, the swith and the Raspberry into the UPS and access the Modem
 
 ## 3. Prepare the Raspberry
 
-3.1.  Install Heatsinker on Rasperry
+3.1.  Install Heatsinker on Raspberry
 
 3.2.  Install Fan
 
@@ -20,7 +20,7 @@ Plug in the modem, the swith and the Raspberry into the UPS and access the Modem
 
 3.5.  Connect Ethernet
 
-3.6.  Install Ubuntu Server 20.04 LTS on MircoSD. Click [here](https://ubuntu.com/tutorials/how-to-install-ubuntu-on-your-raspberry-pi#1-overview) for instructions
+3.6.  Install Ubuntu Server 20.04 LTS on MircoSD and on SSD. Click [here](https://ubuntu.com/tutorials/how-to-install-ubuntu-on-your-raspberry-pi#1-overview) for instructions
 
 3.7.  Start the UPS Power for the Raspberry
 
@@ -35,7 +35,7 @@ ssh username@ip address
 4.2.  Login: ubuntu / Password: ubuntu
 
 {% hint style="warning" %}
-For security, change the default ubuntu password.
+For security reasons Linux requires to change the default ubuntu password.
 {% endhint %}
 
 4.3.  Update & Upgrade
@@ -44,7 +44,9 @@ For security, change the default ubuntu password.
 sudo apt update && sudo apt upgrade
 ```
 
-During update we can set up a fix IP on the Modem and set up Port forwarding.
+{% hint style="info" %}
+During update we can set up a static IP on the Modem and set up Port forwarding.
+{% endhint %}
 
 4.4.  Restart
 
@@ -104,8 +106,8 @@ sudo lsusb
 
 5.8.  Create Quirks driver  
   
-In point 5.4. the SSD ID was read out via «sudo lsusb» xxxx:xxxx  
-Now connect the hard disk to a computer and in /boot/firmware/cmdline.txt “usb- storage.quirks=xxxx:xxxx:u” in the first place and save "usb-storage.quirks=04e8 4001:u” for Samsung T7
+In point 5.4. the SSD ID was read out via `sudo lsusb xxxx:xxxx`  
+Now connect the hard disk to a computer and add in `/boot/firmware/cmdline.txt` `“usb-storage.quirks=xxxx:xxxx:u”` in the first place, without the quotation marks and save. For example for the Samung T7, `usb-storage.quirks=04e8 4001:u`
 
 5.9.  Remove the MicroSD and boot from SSD
 
@@ -117,7 +119,7 @@ In case it searches still for MicroSD, write with the Pi Imager «Misc utility i
 
 ## 6. Set up the Raspberry again
 
-By starting from the SSD, the password must be changed again.
+By starting from the SSD, the password must be changed again. Make sure you gave the system enough time \(20 Minutes\), because after changing the password it might be no longer able to finish it.
 
 ## 7. Change basic settings
 
@@ -179,7 +181,7 @@ Add the following in the config file under \[all\]
 
 ```text
 over_voltage=5
-arm_freq=18
+arm_freq=1800
 gpu_mem=16
 dtoverlay=disable-bt
 dtoverlay=disable-wifi
@@ -248,7 +250,7 @@ Save via ctrl + x and confirm.
 9.7.  Change to new User
 
 ```text
-sudo su - NEWUSER
+sudo su -NEWUSER
 ```
 
 ## 10. Setup Firewall
