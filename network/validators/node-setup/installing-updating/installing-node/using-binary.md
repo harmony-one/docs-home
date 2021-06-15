@@ -20,15 +20,21 @@ Before you proceed with the instructions below, make sure you [created your vali
 Before we proceed to next steps we need to download the node binary first:
 
 {% tabs %}
-{% tab title="Mainnet" %}
+{% tab title="x86\_64 \(Mainnet\)" %}
 ```bash
 curl -LO https://harmony.one/binary && mv binary harmony && chmod +x harmony
 ```
 {% endtab %}
 
-{% tab title="Testnet" %}
+{% tab title="x86\_64 \(Testnet\) " %}
 ```bash
 curl -LO https://harmony.one/binary_testnet && mv binary_testnet harmony && chmod +x harmony
+```
+{% endtab %}
+
+{% tab title="arm64 \(Mainnet\)" %}
+```
+curl -LO https://github.com/harmony-one/harmony/releases/download/v4.0.0/harmony-arm64 && mv harmony-arm64 harmony && chmod +x harmony
 ```
 {% endtab %}
 {% endtabs %}
