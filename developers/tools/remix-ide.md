@@ -6,5 +6,5 @@ Remix also supports testing, debugging and deploying of smart contracts and much
 
 Ethereum remix can be directly used along with metamask using harmony custom rpcs as described in [here](https://docs.harmony.one/home/developers/deploying-on-harmony/using-remix/ethereum-remix).
 
-However, we also have forked Remix and customized to Harmony at [https://ide.harmony.one](https://ide.harmony.one). A guide for deploying smart contracts using Harmony Remix is provided [here](https://docs.harmony.one/home/developers/deploying-on-harmony/using-remix/deployment-using-remix).
+However, we also have forked Remix and customized to Harmony [here](https://peekpi.github.io/remixide/#optimize=false&evmVersion=null). A guide for deploying smart contracts using Harmony Remix is provided [here](https://docs.harmony.one/home/developers/deploying-on-harmony/using-remix/deployment-using-remix).
 
