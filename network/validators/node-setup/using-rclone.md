@@ -17,7 +17,7 @@ curl https://rclone.org/install.sh | sudo bash
 ```
 
 {% hint style="info" %}
-make sure your rclone version is above **v1.53.2** . you can check version by `rclone version`
+Make sure your rclone version is above **v1.53.2** . you can check version by `rclone version`
 {% endhint %}
 
 ## 2. Configuring Rclone
