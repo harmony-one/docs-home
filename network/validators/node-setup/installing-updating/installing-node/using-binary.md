@@ -34,7 +34,7 @@ curl -LO https://harmony.one/binary_testnet && mv binary_testnet harmony && chmo
 
 {% tab title="arm64 \(Mainnet\)" %}
 ```bash
-curl -LO https://github.com/harmony-one/harmony/releases/download/v4.0.0/harmony-arm64 && mv harmony-arm64 harmony && chmod +x harmony
+curl -LO https://harmony.one/binary-arm64 && mv binary-arm64 harmony && chmod +x harmony
 ```
 {% endtab %}
 {% endtabs %}
