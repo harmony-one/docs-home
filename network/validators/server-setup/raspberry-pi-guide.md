@@ -1,5 +1,9 @@
 # Raspberry Pi Guide
 
+{% hint style="info" %}
+Before setting up Raspberry Pi, check requirements [here](requirements.md#for-raspberry-pi).
+{% endhint %}
+
 ## 1. UPS Device
 
 Connect the UPS to the power supply and let it charge.
