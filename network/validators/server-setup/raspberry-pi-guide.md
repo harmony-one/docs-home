@@ -1,12 +1,12 @@
 # Raspberry Pi Guide
 
-## 1. UPS device
+## 1. UPS Device
 
 Connect the UPS to the power supply and let it charge.
 
 ## 2. Connect the modem to the UPS and set it up
 
-Plug in the modem, the swith and the Raspberries into the UPS. Access the Modem, later we need to set up a fixed IP address and port forwarding \(TCP 6000/9000/9500\) for Rasperry.
+Plug in the modem, the swith and the Raspberries into the UPS and access the Modem. Later we need to set up a fixed IP address and port forwarding \(TCP 6000/9000/9500\) for the Rasperry.
 
 ## 3. Prepare the Raspberry
 
@@ -32,7 +32,7 @@ Plug in the modem, the swith and the Raspberries into the UPS. Access the Modem,
 ssh username@ip address
 ```
 
-4.2.  Login: ubuntu / Password: ubuntu, now you need to change the password
+4.2.  Login: ubuntu / Password: ubuntu. Change the password!
 
 4.3.  Update & upgrade start by command
 
@@ -60,13 +60,13 @@ Codes adapted from an Instruction, check [here](https://jamesachambers.com/raspb
 sudo apt install rpi-eeprom
 ```
 
-5.2.  Restart by command
+5.2.  Restart
 
 ```text
 sudo reboot
 ```
 
-5.3.  Then connect the hard disk and check
+5.3.  Connect the hard disk and check
 
 ```text
 lsblk
@@ -80,7 +80,7 @@ sudo lsusb
 
 5.5.  Mount the hard disk
 
-5.6.  Check again with point 6.3 if mount has worked well
+5.6.  Check again with point 5.3 if mount has worked well
 
 5.7.  Automatic boot from SSD by this script
 
@@ -93,7 +93,7 @@ sudo lsusb
 
 5.8.  Create Quirks driver  
   
-In point 6.4. the SSD ID was read out via «sudo lsusb» xxxx:xxxx  
+In point 5.4. the SSD ID was read out via «sudo lsusb» xxxx:xxxx  
 Now connect the hard disk to a computer and in /boot/firmware/cmdline.txt “usb- storage.quirks=xxxx:xxxx:u” in the first place and save "usb-storage.quirks=04e8 4001:u” for Samsung T7
 
 5.9.  Remove MircoSD and boot from SSD
@@ -176,5 +176,97 @@ dtoverlay=disable-wifi
 
 Save via ctrl + x and confirm.
 
-##  
+## 9. Final Establishment
+
+9.1.  Change host name \(Codes adapted from an Instruction, check here if you need further information’s\)
+
+```text
+hostnamectl set-hostname NEWHOSTNAME
+```
+
+9.2.  Create user
+
+{% hint style="info" %}
+Codes adapted from an Instruction, check [here](https://www.elektronik-kompendium.de/sites/raspberry-pi/2007031.htm) if you need further information’s\).
+{% endhint %}
+
+```text
+ sudo -i
+ sudo adduser NEWUSER
+```
+
+Enter your new password and confirm again.
+
+9.3.  Give sudo permission
+
+```text
+sudo usermod -aG sudo NEWUSER
+```
+
+9.4.  Check and even extend authorization
+
+9.5.  Add the entry for the new user in Visudo
+
+```text
+visudo
+```
+
+```text
+root ALL = (ALL: ALL) ALL 
+NEWUSER ALL = (ALL: ALL) ALL
+```
+
+Save via ctrl + x and confirm.
+
+9.6.  Terminate old processes and block users
+
+```text
+ sudo pkill -u ubuntu
+ sudo usermod -L ubuntu
+```
+
+9.7.  Change to new User
+
+```text
+sudo su - NEWUSER
+```
+
+## 10. Setup Firewall
+
+{% hint style="info" %}
+Codes adapted from an Instruction, check [here](https://www.elektronik-kompendium.de/sites/raspberry-pi/2007031.htm) if you need further information’s\).
+{% endhint %}
+
+10.1.  Install & activate the firewall
+
+```text
+ sudo apt install ufw
+ sudo ufw enable
+```
+
+10.2.  Open the corresponding TCP ports for Harmony & local SSH from another PC
+
+```text
+sudo ufw allow from LOCALIP to any port 22
+sudo ufw allow 6000/tcp
+sudo ufw allow 9000/tcp
+sudo ufw allow 9500/tcp
+```
+
+10.3.  Check Firewall
+
+```text
+sudo ufw status
+```
+
+Congratulation you set up your Raspberry Pi and it is ready for setting up as Node.
+
+{% hint style="warning" %}
+Since, HMY CLI is not natively running on ARM Systems yet, install it on a x86 system to create the BLS keys and respective `.pass` files. After that, copy them to the same  `.hmy/blskeys` folder on the Raspberry Pi.
+{% endhint %}
+
+## 11. Setup Rclone
+
+Continue from [Rclone](../node-setup/using-rclone.md) onwards.  
+
 
