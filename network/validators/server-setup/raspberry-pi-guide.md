@@ -123,7 +123,11 @@ In case it searches still for MicroSD, write with the Pi Imager «Misc utility i
 
 ## 6. Set up the Raspberry again
 
-By starting from the SSD, the password must be changed again. Make sure you gave the system enough time \(20 Minutes\), because after changing the password it might be no longer able to finish it.
+By starting from the SSD, the password must be changed again. Upon logging in for the first time if the Pi is connected to the internet Ubuntu will immediately/soon start a lengthy update process via snapd and apt. 
+
+{% hint style="warning" %}
+Make sure you give the system enough time \(20 Minutes at least\) to finish this process before doing going forward.
+{% endhint %}
 
 ## 7. Change basic settings
 
@@ -257,7 +261,7 @@ Save via ctrl + x and confirm.
 sudo su -NEWUSER
 ```
 
-## 10. Setup Firewall
+## 10. Firewall Setup
 
 {% hint style="info" %}
 Code is adapted from an Instruction, check [here](https://www.elektronik-kompendium.de/sites/raspberry-pi/2007031.htm) if you need further information’s\).
