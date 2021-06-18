@@ -10,7 +10,5 @@ You can go to [Harmony Staking Dashboard](https://staking.harmony.one/welcome) t
 
 {% page-ref page="../../../wallets/hardware-wallets/ledger/" %}
 
-{% page-ref page="../../../wallets/browser-extensions-wallets/chrome-extension.md" %}
-
 
 

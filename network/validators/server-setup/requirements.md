@@ -1,8 +1,8 @@
 # Requirements
 
 {% hint style="success" %}
-We recommend that you run two nodes on two different regions around the globe for **better signing rate** and **high availability**. Differently from other blockchains, Harmony allows you to run multiple nodes with the same BLS keys. This is not considered double signing.  
-  
+We recommend that you run two nodes on two different regions around the globe for **better signing rate** and **high availability**. Differently from other blockchains, Harmony allows you to run multiple nodes with the same BLS keys. This is not considered double signing.
+
 One configuration could be positioning one node in North America and another one with the same BLS keys in Asia or Europe, for example.
 {% endhint %}
 

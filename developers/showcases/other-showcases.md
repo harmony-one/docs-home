@@ -27,9 +27,9 @@ Good One is a simple crowdfunding dApp which will have the ‘minimum’ functio
 * Fund Project — we should be able to fund an existing project with ONE
 * Retrieve Funds — in the case where a project does not meet its goal amount, and is past its deadline, funders should be able to retrieve their contributed funds \(All-or-Nothing setup\)
 
-![](../../.gitbook/assets/image%20%28309%29.png)
+![](../../.gitbook/assets/image%20%28309%29%20%282%29.png)
 
-![](../../.gitbook/assets/image%20%28304%29%20%282%29.png)
+![](../../.gitbook/assets/image%20%28304%29%20%283%29%20%282%29.png)
 
 
 

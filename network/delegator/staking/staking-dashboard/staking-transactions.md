@@ -58,7 +58,7 @@ Click on Claim Rewards button.
 
 ![](../../../../.gitbook/assets/image%20%2894%29.png)
 
-![](../../../../.gitbook/assets/image%20%288%29%20%281%29.png)
+![](../../../../.gitbook/assets/image%20%288%29%20%281%29%20%281%29.png)
 
 Click on "Next" to sign the transaction.
 

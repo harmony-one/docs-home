@@ -209,7 +209,6 @@
       * [Sending Transactions via Math Wallet](network/wallets/browser-extensions-wallets/mathwallet/send-tx.md)
       * [Staking Transactions via Math Wallet](network/wallets/browser-extensions-wallets/mathwallet/staking-transactions.md)
     * [Guarda Wallet](network/wallets/browser-extensions-wallets/guarda-wallet.md)
-    * [Harmony Chrome Extension](network/wallets/browser-extensions-wallets/chrome-extension.md)
   * [Mobile Wallets](network/wallets/mobile-wallets/README.md)
     * [Trust Wallet](network/wallets/mobile-wallets/trustwallet.md)
     * [Guarda Wallet](network/wallets/mobile-wallets/guarda-wallet.md)
