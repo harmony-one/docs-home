@@ -18,13 +18,13 @@ One configuration could be positioning one node in North America and another one
 
 Here is a list of some cheap and reliable Cloud Providers \(August, 2020\):
 
+* [OVH](https://www.ovhcloud.com/)
 * [Digital Ocean](https://www.digitalocean.com/)
 * [Vultr](https://www.vultr.com/)
 * [Hetzner](http://hetzner.com/)
 * [Scaleway](https://www.scaleway.com/)
 * [Contabo](https://contabo.com/)
 * [AWS](https://aws.amazon.com/)
-* [Ankr](https://www.ankr.com/)
 
 Check [Cloud Guides](cloud-guides/) for instructions.
 
