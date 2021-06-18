@@ -69,7 +69,8 @@ services:
       - ./data/postgres:/var/lib/postgresql/data
 ```
 
-#### An example subgraph 
+### Example Subgraphs
 
-[horizon-bridge-subgraph](https://github.com/harmony-one/horizon-bridge-subgraph) is built to support querying [http://bridge.harmony.one/](http://bridge.harmony.one/)
+* [HRC20, HRC721, HRC1155 subgraphs](https://github.com/harmony-one/harmony-tokens-subgraph)
+* [horizon-bridge-subgraph](https://github.com/harmony-one/horizon-bridge-subgraph) is built to support querying [http://bridge.harmony.one/](http://bridge.harmony.one/)
 
