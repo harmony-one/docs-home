@@ -5,7 +5,7 @@ description: 'To launch your Ankr validator node, follow the steps below.'
 # Ankr
 
 {% hint style="danger" %}
-Ankr is **not optimized for mainnet** yet. We will update this notification once the necessary upgrades have been completed.  
+Ankr is **not optimized for mainnet** yet, and the "Harmony card" referenced below is not currently available. We will update this notification once the necessary upgrades have been completed.  
 ****  
 **Use "**[**First Time Setup**](../../node-setup/manual-setup/)**" to spin up your validator node!**  
 {% endhint %}
