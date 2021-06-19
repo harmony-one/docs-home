@@ -1,5 +1,9 @@
 # Network & Faucets
 
+## Network Status
+
+[https://status.harmony.one](https://status.harmony.one)
+
 ## Block Explorers
 
 | Mainet | Testnet |
