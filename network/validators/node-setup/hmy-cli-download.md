@@ -4,6 +4,10 @@ description: The Harmony CLI tool is used to interact with the Harmony blockchai
 
 # 1. HMY CLI Download
 
+{% hint style="warning" %}
+Make sure **NOT** to run the Node Setup with the`root` user. We recommend creating a new user called `harmony` for the Node Setup.
+{% endhint %}
+
 {% hint style="info" %}
 Throughout this guide, we will use the following syntax:
 
