@@ -6,7 +6,7 @@
 
 ## Block Explorers
 
-| Mainet | Testnet |
+| Mainnet | Testnet |
 | :--- | :--- |
 | [https://explorer.harmony.one/](https://explorer.harmony.one/) | [https://explorer.pops.one/](https://explorer.pops.one/) |
 
@@ -19,6 +19,8 @@
 
 
 {% hint style="info" %}
-When using the localnet, there is no need to setup a faucet to receive $ONE to test with because upon spinning up the localnet, the node creates several accounts that earn rewards for signing blocks.
+When running a localnet, there is no need to setup a faucet to receive $ONE for testing because upon spinning up the localnet, the node creates several accounts that earn rewards for signing blocks.
+
+
 Their keystore files are public on the [Harmony-One github](https://github.com/harmony-one/harmony/tree/main/.hmy/keystore)  
 {% endhint %}
