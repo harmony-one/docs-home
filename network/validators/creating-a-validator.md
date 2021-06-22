@@ -65,14 +65,6 @@ If you are running a node and your **node is synced** to the latest block, use t
 {% endtab %}
 {% endtabs %}
 
-{% hint style="info" %}
-Wait for your node to sync before creating a validator.
-
-Check your current block height with `./hmy blockchain latest-headers`
-
-Check chain block height with `./hmy blockchain latest-header --node=[endpoint]`
-{% endhint %}
-
 ## 2. Creating a Validator <a id="creating-a-validator"></a>
 
 {% hint style="info" %}
