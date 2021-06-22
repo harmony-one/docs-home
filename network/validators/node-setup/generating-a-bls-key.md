@@ -1,4 +1,4 @@
-# Setting up BLS Keys
+# 2. Setting up BLS Keys
 
 ## Creating new BLS keys
 
