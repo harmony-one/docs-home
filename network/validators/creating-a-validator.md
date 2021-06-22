@@ -43,13 +43,7 @@ example-account1                      one1wh4p0kuc7unxez2z8f82zfnhsg4ty6dupqyjt2
 
 ### Checking your account balance
 
-If you are running a node and your **node is synced** to the latest block, use the following command to check your balance : **./hmy balances \[ONE ADDRESS\].** Ex:
-
-```bash
-./hmy balances one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd
-```
-
-**If you are not running a node or your node is not synced**, use the following command to check your balance : **./hmy --node="\[API\_endpoint\]" balances \[ONE ADDRESS\]** ex:
+Use the following command to check your balance : **./hmy --node="\[API\_endpoint\]" balances \[ONE ADDRESS\]** ex:
 
 {% tabs %}
 {% tab title="Mainnet" %}
