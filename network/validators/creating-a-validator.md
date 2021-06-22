@@ -63,6 +63,8 @@ Use the following command to check your balance : **./hmy --node="\[API\_endpoin
 
 {% hint style="info" %}
 For you to create a Validator successfully, it needs to have 10000 ONE tokens plus the necessary fees to create the validator transaction on chain. For this reason, we recommend that you send at least 10001 ONE tokens to your `--validator-addr`before you continue.
+
+For Testnet tokens, check [here](../../developers/network-and-faucets.md).
 {% endhint %}
 
 Replace everything in \[ \] with your own data:
