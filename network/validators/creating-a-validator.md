@@ -41,7 +41,7 @@ Example output from above command:
 example-account1                      one1wh4p0kuc7unxez2z8f82zfnhsg4ty6dupqyjt2
 ```
 
-### Checking your account balance
+### Checking Account Balance
 
 Use the following command to check your balance : **./hmy --node="\[API\_endpoint\]" balances \[ONE ADDRESS\]** ex:
 
