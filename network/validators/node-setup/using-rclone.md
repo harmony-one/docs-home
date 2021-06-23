@@ -1,4 +1,6 @@
-# 3. Syncing with Rclone
+# 3. Syncing DB
+
+## Validator Nodes
 
 {% hint style="warning" %}
 This document introduces another centralized fast state syncing method using rclone. Please use it with caution. This guide is mainly used for a newly started node to catch up with the blockchain faster. Otherwise, the blockchain syncing may take weeks from genesis block.
@@ -6,7 +8,7 @@ This document introduces another centralized fast state syncing method using rcl
 
 Rclone db snapshot is sync'ed with blockchain frequently. However, there maybe a potential race condition when the rclone may fail due to our nodes were updating the db files at the same time. In this case, just re-run the rclone command to re-sync again.
 
-## 1. Installing Rclone
+### 1. Installing Rclone
 
 For installing Rclone, please follow the instructions at [https://rclone.org](https://rclone.org/).
 
@@ -20,7 +22,7 @@ curl https://rclone.org/install.sh | sudo bash
 Make sure your rclone version is above **v1.53.2** . you can check version by `rclone version`
 {% endhint %}
 
-## 2. Configuring Rclone
+### 2. Configuring Rclone
 
 To check the location of the `rclone.conf`file run:
 
@@ -49,7 +51,7 @@ EOF
 The above rclone config also work for the pangaea testnet network
 {% endhint %}
 
-## 3. Running Rclone
+### 3. Running Rclone
 
 Below is the command to sync the shard you want. Replace `<ShardID>`with the shard number you want to sync. Shard 0 is around 32 Gb as of 3/31/2021.
 
@@ -73,7 +75,7 @@ Nodes in shard 0 just need to sync `harmony_db_0`
 Nodes in shard 1, 2, 3 need to sync both `harmony_db_0`, and `harmony_db_<ShardID>`
 {% endhint %}
 
-## 4. Cheat Sheet
+### 4. Cheat Sheet
 
 #### shard0:
 
@@ -151,7 +153,7 @@ After the sync, you may use `du -h harmony_db_*` command to check the size of th
 `-P` will display a download progress & ETA.
 {% endhint %}
 
-## Archival Node
+## Non-Validating/Explorer Nodes
 
 {% hint style="info" %}
 As of 23th June 2021, the size for the shard 0 on mainnet is ~7.8Tb.
