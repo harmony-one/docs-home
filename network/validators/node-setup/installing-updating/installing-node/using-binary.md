@@ -64,7 +64,7 @@ All the start options can be persisted and loaded from a single config file. To 
 {% tabs %}
 {% tab title="Mainnet" %}
 ```bash
-./harmony dumpconfig harmony.conf
+./harmony config dump harmony.conf
 ```
 {% endtab %}
 
@@ -78,7 +78,7 @@ All the start options can be persisted and loaded from a single config file. To 
 A file `harmony.conf` is created and the default node options are set in the file in TOML formatting. Here is an example:
 
 ```text
-Version = "2.0.0"
+Version = "2.1.0"
 
 [BLSKeys]
   KMSConfigFile = ""
@@ -98,7 +98,7 @@ Version = "2.0.0"
   Port = 6000
   Server = true
   ServerPort = 6000
-  Zone = "b.hmny.io"
+  Zone = "t.hmny.io"
 
 [General]
   DataDir = "./"
@@ -122,9 +122,12 @@ Version = "2.0.0"
   RotateSize = 100
   Verbosity = 3
 
+  [Log.VerbosePrints]
+    Config = false
+
 [Network]
-  BootNodes = ["/dnsaddr/bootstrap.b.hmny.io"]
-  NetworkType = "testnet"
+  BootNodes = ["/dnsaddr/bootstrap.t.hmny.io"]
+  NetworkType = "mainnet"
 
 [P2P]
   IP = "0.0.0.0"
@@ -138,17 +141,18 @@ Version = "2.0.0"
 [RPCOpt]
   DebugEnabled = false
   RateLimterEnabled = true
-  RequestsPerSecond = 300
+  RequestsPerSecond = 1000
 
 [Sync]
-  Concurrency = 4
+  Concurrency = 6
   DiscBatch = 8
-  DiscHardLowCap = 4
-  DiscHighCap = 1024
-  DiscSoftLowCap = 4
+  DiscHardLowCap = 6
+  DiscHighCap = 128
+  DiscSoftLowCap = 8
   Downloader = false
-  InitStreams = 4
-  MinPeers = 4
+  Enabled = false
+  InitStreams = 8
+  MinPeers = 6
 
 [TxPool]
   BlacklistFile = "./.hmy/blacklist.txt"
@@ -185,7 +189,7 @@ To run harmony internal nodes under legacy mode instead of staking mode, change 
   ShardID = -1
 ```
 
-To enable streamsync, modify the below two section \(only available on testnet for now\)
+To enable streamsync, modify the below two sections \(Experimental\)
 
 {% tabs %}
 {% tab title="Testnet" %}
