@@ -6,7 +6,7 @@ We recommend that you run two nodes on two different regions around the globe fo
 One configuration could be positioning one node in North America and another one with the same BLS keys in Asia or Europe, for example.
 {% endhint %}
 
-## Server Recommendation
+## Validator Node: Recommendation
 
 ### For Cloud
 
@@ -37,4 +37,11 @@ Check [Cloud Guides](cloud-guides/) for instructions.
 **Network**: A Modem where you have access to settings like set IP address, Port forwarding and priority settings, 100Mbit/s bandwidth, low latency and flat rate usage. Minimum category 6 Cables
 
 Check [Raspberry Pi Guide](raspberry-pi-guide.md) for instructions.
+
+## Explorer Node: Recommendation
+
+**Setup**: AWS i3en.6xlarge or equivalent  
+**Storage**: 15000 GiB \(2 \* 7500 GiB NVMe SSD\)  
+**OS**: Latest Ubuntu Linux \(LTS Version\)  
+**Network**: 100M+ bandwidth
 
