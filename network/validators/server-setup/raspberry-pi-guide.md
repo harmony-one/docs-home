@@ -297,6 +297,6 @@ Since [HMY CLI](../node-setup/hmy-cli-download.md) is not natively supported ARM
 
 ## 11. Continue Node Setup
 
-Continue node setup from [Rclone](../node-setup/using-rclone.md) onwards.  
+Continue node setup from [Rclone](../node-setup/syncing-db.md) onwards.  
 
 

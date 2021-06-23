@@ -4,7 +4,7 @@
 
 {% page-ref page="generating-a-bls-key.md" %}
 
-{% page-ref page="using-rclone.md" %}
+{% page-ref page="syncing-db.md" %}
 
 {% page-ref page="installing-updating/" %}
 

@@ -365,7 +365,7 @@ A Non-validating Node is a node that runs in archival mode and does not join the
 Check [here](../../../server-setup/requirements.md#explorer-node-recommendation) for Explorer Node requirements.
 {% endhint %}
 
-Check [here](../../using-rclone.md#archival-node) for instructions on how to sync your node in archival mode.
+Check [here](../../syncing-db.md#archival-node) for instructions on how to sync your node in archival mode.
 
 {% hint style="info" %}
 Keep in mind that the storage space used increases around ~50+ GB per month on s0 due to staking transaction being stored. Other shard should take around 25GB per month. Please plan your storage space accordingly.
