@@ -270,7 +270,7 @@
           * [Troubleshoot](network/validators/node-setup/installing-updating/installing-node/using-autonode/troubleshoot.md)
           * [Extra](network/validators/node-setup/installing-updating/installing-node/using-autonode/extra.md)
         * [\(deprecated\) Using Node.sh](network/validators/node-setup/installing-updating/installing-node/using-node.sh.md)
-      * [Updating A Node](network/validators/node-setup/installing-updating/upgrading-node/README.md)
+      * [Upgrading A Node](network/validators/node-setup/installing-updating/upgrading-node/README.md)
         * [Using Node Binary](network/validators/node-setup/installing-updating/upgrading-node/using-binary.md)
         * [Using AutoNode \(deprecated\)](network/validators/node-setup/installing-updating/upgrading-node/using-autonode.md)
         * [Using Node.sh \(deprecated\)](network/validators/node-setup/installing-updating/upgrading-node/using-node.sh.md)
