@@ -50,6 +50,10 @@ To check your node follow instructions on [Checking A Node](../checking-node-sta
 
 ## Non-Validating/Explorer Nodes
 
+{% hint style="warning" %}
+Requirements for Explorer Nodes have changed. Check [here](../../../server-setup/requirements.md#explorer-node-recommendation) before going forward.
+{% endhint %}
+
 ### 1. Download New Explorer DB
 
 ```bash
