@@ -361,11 +361,11 @@ The above steps would have you started the node, please CTRL+C, so you can conti
 
 A Non-validating Node is a node that runs in archival mode and does not join the consensus.
 
-#### Requirements
+{% hint style="warning" %}
+Check [here](../../../server-setup/requirements.md#explorer-node-recommendation) for Explorer Node requirements.
+{% endhint %}
 
-A Non-validating Node is a node that runs in archival mode and does not join the consensus. It is expected to have the node software running on an AWS m5.large or equivalent server \(2 core, 8G RAM\). The spec of m5.large can be found in this [document](https://aws.amazon.com/ec2/instance-types/m5/).
-
-Check the documentation [here](../../using-rclone.md#archival-node) on how to sync your node in archival mode.
+Check [here](../../using-rclone.md#archival-node) for instructions on how to sync your node in archival mode.
 
 {% hint style="info" %}
 Keep in mind that the storage space used increases around ~50+ GB per month on s0 due to staking transaction being stored. Other shard should take around 25GB per month. Please plan your storage space accordingly.

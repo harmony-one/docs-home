@@ -154,7 +154,7 @@ After the sync, you may use `du -h harmony_db_*` command to check the size of th
 ## Archival Node
 
 {% hint style="info" %}
-As of 6th June 2021, the size for the shard 0 on mainnet is ~6Tb.
+As of 23th June 2021, the size for the shard 0 on mainnet is ~7.8Tb.
 {% endhint %}
 
 To sync your node in archival mode, just change the command below for the shard you want. Depending on the size, the syncing of the blockchain will take quite some time.
