@@ -156,6 +156,7 @@
     * [Using One Wallet with Smart Contracts](developers/wallets/onewallet/using-one-wallet-with-smart-contracts.md)
     * [Security Audit](developers/wallets/onewallet/security-audit.md)
   * [Math Wallet](developers/wallets/mathwallet.md)
+  * [1Wallet](developers/wallets/1wallet.md)
 * [Tools](developers/tools/README.md)
   * [Bridge](developers/tools/bridge/README.md)
     * [Horizon SDK](developers/tools/bridge/horizon-sdk.md)
