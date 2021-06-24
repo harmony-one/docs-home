@@ -4,7 +4,7 @@
 
 Best Crypto Wallet for Billions
 
-⚡ WHY**:** [Billions of users](https://www.blog.google/technology/next-billion-users/more-inclusive-global-digital-economy/) can earn 10% or more annual returns with crypto assets. But they must stop worrying about seed phrases, device loss, email phishing, phone hijacking... We [can secure](https://www.argent.xyz/blog/10-security-secrets/) everyone’s financial future against password breaches, software bugs, platform malwares and [exchange hacks](https://blog.idex.io/all-posts/a-complete-list-of-cryptocurrency-exchange-hacks-updated).
+⚡ WHY: [Billions of users](https://www.blog.google/technology/next-billion-users/more-inclusive-global-digital-economy/) can earn 10% or more annual returns with crypto assets. But they must stop worrying about seed phrases, device loss, email phishing, phone hijacking... We [can secure](https://www.argent.xyz/blog/10-security-secrets/) everyone’s financial future against password breaches, software bugs, platform malwares and [exchange hacks](https://blog.idex.io/all-posts/a-complete-list-of-cryptocurrency-exchange-hacks-updated).
 
 👩‍👩‍👧‍👦 WHOM: Global consumers with just a few thousand dollars and no technical background.
 
