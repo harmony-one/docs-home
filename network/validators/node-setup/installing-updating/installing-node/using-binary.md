@@ -398,6 +398,10 @@ Alternatively, you can also run it using flag parsing:
 ./harmony --run=explorer --run.archive --run.shard=0 --db_dir=./
 ```
 
+{% hint style="warning" %}
+Make sure to follow the upgrading Explorer DB schema process [here](../upgrading-node/) afterwards. This fixes a critical issue on Explorer DB.
+{% endhint %}
+
 ## 2. Setup Systemd
 
 {% hint style="info" %}
