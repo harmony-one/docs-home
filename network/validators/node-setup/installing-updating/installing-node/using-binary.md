@@ -399,7 +399,7 @@ Alternatively, you can also run it using flag parsing:
 ```
 
 {% hint style="warning" %}
-Make sure to follow the upgrading Explorer DB schema process [here](../upgrading-node/) afterwards. This fixes a critical issue on Explorer DB.
+Make sure to follow the upgrading Explorer DB schema process [here](../upgrading-node/using-binary.md#non-validating-explorer-nodes) afterwards. This fixes a critical issue on Explorer DB.
 {% endhint %}
 
 ## 2. Setup Systemd
