@@ -178,9 +178,13 @@ Click on the asset you want to send your tokens from on the Asset tab. Click on 
 
 In order to receive a transaction, just share the **0x** address format of your wallet. One Wallet supports sending HRC20/HRC721 transactions to either addresses starting with **0x** or **one1**.
 
-## 1-Click for Harmony on Metamask
+## 1-Click for using Metamask on Harmony Mainnet
 
 Applications can provide 1-click access to the Harmony mainnet. An example of this implementation is by Sushi where users can easily go from Ethereum to Harmony: [https://app.sushi.com/swap](https://app.sushi.com/swap)
 
+Click on the top right where it says "Harmony" and it will open a simple drop down menu to select the network you want to use Sushi on.
+
 ![](../../../.gitbook/assets/image%20%281%29.png)
+
+![](../../../.gitbook/assets/image%20%283%29.png)
 
