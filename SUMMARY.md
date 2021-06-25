@@ -149,7 +149,7 @@
   * [Metamask](developers/wallets/metamask/README.md)
     * [Interacting With Metamask](developers/wallets/metamask/interacting-with-metamask.md)
     * [Using Metamask with Harmony Smart Contracts](developers/wallets/metamask/using-metamask-with-harmony-smart-contracts.md)
-  * [One Wallet](developers/wallets/onewallet/README.md)
+  * [Harmony Chrome Extension Wallet](developers/wallets/onewallet/README.md)
     * [Introduction](developers/wallets/onewallet/introduction.md)
     * [Project Setup](developers/wallets/onewallet/project-setup-1.md)
     * [Interacting with One Wallet](developers/wallets/onewallet/interacting-with-one-wallet.md)

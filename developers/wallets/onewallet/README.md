@@ -4,7 +4,7 @@ description: >-
   Extenstion.
 ---
 
-# One Wallet
+# Harmony Chrome Extension Wallet
 
 ### Installation
 
