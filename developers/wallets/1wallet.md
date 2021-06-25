@@ -1,8 +1,15 @@
+---
+description: Best Crypto Wallet for Billions
+---
+
 # 1Wallet
 
-## [1Wallet](https://harmony.one/1wallet)
+* [Demo on Harmony Mainnet](https://1wallet.crazy.one/)
+* [Harmony's Wallet Strategy](https://twitter.com/stse/status/1390810619834638336)
+* [Tweets on Updates and News](https://twitter.com/1wallet_)
+* [Research on Keyless Wallet](https://twitter.com/dionyziz/status/1400005462028914690)
 
-Best Crypto Wallet for Billions
+## Project Summary
 
 ⚡ WHY: [Billions of users](https://www.blog.google/technology/next-billion-users/more-inclusive-global-digital-economy/) can earn 10% or more annual returns with crypto assets. But they must stop worrying about seed phrases, device loss, email phishing, phone hijacking... We [can secure](https://www.argent.xyz/blog/10-security-secrets/) everyone’s financial future against password breaches, software bugs, platform malwares and [exchange hacks](https://blog.idex.io/all-posts/a-complete-list-of-cryptocurrency-exchange-hacks-updated).
 
@@ -35,7 +42,7 @@ Best Crypto Wallet for Billions
 
 Join us at [@1wallet\_](https://twitter.com/1wallet_), [demo](https://1wallet.crazy.one) and [wiki](https://harmony.one/1wallet-goals).
 
-## [Security Goals](https://github.com/polymorpher/one-wallet/wiki)
+## Security Goals
 
 ONE Wallet is designed with these goals in mind for security:
 
@@ -56,4 +63,11 @@ ONE Wallet is designed with these goals in mind for security:
 * **Self-Sovereign**. No third parties, government documents, designated guardians, backup servers or hardware enclaves are necessary. Users have full custody and self control.
 * **Air-Gapped**. Key-loggers and man-in-the-middle attacks are minimized. The full parameters of transactions are easy to verify and approve without cables or cameras.
 * **Verified**. Trusted are only open source and hardened cryptography. Formal verification, through logical frameworks, assures end-to-end security beyond tests and audits.
+
+## Tradeoffs
+
+There may be conflicts, tradeoffs or impracticality of the goals above. Here's our rule of thumb:
+
+1. Toward validating our innovation with 10k users \(each with $100 assets\), focus on these three goals: **sufficient, resilient and composable**.
+2. Toward adopting our product with 1m users \(each with $1k assets\), differentiate with these three goals: **on-chain, self-sovereign and air-gapped**.
 
