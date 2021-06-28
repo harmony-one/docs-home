@@ -1,5 +1,18 @@
 # DeFi
 
+## [Sushi](https://sushi.com)
+
+Sushi and Harmony are coming together to deepen our partnership and launch a full suite of Sushi products on Harmony.
+
+Specifically:
+
+1. **$2 million** in liquidity mining rewards for Sushi on Harmony
+2. **$2 million** in rewards for Kashi borrowing/lending on Harmony
+3. Onsen ONE&lt;&gt;ETH Yield Farming Pair
+4. Sushi-specific hackathon challenges with $100,000 in prizes as part of our $1M hackathon
+
+{% embed url="https://medium.com/harmony-one/sushi-and-harmony-announce-full-stack-partnership-with-4m-in-incentives-6dfaf6dd8887" %}
+
 ## [ViperSwap](https://viperswap.one)
 
 ViperSwap is a [Uniswap](http://uniswap.exchange/) V2 and [Sushiswap](https://www.sushi.com/)-style DEX mixed with [Bao.finance](https://www.bao.finance/)’s token emission model \(more details on this later\).
