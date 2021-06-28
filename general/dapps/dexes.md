@@ -6,8 +6,8 @@ Sushi and Harmony are coming together to deepen our partnership and launch a ful
 
 Specifically:
 
-1. **$2 million** in liquidity mining rewards for Sushi on Harmony
-2. **$2 million** in rewards for Kashi borrowing/lending on Harmony
+1. $2 million in liquidity mining rewards for Sushi on Harmony
+2. $2 million in rewards for Kashi borrowing/lending on Harmony
 3. Onsen ONE&lt;&gt;ETH Yield Farming Pair
 4. Sushi-specific hackathon challenges with $100,000 in prizes as part of our $1M hackathon
 
