@@ -53,7 +53,7 @@ The above rclone config also work for the pangaea testnet network
 
 ### 3. Running Rclone
 
-Below is the command to sync the shard you want. Replace `<ShardID>`with the shard number you want to sync. Shard 0 is around 32 Gb as of 3/31/2021.
+Below is the command to sync the shard you want. Replace `<ShardID>`with the shard number you want to sync. Shard 0 is around 94 Gb as of June/2021.
 
 {% tabs %}
 {% tab title="Mainnet" %}
