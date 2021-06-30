@@ -1,4 +1,10 @@
-# Connect Metamask to the Harmony chain
+---
+description: >-
+  This api provide developers & users simple add / switch Harmony chain to
+  Metamask wallet
+---
+
+# Api to add Harmony chain to Metamask
 
 Developers can use this sources to provide users easy configure or switch to correct Harmony chain and shard. \(by analogy with [https://chainlist.org/](https://chainlist.org/)\)
 
