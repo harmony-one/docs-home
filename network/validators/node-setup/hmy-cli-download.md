@@ -40,13 +40,13 @@ Now you can use `hmy.sh` as a wrapper over `hmy` and you should assume that all 
 Note that since `hmy` is not statically linked, you cannot arbitrarily move `hmy.sh` to anywhere on your filesystem like you could with a single binary.
 {% endhint %}
 
-Now on Linux, it would look like:
+On Linux, calling the `cookbook` would would look like this:
 
 ```bash
 ./hmy --node="https://api.s0.t.hmny.io" cookbook
 ```
 
-For example calling the `cookbook` on MacOS it would look like:
+And on MacOS would look like:
 
 ```bash
 ./hmy.sh -- --node="https://api.s0.t.hmny.io" cookbook
