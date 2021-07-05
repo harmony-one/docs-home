@@ -48,7 +48,7 @@ ONE Wallet is designed with these goals in mind for security:
 
 #### Social \(people\)
 
-* **Resilient**. Funds are recoverable through time locks and multiple safety nets. No single point of failure such as thefts, cracks, loss, censorship or coersions is catastrophic.
+* **Resilient**. Funds are recoverable through time locks and multiple safety nets. No single point of failure such as thefts, cracks, loss, censorship or coercions is catastrophic.
 * **Sufficient**. All steps are well defined without delegating to hardware devices or seed phrases in safety boxes. Users do not need any passwords or rely on biometrics.
 * **Anonymous**. An account is a fresh cryptographic hash, not tied to existing systems or real-world identity. Derived paths support multiple public keys to protect privacy.
 
