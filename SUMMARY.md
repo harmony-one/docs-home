@@ -38,6 +38,7 @@
     * [Fiat Gateways](general/ecosystem/partners/fiat-gateways.md)
     * [DEX/Swaps](general/ecosystem/partners/dex-swaps.md)
   * [Integrations](general/ecosystem/integrations.md)
+  * [Cross-Border Finance](general/ecosystem/cross-border-finance.md)
 * [Community](general/community.md)
 * [Grants](general/grants/README.md)
   * [Grantee Guide](general/grants/grantee-guide.md)

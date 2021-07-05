@@ -6,10 +6,6 @@ Prediction market on Harmony Network.
 
 Links: [community](https://t.me/seemarket_community)
 
-## [WestMinter](https://westminter.com/harmony/minter)
-
-Easily create your own tokens in Harmony ONE and start distributing it to your friends or investors.
-
 ## [Ript.io](https://ript.io)
 
 Ript is the first ever Harmony dApp warehouse.
