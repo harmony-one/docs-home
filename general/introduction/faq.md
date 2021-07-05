@@ -2,7 +2,7 @@
 
 ## Where do I get Harmony One?
 
-Check [Coinmarketcap Markets](https://coinmarketcap.com/currencies/harmony/markets/) for a list of Exchanges trading Harmony One. You may also want to get them via [Defi DApps](../dapps/dexes.md).
+Check [Coinmarketcap Markets](https://coinmarketcap.com/currencies/harmony/markets/) for a list of Exchanges trading Harmony One. You may also want to get them via [Defi DApps](../dapps/dexes/).
 
 ## What Wallets accept Harmony One?
 
