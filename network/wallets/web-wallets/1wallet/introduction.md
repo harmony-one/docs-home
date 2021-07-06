@@ -1,8 +1,4 @@
----
-description: Best Crypto Wallet for Billions
----
-
-# 1Wallet
+# Introduction
 
 * [Demo on Harmony Mainnet](https://1wallet.crazy.one/)
 * [Harmony's Wallet Strategy](https://twitter.com/stse/status/1390810619834638336)
@@ -69,5 +65,5 @@ ONE Wallet is designed with these goals in mind for security:
 There may be conflicts, tradeoffs or impracticality of the goals above. Here's our rule of thumb:
 
 1. Toward validating our innovation with 10k users \(each with $100 assets\), focus on these three goals: **sufficient, resilient and composable**.
-2. Toward adopting our product with 1m users \(each with $1k assets\), differentiate with these three goals: **on-chain, self-sovereign and air-gapped**.
+2. Toward adopting our product with 1m users \(each with $1k assets\), differentiate with these three goals: **on-chain, self-sovereign and air-gapped**
 

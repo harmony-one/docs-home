@@ -29,7 +29,7 @@ Good One is a simple crowdfunding dApp which will have the ‘minimum’ functio
 
 ![](../../.gitbook/assets/image%20%28309%29%20%282%29.png)
 
-![](../../.gitbook/assets/image%20%28304%29%20%283%29%20%283%29%20%282%29.png)
+![](../../.gitbook/assets/image%20%28304%29%20%283%29%20%283%29%20%283%29%20%282%29.png)
 
 
 
