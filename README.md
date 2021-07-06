@@ -1,12 +1,19 @@
 ---
-description: To scale trust and create a radically fair economy
+description: To Scale Trust and Create A Radically Fair Economy
 ---
 
-# Welcome
+# Welcome to Harmony ONE
 
-Welcome to the Harmony Docs. This central resource contains an introduction to Harmony, our features and rationale, and resources for developers and network participants. It is divided in three main sections:
+Harmony is your open platform for assets, collectibles, identity, governance. We are an open and fast blockchain. 
 
-* **🎶** General - we describe the basics of Harmony and cover the technical features and our ecosystem, including grants and showcases.
-* **🏗️** Developers - we share all the tools and documentation for developers to deploy smart contracts and build applications on Harmony.
-* **🌏** Network - we provide guides for participating in the Harmony network as a validator, delegator and token holder.
+Our mainnet runs Ethereum applications with 2-second transaction finality and 1000 times lower fees. Harmony’s secure bridges offer cross-chain asset transfers with Ethereum, Binance and other chains.
 
+This document has introduction and resources for all audience:
+
+* **🎶** [General](https://docs.harmony.one/home/general/introduction) - technical features, application showcases, ecosystem partners, community channels.
+
+* **🏗️** [Developers](https://docs.harmony.one/home/developers/getting-started) - web3 toolkits, deploy tutorials, open bounties, hackathon prizes.
+
+* **🌏** [Network](https://docs.harmony.one/home/network/wallets) - token wallets, delegator economics, validator setup, governance dao.
+
+Build on Harmony, run on all chains. Be the ONE to bridge to all blockchains.
