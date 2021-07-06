@@ -87,6 +87,13 @@ Step 14: Click Deposit
 Step 15: Confirm the transaction and the relevant fees from your wallet
 
 If you have any questions or problems, you can always contact the Harmony team at [harmony.one/telegram](https://harmony.one/telegram). They have a super helpful and welcoming community and are happy to assist you.  
-  
 
+
+## WONE Rewards 
+
+The rewards are in Wrapped ONEs on Harmony. Please add this contract address as a token to your Metamask: 
+
+`0xcF664087a5bB0237a0BAd6742852ec6c8d69A27a`
+
+You may use Sushi Swap itself to exchange between WONEs and ONEs.
 
