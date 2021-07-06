@@ -6,5 +6,5 @@
 
 ## 2. What does Daily Limit mean?
 
-Daily limit for 1wallets are set to 1000 ONE's. This means you cannot transfer more than this amount daily.
+The daily limit for 1wallet is set to 1000 ONE's. This means you cannot transfer more than this amount daily.
 
