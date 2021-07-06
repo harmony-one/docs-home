@@ -238,6 +238,7 @@
     * [1Wallet](network/wallets/web-wallets/1wallet/README.md)
       * [Introduction](network/wallets/web-wallets/1wallet/introduction.md)
       * [User Guide](network/wallets/web-wallets/1wallet/user-guide.md)
+      * [FAQ](network/wallets/web-wallets/1wallet/faq.md)
     * [Guarda Wallet](network/wallets/web-wallets/guarda-wallet.md)
     * [Sprout](network/wallets/web-wallets/sprout.md)
 * [Validators](network/validators/README.md)
