@@ -24,6 +24,16 @@ If everything went alright you should see your wallet created:
 
 ![Wallet Created](../../../../.gitbook/assets/1wallet_3.png)
 
+## Restoring Your ONE Wallet
+
+Click on button **Restore** and paste your wallet address:
+
+![Wallet Address](../../../../.gitbook/assets/1wallet_4.png)
+
+Follow the instructions on the next window:
+
+![Restore Wallet ](../../../../.gitbook/assets/1wallet_5.png)
+
 ## Videos
 
 {% embed url="https://www.youtube.com/watch?v=FpcJ55thfj0" %}
