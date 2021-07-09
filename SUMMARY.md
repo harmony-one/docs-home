@@ -31,6 +31,7 @@
   * [DeFi](general/dapps/dexes/README.md)
     * [Sushi](general/dapps/dexes/sushi/README.md)
       * [Onsen](general/dapps/dexes/sushi/onsen.md)
+    * [Timeless](general/dapps/dexes/timeless.md)
   * [NFTs](general/dapps/nfts.md)
   * [Gnosis Safe](general/dapps/gnosis-safe.md)
   * [Others](general/dapps/others.md)
