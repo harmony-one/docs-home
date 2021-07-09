@@ -24,6 +24,7 @@
   * [Bridging BSC &lt;&gt; ONE](general/horizon-bridge/bridging-bsc-one.md)
   * [Adding Tokens](general/horizon-bridge/adding-tokens.md)
   * [New Features](general/horizon-bridge/new-features.md)
+  * [Mobile](general/horizon-bridge/mobile.md)
   * [Bridge API](general/horizon-bridge/bridge-api.md)
   * [Security Audit](general/horizon-bridge/audit.md)
   * [Bridge FAQ's](general/horizon-bridge/bridge-faqs.md)
