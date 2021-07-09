@@ -104,5 +104,5 @@ Select Binance as the network, and click Metamask icon under Binance
 
 ![](../../.gitbook/assets/image%20%2883%29.png)
 
-
+Performing Bridge Transaction -&gt; [https://www.youtube.com/watch?v=LpnXu-i34rg](https://www.youtube.com/watch?v=LpnXu-i34rg)
 
