@@ -6,6 +6,8 @@ description: Bridging tokens from Ethereum and BSC using Metamask on mobile
 
 Assumption: You have Metamask Installed on your mobile and your wallet imported/created.
 
+## Demo: [https://www.youtube.com/watch?v=LpnXu-i34rg](https://www.youtube.com/watch?v=LpnXu-i34rg)
+
 ## Step 1: Configure Harmony , Binance Smart Chain networks on Metamask Mobile
 
 Click the Hamburger Icon
