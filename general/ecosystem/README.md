@@ -2,7 +2,7 @@
 
 The Harmony team is focused on delivering a strong foundation for our network and ecosystem. We are grateful for the engagement and support of our validators, stakers, developers, grantees and collaborators for a fruitful year.
 
-Our current ecosystem map as of May 2021:
+Our current ecosystem map as of June 2021:
 
 ![](../../.gitbook/assets/ecosystem_new_3.png)
 
