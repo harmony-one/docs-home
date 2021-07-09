@@ -19,3 +19,5 @@ Since the random assignment \(resharding\) of validators only happens every epoc
 
 The VDF \(Verifiable Delay Function\) is used to delay the revelation of the final randomness in order to be secure against last-revealer-attack.The VDF is used to provably delay the revelation of Rnd and prevent the last leader from biasing the randomness by choosing to submit or not the last random number. Because of the VDF, the last leader won’t be able to know the actual final randomness before pRnd is committed to the blockchain. By the time Rnd is computed with the VDF, pRnd is already committed in a previous block so the leader cannot manipulate it anymore. Therefore, the most a malicious leader can do is to either blindly commit the randomness pRnd, or stall the protocol by not committing pRnd. The former is the same as the honest behavior. The latter won’t cause much damage as the timeout mechanism in FBFT will be triggered to switch the leader.
 
+
+
