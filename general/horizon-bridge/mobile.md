@@ -86,7 +86,7 @@ Click on Search or Type URL
 
 
 
-Type bridge.harmony.one , click Go
+Type [bridge.harmony.one](https://bridge.harmony.one), click Go
 
 ![Type bridge.harmony.one , click Go](../../.gitbook/assets/image%20%2829%29.png)
 
