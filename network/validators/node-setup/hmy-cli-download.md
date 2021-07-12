@@ -5,7 +5,7 @@ description: The Harmony CLI tool is used to interact with the Harmony blockchai
 # 1. HMY CLI Download
 
 {% hint style="warning" %}
-Make sure **NOT** to run the Node Setup with the`root` user. We recommend creating a new user called `harmony` for the Node Setup.
+Make sure **NOT** to run the Node Setup with the`root` user. We recommend creating a new user called `harmony` for the Node Setup and giving it root level access.
 {% endhint %}
 
 {% hint style="info" %}
@@ -40,16 +40,16 @@ Now you can use `hmy.sh` as a wrapper over `hmy` and you should assume that all 
 Note that since `hmy` is not statically linked, you cannot arbitrarily move `hmy.sh` to anywhere on your filesystem like you could with a single binary.
 {% endhint %}
 
-For example calling the `cookbook` on MacOS it would look like:
-
-```bash
-./hmy.sh -- --node="https://api.s0.t.hmny.io" cookbook
-```
-
-Now on Linux, it would look like:
+On Linux, calling the `cookbook` would look like this:
 
 ```bash
 ./hmy --node="https://api.s0.t.hmny.io" cookbook
+```
+
+And on MacOS would look like:
+
+```bash
+./hmy.sh -- --node="https://api.s0.t.hmny.io" cookbook
 ```
 
 ## Output
