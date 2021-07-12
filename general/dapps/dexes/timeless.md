@@ -2,7 +2,7 @@
 
 ## About Timeless
 
-Timeless is reimagining the role of the calendar in our daily lives. We provide a delightful user interface, enabling users to seamlessly network their events with others via our Web RSVP pages. Instead of serving as a reminder for certain tasks, we are building out the discovery of services that will grow a marketplace in our calendar, intuitively helping users conquer the day. Timeless is driven to help users make the best use of their time, doing what matters, with the people they care about.
+Timeless is reimagining the role of the calendar in our daily lives. They provide a delightful user interface, enabling users to seamlessly network their events with others via our Web RSVP pages. Instead of serving as a reminder for certain tasks, They are building out the discovery of services that will grow a marketplace in our calendar, intuitively helping users conquer the day. Timeless is driven to help users make the best use of their time, doing what matters, with the people they care about.
 
 #### Shared Cultural Experiences 
 
