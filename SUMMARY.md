@@ -28,6 +28,8 @@
   * [Bridge API](general/horizon-bridge/bridge-api.md)
   * [Security Audit](general/horizon-bridge/audit.md)
   * [Bridge FAQ's](general/horizon-bridge/bridge-faqs.md)
+* [Other Bridges](general/other-bridges/README.md)
+  * [Terra](general/other-bridges/terra.md)
 * [DApps](general/dapps/README.md)
   * [DeFi](general/dapps/dexes/README.md)
     * [Sushi](general/dapps/dexes/sushi/README.md)
