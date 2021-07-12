@@ -54,5 +54,25 @@ Options:
       --version   Show version number                                 [boolean]
 ```
 
+The first step is to scan the QR code.
+
+```text
+./1wallet scan
+```
+
+Once you have done that, you can run the next command using the 6 digit authenticator code and a recovery address of your choice to create your 1Wallet.
+
+```text
+./1wallet make <recovery-address> <code>
+
+./1wallet make one10jaac3q8qrd6fkun25t09q33tsrsz4uazctnj0 123456
+```
+
+You should see a screen like this on your Terminal \(yes, do you like my Matrix themed Terminal?\):
+
+![](../../../.gitbook/assets/image%20%2891%29.png)
+
+After that you can try to send a small amount of tokens to your newly created 1Wallet and in general test some of the other commands and functionalities.
+
 Let us know if you find any issues: [https://github.com/polymorpher/one-wallet/issues](https://github.com/polymorpher/one-wallet/issues)
 
