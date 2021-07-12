@@ -54,5 +54,5 @@ Options:
       --version   Show version number                                 [boolean]
 ```
 
-
+Let us know if you find any issues: [https://github.com/polymorpher/one-wallet/issues](https://github.com/polymorpher/one-wallet/issues)
 
