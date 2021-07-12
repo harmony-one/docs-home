@@ -198,7 +198,7 @@
 * [Holders](network/wallets/README.md)
   * [1Wallet](network/wallets/1wallet/README.md)
     * [User Guide](network/wallets/1wallet/user-guide.md)
-    * [CLI Guide](network/wallets/1wallet/cli-guide.md)
+    * [CLI 1Wallet User Guide](network/wallets/1wallet/cli-guide.md)
     * [FAQ](network/wallets/1wallet/faq.md)
   * [HMY CLI](network/wallets/harmony-cli/README.md)
     * [Download & Setup](network/wallets/harmony-cli/download-setup.md)
