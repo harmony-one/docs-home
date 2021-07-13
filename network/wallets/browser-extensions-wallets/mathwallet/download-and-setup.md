@@ -14,7 +14,7 @@ Previous versions have a known bug and are not supported.
 
 1. Open the extension in your browser and create new password.
 
-![](../../../../.gitbook/assets/image%20%28107%29%20%281%29%20%281%29%20%281%29.png)
+![](../../../../.gitbook/assets/image%20%28107%29%20%281%29%20%281%29%20%281%29%20%281%29.png)
 
 1. Select **Harmony** from the list of networks.
 

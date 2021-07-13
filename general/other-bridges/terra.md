@@ -16,7 +16,7 @@ description: Using Terra <-> Harmony Bridge
 
 ## Bridging UST from Terra to Harmony
 
-Step 1: Navigate to Terra Harmony Bridge in your browser. 
+Step 1: Navigate to [https://bridge.terra.money/](https://bridge.terra.money/) in your browser. 
 
 ![Click Connect](../../.gitbook/assets/image%20%28103%29.png)
 
