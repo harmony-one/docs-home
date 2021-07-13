@@ -29,7 +29,8 @@ Docker for running graph node for Harmony mainnet. Copy the code below to `docke
 version: "3"
 services:
   graph-node:
-    image: graphprotocol/graph-node:1fcc47f
+    container_name: hmy_indexer
+    image: graphprotocol/graph-node:0.23.1
     ports:
       - "8000:8000"
       - "8001:8001"
@@ -48,9 +49,10 @@ services:
       GRAPH_ETH_CALL_BY_NUMBER: 1
       GRAPH_NO_EIP_1898_SUPPORT: 1
       GRAPH_ALLOW_NON_DETERMINISTIC_IPFS: 1
-      ethereum: "mainnet:https://a.api.s0.t.hmny.io/"
+      ethereum: 'mainnet:no_eip1898,archive,traces:https://a.api.s0.t.hmny.io"
       RUST_LOG: info
   ipfs:
+    container_name: ipfs
     image: ipfs/go-ipfs:v0.4.23
     ports:
       - "5001:5001"
