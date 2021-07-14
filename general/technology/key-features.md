@@ -22,5 +22,5 @@ Harmony has designed a novel Proof-of-Stake \(PoS\) mechanism for network securi
 
 Our staking mechanism supports delegation and reward compounding. To support 100% uptime but fully open participation, EPoS slashes validators who double-sign and it penalizes elected but unavailable nodes.
 
-Harmony Economics Model caps the annual insurance at 441 million tokens \(about 3% rate in long term\). Our model gives validators a simple and predictable return. All transaction fees are burnt to offset the insurance, naturally leading to _zero inflation_ when our network usage becomes high.
+Harmony Economics Model caps the annual issuance at 441 million tokens \(about 3% rate in long term\). Our model gives validators a simple and predictable return. All transaction fees are burnt to offset the issuance, naturally leading to _zero inflation_ when our network usage becomes high.
 
