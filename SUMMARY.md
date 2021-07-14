@@ -45,6 +45,7 @@
   * [Integrations](general/ecosystem/integrations.md)
   * [Cross-Border Finance](general/ecosystem/cross-border-finance.md)
 * [DAOs](general/daos/README.md)
+  * [Components & Tools](general/daos/components-and-tools.md)
   * [Community DAO](general/daos/community-dao.md)
   * [Validator DAO](general/daos/validator-dao.md)
 * [Community](general/community.md)
