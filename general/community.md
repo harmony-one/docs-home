@@ -12,6 +12,7 @@
 * Instagram: [harmony.one/instagram](https://harmony.one/instagram)
 * Facebook: [harmony.one/facebook](https://harmony.one/facebook)
 * Youtube: [harmony.one/youtube](https://harmony.one/youtube)
+* Blockster: [https://blockster.com/harmony?ref=se](https://blockster.com/harmony?ref=se)
 
 ## Global Telegram Channels
 
