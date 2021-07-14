@@ -44,6 +44,7 @@
     * [DEX/Swaps](general/ecosystem/partners/dex-swaps.md)
   * [Integrations](general/ecosystem/integrations.md)
   * [Cross-Border Finance](general/ecosystem/cross-border-finance.md)
+* [DAOs](general/daos.md)
 * [Community](general/community.md)
 * [Grants](general/grants/README.md)
   * [Grantee Guide](general/grants/grantee-guide.md)
