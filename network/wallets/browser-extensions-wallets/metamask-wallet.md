@@ -93,9 +93,9 @@ Use the RPC URL of Shard 0 if you want to send/receive transactions from exchang
     <tr>
       <td style="text-align:left"><b>Block Explorer URL (optional)</b>
       </td>
-      <td style="text-align:left"><a href="https://explorer.harmony.one/#/">https://explorer.harmony.one/#/</a>
+      <td style="text-align:left"><a href="https://explorer.harmony.one/#/">https://explorer.harmony.one/</a>
       </td>
-      <td style="text-align:left"><a href="https://explorer.pops.one/#/">https://explorer.pops.one/#/</a>
+      <td style="text-align:left"><a href="https://explorer.pops.one/#/">https://explorer.pops.one/</a>
       </td>
     </tr>
   </tbody>
