@@ -198,6 +198,7 @@
     * [Using Web3.py & Pyhmy](developers/learn/tutorials/using-web3.py-and-pyhmy.md)
     * [Using IPFS](developers/learn/tutorials/using-ipfs.md)
     * [Using Explorer API](developers/learn/tutorials/using-explorer-api.md)
+    * [Publishing & Verifying Your Smart Contract](developers/learn/tutorials/publishing-and-verifying-your-smart-contract.md)
 
 ## 🌏 Network
 
