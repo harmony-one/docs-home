@@ -22,7 +22,7 @@ Since there is no shard selection in the Trust Wallet UI, all transactions will 
 
 ### **For more details, please see these example cross-shard transactions using Trust Wallet:**
 
-![](../../../.gitbook/assets/image%20%28100%29%20%281%29%20%281%29%20%281%29%20%281%29%20%281%29.png)
+![](../../../.gitbook/assets/image%20%28100%29%20%281%29%20%281%29%20%281%29%20%281%29%20%281%29%20%281%29.png)
 
 ### What to do if you receive funds in a shard other than shard 0 when using Trust Wallet?
 

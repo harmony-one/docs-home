@@ -190,6 +190,14 @@
   * [Tutorials](developers/learn/tutorials/README.md)
     * [Deploying HRC20](developers/learn/tutorials/deploying-hrc20.md)
     * [Deploying HRC721/NFT](developers/learn/tutorials/deploying-hrc721-nft.md)
+    * [Building & Deploying Subgraph](developers/learn/tutorials/building-and-deploying-subgraph.md)
+    * [Using Chainlink Oracle](developers/learn/tutorials/using-chainlink-oracle.md)
+    * [Using Band Oracle](developers/learn/tutorials/using-band-oracle.md)
+    * [Using Horizon Bridge SDK](developers/learn/tutorials/using-horizon-bridge-sdk.md)
+    * [Using Crosschain API](developers/learn/tutorials/using-crosschain-api.md)
+    * [Using Web3.py & Pyhmy](developers/learn/tutorials/using-web3.py-and-pyhmy.md)
+    * [Using IPFS](developers/learn/tutorials/using-ipfs.md)
+    * [Using Explorer API](developers/learn/tutorials/using-explorer-api.md)
 
 ## 🌏 Network
 
