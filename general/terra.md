@@ -102,3 +102,18 @@ You should see a "Complete" message when the bridge transaction is completed. Ad
 
 At this point, you should have received UST back in your Terra wallet.
 
+## FAQs
+
+* **What is the contract address of 1UST token bridged using terra&lt;&gt;harmony bridge?**
+
+  * [https://explorer.harmony.one/address/0x224e64ec1bdce3870a6a6c777edd450454068fec](https://explorer.harmony.one/address/0x224e64ec1bdce3870a6a6c777edd450454068fec)
+
+* **Can I bridge UST from Ethereum or BSC using Horizon bridge \(https://bridge.harmony.one\) to obtain 1UST from** [**https://explorer.harmony.one/address/0x224e64ec1bdce3870a6a6c777edd450454068fec**](https://explorer.harmony.one/address/0x224e64ec1bdce3870a6a6c777edd450454068fec) **contract?**
+  * No. The horizon bridge issues different UST tokens when bridged from Ethereum and BSC and it is not same the UST bridged using native terra&lt;&gt;harmony bridge. 
+    * The 1UST token address for UST bridged from Ethereum: [https://explorer.harmony.one/address/0x2BfA122427085E0D1993CCcf1F74A4C915908F7B](https://explorer.harmony.one/address/0x2BfA122427085E0D1993CCcf1F74A4C915908F7B)
+    * The 1UST token address for UST bridged from BSC:
+
+      * [https://explorer.harmony.one/address/0xb82307fF75F0CD2cFc253BA2621851fd9123a818](https://explorer.harmony.one/address/0xb82307fF75F0CD2cFc253BA2621851fd9123a818)
+* **Which 1UST is used in DEXs like Viper and Sushi for farming?**
+  * It is the 1UST bridged using native terra&lt;&gt;harmony bridge with address: [https://explorer.harmony.one/address/0x224e64ec1bdce3870a6a6c777edd450454068fec](https://explorer.harmony.one/address/0x224e64ec1bdce3870a6a6c777edd450454068fec)
+
