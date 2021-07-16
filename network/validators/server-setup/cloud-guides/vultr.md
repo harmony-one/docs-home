@@ -91,18 +91,12 @@ Follow the instructions below accordingly to the operating system you are connec
 * [Windows](https://www.vultr.com/docs/connecting-to-your-server-with-ssh-via-putty-on-windows)
 * [Linux](https://www.vultr.com/docs/how-to-access-your-vultr-vps#SSH__Linux_)
 
-## Step 3: Installing Required Packages
+## Step 3: Update / Upgrade your VPS
 
 Before anything, it is recommended to update your system:
 
 ```bash
 sudo apt update && apt upgrade
-```
-
-Now install the following packages that will be needed to run Harmony by typing:
-
-```bash
-sudo apt install dnsutils
 ```
 
 You will be asked to confirm if you would like to download and install these packages. Just press Y to confirm.

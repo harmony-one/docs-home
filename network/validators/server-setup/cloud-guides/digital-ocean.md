@@ -64,18 +64,12 @@ In the Outbound Rules section leave it as it is. Type the name of the droplet yo
 
 To connect via SSH to your Digital Ocean instance, please follow the instructions [here](https://www.digitalocean.com/docs/droplets/how-to/connect-with-ssh/).
 
-## Step 3: Installing Required Packages
+## Step 3: Update / upgrade your VPS
 
 Before anything, it is recommended to update your system:
 
 ```bash
 sudo apt update && apt upgrade
-```
-
-Now install the following packages that will be needed to run Harmony by typing:
-
-```bash
-sudo apt install dnsutils
 ```
 
 You will be asked to confirm if you would like to download and install these packages. Just press Y to confirm.

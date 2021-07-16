@@ -49,18 +49,12 @@ Go back to the VM instances page and click on SSH. This will open a new window a
 
 ![](https://blobs.gitbook.com/assets%2F-LlDqlxK8e45wuh1WH4h%2F-LmBR5kBgg9922w3-lIM%2F-LmBv5tDs9HYgcS64Ppa%2Fssh.PNG?alt=media&token=d6162ff5-f5be-403b-8cde-78fe4585354b)
 
-## Step 3: Installing Required Packages
+## Step 3: Update / upgrade your VPS
 
 Before anything, it is recommended to update your system:
 
 ```bash
 sudo apt update && apt upgrade
-```
-
-Now install the following packages that will be needed to run Harmony by typing:
-
-```bash
-sudo apt install dnsutils
 ```
 
 You will be asked to confirm if you would like to download and install these packages. Just press Y to confirm.
