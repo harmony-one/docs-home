@@ -14,5 +14,5 @@ This document has introduction and resources for all audience:
 * **🏗️** [Developers](https://docs.harmony.one/home/developers/getting-started) - web3 toolkits, deploy tutorials, open bounties, hackathon prizes.
 * **🌏** [Network](https://docs.harmony.one/home/network/wallets) - token wallets, delegator economics, validator setup, governance dao.
 
-Build on Harmony, run on all chains. Be the ONE to bridge to all blockchains.
+Build on Harmony, run with all chains. Be the ONE to bridge to All.
 
