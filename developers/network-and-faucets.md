@@ -14,7 +14,7 @@
 
 | Testnet |
 | :--- |
-| [https://faucet.pops.one/](https://faucet.pops.one/) |
+| [https://faucet.pops.one/](https://faucet.pops.one/)  |
 | [https://onefaucet.ibriz.ai/](https://onefaucet.ibriz.ai/) |
 
 {% hint style="info" %}
@@ -27,5 +27,7 @@ Their keystore files are made available wherever you setup Harmony $ONE on your 
 Feel free to ping any POPS member for issues on the testnet network/explorer/faucet on harmony discord @harmony-pops or telegram [P-OPS Team Validator](https://t.me/POPS_Team_Validator)
 {% endhint %}
 
-![](../.gitbook/assets/image%20%28179%29.png)
+{% hint style="success" %}
+P-OPS Testnet Faucet can be refilled by sending testnet $ONE to the contract address shown on the faucet site https://faucet.pops.one
+{% endhint %}
 
