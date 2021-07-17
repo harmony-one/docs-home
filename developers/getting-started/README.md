@@ -29,13 +29,17 @@ Harmony uses [bech32](https://en.bitcoin.it/wiki/Bech32) address format with `on
 
 * Several development environments exists: [mainnet, testnnet, localnet](https://docs.harmony.one/home/developers/api#development-environments)
 * Testnet faucets
-  * [https://faucet.pops.one/](https://faucet.pops.one/)
+  * [https://faucet.pops.one/](https://faucet.pops.one/) 
   * [https://onefaucet.ibriz.ai/](https://onefaucet.ibriz.ai/)
 * Blockchain Explorers
   * Mainnet: [https://explorer.harmony.one/](https://explorer.harmony.one/) 
   * Testnet: [https://explorer.pops.one/](https://explorer.pops.one/)
 
 We provide SDKs in several different languages. However most feature complete is our JavaScript SDK, which is the preferred language for DApp development.
+
+{% hint style="success" %}
+Feel free to ping any POPS member for issues on the testnet network/explorer/faucet on harmony discord @harmony-pops or telegram [P-OPS Team Validator](https://t.me/POPS_Team_Validator)
+{% endhint %}
 
 #### Using SDKs to interact with Harmony blockchian
 

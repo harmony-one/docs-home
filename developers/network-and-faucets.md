@@ -23,3 +23,9 @@ When running a localnet, there is no need to setup a faucet to receive $ONE for 
 Their keystore files are made available wherever you setup Harmony $ONE on your machine ~/harmony-one/harmony/tree/main/.hmy/keystore
 {% endhint %}
 
+{% hint style="success" %}
+Feel free to ping any POPS member for issues on the testnet network/explorer/faucet on harmony discord @harmony-pops or telegram [P-OPS Team Validator](https://t.me/POPS_Team_Validator)
+{% endhint %}
+
+![](../.gitbook/assets/image%20%28179%29.png)
+
