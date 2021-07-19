@@ -14,6 +14,11 @@ description: Using Terra <-> Harmony Bridge
 
 4\) Please ensure you have sufficient UST to pay for Bridge transaction fees. \(e.g. UST tx fees from Terra to Harmony as of 2021-07-12\)
 
+## Contract Addresses
+
+* Wrapped UST - [0x224e64ec1bdce3870a6a6c777edd450454068fec](https://explorer.harmony.one/address/0x224e64ec1bdce3870a6a6c777edd450454068fec)
+* Wrapped LUNA - [0x95ce547d730519a90def30d647f37d9e5359b6ae](https://explorer.harmony.one/address/0x95ce547d730519a90def30d647f37d9e5359b6ae)
+
 ## Bridging UST from Terra to Harmony
 
 Step 1: Navigate to [https://bridge.terra.money/](https://bridge.terra.money/) in your browser. 
