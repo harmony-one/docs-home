@@ -177,6 +177,7 @@
     * [Harmony Ganache](developers/tools/using-ganache/harmony-ganache.md)
   * [Harmony-React](developers/tools/harmony-react.md)
   * [Oracle: Band Protocol](developers/tools/oracle-band-protocol.md)
+  * [Smart Contract Verification](developers/tools/smart-contract-verification.md)
 * [Showcases](developers/showcases/README.md)
   * [Games](developers/showcases/games/README.md)
     * [Harmony Puzzle](developers/showcases/games/harmony-puzzle.md)
