@@ -73,6 +73,7 @@
     * [Compile & Deploy](developers/deploying-on-harmony/truffle/deployment.md)
     * [Demo: Deploying an Ethereum Smart Contract on Harmony](developers/deploying-on-harmony/truffle/deploying-an-ethereum-smart-contract-onto-harmony.md)
   * [Deploy HRC20](developers/deploying-on-harmony/deploy-hrc20.md)
+  * [Smart Contract Verification](developers/deploying-on-harmony/smart-contract-verification.md)
 * [List of Deployed Contracts](developers/list-of-deployed-contracts.md)
 * [Harmony VRF](developers/harmony-vrf.md)
 * [SDK](developers/sdk/README.md)
