@@ -2,7 +2,7 @@
 description: This page provides a set of APIs to interact with backend.
 ---
 
-# Bridge API
+# API
 
 This API enable users to do all bridge operations.
 
