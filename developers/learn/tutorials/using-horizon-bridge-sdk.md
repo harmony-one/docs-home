@@ -22,7 +22,7 @@ Recommended for most cases (you don't need to dive into bridge design to use it)
 https://github.com/harmony-one/docs-home/blob/master/developers/learn/tutorials/bridge-sdk-auto-operation.md
 
 ##
-## Send in Step by step mode
+## Send in Step by step mode (since sdk v2.0.0)
 
 4-6. Step by step mode - recommended for developers who know bridge desin and want more control when interacting with the bridge
 
