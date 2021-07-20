@@ -7,6 +7,16 @@ These methods is available in bridge-sdk since version 2.
 
 We skipped call contract methods step in this example and will assume that you already have a successfully completed Locked Tokens transaction
 
+Next we will use 3 sdk methods: 
+
+```bridgeSDK.createOperation``` - create new operation for all validators
+
+```bridgeSDK.skipAction``` - call this method to skip approve action, if you already approve locked/burn action
+
+```bridgeSDK.confirmAction``` - call this method to confirm any action with transaction hash. Action should be supported in this Exchange mode & Token type. 
+
+To secure your operation, you can call ```confirmAction``` method only one time
+
 https://github.com/harmony-one/ethhmy-bridge.sdk/blob/main/examples/version_2/eth_to_one-node.js
 
 ```js
@@ -32,6 +42,7 @@ const operationCall = async () => {
     // We skipped this step in this example and will assume that you already have a successfully completed Locked Tokens transaction.
     /********/
 
+    // If you already have locked tx - you can skip approve step
     await operation.skipAction(ACTION_TYPE.approveEthManger);
 
     await operation.confirmAction({
