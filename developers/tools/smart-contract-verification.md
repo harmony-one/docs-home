@@ -6,7 +6,7 @@ A quick guide on how to verify your contacts on Harmony.
 
 Right now, we support verification only for one single solidity file - therefore, before deployment and verification, you will need to flatten all solidity sources to one file.
 
-## 1. Flatten your solidity files
+## 1. Flatten your solidity files (only for multiple files)
 
 To flatten your solidity files we recommended to use [https://www.npmjs.com/package/truffle-flattener](https://www.npmjs.com/package/truffle-flattener)
 
