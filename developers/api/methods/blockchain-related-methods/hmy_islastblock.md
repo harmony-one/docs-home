@@ -22,7 +22,7 @@ curl -d '{
     "method":"hmy_isLastBlock",
     "params":["10"],
     "id":1
-}' -H 'Content-Type:application/json' -X POST 'http://api.s0.b.hmny.io'
+}' -H 'Content-Type:application/json' -X POST 'http://api.s0.pops.one'
 ```
 
 **Sample Curl Response**
