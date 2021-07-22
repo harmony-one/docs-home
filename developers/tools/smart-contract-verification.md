@@ -53,7 +53,7 @@ To get ABI-encoded constructor arguments you can ue this service: https://abi.ha
 
 Example for Harmony Remix:
 
-1 - click ABI to copy it to copy it
+1 - click ABI to copy it
 ![image](https://user-images.githubusercontent.com/57394565/126634721-b3762b14-9e43-4313-b6f6-5e2c5126e1c2.png)
 
 2 - paste ABI to https://abi.hashex.org form and click parse
