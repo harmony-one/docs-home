@@ -236,3 +236,35 @@ This is then the main function that we will use to fetch the price from Band’s
 1. [https://docs.bandchain.org/developer/dapp-integrations/requesting-data-from-bandchain.html\#requesting-data-using-the-bandchain-js-library](https://docs.bandchain.org/developer/dapp-integrations/requesting-data-from-bandchain.html#requesting-data-using-the-bandchain-js-library)
 2. [https://docs.bandchain.org/developer/dapp-integrations/using-bandchain-data-evm.html](https://docs.bandchain.org/developer/dapp-integrations/using-bandchain-data-evm.html)
 
+## Examples
+
+Examples can be found here
+https://github.com/harmony-one/band_oracle
+
+### Requesting data using BandChain.js library  
+https://github.com/harmony-one/band_oracle/blob/main/main.js
+
+```
+git clone https://github.com/harmony-one/band_oracle
+cd band_oracle
+
+yarn
+node main.js
+```
+
+### Using BandChain data in EVM Smart Contract in Harmony
+https://github.com/harmony-one/band_oracle
+
+```
+git clone https://github.com/harmony-one/band_oracle
+cd band_oracle
+
+yarn
+export PRIVATE_KEY=place your private key here
+yarn hardhat run ./scripts/deploy
+```
+
+Band’s StdReference contract for testnet
+0xE740092E081CA7491A46C8Aa0175446e962e2A08
+
+mainnet contract is coming soon 
