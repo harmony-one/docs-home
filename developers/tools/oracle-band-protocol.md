@@ -264,6 +264,8 @@ export PRIVATE_KEY=place your private key here
 yarn hardhat run ./scripts/deploy
 ```
 
+contract's been deployed and you can call `getPrice` or `getMultiPrices` to get actual prices
+
 Band’s StdReference contract for testnet
 0xE740092E081CA7491A46C8Aa0175446e962e2A08
 
