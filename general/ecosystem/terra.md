@@ -23,57 +23,57 @@ description: Using Terra <-> Harmony Bridge
 
 Step 1: Navigate to [https://bridge.terra.money/](https://bridge.terra.money/) in your browser. 
 
-![Click Connect](../.gitbook/assets/image%20%28103%29.png)
+![Click Connect](../../.gitbook/assets/image%20%28103%29.png)
 
-![Click Terra Station Mobile](../.gitbook/assets/image%20%28111%29.png)
+![Click Terra Station Mobile](../../.gitbook/assets/image%20%28111%29.png)
 
-![Click Allow when prompted](../.gitbook/assets/image%20%2898%29.png)
+![Click Allow when prompted](../../.gitbook/assets/image%20%2898%29.png)
 
-![The app will connect to the Wallet. ](../.gitbook/assets/image%20%28168%29.png)
+![The app will connect to the Wallet. ](../../.gitbook/assets/image%20%28168%29.png)
 
 Go back to the Terra Bridge browser window.
 
 Make sure that the Wallet shows as connected, select Terra as source, Harmony as destination, Asset as UST, enter the amount \(Note: Amount must be greater than 1 UST\) and the Desination Harmony Wallet in 0x format. 
 
-![](../.gitbook/assets/image%20%28174%29.png)
+![](../../.gitbook/assets/image%20%28174%29.png)
 
 Review the Fees and Click Next
 
 App will display Gas Fees + Shuttle Fee \(Bridge Fee\) and the actual amount you will receive at destination. For example, in this case for the 2 UST we entered, 1 UST is used as shuttle fee and 1 UST will be available in Harmony destination address
 
-![Review Fees and Click Next](../.gitbook/assets/image%20%28153%29.png)
+![Review Fees and Click Next](../../.gitbook/assets/image%20%28153%29.png)
 
-![Review and Confirm](../.gitbook/assets/image%20%28172%29.png)
+![Review and Confirm](../../.gitbook/assets/image%20%28172%29.png)
 
 The App will then open up your Terra station wallet and prompt you to sign the transaction. Note that the MEMO field will display the destination Harmony wallet address 
 
-![](../.gitbook/assets/image%20%28107%29.png)
+![](../../.gitbook/assets/image%20%28107%29.png)
 
 Depending on your Terra station wallet setup, you will be either prompted to enter the password or use your biometric scan to sign the transaction
 
 Once you sign the transaction, you will see a success screen.
 
-![Click Continue](../.gitbook/assets/image%20%28167%29.png)
+![Click Continue](../../.gitbook/assets/image%20%28167%29.png)
 
 You can inspect the Terra Bridge transaction, by clicking on the arrow icon
 
-![To inspect the bridge transaction, click the arrow icon](../.gitbook/assets/image%20%28136%29.png)
+![To inspect the bridge transaction, click the arrow icon](../../.gitbook/assets/image%20%28136%29.png)
 
 You will see the transaction details + the amount that was transferred to the bridge \(including the fees of 1 UST\) displayed in UST 
 
-![](../.gitbook/assets/image%20%28149%29.png)
+![](../../.gitbook/assets/image%20%28149%29.png)
 
 Open up Metamask and add the Wrapped-UST Token address \(Harmony's wrapped version of Terra UST\)
 
 Click Add Tokens and Type 0x224e64ec1bdce3870a6a6c777edd450454068fec
 
-![](../.gitbook/assets/image%20%28143%29.png)
+![](../../.gitbook/assets/image%20%28143%29.png)
 
-![](../.gitbook/assets/image%20%28117%29.png)
+![](../../.gitbook/assets/image%20%28117%29.png)
 
 You should be able to see your 1UST balance
 
-![](../.gitbook/assets/image%20%28157%29.png)
+![](../../.gitbook/assets/image%20%28157%29.png)
 
 ## Bridging UST from Harmony to Terra
 
@@ -81,27 +81,27 @@ Open up the browser and navigate to Harmony Terra bridge URL
 
 Select Source as "Harmony". App will prompt you to connect. Select "Metamask"
 
-![](../.gitbook/assets/image%20%28151%29.png)
+![](../../.gitbook/assets/image%20%28151%29.png)
 
 
 
 Make sure metamask source wallet has ONE tokens to pay for gas fees, required UST to be bridged to Terra, Enter the amount and destination address, click Next
 
-![](../.gitbook/assets/image%20%28101%29.png)
+![](../../.gitbook/assets/image%20%28101%29.png)
 
 Review details, click confirm
 
-![](../.gitbook/assets/image%20%28160%29.png)
+![](../../.gitbook/assets/image%20%28160%29.png)
 
 Click confirm in the metamask pop-up window to approve the bridge transaction.
 
-![](../.gitbook/assets/image%20%28118%29.png)
+![](../../.gitbook/assets/image%20%28118%29.png)
 
 You should see a "Complete" message when the bridge transaction is completed. Additionally, you can click on the Transaction hash to verify.
 
 
 
-![](../.gitbook/assets/image%20%28170%29.png)
+![](../../.gitbook/assets/image%20%28170%29.png)
 
 
 

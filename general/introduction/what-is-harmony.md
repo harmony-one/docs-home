@@ -16,7 +16,7 @@ Harmony’s sharding works not only on the network communication and transaction
 
 ### Secure Random Sharding
 
-Harmony’s sharding process is provably secure against  shard attacks because the network validators are randomly assigned and shuffled among shards. The randomness used in the sharding is obtained with a distributed randomness generation algorithm \(based on VRF and VDF\) which is unpredictable, un-biased, verifiable and scalable. Harmony reshards the network in a non-interruptive manner using “Cuckoo Rule” to prevent against slowly adaptive byzantine adversaries.
+Harmony’s sharding process is provably secure against shard attacks because the network validators are randomly assigned and shuffled among shards. The randomness used in the sharding is obtained with a distributed randomness generation algorithm \(based on VRF and VDF\) which is unpredictable, un-biased, verifiable and scalable. Harmony reshards the network in a non-interruptive manner using “Cuckoo Rule” to prevent against slowly adaptive byzantine adversaries.
 
 ### Efficient and Fast Consensus
 
