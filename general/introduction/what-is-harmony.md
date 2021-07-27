@@ -24,7 +24,7 @@ Harmony’s consensus algorithm is called Fast Byzantine Fault Tolerance or FBFT
 
 ### Effective Proof-of-Stake
 
-Unlike traditional blockchains which require PoW \(Proof of Work\) to reach consensus, Harmony is Proof-of-Stake blockchain which is energy efficient and low-cost for node runners. The process to elect validators is called Effective Proof-of-Stake \(EPoS\) which is the first sharding-focused PoS mechanism that prevents stake centralization. In EPoS, validators with a large amount of staked tokens are obligated to run more nodes to support the network while validators with less stake run fewer nodes. Besides, EPoS is able to randomly and evenly distribute the stakes among all shards so no shard is less secure than other shards.
+Unlike traditional blockchains which require PoW \(Proof of Work\) to reach consensus, Harmony is a Proof-of-Stake blockchain which is energy efficient and low-cost for node runners. The process to elect validators is called Effective Proof-of-Stake \(EPoS\) which is the first sharding-focused PoS mechanism that prevents stake centralization. In EPoS, validators with a large amount of staked tokens are obligated to run more nodes to support the network while validators with less stake run fewer nodes. Besides, EPoS is able to randomly and evenly distribute the stakes among all shards so no shard is less secure than other shards.
 
 ### Scalable Networking Infrastructure
 
