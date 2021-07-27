@@ -145,7 +145,7 @@ import "openzeppelin-solidity/contracts/math/SafeMath.sol";contract SimplePriceD
        req.askCount = 4;
        req.minCount = 4;
    }// getPrice fetches the latest BTC/USD price value from the bridge // contract and saves it to state.
-   
+
    function getPrice() public {
       (IBridge.ResponsePacket memory res,) = bridge.getLatestResponse(req);
        ResultDecoder.Result memory result = res.result.decodeResult();
@@ -238,13 +238,13 @@ This is then the main function that we will use to fetch the price from Band’s
 
 ## Examples
 
-Examples can be found here
-https://github.com/harmony-one/band_oracle
+Examples can be found here [https://github.com/harmony-one/band\_oracle](https://github.com/harmony-one/band_oracle)
 
-### Requesting data using BandChain.js library  
-https://github.com/harmony-one/band_oracle/blob/main/main.js
+### Requesting data using BandChain.js library
 
-```
+[https://github.com/harmony-one/band\_oracle/blob/main/main.js](https://github.com/harmony-one/band_oracle/blob/main/main.js)
+
+```text
 git clone https://github.com/harmony-one/band_oracle
 cd band_oracle
 
@@ -253,9 +253,10 @@ node main.js
 ```
 
 ### Using BandChain data in EVM Smart Contract in Harmony
-https://github.com/harmony-one/band_oracle
 
-```
+[https://github.com/harmony-one/band\_oracle](https://github.com/harmony-one/band_oracle)
+
+```text
 git clone https://github.com/harmony-one/band_oracle
 cd band_oracle
 
@@ -266,7 +267,7 @@ yarn hardhat run ./scripts/deploy
 
 contract's been deployed and you can call `getPrice` or `getMultiPrices` to get actual prices
 
-Band’s StdReference contract for testnet
-0xE740092E081CA7491A46C8Aa0175446e962e2A08
+Band’s StdReference contract for testnet 0xE740092E081CA7491A46C8Aa0175446e962e2A08
 
-mainnet contract is coming soon 
+mainnet contract is coming soon
+

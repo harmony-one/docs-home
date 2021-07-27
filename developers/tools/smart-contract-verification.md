@@ -6,7 +6,7 @@ A quick guide on how to verify your contacts on Harmony.
 
 Right now, we support verification only for one single solidity file - therefore, before deployment and verification, you will need to flatten all solidity sources to one file.
 
-## 1. Flatten your solidity files (only for multiple files)
+## 1. Flatten your solidity files \(only for multiple files\)
 
 To flatten your solidity files we recommended to use [https://www.npmjs.com/package/truffle-flattener](https://www.npmjs.com/package/truffle-flattener)
 
@@ -26,7 +26,7 @@ To more easy verification we recommend to deploy contract with Harmony Remix [ht
 
 You can verify your contract here [https://explorer.harmony.one/verifycontract](https://explorer.harmony.one/verifycontract)
 
-![](../../.gitbook/assets/verify_contract%20%281%29.png)
+![](../../.gitbook/assets/verify_contract%20%282%29%20%284%29.png)
 
 Important to use correct params \(the same like on deploy\):
 
@@ -44,26 +44,21 @@ If all parameters are correct - you should to see `Success` message, or `Error` 
 
 On Success case - you contract will verify and you will see all contract details on contract explorer page
 
-![](../../.gitbook/assets/untitled-1%20%281%29.png)
+![](../../.gitbook/assets/untitled-1%20%282%29%20%283%29.png)
 
-## 4. Verify contract with constructor arguments (for contracts that were created with constructor parameters)
-https://docs.soliditylang.org/en/develop/abi-spec.html
+## 4. Verify contract with constructor arguments \(for contracts that were created with constructor parameters\)
 
-To get ABI-encoded constructor arguments you can ue this service: https://abi.hashex.org
+[https://docs.soliditylang.org/en/develop/abi-spec.html](https://docs.soliditylang.org/en/develop/abi-spec.html)
+
+To get ABI-encoded constructor arguments you can ue this service: [https://abi.hashex.org](https://abi.hashex.org)
 
 Example for Harmony Remix:
 
-1 - click ABI to copy it
-![image](https://user-images.githubusercontent.com/57394565/126634721-b3762b14-9e43-4313-b6f6-5e2c5126e1c2.png)
+1 - click ABI to copy it ![image](https://user-images.githubusercontent.com/57394565/126634721-b3762b14-9e43-4313-b6f6-5e2c5126e1c2.png)
 
-2 - paste ABI to https://abi.hashex.org form and click parse
-![image](https://user-images.githubusercontent.com/57394565/126634847-5f2917ef-ee72-41d6-b246-401b1b9b5b0d.png)
+2 - paste ABI to [https://abi.hashex.org](https://abi.hashex.org) form and click parse ![image](https://user-images.githubusercontent.com/57394565/126634847-5f2917ef-ee72-41d6-b246-401b1b9b5b0d.png)
 
-3 - paste your constuctor arguments and click Copy
-![image](https://user-images.githubusercontent.com/57394565/126634955-2b458846-540e-4d56-94a1-ce9c26cf3a03.png)
+3 - paste your constuctor arguments and click Copy ![image](https://user-images.githubusercontent.com/57394565/126634955-2b458846-540e-4d56-94a1-ce9c26cf3a03.png)
 
-4 - paste encoded constructor arguments to verify form field
-![image](https://user-images.githubusercontent.com/57394565/126635142-570cd58e-0f44-4af6-98f3-0b9b8d6095d9.png)
-
-
+4 - paste encoded constructor arguments to verify form field ![image](https://user-images.githubusercontent.com/57394565/126635142-570cd58e-0f44-4af6-98f3-0b9b8d6095d9.png)
 
