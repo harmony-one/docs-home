@@ -188,7 +188,6 @@
   * [Cross-Chain](developers/showcases/cross-chain.md)
   * [DeFi](developers/showcases/defi.md)
   * [Hackathons](developers/showcases/hackathons/README.md)
-    * [Bridging TradFi to DeFi](developers/showcases/hackathons/bridging-tradfi-to-defi.md)
     * [DevPost](developers/showcases/hackathons/devpost.md)
     * [Hack the Horizon](developers/showcases/hackathons/hack-the-horizon.md)
   * [Other Showcases](developers/showcases/other-showcases.md)
