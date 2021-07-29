@@ -15,8 +15,11 @@ yarn
 ```
 
 we will use Harmony sandbox Graph node (you can run your local one or set up a server for significant projects)
+
 Graph: https://graph.t.hmny.io/ 
+
 Management: https://graph.t.hmny.io:8020/ 
+
 Metrics: https://graph.t.hmny.io:8030/
 
 edit package.json file and add these lines
