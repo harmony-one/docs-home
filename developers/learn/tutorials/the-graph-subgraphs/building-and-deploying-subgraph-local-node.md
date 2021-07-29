@@ -4,6 +4,10 @@ description: This tutorial will demonstrate how to build a subgraph and deploy i
 
 # Building & Deploying Subgraph \(local node\)
 
+## Install the graph-cli
+
+[https://github.com/graphprotocol/graph-cli\#installation](https://github.com/graphprotocol/graph-cli#installation)
+
 ## Build your own graph-indexer local node
 
 Copy paste the below docker-compose file and replace `services.graph-node.environment.ethereum` accordingly to the network:   
@@ -108,7 +112,7 @@ services:
 {% endtab %}
 {% endtabs %}
 
-and launch your indexer node
+and run your indexer node
 
 ```bash
 docker-compose up -d
@@ -154,7 +158,13 @@ Jul 29 05:33:33.600 INFO Syncing 4 blocks from Ethereum., code: BlockIngestionSt
 Jul 29 05:33:35.252 INFO Syncing 1 blocks from Ethereum., code: BlockIngestionStatus, blocks_needed: 1, blocks_behind: 1, latest_block_head: 12886126, current_block_head: 12886125, provider: mainnet-rpc-0, component: BlockIngestor
 ```
 
-You can now visit your playground using the URL [http://127.0.0.1:8030/graphql/playground](http://207.244.235.235:8030/graphql/playground) and start playing around with graphQL API.
+A few component are installed
+
+Management: [https://localhost:8020/](https://graph.t.hmny.io:8020/) where subgraph are being created/deployed/deleted
+
+Metrics / playground: [https://localhost:8030/](https://graph.t.hmny.io:8030/)
+
+Vvisit your playground using the URL [http://127.0.0.1:8030/graphql/playground](http://207.244.235.235:8030/graphql/playground) and start playing around with graphQL API.
 
 An example of query you can use to show subgraph currently being indexed would be :
 
@@ -195,26 +205,47 @@ Right now of course, the result is empty
 }
 ```
 
-## Let's deploy our first subgraph
+##  Our first subgraph 
 
-Your application may for whatever reason a need to index the entire blockchain data, so let's start by working with [https://github.com/blocklytics/ethereum-blocks/](https://github.com/blocklytics/ethereum-blocks/)
+lets use blocklytics/ethereum-blocks subgraph as example
 
-After forking/cloning \(whatever your preference\) the repo  
--  Update the manifest `subgraph.yaml` file `datasources[0]['network']` from `rinkeby` to `mainnet` or `testnet` accordingly  to how you edited the network in your `docker-compose.yaml`  
-- if there is no need to index the entire blockchain, you can add an attribute `startBlock` to speed up the sync : `datasources[0]['source']['startBlock']`
+```text
+git clone https://github.com/blocklytics/ethereum-blocks
+cd ethereum-blocks
+```
+
+### Edit package.json file and add these lines
+
+```text
+"create-harmony": "graph create --node http://localhost:8020 harmony/blocks",
+"deploy-harmony": "graph deploy --node http://localhost:8020 --ipfs http://localhost:5001 harmony/blocks",
+```
 
 {% hint style="info" %}
 It is highly recommended to minimize the number of blocks to be indexed to avoid putting load on the RPCs and to speed up the usage of your subgraph/application
 {% endhint %}
 
-Issue the below command to deploy your subgraph to your local environment
+### Update the manifest
 
-* `yarn codegen`
-* `yarn build`
-* `yarn create-local` or `npm run create-local`
-* `yarn deploy-local` or `npm run deploy-local`
+Update the manifest `subgraph.yaml` file `datasources[0]['network']` from `rinkeby` to `mainnet` or `testnet` accordingly  to how you edited the network in your `docker-compose.yaml`  
+if there is no need to index the entire blockchain, you can add an attribute `startBlock` to speed up the sync : `datasources[0]['source']['startBlock']`
 
-the above query should now show your something similar to the below
+{% hint style="info" %}
+It is highly recommended to minimize the number of blocks to be indexed to avoid putting load on the RPCs and to speed up the usage of your subgraph/application
+{% endhint %}
+
+### Create and deploy the subgraph
+
+```text
+yarn codegen
+yarn build
+yarn create-harmony 
+yarn deploy-harmony
+```
+
+Sync begins and you are good to query your subgraph [http://localhost:8000/subgraphs/name/harmony/blocks/graphql](https://graph.t.hmny.io/subgraphs/name/harmony/blocks/graphql)
+
+Note that the above example query should now show your something similar to the below
 
 ```graphql
 {
@@ -243,13 +274,11 @@ the above query should now show your something similar to the below
 }
 ```
 
-`data['indexingStatuses'][0]['chains'][0]['latestBlock']['number']` will indicate the last block synced
+`data['indexingStatuses'][0]['chains'][0]['latestBlock']['number']` will indicate the last block synched
 
 {% hint style="warning" %}
 check your indexer log if the sync is stuck `docker logs indexer -f --since 1m`
 {% endhint %}
-
-Syncing is started and you are good to query your subgraph http://localhost:8000/subgraphs/name/blocklytics/ethereum-blocks
 
 ## How to write subgraphs
 
