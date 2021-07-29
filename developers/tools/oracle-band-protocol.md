@@ -262,7 +262,7 @@ cd band_oracle
 
 yarn
 export PRIVATE_KEY=place your private key here
-yarn hardhat run ./scripts/deploy
+yarn hardhat run ./scripts/deploy.js
 ```
 
 contract's been deployed and you can call `getPrice` or `getMultiPrices` to get actual prices
