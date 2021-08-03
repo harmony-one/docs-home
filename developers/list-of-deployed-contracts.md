@@ -6,7 +6,37 @@ description: >-
 
 # List of Deployed Contracts
 
+## DAPPs
 
+## Lootswap
+
+| Name  | Contract |
+| ---| ---|
+Token | 0xbDa99C8695986B45a0dD3979cC6f3974D9753D30
+Chef | 0xb96618aEBD36f8D83Fa03873FdA796264597604D
+Pit | 0xA15C7828Ab22D182383A84F828Cd71Ac09Bb55E8
+
+## Sushi
+
+| Name  | Contract |
+| ---| ---|
+Chef | 0x67da5f2ffaddff067ab9d5f025f8810634d84287
+One Reward Pool | one1ykpkqydmcr2mdkukkgpkrfr5e0zjgk697zqknm
+
+## Viper
+
+| Name  | Contract |
+| ---| ---|
+MasterBreeder | 0x7AbC67c8D4b248A38B0dc5756300630108Cb48b4
+Pit Breeder | 0x08913d353091e24B361f0E519e2f7aD07a78995d
+Pit (ViperPit / xVIPER) | 0xE064a68994e9380250CfEE3E8C0e2AC5C0924548
+SmartChef | 0x410ce9879d14919cbc9693406d5950a60d3b0f48
+UniswapV2Factory | 0x7D02c116b98d0965ba7B642ace0183ad8b8D2196
+UniswapV2Router02 | 0xf012702a5f0e54015362cBCA26a26fc90AA832a3
+
+## Various
+
+https://sushichef.medium.com/
 
 ## Native Tokens
 
