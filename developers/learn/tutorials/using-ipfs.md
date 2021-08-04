@@ -2,6 +2,14 @@
 
 Basically you can use harmony blockchain to store data. But is it really worth the cost? to put into perspective 1 byte of a data can cost you 42107 gas or 0.00042017 ONE token, or equal to about $0.00003092031 in today's market. It maybe small for just one byte of data but let's say you want to store a file with 1 GB data (1,000,000,000 bytes) it will cost you $30920.31. So in fact you can basically store any data to the blockchain. But it wasn't worth the money. The solution is IPFS, the InterPlanetary File System. What is IPFS? IPFS is a distributed system for storing and accessing files, websites, applications, and data. Using IPFS as a storage you don't need to store entire files to harmony blockchain you just need to store the hash of the IPFS to the harmony blockchain, thus make it much more cheaper then just storing the file. Today we are going to use IPFS to store our files and store the hash of the file to the blockchain. And we will get the data back from blockchain, and show it to the webpage.
 
+## Video link
+
+<center><a href="https://www.youtube.com/watch?v=AUzmku4xQLw"><img src="https://img.youtube.com/vi/AUzmku4xQLw/0.jpg"/></a></center>
+
+## Github Link
+
+https://github.com/spiritbro1/harmony-ipfs
+
 ## Prerequisites
 
 - [Node.js](https://nodejs.org/en/)
