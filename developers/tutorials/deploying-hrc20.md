@@ -12,7 +12,7 @@ Let us first create a simple HRC20 token with name "Gold" and symbol "GLD" with 
 
 1. Launch [Remix](https://remix.ethereum.org/) and create a new file with name GLDToken.sol and copy paste the code below.
 
-![](../../../.gitbook/assets/new-file.png)
+![](../../.gitbook/assets/new-file.png)
 
 ```text
 // contracts/GLDToken.sol
@@ -30,15 +30,15 @@ contract GLDToken is ERC20 {
 
 2. Compile the GLDToken.sol
 
-![](../../../.gitbook/assets/compile%20%281%29.png)
+![](../../.gitbook/assets/compile%20%281%29.png)
 
 3. Deploy the GLDToken.sol
 
-![](../../../.gitbook/assets/deploy%20%281%29.png)
+![](../../.gitbook/assets/deploy%20%281%29.png)
 
 4. Interacting with the deployed GLDToken.
 
-![](../../../.gitbook/assets/deployed%20%281%29.png)
+![](../../.gitbook/assets/deployed%20%281%29.png)
 
 5. Changing decimals from default 18 to e.g., 16 can be done by adding the following function to GLDToken.sol file and repeating steps 2-4.
 

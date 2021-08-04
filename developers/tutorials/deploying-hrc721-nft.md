@@ -108,7 +108,7 @@ If you haven’t used Remix before, you need to setup plugins so that you can us
 
 Select the Plugin Manager button on the bottom left  under the Environments heading. If the Solidity Compiler is not already active, search for it and then press the activate button.
 
-![Add the Solidity Compiler Plugin](../../../.gitbook/assets/soliditypluginsetup.png)
+![Add the Solidity Compiler Plugin](../../.gitbook/assets/soliditypluginsetup.png)
 
 ### Importing the contract
 
@@ -134,20 +134,20 @@ import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v3.4.0/contr
 
 Note when importing the contract it automatically inserts the contracts under dependencies.
 
-![Presets Imported contracts](../../../.gitbook/assets/presetscontractimports.png)
+![Presets Imported contracts](../../.gitbook/assets/presetscontractimports.png)
 
 ### Compile the contract
 
 Select the _Solidity Compiler_ plugin on the left hand side of the screen.  
 Press the Compile button to compile the contract.
 
-![](../../../.gitbook/assets/presetscontractcompile.png)
+![](../../.gitbook/assets/presetscontractcompile.png)
 
   
 The contract and the contracts it inherits from will be loaded into Remix.  
 The contract will then be compiled.
 
-![](../../../.gitbook/assets/presetscontractaftercompilation.png)
+![](../../.gitbook/assets/presetscontractaftercompilation.png)
 
 ### Deploy the contract Locally
 
@@ -158,17 +158,17 @@ Environment should default to `JavaScript VM (Berlin)`  `or JavasScript VM (Lond
 Change the gas limit to `5000000`  
 Change the Contract to `ERC721PresetMinterPauserAutoId`
 
-![Select the Contract from the drop down](../../../.gitbook/assets/deployerc721presetselect.png)
+![Select the Contract from the drop down](../../.gitbook/assets/deployerc721presetselect.png)
 
   
 Specify the name, symbol and base URI to use for our new token. by selecting the drop down next to the deploy button. I am using “My NFT” and “NFT” and "[https://gateway.pinata.cloud/ipfs/QmTmHW5NDh5wUTstTLcPRkKgGU75tvapMhHtPxjcRtMkLN](https://gateway.pinata.cloud/ipfs/QmTmHW5NDh5wUTstTLcPRkKgGU75tvapMhHtPxjcRtMkLN)"
 
-![Enter the Parameters for My NFT](../../../.gitbook/assets/deployerc721enterparameters.png)
+![Enter the Parameters for My NFT](../../.gitbook/assets/deployerc721enterparameters.png)
 
   
 Press Deploy.
 
-![Deploy the contract locally](../../../.gitbook/assets/deployerc721deploylocally.png)
+![Deploy the contract locally](../../.gitbook/assets/deployerc721deploylocally.png)
 
 Remix will deploy our token . You can see the deployed contract under the _Deployed contracts_ section. By pressing the drop down on the right you can see the methods which you can use to interact with the token.
 
@@ -177,7 +177,7 @@ Remix will deploy our token . You can see the deployed contract under the _Deplo
 We can interact with our deployed token using Remix.  
 In the _Deploy & Run Transactions_ plugin, under _Deployed Contracts_ expand our deployed token \(`ERC721PRESETMINTERPAUSERAUTOID`\) to show the methods we can interact with. \(for help see [Deployed Contracts in Remix documentation](https://remix-ide.readthedocs.io/en/latest/udapp.html#deployed-contracts)\)
 
-![Methods for the Deployed Contract](../../../.gitbook/assets/deployerc721afterdeploylocally.png)
+![Methods for the Deployed Contract](../../.gitbook/assets/deployerc721afterdeploylocally.png)
 
 #### Token metadata
 
@@ -190,9 +190,9 @@ Showing values:
 * `name`: `0: string: My Token`
 * `symbol`: `0: string: My NFT`
 
-![Interacting with the deployed contract in Remix](../../../.gitbook/assets/deployerc721interact.png)
+![Interacting with the deployed contract in Remix](../../.gitbook/assets/deployerc721interact.png)
 
-![](../../../.gitbook/assets/deployerc721harmonydeploy.png)
+![](../../.gitbook/assets/deployerc721harmonydeploy.png)
 
 
 
@@ -207,12 +207,12 @@ We will mint 1 NFT with token ID 0 to our account:
 We can set the parameters as follows  
 `"0x5B38Da6a701c568545dCfcB03FcB875f56beddC4"`
 
-![](../../../.gitbook/assets/deployerc721minttokeninput.png)
+![](../../.gitbook/assets/deployerc721minttokeninput.png)
 
 Press `mint`  
 The transaction will be shown in the console
 
-![Console showing the deployed Contract Transaction](../../../.gitbook/assets/deployerc721minttokentransaction.png)
+![Console showing the deployed Contract Transaction](../../.gitbook/assets/deployerc721minttokentransaction.png)
 
 We can check the owner of the token and the token URI for the metadata  
 Showing values:
@@ -220,7 +220,7 @@ Showing values:
 * `ownerOf`: `0: address: 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4`
 * `tokenURI`: `0: string: https://my-json-server.typicode.com/abcoathup/samplenft/tokens/0`
 
-![Interacting with Token 0](../../../.gitbook/assets/deployerc721ownerof.png)
+![Interacting with Token 0](../../.gitbook/assets/deployerc721ownerof.png)
 
 ### Deploy to a Harmony testnet
 
@@ -236,31 +236,31 @@ Harmony Faucet Information is [here](https://docs.harmony.one/home/developers/ne
 
 After successful setup and funding your Metamask should look like this
 
-![](../../../.gitbook/assets/harmonymetamaskfunding.png)
+![](../../.gitbook/assets/harmonymetamaskfunding.png)
 
 #### Deploy to Harmony Testnet
 
 Set the network in MetaMask to Harmony Testnet.  
 Change the environment in Deploy and Run Transactions to `Injected Web3` so that Remix uses web3 from MetaMask
 
-![](../../../.gitbook/assets/remixinjectedweb3.png)
+![](../../.gitbook/assets/remixinjectedweb3.png)
 
 Check the gas limit is set to `5000000`  
 Check the Contract is set to `ERC721PresetMinterPauserAutoId`  
 Specify the name, symbol and base URI to use for our new token. I am using “My NFT” and “NFT” and “[https://gateway.pinata.cloud/ipfs/QmVkDbc6NPni1uzQq3gsiocUc3YGZjF7QGcM37hMcBqNmv](https://gateway.pinata.cloud/ipfs/QmVkDbc6NPni1uzQq3gsiocUc3YGZjF7QGcM37hMcBqNmv)"
 
-![Enter the Parameters for the NFT Contract](../../../.gitbook/assets/deployerc721harmony.png)
+![Enter the Parameters for the NFT Contract](../../.gitbook/assets/deployerc721harmony.png)
 
   
 Press Deploy.  
 Confirm the transaction in MetaMask  
 The console will show `creation of ERC721PresetMinterPauserAutoId pending...` and then shortly after the contract will be deployed.
 
-![Confirm the contract deployment](../../../.gitbook/assets/deployerc721harmonyconfirmation.png)
+![Confirm the contract deployment](../../.gitbook/assets/deployerc721harmonyconfirmation.png)
 
 You will be able to see the contract deployed in metamask and the harmony explorer, for example [here](https://explorer.pops.one/tx/0xf4eaf7221f613b3d7d776713f8b33e5cbce80a74d5d3e7f0e6f4b91fd0b855b5) is the contract I deployed.
 
-![](../../../.gitbook/assets/deployerc721harmonydeploy.png)
+![](../../.gitbook/assets/deployerc721harmonydeploy.png)
 
 
 
@@ -275,12 +275,12 @@ We will mint 1 NFT with token ID 0. Specify the address that you want to be the 
 Press mint with the recipient address  
 Confirm the transaction in MetaMask
 
-![Minting the Token](../../../.gitbook/assets/deployerc721harmonymint.png)
+![Minting the Token](../../.gitbook/assets/deployerc721harmonymint.png)
 
   
 The console will show `transact to ERC721PresetMinterPauserAutoId.mint pending ...` and then shortly afterwards the NFT will be minted
 
-![Confirmation of Minting](../../../.gitbook/assets/deployerc721harmonymintconfirmation.png)
+![Confirmation of Minting](../../.gitbook/assets/deployerc721harmonymintconfirmation.png)
 
 ### Viewing the NFT Token in Metamask
 
@@ -292,11 +292,11 @@ Our NFT contract address is `0xe9218ef3c209e1e7db8bef2e33f822006b44bcd7`
 
 We add the NFT Token Contract
 
-![Add the NFT Token Contract address](../../../.gitbook/assets/deployerc721metamaskaddtoken.png)
+![Add the NFT Token Contract address](../../.gitbook/assets/deployerc721metamaskaddtoken.png)
 
 and after adding it to metamask we see
 
-![NFT Token Contract in Metamask](../../../.gitbook/assets/deployerc721metamaskviewtoken.png)
+![NFT Token Contract in Metamask](../../.gitbook/assets/deployerc721metamaskviewtoken.png)
 
 ### Next steps
 
