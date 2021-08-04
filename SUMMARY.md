@@ -190,7 +190,7 @@
   * [Hackathons](developers/showcases/hackathons/README.md)
     * [DevPost](developers/showcases/hackathons/devpost.md)
     * [Hack the Horizon](developers/showcases/hackathons/hack-the-horizon.md)
-  * [Other Showcases](developers/showcases/other-showcases.md)
+  * [Others](developers/showcases/other-showcases.md)
 * [Hackathon & Bounties](developers/hackathon-and-bounties.md)
 * [Learn](developers/learn/README.md)
   * [Tutorials](developers/learn/tutorials/README.md)

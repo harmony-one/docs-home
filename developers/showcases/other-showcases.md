@@ -1,4 +1,4 @@
-# Other Showcases
+# Others
 
 ## [**Harmony Soccer Players**](https://soccerplayers.demo.harmony.one/)\*\*\*\*
 
