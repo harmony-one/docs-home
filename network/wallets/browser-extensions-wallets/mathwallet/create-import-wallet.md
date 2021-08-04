@@ -10,7 +10,7 @@ When you create a wallet, please write down your mnemonic correctly and keep in 
 
 You may also import your Harmony Account using your mnemonic or private key.
 
-![](../../../../.gitbook/assets/image%20%2873%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%281%29%20%282%29%20%282%29%20%281%29.png)
+![](../../../../.gitbook/assets/image%20%2873%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%281%29%20%282%29%20%282%29%20%282%29%20%281%29.png)
 
 You can also choose to export your keys in Settings. Your keys will be exported into a txt file with both private key and mnemonic.
 

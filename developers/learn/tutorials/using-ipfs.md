@@ -1,28 +1,40 @@
+---
+description: This tutorial will show how to use IPFS on harmony blockchain
+---
+
 # Using IPFS
 
-Basically you can use harmony blockchain to store data. But is it really worth the cost? to put into perspective 1 byte of a data can cost you 42107 gas or 0.00042017 ONE token, or equal to about $0.00003092031 in today's market. It maybe small for just one byte of data but let's say you want to store a file with 1 GB data (1,000,000,000 bytes) it will cost you $30920.31. So in fact you can basically store any data to the blockchain. But it wasn't worth the money. The solution is IPFS, the InterPlanetary File System. What is IPFS? IPFS is a distributed system for storing and accessing files, websites, applications, and data. Using IPFS as a storage you don't need to store entire files to harmony blockchain you just need to store the hash of the IPFS to the harmony blockchain, thus make it much more cheaper then just storing the file. Today we are going to use IPFS to store our files and store the hash of the file to the blockchain. And we will get the data back from blockchain, and show it to the webpage.
+### Context
+
+Harmony blockchain can be used to store data. But is it really worth the cost? To put into perspective 1 byte of a data can cost you 42,107 gas or 0.00042017 ONE token, or equal to about $0.00003092031 in today's market. It maybe small for just one byte of data but let's say you want to store a file with 1 GB data \(1,000,000,000 bytes\) it will cost you $30920.31. The solution is IPFS, the InterPlanetary File System. 
+
+#### What is IPFS? 
+
+IPFS is a distributed system for storing and accessing files, websites, applications, and data. Using IPFS as a storage you don't need to store entire files to harmony blockchain you just need to store the hash of the IPFS to the harmony blockchain, thus make it much more cheaper then just storing the file. 
+
+In this tutorial, we are going to use IPFS to store some files offchain and store the hash of the file to the blockchain. And we will also get the data back from blockchain, and show it to the webpage.
 
 ## Video link
 
-<center><a href="https://www.youtube.com/watch?v=AUzmku4xQLw"><img src="https://img.youtube.com/vi/AUzmku4xQLw/0.jpg"/></a></center>
+[https://www.youtube.com/watch?v=AUzmku4xQLw](https://www.youtube.com/watch?v=AUzmku4xQLw)
 
 ## Github Link
 
-https://github.com/spiritbro1/harmony-ipfs
+[https://github.com/harmony-one/harmony-ipfs](https://github.com/spiritbro1/harmony-ipfs)
 
 ## Prerequisites
 
-- [Node.js](https://nodejs.org/en/)
-- [IPFS](https://docs.ipfs.io/install/command-line/#official-distributions)
-- [Metamask](https://metamask.io/)
+* [Node.js](https://nodejs.org/en/)
+* [IPFS](https://docs.ipfs.io/install/command-line/#official-distributions)
+* [Metamask](https://metamask.io/)
 
-> In this entire tutorial i'm using windows 10, but you can use any other os. 
+> In this entire tutorial i'm using windows 10, but you can use any other os.
 
 ## Step 1 - Install IPFS
 
-To install IPFS on your machine, there are so many ways to do it. You can see for yourself here https://docs.ipfs.io/install/command-line/#official-distributions. After that go to your command prompt and type:
+To install IPFS on your machine, there are so many ways to do it. You can see for yourself here [https://docs.ipfs.io/install/command-line/\#official-distributions](https://docs.ipfs.io/install/command-line/#official-distributions). After that go to your command prompt and type:
 
-```
+```text
 ipfs config --json API.HTTPHeaders.Access-Control-Allow-Origin "["""webui://-""", """http://localhost:3000""", """http://127.0.0.1:5001""", """https://webui.ipfs.io"""]"
 
 ipfs config --json API.HTTPHeaders.Access-Control-Allow-Methods "["""PUT""", """POST"""]"
@@ -30,19 +42,19 @@ ipfs config --json API.HTTPHeaders.Access-Control-Allow-Methods "["""PUT""", """
 
 This command needed so that we can upload our file without any CORS problem. After that run this command to run ipfs locally:
 
-```
+```text
 ipfs daemon
 ```
 
 ## Step 2 - Install Metamask
 
-There is also so many way to download metamask. If you're using chrome you can download it from here https://metamask.io/download.html, and click on `install metamask for chrome` after you install the metamask you need to setup the metamask so that it can interact with harmony blockchain click on `Custom RPC` like below :
+There is also so many way to download metamask. If you're using chrome you can download it from here [https://metamask.io/download.html](https://metamask.io/download.html), and click on `install metamask for chrome` after you install the metamask you need to setup the metamask so that it can interact with harmony blockchain click on `Custom RPC` like below :
 
 ![networks](https://i.imgur.com/1Z69Bfm.jpg)
 
 Then after that write this one by one:
 
-```
+```text
 Network Name :
 Harmony Testnet
 
@@ -57,10 +69,9 @@ ONE
 
 Block Explorer URL :
 https://explorer.pops.one/
-
 ```
 
-Now you have an harmony one account on metamask testnet we need to fill some harmony one token you can do that by going to harmony one testnet faucet like this one https://faucet.pops.one/, to get your address click on the three dot and click on view in explorer like this :
+Now you have an harmony one account on metamask testnet we need to fill some harmony one token you can do that by going to harmony one testnet faucet like this one [https://faucet.pops.one/](https://faucet.pops.one/), to get your address click on the three dot and click on view in explorer like this :
 
 ![explorer](https://i.imgur.com/L547kdp.jpg)
 
@@ -74,29 +85,29 @@ Put it in the harmony testnet faucet and click send me and you will get your har
 
 First we need to install truffle. To install truffle go to your command prompt and type:
 
-```
+```text
 npm install -g truffle
 ```
 
 Now create a folder and go inside that folder and type on the command prompt:
 
-```
+```text
 truffle init
 ```
 
 After you run that command basically you will get some file and folder like this:
 
-```
+```text
 contracts/  migrations/  test/  truffle-config.js
 ```
 
 So now i want you to go to `contract` folder and create a file called `IPFSstorage.sol` and paste this code in that file:
 
-```
+```text
 pragma solidity 0.8.6;
 contract IPFSstorage {
  string ipfsHash;
- 
+
  function sendHash(string memory x) public {
    ipfsHash = x;
  }
@@ -160,7 +171,6 @@ module.exports = {
     },
   }
 }
-
 ```
 
 After that create a file called `private-provider.js` and copy paste this code :
@@ -262,7 +272,7 @@ module.exports = PrivateKeyProvider;
 
 Now create a file called `package.json` and copy paste this code :
 
-```json
+```javascript
 {
   "name": "harmony-box",
   "version": "1.0.0",
@@ -277,9 +287,9 @@ Now create a file called `package.json` and copy paste this code :
 }
 ```
 
-And run ```npm install``` to install all the dependencies. Now create a file called `.env` and copy paste this code :
+And run `npm install` to install all the dependencies. Now create a file called `.env` and copy paste this code :
 
-```
+```text
 LOCALNET_PRIVATE_KEY='ENTER_PRIVATE_KEY_HERE'
 TESTNET_PRIVATE_KEY='ENTER_PRIVATE_KEY_HERE'
 MAINNET_PRIVATE_KEY='ENTER_PRIVATE_KEY_HERE'
@@ -291,7 +301,7 @@ Because we are gonna use testnet, we need to get our private key and set it in t
 
 After you input your password you should see your private key, after that just copy past it in the `.env` file, on the `TESTNET_PRIVATE_KEY` variable. After that to deploy our smart contract you just need to run this command :
 
-```
+```text
 truffle migrate --network testnet --reset
 ```
 
@@ -305,13 +315,13 @@ Save that contract address in the safe place, because we will need it in the nex
 
 First thing first, we need to create a react application to communicate with the harmony blockchain and IPFS, much more easily, we gonna use nextjs framework for this one so to create it first we need to run this command :
 
-```
+```text
 npx create-next-app harmony-ipfs --use-npm --example "https://github.com/vercel/next-learn-starter/tree/master/learn-starter"
 ```
 
 It will create a new directory called `harmony-ipfs` and install all the dependencies for you. We also need to style our app with some css, so we gonna use [chakra-ui](https://chakra-ui.com/) for this. Go inside the `harmony-ipfs` directory and install the dependencies :
 
-```
+```text
 npm i @chakra-ui/react @emotion/react@^11 @emotion/styled@^11 framer-motion@^4 ipfs-http-client
 ```
 
@@ -393,6 +403,7 @@ const ethEnabled = async () => {
     return false;
   }
 ```
+
 And then let's create some code that can trigger the choose file button and also upload to ipfs :
 
 ```javascript
@@ -403,6 +414,7 @@ And then let's create some code that can trigger the choose file button and also
     setInputFile(file)  
   }
 ```
+
 Let's create a function that can be used to upload the file to ipfs and harmony blockchain :
 
 ```javascript
@@ -415,28 +427,29 @@ Let's create a function that can be used to upload the file to ipfs and harmony 
       setTransaction(contractTransaction)
       console.log(contractTransaction)
    setInputFile(null)
-      
+
     } catch (error) {
       console.log('Error uploading file: ', error)
       return false
-      
+
     }  
   }
 ```
-If you remember before you save the contract address of IPFSstorage contract right replace  `<contract address>` with your saved contract address, then after that let's create a function that can be used to get the hash of the file that we uploaded to IPFS :
+
+If you remember before you save the contract address of IPFSstorage contract right replace `<contract address>` with your saved contract address, then after that let's create a function that can be used to get the hash of the file that we uploaded to IPFS :
 
 ```javascript
 async function getIPFSHash(){
     try {
-      
+
       let contract = new web3.eth.Contract(IPFScontract.abi, "<contract address>")
       const contractIpfsHash=await contract.methods.getHash().call()
       setIpfsHash(contractIpfsHash)
-   
+
     } catch (error) {
       console.log('Error getting hash: ', error)
       return false
-      
+
     }  
   }
 ```
@@ -453,14 +466,14 @@ Last but not least, create a html that can be used to upload and display our blo
       <Center mt="10px"><b>Upload file to ipfs and harmony blockchain</b></Center>
       <Center h="100px" color="white">
       {!ethereumEnabled?<Button colorScheme="blue" onClick={()=>ethEnabled()}>Login with metamask</Button>:<Button colorScheme="orange">Logout</Button>}
-        
-        
+
+
       </Center>
       <Center style={{display:!ethereumEnabled?"none":"flex"}} h="100px" color="white">
-      
+
         <Button colorScheme="blue" onClick={()=>fileInput.current.click()}>{inputFile?inputFile.name:"Choose File"}</Button>
-       
-        
+
+
       </Center>
       <Center style={{display:!ethereumEnabled||!inputFile?"none":"flex"}} h="100px" color="white">
         <Button colorScheme="green" onClick={()=>uploadFileToIPFS(inputFile)}>Upload File</Button>
@@ -477,37 +490,37 @@ Last but not least, create a html that can be used to upload and display our blo
           <Tr>
             <Td>Transaction Hash</Td>
             <Td>{transaction?.transactionHash}</Td>
-           
+
           </Tr>
           <Tr>
             <Td>Status</Td>
             <Td>{transaction?.status}</Td>
-           
+
           </Tr>
           <Tr>
             <Td>Gas Used</Td>
             <Td>{transaction?.gasUsed}</Td>
-         
+
           </Tr>
           <Tr>
             <Td>Block Number</Td>
             <Td>{transaction?.blockNumber}</Td>
-         
+
           </Tr>
           <Tr>
             <Td>Block Hash</Td>
             <Td>{transaction?.blockHash}</Td>
-         
+
           </Tr>
         </Tbody>
-       
+
       </Table>
       <Center style={{display:!ethereumEnabled||!transaction?"none":"flex"}} h="100px" color="white">
-      
+
         <Button colorScheme="blue" onClick={()=>getIPFSHash()}>Get IPFS URL</Button>
-        
-       
-        
+
+
+
       </Center>
       <Center><a target="_blank" href={ipfsHash?`http://localhost:8080/ipfs/${ipfsHash}`:"#"}>{ipfsHash?`http://localhost:8080/ipfs/${ipfsHash}`:""}</a></Center>
 ```
@@ -562,24 +575,24 @@ export default function Home() {
       setTransaction(contractTransaction)
       console.log(contractTransaction)
    setInputFile(null)
-      
+
     } catch (error) {
       console.log('Error uploading file: ', error)
       return false
-      
+
     }  
   }
   async function getIPFSHash(){
     try {
-      
+
       let contract = new web3.eth.Contract(IPFScontract.abi, "<contract address>")
       const contractIpfsHash=await contract.methods.getHash().call()
       setIpfsHash(contractIpfsHash)
-   
+
     } catch (error) {
       console.log('Error getting hash: ', error)
       return false
-      
+
     }  
   }
   return (
@@ -597,14 +610,14 @@ export default function Home() {
       <Center mt="10px"><b>Upload file to ipfs and harmony blockchain</b></Center>
       <Center h="100px" color="white">
       {!ethereumEnabled?<Button colorScheme="blue" onClick={()=>ethEnabled()}>Login with metamask</Button>:<Button colorScheme="orange">Logout</Button>}
-        
-        
+
+
       </Center>
       <Center style={{display:!ethereumEnabled?"none":"flex"}} h="100px" color="white">
-      
+
         <Button colorScheme="blue" onClick={()=>fileInput.current.click()}>{inputFile?inputFile.name:"Choose File"}</Button>
-       
-        
+
+
       </Center>
       <Center style={{display:!ethereumEnabled||!inputFile?"none":"flex"}} h="100px" color="white">
         <Button colorScheme="green" onClick={()=>uploadFileToIPFS(inputFile)}>Upload File</Button>
@@ -621,37 +634,37 @@ export default function Home() {
           <Tr>
             <Td>Transaction Hash</Td>
             <Td>{transaction?.transactionHash}</Td>
-           
+
           </Tr>
           <Tr>
             <Td>Status</Td>
             <Td>{transaction?.status}</Td>
-           
+
           </Tr>
           <Tr>
             <Td>Gas Used</Td>
             <Td>{transaction?.gasUsed}</Td>
-         
+
           </Tr>
           <Tr>
             <Td>Block Number</Td>
             <Td>{transaction?.blockNumber}</Td>
-         
+
           </Tr>
           <Tr>
             <Td>Block Hash</Td>
             <Td>{transaction?.blockHash}</Td>
-         
+
           </Tr>
         </Tbody>
-       
+
       </Table>
       <Center style={{display:!ethereumEnabled||!transaction?"none":"flex"}} h="100px" color="white">
-      
+
         <Button colorScheme="blue" onClick={()=>getIPFSHash()}>Get IPFS URL</Button>
-        
-       
-        
+
+
+
       </Center>
       <Center><a target="_blank" href={ipfsHash?`http://localhost:8080/ipfs/${ipfsHash}`:"#"}>{ipfsHash?`http://localhost:8080/ipfs/${ipfsHash}`:""}</a></Center>
     </Container>
@@ -679,7 +692,7 @@ Click on choose file button and choose your file.
 
 ![upload](https://imgur.com/dcm2QDK.png)
 
-Click on upload file 
+Click on upload file
 
 ![confirm](https://imgur.com/abBcvPt.png)
 
@@ -696,3 +709,4 @@ If you click on "Get IPFS URL" you will get your IPFS URL.
 ## Conclusion
 
 Congrats! You're successfully uploaded your file to IPFS and harmony blockchain. This is just a simple use case to upload and get a file from harmony blockchain. You can be creative and create a more complex use case like NFT metadata storage or something like that. And if you notice we are using local IPFS node. Which means if our IPFS node is down, you can't get your file. One thing you can do is using service like infura it is a free with some limitation IPFS service. You can also automatically pin your file to infura by changing the `localhost:8080` to `ipfs.infura.io`, and your file can be seen forever, but you can't unpin it so be careful when using infura to upload your private file. That's it for now if you have any questions or suggestions feel free to ask in [Official Harmony Discord](https://discord.gg/kMKcYcC5)
+

@@ -26,7 +26,7 @@ To more easy verification we recommend to deploy contract with Harmony Remix [ht
 
 You can verify your contract here [https://explorer.harmony.one/verifycontract](https://explorer.harmony.one/verifycontract)
 
-![](../../.gitbook/assets/verify_contract%20%282%29%20%284%29%20%285%29%20%282%29%20%285%29.png)
+![](../../.gitbook/assets/verify_contract%20%282%29%20%284%29%20%285%29%20%282%29%20%281%29%20%285%29.png)
 
 Important to use correct params \(the same like on deploy\):
 
@@ -44,7 +44,7 @@ If all parameters are correct - you should to see `Success` message, or `Error` 
 
 On Success case - you contract will verify and you will see all contract details on contract explorer page
 
-![](../../.gitbook/assets/untitled-1%20%282%29%20%284%29%20%285%29%20%285%29%20%283%29.png)
+![](../../.gitbook/assets/untitled-1%20%282%29%20%284%29%20%285%29%20%285%29%20%283%29%20%283%29.png)
 
 ## 4. Verify contract with constructor arguments \(for contracts that were created with constructor parameters\)
 

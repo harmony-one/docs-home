@@ -107,7 +107,7 @@ In order to configure Metamask with Binance Smart Chain \(BSC\) check the docume
 
 The example below shows the configuration that needs to be done to connect to Harmony Mainnet on Shard 0:
 
-![](../../../.gitbook/assets/image%20%28294%29%20%281%29%20%282%29%20%282%29%20%281%29%20%282%29%20%282%29%20%281%29.png)
+![](../../../.gitbook/assets/image%20%28294%29%20%281%29%20%282%29%20%282%29%20%281%29%20%282%29%20%282%29%20%282%29%20%281%29.png)
 
 Click now on the Save button and your configuration should be done!
 
