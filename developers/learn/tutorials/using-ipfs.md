@@ -304,8 +304,11 @@ npx create-next-app harmony-ipfs --use-npm --example "https://github.com/vercel/
 It will create a new directory called `harmony-ipfs` and install all the dependencies for you. We also need to style our app with some css, so we gonna use [chakra-ui](https://chakra-ui.com/) for this. Go inside the `harmony-ipfs` directory and install the dependencies :
 
 ```
-npm i @chakra-ui/react @emotion/react@^11 @emotion/styled@^11 framer-motion@^4
+npm i @chakra-ui/react @emotion/react@^11 @emotion/styled@^11 framer-motion@^4 ipfs-http-client
 ```
+
+After that create a directory called `abi` and copy paste the abi file called `IPFSstorage.json` from `build/contracts` folder on the root of the project.
+
 Now go inside `pages` folder and create a file called `_app.js` and copy paste this code :
 
 ```javascript
@@ -338,3 +341,350 @@ export default function Home() {
   )
 }
 ```
+
+Add all of the import first below `import { Container } from "@chakra-ui/react";` :
+
+```javascript
+import { Button } from "@chakra-ui/react";
+import { Center } from "@chakra-ui/react";
+import Web3 from "web3";
+import {
+  Table,
+  Thead,
+  Tbody,
+  Tr,
+  Th,
+  Td 
+} from "@chakra-ui/react";
+import {useRef,useState, useEffect} from "react"
+import { create } from 'ipfs-http-client'
+import IPFScontract from "../abi/IPFSstorage.json"
+```
+
+Let's create all the state that we need so that our application can function properly, below `export default function Home() {` copy paste this code :
+
+```javascript
+const [inputFile,setInputFile]=useState(null)
+  const [ethereumEnabled,setEthereumEnabled]=useState(false)
+  const [web3,setWeb3]=useState(null)
+  const [transaction,setTransaction]=useState(null)
+  const [ipfsHash,setIpfsHash]=useState(null)
+```
+
+And then let's create a function that can be used for later to connect to our metamask put it below the state :
+
+```javascript
+const ethEnabled = async () => {
+    if (window.ethereum) {
+      await window.ethereum.send('eth_requestAccounts');
+      setWeb3(new Web3(window.ethereum))
+      setEthereumEnabled(true)
+      return true;
+    }
+    setEthereumEnabled(false)
+    return false;
+  }
+```
+And then let's create some code that can trigger the choose file button and also upload to ipfs :
+
+```javascript
+ const fileInput = useRef(null); // trigger choose file button for later
+  const client = create('http://localhost:5001/api/v0') // function to create a client to upload to ipfs later
+  async function onChange(e){ // function to detect file change
+    const file = e.target.files[0]
+    setInputFile(file)  
+  }
+```
+Let's create a function that can be used to upload the file to ipfs and harmony blockchain :
+
+```javascript
+  async function uploadFileToIPFS(file){
+    try {
+      const added = await client.add(file)
+      let contract = new web3.eth.Contract(IPFScontract.abi, "<contract address>")
+      const from=(await web3.eth.getAccounts())[0]
+      const contractTransaction=await contract.methods.sendHash(added.path).send({ from })
+      setTransaction(contractTransaction)
+      console.log(contractTransaction)
+   setInputFile(null)
+      
+    } catch (error) {
+      console.log('Error uploading file: ', error)
+      return false
+      
+    }  
+  }
+```
+If you remember before you save the contract address of IPFSstorage contract right replace  `<contract address>` with your saved contract address, then after that let's create a function that can be used to get the hash of the file that we uploaded to IPFS :
+
+```javascript
+async function getIPFSHash(){
+    try {
+      
+      let contract = new web3.eth.Contract(IPFScontract.abi, "<contract address>")
+      const contractIpfsHash=await contract.methods.getHash().call()
+      setIpfsHash(contractIpfsHash)
+   
+    } catch (error) {
+      console.log('Error getting hash: ', error)
+      return false
+      
+    }  
+  }
+```
+
+Last but not least, create a html that can be used to upload and display our blockchain transaction also our ipfs hash that we get from harmony blockchain copy paste this code below `</Head>` tag :
+
+```javascript
+<input
+      ref={fileInput}
+        type="file"
+        style={{visibility:"hidden"}}
+        onChange={onChange}
+      />
+      <Center mt="10px"><b>Upload file to ipfs and harmony blockchain</b></Center>
+      <Center h="100px" color="white">
+      {!ethereumEnabled?<Button colorScheme="blue" onClick={()=>ethEnabled()}>Login with metamask</Button>:<Button colorScheme="orange">Logout</Button>}
+        
+        
+      </Center>
+      <Center style={{display:!ethereumEnabled?"none":"flex"}} h="100px" color="white">
+      
+        <Button colorScheme="blue" onClick={()=>fileInput.current.click()}>{inputFile?inputFile.name:"Choose File"}</Button>
+       
+        
+      </Center>
+      <Center style={{display:!ethereumEnabled||!inputFile?"none":"flex"}} h="100px" color="white">
+        <Button colorScheme="green" onClick={()=>uploadFileToIPFS(inputFile)}>Upload File</Button>
+      </Center>
+      <Center style={{display:!ethereumEnabled||!transaction?"none":"flex"}}><b>Transaction Detail</b></Center>
+      <Table style={{display:!ethereumEnabled||!transaction?"none":""}} variant="simple">
+        <Thead>
+          <Tr>
+            <Th>Key</Th>
+            <Th>Value</Th>
+          </Tr>
+        </Thead>
+        <Tbody>
+          <Tr>
+            <Td>Transaction Hash</Td>
+            <Td>{transaction?.transactionHash}</Td>
+           
+          </Tr>
+          <Tr>
+            <Td>Status</Td>
+            <Td>{transaction?.status}</Td>
+           
+          </Tr>
+          <Tr>
+            <Td>Gas Used</Td>
+            <Td>{transaction?.gasUsed}</Td>
+         
+          </Tr>
+          <Tr>
+            <Td>Block Number</Td>
+            <Td>{transaction?.blockNumber}</Td>
+         
+          </Tr>
+          <Tr>
+            <Td>Block Hash</Td>
+            <Td>{transaction?.blockHash}</Td>
+         
+          </Tr>
+        </Tbody>
+       
+      </Table>
+      <Center style={{display:!ethereumEnabled||!transaction?"none":"flex"}} h="100px" color="white">
+      
+        <Button colorScheme="blue" onClick={()=>getIPFSHash()}>Get IPFS URL</Button>
+        
+       
+        
+      </Center>
+      <Center><a target="_blank" href={ipfsHash?`http://localhost:8080/ipfs/${ipfsHash}`:"#"}>{ipfsHash?`http://localhost:8080/ipfs/${ipfsHash}`:""}</a></Center>
+```
+
+This is our final code of `index.js` file :
+
+```javascript
+import Head from 'next/head'
+import { Container } from "@chakra-ui/react";
+import { Button } from "@chakra-ui/react";
+import { Center } from "@chakra-ui/react";
+import Web3 from "web3";
+import {
+  Table,
+  Thead,
+  Tbody,
+  Tr,
+  Th,
+  Td 
+} from "@chakra-ui/react";
+import {useRef,useState, useEffect} from "react"
+import { create } from 'ipfs-http-client'
+import IPFScontract from "../abi/IPFSstorage.json"
+export default function Home() {
+  const [inputFile,setInputFile]=useState(null)
+  const [ethereumEnabled,setEthereumEnabled]=useState(false)
+  const [web3,setWeb3]=useState(null)
+  const [transaction,setTransaction]=useState(null)
+  const [ipfsHash,setIpfsHash]=useState(null)
+  const ethEnabled = async () => {
+    if (window.ethereum) {
+      await window.ethereum.send('eth_requestAccounts');
+      setWeb3(new Web3(window.ethereum))
+      setEthereumEnabled(true)
+      return true;
+    }
+    setEthereumEnabled(false)
+    return false;
+  }
+  const fileInput = useRef(null); // trigger choose file button for later
+  const client = create('http://localhost:5001/api/v0') // function to upload to ipfs
+  async function onChange(e){ // function to detect file change
+    const file = e.target.files[0]
+    setInputFile(file)  
+  }
+  async function uploadFileToIPFS(file){
+    try {
+      const added = await client.add(file)
+      let contract = new web3.eth.Contract(IPFScontract.abi, "<contract address>")
+      const from=(await web3.eth.getAccounts())[0]
+      const contractTransaction=await contract.methods.sendHash(added.path).send({ from })
+      setTransaction(contractTransaction)
+      console.log(contractTransaction)
+   setInputFile(null)
+      
+    } catch (error) {
+      console.log('Error uploading file: ', error)
+      return false
+      
+    }  
+  }
+  async function getIPFSHash(){
+    try {
+      
+      let contract = new web3.eth.Contract(IPFScontract.abi, "0xF754cdc2cf8d2b37CE74FB89Aa10dD27EF714049")
+      const contractIpfsHash=await contract.methods.getHash().call()
+      setIpfsHash(contractIpfsHash)
+   
+    } catch (error) {
+      console.log('Error getting hash: ', error)
+      return false
+      
+    }  
+  }
+  return (
+    <Container>
+      <Head>
+        <title>IPFS + Harmony</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <input
+      ref={fileInput}
+        type="file"
+        style={{visibility:"hidden"}}
+        onChange={onChange}
+      />
+      <Center mt="10px"><b>Upload file to ipfs and harmony blockchain</b></Center>
+      <Center h="100px" color="white">
+      {!ethereumEnabled?<Button colorScheme="blue" onClick={()=>ethEnabled()}>Login with metamask</Button>:<Button colorScheme="orange">Logout</Button>}
+        
+        
+      </Center>
+      <Center style={{display:!ethereumEnabled?"none":"flex"}} h="100px" color="white">
+      
+        <Button colorScheme="blue" onClick={()=>fileInput.current.click()}>{inputFile?inputFile.name:"Choose File"}</Button>
+       
+        
+      </Center>
+      <Center style={{display:!ethereumEnabled||!inputFile?"none":"flex"}} h="100px" color="white">
+        <Button colorScheme="green" onClick={()=>uploadFileToIPFS(inputFile)}>Upload File</Button>
+      </Center>
+      <Center style={{display:!ethereumEnabled||!transaction?"none":"flex"}}><b>Transaction Detail</b></Center>
+      <Table style={{display:!ethereumEnabled||!transaction?"none":""}} variant="simple">
+        <Thead>
+          <Tr>
+            <Th>Key</Th>
+            <Th>Value</Th>
+          </Tr>
+        </Thead>
+        <Tbody>
+          <Tr>
+            <Td>Transaction Hash</Td>
+            <Td>{transaction?.transactionHash}</Td>
+           
+          </Tr>
+          <Tr>
+            <Td>Status</Td>
+            <Td>{transaction?.status}</Td>
+           
+          </Tr>
+          <Tr>
+            <Td>Gas Used</Td>
+            <Td>{transaction?.gasUsed}</Td>
+         
+          </Tr>
+          <Tr>
+            <Td>Block Number</Td>
+            <Td>{transaction?.blockNumber}</Td>
+         
+          </Tr>
+          <Tr>
+            <Td>Block Hash</Td>
+            <Td>{transaction?.blockHash}</Td>
+         
+          </Tr>
+        </Tbody>
+       
+      </Table>
+      <Center style={{display:!ethereumEnabled||!transaction?"none":"flex"}} h="100px" color="white">
+      
+        <Button colorScheme="blue" onClick={()=>getIPFSHash()}>Get IPFS URL</Button>
+        
+       
+        
+      </Center>
+      <Center><a target="_blank" href={ipfsHash?`http://localhost:8080/ipfs/${ipfsHash}`:"#"}>{ipfsHash?`http://localhost:8080/ipfs/${ipfsHash}`:""}</a></Center>
+    </Container>
+  )
+}
+```
+
+If you're successfully follow this tutorial you will get something like this :
+
+![metmask](https://imgur.com/bmcpthy.png)
+
+Let's click on login button and you will see something like this :
+
+![choose](https://imgur.com/yCeK6qt.png)
+
+Choose your account and click next and connect.
+
+![connected](https://imgur.com/cWZhVfi.png)
+
+If you see connected button like above you're successfully connected to the site.
+
+![choose file](https://imgur.com/PqnUzlz.png)
+
+Click on choose file button and choose your file.
+
+![upload](https://imgur.com/dcm2QDK.png)
+
+Click on upload file 
+
+![confirm](https://imgur.com/abBcvPt.png)
+
+Click on confirm and wait for a while.
+
+![success](https://imgur.com/ixQ7ReV.png)
+
+After that if you get your transaction detail you're successfully uploaded your file to IPFS and harmony blockchain.
+
+![harmony](https://imgur.com/tXvUCaQ.png)
+
+If you click on "Get IPFS URL" you will get your IPFS URL.
+
+## Conclusion
+
+Congrats! You're successfully uploaded your file to IPFS and harmony blockchain. This is just a simple use case to upload and get a file from harmony blockchain. You can be creative and create a more complex use case like NFT metadata storage or something like that. And if you notice we are using local IPFS node. Which means if our IPFS node is down, you can't get your file. One thing you can do is using service like infura it is a free with some limitation IPFS service. You can also automatically pin your file to infura by changing the `localhost:8080` to `ipfs.infura.io`, and your file can be seen forever, but you can't unpin it so be careful when using infura to upload your private file. That's it for now if you have any questions or suggestions feel free to ask in [Official Harmony Discord](https://discord.gg/kMKcYcC5)
