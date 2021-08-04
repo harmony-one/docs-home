@@ -1,2 +1,2 @@
-# Showcases
+# DApp Examples
 

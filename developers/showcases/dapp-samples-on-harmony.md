@@ -1,8 +1,10 @@
 ---
-description: A set of sample projects to help you build and deploy DApps on Harmony.
+description: >-
+  A set of sample projects to help you build and deploy DApps on Harmony.
+  Prepared for tradfi to defi hackathon.
 ---
 
-# DApp Samples on Harmony
+# DApp Samples
 
 ## CryptoKitties Clone
 
