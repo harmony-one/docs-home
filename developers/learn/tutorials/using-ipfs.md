@@ -564,7 +564,7 @@ export default function Home() {
   async function getIPFSHash(){
     try {
       
-      let contract = new web3.eth.Contract(IPFScontract.abi, "0xF754cdc2cf8d2b37CE74FB89Aa10dD27EF714049")
+      let contract = new web3.eth.Contract(IPFScontract.abi, "<contract address>")
       const contractIpfsHash=await contract.methods.getHash().call()
       setIpfsHash(contractIpfsHash)
    
