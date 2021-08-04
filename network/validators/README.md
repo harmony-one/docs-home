@@ -1,5 +1,9 @@
 # Validators
 
+
+
+![](../../.gitbook/assets/image%20%28180%29.png)
+
 {% page-ref page="definitions/" %}
 
 {% page-ref page="server-setup/" %}
