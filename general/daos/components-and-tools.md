@@ -4,7 +4,4 @@
 
 {% embed url="https://gov.harmony.one" %}
 
-Multi-sig Wallets
-
-
-
+{% embed url="https://multisig.harmony.one/" %}
