@@ -4,9 +4,9 @@ description: To Scale Trust and Create A Radically Fair Economy
 
 # Welcome
 
-Harmony is your open platform for assets, collectibles, identity, governance. We are an open and fast blockchain.
+Harmony is an open and fast blockchain. Our mainnet runs Ethereum applications with 2-second transaction finality and 100 times lower fees.
 
-Our mainnet runs Ethereum applications with 2-second transaction finality and 1000 times lower fees. Harmony’s secure bridges offer cross-chain asset transfers with Ethereum, Binance and other chains.
+Harmony is your open platform for assets, collectibles, identity, governance. Our secure bridges offer cross-chain asset transfers with Ethereum, Binance and 3 other chains.
 
 This document has introduction and resources for all audience:
 
