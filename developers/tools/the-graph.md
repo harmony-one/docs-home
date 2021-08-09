@@ -6,7 +6,7 @@ Graph: [https://graph.t.hmny.io/](https://graph.t.hmny.io/)
 Management: [https://graph.t.hmny.io:8020/](https://graph.t.hmny.io:8020/)   
 Metrics: [https://graph.t.hmny.io:8030/](https://graph.t.hmny.io:8030/)  
   
-see this link for more detail on how to create and deploy on the harmony sandbox indexer node [https://docs.harmony.one/home/developers/learn/tutorials/the-graph-subgraphs/building-and-deploying-subgraph-public-node](https://docs.harmony.one/home/developers/learn/tutorials/the-graph-subgraphs/building-and-deploying-subgraph-public-node)
+see this link for more detail on how to create and deploy on the harmony sandbox indexer node [https://docs.harmony.one/home/developers/tutorials/the-graph-subgraphs/building-and-deploying-subgraph-public-node](https://docs.harmony.one/home/developers/tutorials/the-graph-subgraphs/building-and-deploying-subgraph-public-node)
 
 {% hint style="warning" %}
 The Graph is only a sandbox. We do not guarantee uptime or data persistence. Projects should run their own instances and not rely on sandbox Graph. 

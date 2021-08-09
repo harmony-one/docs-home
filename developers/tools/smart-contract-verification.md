@@ -44,7 +44,7 @@ If all parameters are correct - you should to see `Success` message, or `Error` 
 
 On Success case - you contract will verify and you will see all contract details on contract explorer page
 
-![](../../.gitbook/assets/untitled-1%20%282%29%20%284%29%20%285%29%20%285%29%20%283%29%20%283%29.png)
+![](../../.gitbook/assets/untitled-1%20%282%29%20%284%29%20%285%29%20%285%29%20%283%29%20%281%29%20%283%29.png)
 
 ## 4. Verify contract with constructor arguments \(for contracts that were created with constructor parameters\)
 
