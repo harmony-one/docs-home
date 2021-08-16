@@ -35,7 +35,7 @@ contract PriceConsumerV3 {
     AggregatorV3Interface internal priceFeed;
 
     /**
-     * Network: Kovan
+     * Network: Harmony testnet
      * Aggregator: ONE/USD
      * Address: 0xcEe686F89bc0dABAd95AEAAC980aE1d97A075FAD
      */
