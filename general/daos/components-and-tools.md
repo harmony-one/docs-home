@@ -4,5 +4,5 @@
 
 {% embed url="https://gov.harmony.one" caption="" %}
 
-{% embed url="https://multisig.harmony.one/" caption="" %}
+{% embed url="https://safe.harmony.one/" caption="" %}
 
