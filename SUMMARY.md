@@ -345,6 +345,7 @@
       * [Staking Dashboard](network/delegator/staking/staking-via-browser/choosing-a-validator.md)
       * [Staking Transactions](network/delegator/staking/staking-via-browser/staking-transactions.md)
       * [Sending Transactions](network/delegator/staking/staking-via-browser/sending-transactions.md)
+    * [Via Mobile](network/delegator/staking/via-mobile.md)
     * [FAQ](network/delegator/staking/staking-faq.md)
   * [Redelegation](network/delegator/redelegation.md)
   * [Informational Videos](network/delegator/delegator-journey.md)
