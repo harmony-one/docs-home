@@ -10,6 +10,10 @@ You can read more about Harmony One Ecosystem - here
 
 [https://github.com/harmony-one/hmy-ecosystem](https://github.com/harmony-one/hmy-ecosystem)
 
+{% embed url="https://www.youtube.com/watch?v=rFmVIA6Jvmg" %}
+
+
+
 ## Useful articles:
 
 ### Harmony & Web3
