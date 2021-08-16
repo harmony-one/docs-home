@@ -1,4 +1,4 @@
-# Oracle: Band Protocol
+# Band Protocol
 
 ## How to Interact with BandChain from Harmony Smart Contracts
 
