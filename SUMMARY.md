@@ -83,6 +83,7 @@
   * [Go CLI](developers/sdk/go-cli.md)
   * [Java SDK](developers/sdk/java-sdk.md)
   * [Python SDK](developers/sdk/python-sdk.md)
+  * [Harmony Ethers.js Wrapper](developers/sdk/harmony-ethers.js-wrapper.md)
 * [API](developers/api/README.md)
   * [Methods](developers/api/methods/README.md)
     * [Account Methods](developers/api/methods/account-methods/README.md)
