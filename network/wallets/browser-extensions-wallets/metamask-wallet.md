@@ -155,7 +155,7 @@ Since Metamask does not allow you to send transactions to addresses starting wit
 To send a transaction on Metamask click on **Send** button and on next window copy paste the destination address starting with **0x**, fill the amount you want to send, click on **Next** and then on **Confirm**.
 
 {% hint style="info" %}
-If your transaction fails due to insufficient gas, set the gas fee to 25000
+If your transaction fails due to insufficient gas, set the Gas Limit to 25000
 {% endhint %}
 
 ![](../../../.gitbook/assets/image-2021-08-18-at-9.37.52-am.jpg)
