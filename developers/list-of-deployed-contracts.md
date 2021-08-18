@@ -38,7 +38,7 @@ There are a number of places developers can look to find more information about 
 | [HRC721 Tokens on Harmony Explorer](https://explorer.harmony.one/hrc721) | Gives a list of all HRC721 tokens deployed including name, symbol, address  and number of holders. |
 | [HRC1155 Tokens on Harmony Explorer](https://explorer.harmony.one/hrc1155) | Gives a list of all HRC1155 tokens deployed including name, symbol, address  and number of holders. |
 | [Swoop Default Token List](https://github.com/harmony-one/swoop-default-token-list) | Provides a default token list for [swoop.exchange](https://swoop.exchange/) for both [testnet](https://github.com/harmony-one/swoop-default-token-list/blob/master/src/tokens/testnet.json) and [mainnet](https://github.com/harmony-one/swoop-default-token-list/blob/master/src/tokens/mainnet.json). |
-| [ViperSwap Default Token List](https://github.com/VenomProtocol/venomswap-community-token-list) | Provides a default token list for [viperswap.one](https://viperswap.one/#/swap)  including both [testnet](https://github.com/VenomProtocol/venomswap-community-token-list/blob/main/src/tokens/harmony-testnet.json) and [mainnet](https://github.com/VenomProtocol/venomswap-community-token-list/blob/main/src/tokens/harmony-mainnet.json) |
+| [VenomSwap Default Token List](https://github.com/VenomProtocol/venomswap-default-token-list) | Provides a default token list for [viperswap.one](https://viperswap.one/#/swap)  including both [testnet](https://github.com/VenomProtocol/venomswap-default-token-list/blob/main/src/tokens/harmony-testnet.json) and [mainnet](https://github.com/VenomProtocol/venomswap-default-token-list/blob/main/src/tokens/harmony-testnet.json) |
 
 ## Project Contract Addresses
 
