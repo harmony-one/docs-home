@@ -185,6 +185,7 @@
     * [Chainlink](developers/tools/oracles/chainlink.md)
     * [Band Protocol](developers/tools/oracles/oracle-band-protocol.md)
   * [Smart Contract Verification](developers/tools/smart-contract-verification.md)
+  * [DaVinci SDK](developers/tools/davinci-sdk.md)
 * [DApp Examples](developers/showcases/README.md)
   * [DApp Samples](developers/showcases/dapp-samples-on-harmony.md)
   * [Games](developers/showcases/games/README.md)
