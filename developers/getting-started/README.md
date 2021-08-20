@@ -57,9 +57,14 @@ Faucet can also be refilled by anyone by sending fund back to the contract addre
 
 ### How to create a simple DApp on Harmony?
 
+One of the best ways to get started is to use [scaffold-eth](https://github.com/austintgriffith/scaffold-eth) which now has integrated Harmony support.
+
+{% embed url="https://youtu.be/ShJZf5lsXiM" %}
+
+You can also use the [Harmony DApp template generator](https://github.com/harmony-one/harmony-dapp-template) to get started.
+
 {% embed url="https://www.youtube.com/watch?v=ys7dtz1YvpM" %}
 
-* [Harmony DApp template generator](https://github.com/harmony-one/harmony-dapp-template)
 * [Tutorial](https://www.youtube.com/watch?v=1eigt2z8oWM&t=4s)
 * [Github repo](https://github.com/harmony-one/token-faucet-demo-dapp)
 
