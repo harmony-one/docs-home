@@ -10,7 +10,7 @@ Harmony is a powerful blockchain that is EVM compatible with sharding and [staki
 
 The simplest way to interact with Harmony blockchain is via JSON RPCs.
 
-#### Querying Harmony blockchian using JSON RPCs
+#### Querying Harmony blockchain using JSON RPCs
 
 * JSON [RPCs](https://docs.harmony.one/home/developers/api) and `curl` command [examples](https://docs.harmony.one/home/developers/api/methods)
 
