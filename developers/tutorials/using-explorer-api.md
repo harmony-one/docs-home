@@ -1,7 +1,7 @@
 ---
 description: >-
-  This page describes API of harmony explorer to programmatically access the
-  data.
+  This page describes endpoints of harmony explorer to programmatically access
+  the data.
 ---
 
 # Using Explorer EndPoints
@@ -202,7 +202,41 @@ Example:
 {% endapi-method-spec %}
 {% endapi-method %}
 
-Transactions
+{% api-method method="get" host="https://explorer-v2-api.hmny.io" path="/v0/shard/:shard\_id/address/:address/transactions/type/transaction?offset=0&limit=10" %}
+{% api-method-summary %}
+All Transactions
+{% endapi-method-summary %}
+
+{% api-method-description %}
+`https://explorer-v2-api.hmny.io/v0/shard/0/address/0x7912111622cb6455156ceb8a4b17c8c2ce6e7dab/transactions/type/transaction?offset=0&limit=10`
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="shard\_id" type="string" required=false %}
+shard id
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="address" type="string" required=false %}
+hex address
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
 
 {% api-method method="get" host="https://explorer-v2-api.hmny.io" path="/v0/shard/:shard\_id/address/0xdd46509b31b87f05a0da47e6ff9cdaa5563e7a57/transactions/type/erc20?offset=0&limit=10" %}
 {% api-method-summary %}
