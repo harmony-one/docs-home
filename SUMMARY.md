@@ -209,7 +209,7 @@
   * [Using Crosschain API](developers/tutorials/using-crosschain-api.md)
   * [Using Web3.py & Pyhmy](developers/tutorials/using-web3.py-and-pyhmy.md)
   * [Using IPFS](developers/tutorials/using-ipfs.md)
-  * [Using Explorer API](developers/tutorials/using-explorer-api.md)
+  * [Using Explorer EndPoints](developers/tutorials/using-explorer-api.md)
   * [Publishing & Verifying Your Smart Contract](developers/tutorials/publishing-and-verifying-your-smart-contract.md)
 
 ## 🌏 Network

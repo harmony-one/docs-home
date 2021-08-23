@@ -38,8 +38,8 @@ Harmony uses [bech32](https://en.bitcoin.it/wiki/Bech32) address format with `on
 We provide SDKs in several different languages. However most feature complete is our JavaScript SDK, which is the preferred language for DApp development.
 
 {% hint style="success" %}
-Feel free to ping any POPS member for issues on the testnet network/explorer/faucet on harmony discord @harmony-pops or telegram [P-OPS Team Validator](https://t.me/POPS_Team_Validator)   
-Faucet can also be refilled by anyone by sending fund back to the contract address shown on https://faucet.pops.one
+Feel free to ping any POPS member for issues on the testnet network/explorer/faucet on harmony discord @harmony-pops or telegram [P-OPS Team Validator](https://t.me/POPS_Team_Validator)  
+Faucet can also be refilled by anyone by sending fund back to the contract address shown on [https://faucet.pops.one](https://faucet.pops.one)
 {% endhint %}
 
 #### Using SDKs to interact with Harmony blockchian
@@ -59,11 +59,11 @@ Faucet can also be refilled by anyone by sending fund back to the contract addre
 
 One of the best ways to get started is to use [scaffold-eth](https://github.com/austintgriffith/scaffold-eth) which now has integrated Harmony support.
 
-{% embed url="https://youtu.be/ShJZf5lsXiM" %}
+{% embed url="https://youtu.be/ShJZf5lsXiM" caption="" %}
 
 You can also use the [Harmony DApp template generator](https://github.com/harmony-one/harmony-dapp-template) to get started.
 
-{% embed url="https://www.youtube.com/watch?v=ys7dtz1YvpM" %}
+{% embed url="https://www.youtube.com/watch?v=ys7dtz1YvpM" caption="" %}
 
 * [Tutorial](https://www.youtube.com/watch?v=1eigt2z8oWM&t=4s)
 * [Github repo](https://github.com/harmony-one/token-faucet-demo-dapp)

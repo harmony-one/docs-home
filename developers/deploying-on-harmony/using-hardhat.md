@@ -28,11 +28,9 @@ module.exports = {
 };
 ```
 
-Finally run: 
+Finally run:
 
 ```text
 npx hardhat run scripts/deploy.js --network testnet
 ```
-
-
 
