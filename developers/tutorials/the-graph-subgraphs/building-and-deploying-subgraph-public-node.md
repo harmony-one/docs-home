@@ -31,7 +31,7 @@ Metrics: [https://graph.t.hmny.io:8030/](https://graph.t.hmny.io:8030/)
 
 ```text
 "create-harmony": "graph create --node https://graph.t.hmny.io:8020 harmony/blocks",
-"deploy-harmony": "graph deploy --node https://graph.t.hmny.io:8020 --ipfs https://ipfs.infura.io:5001 harmony/blocks",
+"deploy-harmony": "graph deploy --node https://graph.t.hmny.io:8020 --ipfs http://graph.t.hmny.io:5001 harmony/blocks",
 ```
 
 ###  Update the manifest
