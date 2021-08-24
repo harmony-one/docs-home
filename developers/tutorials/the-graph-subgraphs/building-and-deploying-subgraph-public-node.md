@@ -10,7 +10,7 @@ description: >-
 
 [https://github.com/graphprotocol/graph-cli\#installation](https://github.com/graphprotocol/graph-cli#installation)
 
-## Our first subgraph 
+## Our first subgraph
 
 lets use blocklytics/ethereum-blocks subgraph as example
 
@@ -34,9 +34,9 @@ Metrics: [https://graph.t.hmny.io:8030/](https://graph.t.hmny.io:8030/)
 "deploy-harmony": "graph deploy --node https://graph.t.hmny.io:8020 --ipfs http://graph.t.hmny.io:5001 harmony/blocks",
 ```
 
-###  Update the manifest
+### Update the manifest
 
-Update the manifest `subgraph.yaml` file `datasources[0]['network']` from `rinkeby` to `mainnet`   
+Update the manifest `subgraph.yaml` file `datasources[0]['network']` from `rinkeby` to `mainnet`  
 If there is no need to index the entire blockchain, you can add an attribute `startBlock` to speed up the sync : `datasources[0]['source']['startBlock']`
 
 {% hint style="info" %}
