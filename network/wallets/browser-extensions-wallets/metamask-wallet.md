@@ -51,7 +51,7 @@ Use the RPC URL of Shard 0 if you want to send/receive transactions from exchang
           <br />https://s3.api.harmony.one</p>
       </td>
       <td style="text-align:left">
-        <p>https://api.s0.b.hmny.io</p>
+        <p>https://api.s0.pops.one</p>
         <p>https://api.s1.b.hmny.io</p>
         <p>https://api.s2.b.hmny.io</p>
         <p>https://api.s3.b.hmny.io</p>
