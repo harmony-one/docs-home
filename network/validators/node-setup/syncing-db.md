@@ -58,13 +58,13 @@ Below is the command to sync the shard you want. Replace `<ShardID>`with the sha
 {% tabs %}
 {% tab title="Mainnet" %}
 ```bash
-rclone -P sync release:pub.harmony.one/mainnet.min/harmony_db_<ShardID> harmony_db_<ShardID>
+rclone -P -L sync release:pub.harmony.one/mainnet.min/harmony_db_<ShardID> harmony_db_<ShardID>
 ```
 {% endtab %}
 
 {% tab title="Testnet" %}
 ```
-rclone -P sync release:pub.harmony.one/testnet.min/harmony_db_<ShardID> harmony_db_<ShardID>
+rclone -P -L sync release:pub.harmony.one/testnet.min/harmony_db_<ShardID> harmony_db_<ShardID>
 ```
 {% endtab %}
 {% endtabs %}
@@ -82,13 +82,13 @@ Nodes in shard 1, 2, 3 need to sync both `harmony_db_0`, and `harmony_db_<ShardI
 {% tabs %}
 {% tab title="Mainnet" %}
 ```bash
-rclone -P sync release:pub.harmony.one/mainnet.min/harmony_db_0 harmony_db_0
+rclone -P -L sync release:pub.harmony.one/mainnet.min/harmony_db_0 harmony_db_0
 ```
 {% endtab %}
 
 {% tab title="Testnet" %}
 ```
-rclone -P sync release:pub.harmony.one/testnet.min/harmony_db_0 harmony_db_0
+rclone -P -L sync release:pub.harmony.one/testnet.min/harmony_db_0 harmony_db_0
 ```
 {% endtab %}
 {% endtabs %}
@@ -98,15 +98,15 @@ rclone -P sync release:pub.harmony.one/testnet.min/harmony_db_0 harmony_db_0
 {% tabs %}
 {% tab title="Mainnet" %}
 ```bash
-rclone -P sync release:pub.harmony.one/mainnet.min/harmony_db_0 harmony_db_0
-rclone -P sync release:pub.harmony.one/mainnet.min/harmony_db_1 harmony_db_1
+rclone -P -L sync release:pub.harmony.one/mainnet.min/harmony_db_0 harmony_db_0
+rclone -P -L sync release:pub.harmony.one/mainnet.min/harmony_db_1 harmony_db_1
 ```
 {% endtab %}
 
 {% tab title="Testnet" %}
 ```
-rclone -P sync release:pub.harmony.one/testnet.min/harmony_db_0 harmony_db_0
-rclone -P sync release:pub.harmony.one/testnet.min/harmony_db_1 harmony_db_1
+rclone -P -L sync release:pub.harmony.one/testnet.min/harmony_db_0 harmony_db_0
+rclone -P -L sync release:pub.harmony.one/testnet.min/harmony_db_1 harmony_db_1
 ```
 {% endtab %}
 {% endtabs %}
@@ -116,15 +116,15 @@ rclone -P sync release:pub.harmony.one/testnet.min/harmony_db_1 harmony_db_1
 {% tabs %}
 {% tab title="Mainnet" %}
 ```bash
-rclone -P sync release:pub.harmony.one/mainnet.min/harmony_db_0 harmony_db_0
-rclone -P sync release:pub.harmony.one/mainnet.min/harmony_db_2 harmony_db_2
+rclone -P -L sync release:pub.harmony.one/mainnet.min/harmony_db_0 harmony_db_0
+rclone -P -L sync release:pub.harmony.one/mainnet.min/harmony_db_2 harmony_db_2
 ```
 {% endtab %}
 
 {% tab title="Testnet" %}
 ```
-rclone -P sync release:pub.harmony.one/testnet.min/harmony_db_0 harmony_db_0
-rclone -P sync release:pub.harmony.one/testnet.min/harmony_db_2 harmony_db_2
+rclone -P -L sync release:pub.harmony.one/testnet.min/harmony_db_0 harmony_db_0
+rclone -P -L sync release:pub.harmony.one/testnet.min/harmony_db_2 harmony_db_2
 ```
 {% endtab %}
 {% endtabs %}
@@ -134,15 +134,15 @@ rclone -P sync release:pub.harmony.one/testnet.min/harmony_db_2 harmony_db_2
 {% tabs %}
 {% tab title="Mainnet" %}
 ```bash
-rclone -P sync release:pub.harmony.one/mainnet.min/harmony_db_0 harmony_db_0
-rclone -P sync release:pub.harmony.one/mainnet.min/harmony_db_3 harmony_db_3
+rclone -P -L sync release:pub.harmony.one/mainnet.min/harmony_db_0 harmony_db_0
+rclone -P -L sync release:pub.harmony.one/mainnet.min/harmony_db_3 harmony_db_3
 ```
 {% endtab %}
 
 {% tab title="Testnet" %}
 ```
-rclone -P sync release:pub.harmony.one/testnet.min/harmony_db_0 harmony_db_0
-rclone -P sync release:pub.harmony.one/testnet.min/harmony_db_3 harmony_db_3
+rclone -P -L sync release:pub.harmony.one/testnet.min/harmony_db_0 harmony_db_0
+rclone -P -L sync release:pub.harmony.one/testnet.min/harmony_db_3 harmony_db_3
 ```
 {% endtab %}
 {% endtabs %}
@@ -162,12 +162,12 @@ As of 23th June 2021, the size for the shard 0 on mainnet is ~7.8Tb.
 To sync your node in archival mode, just change the command below for the shard you want. Depending on the size, the syncing of the blockchain will take quite some time.
 
 ```bash
-rclone -P sync release:pub.harmony.one/mainnet.archival/harmony_db_<ShardID> harmony_db_<ShardID>
+rclone -P -L sync release:pub.harmony.one/mainnet.archival/harmony_db_<ShardID> harmony_db_<ShardID>
 ```
 
 Example for shard 0:
 
 ```bash
-rclone -P sync release:pub.harmony.one/mainnet.archival/harmony_db_0 harmony_db_0
+rclone -P -L sync release:pub.harmony.one/mainnet.archival/harmony_db_0 harmony_db_0
 ```
 
