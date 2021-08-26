@@ -21,7 +21,7 @@ version: "3"
 services:
   graph-node:
     container_name: hmy_indexer
-    image: graphprotocol/graph-node:0.23.1
+    image: graphprotocol/graph-node:v0.23.1
     ports:
       - "8000:8000"
       - "8001:8001"
