@@ -26,7 +26,7 @@ The VRF data are available to be consumed by any chain clients by querying the b
   }
 ```
 
-Note the input of the precompiled contract at 0xff is the block number for which the VRF is requested. The block number should be only within the last 256 blocks. If a block number outside this range is provided, the current block's VRF will be returned..
+Note the input of the precompiled contract at 0xff is the block number for which the VRF is requested. The block number should be only within the last 256 blocks. If a block number outside this range is provided, the current block's VRF will be returned.
 
 ## How Harmony VRF is Constructed
 
