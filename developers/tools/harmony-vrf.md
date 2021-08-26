@@ -14,18 +14,19 @@ The VRF data are available to be consumed by any chain clients by querying the b
 
 ```text
   function vrf() public view returns (bytes32 result) {
-  	bytes32 input;
-  	assembly {
-  		let memPtr := mload(0x40)
-        if iszero(staticcall(not(0), 0xff, input, 32, memPtr, 32)) {
-        	invalid()
-        }
-        result := mload(memPtr)
+    uint[1] memory bn;
+    bn[0] = block.number;
+    assembly {
+      let memPtr := mload(0x40)
+      if iszero(staticcall(not(0), 0xff, bn, 0x20, memPtr, 0x20)) {
+        invalid()
+      }
+      result := mload(memPtr)
     }
   }
 ```
 
-Note the input of the precompiled contract at 0xff doesn’t matter as the VRF computation is predetermined based on only the block producer’s private key and the hash of the last block.
+Note the input of the precompiled contract at 0xff is the block number for which the VRF is requested. The block number should be only within the last 256 blocks. If a block number outside this range is provided, the current block's VRF will be returned..
 
 ## How Harmony VRF is Constructed
 

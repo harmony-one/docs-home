@@ -30,7 +30,7 @@ To check the location of the `rclone.conf`file run:
 rclone config file
 ```
 
-The `rclone.conf` file is usually located at `~/.config/rclone/rclone.conf` . 
+The `rclone.conf` file is usually located at `~/.config/rclone/rclone.conf` .
 
 Now run the following command to create the rclone.conf file.
 
@@ -63,7 +63,7 @@ rclone -P -L sync release:pub.harmony.one/mainnet.min/harmony_db_<ShardID> harmo
 {% endtab %}
 
 {% tab title="Testnet" %}
-```
+```text
 rclone -P -L sync release:pub.harmony.one/testnet.min/harmony_db_<ShardID> harmony_db_<ShardID>
 ```
 {% endtab %}
@@ -87,7 +87,7 @@ rclone -P -L sync release:pub.harmony.one/mainnet.min/harmony_db_0 harmony_db_0
 {% endtab %}
 
 {% tab title="Testnet" %}
-```
+```text
 rclone -P -L sync release:pub.harmony.one/testnet.min/harmony_db_0 harmony_db_0
 ```
 {% endtab %}
@@ -104,7 +104,7 @@ rclone -P -L sync release:pub.harmony.one/mainnet.min/harmony_db_1 harmony_db_1
 {% endtab %}
 
 {% tab title="Testnet" %}
-```
+```text
 rclone -P -L sync release:pub.harmony.one/testnet.min/harmony_db_0 harmony_db_0
 rclone -P -L sync release:pub.harmony.one/testnet.min/harmony_db_1 harmony_db_1
 ```
@@ -122,7 +122,7 @@ rclone -P -L sync release:pub.harmony.one/mainnet.min/harmony_db_2 harmony_db_2
 {% endtab %}
 
 {% tab title="Testnet" %}
-```
+```text
 rclone -P -L sync release:pub.harmony.one/testnet.min/harmony_db_0 harmony_db_0
 rclone -P -L sync release:pub.harmony.one/testnet.min/harmony_db_2 harmony_db_2
 ```
@@ -140,7 +140,7 @@ rclone -P -L sync release:pub.harmony.one/mainnet.min/harmony_db_3 harmony_db_3
 {% endtab %}
 
 {% tab title="Testnet" %}
-```
+```text
 rclone -P -L sync release:pub.harmony.one/testnet.min/harmony_db_0 harmony_db_0
 rclone -P -L sync release:pub.harmony.one/testnet.min/harmony_db_3 harmony_db_3
 ```
