@@ -24,7 +24,7 @@ None
 ## Sample Curl Request
 
 ```text
-curl --location --request POST 'https://api.s0.pops.one/' \
+curl --location --request POST 'https://api.s0.b.hmny.io/' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "jsonrpc": "2.0",
