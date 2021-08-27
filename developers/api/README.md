@@ -14,11 +14,42 @@ description: >-
 
 [JSON-RPC](https://en.wikipedia.org/wiki/JSON-RPC) is a remote procedure call protocol encoded in JSON. You can use this API to access data from the Harmony nodes. The JSON-RPC API server runs on:
 
-| Chains | URLs |
-| :--- | :--- |
-| mainnet | [https://api.s0.t.hmny.io](https://api.s0.t.hmny.io) or [https://api.harmony.one](https://api.harmony.one) |
-| testnet | [https://api.s0.b.hmny.io](https://api.s0.b.hmny.io) |
-| localnet | [http://localhost:9500](http://localhost:9500) |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Chains</th>
+      <th style="text-align:left">URLs</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">mainnet</td>
+      <td style="text-align:left"><a href="https://api.s0.t.hmny.io">https://api.s0.t.hmny.io</a> or <a href="https://api.harmony.one">https://api.harmony.one</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">testnet</td>
+      <td style="text-align:left">
+        <p><a href="https://api.s0.b.hmny.io">https://api.s0.b.hmny.io</a> or <a href="https://api.s0.pops.one">https://api.s0.pops.one</a> 
+        </p>
+        <p>(For Developers, Wallets, normal transaction)</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">testnet</td>
+      <td style="text-align:left">
+        <p><a href="https://api.s0.backup1.b.hmny.io">https://api.s0.backup1.b.hmny.io</a> 
+        </p>
+        <p>(For indexers, bulk read/write transactions)</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">localnet</td>
+      <td style="text-align:left"><a href="http://localhost:9500">http://localhost:9500</a>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 Web sockets can also be used
 
