@@ -40,7 +40,7 @@ description: >-
       <td style="text-align:left">
         <p><a href="https://api.s0.backup1.b.hmny.io">https://api.s0.backup1.b.hmny.io</a> 
         </p>
-        <p>(For indexers, bulk read/write transactions)</p>
+        <p>(For indexers, bulk transactions)</p>
       </td>
     </tr>
     <tr>
