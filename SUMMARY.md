@@ -47,6 +47,7 @@
   * [Components & Tools](general/daos/components-and-tools.md)
   * [Community DAO](general/daos/community-dao.md)
   * [Validator DAO](general/daos/validator-dao.md)
+  * [Developer DAO](general/daos/developer-dao.md)
 * [Community](general/community.md)
 * [Grants](general/grants/README.md)
   * [Grantee Guide](general/grants/grantee-guide.md)
