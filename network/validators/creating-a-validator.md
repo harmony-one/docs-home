@@ -1,7 +1,7 @@
 # Creating A Validator
 
 {% hint style="info" %}
-Before we proceed, we need to create a new Validator Wallet which will need to funded with 10001 ONE
+Before we proceed, we need to create a new Validator Wallet which will need to be funded with 10001 ONE
 {% endhint %}
 
 ## 1. Creating A New Validator Wallet <a id="new-local-account-creation"></a>
