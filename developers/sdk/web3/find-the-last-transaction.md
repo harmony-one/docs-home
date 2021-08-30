@@ -27,7 +27,7 @@ console.log('Last block transactions: ', block.transactions);
 ```javascript
 block = await web3.eth.getBlock(blockNumber);
 
-const lastTransaction = await block.transactions[block.transactions.length - 1];
+const lastTransaction = block.transactions[block.transactions.length - 1];
 console.log('Last transaction hash: ', lastTransaction);
 
 const transaction = await web3.eth.getTransaction(lastTransaction);
