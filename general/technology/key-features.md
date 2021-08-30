@@ -6,7 +6,7 @@ Harmony has transcended the blockchain trilemma by bringing the best research to
 
 We divide not only our network nodes but also the _blockchain states_ into shards, scaling linearly in all three aspects of machines, transactions and storages.
 
-To prevent single shard attacks, we must have a sufficiently large number of nodes per shard and cryptographic randomness to re-shard regularly. Each shard has 1/4 of nodes for strong security guarantee against Byzantine behaviors. We use Verifiable Random Function \(VDF\) for un-biased and unpredictable shard membership.
+To prevent single shard attacks, we must have a sufficiently large number of nodes per shard and cryptographic randomness to re-shard regularly. Each shard has 1/4 of nodes for strong security guarantee against Byzantine behaviors. We use Verifiable Random Function \(VRF\) for un-biased and unpredictable shard membership.
 
 ## Fast Consensus w/ Instant Finality
 
