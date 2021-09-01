@@ -22,7 +22,7 @@ Right now the following endpoints are enabled, but we will keep adding more regu
 
 ### **`POST /swap`**
 
-This enpoint will swap balances between Ethereum BUSD and Binance BUSD, the body for this request should look like this:
+This endpoint will swap balances between Ethereum BUSD and Binance BUSD, the body for this request should look like this:
 
 {% tabs %}
 {% tab title="Request" %}
@@ -44,7 +44,12 @@ This enpoint will swap balances between Ethereum BUSD and Binance BUSD, the body
 
 {% tab title="Response" %}
 ```text
-
+{ 
+    trx: "swap", 
+    success: bool, 
+    error_message: message, 
+    error_body: body
+}
 ```
 {% endtab %}
 {% endtabs %}
@@ -79,7 +84,12 @@ This enpoint will bridges `BUSD` in ethereum to Harmony's `BUSD`, it is the firs
 
 {% tab title="Response" %}
 ```text
-
+{ 
+    trx: "bridge", 
+    success: bool, 
+    error_message: message, 
+    error_body: body
+}
 ```
 {% endtab %}
 {% endtabs %}
@@ -111,7 +121,12 @@ This enpoint will swap Harmony's `BUSD` to `bscBUSD` \(Both are bridged assets i
 
 {% tab title="Response" %}
 ```text
-
+{ 
+    trx: "viper", 
+    success: bool, 
+    error_message: message, 
+    error_body: body
+}
 ```
 {% endtab %}
 {% endtabs %}
@@ -142,7 +157,12 @@ _You can see an example of this call in the `viper_swap.js` file in the_ [_scrip
 
 {% tab title="Response" %}
 ```text
-
+{ 
+    trx: "bridge", 
+    success: bool, 
+    error_message: message, 
+    error_body: body
+}
 ```
 {% endtab %}
 {% endtabs %}
@@ -176,7 +196,12 @@ This enpoint will swap balances between Ethereum BUSD and Binance BUSD, the body
 
 {% tab title="Response" %}
 ```
-
+{ 
+    trx: "swap", 
+    success: bool, 
+    error_message: message, 
+    error_body: body
+}
 ```
 {% endtab %}
 {% endtabs %}
@@ -206,7 +231,12 @@ This enpoint will bridges `BUSD` in ethereum to Harmony's `BUSD`, it is the firs
 
 {% tab title="Response" %}
 ```
-
+{ 
+    trx: "bridge", 
+    success: bool, 
+    error_message: message, 
+    error_body: body
+}
 ```
 {% endtab %}
 {% endtabs %}
@@ -235,7 +265,12 @@ This enpoint will swap Harmony's `BUSD` to `bscBUSD` \(Both are bridged assets i
 
 {% tab title="Response" %}
 ```
-
+{ 
+    trx: "viper", 
+    success: bool, 
+    error_message: message, 
+    error_body: body
+}
 ```
 {% endtab %}
 {% endtabs %}
@@ -264,7 +299,12 @@ This enpoint will bridges `bscBUSD` into Binance's `BUSD`, it is the third step 
 
 {% tab title="Response" %}
 ```
-
+{ 
+    trx: "bridge", 
+    success: bool, 
+    error_message: message, 
+    error_body: body
+}
 ```
 {% endtab %}
 {% endtabs %}
