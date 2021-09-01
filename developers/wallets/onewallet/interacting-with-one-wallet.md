@@ -1,8 +1,8 @@
 ---
-description: This section covers how to interact with one wallet extension.
+description: This section covers how to interact with Harmony Chrome Extension Wallet
 ---
 
-# Interacting with One Wallet
+# Interacting with Harmony Chrome Extension Wallet
 
 > We are assuming here that you are following the same setup as mentioned in the previous section.
 
@@ -23,13 +23,13 @@ async function initWallet(){
 
 Here we have simply attached a "click" listener before initiating code to interact with the Wallet.
 
-### Detecting one wallet and interacting with it.
+### Detecting Harmony Chrome Extension Wallet and interacting with it.
 
-When user loads a page, one wallet automatically inject a `onewallet` object into the `window` object of your browser. We use this to interact with the same.
+When user loads a page, Harmony Chrome Extension Wallet automatically inject a `onewallet` object into the `window` object of your browser. We use this to interact with the same.
 
 > In our example, following code is implemented in `src/userWallet.js`
 
-Object to interact with one wallet can be accessed sing the following.
+Object to interact with Harmony Chrome Extension Wallet can be accessed sing the following.
 
 ```text
  const isOneWallet = window.onewallet && window.onewallet.isOneWallet;
@@ -82,7 +82,7 @@ export default userStore
 
 ### Congratulations !!
 
-You can now successfully interact with the one wallet browser extension.
+You can now successfully interact with the Harmony Chrome Extension Wallet.
 
 For more examples checkout this [link](https://github.com/harmony-one/sdk/tree/master/packages/harmony-core).
 

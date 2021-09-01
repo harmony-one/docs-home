@@ -1,6 +1,6 @@
 # Find the last transaction
 
-### Introduction <a id="introduction"></a>
+## Introduction <a id="introduction"></a>
 
 This guide walks through the process of using [web3.js](https://web3js.readthedocs.io/) to get last block and get last transaction.
 
@@ -10,7 +10,7 @@ For this example, we will use Node.js and straightforward JavaScript code.
 This example assumes that you have configured Web3 as described in the previous section.
 {% endhint %}
 
-#### Get Block Number
+### Get Block Number
 
 ```javascript
 const lastBlockNumber = await web3.eth.getBlockNumber();
@@ -22,7 +22,7 @@ console.log('Last block hash: ', block.hash);
 console.log('Last block transactions: ', block.transactions);
 ```
 
-#### Get Last Transaction
+### Get Last Transaction
 
 ```javascript
 block = await web3.eth.getBlock(blockNumber);
