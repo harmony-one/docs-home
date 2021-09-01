@@ -156,3 +156,82 @@ _You can see an example of this call in the `viper_swap.js` file in the_ [_scrip
 
 _You can see an example of this call in the `bridge_one_to_bsc.js` file in the_ [_scripts folder_](https://github.com/harmony-one/crosschain-api/tree/main/scripts) _of this repo_
 
+## Local Endpoints ##
+
+### **`POST /local/swap`** 
+
+This enpoint will swap balances between Ethereum BUSD and Binance BUSD, the body for this request should look like this:
+
+```
+{
+    "amount" : amount,
+    "wallet" : wallet,
+    "oneAddress" : oneAddress,
+    "ethAddress" : ethAddress
+}
+```
+
+- `amount`: this is a string with amount in decimals (e.g. "10.50") that you want to swap
+- `wallet`: this is the private key of the wallets with the funds, please use an `.env` or equivalent to store this key, never put it in your code
+- `oneAddress`: the address of the wallet owned by the private key in the Harmony wallet format i.e. `oneaxxxxxxxx`
+- `ethAddress`: the address of the wallet owned by the private key in the Ethereum wallet format i.e. `Oxaxxxxxxxx`
+
+_You can see an example of this call in the `swap.js` file in the scripts folder of this repo_
+
+### **`POST /local/swap/bridge-in`** 
+
+This enpoint will bridges `BUSD` in ethereum to Harmony's `BUSD`, it is the first step of the step-by-step swap, the body for this request should look like this:
+
+```
+{
+    "amount" : amount,
+    "wallet" : wallet,
+    "oneAddress" : oneAddress,
+    "ethAddress" : ethAddress
+}
+```
+
+- `amount`: this is a string with amount in decimals (e.g. "10.50") that you want to swap
+- `wallet`: this is the private key of the wallets with the funds, please use an `.env` or equivalent to store this key, never put it in your code
+- `oneAddress`: the address of the wallet owned by the private key in the Harmony wallet format i.e. `oneaxxxxxxxx`
+- `ethAddress`: the address of the wallet owned by the private key in the Ethereum wallet format i.e. `Oxaxxxxxxxx`
+
+_You can see an example of this call in the `bridge-lock.js` file in the (testing folder)[https://github.com/harmony-one/crosschain-api/tree/dev/testing] of this repo_
+
+### **`POST /local/swap/viper`**
+
+This enpoint will swap Harmony's `BUSD` to `bscBUSD` (Both are bridged assets in the Harmony network), it is the second step of the step-by-step swap, the body for this request should look like this:
+
+```
+{
+    "amount" : amount,
+    "wallet" : wallet,
+    "oneAddress" : oneAddress,
+}
+```
+
+- `amount`: this is a string with amount in decimals (e.g. "10.50") that you want to swap
+- `wallet`: this is the private key of the wallets with the funds, please use an `.env` or equivalent to store this key, never put it in your code
+- `oneAddress`: the address of the wallet owned by the private key in the Harmony wallet format i.e. `oneaxxxxxxxx`
+
+_You can see an example of this call in the `viper.js` file in the (testing folder)[https://github.com/harmony-one/crosschain-api/tree/dev/testing] of this repo_
+
+### **`POST /local/swap/bridge-out`** 
+
+This enpoint will bridges `bscBUSD` into Binance's `BUSD`, it is the third step of the step-by-step swap, the body for this request should look like this:
+
+```
+{
+    "amount" : amount,
+    "wallet" : wallet,
+    "oneAddress" : oneAddress,
+    "ethAddress" : ethAddress
+}
+```
+
+- `amount`: this is a string with amount in decimals (e.g. "10.50") that you want to swap
+- `wallet`: this is the private key of the wallets with the funds, please use an `.env` or equivalent to store this key, never put it in your code
+- `oneAddress`: the address of the wallet owned by the private key in the Harmony wallet format i.e. `oneaxxxxxxxx`
+- `ethAddress`: the address of the wallet owned by the private key in the Ethereum wallet format i.e. `Oxaxxxxxxxx`
+
+_You can see an example of this call in the `bridge-burn.js` file in the (testing folder)[https://github.com/harmony-one/crosschain-api/tree/dev/testing] of this repo_
