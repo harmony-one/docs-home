@@ -1,6 +1,6 @@
 # Using the Scripts the API
 
-* These scripts will build the transactions required to call Harmony's production API, for more instructions on how to use the API check the [webserver repo](https://dicdoc.gitbook.io/doc/smart-chain-api/cross-chain-api)
+* These scripts will build the transactions required to call Harmony's production API, for more instructions on how to use the API check the [webserver repo](https://docs.harmony.one/home/developers/tutorials/using-crosschain-api/webserver)
 
 * Make sure to rename the `env_file` to `.env` and add your private key. 
 
