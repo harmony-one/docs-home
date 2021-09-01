@@ -208,6 +208,7 @@
   * [Using Band Oracle](developers/tutorials/using-band-oracle.md)
   * [Using Horizon Bridge SDK](developers/tutorials/using-horizon-bridge-sdk.md)
   * [Using Crosschain API](developers/tutorials/using-crosschain-api/README.md)
+    * [Scripts](developers/tutorials/using-crosschain-api/scripts.md)
     * [Testing](developers/tutorials/using-crosschain-api/testing.md)
     * [Webserver](developers/tutorials/using-crosschain-api/webserver.md)
   * [Using Web3.py & Pyhmy](developers/tutorials/using-web3.py-and-pyhmy.md)
