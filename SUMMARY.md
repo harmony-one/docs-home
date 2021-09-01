@@ -167,7 +167,7 @@
     * [Introduction](developers/wallets/onewallet/introduction.md)
     * [Project Setup](developers/wallets/onewallet/project-setup-1.md)
     * [Interacting with Harmony Chrome Extension Wallet](developers/wallets/onewallet/interacting-with-one-wallet.md)
-    * [Using One Wallet with Smart Contracts](developers/wallets/onewallet/using-one-wallet-with-smart-contracts.md)
+    * [Using Harmony Chrome Extension Wallet with Smart Contracts](developers/wallets/onewallet/using-one-wallet-with-smart-contracts.md)
     * [Security Audit](developers/wallets/onewallet/security-audit.md)
   * [Math Wallet](developers/wallets/mathwallet.md)
 * [Tools](developers/tools/README.md)

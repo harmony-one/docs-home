@@ -1,4 +1,4 @@
-# Using One Wallet with Smart Contracts
+# Using Harmony Chrome Extension Wallet with Smart Contracts
 
 Add the following lines to your `src/init.js`
 
@@ -99,5 +99,5 @@ Call "payable" methods like this.
     const increment = await contract.methods.addMoney().send(options)
 ```
 
-**Congratulations** you have now connected your one wallet, and completed writing code for it to interact with the harmony blockchain.
+**Congratulations** you have now connected your Harmony Chrome Extension Wallet, and completed writing code for it to interact with the Harmony blockchain.
 

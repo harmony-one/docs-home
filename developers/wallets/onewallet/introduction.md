@@ -1,7 +1,7 @@
 ---
 description: >-
-  This section contains instruction to integrate and use One Wallet in your
-  Application.
+  This section contains instruction to integrate and use Harmony Chrome
+  Extension Wallet in your Application.
 ---
 
 # Introduction
