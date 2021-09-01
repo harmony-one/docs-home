@@ -24,6 +24,8 @@ Right now the following endpoints are enabled, but we will keep adding more regu
 
 This enpoint will swap balances between Ethereum BUSD and Binance BUSD, the body for this request should look like this:
 
+{% tabs %}
+{% tab title="Request" %}
 ```text
 {
     "amount" : amount,
@@ -38,6 +40,14 @@ This enpoint will swap balances between Ethereum BUSD and Binance BUSD, the body
     "fromTokenContract" : fromTokenContract
 }
 ```
+{% endtab %}
+
+{% tab title="Response" %}
+```
+
+```
+{% endtab %}
+{% endtabs %}
 
 * `amount`: this is a string with the amount in decimals \(e.g. "10.50"\) that you want to swap
 * `oneAddress`: this is a string with the address of the wallet owned by the private key in the Harmony wallet format i.e. `oneaxxxxxxxx`
@@ -54,6 +64,8 @@ This enpoint will swap balances between Ethereum BUSD and Binance BUSD, the body
 
 This enpoint will bridges `BUSD` in ethereum to Harmony's `BUSD`, it is the first step of the step-by-step swap, the body for this request should look like this:
 
+{% tabs %}
+{% tab title="Request" %}
 ```text
 {
     "amount" : amount,
@@ -63,6 +75,14 @@ This enpoint will bridges `BUSD` in ethereum to Harmony's `BUSD`, it is the firs
     "lockTxnHash" : lockTxnHash
 }
 ```
+{% endtab %}
+
+{% tab title="Response" %}
+```
+
+```
+{% endtab %}
+{% endtabs %}
 
 * `amount`: this is a string with amount in decimals \(e.g. "10.50"\) that you want to swap
 * `oneAddress`: the address of the wallet owned by the private key in the Harmony wallet format i.e. `oneaxxxxxxxx`
@@ -76,6 +96,8 @@ _You can see an example of this call in the `bridge_eth_to_one.js` file in the_ 
 
 This enpoint will swap Harmony's `BUSD` to `bscBUSD` \(Both are bridged assets in the Harmony network\), it is the second step of the step-by-step swap, the body for this request should look like this:
 
+{% tabs %}
+{% tab title="Request" %}
 ```text
 {
     "amount" : amount,
@@ -85,6 +107,14 @@ This enpoint will swap Harmony's `BUSD` to `bscBUSD` \(Both are bridged assets i
     "fromTokenContract" : fromTokenContract
 }
 ```
+{% endtab %}
+
+{% tab title="Response" %}
+```
+
+```
+{% endtab %}
+{% endtabs %}
 
 * `amount`: this is a string with amount in decimals \(e.g. "10.50"\) that you want to swap
 * `wallet`: this is the private key of the wallets with the funds, please use an `.env` or equivalent to store this key, never put it in your code
@@ -96,6 +126,8 @@ _You can see an example of this call in the `viper_swap.js` file in the_ [_scrip
 
 ### **`POST /swap/bridge-out`**
 
+{% tabs %}
+{% tab title="Request" %}
 ```text
 {
     "amount" : amount,
@@ -106,6 +138,14 @@ _You can see an example of this call in the `viper_swap.js` file in the_ [_scrip
     "burnTxnHash" : burnTxnHash
 }
 ```
+{% endtab %}
+
+{% tab title="Response" %}
+```
+
+```
+{% endtab %}
+{% endtabs %}
 
 * `amount`: this is a string with amount in decimals \(e.g. "10.50"\) that you want to swap
 * `oneAddress`: the address of the wallet owned by the private key in the Harmony wallet format i.e. `oneaxxxxxxxx`
