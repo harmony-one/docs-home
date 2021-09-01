@@ -156,7 +156,7 @@ _You can see an example of this call in the `viper_swap.js` file in the_ [_scrip
 
 _You can see an example of this call in the `bridge_one_to_bsc.js` file in the_ [_scripts folder_](https://github.com/harmony-one/crosschain-api/tree/main/scripts) _of the repo_
 
-## Local Endpoints ##
+## Local Endpoints
 
 ### **`POST /local/swap`** 
 
