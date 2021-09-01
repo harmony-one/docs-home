@@ -176,7 +176,7 @@ This enpoint will swap balances between Ethereum BUSD and Binance BUSD, the body
 - `oneAddress`: the address of the wallet owned by the private key in the Harmony wallet format i.e. `oneaxxxxxxxx`
 - `ethAddress`: the address of the wallet owned by the private key in the Ethereum wallet format i.e. `Oxaxxxxxxxx`
 
-_You can see an example of this call in the `swap.js` file in the scripts folder of the repo_
+_You can see an example of this call in the `swap.js` file in the [testing folder](https://github.com/harmony-one/crosschain-api/tree/dev/testing) of the repo_
 
 ### **`POST /local/swap/bridge-in`** 
 
