@@ -2,9 +2,9 @@
 
 **\#ONEDeveloperDAO**
 
-**Engage: support and grow the population of Harmony Developers.**
+**- Support: resolve daily issues on forums & channels, drive weekly meeting agenda**
 
-**Monitor: monitor for technical issues. Offer solutions where needed. Escalate to the core team when necessary.**
+**- Bounties: prioritize bugs & features w/ task management & contributor retention**
 
-**Educate: review documentation, create bounties, and hold developer-focused meetings.**
+**- Advocacy: hold workshops & events, content marketing with talks & blogs**
 
