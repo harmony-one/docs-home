@@ -111,7 +111,7 @@ sudo lsusb
 5.8.  Create Quirks driver  
   
 In point 5.4. the SSD ID was read out via `sudo lsusb xxxx:xxxx`  
-Now connect the hard disk to a computer and add in `/boot/firmware/cmdline.txt` `“usb-storage.quirks=xxxx:xxxx:u”` in the first place, without the quotation marks and save. For example for the Samung T7, `usb-storage.quirks=04e8 4001:u`
+Now connect the hard disk to a computer and add in `/boot/firmware/cmdline.txt` `“usb-storage.quirks=xxxx:xxxx:u”` in the first place, without the quotation marks and save. For example for the Samung T7, `usb-storage.quirks=04e8:4001:u`
 
 5.9.  Remove the MicroSD and boot from SSD
 
@@ -190,7 +190,9 @@ Add the following in the config file under \[all\]
 ```text
 over_voltage=5
 arm_freq=1800
+force_turbo=1
 gpu_mem=16
+gpu_freq=300
 dtoverlay=disable-bt
 dtoverlay=disable-wifi
 ```
@@ -202,7 +204,7 @@ Save via ctrl + x and confirm.
 9.1.  Change host name
 
 {% hint style="info" %}
-Code is adapted from an Instruction, check [here](https://www.elektronik-kompendium.de/sites/raspberry-pi/2007031.htm) if you need further information’s\).
+Code is adapted from an Instruction, check [here](https://phoenixnap.com/kb/ubuntu-20-04-change-hostname) if you need further information’s\).
 {% endhint %}
 
 ```text
@@ -212,7 +214,7 @@ hostnamectl set-hostname NEWHOSTNAME
 9.2.  Create user
 
 {% hint style="info" %}
-Code is adapted from an Instruction, check [here](https://www.elektronik-kompendium.de/sites/raspberry-pi/2007031.htm) if you need further information’s\).
+Code is adapted from an Instruction, check [here](https://brightwhiz.com/add-users-ubuntu-20-04/) if you need further information’s\).
 {% endhint %}
 
 ```text
@@ -264,7 +266,7 @@ sudo su -NEWUSER
 ## 10. Firewall Setup
 
 {% hint style="info" %}
-Code is adapted from an Instruction, check [here](https://www.elektronik-kompendium.de/sites/raspberry-pi/2007031.htm) if you need further information’s\).
+Code is adapted from an Instruction, check [here](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-ufw-on-ubuntu-20-04) if you need further information’s\).
 {% endhint %}
 
 10.1.  Install & activate the firewall
