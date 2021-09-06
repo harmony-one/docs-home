@@ -80,11 +80,11 @@ Rewards are claimed via a transaction, therefore you must have enough ONE tokens
 
 **16. What is the minimum stake amount for delegators?**
 
-1000 ONEs.
+100 ONEs.
 
 **17. How long does an epoch last?**
 
-Roughly 23h with a 5s block time.
+Roughly 18h with a 2s block time.
 
 **18.** **How do I check Mainnet network status?**
 
