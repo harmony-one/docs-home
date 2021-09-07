@@ -22,6 +22,10 @@ curl https://rclone.org/install.sh | sudo bash
 Make sure your rclone version is above **v1.53.2** . you can check version by `rclone version`
 {% endhint %}
 
+{% hint style="danger" %}
+There is a daily snapshot of the rclone DB happening at 1:42:30 AM UTC for 3h. It is not advisable to perform a backup during those time.
+{% endhint %}
+
 ### 2. Configuring Rclone
 
 To check the location of the `rclone.conf`file run:
@@ -156,7 +160,7 @@ After the sync, you may use `du -h harmony_db_*` command to check the size of th
 ## Non-Validating/Explorer Nodes
 
 {% hint style="info" %}
-As of 23th June 2021, the size for the shard 0 on mainnet is ~7.8Tb.
+As of 7th September 2021, the size for the shard 0 on mainnet is ~13Tb. Note that the bucket is currently not fully synced.
 {% endhint %}
 
 To sync your node in archival mode, just change the command below for the shard you want. Depending on the size, the syncing of the blockchain will take quite some time.
