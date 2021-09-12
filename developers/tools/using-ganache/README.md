@@ -27,7 +27,4 @@ const web3 = new Web3("http://127.0.0.1:8545");
 web3.eth.getBlockNumber().then(console.log)
 ```
 
-{% hint style="info" %}
-Currently there is a known [issue](https://github.com/harmony-one/sdk/issues/95) that is preventing from complete integration of ganache to harmony networks. This bug should be fixed soon. 
-{% endhint %}
 
