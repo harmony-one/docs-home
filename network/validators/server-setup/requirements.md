@@ -10,8 +10,11 @@ One configuration could be positioning one node in North America and another one
 
 ### For Cloud
 
-**CPU**: for shard 0 nodes, 4 dedicated cores is recommended such like [c5d.xlarge](https://aws.amazon.com/blogs/aws/ec2-instance-update-c5-instances-with-local-nvme-storage-c5d/) instance type on AWS. If you use VPS with shared CPU, at least 8 cores with 50%+ CPU credit; for shard 1,2,3, the requirement can be halved right now since there are not that many transactions. **RAM Memory**: 8GB  
-**Storage**: 98GB for Shard 0 \(as of 03/07/2021\). Extra 15GB for Shard 1, 2 and 3 \(July, 2021\) \(because when you setup a node on Shard 1, 2 or 3, you also need to download the databse of Shard 0\) fast local disk is recommend, network storage may hit I/O bottleneck.  
+**CPU**: for `shard 0` nodes, 4 dedicated cores is recommended such like [c5d.xlarge](https://aws.amazon.com/blogs/aws/ec2-instance-update-c5-instances-with-local-nvme-storage-c5d/) instance type on AWS.   
+If you use a VPS with shared CPU, at least 8 cores with 50%+ CPU credit.  
+For `shard 1,2,3` the requirement can be halved  
+**RAM Memory**: 8GB  
+**Storage**: 185GB for Shard 0 \(as of 14/09/2021\). Extra 15GB for Shard 1, 2 and 3 \(because when you setup a node on Shard 1, 2 or 3, you also need to download the shard 0 database. Fast local disk is recommend, network storage may hit I/O bottleneck.  
 **OS**: Latest Ubuntu Linux \(LTS Version\)  
 **Network**: 100M+ bandwidth, 5~6 TB data usage per month \(preferably more if possible\)
 
@@ -39,8 +42,8 @@ Check [Raspberry Pi Guide](raspberry-pi-guide.md) for instructions.
 
 ## Explorer Node: Recommendation
 
-**Setup**: AWS i3en.6xlarge or equivalent  
-**Storage**: 15000 GiB \(2 \* 7500 GiB NVMe SSD\) is recommended for Archival Explorer Nodes on Shard 0  
+**Setup**: AWS i3en.12xlarge or equivalent  
+**Storage**: 15000 GiB \(4x NVMe SSD\) is recommended for Archival Explorer Nodes on Shard 0  
 **OS**: Latest Ubuntu Linux \(LTS Version\)  
 **Network**: 100M+ bandwidth
 
