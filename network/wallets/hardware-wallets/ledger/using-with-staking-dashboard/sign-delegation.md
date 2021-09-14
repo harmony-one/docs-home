@@ -8,7 +8,7 @@ Click on the "Delegate" button to delegate to this validator.
 
 ![](../../../../../.gitbook/assets/image%20%289%29.png)
 
-Enter the desired delegation amount or scroll the percentage slider in the pop-up Delegate window. Delegation must be at least 1000 ONE. Click on "Next" and confirm the signature request.
+Enter the desired delegation amount or scroll the percentage slider in the pop-up Delegate window. Delegation must be at least 100 ONE. Click on "Next" and confirm the signature request.
 
 ![](../../../../../.gitbook/assets/image%20%2833%29.png)
 
