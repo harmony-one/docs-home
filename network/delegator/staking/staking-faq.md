@@ -77,7 +77,7 @@ Please ensure you have enough to cover gas fee. Gas fee is deducted from your Av
 
 ## **16. What is the minimum stake amount for delegators?**
 
-1000 ONEs.
+100 ONEs.
 
 ## **17. How long does an epoch last?**
 
