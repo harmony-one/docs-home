@@ -26,9 +26,9 @@ While rewards are not fixed, and depend on the performance of a validator, the t
 **3. What do the Total Stake values on the Staking Dashboard mean?**
 
 When you land on [Harmony’s Staking dashboard](http://staking.harmony.one/), you see the list of Validators.  
-There is a ‘_Total Stake_’ value on the top center. This value represents the total stake contributed to the network by ALL the validators, irrespective of whether they are currently elected in the top 640 available slots and signing blocks. This value includes stake from ALL validators created on the network.
+There is a ‘_Total Stake_’ value on the top center. This value represents the total stake contributed to the network by ALL the validators, irrespective of whether they are currently elected in the top 800 available slots and signing blocks. This value includes stake from ALL validators created on the network.
 
-In the _Analytics section_ \([staking.harmony.one/analytics](https://staking.harmony.one/analytics)\), you see two tabs. The tab for ‘_Last Epoch_’ shows the results of the last election for the top 640 slots in the network. The total stake and effective median value in this section determine the validator list and block rewards for the current epoch. The tab for ‘_Next Epoch_’ shows the real-time snapshot values of total stake and effective median, which means that these values will be used for election right before the next epoch starts. You may notice that the total stake value in the _‘Last Election_’ and ‘_Next election_’ may be different. This is because if a validator who got elected in the last election is not signing enough blocks, then they may not qualify for the upcoming election before the next epoch. As a result, their stake gets discounted in the ‘_Next Election_’ stake calculation.
+In the _Analytics section_ \([staking.harmony.one/analytics](https://staking.harmony.one/analytics)\), you see two tabs. The tab for ‘_Last Epoch_’ shows the results of the last election for the top 800 slots in the network. The total stake and effective median value in this section determine the validator list and block rewards for the current epoch. The tab for ‘_Next Epoch_’ shows the real-time snapshot values of total stake and effective median, which means that these values will be used for election right before the next epoch starts. You may notice that the total stake value in the _‘Last Election_’ and ‘_Next election_’ may be different. This is because if a validator who got elected in the last election is not signing enough blocks, then they may not qualify for the upcoming election before the next epoch. As a result, their stake gets discounted in the ‘_Next Election_’ stake calculation.
 
 **4. Why is the ‘**_**Expected Return’**_ **value 0 for validators?**
 
@@ -80,11 +80,12 @@ Rewards are claimed via a transaction, therefore you must have enough ONE tokens
 
 **16. What is the minimum stake amount for delegators?**
 
-1000 ONEs.
+100 ONEs.
 
 **17. How long does an epoch last?**
 
-Roughly 23h with a 5s block time.
+It depends on the blocktime.
+Currently 1 epoch has 32768 blocks and with a 2s blocktime this is around **18.2 hours.**
 
 **18.** **How do I check Mainnet network status?**
 
