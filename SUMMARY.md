@@ -176,7 +176,7 @@
     * [Horizon](developers/tools/bridge/horizon/README.md)
       * [JS SDK](developers/tools/bridge/horizon/horizon-sdk.md)
       * [API](developers/tools/bridge/horizon/bridge-api.md)
-    * [OneBTC](developers/tools/bridge/onebtc.md)
+    * [ONEBTC](developers/tools/bridge/onebtc.md)
   * [The Graph](developers/tools/the-graph.md)
   * [Remix IDE](developers/tools/remix-ide.md)
   * [Ganache](developers/tools/using-ganache/README.md)
