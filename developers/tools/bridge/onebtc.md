@@ -10,7 +10,7 @@ description: >-
 The _BTC Bridge_ connects the Harmony ecosystem with Bitcoin. It allows the creation of _ONEBTC_, a fungible token that represents Bitcoin in the Harmony ecosystem. ONEBTC is backed by Bitcoin 1:1 and allows redeeming of the equivalent amount of Bitcoins by relying on a collateralized third-party.  
 
 
-![](../../../.gitbook/assets/onebtc.svg)
+![](../../../.gitbook/assets/onebtc.png)
 
 {% embed url="https://onebtc-dev.web.app/" %}
 
