@@ -44,5 +44,3 @@ Once transaction is signed, Delegate window will pop-up on the staking dashboard
 
 ![](../../../../../.gitbook/assets/image%20%2814%29.png)
 
-
-

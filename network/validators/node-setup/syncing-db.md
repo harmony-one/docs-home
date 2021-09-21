@@ -74,10 +74,12 @@ rclone -P -L sync release:pub.harmony.one/testnet.min/harmony_db_<ShardID> harmo
 {% endtabs %}
 
 If you encounter the following error:
-```
+
+```text
 NOTICE: Config file "/root/.config/rclone/rclone.conf" not found - using defaults
 ```
-Add the option ```--config=/home/harmony/.config/rclone/rclone.conf``` to the command line.
+
+Add the option `--config=/home/harmony/.config/rclone/rclone.conf` to the command line.
 
 {% hint style="info" %}
 Nodes in shard 0 just need to sync `harmony_db_0`

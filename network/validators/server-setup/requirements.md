@@ -10,7 +10,7 @@ One configuration could be positioning one node in North America and another one
 
 ### For Cloud
 
-**CPU**: for `shard 0` nodes, 4 dedicated cores is recommended such like [c5d.xlarge](https://aws.amazon.com/blogs/aws/ec2-instance-update-c5-instances-with-local-nvme-storage-c5d/) instance type on AWS.   
+**CPU**: for `shard 0` nodes, 4 dedicated cores is recommended such like [c5d.xlarge](https://aws.amazon.com/blogs/aws/ec2-instance-update-c5-instances-with-local-nvme-storage-c5d/) instance type on AWS.  
 If you use a VPS with shared CPU, at least 8 cores with 50%+ CPU credit.  
 For `shard 1,2,3` the requirement can be halved  
 **RAM Memory**: 8GB  

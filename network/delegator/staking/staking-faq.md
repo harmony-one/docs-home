@@ -16,7 +16,7 @@ _**For Validators:**_ Validators are invited to follow this [Step by Step guide]
 
 ## **2. How to Stake Harmony \($ONE\)? How much can I expect to earn?**
 
-While rewards are not fixed, and depend on the performance of a validator, the total staked tokens on the network, and the efficiency of the validator to follow Harmony’s Effective Proof of Stake. 
+While rewards are not fixed, and depend on the performance of a validator, the total staked tokens on the network, and the efficiency of the validator to follow Harmony’s Effective Proof of Stake.
 
 You can check the median Expected Return \(from the last 30 epochs\) on [Harmony’s Staking dashboard](http://staking.harmony.one/). When you click on a validator on the staking dashboard you can also see the latest Expected return \(from the last epoch\). The percentage shown is the APY \(annual percentage yield\).
 

@@ -34,7 +34,7 @@ The value returned by the CLI is in Atto, which is equivalent to Gwei in Ethereu
 
 ### 1.2 Verify the amount delegated to the Validator
 
-Visit [https://staking.harmony.one/validators/](https://staking.harmony.one/validators/)&lt;youroneaccount&gt; 
+Visit [https://staking.harmony.one/validators/](https://staking.harmony.one/validators/)&lt;youroneaccount&gt;
 
 Example : [https://staking.harmony.one/validators/one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd](https://staking.harmony.one/validators/one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd)
 
@@ -117,7 +117,7 @@ Output:
     },
 ```
 
-For your validator to stay elected, you wanna make sure the `current-epoch-signing-percentage` is above 66% \(0.66\). 
+For your validator to stay elected, you wanna make sure the `current-epoch-signing-percentage` is above 66% \(0.66\).
 
 To fix the above, we have to make sure the node is working correctly and below are few pointers
 
@@ -132,7 +132,7 @@ Check your node block height:
 ```
 
 {% hint style="danger" %}
-If the above doesn’t work and you have an error message similar to this: _commit: v304-0e26945, error: dial tcp4 127.0.0.1:9500: connect: connection refused_   
+If the above doesn’t work and you have an error message similar to this: _commit: v304-0e26945, error: dial tcp4 127.0.0.1:9500: connect: connection refused_  
 It means the harmony node binary is not running. Please follow this documentation on [how to run the node](../node-setup/).
 {% endhint %}
 
@@ -141,7 +141,7 @@ Check the network block height:
 {% tabs %}
 {% tab title="Mainnet" %}
 ```bash
-./hmy --node="https://api.s0.t.hmny.io" blockchain latest-headers | grep number 
+./hmy --node="https://api.s0.t.hmny.io" blockchain latest-headers | grep number
 ```
 {% endtab %}
 

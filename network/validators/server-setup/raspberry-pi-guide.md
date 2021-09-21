@@ -14,35 +14,35 @@ Plug in the modem, the swith and the Raspberry into the UPS and access the Modem
 
 ## 3. Prepare the Raspberry
 
-3.1.  Install Heatsinker on Raspberry
+3.1. Install Heatsinker on Raspberry
 
-3.2.  Install Fan
+3.2. Install Fan
 
-3.3.  Connect Mini HDMI -&gt; HDMI cable \(if you like, otherwise you can use SSH\)
+3.3. Connect Mini HDMI -&gt; HDMI cable \(if you like, otherwise you can use SSH\)
 
-3.4.  Connect the keyboard \(if you like, otherwise you can use SSH\)
+3.4. Connect the keyboard \(if you like, otherwise you can use SSH\)
 
-3.5.  Connect Ethernet
+3.5. Connect Ethernet
 
-3.6.  Install Ubuntu Server 20.04 LTS on MircoSD and on SSD. Click [here](https://ubuntu.com/tutorials/how-to-install-ubuntu-on-your-raspberry-pi#1-overview) for instructions
+3.6. Install Ubuntu Server 20.04 LTS on MircoSD and on SSD. Click [here](https://ubuntu.com/tutorials/how-to-install-ubuntu-on-your-raspberry-pi#1-overview) for instructions
 
-3.7.  Start the UPS Power for the Raspberry
+3.7. Start the UPS Power for the Raspberry
 
 ## 4. Update Raspberry Pi
 
-4.1.  Access via Powershell, Terminal or directly via Keyboard and Monitor
+4.1. Access via Powershell, Terminal or directly via Keyboard and Monitor
 
 ```text
 ssh username@ip address
 ```
 
-4.2.  Login: ubuntu / Password: ubuntu
+4.2. Login: ubuntu / Password: ubuntu
 
 {% hint style="warning" %}
 For security reasons Linux requires to change the default ubuntu password.
 {% endhint %}
 
-4.3.  Update & Upgrade
+4.3. Update & Upgrade
 
 ```text
 sudo apt update && sudo apt upgrade
@@ -52,7 +52,7 @@ sudo apt update && sudo apt upgrade
 During update we can set up a static IP on the Modem and set up Port forwarding.
 {% endhint %}
 
-4.4.  Restart
+4.4. Restart
 
 ```text
 sudo reboot
@@ -64,31 +64,31 @@ sudo reboot
 Code is adapted from an Instruction, check [here](https://jamesachambers.com/raspberry-pi-4-ubuntu-20-04-usb-mass-storage-boot-guide/) if you need further information’s.
 {% endhint %}
 
-5.1.  Download Eeprom
+5.1. Download Eeprom
 
 ```text
 sudo apt install rpi-eeprom
 ```
 
-5.2.  Restart
+5.2. Restart
 
 ```text
 sudo reboot
 ```
 
-5.3.  Connect the hard disk and check
+5.3. Connect the hard disk and check
 
 ```text
 lsblk
 ```
 
-5.4.  Read out the SSD ID via and write it down
+5.4. Read out the SSD ID via and write it down
 
 ```text
 sudo lsusb
 ```
 
-5.5.  Mount the hard disk
+5.5. Mount the hard disk
 
 ```text
  sudo mkdir /mnt/boot
@@ -97,9 +97,9 @@ sudo lsusb
  sudo mount /dev/sda2 /mnt/writable
 ```
 
-5.6.  Check again with point 5.3 if mount has worked
+5.6. Check again with point 5.3 if mount has worked
 
-5.7.  Automatically boot from SSD using this script
+5.7. Automatically boot from SSD using this script
 
 ```bash
  sudo curl https://raw.githubusercontent.com/TheRemote/Ubuntu-Server-raspi4-unofficial/master/BootFix.sh | sudo bash
@@ -108,12 +108,12 @@ sudo lsusb
  sudo shutdown now
 ```
 
-5.8.  Create Quirks driver  
-  
+5.8. Create Quirks driver
+
 In point 5.4. the SSD ID was read out via `sudo lsusb xxxx:xxxx`  
 Now connect the hard disk to a computer and add in `/boot/firmware/cmdline.txt` `“usb-storage.quirks=xxxx:xxxx:u”` in the first place, without the quotation marks and save. For example for the Samung T7, `usb-storage.quirks=04e8:4001:u`
 
-5.9.  Remove the MicroSD and boot from SSD
+5.9. Remove the MicroSD and boot from SSD
 
 Now it should start from the SSD, let it around 20 Minutes so settle down everything, special if you have a bigger SSD.
 
@@ -123,7 +123,7 @@ In case it searches still for MicroSD, write with the Pi Imager «Misc utility i
 
 ## 6. Set up the Raspberry again
 
-By starting from the SSD, the password must be changed again. Upon logging in for the first time if the Pi is connected to the internet Ubuntu will immediately/soon start a lengthy update process via snapd and apt. 
+By starting from the SSD, the password must be changed again. Upon logging in for the first time if the Pi is connected to the internet Ubuntu will immediately/soon start a lengthy update process via snapd and apt.
 
 {% hint style="warning" %}
 Make sure you give the system enough time \(20 Minutes at least\) to finish this process before doing going forward.
@@ -135,43 +135,43 @@ Make sure you give the system enough time \(20 Minutes at least\) to finish this
 Code is adapted from an Instruction, check [here](https://www.elektronik-kompendium.de/sites/raspberry-pi/2007031.htm) if you need further information’s\).
 {% endhint %}
 
-7.1.  Update by command
+7.1. Update by command
 
 ```bash
 sudo apt update && sudo apt upgrade
 ```
 
-7.2.  Restart by command
+7.2. Restart by command
 
 ```text
 sudo reboot
 ```
 
-7.3.  Change the keyboard to your Language \(if wished\)
+7.3. Change the keyboard to your Language \(if wished\)
 
 ```bash
 sudo dpkg-reconfigure keyboard-configuration
 ```
 
-7.4.  Restart by command
+7.4. Restart by command
 
 ```text
 sudo reboot
 ```
 
-7.5.  Set the time zone
+7.5. Set the time zone
 
 ```text
 sudo dpkg-reconfigure tzdata
 ```
 
-7.6.  Restart by command
+7.6. Restart by command
 
 ```text
 sudo reboot
 ```
 
-7.7.  Speed testing of SSD via
+7.7. Speed testing of SSD via
 
 ```text
 sudo hdparm -tT /dev/sda && sudo hdparm -tT --direct /dev/sda
@@ -201,7 +201,7 @@ Save via ctrl + x and confirm.
 
 ## 9. Final Establishment
 
-9.1.  Change host name
+9.1. Change host name
 
 {% hint style="info" %}
 Code is adapted from an Instruction, check [here](https://phoenixnap.com/kb/ubuntu-20-04-change-hostname) if you need further information’s\).
@@ -211,7 +211,7 @@ Code is adapted from an Instruction, check [here](https://phoenixnap.com/kb/ubun
 hostnamectl set-hostname NEWHOSTNAME
 ```
 
-9.2.  Create user
+9.2. Create user
 
 {% hint style="info" %}
 Code is adapted from an Instruction, check [here](https://brightwhiz.com/add-users-ubuntu-20-04/) if you need further information’s\).
@@ -224,20 +224,20 @@ Code is adapted from an Instruction, check [here](https://brightwhiz.com/add-use
 
 Enter your new password and confirm again.
 
-9.3.  Give sudo permission
+9.3. Give sudo permission
 
 ```text
 sudo usermod -aG sudo NEWUSER
 ```
 
-9.4.  Check and even extend authorization
+9.4. Check and even extend authorization
 
 ```text
  groups NEWUSER && groups ubuntu
  sudo usermod -G ubuntu, adm, dialout, cdrom, floppy, sudo, audio, dip, video, plugdev, netdev, lxd, root NEWUSER
 ```
 
-9.5.  Add the entry for the new user in Visudo
+9.5. Add the entry for the new user in Visudo
 
 ```text
 visudo
@@ -250,14 +250,14 @@ NEWUSER ALL = (ALL: ALL) ALL
 
 Save via ctrl + x and confirm.
 
-9.6.  Terminate old processes and block users
+9.6. Terminate old processes and block users
 
 ```text
  sudo pkill -u ubuntu
  sudo usermod -L ubuntu
 ```
 
-9.7.  Change to new User
+9.7. Change to new User
 
 ```text
 sudo su -NEWUSER
@@ -269,14 +269,14 @@ sudo su -NEWUSER
 Code is adapted from an Instruction, check [here](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-ufw-on-ubuntu-20-04) if you need further information’s\).
 {% endhint %}
 
-10.1.  Install & activate the firewall
+10.1. Install & activate the firewall
 
 ```text
  sudo apt install ufw
  sudo ufw enable
 ```
 
-10.2.  Open the corresponding TCP ports for Harmony & local SSH from another PC
+10.2. Open the corresponding TCP ports for Harmony & local SSH from another PC
 
 ```text
 sudo ufw allow from LOCALIP to any port 22
@@ -285,7 +285,7 @@ sudo ufw allow 9000/tcp
 sudo ufw allow 9500/tcp
 ```
 
-10.3.  Check Firewall
+10.3. Check Firewall
 
 ```text
 sudo ufw status
@@ -294,11 +294,10 @@ sudo ufw status
 _Congratulation you set up your Raspberry Pi and it is ready for setting up as Node!_
 
 {% hint style="warning" %}
-Since [HMY CLI](../node-setup/hmy-cli-download.md) is not natively supported ARM systems yet, install it on a x86\_64 system to [setup the BLS Keys](../node-setup/generating-a-bls-key.md). After that, copy them to the same  `.hmy/blskeys` folder on Raspberry Pi.
+Since [HMY CLI](../node-setup/hmy-cli-download.md) is not natively supported ARM systems yet, install it on a x86\_64 system to [setup the BLS Keys](../node-setup/generating-a-bls-key.md). After that, copy them to the same `.hmy/blskeys` folder on Raspberry Pi.
 {% endhint %}
 
 ## 11. Continue Node Setup
 
-Continue node setup from [Rclone](../node-setup/syncing-db.md) onwards.  
-
+Continue node setup from [Rclone](../node-setup/syncing-db.md) onwards.
 

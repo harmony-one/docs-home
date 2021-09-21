@@ -84,8 +84,7 @@ Rewards are claimed via a transaction, therefore you must have enough ONE tokens
 
 **17. How long does an epoch last?**
 
-It depends on the blocktime.
-Currently 1 epoch has 32768 blocks and with a 2s blocktime this is around **18.2 hours.**
+It depends on the blocktime. Currently 1 epoch has 32768 blocks and with a 2s blocktime this is around **18.2 hours.**
 
 **18.** **How do I check Mainnet network status?**
 
