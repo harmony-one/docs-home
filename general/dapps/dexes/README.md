@@ -53,3 +53,10 @@ Balancer is an asset management platform that acts as an automated portfolio man
 
 Links: [community](https://seeswap.one/telegram), [docs](https://seeswap.gitbook.io/)
 
+## [SwapCat](https://swap.cat/)
+
+**SwapCat** is a decentralized **Multichain DEX** utilizing **Harmony ONE** and most other EVM-blockchains.
+
+**SwapCat** allows feeless fixed-price direct wallet-to-wallet trading of HRC20 assets.
+
+
