@@ -2,17 +2,17 @@
 description: This tutorial will demonstrate how to build a subgraph and deploy it locally
 ---
 
-# Building & Deploying Subgraph \(local node\)
+# Building & Deploying Subgraph (local node)
 
 ## Install the graph-cli
 
-[https://github.com/graphprotocol/graph-cli\#installation](https://github.com/graphprotocol/graph-cli#installation)
+[https://github.com/graphprotocol/graph-cli#installation](https://github.com/graphprotocol/graph-cli#installation)
 
 ## Build your own graph-indexer local node
 
-Copy paste the below docker-compose file and replace `services.graph-node.environment.ethereum` accordingly to the network:   
-`mainnet` : mainnet:no\_eip1898,archive,traces:https://a.api.s0.t.hmny.io  
-`testnet` : testnet:no\_eip1898,archive,traces:https://api.s0.pops.one 
+Copy paste the below docker-compose file and replace `services.graph-node.environment.ethereum` accordingly to the network: \
+`mainnet `: mainnet:no_eip1898,archive,traces:https://a.api.s0.t.hmny.io\
+`testnet `: testnet:no_eip1898,archive,traces:https://api.s0.pops.one 
 
 {% tabs %}
 {% tab title="mainnet" %}
@@ -160,9 +160,9 @@ Jul 29 05:33:35.252 INFO Syncing 1 blocks from Ethereum., code: BlockIngestionSt
 
 A few component are installed
 
-Management: [https://localhost:8020/](https://graph.t.hmny.io:8020/) where subgraph are being created/deployed/deleted
+Management: [https://localhost:8020/](https://graph.t.hmny.io:8020) where subgraph are being created/deployed/deleted
 
-Metrics / playground: [https://localhost:8030/](https://graph.t.hmny.io:8030/)
+Metrics / playground: [https://localhost:8030/](https://graph.t.hmny.io:8030)
 
 Vvisit your playground using the URL [http://127.0.0.1:8030/graphql/playground](http://207.244.235.235:8030/graphql/playground) and start playing around with graphQL API.
 
@@ -209,14 +209,14 @@ Right now of course, the result is empty
 
 lets use blocklytics/ethereum-blocks subgraph as example
 
-```text
+```
 git clone https://github.com/blocklytics/ethereum-blocks
 cd ethereum-blocks
 ```
 
 ### Edit package.json file and add these lines
 
-```text
+```
 "create-harmony": "graph create --node http://localhost:8020 harmony/blocks",
 "deploy-harmony": "graph deploy --node http://localhost:8020 --ipfs http://localhost:5001 harmony/blocks",
 ```
@@ -227,8 +227,8 @@ It is highly recommended to minimize the number of blocks to be indexed to avoid
 
 ### Update the manifest
 
-Update the manifest `subgraph.yaml` file `datasources[0]['network']` from `rinkeby` to `mainnet` or `testnet` accordingly  to how you edited the network in your `docker-compose.yaml`  
-if there is no need to index the entire blockchain, you can add an attribute `startBlock` to speed up the sync : `datasources[0]['source']['startBlock']`
+Update the manifest `subgraph.yaml` file `datasources[0]['network']` from `rinkeby` to `mainnet` or `testnet` accordingly  to how you edited the network in your `docker-compose.yaml`\
+if there is no need to index the entire blockchain, you can add an attribute `startBlock `to speed up the sync : `datasources[0]['source']['startBlock']`
 
 {% hint style="info" %}
 It is highly recommended to minimize the number of blocks to be indexed to avoid putting load on the RPCs and to speed up the usage of your subgraph/application
@@ -236,7 +236,7 @@ It is highly recommended to minimize the number of blocks to be indexed to avoid
 
 ### Create and deploy the subgraph
 
-```text
+```
 yarn codegen
 yarn build
 yarn create-harmony 
@@ -295,4 +295,3 @@ check your indexer log if the sync is stuck `docker logs indexer -f --since 1m`
 ### Getting help
 
 the Graph’s Discord server [https://discord.gg/vtvv7FP](https://discord.gg/vtvv7FP)
-

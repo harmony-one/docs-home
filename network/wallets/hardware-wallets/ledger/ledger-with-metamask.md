@@ -10,11 +10,11 @@ Metamask can be used along with ledger to perform transfers.
 
 Steps:   
 
-![1. Add Harmony network to metamask \(testnet or mainnet\)](../../../../.gitbook/assets/harmony-mainnet.png)
+![1. Add Harmony network to metamask (testnet or mainnet)](../../../../.gitbook/assets/harmony-mainnet.png)
 
 ![](../../../../.gitbook/assets/add-harmony-network.png)
 
-![2. Select &quot;Connect Hardware Wallet&quot;](../../../../.gitbook/assets/begin%20%281%29%20%281%29.png)
+![2. Select "Connect Hardware Wallet"](<../../../../.gitbook/assets/begin (1) (1).png>)
 
 ![3. Select the ledger account that you want to use](../../../../.gitbook/assets/select-account.png)
 
@@ -29,4 +29,3 @@ Steps:
 ![8. Review transaction in the ledger and sign](../../../../.gitbook/assets/review-tx.jpg)
 
 ![9. You can see the transfer success](../../../../.gitbook/assets/success.png)
-

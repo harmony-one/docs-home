@@ -1,12 +1,12 @@
 # Using Web3
 
-This guide walks you through the process of using the Solidity compiler and [web3.js](https://web3js.readthedocs.io/) to deploy and interact with a Solidity-based smart contract on Harmony. Given Harmony's Ethereum compatibility features, the web3.js library can be used directly with a Harmony node.
+This guide walks you through the process of using the Solidity compiler and [web3.js](https://web3js.readthedocs.io) to deploy and interact with a Solidity-based smart contract on Harmony. Given Harmony's Ethereum compatibility features, the web3.js library can be used directly with a Harmony node.
 
 Completed code can be found [here.](https://github.com/harmony-one/Smart-Contract-Demo/tree/master/Web3-deployment)
 
 ### Installation
 
-```text
+```
 npm i dotenv
 npm i solc
 npm i @truffle/hdwallet-provider web3
@@ -14,7 +14,7 @@ npm i @truffle/hdwallet-provider web3
 
 #### Create a file Counter.sol in root.
 
-```text
+```
 pragma solidity >=0.4.22;
 
 contract Counter {
@@ -42,11 +42,11 @@ contract Counter {
 }
 ```
 
-#### Create `compile.js`
+#### Create` compile.js`
 
-The only purpose of the _`compile.js`_ file, is to use the Solidity compiler to output the bytecode and interface of our contract.
+The only purpose of the _`compile.js `_file, is to use the Solidity compiler to output the bytecode and interface of our contract.
 
-```text
+```
 const path = require("path");
 const fs = require("fs");
 const solc = require("solc");
@@ -77,7 +77,7 @@ module.exports = contractFile;
 
 #### Create `Deploy.js`
 
-```text
+```
 require("dotenv").config();
 const Web3 = require("web3");
 const contractFile = require("./compile");
@@ -111,11 +111,10 @@ deploy();
 
 #### Finally 
 
-```text
+```
 node deploy.js
 ```
 
 ### Congratulations
 
 You just deployed your first smart contract on Harmony using web3.js.
-

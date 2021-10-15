@@ -2,7 +2,7 @@
 description: hmy_getValidatorInformation
 ---
 
-# hmy\_getValidatorInformation
+# hmy_getValidatorInformation
 
 Get staking validator information.
 
@@ -17,7 +17,7 @@ Get staking validator information.
   * `current-epoch-to-sign` - `Number` - current epoch
   * `percentage` - `Float` - percentage of blocks signed
 * `current-epoch-voting-power` - `Array of`
-  * `effective-stake` - `Float` - effective validator stake
+  * `effective-stake` - `Float `- effective validator stake
   * `shard-id` - `Number` - shard id
   * `voting-power-adjusted` - `Float` - voting power adjusted
   * `voting-power-raw` - `Float` - voting power
@@ -43,7 +43,7 @@ Get staking validator information.
   * `creation-height` - `Number` - big.Int block height when validator was created
   * `banned` - `Bool` - is validator banned
   * `Delegations:`
-    * array of validator delegations, check out delegations format in hmy\_getDelegationsBy...
+    * array of validator delegations, check out delegations format in hmy_getDelegationsBy...
 
 **Sample Curl Request**
 
@@ -120,4 +120,3 @@ curl -d '{
   }
 }
 ```
-

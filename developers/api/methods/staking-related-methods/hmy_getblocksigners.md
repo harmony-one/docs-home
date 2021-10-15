@@ -1,8 +1,8 @@
-# hmy\_getBlockSigners
+# hmy_getBlockSigners
 
 ## Description
 
-hmy\_getBlocksSigners returns list of block signers
+hmy_getBlocksSigners returns list of block signers
 
 ## API v1
 
@@ -81,4 +81,3 @@ curl -d '{
     ]
 }
 ```
-

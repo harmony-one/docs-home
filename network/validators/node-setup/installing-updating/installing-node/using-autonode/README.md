@@ -4,27 +4,42 @@ description: >-
   actions.
 ---
 
-# \(Deprecated\) Using AutoNode
+# (Deprecated) Using AutoNode
 
 
 
-{% page-ref page="install-and-run.md" %}
+{% content-ref url="install-and-run.md" %}
+[install-and-run.md](install-and-run.md)
+{% endcontent-ref %}
 
-{% page-ref page="update.md" %}
+{% content-ref url="update.md" %}
+[update.md](update.md)
+{% endcontent-ref %}
 
-{% page-ref page="monitor.md" %}
+{% content-ref url="monitor.md" %}
+[monitor.md](monitor.md)
+{% endcontent-ref %}
 
-{% page-ref page="bls-key-management.md" %}
+{% content-ref url="bls-key-management.md" %}
+[bls-key-management.md](bls-key-management.md)
+{% endcontent-ref %}
 
-{% page-ref page="collect-rewards.md" %}
+{% content-ref url="collect-rewards.md" %}
+[collect-rewards.md](collect-rewards.md)
+{% endcontent-ref %}
 
-{% page-ref page="maintenance.md" %}
+{% content-ref url="maintenance.md" %}
+[maintenance.md](maintenance.md)
+{% endcontent-ref %}
 
-{% page-ref page="troubleshoot.md" %}
+{% content-ref url="troubleshoot.md" %}
+[troubleshoot.md](troubleshoot.md)
+{% endcontent-ref %}
 
-{% page-ref page="extra.md" %}
+{% content-ref url="extra.md" %}
+[extra.md](extra.md)
+{% endcontent-ref %}
 
 ## Contribute!
 
 Want to add a feature to AutoNode? Feel free to contribute to the open-sourced repo [here](https://github.com/harmony-one/auto-node)!
-

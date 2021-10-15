@@ -2,7 +2,7 @@
 description: BlockNumber
 ---
 
-# hmy\_blockNumber
+# hmy_blockNumber
 
 Get number of the most recent block.
 
@@ -59,4 +59,3 @@ Get number of the most recent block.
     "result": 10
 }
 ```
-

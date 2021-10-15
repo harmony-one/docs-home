@@ -6,7 +6,7 @@ description: Reasons why your validator is not elected & how to get elected.
 
 ## How is the committee chosen?
 
-Harmony operates with Effective Proof of Stake \(EPoS\) to keep the network security from collecting in the hands of a few validators. You can find our full Medium article on EPoS [here](https://harmony.one/epos)!
+Harmony operates with Effective Proof of Stake (EPoS) to keep the network security from collecting in the hands of a few validators. You can find our full Medium article on EPoS [here](https://harmony.one/epos)!
 
 TL;DR Validators are elected based on their **effective** stake, instead of their absolute stake. The effective stake is calculated based on the median stake in the network. The top 800 BLS keys with the highest effective stake will be elected for the epoch.
 
@@ -34,7 +34,7 @@ The value returned by the CLI is in Atto, which is equivalent to Gwei in Ethereu
 
 ### 1.2 Verify the amount delegated to the Validator
 
-Visit [https://staking.harmony.one/validators/](https://staking.harmony.one/validators/)&lt;youroneaccount&gt;
+Visit [https://staking.harmony.one/validators/](https://staking.harmony.one/validators/)\<youroneaccount>
 
 Example : [https://staking.harmony.one/validators/one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd](https://staking.harmony.one/validators/one1u6c4wer2dkm767hmjeehnwu6tqqur62gx9vqsd)
 
@@ -117,7 +117,7 @@ Output:
     },
 ```
 
-For your validator to stay elected, you wanna make sure the `current-epoch-signing-percentage` is above 66% \(0.66\).
+For your validator to stay elected, you wanna make sure the `current-epoch-signing-percentage` is above 66% (0.66).
 
 To fix the above, we have to make sure the node is working correctly and below are few pointers
 
@@ -132,7 +132,7 @@ Check your node block height:
 ```
 
 {% hint style="danger" %}
-If the above doesn’t work and you have an error message similar to this: _commit: v304-0e26945, error: dial tcp4 127.0.0.1:9500: connect: connection refused_  
+If the above doesn’t work and you have an error message similar to this: _commit: v304-0e26945, error: dial tcp4 127.0.0.1:9500: connect: connection refused_\
 It means the harmony node binary is not running. Please follow this documentation on [how to run the node](../node-setup/).
 {% endhint %}
 
@@ -182,4 +182,3 @@ Output:
 ```
 
 **If you fail** to sign blocks, verify your machine/vps doesn't have CPU/memory/hard disk/internet issues. When you fail to sign more than 66% of the blocks in an epoch, you’ll be kicked out from the committee.
-

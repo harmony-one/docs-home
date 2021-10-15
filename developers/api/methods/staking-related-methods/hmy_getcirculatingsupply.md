@@ -2,7 +2,7 @@
 description: hmy_getCirculatingSupply
 ---
 
-# hmy\_getCirculatingSupply
+# hmy_getCirculatingSupply
 
 Get circulating ONE supply
 
@@ -30,4 +30,3 @@ curl -d '{
     "result": "5098814411.764701600000000000"
 }
 ```
-

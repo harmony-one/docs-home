@@ -1,4 +1,4 @@
-# hmy\_getStakingNetworkInfo
+# hmy_getStakingNetworkInfo
 
 Get global staking info.
 
@@ -6,7 +6,7 @@ Get global staking info.
 
 * `total-staking` - `Number` - big.Int total staking by validators
 * `circulating-supply` - `Float` - current circulating supply
-* `total-supply` - `Number` - total ONE supply \(12600000000\)
+* `total-supply` - `Number` - total ONE supply (12600000000)
 * `median-raw-stake` - `Float` - median raw validators stake
 * `epoch-last-block` - `Number` - previous epoch last block
 
@@ -36,4 +36,3 @@ curl -d '{
     }
 }
 ```
-

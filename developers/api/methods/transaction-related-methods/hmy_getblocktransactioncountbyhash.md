@@ -2,7 +2,7 @@
 description: GetBlockTransactionCount
 ---
 
-# hmy\_getBlockTransactionCountByHash
+# hmy_getBlockTransactionCountByHash
 
 Get the number of transactions in a block by the block's hash.
 
@@ -67,4 +67,3 @@ curl -d '{
     "result": 1
 }
 ```
-

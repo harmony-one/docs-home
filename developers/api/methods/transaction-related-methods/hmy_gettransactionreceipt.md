@@ -2,7 +2,7 @@
 description: GetTransactionReceipt
 ---
 
-# hmy\_getTransactionReceipt
+# hmy_getTransactionReceipt
 
 Get transaction receipt from transaction hash.
 
@@ -115,4 +115,3 @@ curl -d '{
     }
 }
 ```
-

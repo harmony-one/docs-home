@@ -21,4 +21,3 @@ Deletion of a one account is possible by issuing the below command
 {% hint style="danger" %}
 Be sure to have saved your private keys before if you had fund in that account. Deleting the account without backing it up means you'll lose it forever.
 {% endhint %}
-

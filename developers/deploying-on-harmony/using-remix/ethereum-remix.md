@@ -1,14 +1,14 @@
 # Ethereum Remix
 
-Go to [https://remix.ethereum.org/](https://remix.ethereum.org/)
+Go to [https://remix.ethereum.org/](https://remix.ethereum.org)
 
 ### Writing your smart contract
 
-![1. Create a &quot;New File&quot; under contracts with name Counter.sol](../../../.gitbook/assets/screen-shot-2021-06-12-at-5.24.11-pm.png)
+![1. Create a "New File" under contracts with name Counter.sol](<../../../.gitbook/assets/Screen Shot 2021-06-12 at 5.24.11 PM.png>)
 
 Copy and paste the code below to Counter.sol file
 
-```text
+```
 pragma solidity >=0.4.22 <0.8.0;
 
 contract Counter {
@@ -52,5 +52,4 @@ If you want to deploy the contract to a live network like Harmony Testnet or Mai
 
 
 
-### 
-
+###

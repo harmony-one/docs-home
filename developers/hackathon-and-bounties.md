@@ -16,5 +16,3 @@ Our current bounties are listed here:
 
 
 
-
-

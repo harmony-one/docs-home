@@ -2,7 +2,7 @@
 description: GetShardingStructure
 ---
 
-# hmy\_getShardingStructure
+# hmy_getShardingStructure
 
 Returns the current shard of the node and lists API and WebSocket endpoints for each shard.
 
@@ -46,4 +46,3 @@ curl -d '{
     ]
 }
 ```
-

@@ -1,8 +1,8 @@
 # Find the last transaction
 
-## Introduction <a id="introduction"></a>
+## Introduction <a href="introduction" id="introduction"></a>
 
-This guide walks through the process of using [web3.js](https://web3js.readthedocs.io/) to get last block and get last transaction.
+This guide walks through the process of using [web3.js](https://web3js.readthedocs.io) to get last block and get last transaction.
 
 For this example, we will use Node.js and straightforward JavaScript code.
 
@@ -35,4 +35,3 @@ console.log('Last transaction: ', JSON.stringify(transaction));
 ```
 
 Code samples can be found [here.](https://github.com/harmony-one/ethhmy-bridge.sdk/blob/web3-hmy/examples/web3-hmy/get-block-transactions.js)
-

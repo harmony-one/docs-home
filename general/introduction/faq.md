@@ -16,7 +16,7 @@ Check [DApps](../dapps/) for a list of decentralized applications running on Har
 
 For those wishing to participate in staking without running a validator, delegation is the best approach to still get involved and earn block rewards. The act of delegating tokens and earn rewards is called staking. 
 
-Harmony ONE holders can delegate their tokens to existing validators using our staking explorer: [https://staking.harmony.one/](https://staking.harmony.one/). If the tokens are delegated to an elected validator, a portion of the block reward earned by the validator will be credited to the delegator \(according to section [Block Reward](../../network/validators/definitions/block-reward.md)\).
+Harmony ONE holders can delegate their tokens to existing validators using our staking explorer: [https://staking.harmony.one/](https://staking.harmony.one). If the tokens are delegated to an elected validator, a portion of the block reward earned by the validator will be credited to the delegator (according to section [Block Reward](../../network/validators/definitions/block-reward.md)).
 
 The earned block rewards are stored in a separate reward balance of the delegator, which can be immediately withdrawn to the delegator’s account balance. The block rewards can also be staked again to achieve the compounding effect of staking.
 
@@ -30,15 +30,15 @@ New Delegators Quick, Simple Walkthrough:
 
 ✍️ Using the new extension create a new wallet or recover an existing one using seed words.
 
-🎯 Next head over to the [Staking Dashboard](https://staking.harmony.one/)
+🎯 Next head over to the [Staking Dashboard](https://staking.harmony.one)
 
-👀 Choose a validator \(or a few\)
+👀 Choose a validator (or a few)
 
 💰 Stake your tokens
 
 🤑 Earn block rewards every 2 seconds.
 
-Happen to be a more visual learner?  [Check out Harmony Protocol on YouTube!](https://www.youtube.com/watch?v=FpjbGZqrzYQ&list=PLAzkb1vJXQOR3ZEl25MKiz5-CMw6xVkaW)  Be sure to like and subscribe if you find the video\(s\) helpful.
+Happen to be a more visual learner?  [Check out Harmony Protocol on YouTube!](https://www.youtube.com/watch?v=FpjbGZqrzYQ\&list=PLAzkb1vJXQOR3ZEl25MKiz5-CMw6xVkaW)  Be sure to like and subscribe if you find the video(s) helpful.
 
 For a deeper understanding of the staking mechanism, please refer to [Terms & Concepts](https://docs.harmony.one/home/validators/definitions) under the Validators section.
 
@@ -48,13 +48,11 @@ For more questions, check our [community](../community.md) section.
 
 
 
-_\*\*\*\*_
+_****_
 
  
 
  
-
-
 
 
 

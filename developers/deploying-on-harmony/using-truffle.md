@@ -1,22 +1,22 @@
 # Using Truffle
 
-1. Install truffle \(preferably v5.3.0+, sometimes with v5.1.33, `@truffle/hdwallet-provider` does not work\) 
+1\. Install truffle (preferably v5.3.0+, sometimes with v5.1.33, `@truffle/hdwallet-provider` does not work) 
 
-```text
+```
 npm install -g truffle
 ```
 
-2. Create a metacoin project, unbox metacoin truffle box, and install `@truffle/hdwallet-provider`
+2\. Create a metacoin project, unbox metacoin truffle box, and install `@truffle/hdwallet-provider`
 
-```text
+```
 mkdir metacoin
 truffle unbox metacoin
 npm install --save-dev @truffle/hdwallet-provider
 ```
 
-3. Modify `truffle-config.js` to add Harmony networks. Make sure to add your mnemonic or private key.
+3\. Modify `truffle-config.js` to add Harmony networks. Make sure to add your mnemonic or private key.
 
-```text
+```
 const HDWalletProvider = require('@truffle/hdwallet-provider');
 const mnemonic = '<ADD-YOUR-MNEMONIC-HERE>';
 const privateKeyTest = '<ADD-YOUR-PRIVATE-KEY-HERE>';
@@ -51,10 +51,9 @@ module.exports = {
 };
 ```
 
-4. Compile and deploy
+4\. Compile and deploy
 
-```text
+```
 truffle compile
 truffle deploy --network testnet
 ```
-

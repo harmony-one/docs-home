@@ -2,7 +2,7 @@
 description: GetBlockByHash
 ---
 
-# hmy\_getBlockByHash
+# hmy_getBlockByHash
 
 Get block by its hash.
 
@@ -81,7 +81,7 @@ curl -d '{
 **Parameters**
 
 1. `String` - The block hash. 
-2. `blockArgs` - optional args struct in json format \(should be used just with { }\)
+2. `blockArgs` - optional args struct in json format (should be used just with { })
    1. `fullTx` - `Bool`: To show full tx or not
    2. `withSigners`- `Bool`: Include block signes in blocks or not
    3. `inclStaking` - `Bool`: To show staking txs or not
@@ -161,4 +161,3 @@ curl -d '{
     }
 }
 ```
-

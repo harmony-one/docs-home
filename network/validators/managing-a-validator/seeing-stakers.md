@@ -50,4 +50,3 @@ You can see the number of delegations to your validator with the following comma
   ]
 }
 ```
-

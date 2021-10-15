@@ -10,11 +10,11 @@ Rclone db snapshot is sync'ed with blockchain frequently. However, there maybe a
 
 ### 1. Installing Rclone
 
-For installing Rclone, please follow the instructions at [https://rclone.org](https://rclone.org/).
+For installing Rclone, please follow the instructions at [https://rclone.org](https://rclone.org).
 
 TL;DR, on a Linux system, you may run the following command.
 
-```text
+```
 curl https://rclone.org/install.sh | sudo bash
 ```
 
@@ -67,7 +67,7 @@ rclone -P -L sync release:pub.harmony.one/mainnet.min/harmony_db_<ShardID> harmo
 {% endtab %}
 
 {% tab title="Testnet" %}
-```text
+```
 rclone -P -L sync release:pub.harmony.one/testnet.min/harmony_db_<ShardID> harmony_db_<ShardID>
 ```
 {% endtab %}
@@ -75,7 +75,7 @@ rclone -P -L sync release:pub.harmony.one/testnet.min/harmony_db_<ShardID> harmo
 
 If you encounter the following error:
 
-```text
+```
 NOTICE: Config file "/root/.config/rclone/rclone.conf" not found - using defaults
 ```
 
@@ -99,7 +99,7 @@ rclone -P -L sync release:pub.harmony.one/mainnet.min/harmony_db_0 harmony_db_0
 {% endtab %}
 
 {% tab title="Testnet" %}
-```text
+```
 rclone -P -L sync release:pub.harmony.one/testnet.min/harmony_db_0 harmony_db_0
 ```
 {% endtab %}
@@ -116,7 +116,7 @@ rclone -P -L sync release:pub.harmony.one/mainnet.min/harmony_db_1 harmony_db_1
 {% endtab %}
 
 {% tab title="Testnet" %}
-```text
+```
 rclone -P -L sync release:pub.harmony.one/testnet.min/harmony_db_0 harmony_db_0
 rclone -P -L sync release:pub.harmony.one/testnet.min/harmony_db_1 harmony_db_1
 ```
@@ -134,7 +134,7 @@ rclone -P -L sync release:pub.harmony.one/mainnet.min/harmony_db_2 harmony_db_2
 {% endtab %}
 
 {% tab title="Testnet" %}
-```text
+```
 rclone -P -L sync release:pub.harmony.one/testnet.min/harmony_db_0 harmony_db_0
 rclone -P -L sync release:pub.harmony.one/testnet.min/harmony_db_2 harmony_db_2
 ```
@@ -152,7 +152,7 @@ rclone -P -L sync release:pub.harmony.one/mainnet.min/harmony_db_3 harmony_db_3
 {% endtab %}
 
 {% tab title="Testnet" %}
-```text
+```
 rclone -P -L sync release:pub.harmony.one/testnet.min/harmony_db_0 harmony_db_0
 rclone -P -L sync release:pub.harmony.one/testnet.min/harmony_db_3 harmony_db_3
 ```
@@ -168,7 +168,7 @@ After the sync, you may use `du -h harmony_db_*` command to check the size of th
 ## Non-Validating/Explorer Nodes
 
 {% hint style="info" %}
-As of 7th September 2021, the size for the shard 0 on mainnet is ~13Tb. Note that the bucket is currently not fully synced.
+As of 7th September 2021, the size for the shard 0 on mainnet is \~13Tb. Note that the bucket is currently not fully synced.
 {% endhint %}
 
 To sync your node in archival mode, just change the command below for the shard you want. Depending on the size, the syncing of the blockchain will take quite some time.
@@ -182,4 +182,3 @@ Example for shard 0:
 ```bash
 rclone -P -L sync release:pub.harmony.one/mainnet.archival/harmony_db_0 harmony_db_0
 ```
-

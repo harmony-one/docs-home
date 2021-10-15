@@ -2,7 +2,7 @@
 description: GetTransactionCount
 ---
 
-# hmy\_getTransactionCount
+# hmy_getTransactionCount
 
 Given an account address, returns the number of transactions the account has made.
 
@@ -75,4 +75,3 @@ curl -d '{
   "result": 9
 }
 ```
-

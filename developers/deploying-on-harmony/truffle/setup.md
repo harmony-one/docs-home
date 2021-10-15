@@ -5,7 +5,7 @@
 The following tools need to be installed:
 
 * [NodeJS v12+](https://nodejs.org/en/download/)
-* Node Package Manager \(npm\)
+* Node Package Manager (npm)
 
 ### Globally Truffle Installation
 
@@ -35,7 +35,7 @@ npm install --save tslib
 npm install --save dotenv
 ```
 
-\(Optional\) Install Additional Dependencies if required. We wont be using this for this demo.
+(Optional) Install Additional Dependencies if required. We wont be using this for this demo.
 
 ```bash
 npm install openzeppelin-solidity -s
@@ -43,7 +43,7 @@ npm install openzeppelin-solidity -s
 
 Create a `.env` file in the project root directory and put your mnemonic code, private key, and rpc url in it. We will be using the following structure for our demo.
 
-```text
+```
 //LOCAL
 LOCAL_PRIVATE_KEY=<YOUR_PRIVATE_KEY>
 LOCAL_MNEMONIC=<YOUR_MNEMONIC_CODE>
@@ -139,4 +139,3 @@ module.exports = {
 };
 
 ```
-

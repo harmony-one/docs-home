@@ -36,7 +36,7 @@ curl -LO https://harmony.one/binary_testnet && mv binary_testnet harmony && chmo
 
 Check the node binary version that was downloaded:
 
-```text
+```
 ./harmony -V
 ```
 
@@ -104,4 +104,3 @@ sudo service harmony start
 {% hint style="info" %}
 DB migration should take no more than a few hours to conclude.
 {% endhint %}
-

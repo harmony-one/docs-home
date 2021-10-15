@@ -8,7 +8,7 @@ description: >-
 
 ## The Price Feed Contracts
 
-```text
+```
 DAI-USD: 0x1FA508EB3Ac431f3a9e3958f2623358e07D50fe0
 ETH-USD: 0x4f11696cE92D78165E1F8A9a4192444087a45b64
 DSLA-USD: 0x5f0423B1a6935dc5596e7A24d98532b67A0AeFd8
@@ -25,7 +25,7 @@ LINK-USD: 0xcd11Ac8C18f3423c7a9C9d5784B580079A75E69a
 
 To consume price data, your smart contract should reference [`AggregatorV3Interface`](https://github.com/smartcontractkit/chainlink/blob/master/contracts/src/v0.6/interfaces/AggregatorV3Interface.sol), which defines the external functions implemented by Price Feeds.
 
-```text
+```
 pragma solidity ^0.6.7;
 
 import "@chainlink/contracts/src/v0.6/interfaces/AggregatorV3Interface.sol";
@@ -64,7 +64,7 @@ contract PriceConsumerV3 {
 
 The `latestRoundData` function returns five values representing information about the latest price data. See [Price Feeds API Reference](https://docs.chain.link/docs/price-feeds-api-reference/) for more details.
 
-```text
+```
 const web3 = new Web3("https://api.s0.b.hmny.io");
 const aggregatorV3InterfaceABI = [{"inputs":[],"name":"decimals","outputs":[{"internalType":"uint8","name":"","type":"uint8"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"description","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint80","name":"_roundId","type":"uint80"}],"name":"getRoundData","outputs":[{"internalType":"uint80","name":"roundId","type":"uint80"},{"internalType":"int256","name":"answer","type":"int256"},{"internalType":"uint256","name":"startedAt","type":"uint256"},{"internalType":"uint256","name":"updatedAt","type":"uint256"},{"internalType":"uint80","name":"answeredInRound","type":"uint80"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"latestRoundData","outputs":[{"internalType":"uint80","name":"roundId","type":"uint80"},{"internalType":"int256","name":"answer","type":"int256"},{"internalType":"uint256","name":"startedAt","type":"uint256"},{"internalType":"uint256","name":"updatedAt","type":"uint256"},{"internalType":"uint80","name":"answeredInRound","type":"uint80"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"version","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"}];
 const addr = "0xcEe686F89bc0dABAd95AEAAC980aE1d97A075FAD";
@@ -78,7 +78,7 @@ priceFeed.methods.latestRoundData().call()
 
 Sample output when you run the above code:
 
-```text
+```
 Latest Round Data Result {
   '0': '18446744073709552763',
   '1': '11429419',
@@ -95,7 +95,7 @@ Latest Round Data Result {
 
 ## Python
 
-```text
+```
 from web3 import Web3
 web3 = Web3(Web3.HTTPProvider('https://api.s0.b.hmny.io'))
 abi = '[{"inputs":[],"name":"decimals","outputs":[{"internalType":"uint8","name":"","type":"uint8"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"description","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint80","name":"_roundId","type":"uint80"}],"name":"getRoundData","outputs":[{"internalType":"uint80","name":"roundId","type":"uint80"},{"internalType":"int256","name":"answer","type":"int256"},{"internalType":"uint256","name":"startedAt","type":"uint256"},{"internalType":"uint256","name":"updatedAt","type":"uint256"},{"internalType":"uint80","name":"answeredInRound","type":"uint80"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"latestRoundData","outputs":[{"internalType":"uint80","name":"roundId","type":"uint80"},{"internalType":"int256","name":"answer","type":"int256"},{"internalType":"uint256","name":"startedAt","type":"uint256"},{"internalType":"uint256","name":"updatedAt","type":"uint256"},{"internalType":"uint80","name":"answeredInRound","type":"uint80"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"version","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"}]'
@@ -105,7 +105,5 @@ latestData = contract.functions.latestRoundData().call()
 print(latestData)
 ```
 
-  
-  
-
-
+\
+\

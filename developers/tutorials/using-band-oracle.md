@@ -1,6 +1,6 @@
 # Using Band Oracle
 
-The repo [https://github.com/harmony-one/band\_oracle](https://github.com/harmony-one/band_oracle) contains examples on how to fetch price feeds using band oracle.
+The repo [https://github.com/harmony-one/band_oracle](https://github.com/harmony-one/band_oracle) contains examples on how to fetch price feeds using band oracle.
 
 There are two scenarios:
 
@@ -9,9 +9,9 @@ There are two scenarios:
 
 ### Requesting data using BandChain.js library
 
-[https://github.com/harmony-one/band\_oracle/blob/main/main.js](https://github.com/harmony-one/band_oracle/blob/main/main.js)
+[https://github.com/harmony-one/band_oracle/blob/main/main.js](https://github.com/harmony-one/band_oracle/blob/main/main.js)
 
-```text
+```
 git clone https://github.com/harmony-one/band_oracle
 cd band_oracle
 
@@ -21,9 +21,9 @@ node main.js
 
 ### Using BandChain data in EVM Smart Contract in Harmony
 
-[https://github.com/harmony-one/band\_oracle](https://github.com/harmony-one/band_oracle)
+[https://github.com/harmony-one/band_oracle](https://github.com/harmony-one/band_oracle)
 
-```text
+```
 git clone https://github.com/harmony-one/band_oracle
 cd band_oracle
 
@@ -39,4 +39,3 @@ Band’s StdReference contract for testnet **0xE740092E081CA7491A46C8Aa0175446e9
 
 Mainnet contract is coming soon...
 {% endhint %}
-

@@ -2,7 +2,7 @@
 description: hmy_epochLastBlock
 ---
 
-# hmy\_epochLastBlock
+# hmy_epochLastBlock
 
 Epoch last block
 
@@ -34,4 +34,3 @@ curl -d '{
     "result": "10"
 }
 ```
-

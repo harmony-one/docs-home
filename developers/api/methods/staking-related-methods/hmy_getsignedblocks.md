@@ -1,12 +1,12 @@
-# hmy\_getSignedBlocks
+# hmy_getSignedBlocks
 
 ## Description
 
-hmy\_getSigned blocks returns number of blocks out of last 1500 validator has signed
+hmy_getSigned blocks returns number of blocks out of last 1500 validator has signed
 
 ## Parameters
 
-1. `String` - validator one address \("one1..."\)
+1. `String` - validator one address ("one1...")
 
 ## Returns
 
@@ -32,4 +32,3 @@ curl -d '{
     "result": "0x12"
 }
 ```
-

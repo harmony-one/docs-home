@@ -21,7 +21,7 @@ By using `./hmy blockchain help` command we can see that the following options a
 * **current-nonce** - current nonce of an account delegation information about delegations
 * **known-chains** - print out the known chain-ids 
 * **latest-header** - get the latest header
-* **median-stake** - median stake of top 320 validators with delegations applied stake \(pre-epos processing\)
+* **median-stake** - median stake of top 320 validators with delegations applied stake (pre-epos processing)
 * **protocol-version** - the version of the Harmony Protocol
 * **transaction-by-hash** - get transaction by hash
 * **transaction-receipt**  - get information about a finalized transaction validator information about validators
@@ -283,4 +283,3 @@ For example if you call latest-header and get a result of `10657` you convert th
   }
 }
 ```
-

@@ -2,7 +2,7 @@
 description: GetTransaction
 ---
 
-# hmy\_getTransactionByBlockNumberAndIndex
+# hmy_getTransactionByBlockNumberAndIndex
 
 Get transaction at an index from a given block, specified by number.
 
@@ -128,4 +128,3 @@ curl -d '{
     }
 }
 ```
-

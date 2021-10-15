@@ -2,7 +2,7 @@
 description: hmy_getValidatorMetrics
 ---
 
-# hmy\_getValidatorMetrics
+# hmy_getValidatorMetrics
 
 ## Parameters
 
@@ -41,4 +41,3 @@ curl -d '{
     "result": []
 }
 ```
-

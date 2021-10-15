@@ -2,7 +2,7 @@
 description: hmy_getStakingTransactionByHash
 ---
 
-# hmy\_getStakingTransactionByHash
+# hmy_getStakingTransactionByHash
 
 Get staking transaction by its hash.
 
@@ -27,7 +27,7 @@ Get staking transaction by its hash.
 * `v` - `String`: signature V
 * `r` - `String`: signature R
 * `s` - ~~`String`~~: signature S
-* `type` - `String`: staking transaction type \("CreateValidator", "EditValidator", "CollectRewards", "Undelegate", "Delegate"\)
+* `type` - `String`: staking transaction type ("CreateValidator", "EditValidator", "CollectRewards", "Undelegate", "Delegate")
 * `msg` - `StakingMsg:`
   * `CreateValidator:`
     * `validatorAddress` - `String:` validator address
@@ -110,7 +110,7 @@ curl -d '{
 * `v` - `String`: signature V
 * `r` - `String`: signature R
 * `s` - ~~`String`~~: signature S
-* `type` - `String`: staking transaction type \("CreateValidator", "EditValidator", "CollectRewards", "Undelegate", "Delegate"\)
+* `type` - `String`: staking transaction type ("CreateValidator", "EditValidator", "CollectRewards", "Undelegate", "Delegate")
 * `msg` - `StakingMsg:`
   * `CreateValidator:`
     * `validatorAddress` - `String:` validator address
@@ -171,4 +171,3 @@ curl -d '{
     "result": null
 }
 ```
-

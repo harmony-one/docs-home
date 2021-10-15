@@ -2,7 +2,7 @@
 description: hmy_getMedianRawStakeSnapshot
 ---
 
-# hmy\_getMedianRawStakeSnapshot
+# hmy_getMedianRawStakeSnapshot
 
 Returns active validators addresses list
 
@@ -30,4 +30,3 @@ curl -d '{
     "result": "1000000000000000"
 }
 ```
-

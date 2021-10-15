@@ -1,8 +1,8 @@
 # Using Web3.js to Send Transactions on Harmony
 
-### Introduction <a id="introduction"></a>
+### Introduction <a href="introduction" id="introduction"></a>
 
-This guide walks through the process of using [web3.js](https://web3js.readthedocs.io/) to manually sign and send a transaction to a Harmony network. For this example, we will use Node.js and straightforward JavaScript code.
+This guide walks through the process of using [web3.js](https://web3js.readthedocs.io) to manually sign and send a transaction to a Harmony network. For this example, we will use Node.js and straightforward JavaScript code.
 
 For this guide we will use Harmony Testnet Network.
 
@@ -10,19 +10,19 @@ For this guide we will use Harmony Testnet Network.
 
 Next, we can create a directory to store all our relevant files by running:
 
-```text
+```
 mkdir transaction && cd transaction/
 ```
 
 And create a simple package.json file:
 
-```text
+```
 npm init --yes
 ```
 
 With the package.json file created, we can then install the web3.js package by executing:
 
-```text
+```
 npm install web3
 npm intall 'bn.js'
 ```
@@ -33,7 +33,7 @@ We recommended to use[ bn.js](https://github.com/indutny/bn.js/) for format valu
 
 To verify the installed version of web3.js, you can use the `ls` command:
 
-```text
+```
 npm ls web3
 ```
 
@@ -41,11 +41,11 @@ As of the writing of this guide, the version used was 1.3.0.
 
 ### Sending Transaction
 
-For our example, we only need a single JavaScript file \(arbitrarily named _transaction.js_, which you can find [here](https://github.com/harmony-one/ethhmy-bridge.sdk/blob/web3-hmy/examples/web3-hmy/send-transaction.js)\) to create and send the transaction, which we will run using the `node` command in the terminal. The script will transfer 1 ONE from the genesis account to another address. For simplicity, the file is divided into three sections: variable definition, create transaction, and deploy transaction.
+For our example, we only need a single JavaScript file (arbitrarily named _transaction.js_, which you can find [here](https://github.com/harmony-one/ethhmy-bridge.sdk/blob/web3-hmy/examples/web3-hmy/send-transaction.js)) to create and send the transaction, which we will run using the `node` command in the terminal. The script will transfer 1 ONE from the genesis account to another address. For simplicity, the file is divided into three sections: variable definition, create transaction, and deploy transaction.
 
 We need to set a couple of values in the variable definitions:
 
-1. Create our Web3 constructor \(`Web3`\).
+1. Create our Web3 constructor (`Web3`).
 2. Define the `HMY_PRIVATE_KEY` variable as the private key of your ONE wallet, what is used to sign the transactions.
 3. Create a local Web3 instance and set the provider to connect to Testnet Harmony network.
 
@@ -104,4 +104,3 @@ console.log('New account balance: ', newAddrBalance / 1e18);
 ```
 
 Full code samples can be found [here.](https://github.com/harmony-one/ethhmy-bridge.sdk/blob/web3-hmy/examples/web3-hmy/send-transaction.js)
-

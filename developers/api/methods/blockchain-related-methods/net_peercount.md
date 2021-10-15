@@ -2,7 +2,7 @@
 description: Net_PeerCount
 ---
 
-# net\_peerCount
+# net_peerCount
 
 Gets the number of peers on the network.
 
@@ -26,4 +26,3 @@ curl -d '{
     "result": "0xbf"
 }
 ```
-

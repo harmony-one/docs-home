@@ -2,7 +2,7 @@
 description: hmy_isLastBlock
 ---
 
-# hmy\_isLastBlock
+# hmy_isLastBlock
 
 Is block epoch last block
 
@@ -34,4 +34,3 @@ curl -d '{
     "result": true
 }
 ```
-

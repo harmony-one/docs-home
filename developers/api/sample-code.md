@@ -27,7 +27,7 @@ const txn_object = {
 };
 ```
 
-## hmy\_sendRawTransaction
+## hmy_sendRawTransaction
 
 ```javascript
 const txn = harmony.transactions.newTx(txn_object);
@@ -40,4 +40,3 @@ if (confirmed.isConfirmed()) {
   console.log('transaction did go through');
 }
 ```
-

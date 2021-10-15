@@ -16,5 +16,4 @@ SoccerPlayers is an NFT collectible game deployed on Harmony blockchain. It is l
 
 Links: [community](https://t.me/soccerplayerapp)
 
-## 
-
+##

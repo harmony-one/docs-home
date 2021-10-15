@@ -14,11 +14,10 @@ The final code to this guide can be found [here](https://github.com/rachit2501/S
 
 * Clone the above repository.
 
-```text
+```
 cd web
 npm install
 npm run dev
 ```
 
 Following pages will guide you to setup the above project and the working.
-

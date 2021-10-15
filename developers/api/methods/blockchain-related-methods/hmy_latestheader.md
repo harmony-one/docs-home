@@ -2,7 +2,7 @@
 description: hmy_latestHeader
 ---
 
-# hmy\_latestHeader
+# hmy_latestHeader
 
 ## Parameters
 
@@ -23,7 +23,7 @@ None
 
 ## Sample Curl Request
 
-```text
+```
 curl --location --request POST 'https://api.s0.b.hmny.io/' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -36,7 +36,7 @@ curl --location --request POST 'https://api.s0.b.hmny.io/' \
 
 ## Same Curl Response
 
-```text
+```
 {
     "jsonrpc": "2.0",
     "id": 1,
@@ -54,4 +54,3 @@ curl --location --request POST 'https://api.s0.b.hmny.io/' \
     }
 }
 ```
-

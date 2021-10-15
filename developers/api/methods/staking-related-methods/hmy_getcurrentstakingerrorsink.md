@@ -2,7 +2,7 @@
 description: hmy_getCurrentStakingErrorSink
 ---
 
-# hmy\_getCurrentStakingErrorSink
+# hmy_getCurrentStakingErrorSink
 
 ## API v1
 
@@ -57,4 +57,3 @@ curl --location --request POST 'https://api.s0.b.hmny.io/' \
     "result": []
 }
 ```
-

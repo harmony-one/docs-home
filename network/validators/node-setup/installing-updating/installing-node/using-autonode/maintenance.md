@@ -12,12 +12,12 @@ After your validator is created, you can edit your validator config with the fol
 auto-node edit-config
 ```
 
-> This will open up a Nano session to edit the config. After you do your edits, save it by pressing `Ctrl+X` then `Y`.
+> This will open up a Nano session to edit the config. After you do your edits, save it by pressing `Ctrl+X `then `Y`.
 
 After you finish editing, you will be asked to update the config on-chain. If you say yes, AutoNode will send an edit validator transaction to update your validator. 
 
 {% hint style="warning" %}
-Note that the following are the **ONLY** fields that can be edited on-chain:  
+Note that the following are the **ONLY** fields that can be edited on-chain:\
 `"details", "identity", "name", "security-contact", "website", "max-total-delegation", "min-self-delegation", "rate"`
 {% endhint %}
 
@@ -49,7 +49,7 @@ vim $HOME/harmony_node/latest/zero*.log
 
 ## Inspect the Harmony Node service logs
 
-The Harmony Node is ran as a [service](https://www.linux.com/news/introduction-services-runlevels-and-rcd-scripts/#:~:text=A%20Linux%20service%20is%20an,services%20until%20you%20need%20them.&text=This%20is%20the%20most%20common%20Linux%20init%20system.), you can inspect the logs for the service with the following command:
+The Harmony Node is ran as a [service](https://www.linux.com/news/introduction-services-runlevels-and-rcd-scripts/#:\~:text=A%20Linux%20service%20is%20an,services%20until%20you%20need%20them.\&text=This%20is%20the%20most%20common%20Linux%20init%20system.), you can inspect the logs for the service with the following command:
 
 ```bash
 auto-node node journal -e
@@ -62,4 +62,3 @@ Similar to the Harmony Node, the monitor is ran as a service and you can inspect
 ```bash
 auto-node monitor journal -e
 ```
-

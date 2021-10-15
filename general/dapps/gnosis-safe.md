@@ -2,7 +2,7 @@
 
 ## Gnosis Safe on Harmony
 
-The Gnosis Safe is a smart contract wallet with multi-signature functionality at its core.   
+The Gnosis Safe is a smart contract wallet with multi-signature functionality at its core. \
 Gnosis Safe Application on Harmony: [https://multisig.harmony.one](https://multisig.harmony.one)
 
 ## Connect Wallet
@@ -29,7 +29,7 @@ Select the MetaMask option in the connect wallet menu. Check that the correct Me
 
 ![Create New Safe](../../.gitbook/assets/gnosis-safe4.png)
 
-2\) Name the safe. This will be stored locally. Press **Start** to continue.
+2\) Name the safe. This will be stored locally. Press **Start **to continue.
 
 ![Name the Safe](../../.gitbook/assets/gnosis-safe5.png)
 
@@ -41,7 +41,7 @@ Select the MetaMask option in the connect wallet menu. Check that the correct Me
 4. Select how many owners will be required to confirm a transaction
 5. Press **Review**
 
-![](../../.gitbook/assets/gnosis-safe6%20%281%29.png)
+![](<../../.gitbook/assets/gnosis-safe6 (1).png>)
 
 4\) Submit your safe by clicking on **Submit**. You will need a very small amount of ONE tokens to confirm the transaction.
 
@@ -99,7 +99,7 @@ If sucessfull, you should see your Safe loaded on main page.
 
 ![](../../.gitbook/assets/gnosis-safe19.png)
 
-6\) We need at least one more account to confirm the transaction on the safe. Just click on **Confirm** logged in with the required account.
+6\) We need at least one more account to confirm the transaction on the safe. Just click on **Confirm **logged in with the required account.
 
 ![Click on Confirm](../../.gitbook/assets/gnosis-safe20.png)
 
@@ -116,4 +116,3 @@ If sucessfull, you should see your Safe loaded on main page.
 Once you have a Safe deployed, you can use the Safe address to receive tokens. Just click on **Copy to clipboard**.
 
 ![Copy to Clipboard](../../.gitbook/assets/gnosis-safe10.png)
-

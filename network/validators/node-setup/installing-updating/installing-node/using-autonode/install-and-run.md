@@ -14,11 +14,11 @@ All commands for `auto-node` have a help message that describes its usage. Just 
 
 ### **Step 1:** Spin up your instance on [AWS](../../../../server-setup/cloud-guides/aws.md) or [other providers](https://docs.harmony.one/home/validators/first-time-setup/cloud-guides)
 
-> It is recommended to go with Ubuntu 18+ or Red Hat Enterprise Linux 8+ as your operating system.
+> It is recommended to go with Ubuntu 18+ or Red Hat Enterprise Linux 8+ as your operating system. 
 
 ### **Step 2:** SSH into the machine
 
-### Step 2.5: \(Optional\) Create a new user
+### Step 2.5: (Optional) Create a new user
 
 You can choose any `<new-user-name>` you want. The command below will ask for a passphrase for the user, choose one and keep track of this password for future use! The command below will also add the user to the sudo group for convenience. 
 
@@ -67,7 +67,7 @@ export DBUS_SESSION_BUS_ADDRESS="unix:path=${XDG_RUNTIME_DIR}/bus"
 
 > It may be convient to add this command to your `~/.bashrc` profile.
 
-### **Step 3:** Install AutoNode
+### **Step 3: **Install AutoNode
 
 `sudo` access for your user is needed for installation.
 
@@ -85,7 +85,7 @@ You will need to have access to `systemd` in user mode. This may require SSH-ing
 If you created a user just for AutoNode, make sure to follow all parts of step 2. 
 {% endhint %}
 
-### Step 3.5: \(Optional\) Update your shell
+### Step 3.5: (Optional) Update your shell
 
 You can reload your shell by exiting your SSH session and SSH-ing back into the machine, or you can execute the following command:
 
@@ -95,7 +95,7 @@ export PATH=$PATH:~/bin
 
 > This step is only needed if the command: `auto-node` does not work.
 
-### **Step 4:** Add or import a Validator Key
+### **Step 4: **Add or import a Validator Key
 
 {% tabs %}
 {% tab title="New Key" %}
@@ -105,7 +105,7 @@ auto-node hmy keys add example-validator-wallet-name
 
 This is the recommended way to run AutoNode. 
 
-You can send 10,100 ONE from your 'main' wallet to your AutoNode validator wallet \(generated with the above command\). This way, AutoNode can automate common validator commands for this new wallet, like create the validator for you. Once AutoNode creates the validator, you can delegate from your 'main' wallet to your AutoNode validator to increase its stake. 
+You can send 10,100 ONE from your 'main' wallet to your AutoNode validator wallet (generated with the above command). This way, AutoNode can automate common validator commands for this new wallet, like create the validator for you. Once AutoNode creates the validator, you can delegate from your 'main' wallet to your AutoNode validator to increase its stake. 
 {% endtab %}
 
 {% tab title="Import Keystore File" %}
@@ -116,7 +116,7 @@ auto-node hmy keys import-ks <path-to-keystore-file>
 Note that you can transfer files to your remote machine with the `scp` command. Documetation to do so can be found [here](https://linuxize.com/post/how-to-use-scp-command-to-securely-transfer-files/).
 {% endtab %}
 
-{% tab title="Import Private Key \(not recommended\)" %}
+{% tab title="Import Private Key (not recommended)" %}
 ```
 auto-node hmy keys import-private-key <private-key-string>
 ```
@@ -151,34 +151,33 @@ auto-node run --clean --fast-sync --auto-active \
 {% endtabs %}
 
 {% hint style="info" %}
-Use `--clean` to start fresh/remove old node files \(if present\)
+Use `--clean` to start fresh/remove old node files (if present)
 
 Use `--fast-sync` option to rclone the correct Harmony DB to reduce sync time. One can choose to sync from scratch by removing the `--fast-sync` option
 
 Use `--expose-rpc` if you wish to expose [RPC](https://en.wikipedia.org/wiki/Remote_procedure_call) for your node to enable endpoint functionality
 
-Use `--shard` \(your shard number here\) to run a node for a specific shard
+Use `--shard` (your shard number here) to run a node for a specific shard
 
-Use `--archival` to run in archival mode. Make sure your machine has enough space. We expect around 500GB is needed to run an Archival node \(Jun 2020\)
+Use `--archival` to run in archival mode. Make sure your machine has enough space. We expect around 500GB is needed to run an Archival node (Jun 2020)
 
 Use `--auto-active` to automatically activate your validator on next epoch in case it gets deactivated
 {% endhint %}
 
 {% hint style="warning" %}
-Make sure to **respond** to the **prompts**. If you are unable to create a validator \(but started your node\) don't worry! Follow the next step on how to create your validator.
+Make sure to **respond** to the **prompts**. If you are unable to create a validator (but started your node) don't worry! Follow the next step on how to create your validator.
 {% endhint %}
 
 {% hint style="success" %}
-Once the monitor has started and you see repeated prints of the node information & headers, you can exit with `ctrl+C.`From here, you are free to do whatever on the machine, or you can exit the machine. Your Harmony node will keep running!
+Once the monitor has started and you see repeated prints of the node information & headers, you can exit with` ctrl+C.`From here, you are free to do whatever on the machine, or you can exit the machine. Your Harmony node will keep running!
 {% endhint %}
 
-### **Step 5.5: \(Optional\) Create your validator after the initial run**
+### **Step 5.5: (Optional) Create your validator after the initial run**
 
 You can go through the create validator flow again by executing the following command:
 
-```text
+```
 auto-node create-validator
 ```
 
 > Note that this can only be done if you failed to create a validator on the inital run of auto-node
-

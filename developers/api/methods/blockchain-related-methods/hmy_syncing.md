@@ -2,7 +2,7 @@
 description: Syncing
 ---
 
-# hmy\_syncing
+# hmy_syncing
 
 Tests whether or not the node is syncing.
 
@@ -30,4 +30,3 @@ curl -d '{
     "result": false
 }
 ```
-

@@ -2,7 +2,7 @@
 description: GasPrice
 ---
 
-# hmy\_gasPrice
+# hmy_gasPrice
 
 Returns the current gas price.
 
@@ -59,4 +59,3 @@ curl -d '{
     "result": "1"
 }
 ```
-

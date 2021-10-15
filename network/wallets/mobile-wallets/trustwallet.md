@@ -1,6 +1,6 @@
 # Trust Wallet
 
-![](../../../.gitbook/assets/screen-shot-2020-01-15-at-8.42.26-am.png)
+![](<../../../.gitbook/assets/Screen Shot 2020-01-15 at 8.42.26 AM.png>)
 
 Trust Wallet is a mobile cryptocurrency wallet. Please visit [https://trustwallet.com](https://trustwallet.com) with your mobile device to download the app. Users can **stake** in Harmony using Trust Wallet.
 
@@ -14,7 +14,7 @@ Please note that Trust Wallet does not support Harmony's sharded network archite
 
 The funds that are sent within shard 0 will be viewed correctly in Trust Wallet.
 
-If you receive funds in a shard other than shard 0 \(i.e. in shard 2\), you will not see the transaction receipt in the Trust Wallet app. Since your account balance will only show the funds in shard 0, your total balance will not change.
+If you receive funds in a shard other than shard 0 (i.e. in shard 2), you will not see the transaction receipt in the Trust Wallet app. Since your account balance will only show the funds in shard 0, your total balance will not change.
 
 ### Outgoing transactions
 
@@ -22,7 +22,7 @@ Since there is no shard selection in the Trust Wallet UI, all transactions will 
 
 ### **For more details, please see these example cross-shard transactions using Trust Wallet:**
 
-![](../../../.gitbook/assets/image%20%28100%29%20%281%29%20%281%29%20%281%29%20%281%29%20%281%29%20%281%29%20%281%29%20%281%29.png)
+![](<../../../.gitbook/assets/image (100) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 ### What to do if you receive funds in a shard other than shard 0 when using Trust Wallet?
 
@@ -46,9 +46,8 @@ You will need to export the account in which you received the funds and import i
 
 ### Import/Export Wallet
 
-Below are the official instructions on how to restore/import Recovery Phrase \(mnemonic\) on Trust wallet.
+Below are the official instructions on how to restore/import Recovery Phrase (mnemonic) on Trust wallet.
 
 #### [How to Restore a Multi-Coin Wallet](https://community.trustwallet.com/t/how-to-restore-a-multi-coin-wallet/43)
 
 #### [How to Import a Wallet](https://community.trustwallet.com/t/how-to-import-a-wallet/87)
-

@@ -2,7 +2,7 @@
 description: GetTransaction
 ---
 
-# hmy\_getTransactionByHash
+# hmy_getTransactionByHash
 
 Get a transaction by its hash.
 
@@ -124,4 +124,3 @@ curl -d '{
     }
 }
 ```
-

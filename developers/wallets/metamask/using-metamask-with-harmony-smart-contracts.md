@@ -156,4 +156,3 @@ const value = await contract.methods.getMoneyStored().call();
 ## Congratulations
 
 You just completed the tutorial to interact with smart contract using metamask and web3 on Harmony Network!
-

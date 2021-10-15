@@ -1,4 +1,4 @@
-# hmy\_newPendingTransactionFilter
+# hmy_newPendingTransactionFilter
 
 **Parameters**
 
@@ -10,7 +10,7 @@ None
 
 **Example**
 
-```text
+```
 // Request
 curl -X POST --data '{"jsonrpc":"2.0","method":"eth_newPendingTransactionFilter","params":[],"id":73}'
 
@@ -21,4 +21,3 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"eth_newPendingTransactionFilter"
   "result": "0x1" // 1
 }
 ```
-

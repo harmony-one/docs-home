@@ -9,4 +9,3 @@ Towards our mission, Harmony’s current strategy is “Cross-Chain Finance” a
 Read more:
 
 {% embed url="https://medium.com/harmony-one/harmonys-strategy-and-architecture-c1d85e236f04" %}
-

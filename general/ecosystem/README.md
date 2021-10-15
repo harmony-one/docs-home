@@ -4,11 +4,9 @@ The Harmony team is focused on delivering a strong foundation for our network an
 
 Our current ecosystem map as of June 2021:
 
-![](../../.gitbook/assets/ecosystem_20.6.2021%20copy%20%281%29%20%281%29%20%281%29%20%281%29%20%281%29%20%281%29.png)
+![](<../../.gitbook/assets/ecosystem\_20.6.2021 copy (1) (1) (1) (1) (1).png>)
 
 See below our 2020 Year in Review & Ecosystem Growth:
 
 {% embed url="https://medium.com/harmony-one/harmony-2020-year-in-review-ecosystem-growth-f414a86dbda9" %}
-
-
 

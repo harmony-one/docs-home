@@ -2,7 +2,7 @@
 description: hmy_getDelegationsByDelegatorAndValidator
 ---
 
-# hmy\_getDelegationsByDelegatorAndValidator
+# hmy_getDelegationsByDelegatorAndValidator
 
 ## Parameters
 
@@ -52,4 +52,3 @@ curl -d '{
     ]
 }
 ```
-

@@ -6,7 +6,9 @@ description: This section will guide you through the deployment of subgraphs
 
 Using Harmony the public graph node
 
-{% page-ref page="building-and-deploying-subgraph-public-node.md" %}
+{% content-ref url="building-and-deploying-subgraph-public-node.md" %}
+[building-and-deploying-subgraph-public-node.md](building-and-deploying-subgraph-public-node.md)
+{% endcontent-ref %}
 
 {% hint style="danger" %}
 Using the public graph node may leads to conflicts if same subgraph name is used
@@ -14,7 +16,7 @@ Using the public graph node may leads to conflicts if same subgraph name is used
 
 Using a local indexer node
 
-{% page-ref page="building-and-deploying-subgraph-local-node.md" %}
-
-
+{% content-ref url="building-and-deploying-subgraph-local-node.md" %}
+[building-and-deploying-subgraph-local-node.md](building-and-deploying-subgraph-local-node.md)
+{% endcontent-ref %}
 

@@ -2,9 +2,9 @@
 
 Perhaps the most important feature of the `hmy` CLI is the ability to create and send signed transactions to the `Harmony` blockchain.
 
-## Overview <a id="quick-version"></a>
+## Overview <a href="quick-version" id="quick-version"></a>
 
-### Sending a transaction <a id="sending-a-cross-shard-transaction-on-betanet"></a>
+### Sending a transaction <a href="sending-a-cross-shard-transaction-on-betanet" id="sending-a-cross-shard-transaction-on-betanet"></a>
 
 #### Using the Binary:
 
@@ -33,7 +33,7 @@ Perhaps the most important feature of the `hmy` CLI is the ability to create and
  --from-shard 0 --to-shard 1 --amount 12.5 --chain-id mainnet --passphrase mypassword
 ```
 
-### Checking the transaction hash <a id="checking-the-transaction-hash"></a>
+### Checking the transaction hash <a href="checking-the-transaction-hash" id="checking-the-transaction-hash"></a>
 
 Check for finality of the transaction by using the transaction hash like so:
 
@@ -57,9 +57,9 @@ Check for finality of the transaction by using the transaction hash like so:
  0x599793f313ee17566f8d09728b9d043b8e26135ddce86beeee13f98767d452f7
 ```
 
-## Detail <a id="tutorial"></a>
+## Detail <a href="tutorial" id="tutorial"></a>
 
-### ChainIDs <a id="chainids"></a>
+### ChainIDs <a href="chainids" id="chainids"></a>
 
 Let's first check what chain-ids are available for us to use, we can do that easily with:
 
@@ -91,11 +91,11 @@ Notice that the output is pretty printed `JSON`, most outputs of `hmy` are `JSON
 
 By default, `hmy` assumes the `testnet` chain-id; override that with the `--chain-id` flag
 
-### Our first transaction <a id="our-first-transaction"></a>
+### Our first transaction <a href="our-first-transaction" id="our-first-transaction"></a>
 
 We'll use the `transfer` subcommand of `hmy` to send a transaction.
 
-```text
+```
 ./hmy transfer
 Error: required flag(s) "amount", "from", "from-shard", "to", "to-shard" not set
 ```
@@ -107,7 +107,7 @@ Notice that simply invoking the `transfer` subcommand gave us an error message a
 * `from-shard`: Shard from which sender's balance will be drawn from
 * `to`: Receiver's ONE address
 * `to-shard`: Shard in which receiver will receive the amount sent by the sender
-* `passphrase:` your wallet passphrase, which is prompted when you hit enter \(or you can use a txt file with password and add it: --passphrase file.txt\)
+* `passphrase:` your wallet passphrase, which is prompted when you hit enter (or you can use a txt file with password and add it: --passphrase file.txt)
 
 A sharded blockchain is a new kind of blockchain architecture where the network is partitioned into sub-networks called shards. Sharding is one of the distinguishing features of Harmony and it is key to solving the traditional scalability problems encountered in other blockchain protocols.
 
@@ -144,7 +144,7 @@ Thus, a correct usage of `transfer` looks like:
 ```
 
 {% hint style="info" %}
-`hmy` assumes that the private keys needed for signing the transaction on behalf of the sender \(`one1yc06ghr2p8xnl2380kpfayweguuhxdtupkhqzw` in this example\) exist in the local keystore or in the hardware wallet if the `--ledger` flag was used.
+`hmy` assumes that the private keys needed for signing the transaction on behalf of the sender (`one1yc06ghr2p8xnl2380kpfayweguuhxdtupkhqzw` in this example) exist in the local keystore or in the hardware wallet if the `--ledger` flag was used.
 {% endhint %}
 
 {% hint style="info" %}
@@ -153,14 +153,14 @@ The sender's account must have enough of a balance on the `from-shard` to send a
 
 Try out your transaction with the flag `--dry-run`, this flag tells `hmy` to create, cryptographically sign the transaction but not actually send it off. Sender's balances are checked and the output is a JSON dump of the signed transaction.
 
-Signing and sending a transaction is very quick, about 2 seconds maximum. The actual sending of the transaction is done via an `RPC` \(Remote Procedure Call\), you'll notice that we did not explicitly say where to send the transaction to. This is because the default destination of the `RPC` call goes to `http://localhost:9500`, the default `HTTP` `RPC` server running when you start a local harmony blockchain. For real world usage though, you'll want a different location. You can control that with the `--node` flag \(see the top of this page for an example\).
+Signing and sending a transaction is very quick, about 2 seconds maximum. The actual sending of the transaction is done via an `RPC` (Remote Procedure Call), you'll notice that we did not explicitly say where to send the transaction to. This is because the default destination of the `RPC` call goes to `http://localhost:9500`, the default `HTTP` `RPC` server running when you start a local harmony blockchain. For real world usage though, you'll want a different location. You can control that with the `--node` flag (see the top of this page for an example).
 
-### Result of the transaction <a id="result-of-the-transaction"></a>
+### Result of the transaction <a href="result-of-the-transaction" id="result-of-the-transaction"></a>
 
 Once an `RPC` machine receives a transaction, it sends you back a transaction hash. This transaction hash is the key identifier used when querying the blockchain for transactions.
 
 {% hint style="warning" %}
-Simply having a transaction hash does NOT imply that the transaction was successfully accepted by the blockchain. A transaction is successfully accepted once it has been added to the blockchain. In the case of cross-shard transactions \(when the from-shard, to-shard values are different\), this means each shard has added the transaction to their blockchain.
+Simply having a transaction hash does NOT imply that the transaction was successfully accepted by the blockchain. A transaction is successfully accepted once it has been added to the blockchain. In the case of cross-shard transactions (when the from-shard, to-shard values are different), this means each shard has added the transaction to their blockchain.
 {% endhint %}
 
 We can pull down details of the finalized transaction with `./hmy blockchain transaction-receipt` as well:
@@ -213,4 +213,3 @@ You should set the value of `--node` to the same shard that sent the transaction
 {% endhint %}
 
 You can tell `hmy` to wait until transaction confirmation by providing a positive integer value to flag `--wait-for-confirm`. For example, `--wait-for-confirm=10` will try checking the receipt of the transaction for 10 seconds.
-

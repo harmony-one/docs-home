@@ -10,7 +10,7 @@ An Ethereum-Harmony cross-chain swap dapp that uses Chainlink Price Feeds to swa
 
 "0Games is a peer-to-peer 0% fee CD Keys crypto-marketplace."
 
-![](../../../.gitbook/assets/0games.png)
+![](../../../.gitbook/assets/0games.PNG)
 
 ## [Recycloan](https://devpost.com/software/recycloan)
 
@@ -34,7 +34,7 @@ An Ethereum-Harmony cross-chain swap dapp that uses Chainlink Price Feeds to swa
 
 "Inspired by crowdfunding apps such as Kickstarter and Indiegogo, we have built a crowdfunding app, Olifant, with Blockchain Harmony technology, which allows investors to directly donate cryptocurrency to crowdsoured projects. Olifant is built for mobile devices and currently supports ONE as its main currency."
 
-![](../../../.gitbook/assets/olifant.png)
+![](../../../.gitbook/assets/olifant.PNG)
 
 ## [Ecopet](https://devpost.com/software/ecopet-1iorbs)
 
@@ -46,21 +46,19 @@ An Ethereum-Harmony cross-chain swap dapp that uses Chainlink Price Feeds to swa
 
 "I want to build an application which gives power to individuals to request resources provided by charities like Food Bank or non-profit organizations. Meanwhile, those charities could manage their resources, including donations and volunteers, using the application. As a volunteer, donor, or low-income worker, I wish I can trade my kindness for something whenever and wherever I need them, e.g, an online course, a piece of craftwork, instead of feeling guilty. Furthermore, I wish my kindness could be traced and acknowledged by society."
 
-![](../../../.gitbook/assets/pay-it-forward.png)
+![](<../../../.gitbook/assets/pay it forward.png>)
 
 ## [King's Coin](https://devpost.com/software/king-s-coin)
 
-"**Voucher IDR \(VIDR\)** is a voucher for digital product in Indonesia. It is HRC20 token based on stablecoin RUPE in harmony blockchain."
+"**Voucher IDR (VIDR)** is a voucher for digital product in Indonesia. It is HRC20 token based on stablecoin RUPE in harmony blockchain."
 
-![](../../../.gitbook/assets/kings-coin.png)
+![](<../../../.gitbook/assets/kings coin.png>)
 
 ## [Blinkit](https://devpost.com/software/blinkit-ephtol)
 
 "Blinkit goals are to notify you with light and sound when blockchain action are detected. The supported devices that can be blinked are widely available and preferable inexpensive. The project is opensource and there is a big chance you already have a supported device at home that you can upcycle and give a crypto purpose with the use of Blinkit!"
 
 ![](../../../.gitbook/assets/blinkit.png)
-
-
 
 
 

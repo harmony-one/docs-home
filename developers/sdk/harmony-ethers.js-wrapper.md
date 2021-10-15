@@ -4,7 +4,7 @@ Repo: [https://github.com/harmony-one/harmony-ethers-sdk](https://github.com/har
 
 ### Example: How to use provider to query Harmony chain
 
-```text
+```
 import {
   Block,
   BlockWithTransactions,
@@ -33,4 +33,3 @@ const txReceipt: TransactionReceipt = provider.getTransactionReceipt(txHash);
 // to get Cross Shard Receipt
 const cTxReceipt: CXTransactionReceipt = provider.getCXTransactionReceipt(txHash);
 ```
-

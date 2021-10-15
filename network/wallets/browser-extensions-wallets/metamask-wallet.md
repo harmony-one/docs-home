@@ -26,88 +26,21 @@ Fill it accordingly to the Harmony Network and shard you want to connect to.
 Use the RPC URL of Shard 0 if you want to send/receive transactions from exchanges or do any staking transaction type.
 {% endhint %}
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Field</th>
-      <th style="text-align:left">Mainnet</th>
-      <th style="text-align:left">Testnet</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left"><b>Network Name</b>
-      </td>
-      <td style="text-align:left">Harmony Mainnet</td>
-      <td style="text-align:left">Harmony Testnet</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>New RPC URL</b>
-      </td>
-      <td style="text-align:left">
-        <p>https://api.harmony.one</p>
-        <p>https://s1.api.harmony.one</p>
-        <p>https://s2.api.harmony.one
-          <br />https://s3.api.harmony.one</p>
-      </td>
-      <td style="text-align:left">
-        <p>https://api.s0.b.hmny.io</p>
-        <p>https://api.s1.b.hmny.io</p>
-        <p>https://api.s2.b.hmny.io</p>
-        <p>https://api.s3.b.hmny.io</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <p><b>Chain ID</b>
-        </p>
-        <p>(use number only)</p>
-      </td>
-      <td style="text-align:left">
-        <p>Shard 0: <code>1666600000</code>
-        </p>
-        <p>Shard 1: <code>1666600001</code>
-        </p>
-        <p>Shard 2: <code>1666600002</code>
-        </p>
-        <p>Shard 3: <code>1666600003</code>
-        </p>
-      </td>
-      <td style="text-align:left">
-        <p>Shard 0: <code>1666700000</code>
-        </p>
-        <p>Shard 1: <code>1666700001</code>
-        </p>
-        <p>Shard 2: <code>1666700002</code>
-        </p>
-        <p>Shard 3: <code>1666700003</code>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>Currency symbol (optional)</b>
-      </td>
-      <td style="text-align:left">ONE</td>
-      <td style="text-align:left">ONE</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>Block Explorer URL (optional)</b>
-      </td>
-      <td style="text-align:left"><a href="https://explorer.harmony.one/#/">https://explorer.harmony.one/</a>
-      </td>
-      <td style="text-align:left"><a href="https://explorer.pops.one/#/">https://explorer.pops.one/</a>
-      </td>
-    </tr>
-  </tbody>
-</table>
+| Field                                                    | Mainnet                                                                                                                                                      | Testnet                                                                                                                                                      |
+| -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Network Name**                                         | Harmony Mainnet                                                                                                                                              | Harmony Testnet                                                                                                                                              |
+| **New RPC URL**                                          | <p>https://api.harmony.one</p><p>https://s1.api.harmony.one</p><p>https://s2.api.harmony.one<br>https://s3.api.harmony.one</p>                               | <p>https://api.s0.b.hmny.io</p><p>https://api.s1.b.hmny.io</p><p>https://api.s2.b.hmny.io</p><p>https://api.s3.b.hmny.io</p>                                 |
+| <p><strong>Chain ID</strong></p><p>(use number only)</p> | <p>Shard 0: <code>1666600000</code></p><p>Shard 1: <code>1666600001</code></p><p>Shard 2: <code>1666600002</code></p><p>Shard 3: <code>1666600003</code></p> | <p>Shard 0: <code>1666700000</code></p><p>Shard 1: <code>1666700001</code></p><p>Shard 2: <code>1666700002</code></p><p>Shard 3: <code>1666700003</code></p> |
+| **Currency symbol (optional)**                           | ONE                                                                                                                                                          | ONE                                                                                                                                                          |
+| **Block Explorer URL (optional)**                        | [https://explorer.harmony.one/](https://explorer.harmony.one/#/)                                                                                             | [https://explorer.pops.one/](https://explorer.pops.one/#/)                                                                                                   |
 
 {% hint style="info" %}
-In order to configure Metamask with Binance Smart Chain \(BSC\) check the documenation [here](https://docs.binance.org/smart-chain/wallet/metamask.html).
+In order to configure Metamask with Binance Smart Chain (BSC) check the documenation [here](https://docs.binance.org/smart-chain/wallet/metamask.html).
 {% endhint %}
 
 The example below shows the configuration that needs to be done to connect to Harmony Mainnet on Shard 0:
 
-![](../../../.gitbook/assets/image%20%28294%29%20%281%29%20%282%29%20%282%29%20%281%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%283%29%20%283%29%20%283%29%20%281%29%20%283%29.png)
+![](<../../../.gitbook/assets/image (294) (1) (2) (2) (1) (2) (2) (2) (2) (2) (2) (2) (2) (3) (3) (3) (1) (4).png>)
 
 Click now on the Save button and your configuration should be done!
 
@@ -141,7 +74,7 @@ Since Metamask does not allow you to send transactions to addresses starting wit
 
 ### Getting the 0x Equivalent Address
 
-* Go to [https://explorer.harmony.one/\#/](https://explorer.harmony.one/#/) \(Mainnet\) or [https://explorer.pops.one/\#/](https://explorer.pops.one/#/) \(Testnet\) and search for your address
+* Go to [https://explorer.harmony.one/#/](https://explorer.harmony.one/#/) (Mainnet) or [https://explorer.pops.one/#/](https://explorer.pops.one/#/) (Testnet) and search for your address
 * On top of the blockexplorer toogle the address format from ONE to ETH
 
 ![Address Format](../../../.gitbook/assets/metamask_sending_transactions1.png)
@@ -158,7 +91,7 @@ To send a transaction on Metamask click on **Send** button and on next window co
 If your transaction fails due to insufficient gas, set the Gas Limit to 25000
 {% endhint %}
 
-![](../../../.gitbook/assets/image-2021-08-18-at-9.37.52-am.jpg)
+![](<../../../.gitbook/assets/Image 2021-08-18 at 9.37.52 AM.jpg>)
 
 ### Receiving a Regular Transaction
 
@@ -170,9 +103,9 @@ In order to receive a transaction, just share the **0x** address format. One Wal
 
 On Metamask click on **Add Token** and on next window select **Custom Token**. Fill it with the contract address starting with **0x**, Token Symbol of the token and the Decimals of Precision which is usually 18:
 
-![Add Token](../../../.gitbook/assets/metamask_hrc20_account1.png)
+![Add Token](../../../.gitbook/assets/metamask_hrc20\_account1.png)
 
-![Custom Token](../../../.gitbook/assets/metamask_hrc20_account2.png)
+![Custom Token](../../../.gitbook/assets/metamask_hrc20\_account2.png)
 
 Now click on **Next** and then **Add Tokens.** Your custom HRC20 Token will show up on a new page. It will also be available on the main Metamask window on the Assets tab.
 
@@ -190,7 +123,6 @@ Applications can provide 1-click access to the Harmony mainnet. An example of th
 
 Click on the top right where it says "Harmony" and it will open a simple drop down menu to select the network you want to use Sushi on.
 
-![](../../../.gitbook/assets/image%20%281%29.png)
+![](<../../../.gitbook/assets/image (239).png>)
 
-![](../../../.gitbook/assets/image%20%283%29.png)
-
+![](<../../../.gitbook/assets/image (238).png>)

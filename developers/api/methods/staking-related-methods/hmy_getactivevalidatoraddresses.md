@@ -2,7 +2,7 @@
 description: hmy_getActiveValidatorsAddresses
 ---
 
-# hmy\_getActiveValidatorAddresses
+# hmy_getActiveValidatorAddresses
 
 Returns active validators addresses list
 
@@ -31,4 +31,3 @@ curl -d '{
     "result": ["one103q7qe5t2505lypvltkqtddaef5tzfxwsse4z7"]
 }
 ```
-

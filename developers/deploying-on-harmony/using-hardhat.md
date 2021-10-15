@@ -4,7 +4,7 @@ Follow until step 7 of the [Hardhat tutorial](https://hardhat.org/tutorial/)
 
 Add Harmony testnet or mainnet entries to `hardhat.config.js` file.
 
-```text
+```
 require("@nomiclabs/hardhat-waffle");
 
 // Replace this private key with your Harmony account private key
@@ -30,7 +30,6 @@ module.exports = {
 
 Finally run:
 
-```text
+```
 npx hardhat run scripts/deploy.js --network testnet
 ```
-

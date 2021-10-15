@@ -29,5 +29,3 @@ npm install npm --global # Upgrade npm to the latest version
 
 Get node-v12.XX.XX-x64.msi from [here](https://nodejs.org/dist/latest-v12.x/)
 
-
-

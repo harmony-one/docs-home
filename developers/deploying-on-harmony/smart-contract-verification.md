@@ -23,19 +23,18 @@ To easy the verification we recommend the contract deployment using [Harmony Rem
 
 You can verify your contract here: [https://explorer.harmony.one/verifycontract](https://explorer.harmony.one/verifycontract)
 
-![Verify Contract](../../.gitbook/assets/verify_contract%20%282%29%20%284%29%20%285%29%20%282%29%20%281%29%20%283%29.png)
+![Verify Contract](<../../.gitbook/assets/verify_contract (2) (4) (5) (2) (1) (2).png>)
 
-It is important to use the correct parameters \(same as on deployment\):
+It is important to use the correct parameters (same as on deployment):
 
 * Contract address
 * Contract name
 * Compiler version
 * Optimizer
-* Chain Type \(mainnet or testnet\)
+* Chain Type (mainnet or testnet)
 * Sources
 * Imported libs
 
 Then click on **Sumbit** button. If all params was correct - you should to see Success message, or Error if bytecodes are not equal. On Success case - you contract will verify and you will see all contract details on contract explorer page.
 
-![Contract Verification](../../.gitbook/assets/untitled-1%20%282%29%20%284%29%20%285%29%20%285%29%20%283%29%20%281%29.png)
-
+![Contract Verification](<../../.gitbook/assets/untitled-1 (2) (4) (5) (5) (3) (1) (2).png>)

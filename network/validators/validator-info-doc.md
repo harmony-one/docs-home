@@ -8,7 +8,7 @@ This page introduces main terms about validator infos in the [harmony-mainnet-tr
 
 ## APR
 
-Annual Percentage Return \(APR\) is the percent return of rewards for the last epoch that _**the validator was last elected**_. 
+Annual Percentage Return (APR) is the percent return of rewards for the last epoch that _**the validator was last elected**_. 
 
 {% hint style="warning" %}
 This field reflects the data of the last epoch this validator elected, not the current epoch. 
@@ -18,11 +18,11 @@ For example, if a validator was elected in epoch 186 with 50% APR and they were 
 
 ### Latest Expected Return
 
-![Example Validator Profile](../../.gitbook/assets/screen-shot-2020-07-25-at-9.37.37-pm.png)
+![Example Validator Profile](<../../.gitbook/assets/Screen Shot 2020-07-25 at 9.37.37 PM.png>)
 
 Latest expected return is the validator's APR for the latest epoch.
 
-![Example Validator List](../../.gitbook/assets/screen-shot-2020-07-25-at-9.34.32-pm.png)
+![Example Validator List](<../../.gitbook/assets/Screen Shot 2020-07-25 at 9.34.32 PM.png>)
 
 The Expected Return field here is average of the validator's APR for the past 30 epochs that they were elected.
 
@@ -36,9 +36,9 @@ $$
 
 Where s is the number of blocks signed by the validator and b is the number of blocks in the epoch so far.
 
-If a validator has never been elected, their uptime will display as _**None**_ in the tracking spreadsheet_**.**_ In the staking dashboard, their uptime will be 0.00%.
+If a validator has never been elected, their uptime will display as _**None **_in the tracking spreadsheet_**. **_In the staking dashboard, their uptime will be 0.00%.
 
-![Example of a validate that has never been elected](../../.gitbook/assets/screen-shot-2020-07-25-at-11.18.51-pm.png)
+![Example of a validate that has never been elected](<../../.gitbook/assets/Screen Shot 2020-07-25 at 11.18.51 PM.png>)
 
 {% hint style="warning" %}
 Similarly to APR, uptime is also only updated if the validator is currently elected. 
@@ -58,7 +58,7 @@ There are five types of data in this field:
 * doubleSigningBanned
 * unknown
 
-Epos status is based on the validator's active status. The validator's active status will be controlled either by user or system \(if detected low uptime or 0 self-stake\). However if the validator is never elected, as long as he set the validator status as active, he will always be shown as "eligible to be elected next epoch".
+Epos status is based on the validator's active status. The validator's active status will be controlled either by user or system (if detected low uptime or 0 self-stake). However if the validator is never elected, as long as he set the validator status as active, he will always be shown as "eligible to be elected next epoch".
 
 ## Boot-status
 
@@ -69,4 +69,3 @@ There are five types of the data in this field:
 * TurnedInactiveOrInsufficientUptime
 * BannedForDoubleSigning
 * None: when the validator is currently elected
-

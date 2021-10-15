@@ -10,11 +10,11 @@ description: >-
 
 Let us first create a simple HRC20 token with name "Gold" and symbol "GLD" with default 18 decimals.
 
-1. Launch [Remix](https://remix.ethereum.org/) and create a new file with name GLDToken.sol and copy paste the code below.
+1\. Launch [Remix](https://remix.ethereum.org) and create a new file with name GLDToken.sol and copy paste the code below.
 
 ![](../../.gitbook/assets/new-file.png)
 
-```text
+```
 // contracts/GLDToken.sol
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
@@ -28,29 +28,29 @@ contract GLDToken is ERC20 {
 }
 ```
 
-2. Compile the GLDToken.sol
+2\. Compile the GLDToken.sol
 
-![](../../.gitbook/assets/compile%20%281%29.png)
+![](<../../.gitbook/assets/compile (1).png>)
 
-3. Deploy the GLDToken.sol
+3\. Deploy the GLDToken.sol
 
-![](../../.gitbook/assets/deploy%20%281%29.png)
+![](<../../.gitbook/assets/deploy (1).png>)
 
-4. Interacting with the deployed GLDToken.
+4\. Interacting with the deployed GLDToken.
 
-![](../../.gitbook/assets/deployed%20%281%29.png)
+![](<../../.gitbook/assets/deployed (1).png>)
 
-5. Changing decimals from default 18 to e.g., 16 can be done by adding the following function to GLDToken.sol file and repeating steps 2-4.
+5\. Changing decimals from default 18 to e.g., 16 can be done by adding the following function to GLDToken.sol file and repeating steps 2-4.
 
-```text
+```
 function decimals() public view virtual override returns (uint8) {
     return 16;
 }
 ```
 
-6. Deploying a Preset HRC20 contract: A preset HRC20 contract allow for token minting, stop all token transfers \(pause\), and allow holders to burn their tokens. More info [here](https://docs.openzeppelin.com/contracts/4.x/erc20#Presets). Copy and paste the code below to your GLDToken.sol and repeat the steps 2-4.
+6\. Deploying a Preset HRC20 contract: A preset HRC20 contract allow for token minting, stop all token transfers (pause), and allow holders to burn their tokens. More info [here](https://docs.openzeppelin.com/contracts/4.x/erc20#Presets). Copy and paste the code below to your GLDToken.sol and repeat the steps 2-4.
 
-```text
+```
 // contracts/GLDToken.sol
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
@@ -63,6 +63,4 @@ contract GLDToken is ERC20PresetMinterPauser {
     }
 }
 ```
-
-
 

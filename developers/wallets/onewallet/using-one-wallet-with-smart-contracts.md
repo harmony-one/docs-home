@@ -2,7 +2,7 @@
 
 Add the following lines to your `src/init.js`
 
-```text
+```
 import initializeContract from './contract';
 import userWallet from './userWallet';
 
@@ -22,7 +22,7 @@ async function initWallet(){
 
 In you `src/hmy.js` file, add the following lines of code
 
-```text
+```
 const { Harmony } = require('@harmony-js/core');
 const { ChainType } = require('@harmony-js/utils');
 
@@ -38,7 +38,7 @@ export default new Harmony(
 
 Now add the following lines of code to `src/contract.js`
 
-```text
+```
 import hmy from './hmy';
 import fs from 'fs';
 
@@ -56,7 +56,7 @@ export default initializeContract;
 
 To sign the transactions when calling send method on a smart contract, add the following lines to wallet class in `src/userWallet.js`
 
-```text
+```
       signTransaction(txn) {
         if (this.isOneWallet) {
           return this.onewallet.signTransaction(txn);
@@ -82,13 +82,13 @@ To sign the transactions when calling send method on a smart contract, add the f
 
 Now call "view" methods on smart contracts like this:
 
-```text
+```
   const value = await contract.methods.getMoneyStored().call();
 ```
 
 Call "payable" methods like this.
 
-```text
+```
     const one = new BN('1')
     let options = {
 		gasPrice: 1000000000,
@@ -100,4 +100,3 @@ Call "payable" methods like this.
 ```
 
 **Congratulations** you have now connected your Harmony Chrome Extension Wallet, and completed writing code for it to interact with the Harmony blockchain.
-

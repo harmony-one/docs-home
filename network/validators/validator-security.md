@@ -18,25 +18,25 @@ In case you find YubiKey an expensive solution, other methods for 2FA can be use
 
 ### **What are and why use HSM modules?**
 
-Hardware Security Modules \(HSMs\) generate, manage and store the secure cryptographic keys that are required for authenticating an user or device in a broader network. Malware attacks and remote extraction of private keys are much more difficult when a HSM module is configured properly. When you have your private key on your validator that is secured only by a password, an attacker can simply copy your private key and sign malicious transactions or generate double signs which can result for example in stake slashing or other unwanted operations on your node. By using Two-Factor Authenticator \(2FA\) and HSM module, you are strengthening the authentication on your Virtual Private Server \(VPS\). There are many options for 2FA but is recommended that you actually use a HSM module like YubiKey for this. Even better would be to use certificate in combination with a HSM module in order to authenticate and disable password login.
+Hardware Security Modules (HSMs) generate, manage and store the secure cryptographic keys that are required for authenticating an user or device in a broader network. Malware attacks and remote extraction of private keys are much more difficult when a HSM module is configured properly. When you have your private key on your validator that is secured only by a password, an attacker can simply copy your private key and sign malicious transactions or generate double signs which can result for example in stake slashing or other unwanted operations on your node. By using Two-Factor Authenticator (2FA) and HSM module, you are strengthening the authentication on your Virtual Private Server (VPS). There are many options for 2FA but is recommended that you actually use a HSM module like YubiKey for this. Even better would be to use certificate in combination with a HSM module in order to authenticate and disable password login.
 
 ### **How can I secure the access to my VPS better?**
 
-#### **1.** Add Two-factor Authenticator to your VPS provider if it is allowed.
+#### **1. **Add Two-factor Authenticator to your VPS provider if it is allowed.
 
 Serious VPS providers allow this already and also to use a HSM module like YubiKey. This guide focuses on Vultr but the documentation for YubiKey activation can be found in the documentation of different VPS providers, e.g. Hetzner: [https://wiki.hetzner.de/index.php/KonsoleH:Zwei-Faktor-Authentifizierung/en](https://wiki.hetzner.de/index.php/KonsoleH:Zwei-Faktor-Authentifizierung/en)
 
 **Activate 2FA with YubiYey for Vultr**
 
-In order to use YubiKey Authentication, you need any of Yubico’s Yubikey USB devices. Next, you would need to login to your Vultr Account: Click Account -&gt; Authentication -&gt; Manage Two Factor Auth: [https://my.vultr.com/settings/twofactor/](https://my.vultr.com/settings/twofactor/)
+In order to use YubiKey Authentication, you need any of Yubico’s Yubikey USB devices. Next, you would need to login to your Vultr Account: Click Account -> Authentication -> Manage Two Factor Auth: [https://my.vultr.com/settings/twofactor/](https://my.vultr.com/settings/twofactor/)
 
 Under Add new authentication method, select YubiKey, enter a description of your choice in the next field, then click Add.
 
-In the next page, you will need to make sure your YubiKey device is plugged into one of your USB Ports on your computer. You will be presented with a text field in which you need to click, then press the button\(s\) on your YubiKey Device, or touch the edge of the device if you’re using a YubiKey Nano, then click Update.
+In the next page, you will need to make sure your YubiKey device is plugged into one of your USB Ports on your computer. You will be presented with a text field in which you need to click, then press the button(s) on your YubiKey Device, or touch the edge of the device if you’re using a YubiKey Nano, then click Update.
 
 In the next page, you will need to repeat the previous step to re-enter a secondary token, then click Update.
 
-When you are finished, log out of your Vultr account. Then attempt to log back in. You will be asked to enter an authentication code. Insert the YubiKey device in one of your computer’s USB ports, and either press the button\(s\) or touch the edge of the device.
+When you are finished, log out of your Vultr account. Then attempt to log back in. You will be asked to enter an authentication code. Insert the YubiKey device in one of your computer’s USB ports, and either press the button(s) or touch the edge of the device.
 
 #### **2. Create a SSH Public-Private Key pair for your VPS and assign the Public Key to the VPS when creating it.**
 
@@ -50,15 +50,15 @@ Popular algorithms for creating SSH Keys:
 
 To generate the SSH keys on macOS use the Terminal and the command below. 
 
-```text
+```
 ssh-keygen -t rsa
 ```
 
 #### **3. Use SSH Private Key and not password to authenticate on your VPS**
 
-#### **4.** If you received any root password after creating your VPS, change it
+#### **4. **If you received any root password after creating your VPS, change it
 
-```text
+```
 passwd
 ```
 
@@ -70,13 +70,13 @@ Make sure to **back-up this password** and also be aware where you place it so t
 
 For Debian based systems like Ubuntu or Debian use the command below: 
 
-```text
+```
 sudo apt-get update && sudo apt-get upgrade
 ```
 
 For Amazon Linux use the command below:
 
-```text
+```
 sudo yum update
 ```
 
@@ -84,25 +84,25 @@ sudo yum update
 
 It is not recommended to use directly the root user on your VPS. Therefore create a new user:
 
-```text
+```
 adduser <your-username>
 ```
 
-Add the newly created &lt;your-username&gt; user to the sudo group:
+Add the newly created \<your-username> user to the sudo group:
 
-```text
+```
 adduser <your-username> sudo
 ```
 
 You can switch to the new user with the following command:
 
-```text
+```
 sudo -u <your-username> -i
 ```
 
 #### **7. Create the necessary setup so that the new created user can login using certificate**
 
-```text
+```
 sudo mkdir -p "/home/<your-username>/.ssh"
 sudo chmod 0700 "/home/<your-username>/.ssh"
 sudo chown "<your-username>:<your-username>" "/home/<your-username>/.ssh"
@@ -110,7 +110,7 @@ sudo chown "<your-username>:<your-username>" "/home/<your-username>/.ssh"
 
 Add the public key to your new created user
 
-```text
+```
 sudo nano "/home/<your-username>/.ssh/authorized_keys"
 sudo ls "/home/<your-username>/.ssh" -l
 sudo chown "<your-username>:<your-username>" "/home/<your-username>/.ssh/authorized_keys"
@@ -121,7 +121,7 @@ sudo chmod 0600 "/home/<your-username>/.ssh/authorized_keys"
 
 First add the PPA and install the library.
 
-```text
+```
 sudo add-apt-repository ppa:yubico/stable
 sudo apt-get update
 sudo apt-get install libpam-yubico
@@ -129,13 +129,13 @@ sudo apt-get install libpam-yubico
 
 Let’s add pam settings for SSH.
 
-```text
+```
 sudo nano /etc/pam.d/sshd
 ```
 
 Add the following line at the top to enable the module:
 
-```text
+```
 auth sufficient pam_yubico.so id=[Your API Client ID] key=[Your API Client Key] authfile=/etc/yubikey_mappings
 ```
 
@@ -145,7 +145,7 @@ You can use the following link in order to get the API Client ID and the API Cli
 
 To improve the security you should comment the following line out:
 
-```text
+```
 @include common-auth
 ```
 
@@ -153,56 +153,54 @@ This way the YubiKey is required to authenticate without a possibility to fall b
 
 Result:
 
-![](https://lh3.googleusercontent.com/6T2EW66tjlnLZWKCERhmLkfEg7wqGCmuamwAMmckh31Osz6K_nGXkHR04SQca2_D37bTvlJAz0Tvid8eX5vZ9FlpojHv6rg42wcz51bcbRrvT-Vi_f8mBRl-PhQ87Q0SA7eN42I)
+![](https://lh3.googleusercontent.com/6T2EW66tjlnLZWKCERhmLkfEg7wqGCmuamwAMmckh31Osz6K_nGXkHR04SQca2\_D37bTvlJAz0Tvid8eX5vZ9FlpojHv6rg42wcz51bcbRrvT-Vi_f8mBRl-PhQ87Q0SA7eN42I)
 
-Save the file and exit -&gt; press Ctrl+X and then press “y”
+Save the file and exit -> press Ctrl+X and then press “y”
 
 Next step is to create a mapping file where you define which YubiKey device is assigned to which user of your VPS.
 
 The mapping file contains users and YubiKey identifiers. The YubiKey identifiers are always the first 12 characters of the generated YubiKey token. In order to generate the YubiKey token you just tap your YubiKey. Then you select its first 12 characters. In case you have multiple YubiKeys you can also add multiple.
 
-```text
+```
 sudo nano /etc/yubikey_mappings
 ```
 
 Add the mappings for each user:
 
-```text
+```
 <user1:<first 12 characters of yubikey1>:<first 12 characters of yubikey2>
 <user2>:<first 12 characters of yubikey1> 
 ```
 
-Save the file and exit -&gt; press Ctrl+X and then press “y”
+Save the file and exit -> press Ctrl+X and then press “y”
 
-Next step is to update sshd\_config file to authenticate via public key and pam.
+Next step is to update sshd_config file to authenticate via public key and pam.
 
-```text
+```
 sudo nano /etc/ssh/sshd_config
 ```
 
 Following changes need to be made:
 
-* Enable challenge response authentication by changing it to “yes” ****
+*   Enable challenge response authentication by changing it to “yes”** **
 
-  _ChallengeResponseAuthentication yes_
+    _ChallengeResponseAuthentication yes_
+*   Add a new line that sets the Authentication Methods to require first the public key to be valid and then the YubiKey token for each user.
 
-* Add a new line that sets the Authentication Methods to require first the public key to be valid and then the YubiKey token for each user.
-
-  _AuthenticationMethods publickey,keyboard-interactive:pam_
-
+    _AuthenticationMethods publickey,keyboard-interactive:pam_
 * UsePAM yes
-* Disable the password authentication by removing “\#” in front of this line:
+*   Disable the password authentication by removing “#” in front of this line:
 
-  _PasswordAuthentication_ and set the value from _yes_ to _no_ 
+    _PasswordAuthentication_ and set the value from _yes_ to _no_ 
+* Disable root authentication - if you have created a separate user for your application, deployments, etc. you can also disable the SSH root user access, which will add an extra layer of security to your VPS.** **Find the line _PermitRootLogin_, remove the comment sign “#” from the beginning of it and set the value to _no_
+*   Change your SSH port from 22 to another one, for example 2225.** **
 
-* Disable root authentication - if you have created a separate user for your application, deployments, etc. you can also disable the SSH root user access, which will add an extra layer of security to your VPS. ****Find the line _PermitRootLogin_, remove the comment sign “\#” from the beginning of it and set the value to _no_
-* Change your SSH port from 22 to another one, for example 2225. ****
+    Don’t use any of the ports in this list: [https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers) , as they are already being used.** **\
 
-  Don’t use any of the ports in this list: [https://en.wikipedia.org/wiki/List\_of\_TCP\_and\_UDP\_port\_numbers](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers) , as they are already being used. ****  
 
-Example sshd\_config file - **take it only as reference to see the security changes and don't copy it!**
+Example sshd_config file - **take it only as reference to see the security changes and don't copy it!**
 
-```text
+```
 #	$OpenBSD: sshd_config,v 1.101 2017/03/14 07:19:07 djm Exp $
 
 # This is the sshd server system-wide configuration file.  See
@@ -329,15 +327,15 @@ Subsystem	sftp	/usr/lib/openssh/sftp-server
 #	ForceCommand cvs server
 ```
 
-Save the file and exit -&gt; press Ctrl+X and then press “y”
+Save the file and exit -> press Ctrl+X and then press “y”
 
 Finally restart the sshd service to update the settings.
 
-```text
+```
 service sshd restart
 ```
 
-**Test the configuration**  
+**Test the configuration**\
 It is recommended to keep the current session active. In case something went wrong, you will still have access to your VPS and be able to make changes.
 
 Create a new ssh connection and check if the SSH login with certificate and YubiKey works. First the certificate will be used and then you will be prompted for YubiKey. Once this is the case just tap your YubiKey to enter your token and login.
@@ -348,30 +346,30 @@ Example:
 
 **9. Install fail2ban to reduce brute force attacks**
 
-```text
+```
 sudo apt-get install -y fail2ban
 ```
 
 Start and enable the service
 
-```text
+```
 sudo systemctl start fail2ban
 sudo systemctl enable fail2ban
 ```
 
 It is recommended to use a separate jail.local file to actually read your own configuration. For that first you have to copy the basic configuration jail.conf to the local one jail.local. The new file jail.local will override the original settings in jail.conf.
 
-```text
+```
 sudo cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
 ```
 
 Edit the file jail.local
 
-```text
+```
 sudo nano /etc/fail2ban/jail.local
 ```
 
-```text
+```
 Enter your desired configuration, for example:
 [sshd]
 enabled = true
@@ -383,28 +381,27 @@ maxretry = 5
 
 This configuration will block an IP address that is being used to log into your VPS via SSH, port 22 and fails for 5 times.
 
-Save and close the file -&gt; press Ctrl+X and then press “y”
+Save and close the file -> press Ctrl+X and then press “y”
 
 Restart fail2ban to activate the settings
 
-```text
+```
 sudo systemctl restart fail2ban
 ```
 
-**10. Configure system firewall with IPtables**  
-More about it can be found here: [https://www.tecmint.com/linux-iptables-firewall-rules-examples-commands/](https://www.tecmint.com/linux-iptables-firewall-rules-examples-commands/)  
-  
+**10. Configure system firewall with IPtables**\
+More about it can be found here: [https://www.tecmint.com/linux-iptables-firewall-rules-examples-commands/](https://www.tecmint.com/linux-iptables-firewall-rules-examples-commands/)\
+\
 **11. Monitor and manage your system and process by using htop**
 
- ****Install htop
+** **Install htop
 
-```text
+```
 sudo apt-get install htop
 ```
 
 Run htop
 
-```text
+```
 htop
 ```
-

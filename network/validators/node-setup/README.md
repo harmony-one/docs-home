@@ -1,10 +1,17 @@
 # Node Setup
 
-{% page-ref page="hmy-cli-download.md" %}
+{% content-ref url="hmy-cli-download.md" %}
+[hmy-cli-download.md](hmy-cli-download.md)
+{% endcontent-ref %}
 
-{% page-ref page="generating-a-bls-key.md" %}
+{% content-ref url="generating-a-bls-key.md" %}
+[generating-a-bls-key.md](generating-a-bls-key.md)
+{% endcontent-ref %}
 
-{% page-ref page="syncing-db.md" %}
+{% content-ref url="syncing-db.md" %}
+[syncing-db.md](syncing-db.md)
+{% endcontent-ref %}
 
-{% page-ref page="installing-updating/" %}
-
+{% content-ref url="installing-updating/" %}
+[installing-updating](installing-updating/)
+{% endcontent-ref %}

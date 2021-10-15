@@ -17,23 +17,23 @@ Project owners or users can apply for the governance section by following these 
 * Fork this repository [https://github.com/harmony-one/snapshot-spaces](https://github.com/harmony-one/snapshot-spaces)
 * Create project name in the “spaces” directory, containing the files as in the “examples” sub-folder
 * Create any changes to the voting mechanism, such as including the staked or LP-ed tokens by modifying the snapshot.js library which is managed by snapshot-lab. You can submit a PR in this repo: [https://github.com/snapshot-labs/snapshot.js](https://github.com/snapshot-labs/snapshot.js)
-* Submit a whitelist of addresses that are allowed to create proposals \(optional\) Submit a PR to the original repository; add reviewers
+* Submit a whitelist of addresses that are allowed to create proposals (optional) Submit a PR to the original repository; add reviewers
 
 ## Users: How does it work? 
 
 The governance app is available at [https://governance.harmony.one](https://governance.harmony.one). To interact with it, you need to connect your [One Wallet](../wallets/browser-extensions-wallets/one-wallet.md) or [Metamask](../wallets/browser-extensions-wallets/metamask-wallet.md), the same as using Metamask on Ethereum.
 
-Any HRC-20 token holder can create or vote on proposals within their own project, unless specified differently by the project creators. For example, Mochi \(hMochi\) owners can create and vote on Mochiswap projects. When voting, by default, only the tokens you hold in the wallet will contribute to your voting power, unless specified differently by the project.
+Any HRC-20 token holder can create or vote on proposals within their own project, unless specified differently by the project creators. For example, Mochi (hMochi) owners can create and vote on Mochiswap projects. When voting, by default, only the tokens you hold in the wallet will contribute to your voting power, unless specified differently by the project.
 
-Rules and guidelines: Anyone can create a proposal that hold the correlated HRC-20 token, unless specified differently by the project The voting proposal on forum should include details on what percentage of total tokens held is needed for the vote to pass and have the project name in bracket before the name, for example: \[Mochiswap\] Change of farming rewards The voting app takes a snapshot of the balances at the block in which it was created, so your voting power is therefore locked in to whatever amount of tokens you held at that point All votes are final, once you approve your vote, you cannot undo or change it
+Rules and guidelines: Anyone can create a proposal that hold the correlated HRC-20 token, unless specified differently by the project The voting proposal on forum should include details on what percentage of total tokens held is needed for the vote to pass and have the project name in bracket before the name, for example: \[Mochiswap] Change of farming rewards The voting app takes a snapshot of the balances at the block in which it was created, so your voting power is therefore locked in to whatever amount of tokens you held at that point All votes are final, once you approve your vote, you cannot undo or change it
 
 ## Creating a Proposal 
 
-To create a proposal navigate to the [governance app](https://governance.harmony.one/), connect your [One Wallet ](../wallets/browser-extensions-wallets/one-wallet.md)or [MetaMask](../wallets/browser-extensions-wallets/metamask-wallet.md), then click on New proposal on the top right corner. You can now start writing a new proposal:
+To create a proposal navigate to the [governance app](https://governance.harmony.one), connect your [One Wallet ](../wallets/browser-extensions-wallets/one-wallet.md)or [MetaMask](../wallets/browser-extensions-wallets/metamask-wallet.md), then click on New proposal on the top right corner. You can now start writing a new proposal:
 
 ![](../../.gitbook/assets/governance-hrc20-2.png)
 
-1 - The title of the proposal.  
+1 - The title of the proposal.\
 2 - The body of the proposal; e.g. what you want people to vote on and any explanation, facts, examples, etc. The proposal should include the following key sections:
 
 * Summary: one short paragraph to describe the proposal
@@ -43,10 +43,10 @@ To create a proposal navigate to the [governance app](https://governance.harmony
 * Specification: specific action or changes proposed in the proposal
 * Vote: specify voting options and what each one means if voted for
 
-3 - Voting choices; you add choices for voting, minimum is 2, but you can always add more choices with the Add choice button below.  
-4 - Select the date and time at which the proposal will be open for voting.  
-5 - Select date and time at which the proposal will close for voting.  
-6 - The block number in which the proposal was submitted.  
+3 - Voting choices; you add choices for voting, minimum is 2, but you can always add more choices with the Add choice button below.\
+4 - Select the date and time at which the proposal will be open for voting.\
+5 - Select date and time at which the proposal will close for voting.\
+6 - The block number in which the proposal was submitted.\
 7 - Publish once done with all previous steps and confirm with a signed message from your validator address via One Wallet.
 
 ## Voting on a Proposal
@@ -54,4 +54,3 @@ To create a proposal navigate to the [governance app](https://governance.harmony
 To vote for a proposal, simply navigate to the Active tab and click on a proposal you want to vote on. Read what the proposal is about, select your choice and confirm with a signed message from your wallet:
 
 ![Voting on a Proposal](../../.gitbook/assets/gorvenance-hrc20-3.png)
-

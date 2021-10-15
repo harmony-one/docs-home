@@ -2,7 +2,7 @@
 description: hmy_getStakingTransactionByBlockNumberAndIndex
 ---
 
-# hmy\_getStakingTransactionByBlockNumberAndIndex
+# hmy_getStakingTransactionByBlockNumberAndIndex
 
 Get staking transaction at an index from a given block, specified by number.
 
@@ -28,7 +28,7 @@ Get staking transaction at an index from a given block, specified by number.
 * `v` - `String`: signature V
 * `r` - `String`: signature R
 * `s` - ~~`String`~~: signature S
-* `type` - `String`: staking transaction type \("CreateValidator", "EditValidator", "CollectRewards", "Undelegate", "Delegate"\)
+* `type` - `String`: staking transaction type ("CreateValidator", "EditValidator", "CollectRewards", "Undelegate", "Delegate")
 * `msg` - `StakingMsg:`
   * `CreateValidator:`
     * `validatorAddress` - `String:` validator address
@@ -113,7 +113,7 @@ curl -d '{
 * `v` - `String`: signature V
 * `r` - `String`: signature R
 * `s` - ~~`String`~~: signature S
-* `type` - `String`: staking transaction type \("CreateValidator", "EditValidator", "CollectRewards", "Undelegate", "Delegate"\)
+* `type` - `String`: staking transaction type ("CreateValidator", "EditValidator", "CollectRewards", "Undelegate", "Delegate")
 * `msg` - `StakingMsg:`
   * `CreateValidator:`
     * `validatorAddress` - `String:` validator address
@@ -175,4 +175,3 @@ curl -d '{
     "result": null
 }
 ```
-

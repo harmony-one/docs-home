@@ -1,15 +1,15 @@
-# hmy\_isBlockSigner
+# hmy_isBlockSigner
 
 ## Description
 
-hmy\_isBlockSigner returns true is validator signed a particular block or not
+hmy_isBlockSigner returns true is validator signed a particular block or not
 
 ## API v1
 
 ### Parameters
 
 1. `String` - block number in string 0x format
-2. `String` - validator one address \("one1..."\)
+2. `String` - validator one address ("one1...")
 
 ### Returns
 
@@ -41,7 +41,7 @@ curl -d '{
 ### Parameters
 
 1. `Number` - block number
-2. `String` - validator one address \("one1..."\)
+2. `String` - validator one address ("one1...")
 
 ### Returns
 
@@ -67,4 +67,3 @@ curl -d '{
     "result": true
 }
 ```
-

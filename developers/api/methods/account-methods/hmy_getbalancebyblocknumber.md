@@ -2,7 +2,7 @@
 description: hmy_getBalanceByBlockNumber
 ---
 
-# hmy\_getBalanceByBlockNumber
+# hmy_getBalanceByBlockNumber
 
 Get the balance of an address at a given block.
 
@@ -75,4 +75,3 @@ curl -d '{
     "result": "1000000000000"
 }
 ```
-

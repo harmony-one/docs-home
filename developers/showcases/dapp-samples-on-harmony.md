@@ -24,7 +24,7 @@ description: >-
 
 ## DeFi Tutorial
 
-{% embed url="https://github.com/harmony-one/defi\_tutorial/" %}
+{% embed url="https://github.com/harmony-one/defi_tutorial/" %}
 
 ## Lottery DApp
 
@@ -36,7 +36,5 @@ description: >-
 
 ## Meme of the Day DApp
 
-{% embed url="https://github.com/harmony-one/meme\_of\_the\_day" %}
-
-
+{% embed url="https://github.com/harmony-one/meme_of_the_day" %}
 

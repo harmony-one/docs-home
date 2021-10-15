@@ -4,7 +4,7 @@ description: How to Use Sushi on Harmony using the Harmony Bridge
 
 # Sushi
 
-![](https://lh5.googleusercontent.com/JVHjmRtrK1bYrUvkRNlsFfdqHdK5tbM1r4hP4FTBEVHeh0yB8_MQHYOApO9Bh7wa6CZ5xAurCbdA7i_AYJw_fUoyRIPFNDgunufmUnziwWxdDcg72dH8WYNmEOFCSK5upa7fMRRl)
+![](https://lh5.googleusercontent.com/JVHjmRtrK1bYrUvkRNlsFfdqHdK5tbM1r4hP4FTBEVHeh0yB8\_MQHYOApO9Bh7wa6CZ5xAurCbdA7i_AYJw_fUoyRIPFNDgunufmUnziwWxdDcg72dH8WYNmEOFCSK5upa7fMRRl)
 
 On June 24, 2021, we announced the [Full-stack partnership that Sushi has with Harmony](https://medium.com/harmony-one/sushi-and-harmony-announce-full-stack-partnership-with-4m-in-incentives-6dfaf6dd8887), including the $4M in incentives for liquidity mining, Kashi, and also the $1M hackathon focused on onboarding software engineers from traditional finance to DeFi. Today, we’ll show you how to participate in the upcoming liquidity mining event on Harmony.
 
@@ -28,14 +28,14 @@ the top right-hand corner
 
 Step 4: Select the Harmony Network and if you don't see it, complete the steps below
 
-Step 5: Approve the switch in your wallet, and done!  
+Step 5: Approve the switch in your wallet, and done!\
 
 
 ![](https://lh5.googleusercontent.com/qIasT5AQnVylpzUf4QVqbJdDCIFUMa3YDDz7P-DE2NkH7ieTnZPkl7bR2POwfeb52enIs2XSZCB8T6dncp6w70XW8TiqWWN_Qc2PFuirMOanAm9gqs9p7jS860Qf37Mn00YP7Le5)
 
 ## How to Use the Harmony Bridge with Sushi
 
-Step 1: Access the Harmony Bridge: https://[bridge.harmony.one](https://bridge.harmony.one/)
+Step 1: Access the Harmony Bridge: https://[bridge.harmony.one](https://bridge.harmony.one)
 
 Step 2: Click on button Connect Metamask.
 
@@ -49,7 +49,7 @@ wallet, click on Next and then Connect.
 
 ## How to Yield Farm Sushi on Harmony
 
-Step 1: Go to [app.sushi.com](http://app.sushi.com/)
+Step 1: Go to [app.sushi.com](http://app.sushi.com)
 
 Step 2: Switch your network to Harmony
 
@@ -57,12 +57,12 @@ Step 3: Click the Yield tab to check which farms are available on the Harmony ne
 
 Step 4: Click the Pool tab
 
-Step 5: Select the tokens for a valid token pair you wish to add liquidity to \*Note, when adding liquidity to a pair, both sides of the pair need to have exact monetary value.  
+Step 5: Select the tokens for a valid token pair you wish to add liquidity to \*Note, when adding liquidity to a pair, both sides of the pair need to have exact monetary value.\
 
 
 ![](https://lh3.googleusercontent.com/8XC8t8YA8iN47XvjtxOBEH0p_OwwPygjpKiLT2DYJtNcdNpM05Clvy_SUgx5Utd0yU7a4lpIfcXrGFwNYvXnUU-ZOr_PNbO0H_FD3I5tl7a4Fxeznnbm0ysoBvKZ5X9XzXRKvpb3)
 
-For example: \[$100 1USDC / $100 ONE\], would be \[100 USDC / 1525 ONE\] at time of writing
+For example: \[$100 1USDC / $100 ONE], would be \[100 USDC / 1525 ONE] at time of writing
 
 Step 6: Add the amount of tokens you wish to add to the pool of the first token. The Sushi platform will automatically add the equal monetary value of liquidity to the second asset, given there is sufficient balance
 
@@ -86,7 +86,7 @@ Step 14: Click Deposit
 
 Step 15: Confirm the transaction and the relevant fees from your wallet
 
-If you have any questions or problems, you can always contact the Harmony team at [harmony.one/telegram](https://harmony.one/telegram). They have a super helpful and welcoming community and are happy to assist you.  
+If you have any questions or problems, you can always contact the Harmony team at [harmony.one/telegram](https://harmony.one/telegram). They have a super helpful and welcoming community and are happy to assist you.\
 
 
 ## WONE Rewards 
@@ -96,4 +96,3 @@ The rewards for Sushi staking are in Wrapped ONEs on Harmony. Please add this co
 `0xcF664087a5bB0237a0BAd6742852ec6c8d69A27a`
 
 You may use Sushi Swap itself to exchange between WONEs and ONEs.
-

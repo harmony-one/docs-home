@@ -2,27 +2,48 @@
 
 
 
-![](../../.gitbook/assets/image%20%28180%29.png)
+![](<../../.gitbook/assets/image (283).png>)
 
-{% page-ref page="definitions/" %}
+{% content-ref url="definitions/" %}
+[definitions](definitions/)
+{% endcontent-ref %}
 
-{% page-ref page="server-setup/" %}
+{% content-ref url="server-setup/" %}
+[server-setup](server-setup/)
+{% endcontent-ref %}
 
-{% page-ref page="node-setup/" %}
+{% content-ref url="node-setup/" %}
+[node-setup](node-setup/)
+{% endcontent-ref %}
 
-{% page-ref page="creating-a-validator.md" %}
+{% content-ref url="creating-a-validator.md" %}
+[creating-a-validator.md](creating-a-validator.md)
+{% endcontent-ref %}
 
-{% page-ref page="managing-a-validator/" %}
+{% content-ref url="managing-a-validator/" %}
+[managing-a-validator](managing-a-validator/)
+{% endcontent-ref %}
 
-{% page-ref page="staking-dashboard.md" %}
+{% content-ref url="staking-dashboard.md" %}
+[staking-dashboard.md](staking-dashboard.md)
+{% endcontent-ref %}
 
-{% page-ref page="validator-info-doc.md" %}
+{% content-ref url="validator-info-doc.md" %}
+[validator-info-doc.md](validator-info-doc.md)
+{% endcontent-ref %}
 
-{% page-ref page="validator-security.md" %}
+{% content-ref url="validator-security.md" %}
+[validator-security.md](validator-security.md)
+{% endcontent-ref %}
 
-{% page-ref page="monitoring/" %}
+{% content-ref url="monitoring/" %}
+[monitoring](monitoring/)
+{% endcontent-ref %}
 
-{% page-ref page="validator-troubleshooting/" %}
+{% content-ref url="validator-troubleshooting/" %}
+[validator-troubleshooting](validator-troubleshooting/)
+{% endcontent-ref %}
 
-{% page-ref page="tools/" %}
-
+{% content-ref url="tools/" %}
+[tools](tools/)
+{% endcontent-ref %}

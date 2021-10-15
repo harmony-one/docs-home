@@ -12,7 +12,7 @@ Harmony-React is not a fork of web3-react, but rather built on top of web3-react
 
 ### Installation
 
-Add `web3-react/core` and the wallets you want to use \(OneWallet, MathWallet or both\) to `package.json`:
+Add `web3-react/core` and the wallets you want to use (OneWallet, MathWallet or both) to `package.json`:
 
 ```javascript
 "@web3-react/core": "latest",
@@ -54,7 +54,7 @@ Store the wallet references in a store or a suitable structure, e.g:
 
 For a more in-depth implementation example check [here](https://github.com/harmony-one/token-faucet-demo-dapp/blob/main/ui/src/stores/index.jsx).
 
-Create a wallet connection/unlock modal \(or other suitable UI element\):
+Create a wallet connection/unlock modal (or other suitable UI element):
 
 ```javascript
 import React from "react";
@@ -193,4 +193,3 @@ For full reference implementations of `Store`, `UnlockModal`, `Unlock`, and `Wal
 * `UnlockModal`: [https://github.com/harmony-one/token-faucet-demo-dapp/blob/main/ui/src/components/unlock/unlockModal.jsx](https://github.com/harmony-one/token-faucet-demo-dapp/blob/main/ui/src/components/unlock/unlockModal.jsx)
 * `Unlock`: [https://github.com/harmony-one/token-faucet-demo-dapp/blob/main/ui/src/components/unlock/index.jsx](https://github.com/harmony-one/token-faucet-demo-dapp/blob/main/ui/src/components/unlock/index.jsx)
 * `WalletComponent`: [https://github.com/harmony-one/token-faucet-demo-dapp/blob/main/ui/src/components/unlock/walletComponent.jsx](https://github.com/harmony-one/token-faucet-demo-dapp/blob/main/ui/src/components/unlock/walletComponent.jsx)
-

@@ -10,7 +10,7 @@ Connect the UPS to the power supply and let it charge.
 
 ## 2. Connect the Modem to the UPS and Set it up
 
-Plug in the modem, the swith and the Raspberry into the UPS and access the Modem. Later we need to set up a fixed IP address and port forwarding \(TCP 6000/9000/9500\) for the Rasperry.
+Plug in the modem, the swith and the Raspberry into the UPS and access the Modem. Later we need to set up a fixed IP address and port forwarding (TCP 6000/9000/9500) for the Rasperry.
 
 ## 3. Prepare the Raspberry
 
@@ -18,9 +18,9 @@ Plug in the modem, the swith and the Raspberry into the UPS and access the Modem
 
 3.2. Install Fan
 
-3.3. Connect Mini HDMI -&gt; HDMI cable \(if you like, otherwise you can use SSH\)
+3.3. Connect Mini HDMI -> HDMI cable (if you like, otherwise you can use SSH)
 
-3.4. Connect the keyboard \(if you like, otherwise you can use SSH\)
+3.4. Connect the keyboard (if you like, otherwise you can use SSH)
 
 3.5. Connect Ethernet
 
@@ -32,7 +32,7 @@ Plug in the modem, the swith and the Raspberry into the UPS and access the Modem
 
 4.1. Access via Powershell, Terminal or directly via Keyboard and Monitor
 
-```text
+```
 ssh username@ip address
 ```
 
@@ -44,7 +44,7 @@ For security reasons Linux requires to change the default ubuntu password.
 
 4.3. Update & Upgrade
 
-```text
+```
 sudo apt update && sudo apt upgrade
 ```
 
@@ -54,7 +54,7 @@ During update we can set up a static IP on the Modem and set up Port forwarding.
 
 4.4. Restart
 
-```text
+```
 sudo reboot
 ```
 
@@ -66,31 +66,31 @@ Code is adapted from an Instruction, check [here](https://jamesachambers.com/ras
 
 5.1. Download Eeprom
 
-```text
+```
 sudo apt install rpi-eeprom
 ```
 
 5.2. Restart
 
-```text
+```
 sudo reboot
 ```
 
 5.3. Connect the hard disk and check
 
-```text
+```
 lsblk
 ```
 
 5.4. Read out the SSD ID via and write it down
 
-```text
+```
 sudo lsusb
 ```
 
 5.5. Mount the hard disk
 
-```text
+```
  sudo mkdir /mnt/boot
  sudo mkdir /mnt/writable
  sudo mount /dev/sda1 /mnt/boot
@@ -110,7 +110,7 @@ sudo lsusb
 
 5.8. Create Quirks driver
 
-In point 5.4. the SSD ID was read out via `sudo lsusb xxxx:xxxx`  
+In point 5.4. the SSD ID was read out via `sudo lsusb xxxx:xxxx`\
 Now connect the hard disk to a computer and add in `/boot/firmware/cmdline.txt` `“usb-storage.quirks=xxxx:xxxx:u”` in the first place, without the quotation marks and save. For example for the Samung T7, `usb-storage.quirks=04e8:4001:u`
 
 5.9. Remove the MicroSD and boot from SSD
@@ -118,7 +118,7 @@ Now connect the hard disk to a computer and add in `/boot/firmware/cmdline.txt` 
 Now it should start from the SSD, let it around 20 Minutes so settle down everything, special if you have a bigger SSD.
 
 {% hint style="info" %}
-In case it searches still for MicroSD, write with the Pi Imager «Misc utility images -&gt; Bootloader -&gt; USB Boot to the MicroSD, put it in and start the Rasperry, wait around 15 seconds, remove power and MicroSD and try again.
+In case it searches still for MicroSD, write with the Pi Imager «Misc utility images -> Bootloader -> USB Boot to the MicroSD, put it in and start the Rasperry, wait around 15 seconds, remove power and MicroSD and try again.
 {% endhint %}
 
 ## 6. Set up the Raspberry again
@@ -126,13 +126,13 @@ In case it searches still for MicroSD, write with the Pi Imager «Misc utility i
 By starting from the SSD, the password must be changed again. Upon logging in for the first time if the Pi is connected to the internet Ubuntu will immediately/soon start a lengthy update process via snapd and apt.
 
 {% hint style="warning" %}
-Make sure you give the system enough time \(20 Minutes at least\) to finish this process before doing going forward.
+Make sure you give the system enough time (20 Minutes at least) to finish this process before doing going forward.
 {% endhint %}
 
 ## 7. Change basic settings
 
 {% hint style="info" %}
-Code is adapted from an Instruction, check [here](https://www.elektronik-kompendium.de/sites/raspberry-pi/2007031.htm) if you need further information’s\).
+Code is adapted from an Instruction, check [here](https://www.elektronik-kompendium.de/sites/raspberry-pi/2007031.htm) if you need further information’s).
 {% endhint %}
 
 7.1. Update by command
@@ -143,11 +143,11 @@ sudo apt update && sudo apt upgrade
 
 7.2. Restart by command
 
-```text
+```
 sudo reboot
 ```
 
-7.3. Change the keyboard to your Language \(if wished\)
+7.3. Change the keyboard to your Language (if wished)
 
 ```bash
 sudo dpkg-reconfigure keyboard-configuration
@@ -155,25 +155,25 @@ sudo dpkg-reconfigure keyboard-configuration
 
 7.4. Restart by command
 
-```text
+```
 sudo reboot
 ```
 
 7.5. Set the time zone
 
-```text
+```
 sudo dpkg-reconfigure tzdata
 ```
 
 7.6. Restart by command
 
-```text
+```
 sudo reboot
 ```
 
 7.7. Speed testing of SSD via
 
-```text
+```
 sudo hdparm -tT /dev/sda && sudo hdparm -tT --direct /dev/sda
 ```
 
@@ -181,13 +181,13 @@ sudo hdparm -tT /dev/sda && sudo hdparm -tT --direct /dev/sda
 
 8.1. Minimize GPU, deactivate Bluetooth, deactivate Wifi and overclocking
 
-```text
+```
 sudo nano /boot/firmware/config.txt
 ```
 
-Add the following in the config file under \[all\]
+Add the following in the config file under \[all]
 
-```text
+```
 over_voltage=5
 arm_freq=1800
 force_turbo=1
@@ -204,20 +204,20 @@ Save via ctrl + x and confirm.
 9.1. Change host name
 
 {% hint style="info" %}
-Code is adapted from an Instruction, check [here](https://phoenixnap.com/kb/ubuntu-20-04-change-hostname) if you need further information’s\).
+Code is adapted from an Instruction, check [here](https://phoenixnap.com/kb/ubuntu-20-04-change-hostname) if you need further information’s).
 {% endhint %}
 
-```text
+```
 hostnamectl set-hostname NEWHOSTNAME
 ```
 
 9.2. Create user
 
 {% hint style="info" %}
-Code is adapted from an Instruction, check [here](https://brightwhiz.com/add-users-ubuntu-20-04/) if you need further information’s\).
+Code is adapted from an Instruction, check [here](https://brightwhiz.com/add-users-ubuntu-20-04/) if you need further information’s).
 {% endhint %}
 
-```text
+```
  sudo -i
  sudo adduser NEWUSER
 ```
@@ -226,24 +226,24 @@ Enter your new password and confirm again.
 
 9.3. Give sudo permission
 
-```text
+```
 sudo usermod -aG sudo NEWUSER
 ```
 
 9.4. Check and even extend authorization
 
-```text
+```
  groups NEWUSER && groups ubuntu
  sudo usermod -G ubuntu, adm, dialout, cdrom, floppy, sudo, audio, dip, video, plugdev, netdev, lxd, root NEWUSER
 ```
 
 9.5. Add the entry for the new user in Visudo
 
-```text
+```
 visudo
 ```
 
-```text
+```
 root ALL = (ALL: ALL) ALL 
 NEWUSER ALL = (ALL: ALL) ALL
 ```
@@ -252,33 +252,33 @@ Save via ctrl + x and confirm.
 
 9.6. Terminate old processes and block users
 
-```text
+```
  sudo pkill -u ubuntu
  sudo usermod -L ubuntu
 ```
 
 9.7. Change to new User
 
-```text
+```
 sudo su -NEWUSER
 ```
 
 ## 10. Firewall Setup
 
 {% hint style="info" %}
-Code is adapted from an Instruction, check [here](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-ufw-on-ubuntu-20-04) if you need further information’s\).
+Code is adapted from an Instruction, check [here](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-ufw-on-ubuntu-20-04) if you need further information’s).
 {% endhint %}
 
 10.1. Install & activate the firewall
 
-```text
+```
  sudo apt install ufw
  sudo ufw enable
 ```
 
 10.2. Open the corresponding TCP ports for Harmony & local SSH from another PC
 
-```text
+```
 sudo ufw allow from LOCALIP to any port 22
 sudo ufw allow 6000/tcp
 sudo ufw allow 9000/tcp
@@ -287,7 +287,7 @@ sudo ufw allow 9500/tcp
 
 10.3. Check Firewall
 
-```text
+```
 sudo ufw status
 ```
 
@@ -300,4 +300,3 @@ Since [HMY CLI](../node-setup/hmy-cli-download.md) is not natively supported ARM
 ## 11. Continue Node Setup
 
 Continue node setup from [Rclone](../node-setup/syncing-db.md) onwards.
-

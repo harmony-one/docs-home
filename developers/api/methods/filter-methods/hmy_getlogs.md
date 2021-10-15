@@ -2,24 +2,24 @@
 description: hmy_getLogs
 ---
 
-# hmy\_getLogs
+# hmy_getLogs
 
 Get harmony logs for smart contracts or transactions
 
 ## Parameters
 
 1. `Object` - The filter options:
-2. `fromBlock`: `QUANTITY|TAG` - \(optional, default: `"latest"`\) Integer block number, or `"latest"` for the last mined block or `"pending"`, `"earliest"` for not yet mined transactions.
-3. `toBlock`: `QUANTITY|TAG` - \(optional, default: `"latest"`\) Integer block number, or `"latest"` for the last mined block or `"pending"`, `"earliest"` for not yet mined transactions.
-4. `address`: `DATA|Array`, 20 Bytes - \(optional\) Contract address or a list of addresses from which logs should originate.
-5. `topics`: `Array of DATA`, - \(optional\) Array of 32 Bytes `DATA` topics. Topics are order-dependent. Each topic can also be an array of DATA with "or" options.
-6. `blockhash`:  `DATA`, 32 Bytes - \(optional\) , `blockHash` is a new filter option which restricts the logs returned to the single block with the 32-byte hash `blockHash`. Using `blockHash` is equivalent to `fromBlock` = `toBlock` = the block number with hash `blockHash`. If `blockHash` is present in the filter criteria, then neither `fromBlock` nor `toBlock` are allowed.
+2. `fromBlock`: `QUANTITY|TAG` - (optional, default: `"latest"`) Integer block number, or `"latest"` for the last mined block or `"pending"`, `"earliest"` for not yet mined transactions.
+3. `toBlock`: `QUANTITY|TAG` - (optional, default: `"latest"`) Integer block number, or `"latest"` for the last mined block or `"pending"`, `"earliest"` for not yet mined transactions.
+4. `address`: `DATA|Array`, 20 Bytes - (optional) Contract address or a list of addresses from which logs should originate.
+5. `topics`: `Array of DATA`, - (optional) Array of 32 Bytes `DATA` topics. Topics are order-dependent. Each topic can also be an array of DATA with "or" options.
+6. `blockhash`:  `DATA`, 32 Bytes - (optional) , `blockHash` is a new filter option which restricts the logs returned to the single block with the 32-byte hash `blockHash`. Using `blockHash` is equivalent to `fromBlock` = `toBlock` = the block number with hash `blockHash`. If `blockHash` is present in the filter criteria, then neither `fromBlock` nor `toBlock` are allowed.
 
 ## Returns
 
-For filters created with `hmy_newBlockFilter` the return are block hashes \(`DATA`, 32 Bytes\), e.g. `["0x3454645634534..."]`.
+For filters created with `hmy_newBlockFilter` the return are block hashes (`DATA`, 32 Bytes), e.g. `["0x3454645634534..."]`.
 
-For filters created with `hmy_newPendingTransactionFilter` the return are transaction hashes \(`DATA`, 32 Bytes\), e.g. `["0x6345343454645..."]`.
+For filters created with `hmy_newPendingTransactionFilter` the return are transaction hashes (`DATA`, 32 Bytes), e.g. `["0x6345343454645..."]`.
 
 For filters created with `hmy_newFilter` logs are objects with following params:
 
@@ -31,7 +31,7 @@ For filters created with `hmy_newFilter` logs are objects with following params:
 * `blockNumber`: `QUANTITY` - the block number where this log was in. `null` when its pending. `null` when its pending log.
 * `address`: `DATA`, 20 Bytes - address from which this log originated.
 * `data`: `DATA` - contains the non-indexed arguments of the log.
-* `topics`: `Array of DATA` - Array of 0 to 4 32 Bytes `DATA` of indexed log arguments. \(In _solidity_: The first topic is the _hash_ of the signature of the event \(e.g. `Deposit(address,bytes32,uint256)`\), except you declared the event with the `anonymous` specifier.\)
+* `topics`: `Array of DATA` - Array of 0 to 4 32 Bytes `DATA` of indexed log arguments. (In _solidity_: The first topic is the _hash_ of the signature of the event (e.g. `Deposit(address,bytes32,uint256)`), except you declared the event with the `anonymous` specifier.)
 
 **Sample Curl Request**
 
@@ -69,4 +69,3 @@ curl -X POST --data
     }]
 }
 ```
-

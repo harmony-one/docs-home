@@ -2,7 +2,7 @@
 description: hmy_getCXReceiptByHash
 ---
 
-# hmy\_getCXReceiptByHash
+# hmy_getCXReceiptByHash
 
 ## API v1
 
@@ -23,7 +23,7 @@ description: hmy_getCXReceiptByHash
 
 ### Sample Curl Request
 
-```text
+```
 curl --location --request POST 'https://api.s0.b.hmny.io/' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -38,7 +38,7 @@ curl --location --request POST 'https://api.s0.b.hmny.io/' \
 
 ### Sample Curl Response
 
-```text
+```
 {
     "jsonrpc": "2.0",
     "id": 1,
@@ -74,7 +74,7 @@ curl --location --request POST 'https://api.s0.b.hmny.io/' \
 
 ### Sample Curl Request
 
-```text
+```
 curl --location --request POST 'https://api.s0.b.hmny.io/' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -89,7 +89,7 @@ curl --location --request POST 'https://api.s0.b.hmny.io/' \
 
 ### Sample Curl Response
 
-```text
+```
 {
     "jsonrpc": "2.0",
     "id": 1,
@@ -105,4 +105,3 @@ curl --location --request POST 'https://api.s0.b.hmny.io/' \
     }
 }
 ```
-

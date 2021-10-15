@@ -2,7 +2,7 @@
 description: hmy_getTotalSupply
 ---
 
-# hmy\_getTotalSupply
+# hmy_getTotalSupply
 
 Get total ONE supply
 
@@ -30,4 +30,3 @@ curl -d '{
     "result": 12600000000
 }
 ```
-
