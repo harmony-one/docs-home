@@ -1,6 +1,6 @@
 # Smart Contract Verification
 
-A quick guide on how to verify your contacts on Harmony.
+A quick guide on how to verify your contracts on Harmony.
 
 [https://explorer.harmony.one/verifycontract](https://explorer.harmony.one/verifycontract)
 
