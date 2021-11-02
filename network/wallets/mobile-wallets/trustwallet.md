@@ -30,13 +30,13 @@ You will need to export the account in which you received the funds and import i
 
 **Example Using Math Wallet:**
 
-1. Open Trust Wallet app 
+1. Open Trust Wallet app&#x20;
 2. Click on "Settings" on the bottom right
-3. Click on "Wallets" 
-4. Click on the info circle next to "Multi-Coin Wallet" 
-5. The screen will show backup options, select "show recovery phrase" 
-6. Your mnemonic recovery phrase will show up, make sure to note them down accurately and securely 
-7. Open Math Wallet Chrome Extension 
+3. Click on "Wallets"&#x20;
+4. Click on the info circle next to "Multi-Coin Wallet"&#x20;
+5. The screen will show backup options, select "show recovery phrase"&#x20;
+6. Your mnemonic recovery phrase will show up, make sure to note them down accurately and securely&#x20;
+7. Open Math Wallet Chrome Extension&#x20;
 8. Click the + sign next to Harmony
 9. Select "Import Wallet"
 10. Select "Import by mnemonic"

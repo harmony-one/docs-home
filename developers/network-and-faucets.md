@@ -23,7 +23,7 @@ Their keystore files are made available wherever you setup Harmony $ONE on your 
 {% endhint %}
 
 {% hint style="success" %}
-Feel free to ping any POPS member for issues on the testnet network/explorer/faucet on harmony discord @harmony-pops or telegram [P-OPS Team Validator](https://t.me/POPS_Team_Validator)
+Feel free to ping any POPS member for issues on the testnet network/explorer/faucet on harmony discord @harmony-pops or telegram [P-OPS Team Validator](https://t.me/POPS\_Team\_Validator)
 {% endhint %}
 
 {% hint style="success" %}

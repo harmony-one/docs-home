@@ -59,7 +59,7 @@ All the start options can be persisted and loaded from a single config file. To 
 2. Customize the config file.
 3. Run harmony node with the config file.
 
-####  Dump the Default Config File
+#### &#x20;Dump the Default Config File
 
 {% tabs %}
 {% tab title="Mainnet" %}
@@ -216,7 +216,7 @@ To enable streamsync, modify the below two sections (Experimental)
 {% endtabs %}
 
 {% hint style="success" %}
-Stream Sync is the new harmony Syncing method allowing to get rid of the previous sync via DNS causing issue when the DNS node wasn't in sync. 
+Stream Sync is the new harmony Syncing method allowing to get rid of the previous sync via DNS causing issue when the DNS node wasn't in sync.&#x20;
 {% endhint %}
 
 #### Start the node with Config File
@@ -371,7 +371,7 @@ Check [here](../../syncing-db.md#archival-node) for instructions on how to sync 
 Keep in mind that the storage space used increases around \~50+ GB per month on s0 due to staking transaction being stored. Other shard should take around 25GB per month. Please plan your storage space accordingly.
 {% endhint %}
 
-The following steps assume the node is connected to mainnet on shard 0, which is required for all exchanges. 
+The following steps assume the node is connected to mainnet on shard 0, which is required for all exchanges.&#x20;
 
 If you are using the config file, which is the recommended way to configure your node, change the settings to the ones below:
 
@@ -389,7 +389,7 @@ If you are using the config file, which is the recommended way to configure your
 {% hint style="info" %}
 IsBeaconArchival flag is applicable to explorer node only. For shard 1/2/3 the beacon shard 0 doesn't need to be in archival mode. So to save space, the recommendation is to set to false. For shard 0 explorer node, IsArchival flag will determine if the database is in archival mode or not.
 
- DataDir (or --db_dir below for cli flag) is the folder where the blockchain data will be store (ie location of harmony_db\_0)
+&#x20;DataDir (or --db\_dir below for cli flag) is the folder where the blockchain data will be store (ie location of harmony\_db\_0)
 {% endhint %}
 
 Alternatively, you can also run it using flag parsing:

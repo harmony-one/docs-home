@@ -6,9 +6,9 @@ description: >-
 
 # Ledger with Metamask
 
-Metamask can be used along with ledger to perform transfers. 
+Metamask can be used along with ledger to perform transfers.&#x20;
 
-Steps:   
+Steps:  &#x20;
 
 ![1. Add Harmony network to metamask (testnet or mainnet)](../../../../.gitbook/assets/harmony-mainnet.png)
 

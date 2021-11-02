@@ -2,7 +2,7 @@
 description: hmy_isLastBlock
 ---
 
-# hmy_isLastBlock
+# hmy\_isLastBlock
 
 Is block epoch last block
 

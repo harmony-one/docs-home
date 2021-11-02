@@ -2,7 +2,7 @@
 description: hmy_getStorageAt
 ---
 
-# hmy_getStorageAt
+# hmy\_getStorageAt
 
 Returns the value from a storage position at a given address.
 

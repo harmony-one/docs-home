@@ -1,8 +1,8 @@
-# hmy_getBlocks
+# hmy\_getBlocks
 
 ## Description
 
-hmy_getBlocks returns blocks in range \[from; to]
+hmy\_getBlocks returns blocks in range \[from; to]
 
 ## API v1
 

@@ -7,7 +7,7 @@ description: >-
 # API
 
 {% hint style="success" %}
-**Complete documentation for Harmony's API's production API's can be found** [**here**](https://api.hmny.io/?version=latest) **including sample code and curl commands and code.** 
+**Complete documentation for Harmony's API's production API's can be found** [**here**](https://api.hmny.io/?version=latest) **including sample code and curl commands and code.**&#x20;
 {% endhint %}
 
 ## Development Environments
@@ -37,8 +37,8 @@ All requests follow the standard JSON-RPC format and include 4 variables in the 
 | jsonrpc | "2.0" | Specifies version number |
 | ------- | ----- | ------------------------ |
 
-| method | "hmy_getBalance" | Method to be called server-side |
-| ------ | ---------------- | ------------------------------- |
+| method | "hmy\_getBalance" | Method to be called server-side |
+| ------ | ----------------- | ------------------------------- |
 
 | params | \["0xD7Ff...24Cf2d", "latest"] | Parameters for method call |
 | ------ | ------------------------------ | -------------------------- |

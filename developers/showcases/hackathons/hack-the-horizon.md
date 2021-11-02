@@ -4,7 +4,7 @@
 
 ### Kawaii Battle Royale <a href="f251" id="f251"></a>
 
-[Kawaii Battle Royale](https://github.com/OpenDive/KawaiiBattleRoyaleSwitchBullet_Dapp) (KBR) is a NO-LOSS team-based first-person shooter DeFi Game that runs on the Harmony blockchain and bridges liquidity from Harmony and Ethereum money markets such as AAVE and CREAM Finance.
+[Kawaii Battle Royale](https://github.com/OpenDive/KawaiiBattleRoyaleSwitchBullet\_Dapp) (KBR) is a NO-LOSS team-based first-person shooter DeFi Game that runs on the Harmony blockchain and bridges liquidity from Harmony and Ethereum money markets such as AAVE and CREAM Finance.
 
 The game is similar to Overwatch or Fortnite, except that weekly and monthly “interest-bearing ESports no-loss tournaments” are ran, where users stake their entries (BUSD) into a tournament.
 
@@ -60,7 +60,7 @@ Harmony to Ethereum:
 
 ## Second Place <a href="ee73" id="ee73"></a>
 
-[_LegalAge_](https://github.com/sladecek/harla_demo) is a privacy-preserving age-verification service based on [zero knowledge](https://www.zeroknowledge.fm) cryptography and the [Harmony One](https://www.harmony.one) blockchain. Many people feel uncomfortable to show a passport or an ID-card to strangers, because they can be stalked or their document may be secretly photocopied and their identity stolen. Using the service, anyone can prove that they are older or younger than certain age without presenting an ID or telling the exact date of birth.
+[_LegalAge_](https://github.com/sladecek/harla\_demo) is a privacy-preserving age-verification service based on [zero knowledge](https://www.zeroknowledge.fm) cryptography and the [Harmony One](https://www.harmony.one) blockchain. Many people feel uncomfortable to show a passport or an ID-card to strangers, because they can be stalked or their document may be secretly photocopied and their identity stolen. Using the service, anyone can prove that they are older or younger than certain age without presenting an ID or telling the exact date of birth.
 
 View the [demo here](https://gitcoin.co/hackathon/hack-the-horizon/projects/4186/LegalAge).
 
@@ -68,7 +68,7 @@ View the [demo here](https://gitcoin.co/hackathon/hack-the-horizon/projects/4186
 
 ### GitMony <a href="2132" id="2132"></a>
 
-[GitMony](https://github.com/BakaOtaku/git_mony) uses Harmony Bridge and Chainlink oracle, to make a completely decentralized platform to reward opensource contributors.
+[GitMony](https://github.com/BakaOtaku/git\_mony) uses Harmony Bridge and Chainlink oracle, to make a completely decentralized platform to reward opensource contributors.
 
 {% embed url="https://youtu.be/M7-3AImM8mI" %}
 
@@ -108,6 +108,6 @@ There were five 3rd place winners:
 
 * [Port Augur to Harmony](https://gitcoin.co/hackathon/hack-the-horizon/projects/3856/port-the-augur-protocol-and-ui-to-harmony-chain): Dev ported Augur to Harmony.
 * [Nodejs CLI for the Harmony Rosetta Endpoints](https://github.com/zyra-zia/harmony-rosetta-cli): Dev created a command line interface for Harmony Rosetta.
-* [Bet to Win 2x](https://github.com/azizyano/Bet_to_win_x2): Betting game where you can win 2x your bet size.
+* [Bet to Win 2x](https://github.com/azizyano/Bet\_to\_win\_x2): Betting game where you can win 2x your bet size.
 * [Harmony Rosetta CLI in Python](https://github.com/blockjoe/harmony-api-client-python): A command line interface for Harmony Rosetta written in Python.
 * [Harmony Explorer](https://github.com/CryptoDizzy/Harmony-Explorer): Dev built a Harmony Block Explorer.

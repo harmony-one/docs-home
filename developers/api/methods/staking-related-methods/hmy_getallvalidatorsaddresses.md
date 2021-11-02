@@ -2,7 +2,7 @@
 description: hmy_getAllValidatorAddresses
 ---
 
-# hmy_getAllValidatorAddresses
+# hmy\_getAllValidatorAddresses
 
 Returns complete validators addresses list
 

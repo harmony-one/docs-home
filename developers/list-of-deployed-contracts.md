@@ -16,9 +16,9 @@ If you want a better overview of all the Harmony Stack and the Projects deployed
 
 ## Contract address format
 
-Harmony uses it's own contract address starting with a one prefix 
+Harmony uses it's own contract address starting with a one prefix&#x20;
 
-e.g. `one1l8n75pj8zmka0nxtqjneexf3p8l442g8xrxplx` 
+e.g. `one1l8n75pj8zmka0nxtqjneexf3p8l442g8xrxplx`&#x20;
 
 There is a one to one mapping of these addresses to the traditional  0x prefix
 

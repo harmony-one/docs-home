@@ -2,7 +2,7 @@
 
 ## [**Harmony Soccer Players**](https://soccerplayers.demo.harmony.one)****
 
-SoccerPlayers is an NFT collectible game deployed on Harmony blockchain. It is like CryptoKitties, but for collecting your favorite soccer player cards. Each soccer player has a unique token as part of a ERC721 smart contract deployed on Harmony blockchain, that are available to buy. All soccer player cards are open in the market all the time, so that anyone can buy. Every purchase increases the card value by 15%, and the seller will make a profit of 13% when their card is bought by others. A 2% commission is paid to the minting account to cover the app maintenance costs. 
+SoccerPlayers is an NFT collectible game deployed on Harmony blockchain. It is like CryptoKitties, but for collecting your favorite soccer player cards. Each soccer player has a unique token as part of a ERC721 smart contract deployed on Harmony blockchain, that are available to buy. All soccer player cards are open in the market all the time, so that anyone can buy. Every purchase increases the card value by 15%, and the seller will make a profit of 13% when their card is bought by others. A 2% commission is paid to the minting account to cover the app maintenance costs.&#x20;
 
 In the first month of launch, the app saw 1,071 transactions and 111,000 ONE volume traded.
 
@@ -18,7 +18,7 @@ You can use 20 $ONE tokens to mint an emoji token (HRC 721 token) using smart co
 
 ![](../../.gitbook/assets/onemoji-2.png)
 
-## [Good One](http://crowdfunding.s3-website-us-west-1.amazonaws.com) 
+## [Good One](http://crowdfunding.s3-website-us-west-1.amazonaws.com)&#x20;
 
 Good One is a simple crowdfunding dApp which will have the ‘minimum’ functionalities that you’d expect from a crowdfunding platform. Basically, one should be able to start crowdfunding projects, and fund them.
 

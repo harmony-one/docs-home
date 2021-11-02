@@ -1,4 +1,4 @@
-# hmy_getStakingNetworkInfo
+# hmy\_getStakingNetworkInfo
 
 Get global staking info.
 

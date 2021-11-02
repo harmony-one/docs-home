@@ -16,7 +16,7 @@ All AutoNode generated logs are saved in `$HOME/.hmy` when you execute the follo
 ls $HOME/.hmy/*.log
 ```
 
-You should see 2 files, `autonode_monitor.log` and `autonode_node.log`. Inspect those two files with your favorite command-line editor (i.e: `vim`) to see where things might have gone wrong. 
+You should see 2 files, `autonode_monitor.log` and `autonode_node.log`. Inspect those two files with your favorite command-line editor (i.e: `vim`) to see where things might have gone wrong.&#x20;
 
 You might also find it useful to inspect the Harmony Node logs. You can do so with the following command:
 
@@ -124,7 +124,7 @@ auto-node tune kernel --save
 
 > This will tune the kernel and the `--save` option will make it persistant. If you do not have the `--save` option, the tunes will only last untill the system is rebooted (by you or your VPS).\
 > \
-> Note that all the tunes will be displayed and confirmation asked before applying the tunes. 
+> Note that all the tunes will be displayed and confirmation asked before applying the tunes.&#x20;
 
 You can also tune/optimize your network settings with the following command:
 

@@ -6,11 +6,11 @@ Several NFT platforms and campaigns have been launched on Harmony. The Harmony c
 
 ## daVinci Marketplace
 
-daVinci is a NFT marketplace that supports the creation, buying and selling of NFTs minted on Harmony. You may access the marketplace here:  [https://davinci.gallery/](https://davinci.gallery) 
+daVinci is a NFT marketplace that supports the creation, buying and selling of NFTs minted on Harmony. You may access the marketplace here:  [https://davinci.gallery/](https://davinci.gallery)&#x20;
 
 [Documentation and FAQs ](https://davincigalleryone.gitbook.io/davinci-gallery/)
 
-DaVinci social media: [Telegram](https://t.me/daVinci_NFT_Marketplace), [Twitter](https://twitter.com/davinci_gallery), [Discord](https://discord.gg/UpgmJUPcfv)
+DaVinci social media: [Telegram](https://t.me/daVinci\_NFT\_Marketplace), [Twitter](https://twitter.com/davinci\_gallery), [Discord](https://discord.gg/UpgmJUPcfv)
 
 ![](../../.gitbook/assets/daVinciWhiteBckFinal.png)
 
@@ -34,7 +34,7 @@ LMA is a marketplace for the trading of unique non-fungible tokens (NFTs) art ca
 
 Everyone can purchase the unique art cards, and become the owner of that specific art card. For each purchase the price will increase automatically 100% and can be immediately purchase from other person.
 
-See: [documentation](https://lma-art-gallery.gitbook.io/lma-art-gallery/), [telegram](https://t.me/lma_art_gallery), [video](https://youtu.be/E01HlVadKus)
+See: [documentation](https://lma-art-gallery.gitbook.io/lma-art-gallery/), [telegram](https://t.me/lma\_art\_gallery), [video](https://youtu.be/E01HlVadKus)
 
 ![](<../../.gitbook/assets/image (227).png>)
 

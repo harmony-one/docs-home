@@ -16,7 +16,7 @@ AutoNode will quickly check for an update on each execution of the `auto-node` c
 You will need to briefly stop your node to execute an update. Updates should be fast.
 {% endhint %}
 
-### Step 0: (Optional) Stop Auto 
+### Step 0: (Optional) Stop Auto&#x20;
 
 Kill your AutoNode with the following command:
 

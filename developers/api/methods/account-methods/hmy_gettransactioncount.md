@@ -2,7 +2,7 @@
 description: GetTransactionCount
 ---
 
-# hmy_getTransactionCount
+# hmy\_getTransactionCount
 
 Given an account address, returns the number of transactions the account has made.
 

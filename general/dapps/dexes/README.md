@@ -39,7 +39,7 @@ Links: [community](https://t.me/unifiprotocol), [medium](https://unifiprotocol.m
 
 OpenSwap is a Defi Protocol to Empower Ethereum Users With subtly low tx fees. Built on _Harmony_ BlockChain.
 
-Links: [community](https://t.me/OpenSwap_Harmony)
+Links: [community](https://t.me/OpenSwap\_Harmony)
 
 ## [JellySwap](https://app.jelly.market)
 

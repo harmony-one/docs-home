@@ -2,13 +2,13 @@
 description: hmy_getPendingCXReceipts
 ---
 
-# hmy_getPendingCXReceipts
+# hmy\_getPendingCXReceipts
 
 ## API v1
 
 ### Returns
 
-Array of pending cx receipts in tx pool. See hmy_getCXReceiptByHash for format
+Array of pending cx receipts in tx pool. See hmy\_getCXReceiptByHash for format
 
 ### Sample Curl Request
 
@@ -25,13 +25,13 @@ curl --location --request POST 'https://api.s0.b.hmny.io/' \
 
 ### Sample Curl Response
 
-See hmy_getCXReceiptByHash response
+See hmy\_getCXReceiptByHash response
 
 ## API v2
 
 ### Returns
 
-Array of pending cx receipts in tx pool. See hmy_getCXReceiptByHash for format
+Array of pending cx receipts in tx pool. See hmy\_getCXReceiptByHash for format
 
 ### Sample Curl Request
 
@@ -48,4 +48,4 @@ curl --location --request POST 'https://api.s0.b.hmny.io/' \
 
 ### Sample Curl Response
 
-See hmy_getCXReceiptByHash response
+See hmy\_getCXReceiptByHash response

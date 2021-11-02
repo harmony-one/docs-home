@@ -2,7 +2,7 @@
 description: hmy_epochLastBlock
 ---
 
-# hmy_epochLastBlock
+# hmy\_epochLastBlock
 
 Epoch last block
 

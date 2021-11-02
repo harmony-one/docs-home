@@ -1,6 +1,6 @@
 # Voting via HMY CLI
 
-Make sure to read the introduction and rules [here](./) first. 
+Make sure to read the introduction and rules [here](./) first.&#x20;
 
 To install HMY CLI head [here](../../wallets/harmony-cli/).
 

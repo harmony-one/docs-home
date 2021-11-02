@@ -18,7 +18,7 @@ After you login and validate your credit card, you will be shown a page pretty m
 
 Click on the Create button to make a new instance
 
-![](https://blobs.gitbook.com/assets%2F-LlDqlxK8e45wuh1WH4h%2F-LmBR5kBgg9922w3-lIM%2F-LmBTANylI3L_EIZWgOd%2FVMcomputeCreate.PNG?alt=media\&token=f101dbf5-f667-4b5d-8082-bf964fe9bbf4)
+![](https://blobs.gitbook.com/assets%2F-LlDqlxK8e45wuh1WH4h%2F-LmBR5kBgg9922w3-lIM%2F-LmBTANylI3L\_EIZWgOd%2FVMcomputeCreate.PNG?alt=media\&token=f101dbf5-f667-4b5d-8082-bf964fe9bbf4)
 
 We recommend to name it something like "pangaea” (the instance name cannot be changed). Select the Machine type as “Custom” and set up 4 vCPU’s and 4GB of Memory.
 
@@ -28,7 +28,7 @@ Keep everything default after you have configured the cores and memory.
 
 For the Boot Disk, we recommend the latest **LTS version of Ubuntu **(18.04 as of date of now). Change the boot disk size to the [minimum storage requirements](https://docs.harmony.one/home/validators/cloud-setup/minimum-requirements).
 
-![](https://blobs.gitbook.com/assets%2F-LlDqlxK8e45wuh1WH4h%2F-LmBR5kBgg9922w3-lIM%2F-LmBhv4-FTM_WdWJGxhY%2Fcreateinstance.PNG?alt=media\&token=54639c2e-217d-41d1-8885-469919855bf4)
+![](https://blobs.gitbook.com/assets%2F-LlDqlxK8e45wuh1WH4h%2F-LmBR5kBgg9922w3-lIM%2F-LmBhv4-FTM\_WdWJGxhY%2Fcreateinstance.PNG?alt=media\&token=54639c2e-217d-41d1-8885-469919855bf4)
 
 Click Create. Please wait a few minutes for your instance
 

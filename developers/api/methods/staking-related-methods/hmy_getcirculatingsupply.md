@@ -2,7 +2,7 @@
 description: hmy_getCirculatingSupply
 ---
 
-# hmy_getCirculatingSupply
+# hmy\_getCirculatingSupply
 
 Get circulating ONE supply
 

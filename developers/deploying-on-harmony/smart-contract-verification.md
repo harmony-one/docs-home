@@ -23,7 +23,7 @@ To easy the verification we recommend the contract deployment using [Harmony Rem
 
 You can verify your contract here: [https://explorer.harmony.one/verifycontract](https://explorer.harmony.one/verifycontract)
 
-![Verify Contract](<../../.gitbook/assets/verify_contract (2) (4) (5) (2) (1) (2).png>)
+![Verify Contract](<../../.gitbook/assets/verify\_contract (2) (4) (5) (2) (1) (2).png>)
 
 It is important to use the correct parameters (same as on deployment):
 

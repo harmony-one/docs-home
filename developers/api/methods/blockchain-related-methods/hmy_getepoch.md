@@ -1,8 +1,8 @@
-# hmy_getEpoch
+# hmy\_getEpoch
 
 ## Description
 
-hmy_getEpoch returns current epoch of shard
+hmy\_getEpoch returns current epoch of shard
 
 ## Parameters
 

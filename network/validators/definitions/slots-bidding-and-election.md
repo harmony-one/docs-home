@@ -17,4 +17,4 @@ The BLS key that successfully bids for a slot is deemed **elected**. Elected BLS
 
 ![](<../../../.gitbook/assets/image (113).png>)
 
-Above is a simple example of bidding and election process with 10 slots and 5 validators. 
+Above is a simple example of bidding and election process with 10 slots and 5 validators.&#x20;

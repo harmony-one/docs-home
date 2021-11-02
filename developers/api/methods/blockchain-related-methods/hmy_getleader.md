@@ -1,8 +1,8 @@
-# hmy_getLeader
+# hmy\_getLeader
 
 ## Description
 
-hmy_getLeader returns one address of current shard leader node
+hmy\_getLeader returns one address of current shard leader node
 
 ## Returns
 

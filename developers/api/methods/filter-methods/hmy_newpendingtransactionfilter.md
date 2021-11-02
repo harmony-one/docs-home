@@ -1,4 +1,4 @@
-# hmy_newPendingTransactionFilter
+# hmy\_newPendingTransactionFilter
 
 **Parameters**
 

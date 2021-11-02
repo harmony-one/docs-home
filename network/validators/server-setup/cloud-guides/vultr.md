@@ -19,7 +19,7 @@ Once logged in, you'll want to add a new instance. Depending on whether your acc
 * If you already have an instance, click the "+" button to deploy a new server. You can also use this [link](https://my.vultr.com/deploy/) to go to the deploy page.
 * Otherwise, your Products page will be already link you to the Deploy page.
 
-![](https://blobs.gitbook.com/assets%2F-LlDqlxK8e45wuh1WH4h%2F-LmLNRdAg8YfuFxXiQq0%2F-LmM3X7d52fBZllcOPFd%2Fbrave_ijOE8hiNrv.png?alt=media\&token=aca0bd2c-20ac-4169-ac10-63adf2a9bae4)
+![](https://blobs.gitbook.com/assets%2F-LlDqlxK8e45wuh1WH4h%2F-LmLNRdAg8YfuFxXiQq0%2F-LmM3X7d52fBZllcOPFd%2Fbrave\_ijOE8hiNrv.png?alt=media\&token=aca0bd2c-20ac-4169-ac10-63adf2a9bae4)
 
 ### Choose Instance Type <a href="choose-instance-type" id="choose-instance-type"></a>
 
@@ -31,13 +31,13 @@ For Harmony, two instance types would fit: Cloud Compute and High Frequency.
 
 Choose now your desired server type. We recommend the latest **LTS version of Ubuntu **(18.04 as of date of now).
 
-![](https://blobs.gitbook.com/assets%2F-LlDqlxK8e45wuh1WH4h%2F-LlxvSktdLiGcUCOJpxp%2F-Lly3uMNT60Id55f1x7K%2Fbrave_qvMA6y4YCr.png?alt=media\&token=bc26c01f-1a11-49bd-8fe5-638f46feee6a)
+![](https://blobs.gitbook.com/assets%2F-LlDqlxK8e45wuh1WH4h%2F-LlxvSktdLiGcUCOJpxp%2F-Lly3uMNT60Id55f1x7K%2Fbrave\_qvMA6y4YCr.png?alt=media\&token=bc26c01f-1a11-49bd-8fe5-638f46feee6a)
 
 ### Choose Server Size <a href="choose-server-size" id="choose-server-size"></a>
 
 Harmony recommends one of the two following accordingly to the [minimum requirements](https://docs.harmony.one/home/validators/cloud-setup/minimum-requirements):
 
-![](https://blobs.gitbook.com/assets%2F-LlDqlxK8e45wuh1WH4h%2F-LlxvSktdLiGcUCOJpxp%2F-LlxzVtdrbyY8vr6IsO8%2Fbrave_jSr54JprOg.png?alt=media\&token=99b042ec-7a94-4508-b130-cda76553a737)
+![](https://blobs.gitbook.com/assets%2F-LlDqlxK8e45wuh1WH4h%2F-LlxvSktdLiGcUCOJpxp%2F-LlxzVtdrbyY8vr6IsO8%2Fbrave\_jSr54JprOg.png?alt=media\&token=99b042ec-7a94-4508-b130-cda76553a737)
 
 ### Setting Server Name <a href="setting-server-name" id="setting-server-name"></a>
 
@@ -53,7 +53,7 @@ As we want to allow other nodes to connect to yours, we have to open the correct
 
 Once you are on the [Firewall page](https://my.vultr.com/firewall/), click Add Firewall Group.
 
-![](../../../../.gitbook/assets/firewall_group.png)
+![](../../../../.gitbook/assets/firewall\_group.png)
 
 Enter a name for the firewall group, e.g. FoundationNode.
 
@@ -65,7 +65,7 @@ Enter a name for the firewall group, e.g. FoundationNode.
 
 Make sure to check that 3 Group Rules have been set.
 
-![](../../../../.gitbook/assets/rules_vultr_firewall.jpg)
+![](../../../../.gitbook/assets/rules\_vultr\_firewall.jpg)
 
 #### Then link the instance to the firewall group. The steps are as follows: <a href="then-link-the-instance-to-the-firewall-group-the-steps-are-as-follows" id="then-link-the-instance-to-the-firewall-group-the-steps-are-as-follows"></a>
 
@@ -74,15 +74,15 @@ Make sure to check that 3 Group Rules have been set.
 3. Click the + button.
 4. Click Add Linked Instance.
 
-![](../../../../.gitbook/assets/manage_firewall_group.jpg)
+![](../../../../.gitbook/assets/manage\_firewall\_group.jpg)
 
 Your instance should now be added to the firewall group and the number of linked instances should increment by 1.
 
-![](../../../../.gitbook/assets/vultr_linked_instances.jpg)
+![](../../../../.gitbook/assets/vultr\_linked\_instances.jpg)
 
 You can now go back to the Products page and your server is now successfully set up!
 
-![](../../../../.gitbook/assets/products_page.png)
+![](../../../../.gitbook/assets/products\_page.png)
 
 ## **Step 2: Connecting via SSH to your Instance** <a href="step-2-connecting-to-your-vultr-node" id="step-2-connecting-to-your-vultr-node"></a>
 

@@ -1,8 +1,8 @@
-# hmy_getSignedBlocks
+# hmy\_getSignedBlocks
 
 ## Description
 
-hmy_getSigned blocks returns number of blocks out of last 1500 validator has signed
+hmy\_getSigned blocks returns number of blocks out of last 1500 validator has signed
 
 ## Parameters
 

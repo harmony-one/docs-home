@@ -2,7 +2,7 @@
 
 ## Maker
 
-Maker is a permission-less lending platform and a decentralized stablecoin. 
+Maker is a permission-less lending platform and a decentralized stablecoin.&#x20;
 
 It allows any user to autonomously take out a loan (denominated in Dai) by staking digital assets as collateral. There are no KYC requirements and all lending actions are performed by smart contracts. The native token MKR is used for governance and stability fees.
 
@@ -10,7 +10,7 @@ It allows any user to autonomously take out a loan (denominated in Dai) by staki
 
 ## **SeeSWAP (Balancer)**
 
-Balancer is an asset management platform that acts as an automated portfolio manager, liquidity provider, and price sensor. 
+Balancer is an asset management platform that acts as an automated portfolio manager, liquidity provider, and price sensor.&#x20;
 
 A native governance token BAL is used to vote on protocol upgrades including supported collateral, fees, and incentives. BAL can be earned through the Liquidity Mining program which grants users token for providing liquidity to Balancer Pools.
 
@@ -40,7 +40,7 @@ WBTC is a multi-institutional framework for wrapping tokens on Ethereum through 
 
 This WBTC framework provides a generalized mechanism in which crypto institutions can create asset-backed tokens in a transparent nature.
 
-**See: **[**code**](https://github.com/leoloco/BTC-ETH_HTLC)****
+**See: **[**code**](https://github.com/leoloco/BTC-ETH\_HTLC)****
 
 ## **Aave**
 

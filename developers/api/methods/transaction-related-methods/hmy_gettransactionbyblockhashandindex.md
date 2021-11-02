@@ -2,7 +2,7 @@
 description: GetTransactionByBlockHashAndIndex
 ---
 
-# hmy_getTransactionByBlockHashAndIndex
+# hmy\_getTransactionByBlockHashAndIndex
 
 Get transaction at an index from a given block, specified by block hash.
 

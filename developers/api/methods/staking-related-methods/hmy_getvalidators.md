@@ -1,8 +1,8 @@
-# hmy_getValidators
+# hmy\_getValidators
 
 ## Description
 
-hmy_getValidators returns list of validators for a particular epoch in corresponding shard
+hmy\_getValidators returns list of validators for a particular epoch in corresponding shard
 
 ## API v1
 

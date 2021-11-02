@@ -12,9 +12,9 @@ For flow freely between Harmony and Ethereum blockchains you need to call these 
 
 ### **ETH -> ONE (BUSD)**
 
-1\) call **Create operation API** with params (_see more params in API section_): 
+1\) call **Create operation API** with params (_see more params in API section_):&#x20;
 
-* `type`= `eth_to_one` 
+* `type`= `eth_to_one`&#x20;
 * `id` = operation uniq ID (you need to generate ID on client side)
 * `token` = `busd`
 * `amount` = transfered amount
@@ -25,13 +25,13 @@ For flow freely between Harmony and Ethereum blockchains you need to call these 
 
 3\) call `lockToken` smart contract method (_see smart contract methods section in the end_) for BUSD manager ethereum contract. You need to save generated transaction hash.
 
-4\) call **Confirm action API **with params (_see more params in API section_): 
+4\) call **Confirm action API **with params (_see more params in API section_):&#x20;
 
 * operationId - operation ID (generated on step 1)
 * transactionHash - `approveEthManager` transaction Hash (generated on step 2)
 * actionType = `approveEthManager`
 
-5\) call **Confirm action API **with params (_see more params in API section_): 
+5\) call **Confirm action API **with params (_see more params in API section_):&#x20;
 
 * operationId - operation ID (generated on step 1)
 * transactionHash - `lockToken` transaction Hash (generated on step 2)
@@ -57,9 +57,9 @@ For **Create operation API** and **Confirm action API** you need to call API for
 
 ### ONE** -> ETH (BUSD)**
 
-1\) call **Create operation API** with params (_see more params in API section_): 
+1\) call **Create operation API** with params (_see more params in API section_):&#x20;
 
-* `type`= `one_to_eth` 
+* `type`= `one_to_eth`&#x20;
 * `id` = operation uniq ID (you need to generate ID on client side)
 * `token` = `link`
 * `amount` = transfered amount
@@ -70,13 +70,13 @@ For **Create operation API** and **Confirm action API** you need to call API for
 
 3\) call `burnToken` smart contract method (_see smart contract methods section in the end_) for BUSD manager harmony contract. You need to save generated transaction hash.
 
-4\) call **Confirm action API **with params (_see more params in API section_): 
+4\) call **Confirm action API **with params (_see more params in API section_):&#x20;
 
 * operationId - operation ID (generated on step 1)
 * transactionHash - `approveHmyManager` transaction Hash (generated on step 2)
 * actionType = `approveHmyManager`
 
-5\) call **Confirm action API **with params (_see more params in API section_): 
+5\) call **Confirm action API **with params (_see more params in API section_):&#x20;
 
 * operationId - operation ID (generated on step 1)
 * transactionHash - `burnToken` transaction Hash (generated on step 2)

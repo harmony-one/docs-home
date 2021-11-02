@@ -2,7 +2,7 @@
 description: GetTransactionReceipt
 ---
 
-# hmy_getTransactionReceipt
+# hmy\_getTransactionReceipt
 
 Get transaction receipt from transaction hash.
 

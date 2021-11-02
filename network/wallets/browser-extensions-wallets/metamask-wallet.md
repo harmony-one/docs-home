@@ -16,7 +16,7 @@ By default Metamask supports the Ethereum blockchain, but since Harmony is EVM c
 
 In order to connect to the Harmony Network, a custom RPC Endpoint needs to be added. On top click on the network you are connected to and then select **Custom RPC**:
 
-![Adding a Custom RPC](../../../.gitbook/assets/metamask_custom_rpc1.png)
+![Adding a Custom RPC](../../../.gitbook/assets/metamask\_custom\_rpc1.png)
 
 ### 2. Filling the Endpoint Information
 
@@ -48,7 +48,7 @@ Click now on the Save button and your configuration should be done!
 
 In order to create a new account, click on the icon on top as shown by the image below and then on **Create Account**:
 
-![Create Account](../../../.gitbook/assets/metamask_create_account1.png)
+![Create Account](../../../.gitbook/assets/metamask\_create\_account1.png)
 
 On next window, fill it with the account you want to choose and click on **Create** button. You should have succesfully created a new account!
 
@@ -58,11 +58,11 @@ On next window, fill it with the account you want to choose and click on **Creat
 
 Click on the icon on top as shown by the image below and then on **Import Account**:
 
-![Importing Account](../../../.gitbook/assets/metamask_import_account1.png)
+![Importing Account](../../../.gitbook/assets/metamask\_import\_account1.png)
 
 On next window, select the option to import from a Private Key, paste your key and click on **Import** button:
 
-![](../../../.gitbook/assets/metamask_import_account2.png)
+![](../../../.gitbook/assets/metamask\_import\_account2.png)
 
 You should have successfully imported your account from the Private Key!
 
@@ -77,11 +77,11 @@ Since Metamask does not allow you to send transactions to addresses starting wit
 * Go to [https://explorer.harmony.one/#/](https://explorer.harmony.one/#/) (Mainnet) or [https://explorer.pops.one/#/](https://explorer.pops.one/#/) (Testnet) and search for your address
 * On top of the blockexplorer toogle the address format from ONE to ETH
 
-![Address Format](../../../.gitbook/assets/metamask_sending_transactions1.png)
+![Address Format](../../../.gitbook/assets/metamask\_sending\_transactions1.png)
 
 * Copy the **0x** address format by clicking on the small icon right to the address
 
-![Equivalent 0x Address](../../../.gitbook/assets/metamask_sending_transactions2.png)
+![Equivalent 0x Address](../../../.gitbook/assets/metamask\_sending\_transactions2.png)
 
 ### Sending a Regular Transaction
 
@@ -103,9 +103,9 @@ In order to receive a transaction, just share the **0x** address format. One Wal
 
 On Metamask click on **Add Token** and on next window select **Custom Token**. Fill it with the contract address starting with **0x**, Token Symbol of the token and the Decimals of Precision which is usually 18:
 
-![Add Token](../../../.gitbook/assets/metamask_hrc20\_account1.png)
+![Add Token](../../../.gitbook/assets/metamask\_hrc20\_account1.png)
 
-![Custom Token](../../../.gitbook/assets/metamask_hrc20\_account2.png)
+![Custom Token](../../../.gitbook/assets/metamask\_hrc20\_account2.png)
 
 Now click on **Next** and then **Add Tokens.** Your custom HRC20 Token will show up on a new page. It will also be available on the main Metamask window on the Assets tab.
 

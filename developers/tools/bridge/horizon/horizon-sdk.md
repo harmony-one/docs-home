@@ -10,7 +10,7 @@ Horizon also supports bridging to Binance Smart Chain (BSC), however the BSC bri
 
 ### Bridge Kovan BUSD to Harmony Testnet
 
-The testnet bridge works from Kovan testnet to Harmony testnet. Kovan ETH can be obtained from [faucet](https://faucet.kovan.network). Harmony testnet ONE can be obtained from [faucet](https://docs.harmony.one/home/developers/network-and-faucets). Kovan BUSD can be obtained from [here](https://testnet.bridge.hmny.io/get-tokens). 
+The testnet bridge works from Kovan testnet to Harmony testnet. Kovan ETH can be obtained from [faucet](https://faucet.kovan.network). Harmony testnet ONE can be obtained from [faucet](https://docs.harmony.one/home/developers/network-and-faucets). Kovan BUSD can be obtained from [here](https://testnet.bridge.hmny.io/get-tokens).&#x20;
 
 1\. Create a nodejs project and add `bridge-sdk` dependency.
 

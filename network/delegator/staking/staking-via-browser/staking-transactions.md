@@ -28,11 +28,11 @@ Once transaction is signed, Delegate window will pop-up on the staking dashboard
 
 Check the validators page to see list of validators. Selected the validators you want to delegate to using the checkbox as shown by the image below, then click on "Delegate":
 
-![](../../../../.gitbook/assets/multiple_delegations.png)
+![](../../../../.gitbook/assets/multiple\_delegations.png)
 
 Now, on the new window, input the total amount you want to split between the validators you selected previously. On this example, we are delegating a total amount of 4000 ONE's which will be split equality between all the validators we selected. Each one of them will receive 1000 ONE's. You can split any amount you want, as long as the minimum amount per validator is 1000 ONE's.
 
-![](../../../../.gitbook/assets/multiple_delegations_amounts.png)
+![](../../../../.gitbook/assets/multiple\_delegations\_amounts.png)
 
 Click on "Next" to confirm the delegations.
 

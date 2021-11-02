@@ -2,7 +2,7 @@
 description: hmy_getCurrentTransactionErrorSink
 ---
 
-# hmy_getCurrentTransactionErrorSink
+# hmy\_getCurrentTransactionErrorSink
 
 ## API v1
 

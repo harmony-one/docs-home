@@ -2,7 +2,7 @@
 description: hmy_getActiveValidatorsAddresses
 ---
 
-# hmy_getActiveValidatorAddresses
+# hmy\_getActiveValidatorAddresses
 
 Returns active validators addresses list
 

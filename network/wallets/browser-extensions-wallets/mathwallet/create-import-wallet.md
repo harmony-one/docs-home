@@ -4,7 +4,7 @@ You can choose to create a wallet through the extension or import your existing 
 
 ![](<../../../../.gitbook/assets/image (29) (2) (2) (2) (2) (2).png>)
 
-When you create a wallet, please write down your mnemonic correctly and keep in a safe place. 
+When you create a wallet, please write down your mnemonic correctly and keep in a safe place.&#x20;
 
 ![](<../../../../.gitbook/assets/image (67) (1).png>)
 

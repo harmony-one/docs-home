@@ -14,7 +14,7 @@ auto-node edit-config
 
 > This will open up a Nano session to edit the config. After you do your edits, save it by pressing `Ctrl+X `then `Y`.
 
-After you finish editing, you will be asked to update the config on-chain. If you say yes, AutoNode will send an edit validator transaction to update your validator. 
+After you finish editing, you will be asked to update the config on-chain. If you say yes, AutoNode will send an edit validator transaction to update your validator.&#x20;
 
 {% hint style="warning" %}
 Note that the following are the **ONLY** fields that can be edited on-chain:\

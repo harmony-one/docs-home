@@ -2,7 +2,7 @@
 description: hmy_getStakingTransactionByHash
 ---
 
-# hmy_getStakingTransactionByHash
+# hmy\_getStakingTransactionByHash
 
 Get staking transaction by its hash.
 
@@ -19,7 +19,7 @@ Get staking transaction by its hash.
 * `blockHash` - `String`: Hash of the block where this transaction was in. `null` when its pending.
 * `blockNumber` - `Number`: Block number where this transaction was in. `null` when its pending.
 * `transactionIndex` - `Number`: Integer of the transactions index position in the block. `null` when its pending.
-* `timestamp` - `Number`: transaction timestamp 
+* `timestamp` - `Number`: transaction timestamp&#x20;
 * `from` - `String`: Address of the sender.
 * `value` - `String`: Value transferred in ATTO.
 * `gasPrice` - `String`: Gas price provided by the sender.
@@ -102,7 +102,7 @@ curl -d '{
 * `blockHash` - `String`: Hash of the block where this transaction was in. `null` when its pending.
 * `blockNumber` - `Number`: Block number where this transaction was in. `null` when its pending.
 * `transactionIndex` - `Number`: Integer of the transactions index position in the block. `null` when its pending.
-* `timestamp` - `Number`: transaction timestamp 
+* `timestamp` - `Number`: transaction timestamp&#x20;
 * `from` - `String`: Address of the sender.
 * `value` - `String`: Value transferred in ATTO.
 * `gasPrice` - `String`: Gas price provided by the sender.

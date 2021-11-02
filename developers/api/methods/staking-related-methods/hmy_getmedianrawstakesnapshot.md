@@ -2,7 +2,7 @@
 description: hmy_getMedianRawStakeSnapshot
 ---
 
-# hmy_getMedianRawStakeSnapshot
+# hmy\_getMedianRawStakeSnapshot
 
 Returns active validators addresses list
 

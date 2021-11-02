@@ -14,7 +14,7 @@ npm install -g truffle
 ```
 
 {% hint style="info" %}
- You might be require to provide super user privileges to install it.
+&#x20;You might be require to provide super user privileges to install it.
 {% endhint %}
 
 ### Project Setup

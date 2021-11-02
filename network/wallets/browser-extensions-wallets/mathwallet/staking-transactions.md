@@ -1,6 +1,6 @@
 # Staking Transactions via Math Wallet
 
-Sign in from the staking dashboard [https://staking.harmony.one/validators 1](https://staking.harmony.one/validators) for staking transactions. 
+Sign in from the staking dashboard [https://staking.harmony.one/validators 1](https://staking.harmony.one/validators) for staking transactions.&#x20;
 
 ![](<../../../../.gitbook/assets/image (39).png>)
 
@@ -14,7 +14,7 @@ You will be brought back to the **Validator** page of Staking Dashboard. You wil
 
 ![](<../../../../.gitbook/assets/image (44).png>)
 
-Choose your preferred validator and click on Delegate button. Enter the desired amount of tokens you would like to delegate and click next.  
+Choose your preferred validator and click on Delegate button. Enter the desired amount of tokens you would like to delegate and click next. &#x20;
 
 ![](<../../../../.gitbook/assets/image (45).png>)
 

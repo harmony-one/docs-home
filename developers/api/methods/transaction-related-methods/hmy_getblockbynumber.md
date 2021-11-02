@@ -2,7 +2,7 @@
 description: GetBlockByNumber
 ---
 
-# hmy_getBlockByNumber
+# hmy\_getBlockByNumber
 
 Get block by its index in the blockchain.
 
@@ -10,7 +10,7 @@ Get block by its index in the blockchain.
 
 **Parameters**
 
-1. `String` - The block number. 
+1. `String` - The block number.&#x20;
 2. `Boolean` - If `true`, the returned block will contain all transactions in the block.
 
 ### Returns
@@ -78,7 +78,7 @@ curl -d '{
 
 **Parameters**
 
-1. `Number` - The block number. 
+1. `Number` - The block number.&#x20;
 2. `blockArgs` - optional args struct in json format (should be used just with { })
    1. `fullTx` - `Bool`: To show full tx or not
    2. `withSigners`- `Bool`: Include block signes in blocks or not

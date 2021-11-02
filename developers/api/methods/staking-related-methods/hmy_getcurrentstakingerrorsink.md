@@ -2,7 +2,7 @@
 description: hmy_getCurrentStakingErrorSink
 ---
 
-# hmy_getCurrentStakingErrorSink
+# hmy\_getCurrentStakingErrorSink
 
 ## API v1
 

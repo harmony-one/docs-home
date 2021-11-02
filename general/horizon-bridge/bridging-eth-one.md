@@ -4,7 +4,7 @@ description: Tutorial for bridging Ethereum with Harmony using Horizon
 
 # Bridging ETH <> ONE
 
-![ETH <> ONE Bridge](https://gblobscdn.gitbook.com/assets%2F-LlEOlYqEG_GKuO5Rehq%2F-MJgEiGq78hcZcouJrFL%2F-MJgLib1cRoa7KET4yfZ%2Fhorizon-introduction.png?alt=media\&token=9163efad-0884-4aa2-b31c-442576c4f9a0)
+![ETH <> ONE Bridge](https://gblobscdn.gitbook.com/assets%2F-LlEOlYqEG\_GKuO5Rehq%2F-MJgEiGq78hcZcouJrFL%2F-MJgLib1cRoa7KET4yfZ%2Fhorizon-introduction.png?alt=media\&token=9163efad-0884-4aa2-b31c-442576c4f9a0)
 
 {% hint style="warning" %}
 Do NOT send bridged tokens directly to other blockchains or exchanges. This will not work and it might result in **permanent loss** of your tokens. Bridged tokens can only be used on Harmony network. The only way to send them out is by bridging them back.

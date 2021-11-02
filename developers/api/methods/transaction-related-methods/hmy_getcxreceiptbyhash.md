@@ -2,7 +2,7 @@
 description: hmy_getCXReceiptByHash
 ---
 
-# hmy_getCXReceiptByHash
+# hmy\_getCXReceiptByHash
 
 ## API v1
 

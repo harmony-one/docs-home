@@ -2,7 +2,7 @@
 description: hmy_getDelegationsByValidator
 ---
 
-# hmy_getDelegationsByValidator
+# hmy\_getDelegationsByValidator
 
 ## Parameters
 

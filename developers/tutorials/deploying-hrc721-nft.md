@@ -20,7 +20,7 @@ We will use [Presets](https://docs.openzeppelin.com/contracts/3.x/api/presets) c
 
 [EIP-721](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md) includes an optional **metadata extension** with a `name`, `symbol` and for each tokenID a `tokenURI` with can point to a JSON file with `name`, `description` and `image` for the given token ID.
 
-For our example we will upload three files 
+For our example we will upload three files&#x20;
 
 1. `HarmonyLogo.svg` which stores the Image used for the token.
 2. `NFTTokenBaseURL.json` which stores the metadata for all the tokens and is used when deploying the NFT contract.
@@ -52,7 +52,7 @@ Note that the `image` field uses the value from the Harmony Logo we uploaded abo
 
 On your local machine
 
- Make a new file called `NFTTokenBaseURL.json` and add the following json code:
+&#x20;Make a new file called `NFTTokenBaseURL.json` and add the following json code:
 
 ```
 [
@@ -116,7 +116,7 @@ We are going to use Preset [`ERC721PresetMinterPauserAutoId` ](https://docs.open
 
 We need to import `ERC721PresetMinterPauserAutoId` into Remix.
 
-In the File Explorer press the  :heavy_plus_sign: to _Create New File_\
+In the File Explorer press the  :heavy\_plus\_sign: to _Create New File_\
 Call the new file _OpenZeppelinPresetContracts.sol_
 
 In the new file add the import statement for `ERC721PresetMinterPauserAutoId` below.
@@ -226,7 +226,7 @@ Showing values:
 
 #### Setup and fund your Harmony Metamask Wallet
 
-In order to deploy to Harmony Testnet you will need to setup Metamask and get some one tokens from the faucet. 
+In order to deploy to Harmony Testnet you will need to setup Metamask and get some one tokens from the faucet.&#x20;
 
 {% hint style="info" %}
 Harmony Metamask configuration instructions are [here](https://docs.harmony.one/home/network/wallets/browser-extensions-wallets/metamask-wallet).
@@ -286,9 +286,9 @@ The console will show `transact to ERC721PresetMinterPauserAutoId.mint pending .
 
 By using the explorer and looking at your transaction history for your metamask account you can find the address of the NFT contract deployed. Our account is [here](https://explorer.pops.one/address/0x8875fc2a47e35acd1784bb5f58f563dfe86a8451) and our NFT contract is [here](https://explorer.pops.one/address/0xe9218ef3c209e1e7db8bef2e33f822006b44bcd7).
 
-You can then add that token address to metamask, 
+You can then add that token address to metamask,&#x20;
 
-Our NFT contract address is `0xe9218ef3c209e1e7db8bef2e33f822006b44bcd7` 
+Our NFT contract address is `0xe9218ef3c209e1e7db8bef2e33f822006b44bcd7`&#x20;
 
 We add the NFT Token Contract
 

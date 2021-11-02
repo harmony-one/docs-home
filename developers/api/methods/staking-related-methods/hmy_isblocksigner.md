@@ -1,8 +1,8 @@
-# hmy_isBlockSigner
+# hmy\_isBlockSigner
 
 ## Description
 
-hmy_isBlockSigner returns true is validator signed a particular block or not
+hmy\_isBlockSigner returns true is validator signed a particular block or not
 
 ## API v1
 
@@ -13,7 +13,7 @@ hmy_isBlockSigner returns true is validator signed a particular block or not
 
 ### Returns
 
-* `Bool` - true if validator signed block, false otherwise 
+* `Bool` - true if validator signed block, false otherwise&#x20;
 
 ### Sample Curl Request
 
@@ -45,7 +45,7 @@ curl -d '{
 
 ### Returns
 
-* `Bool` - true if validator signed block, false otherwise 
+* `Bool` - true if validator signed block, false otherwise&#x20;
 
 ### Sample Curl Request
 

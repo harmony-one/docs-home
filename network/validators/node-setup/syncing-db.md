@@ -57,18 +57,18 @@ The above rclone config also work for the pangaea testnet network
 
 ### 3. Running Rclone
 
-Below is the command to sync the shard you want. Replace `<ShardID>`with the shard number you want to sync. Shard 0 is around 94 Gb as of June/2021.
+Below is the command to sync the shard you want. Replace `<ShardID>`with the shard number you want to sync. Shard 0 is around 300 Gb as of November 2021.
 
 {% tabs %}
 {% tab title="Mainnet" %}
 ```bash
-rclone -P -L sync release:pub.harmony.one/mainnet.min/harmony_db_<ShardID> harmony_db_<ShardID>
+rclone -P -L sync release:pub.harmony.one/mainnet.min/harmony_db_<ShardID> harmony_db_<ShardID> --multi-thread-streams 4 --transfers=8
 ```
 {% endtab %}
 
 {% tab title="Testnet" %}
 ```
-rclone -P -L sync release:pub.harmony.one/testnet.min/harmony_db_<ShardID> harmony_db_<ShardID>
+rclone -P -L sync release:pub.harmony.one/testnet.min/harmony_db_<ShardID> harmony_db_<ShardID> --multi-thread-streams 4 --transfers=8
 ```
 {% endtab %}
 {% endtabs %}
@@ -94,13 +94,13 @@ Nodes in shard 1, 2, 3 need to sync both `harmony_db_0`, and `harmony_db_<ShardI
 {% tabs %}
 {% tab title="Mainnet" %}
 ```bash
-rclone -P -L sync release:pub.harmony.one/mainnet.min/harmony_db_0 harmony_db_0
+rclone -P -L sync release:pub.harmony.one/mainnet.min/harmony_db_0 harmony_db_0 --multi-thread-streams 4 --transfers=8
 ```
 {% endtab %}
 
 {% tab title="Testnet" %}
 ```
-rclone -P -L sync release:pub.harmony.one/testnet.min/harmony_db_0 harmony_db_0
+rclone -P -L sync release:pub.harmony.one/testnet.min/harmony_db_0 harmony_db_0 --multi-thread-streams 4 --transfers=8
 ```
 {% endtab %}
 {% endtabs %}
@@ -110,15 +110,15 @@ rclone -P -L sync release:pub.harmony.one/testnet.min/harmony_db_0 harmony_db_0
 {% tabs %}
 {% tab title="Mainnet" %}
 ```bash
-rclone -P -L sync release:pub.harmony.one/mainnet.min/harmony_db_0 harmony_db_0
-rclone -P -L sync release:pub.harmony.one/mainnet.min/harmony_db_1 harmony_db_1
+rclone -P -L sync release:pub.harmony.one/mainnet.min/harmony_db_0 harmony_db_0 --multi-thread-streams 4 --transfers=8
+rclone -P -L sync release:pub.harmony.one/mainnet.min/harmony_db_1 harmony_db_1 --multi-thread-streams 4 --transfers=8
 ```
 {% endtab %}
 
 {% tab title="Testnet" %}
 ```
-rclone -P -L sync release:pub.harmony.one/testnet.min/harmony_db_0 harmony_db_0
-rclone -P -L sync release:pub.harmony.one/testnet.min/harmony_db_1 harmony_db_1
+rclone -P -L sync release:pub.harmony.one/testnet.min/harmony_db_0 harmony_db_0 --multi-thread-streams 4 --transfers=8
+rclone -P -L sync release:pub.harmony.one/testnet.min/harmony_db_1 harmony_db_1 --multi-thread-streams 4 --transfers=8
 ```
 {% endtab %}
 {% endtabs %}
@@ -128,15 +128,15 @@ rclone -P -L sync release:pub.harmony.one/testnet.min/harmony_db_1 harmony_db_1
 {% tabs %}
 {% tab title="Mainnet" %}
 ```bash
-rclone -P -L sync release:pub.harmony.one/mainnet.min/harmony_db_0 harmony_db_0
-rclone -P -L sync release:pub.harmony.one/mainnet.min/harmony_db_2 harmony_db_2
+rclone -P -L sync release:pub.harmony.one/mainnet.min/harmony_db_0 harmony_db_0 --multi-thread-streams 4 --transfers=8
+rclone -P -L sync release:pub.harmony.one/mainnet.min/harmony_db_2 harmony_db_2 --multi-thread-streams 4 --transfers=8
 ```
 {% endtab %}
 
 {% tab title="Testnet" %}
 ```
-rclone -P -L sync release:pub.harmony.one/testnet.min/harmony_db_0 harmony_db_0
-rclone -P -L sync release:pub.harmony.one/testnet.min/harmony_db_2 harmony_db_2
+rclone -P -L sync release:pub.harmony.one/testnet.min/harmony_db_0 harmony_db_0 --multi-thread-streams 4 --transfers=8
+rclone -P -L sync release:pub.harmony.one/testnet.min/harmony_db_2 harmony_db_2 --multi-thread-streams 4 --transfers=8
 ```
 {% endtab %}
 {% endtabs %}
@@ -146,15 +146,15 @@ rclone -P -L sync release:pub.harmony.one/testnet.min/harmony_db_2 harmony_db_2
 {% tabs %}
 {% tab title="Mainnet" %}
 ```bash
-rclone -P -L sync release:pub.harmony.one/mainnet.min/harmony_db_0 harmony_db_0
-rclone -P -L sync release:pub.harmony.one/mainnet.min/harmony_db_3 harmony_db_3
+rclone -P -L sync release:pub.harmony.one/mainnet.min/harmony_db_0 harmony_db_0 --multi-thread-streams 4 --transfers=8
+rclone -P -L sync release:pub.harmony.one/mainnet.min/harmony_db_3 harmony_db_3 --multi-thread-streams 4 --transfers=8
 ```
 {% endtab %}
 
 {% tab title="Testnet" %}
 ```
-rclone -P -L sync release:pub.harmony.one/testnet.min/harmony_db_0 harmony_db_0
-rclone -P -L sync release:pub.harmony.one/testnet.min/harmony_db_3 harmony_db_3
+rclone -P -L sync release:pub.harmony.one/testnet.min/harmony_db_0 harmony_db_0 --multi-thread-streams 4 --transfers=8
+rclone -P -L sync release:pub.harmony.one/testnet.min/harmony_db_3 harmony_db_3 --multi-thread-streams 4 --transfers=8
 ```
 {% endtab %}
 {% endtabs %}

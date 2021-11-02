@@ -1,6 +1,6 @@
-# hmy_newFilter
+# hmy\_newFilter
 
-Creates a filter object, based on filter options, to notify when the state changes (logs). To check if the state has changed, call hmy_getFilterChanges
+Creates a filter object, based on filter options, to notify when the state changes (logs). To check if the state has changed, call hmy\_getFilterChanges
 
 **A note on specifying topic filters:**
 

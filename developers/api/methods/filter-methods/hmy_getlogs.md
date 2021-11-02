@@ -2,7 +2,7 @@
 description: hmy_getLogs
 ---
 
-# hmy_getLogs
+# hmy\_getLogs
 
 Get harmony logs for smart contracts or transactions
 

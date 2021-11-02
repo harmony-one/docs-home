@@ -1,8 +1,8 @@
-# hmy_getBlockSigners
+# hmy\_getBlockSigners
 
 ## Description
 
-hmy_getBlocksSigners returns list of block signers
+hmy\_getBlocksSigners returns list of block signers
 
 ## API v1
 

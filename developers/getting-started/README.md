@@ -29,16 +29,16 @@ Harmony uses [bech32](https://en.bitcoin.it/wiki/Bech32) address format with `on
 
 * Several development environments exists: [mainnet, testnnet, localnet](https://docs.harmony.one/home/developers/api#development-environments)
 * Testnet faucets
-  * [https://faucet.pops.one/](https://faucet.pops.one) 
+  * [https://faucet.pops.one/](https://faucet.pops.one)&#x20;
   * [https://onefaucet.ibriz.ai/](https://onefaucet.ibriz.ai)
 * Blockchain Explorers
-  * Mainnet: [https://explorer.harmony.one/](https://explorer.harmony.one) 
+  * Mainnet: [https://explorer.harmony.one/](https://explorer.harmony.one)&#x20;
   * Testnet: [https://explorer.pops.one/](https://explorer.pops.one)
 
 We provide SDKs in several different languages. However most feature complete is our JavaScript SDK, which is the preferred language for DApp development.
 
 {% hint style="success" %}
-Feel free to ping any POPS member for issues on the testnet network/explorer/faucet on harmony discord @harmony-pops or telegram [P-OPS Team Validator](https://t.me/POPS_Team_Validator)\
+Feel free to ping any POPS member for issues on the testnet network/explorer/faucet on harmony discord @harmony-pops or telegram [P-OPS Team Validator](https://t.me/POPS\_Team\_Validator)\
 Faucet can also be refilled by anyone by sending fund back to the contract address shown on [https://faucet.pops.one](https://faucet.pops.one)
 {% endhint %}
 
@@ -74,7 +74,7 @@ Many other examples and DApps can be found in the [SDK repo](https://github.com/
 
 * [talk.harmony.one](https://talk.harmony.one/c/developers/31) - for reporting issues, asking questions, or interact with other developers
 * Harmony [github](https://github.com/harmony-one)
-* Harmony dev [reddit](https://www.reddit.com/r/Harmony_Devs/)
+* Harmony dev [reddit](https://www.reddit.com/r/Harmony\_Devs/)
 * Discord channels: [#developers](https://discord.gg/bK3vb3chuv), [#development](https://discord.gg/Umfnga3bFU)
 * Harmony dev [telegram](https://t.me/HarmonyDevs)
 

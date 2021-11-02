@@ -12,7 +12,7 @@ With the `hmy` CLI you can create a wallet, check your balance, send signed tran
 
 * OSX: main development platform
 * Linux: tested
-* Windows: tested/working under Windows Subsystem for Linux (WSL) 
+* Windows: tested/working under Windows Subsystem for Linux (WSL)&#x20;
 
 ## Release information
 

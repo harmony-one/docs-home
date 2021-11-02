@@ -28,6 +28,6 @@ Once transaction is signed, Delegate window will pop-up on the staking dashboard
 
 ![](<../../../../.gitbook/assets/image (69).png>)
 
- It will display "Successful Send" once the transactions completes.
+&#x20;It will display "Successful Send" once the transactions completes.
 
 ![](<../../../../.gitbook/assets/image (68).png>)

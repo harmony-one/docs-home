@@ -2,7 +2,7 @@
 description: hmy_getBalanceByBlockNumber
 ---
 
-# hmy_getBalanceByBlockNumber
+# hmy\_getBalanceByBlockNumber
 
 Get the balance of an address at a given block.
 

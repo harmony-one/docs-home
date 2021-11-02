@@ -2,7 +2,7 @@
 
 {% embed url="https://www.youtube.com/watch?v=QvU67LFnb50&list=PLAzkb1vJXQOR3ZEl25MKiz5-CMw6xVkaW&index=6" %}
 
-Slashing is an integral component of EPoS which serves as the deterring factor to prevent any non-conforming behaviors from validators such as double signing and being offline. 
+Slashing is an integral component of EPoS which serves as the deterring factor to prevent any non-conforming behaviors from validators such as double signing and being offline.&#x20;
 
 If validators breach the protocol in the two ways:
 

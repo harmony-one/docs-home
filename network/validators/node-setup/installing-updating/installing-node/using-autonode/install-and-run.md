@@ -14,13 +14,13 @@ All commands for `auto-node` have a help message that describes its usage. Just 
 
 ### **Step 1:** Spin up your instance on [AWS](../../../../server-setup/cloud-guides/aws.md) or [other providers](https://docs.harmony.one/home/validators/first-time-setup/cloud-guides)
 
-> It is recommended to go with Ubuntu 18+ or Red Hat Enterprise Linux 8+ as your operating system. 
+> It is recommended to go with Ubuntu 18+ or Red Hat Enterprise Linux 8+ as your operating system.&#x20;
 
 ### **Step 2:** SSH into the machine
 
 ### Step 2.5: (Optional) Create a new user
 
-You can choose any `<new-user-name>` you want. The command below will ask for a passphrase for the user, choose one and keep track of this password for future use! The command below will also add the user to the sudo group for convenience. 
+You can choose any `<new-user-name>` you want. The command below will ask for a passphrase for the user, choose one and keep track of this password for future use! The command below will also add the user to the sudo group for convenience.&#x20;
 
 ```bash
 new_user_name=<new-user-name>
@@ -80,9 +80,9 @@ curl -o "$tmp_install_file" "$install_file_source" && bash "$tmp_install_file" &
 > Make sure to answer the prompts!
 
 {% hint style="warning" %}
-You will need to have access to `systemd` in user mode. This may require SSH-ing in as the user running AutoNode, or upgrading `systemd.` It may be easier to choose another Operating System if you have to upgrade `systemd`, Ubuntu 18+ is known to work. 
+You will need to have access to `systemd` in user mode. This may require SSH-ing in as the user running AutoNode, or upgrading `systemd.` It may be easier to choose another Operating System if you have to upgrade `systemd`, Ubuntu 18+ is known to work.&#x20;
 
-If you created a user just for AutoNode, make sure to follow all parts of step 2. 
+If you created a user just for AutoNode, make sure to follow all parts of step 2.&#x20;
 {% endhint %}
 
 ### Step 3.5: (Optional) Update your shell
@@ -103,9 +103,9 @@ export PATH=$PATH:~/bin
 auto-node hmy keys add example-validator-wallet-name
 ```
 
-This is the recommended way to run AutoNode. 
+This is the recommended way to run AutoNode.&#x20;
 
-You can send 10,100 ONE from your 'main' wallet to your AutoNode validator wallet (generated with the above command). This way, AutoNode can automate common validator commands for this new wallet, like create the validator for you. Once AutoNode creates the validator, you can delegate from your 'main' wallet to your AutoNode validator to increase its stake. 
+You can send 10,100 ONE from your 'main' wallet to your AutoNode validator wallet (generated with the above command). This way, AutoNode can automate common validator commands for this new wallet, like create the validator for you. Once AutoNode creates the validator, you can delegate from your 'main' wallet to your AutoNode validator to increase its stake.&#x20;
 {% endtab %}
 
 {% tab title="Import Keystore File" %}
@@ -126,7 +126,7 @@ auto-node hmy keys import-private-key <private-key-string>
 {% endtabs %}
 
 {% hint style="success" %}
-You can use the following command to list all of the loaded wallets: 
+You can use the following command to list all of the loaded wallets:&#x20;
 
 ```bash
 auto-node hmy keys list
@@ -155,7 +155,7 @@ Use `--clean` to start fresh/remove old node files (if present)
 
 Use `--fast-sync` option to rclone the correct Harmony DB to reduce sync time. One can choose to sync from scratch by removing the `--fast-sync` option
 
-Use `--expose-rpc` if you wish to expose [RPC](https://en.wikipedia.org/wiki/Remote_procedure_call) for your node to enable endpoint functionality
+Use `--expose-rpc` if you wish to expose [RPC](https://en.wikipedia.org/wiki/Remote\_procedure\_call) for your node to enable endpoint functionality
 
 Use `--shard` (your shard number here) to run a node for a specific shard
 

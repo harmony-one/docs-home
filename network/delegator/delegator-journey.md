@@ -27,7 +27,7 @@ Total Stake vs Median Stake
 {% endembed %}
 
 {% embed url="https://www.youtube.com/watch?v=QvU67LFnb50&list=PLAzkb1vJXQOR3ZEl25MKiz5-CMw6xVkaW&index=6" %}
-What is Slashing and How does it Work? 
+What is Slashing and How does it Work?&#x20;
 {% endembed %}
 
 {% embed url="https://www.youtube.com/watch?v=SLiSBpmQmZk&list=PLAzkb1vJXQOR3ZEl25MKiz5-CMw6xVkaW&index=7" %}

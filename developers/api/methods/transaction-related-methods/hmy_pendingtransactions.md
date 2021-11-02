@@ -2,11 +2,11 @@
 description: hmy_pendingTransactions
 ---
 
-# hmy_pendingTransactions
+# hmy\_pendingTransactions
 
 ## API v1
 
-Returns list of pending transactions object. See [hmy_getTransactionByHash](hmy_gettransactionbyhash.md) for result format.
+Returns list of pending transactions object. See [hmy\_getTransactionByHash](hmy\_gettransactionbyhash.md) for result format.
 
 ### Sample Curl Request
 
@@ -23,7 +23,7 @@ curl --location --request POST 'https://api.s0.b.hmny.io/' \
 
 ## API v2
 
-Returns list of pending transactions object. See [hmy_getTransactionByHash](hmy_gettransactionbyhash.md) for result format.
+Returns list of pending transactions object. See [hmy\_getTransactionByHash](hmy\_gettransactionbyhash.md) for result format.
 
 ### Sample Curl Request
 

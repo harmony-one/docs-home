@@ -217,7 +217,7 @@ constructor(IBridge bridge_) public {
 The contract’s constructor takes one argument, the address of the bridge contract. It then sets the various fields of the req `RequestPacket` variable. This req variable will be what we will use as the key to match and retrieve the price from the bridge contract. Specifically, in this case, we set req to have the following parameters.
 
 * `bridge`: the address of Band’s bridge contract on the blockchain this example contract is deployed to. See this [list](https://docs.bandchain.org/developer/dapp-integrations/supported-blockchains.html) for the chains that Band currently supports and corresponding contract addresses. You can deploy the bridge contract by yourself on the harmony chain. Bridge contract can be found [here](https://github.com/bandprotocol/bandchain/tree/master/bridges/evm).
-* `clientId` (“from_scan”): the unique identifier of this oracle request, as specified by the client.
+* `clientId` (“from\_scan”): the unique identifier of this oracle request, as specified by the client.
 * `oracleScriptId` (76): The unique identifier number assigned to the oracle script when it was first registered on Bandchain.
 * `params` (hex”00000003425443"): The data passed over to the oracle script for the script to use during its execution. In this case, it is hex representation of the OBI-encoded request struct
 * `minCount` (4): The minimum number of validators necessary for the request to proceed to the execution phase
@@ -238,11 +238,11 @@ This is then the main function that we will use to fetch the price from Band’s
 
 ## Examples
 
-Examples can be found here [https://github.com/harmony-one/band_oracle](https://github.com/harmony-one/band_oracle)
+Examples can be found here [https://github.com/harmony-one/band\_oracle](https://github.com/harmony-one/band\_oracle)
 
 ### Requesting data using BandChain.js library
 
-[https://github.com/harmony-one/band_oracle/blob/main/main.js](https://github.com/harmony-one/band_oracle/blob/main/main.js)
+[https://github.com/harmony-one/band\_oracle/blob/main/main.js](https://github.com/harmony-one/band\_oracle/blob/main/main.js)
 
 ```
 git clone https://github.com/harmony-one/band_oracle
@@ -254,7 +254,7 @@ node main.js
 
 ### Using BandChain data in EVM Smart Contract in Harmony
 
-[https://github.com/harmony-one/band_oracle](https://github.com/harmony-one/band_oracle)
+[https://github.com/harmony-one/band\_oracle](https://github.com/harmony-one/band\_oracle)
 
 ```
 git clone https://github.com/harmony-one/band_oracle

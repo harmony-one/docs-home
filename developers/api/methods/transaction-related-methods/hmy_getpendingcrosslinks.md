@@ -1,4 +1,4 @@
-# hmy_getPendingCrossLinks
+# hmy\_getPendingCrossLinks
 
 ## API v1
 

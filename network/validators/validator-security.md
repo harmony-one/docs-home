@@ -4,15 +4,15 @@ description: Helpful information to keep your validating node secure
 
 # Validator Security Tips
 
-This section will teach you about improving the security of your validator. As a validator you play a crucial role in securing and decentralizing the Harmony network. The security of the network is compounded as a sum of all validator's security. Therefore is very important that every single piece in the chain is as secure as possible. 
+This section will teach you about improving the security of your validator. As a validator you play a crucial role in securing and decentralizing the Harmony network. The security of the network is compounded as a sum of all validator's security. Therefore is very important that every single piece in the chain is as secure as possible.&#x20;
 
-Depending on your configuration, if you have the BLS key on your validator server and maybe also the password to decrypt it, for example in order to restart your node automatically, it is strongly recommended that you secure the access to your validator as much as possible. 
+Depending on your configuration, if you have the BLS key on your validator server and maybe also the password to decrypt it, for example in order to restart your node automatically, it is strongly recommended that you secure the access to your validator as much as possible.&#x20;
 
-Using 2FA and other security measures can substantially improve the overall security of your validator. The state of the art for 2FA is to use a HSM module like YubiKey. 
+Using 2FA and other security measures can substantially improve the overall security of your validator. The state of the art for 2FA is to use a HSM module like YubiKey.&#x20;
 
 **Very important:** it is highly recommended to have two YubiKeys associated to ensure one is not locked out in case a YubiKey is lost, stolen, or breaks.
 
-In case you find YubiKey an expensive solution, other methods for 2FA can be used, like your phone or authenticator apps for example. 
+In case you find YubiKey an expensive solution, other methods for 2FA can be used, like your phone or authenticator apps for example.&#x20;
 
 **Very important:** Be aware that SMS based 2FA authentication methods are not secure and not recommended as one could hijack your smartphone’s SIM. Doing this hackers can redirect any two-factor notifications to their own devices.
 
@@ -44,11 +44,11 @@ On Windows you can use for example PuttyGen to generate your SSH Public-Private 
 
 Popular algorithms for creating SSH Keys:
 
-**RSA:** It depends on key size. It is recommend to have 3072 or even better 4096-bit length. The 1024-bit length is considered unsafe. 
+**RSA:** It depends on key size. It is recommend to have 3072 or even better 4096-bit length. The 1024-bit length is considered unsafe.&#x20;
 
 **Ed25519:** It’s the most recommended public-key algorithm available today but you have to check with the cloud provider, e.g. Vultr, Hetzner, AWS if is supporting this.
 
-To generate the SSH keys on macOS use the Terminal and the command below. 
+To generate the SSH keys on macOS use the Terminal and the command below.&#x20;
 
 ```
 ssh-keygen -t rsa
@@ -68,7 +68,7 @@ Make sure to **back-up this password** and also be aware where you place it so t
 
 #### 5. Once logged in, update your OS
 
-For Debian based systems like Ubuntu or Debian use the command below: 
+For Debian based systems like Ubuntu or Debian use the command below:&#x20;
 
 ```
 sudo apt-get update && sudo apt-get upgrade
@@ -149,11 +149,11 @@ To improve the security you should comment the following line out:
 @include common-auth
 ```
 
-This way the YubiKey is required to authenticate without a possibility to fall back to providing the password. 
+This way the YubiKey is required to authenticate without a possibility to fall back to providing the password.&#x20;
 
 Result:
 
-![](https://lh3.googleusercontent.com/6T2EW66tjlnLZWKCERhmLkfEg7wqGCmuamwAMmckh31Osz6K_nGXkHR04SQca2\_D37bTvlJAz0Tvid8eX5vZ9FlpojHv6rg42wcz51bcbRrvT-Vi_f8mBRl-PhQ87Q0SA7eN42I)
+![](https://lh3.googleusercontent.com/6T2EW66tjlnLZWKCERhmLkfEg7wqGCmuamwAMmckh31Osz6K\_nGXkHR04SQca2\_D37bTvlJAz0Tvid8eX5vZ9FlpojHv6rg42wcz51bcbRrvT-Vi\_f8mBRl-PhQ87Q0SA7eN42I)
 
 Save the file and exit -> press Ctrl+X and then press “y”
 
@@ -174,7 +174,7 @@ Add the mappings for each user:
 
 Save the file and exit -> press Ctrl+X and then press “y”
 
-Next step is to update sshd_config file to authenticate via public key and pam.
+Next step is to update sshd\_config file to authenticate via public key and pam.
 
 ```
 sudo nano /etc/ssh/sshd_config
@@ -191,14 +191,14 @@ Following changes need to be made:
 * UsePAM yes
 *   Disable the password authentication by removing “#” in front of this line:
 
-    _PasswordAuthentication_ and set the value from _yes_ to _no_ 
+    _PasswordAuthentication_ and set the value from _yes_ to _no_&#x20;
 * Disable root authentication - if you have created a separate user for your application, deployments, etc. you can also disable the SSH root user access, which will add an extra layer of security to your VPS.** **Find the line _PermitRootLogin_, remove the comment sign “#” from the beginning of it and set the value to _no_
 *   Change your SSH port from 22 to another one, for example 2225.** **
 
-    Don’t use any of the ports in this list: [https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers) , as they are already being used.** **\
+    Don’t use any of the ports in this list: [https://en.wikipedia.org/wiki/List\_of\_TCP\_and\_UDP\_port\_numbers](https://en.wikipedia.org/wiki/List\_of\_TCP\_and\_UDP\_port\_numbers) , as they are already being used.** **\
 
 
-Example sshd_config file - **take it only as reference to see the security changes and don't copy it!**
+Example sshd\_config file - **take it only as reference to see the security changes and don't copy it!**
 
 ```
 #	$OpenBSD: sshd_config,v 1.101 2017/03/14 07:19:07 djm Exp $

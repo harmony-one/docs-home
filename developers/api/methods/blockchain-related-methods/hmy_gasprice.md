@@ -2,7 +2,7 @@
 description: GasPrice
 ---
 
-# hmy_gasPrice
+# hmy\_gasPrice
 
 Returns the current gas price.
 

@@ -98,7 +98,7 @@ Desktop wallet with staking to delegate/undelegate and claim rewards.
 
 ## [hMoney](https://hmoney.one)
 
-hMoney is a mobile wallet with ONE and hrc20 support, qr code support and walletconnect api. Also incorporates staking, delegating, rewards claim features. hMoney will integrate DeFi protocols and other dApps built on Harmony. 
+hMoney is a mobile wallet with ONE and hrc20 support, qr code support and walletconnect api. Also incorporates staking, delegating, rewards claim features. hMoney will integrate DeFi protocols and other dApps built on Harmony.&#x20;
 
 [Bijay Niraula (CEO, Ibriz)](https://medium.com/harmony-one/ibriz-imtoken-mobile-wallet-for-hrc20-staking-delegating-and-rewards-50ad14523acd)
 

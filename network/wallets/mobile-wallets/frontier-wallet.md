@@ -1,6 +1,6 @@
 # Frontier Wallet
 
-![](../../../.gitbook/assets/img_black.svg)
+![](../../../.gitbook/assets/img\_black.svg)
 
 Frontier is a chain-agnostic DeFi aggregation layer. Users can **stake** in Harmony using Frontier.
 

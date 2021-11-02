@@ -16,7 +16,7 @@ Buy ONE on Crypto.com with credit card, debit card and bank transfers.
 
 ## Ramp
 
-Have you all heard about [@harmonyprotocol](https://twitter.com/harmonyprotocol)? It’s the Proof-of-Stake blockchain with a two-way Ethereum bridge, ultra-fast transactions and built-in interoperability. And its native token [#ONE](https://twitter.com/hashtag/ONE?src=hashtag_click) was just added to Ramp SDK. Buy it today at [http://go.ramp.network/one](https://t.co/InZveoFmCJ?amp=1)!
+Have you all heard about [@harmonyprotocol](https://twitter.com/harmonyprotocol)? It’s the Proof-of-Stake blockchain with a two-way Ethereum bridge, ultra-fast transactions and built-in interoperability. And its native token [#ONE](https://twitter.com/hashtag/ONE?src=hashtag\_click) was just added to Ramp SDK. Buy it today at [http://go.ramp.network/one](https://t.co/InZveoFmCJ?amp=1)!
 
 {% embed url="https://twitter.com/RampNetwork/status/1410644146444963840?s=20" %}
 

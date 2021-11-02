@@ -32,13 +32,13 @@ To receive ONE tokens you need to provide the sender your ONE address which can 
 
 Using the SafePal App:
 
-1. Select ONE which gives you the option of receive and send, click on receive 
-2. You can either copy your ONE address for the wallet, save the QR code, or have the other party scan the QR code from your phone 
+1. Select ONE which gives you the option of receive and send, click on receive&#x20;
+2. You can either copy your ONE address for the wallet, save the QR code, or have the other party scan the QR code from your phone&#x20;
 
 Using the SafePal Wallet:
 
-1. Turn on the wallet 
+1. Turn on the wallet&#x20;
 2. Scroll to "Asset Management" in the main menu
-3. Select "Harmony" out of all the options 
+3. Select "Harmony" out of all the options&#x20;
 4. Click on receive, and then enter your PIN code
 5. Your QR code, as well as the ONE address for the wallet will show for the other party to use

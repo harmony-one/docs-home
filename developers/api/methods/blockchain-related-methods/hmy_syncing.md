@@ -2,7 +2,7 @@
 description: Syncing
 ---
 
-# hmy_syncing
+# hmy\_syncing
 
 Tests whether or not the node is syncing.
 

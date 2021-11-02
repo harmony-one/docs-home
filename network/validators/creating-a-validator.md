@@ -8,7 +8,7 @@ Before we proceed, we need to create a new Validator Wallet which will need to b
 
 You need to provide a local account name of your choice and provide a passphrase. When creating an account, the CLI will ask you to provide a passphrase to encrypt the keystore file:\
 \
-**./hmy keys add \[LOCAL ACCOUNT NAME] --passphrase ** example : 
+**./hmy keys add \[LOCAL ACCOUNT NAME] --passphrase ** example :&#x20;
 
 ```
 ./hmy keys add mylocalaccountname --passphrase
@@ -43,7 +43,7 @@ example-account1                      one1wh4p0kuc7unxez2z8f82zfnhsg4ty6dupqyjt2
 
 ### Checking Account Balance
 
-Use the following command to check your balance :** ./hmy --node="\[API_endpoint]" balances \[ONE ADDRESS]** ex:
+Use the following command to check your balance :** ./hmy --node="\[API\_endpoint]" balances \[ONE ADDRESS]** ex:
 
 {% tabs %}
 {% tab title="Mainnet" %}

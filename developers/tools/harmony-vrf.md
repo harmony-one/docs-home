@@ -4,9 +4,9 @@
 
 Harmony brings the technology of VRF (Verifiable Random Function) natively on chain to create a optimal solution for randomness that is unpredictable, unbiasable, verifiable and immediately available. Harmony VRF is a unique construction based on our existing cryptographic primitive of BLS signatures which makes the computation efficient without extra burden to our network validators. Harmony VRF is available for every single block and any smart contract can access the random output through a precompiled contract without paying additional fees.
 
-VRF is a cryptographic invention to solve the problem of onchain randomness. VRF introduces the cryptographic construction where a private key SK is used to work on an arbitrary message and produce a unique and random output along with a proof. The validity of the random output can be verified by any one who knows the corresponding public key PK and the proof. 
+VRF is a cryptographic invention to solve the problem of onchain randomness. VRF introduces the cryptographic construction where a private key SK is used to work on an arbitrary message and produce a unique and random output along with a proof. The validity of the random output can be verified by any one who knows the corresponding public key PK and the proof.&#x20;
 
-Harmony supports the on-chain verifiable random source based on VRF (Verifiable Random Function). Specifically, for every new block, the block producing validator computes a VRF based on his private key and the latest block hash to produce a 32-bytes VRF output and 96-bytes proof. The VRF output and proof are concatenated as a 128-bytes data and put in the VRF field of the header of the newly proposed block. 
+Harmony supports the on-chain verifiable random source based on VRF (Verifiable Random Function). Specifically, for every new block, the block producing validator computes a VRF based on his private key and the latest block hash to produce a 32-bytes VRF output and 96-bytes proof. The VRF output and proof are concatenated as a 128-bytes data and put in the VRF field of the header of the newly proposed block.&#x20;
 
 ## How to Access Harmony VRF within Smart Contract
 

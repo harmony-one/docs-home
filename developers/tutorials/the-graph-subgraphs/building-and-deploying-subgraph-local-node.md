@@ -11,8 +11,8 @@ description: This tutorial will demonstrate how to build a subgraph and deploy i
 ## Build your own graph-indexer local node
 
 Copy paste the below docker-compose file and replace `services.graph-node.environment.ethereum` accordingly to the network: \
-`mainnet `: mainnet:no_eip1898,archive,traces:https://a.api.s0.t.hmny.io\
-`testnet `: testnet:no_eip1898,archive,traces:https://api.s0.pops.one 
+`mainnet `: mainnet:no\_eip1898,archive,traces:https://a.api.s0.t.hmny.io\
+`testnet `: testnet:no\_eip1898,archive,traces:https://api.s0.pops.one&#x20;
 
 {% tabs %}
 {% tab title="mainnet" %}
@@ -205,7 +205,7 @@ Right now of course, the result is empty
 }
 ```
 
-##  Our first subgraph 
+## &#x20;Our first subgraph&#x20;
 
 lets use blocklytics/ethereum-blocks subgraph as example
 
@@ -288,7 +288,7 @@ check your indexer log if the sync is stuck `docker logs indexer -f --since 1m`
 
 ### Community article
 
-[https://medium.com/protofire-blog/subgraph-development-part-1-understanding-and-aggregating-data-ef0c9a61063d](https://medium.com/protofire-blog/subgraph-development-part-1-understanding-and-aggregating-data-ef0c9a61063d) 
+[https://medium.com/protofire-blog/subgraph-development-part-1-understanding-and-aggregating-data-ef0c9a61063d](https://medium.com/protofire-blog/subgraph-development-part-1-understanding-and-aggregating-data-ef0c9a61063d)&#x20;
 
 [https://medium.com/protofire-blog/subgraph-development-part-2-handling-arrays-and-identifying-entities-30d63d4b1dc6](https://medium.com/protofire-blog/subgraph-development-part-2-handling-arrays-and-identifying-entities-30d63d4b1dc6)
 

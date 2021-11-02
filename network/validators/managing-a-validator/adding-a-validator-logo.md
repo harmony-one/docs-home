@@ -4,23 +4,23 @@ description: Upload a custom logo to be displayed on your Staking Dashboard prof
 
 # Adding A Validator Logo
 
-###  Option 1: Using Keybase (Recommended) <a href="using-keybase-recommended" id="using-keybase-recommended"></a>
+### &#x20;Option 1: Using Keybase (Recommended) <a href="using-keybase-recommended" id="using-keybase-recommended"></a>
 
 1. Login to your [Keybase](https://keybase.io) account or create a new one.
 2. On your profile, if you don't have a PGP key set yet, just click on "Add a PGP key" to create or import an existing one.
 3. Once you have created it just click on it like it is shown on the example below:
 
-![](../../../.gitbook/assets/add_edit_pgp_key.png)
+![](../../../.gitbook/assets/add\_edit\_pgp\_key.png)
 
 Once you click on it, Keybase will open a new page. Click on the link "this key":
 
-![](../../../.gitbook/assets/pgp_this_key.png)
+![](../../../.gitbook/assets/pgp\_this\_key.png)
 
 This will open a new page with the PGP public key finger print:
 
-![PGP Public Key Finger Print](../../../.gitbook/assets/pgp_fingerprint.png)
+![PGP Public Key Finger Print](../../../.gitbook/assets/pgp\_fingerprint.png)
 
-Use the following command to update your validator identity with the keybase fingerprint. 
+Use the following command to update your validator identity with the keybase fingerprint.&#x20;
 
 ```
 ./hmy --node="https://api.s0.t.hmny.io" staking edit-validator --validator-addr [YOUR VALIDATOR ONE ADDRESS] --identity [YOUR KEYBASE FINGERPRINT] --passphrase

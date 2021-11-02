@@ -2,7 +2,7 @@
 description: GetTransaction
 ---
 
-# hmy_getTransactionByHash
+# hmy\_getTransactionByHash
 
 Get a transaction by its hash.
 

@@ -2,7 +2,7 @@
 description: GetBlockTransactionCount
 ---
 
-# hmy_getBlockTransactionCountByNumber
+# hmy\_getBlockTransactionCountByNumber
 
 Get the number of transactions in a block by the block's index in the chain.
 

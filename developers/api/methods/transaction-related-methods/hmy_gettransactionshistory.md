@@ -2,11 +2,11 @@
 description: hmy_getTransactionsHistory
 ---
 
-# hmy_getTransactionsHistory
+# hmy\_getTransactionsHistory
 
 ## Description
 
-hmy_getTransactionsHistory get transactions history for an address
+hmy\_getTransactionsHistory get transactions history for an address
 
 API ENDPOINTS ARE DIFFERENT FROM GENERAL API ENDPOINT:
 

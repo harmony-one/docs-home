@@ -2,7 +2,7 @@
 description: SendRawTransaction
 ---
 
-# hmy_sendRawTransaction
+# hmy\_sendRawTransaction
 
 Send a raw transaction encoded in bytes.
 

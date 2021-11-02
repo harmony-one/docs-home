@@ -8,10 +8,10 @@ This page introduces main terms about validator infos in the [harmony-mainnet-tr
 
 ## APR
 
-Annual Percentage Return (APR) is the percent return of rewards for the last epoch that _**the validator was last elected**_. 
+Annual Percentage Return (APR) is the percent return of rewards for the last epoch that _**the validator was last elected**_.&#x20;
 
 {% hint style="warning" %}
-This field reflects the data of the last epoch this validator elected, not the current epoch. 
+This field reflects the data of the last epoch this validator elected, not the current epoch.&#x20;
 
 For example, if a validator was elected in epoch 186 with 50% APR and they were never elected again, they will still display 50% APR.
 {% endhint %}
@@ -41,16 +41,16 @@ If a validator has never been elected, their uptime will display as _**None **_i
 ![Example of a validate that has never been elected](<../../.gitbook/assets/Screen Shot 2020-07-25 at 11.18.51 PM.png>)
 
 {% hint style="warning" %}
-Similarly to APR, uptime is also only updated if the validator is currently elected. 
+Similarly to APR, uptime is also only updated if the validator is currently elected.&#x20;
 
 For example, if the same validator was elected in epoch 186 with 100% uptime and they were never elected again, they will still have 100% uptime displayed.
 {% endhint %}
 
- 
+&#x20;
 
 ## Epos-status
 
-There are five types of data in this field: 
+There are five types of data in this field:&#x20;
 
 * eligible to be elected next epoch
 * not eligible to be elected next epoch
@@ -62,9 +62,9 @@ Epos status is based on the validator's active status. The validator's active st
 
 ## Boot-status
 
-There are five types of the data in this field: 
+There are five types of the data in this field:&#x20;
 
-* NotBooted: if the validator was never selected/signed blocks. 
+* NotBooted: if the validator was never selected/signed blocks.&#x20;
 * LostEPoSAuction
 * TurnedInactiveOrInsufficientUptime
 * BannedForDoubleSigning

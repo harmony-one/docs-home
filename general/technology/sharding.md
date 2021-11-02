@@ -1,6 +1,6 @@
 # Sharding
 
-Harmony blockchain is sharded in three dimensions: state, network and transaction. 
+Harmony blockchain is sharded in three dimensions: state, network and transaction.&#x20;
 
 **State Sharding**
 
@@ -12,7 +12,7 @@ Harmony's validator network is also divided into shards where each shard involve
 
 **Transaction Sharding**
 
-Transactions in Harmony blockchain are sent to and processed by a specific shard instead of all shards. This way, shards can process transactions in parallel which greatly improves the overall transaction processing capacity of the blockchain. Users need to specify a field named `shard_id` in the signed transaction which indicates which shard this transaction belongs to. For cross-shard transactions, another field named `to_shard_id`is needed to indicate the destination shard while the `shard_id` field indicates the source shard. 
+Transactions in Harmony blockchain are sent to and processed by a specific shard instead of all shards. This way, shards can process transactions in parallel which greatly improves the overall transaction processing capacity of the blockchain. Users need to specify a field named `shard_id` in the signed transaction which indicates which shard this transaction belongs to. For cross-shard transactions, another field named `to_shard_id`is needed to indicate the destination shard while the `shard_id` field indicates the source shard.&#x20;
 
 ## Epochs
 

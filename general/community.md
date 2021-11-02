@@ -20,10 +20,10 @@
 🇰🇷 Korean: [Telegram](https://harmony.one/telegram-kr)\
 🇮🇩 Indonesian: [Telegram](https://harmony.one/telegram-id)\
 🇮🇳 Indian: [Telegram](https://harmony.one/telegram-in)\
-🇧🇷 Brazil: [Telegram](https://t.me/Harmony_Brazil)\
+🇧🇷 Brazil: [Telegram](https://t.me/Harmony\_Brazil)\
 🇹🇷 Turkey: [Telegram](https://t.me/Harmonyturkiye)\
-🇪🇸 Spain: [Telegram](https://t.me/harmony_one_es)\
-🇱🇰 Srilanka: [Telegram](https://t.me/Harmony_SL)\
-🇫🇷 France: [Telegram](https://t.me/harmonyone_fr)\
+🇪🇸 Spain: [Telegram](https://t.me/harmony\_one\_es)\
+🇱🇰 Srilanka: [Telegram](https://t.me/Harmony\_SL)\
+🇫🇷 France: [Telegram](https://t.me/harmonyone\_fr)\
 🇷🇺 Russia: [Telegram](http://harmony.one/telegram-ru)\
 🇵🇭 Philippines: [Telegram](http://harmony.one/telegram-ph)

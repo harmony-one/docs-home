@@ -2,7 +2,7 @@
 description: hmy_getValidatorInformation
 ---
 
-# hmy_getValidatorInformation
+# hmy\_getValidatorInformation
 
 Get staking validator information.
 
@@ -43,7 +43,7 @@ Get staking validator information.
   * `creation-height` - `Number` - big.Int block height when validator was created
   * `banned` - `Bool` - is validator banned
   * `Delegations:`
-    * array of validator delegations, check out delegations format in hmy_getDelegationsBy...
+    * array of validator delegations, check out delegations format in hmy\_getDelegationsBy...
 
 **Sample Curl Request**
 

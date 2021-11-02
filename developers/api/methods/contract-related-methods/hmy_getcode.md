@@ -2,7 +2,7 @@
 description: GetCode
 ---
 
-# hmy_getCode
+# hmy\_getCode
 
 Get the code at a specific address.
 

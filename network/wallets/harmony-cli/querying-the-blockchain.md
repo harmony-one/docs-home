@@ -19,7 +19,7 @@ By using `./hmy blockchain help` command we can see that the following options a
 {% hint style="info" %}
 * **block-by-number** - get a harmony blockchain block by block number
 * **current-nonce** - current nonce of an account delegation information about delegations
-* **known-chains** - print out the known chain-ids 
+* **known-chains** - print out the known chain-ids&#x20;
 * **latest-header** - get the latest header
 * **median-stake** - median stake of top 320 validators with delegations applied stake (pre-epos processing)
 * **protocol-version** - the version of the Harmony Protocol

@@ -2,13 +2,13 @@
 
 ## **SWOOP Dex**
 
-Welcome! The pages that follow contain comprehensive documentation of the SWOOP ecosystem. SWOOP is a fork from Uniswap,  code and documentation is based on [Uniswap](https://uniswap.org) 🦄 and [SushiSwap](https://sushiswap.org) 🍣 
+Welcome! The pages that follow contain comprehensive documentation of the SWOOP ecosystem. SWOOP is a fork from Uniswap,  code and documentation is based on [Uniswap](https://uniswap.org) 🦄 and [SushiSwap](https://sushiswap.org) 🍣&#x20;
 
 ### **How it Works** <a href="developer-links" id="developer-links"></a>
 
 ![](<../../.gitbook/assets/image (193).png>)
 
-SWOOP is an _automated liquidity protocol_ powered by a constant product formula and implemented in a system of non-upgradeable smart contracts on the Harmony blockchain. It obviates the need for trusted intermediaries, prioritizing **decentralization**, **censorship resistance**, and **security**. SWOOP is **open-source software** licensed under the [GPL](https://en.wikipedia.org/wiki/GNU_General_Public_License).
+SWOOP is an _automated liquidity protocol_ powered by a constant product formula and implemented in a system of non-upgradeable smart contracts on the Harmony blockchain. It obviates the need for trusted intermediaries, prioritizing **decentralization**, **censorship resistance**, and **security**. SWOOP is **open-source software** licensed under the [GPL](https://en.wikipedia.org/wiki/GNU\_General\_Public\_License).
 
 Each SWOOP smart contract, or pair, manages a liquidity pool made up of reserves of two HRC-20 tokens.
 
@@ -286,11 +286,11 @@ Here we are using Threshold Signature Scheme (TSS).
 
 **See: **[**code**](https://github.com/gupadhyaya/binance-chain-bridge/)**, **[**community**](https://t.me/joinchat/P0DVklMjTLdxzQDw-vv70A)****
 
-## **Iris Bridge** 
+## **Iris Bridge**&#x20;
 
 Iris Bridge is a fully permissionless, trustless, decentralized bridge on Harmony for ALL ERC20 tokens. It employs an Ethereum light client on Harmony using Solidity.
 
-**See: **[**code**](https://github.com/JackyWYX/harmony_rainbow)**, **[**light client**](https://github.com/rlan35/ethClient/tree/master)****
+**See: **[**code**](https://github.com/JackyWYX/harmony\_rainbow)**, **[**light client**](https://github.com/rlan35/ethClient/tree/master)****
 
 ## **BTC Bridge**
 

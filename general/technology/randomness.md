@@ -1,6 +1,6 @@
 # Randomness
 
-Harmony’s sharding approach depends on a secure randomness source so the validators can be assigned to shards in a truly random manner to avoid single-shard attacks. Harmony designed a distributed randomness generation (DRG) protocol which involves both VRF (Verifiable Random Function) and VDF (Verifiable Delay Function) to achieve the follows key properties:  
+Harmony’s sharding approach depends on a secure randomness source so the validators can be assigned to shards in a truly random manner to avoid single-shard attacks. Harmony designed a distributed randomness generation (DRG) protocol which involves both VRF (Verifiable Random Function) and VDF (Verifiable Delay Function) to achieve the follows key properties: &#x20;
 
 1. Unpredictable: No one should be able to predict the random number before it is generated.
 2. Un-biased: The process of generating the random number should not be biasable by any participant.
@@ -15,7 +15,7 @@ Since the random assignment (resharding) of validators only happens every epoch,
 4. After pRnd is committed, the leader starts computing the actual randomness Rnd=VDF(pRnd, T), where T is the VDF difficulty and is set algorithmically such that the randomness can only be computed after k blocks.
 5. Once Rnd is computed, the leader initiates a FBFT among all validators to agree on the validity of Rnd and finally commit the randomness into the blockchain.
 
-![The VDF (Verifiable Delay Function) delays the revelation of the final randomness.](https://lh3.googleusercontent.com/nO_rCzf7LjFBS9ZyhC_RHKX5OSRH0jj5vMusM9dluDumYZSLkGtUBpDpiQ7xsnV79mKYuTCjMXE_aL9Da3IvUir02m0zxYvgxvYcSqxD1ADEOD-WzWkNrJyWq1JQFqQZvxyvr6rP)
+![The VDF (Verifiable Delay Function) delays the revelation of the final randomness.](https://lh3.googleusercontent.com/nO\_rCzf7LjFBS9ZyhC\_RHKX5OSRH0jj5vMusM9dluDumYZSLkGtUBpDpiQ7xsnV79mKYuTCjMXE\_aL9Da3IvUir02m0zxYvgxvYcSqxD1ADEOD-WzWkNrJyWq1JQFqQZvxyvr6rP)
 
 The VDF (Verifiable Delay Function) is used to delay the revelation of the final randomness in order to be secure against last-revealer-attack.The VDF is used to provably delay the revelation of Rnd and prevent the last leader from biasing the randomness by choosing to submit or not the last random number. Because of the VDF, the last leader won’t be able to know the actual final randomness before pRnd is committed to the blockchain. By the time Rnd is computed with the VDF, pRnd is already committed in a previous block so the leader cannot manipulate it anymore. Therefore, the most a malicious leader can do is to either blindly commit the randomness pRnd, or stall the protocol by not committing pRnd. The former is the same as the honest behavior. The latter won’t cause much damage as the timeout mechanism in FBFT will be triggered to switch the leader.
 

@@ -2,7 +2,7 @@
 
 ## Download
 
-Visit [https://sprout.sesameseed.org](https://sprout.sesameseed.org) to create your Harmony wallet and start staking with the app. 
+Visit [https://sprout.sesameseed.org](https://sprout.sesameseed.org) to create your Harmony wallet and start staking with the app.&#x20;
 
 ## [Staking](https://docs.sesameseed.org/harmony-staking-sprout/) with Sprout
 

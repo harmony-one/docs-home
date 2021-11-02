@@ -2,7 +2,7 @@
 description: hmy_getCurrentUtilityMetrics
 ---
 
-# hmy_getCurrentUtilityMetrics
+# hmy\_getCurrentUtilityMetrics
 
 ## Description
 

@@ -100,7 +100,7 @@ Horizon Bridge Home Page will load.
 
 In this example, I am bridge $ONE tokens from Binance to Harmony.
 
-Select Binance as the network, and click Metamask icon under Binance 
+Select Binance as the network, and click Metamask icon under Binance&#x20;
 
 ![](<../../.gitbook/assets/image (257).png>)
 

@@ -2,7 +2,7 @@
 description: GetBalance
 ---
 
-# hmy_getBalance
+# hmy\_getBalance
 
 Get latest balance of an address.
 

@@ -2,7 +2,7 @@
 description: hmy_getValidatorMetrics
 ---
 
-# hmy_getValidatorMetrics
+# hmy\_getValidatorMetrics
 
 ## Parameters
 

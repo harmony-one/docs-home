@@ -2,7 +2,7 @@
 description: Net_PeerCount
 ---
 
-# net_peerCount
+# net\_peerCount
 
 Gets the number of peers on the network.
 

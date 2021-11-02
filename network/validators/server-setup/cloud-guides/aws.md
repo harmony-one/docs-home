@@ -10,15 +10,15 @@ description: To launch your AWS instance, follow the steps below.
 
 **2.** Once you have set up and logged into your AWS account, click on the top left bar “Services -> Compute -> EC2".
 
-![](https://blobs.gitbook.com/assets%2F-M-IDt7HenNiPUXWT\_3k%2F-M-SpPev7Rx3tI5\_8vit%2F-M-SvY1PztdgOcjd96xZ%2Fassets\_-LlDqlxK8e45wuh1WH4h\_-LlEvL4ccZjjcXwS1WWY\_-LlEoh9qALwq7NrZTaQH_assets%2F-LiQYKCcGux_Ib7Gddno%2F-Lj2HFbsGU29d_abCLle%2F-Lj2HGc3Atm\_1mokTWXl%2FAWS-step3%20\(1\).png?alt=media\&token=2ab52e1b-9c94-4ae3-bf28-738cbeb9a917)
+![](https://blobs.gitbook.com/assets%2F-M-IDt7HenNiPUXWT\_3k%2F-M-SpPev7Rx3tI5\_8vit%2F-M-SvY1PztdgOcjd96xZ%2Fassets\_-LlDqlxK8e45wuh1WH4h\_-LlEvL4ccZjjcXwS1WWY\_-LlEoh9qALwq7NrZTaQH\_assets%2F-LiQYKCcGux\_Ib7Gddno%2F-Lj2HFbsGU29d\_abCLle%2F-Lj2HGc3Atm\_1mokTWXl%2FAWS-step3%20\(1\).png?alt=media\&token=2ab52e1b-9c94-4ae3-bf28-738cbeb9a917)
 
 **3.** Click on the blue button “Launch Instance".
 
-![](https://blobs.gitbook.com/assets%2F-M-IDt7HenNiPUXWT\_3k%2F-M-SpPev7Rx3tI5\_8vit%2F-M-Sv_xB0oo1-kzPVcC6%2Fassets\_-LlDqlxK8e45wuh1WH4h\_-LlEvL4ccZjjcXwS1WWY\_-LlEoorXG-dkasj2ahJd_assets%2F-LiQYKCcGux_Ib7Gddno%2F-Lj2HFbsGU29d_abCLle%2F-Lj2HGc5NkR0XElzEk6I%2FAWS-step4.png?alt=media\&token=29eea808-5ec5-4a38-b483-8d22c1941c76)
+![](https://blobs.gitbook.com/assets%2F-M-IDt7HenNiPUXWT\_3k%2F-M-SpPev7Rx3tI5\_8vit%2F-M-Sv\_xB0oo1-kzPVcC6%2Fassets\_-LlDqlxK8e45wuh1WH4h\_-LlEvL4ccZjjcXwS1WWY\_-LlEoorXG-dkasj2ahJd\_assets%2F-LiQYKCcGux\_Ib7Gddno%2F-Lj2HFbsGU29d\_abCLle%2F-Lj2HGc5NkR0XElzEk6I%2FAWS-step4.png?alt=media\&token=29eea808-5ec5-4a38-b483-8d22c1941c76)
 
 **4.** Select “Amazon Linux 2 AMI (HVM), SSD Volume Type”.
 
-![](https://blobs.gitbook.com/assets%2F-M-IDt7HenNiPUXWT\_3k%2F-M18EnlHhxfs4IlN_Xhi%2F-M18Eym_BjlKXaPChBdj%2Fassets\_-LlDqlxK8e45wuh1WH4h\_-LlEvL4ccZjjcXwS1WWY\_-LlEoyu2o6s4Sjkvm34W_assets%2F-LiQYKCcGux_Ib7Gddno%2F-Lj2HFbsGU29d_abCLle%2F-Lj2HGc7aUnyzpkZdHd7%2FAWS-step5.png?alt=media\&token=d89a9daf-e89c-4472-97ff-c2890379be82)
+![](https://blobs.gitbook.com/assets%2F-M-IDt7HenNiPUXWT\_3k%2F-M18EnlHhxfs4IlN\_Xhi%2F-M18Eym\_BjlKXaPChBdj%2Fassets\_-LlDqlxK8e45wuh1WH4h\_-LlEvL4ccZjjcXwS1WWY\_-LlEoyu2o6s4Sjkvm34W\_assets%2F-LiQYKCcGux\_Ib7Gddno%2F-Lj2HFbsGU29d\_abCLle%2F-Lj2HGc7aUnyzpkZdHd7%2FAWS-step5.png?alt=media\&token=d89a9daf-e89c-4472-97ff-c2890379be82)
 
 **5.** Choose instance type “m5a.xlarge” or “m5.xlarge“.
 
@@ -32,7 +32,7 @@ description: To launch your AWS instance, follow the steps below.
 
 **10.** Click "Add Tag." Then, in the “Key” input box put “Name” in “Value” put “Pangaea-key”.
 
-![](https://blobs.gitbook.com/assets%2F-M-IDt7HenNiPUXWT\_3k%2F-M-SpPev7Rx3tI5\_8vit%2F-M-SvyBAYVDNioAq1d8n%2Fassets\_-LlDqlxK8e45wuh1WH4h\_-LlEvL4ccZjjcXwS1WWY\_-LlEqF6sFapEJt6e_ruU_Capture.png?alt=media\&token=c2319a18-312e-447a-814f-9d204183a32e)
+![](https://blobs.gitbook.com/assets%2F-M-IDt7HenNiPUXWT\_3k%2F-M-SpPev7Rx3tI5\_8vit%2F-M-SvyBAYVDNioAq1d8n%2Fassets\_-LlDqlxK8e45wuh1WH4h\_-LlEvL4ccZjjcXwS1WWY\_-LlEqF6sFapEJt6e\_ruU\_Capture.png?alt=media\&token=c2319a18-312e-447a-814f-9d204183a32e)
 
 **11.** Click “Next: Configure Security Group”.
 
@@ -42,7 +42,7 @@ description: To launch your AWS instance, follow the steps below.
 
 **14.** Click "Add Rule" again. This time, under "Type" select "Custom TCP Rule", under "Port Range" put "9000" and under "Source" select "Anywhere".
 
-![](https://blobs.gitbook.com/assets%2F-M-IDt7HenNiPUXWT\_3k%2F-M-SpPev7Rx3tI5\_8vit%2F-M-Sw01Yoy6KQN9QE9PX%2Fassets\_-LlDqlxK8e45wuh1WH4h\_-Lw56FxOeYv0YR4puCg\_\_-Lw56P4Wvhdd5sBaWFho_security_groups_aws.jpg?alt=media\&token=f3004e29-8898-4d6f-8654-37de5d847936)
+![](https://blobs.gitbook.com/assets%2F-M-IDt7HenNiPUXWT\_3k%2F-M-SpPev7Rx3tI5\_8vit%2F-M-Sw01Yoy6KQN9QE9PX%2Fassets\_-LlDqlxK8e45wuh1WH4h\_-Lw56FxOeYv0YR4puCg\_\_-Lw56P4Wvhdd5sBaWFho\_security\_groups\_aws.jpg?alt=media\&token=f3004e29-8898-4d6f-8654-37de5d847936)
 
 **15. **Click “Review and Launch” and then click "Launch". (Note: Ignore warnings such as “your security group is open to the world” or “your instance configuration is not eligible for free tier”)
 
@@ -58,21 +58,21 @@ description: To launch your AWS instance, follow the steps below.
 
 **21.** Congratulations your instance is up and running! Now it's time to connect to your instance.
 
-![](https://blobs.gitbook.com/assets%2F-M-IDt7HenNiPUXWT\_3k%2F-M18Fj8DCAY2KtBma_zp%2F-M18G50wfliuTSWxfFPs%2Fassets\_-LlDqlxK8e45wuh1WH4h\_-LlEvL4ccZjjcXwS1WWY\_-LlErACMN7pbdPNpbeia_assets%2F-LiQYKCcGux_Ib7Gddno%2F-Lj2HFbsGU29d_abCLle%2F-Lj2HGcJYpniB9O_xpMo%2FAWS-step21.png?alt=media\&token=cbd9a6fb-c7dd-43db-83cd-bfc8026058a8)
+![](https://blobs.gitbook.com/assets%2F-M-IDt7HenNiPUXWT\_3k%2F-M18Fj8DCAY2KtBma\_zp%2F-M18G50wfliuTSWxfFPs%2Fassets\_-LlDqlxK8e45wuh1WH4h\_-LlEvL4ccZjjcXwS1WWY\_-LlErACMN7pbdPNpbeia\_assets%2F-LiQYKCcGux\_Ib7Gddno%2F-Lj2HFbsGU29d\_abCLle%2F-Lj2HGcJYpniB9O\_xpMo%2FAWS-step21.png?alt=media\&token=cbd9a6fb-c7dd-43db-83cd-bfc8026058a8)
 
 ## Step 2: Connecting to your AWS Instance <a href="step-2-connecting-to-your-aws-instance" id="step-2-connecting-to-your-aws-instance"></a>
 
 **1.** Open a Terminal window on your computer.
 
- **For Mac:** If you can’t find Terminal, use spotlight to search for it. Or go to your "Applications' folder, and it should be inside of “Utilities”.
+&#x20;**For Mac:** If you can’t find Terminal, use spotlight to search for it. Or go to your "Applications' folder, and it should be inside of “Utilities”.
 
-![](https://blobs.gitbook.com/assets%2F-M-IDt7HenNiPUXWT\_3k%2F-M-SpPev7Rx3tI5\_8vit%2F-M-SwDSVomei_wm8RgU8%2Fassets\_-LlDqlxK8e45wuh1WH4h\_-LlEvL4ccZjjcXwS1WWY\_-LlErPyudVu-nb4ZLB4D_assets%2F-LiQYKCcGux_Ib7Gddno%2F-Lj2HFbsGU29d_abCLle%2F-Lj2HGcLt-ekXY8UUO4g%2Fkey-step1.png?alt=media\&token=04abdbb4-bec6-4c09-94ae-b9aca707139d)
+![](https://blobs.gitbook.com/assets%2F-M-IDt7HenNiPUXWT\_3k%2F-M-SpPev7Rx3tI5\_8vit%2F-M-SwDSVomei\_wm8RgU8%2Fassets\_-LlDqlxK8e45wuh1WH4h\_-LlEvL4ccZjjcXwS1WWY\_-LlErPyudVu-nb4ZLB4D\_assets%2F-LiQYKCcGux\_Ib7Gddno%2F-Lj2HFbsGU29d\_abCLle%2F-Lj2HGcLt-ekXY8UUO4g%2Fkey-step1.png?alt=media\&token=04abdbb4-bec6-4c09-94ae-b9aca707139d)
 
 **For Windows:** Download PuTTY to allow your computer to SSH into the AWS instance. For instructions on connecting to an EC2 instance using Putty follow [these instructions](https://docs.aws.amazon.com/quickstarts/latest/vmlaunch/step-2-connect-to-instance.html) from Amazon.
 
 **2.** Once Terminal is open, use the `cd` command to change your directory to where the key pair file (Pangaea-key.pem) that you generated is. Hint it may be in your “Downloads” folder.
 
-![](https://blobs.gitbook.com/assets%2F-M-IDt7HenNiPUXWT\_3k%2F-M-SpPev7Rx3tI5\_8vit%2F-M-SwIfjL7K3O36MS2Lc%2Fassets\_-LlDqlxK8e45wuh1WH4h\_-LlYZ1j\_-40H7bnDrwxD\_-LlYgjVgJIwE8kk2L6wF_AWSCDDOWNLAODS.png?alt=media\&token=3d58106e-1758-46e7-835e-45efc1a8f6de)
+![](https://blobs.gitbook.com/assets%2F-M-IDt7HenNiPUXWT\_3k%2F-M-SpPev7Rx3tI5\_8vit%2F-M-SwIfjL7K3O36MS2Lc%2Fassets\_-LlDqlxK8e45wuh1WH4h\_-LlYZ1j\_-40H7bnDrwxD\_-LlYgjVgJIwE8kk2L6wF\_AWSCDDOWNLAODS.png?alt=media\&token=3d58106e-1758-46e7-835e-45efc1a8f6de)
 
 **3.** Enter the command `chmod 400 Pangaea-key.pem`. This command makes your key not publicly viewable.
 
@@ -94,7 +94,7 @@ Now connect to your instance by running the sample command you copied from the �
 
 It may ask you whether or not you want to continue connecting. Type in “yes” and hit enter.
 
-![](https://blobs.gitbook.com/assets%2F-M-IDt7HenNiPUXWT\_3k%2F-M-SpPev7Rx3tI5\_8vit%2F-M-SwU2UBsT7Dov4WsF6%2Fassets\_-LlDqlxK8e45wuh1WH4h\_-LlYZ1j\_-40H7bnDrwxD\_-LlYiEuvvkCZfCrmaujP_AWSpangaeaConnected.png?alt=media\&token=0b089e53-81bf-49b0-acc3-7ea47f5e9f55)
+![](https://blobs.gitbook.com/assets%2F-M-IDt7HenNiPUXWT\_3k%2F-M-SpPev7Rx3tI5\_8vit%2F-M-SwU2UBsT7Dov4WsF6%2Fassets\_-LlDqlxK8e45wuh1WH4h\_-LlYZ1j\_-40H7bnDrwxD\_-LlYiEuvvkCZfCrmaujP\_AWSpangaeaConnected.png?alt=media\&token=0b089e53-81bf-49b0-acc3-7ea47f5e9f55)
 
 Congratulations! You should be logged into your new AWS instance!
 

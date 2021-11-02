@@ -26,7 +26,7 @@ To more easy verification we recommend to deploy contract with Harmony Remix [ht
 
 You can verify your contract here [https://explorer.harmony.one/verifycontract](https://explorer.harmony.one/verifycontract)
 
-![](<../../.gitbook/assets/verify_contract (2) (4) (5) (2) (1) (5).png>)
+![](<../../.gitbook/assets/verify\_contract (2) (4) (5) (2) (1) (5).png>)
 
 Important to use correct params (the same like on deploy):
 

@@ -2,7 +2,7 @@
 description: hmy_getFilterChanges
 ---
 
-# hmy_getFilterChanges
+# hmy\_getFilterChanges
 
 **Parameters**
 

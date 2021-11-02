@@ -1,6 +1,6 @@
 # Voting via Governance App
 
-![](https://gblobscdn.gitbook.com/assets%2F-LlEOlYqEG_GKuO5Rehq%2F-MUynOM53LJbGBV3znbC%2F-MUypHB7\_FDHp8DC26-w%2Fgovernance_app1.jpg?alt=media\&token=3682ad92-235b-4fc7-b91d-afe7c477d2de)
+![](https://gblobscdn.gitbook.com/assets%2F-LlEOlYqEG\_GKuO5Rehq%2F-MUynOM53LJbGBV3znbC%2F-MUypHB7\_FDHp8DC26-w%2Fgovernance\_app1.jpg?alt=media\&token=3682ad92-235b-4fc7-b91d-afe7c477d2de)
 
 Make sure to read the introduction and rules [here](./) first.
 
@@ -18,7 +18,7 @@ To create a proposal navigate to the governance app, connect your One Wallet, th
 
 You can now start writing a new proposal:
 
-![Creating a proposal](../../../.gitbook/assets/governance_app2.png)
+![Creating a proposal](../../../.gitbook/assets/governance\_app2.png)
 
 **1** - The title of the proposal.\
 **2** - The body of the proposal; e.g. what you want people to vote on and any explanation, facts, examples, etc. The proposal should include the following key sections:
@@ -39,19 +39,19 @@ You can now start writing a new proposal:
 \
 Once you approve, the proposal will be quickly submitted. After that it will show under Pending until the initial 7 day period is over and it gets Active.
 
-![Approve Transaction](../../../.gitbook/assets/governance_app3.png)
+![Approve Transaction](../../../.gitbook/assets/governance\_app3.png)
 
 ### Voting on a proposal
 
 To vote for a proposal, simply navigate to the Active tab and click on a proposal you want to vote on. Read what the proposal is about, select your choice and confirm with a signed message from your wallet:
 
-![Approve Transaction](../../../.gitbook/assets/governance_app4.png)
+![Approve Transaction](../../../.gitbook/assets/governance\_app4.png)
 
 After signing, you will quickly see your vote being added in:
 
-![Transaction Confirmed](../../../.gitbook/assets/governance_app5.png)
+![Transaction Confirmed](../../../.gitbook/assets/governance\_app5.png)
 
-That's it! 
+That's it!&#x20;
 
 While voting please note:
 

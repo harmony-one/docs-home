@@ -6,20 +6,20 @@ A validator in Harmony blockchain is a single person or entity who stakes tokens
 
 To become a validator in Harmony, you will need to do the following:
 
-1. Setup a validator node(s) and let it fully synchronized with the latest blockchain. 
-2. Create an on-chain validator record by sending a **CreateValidator**_** **_transaction. 
+1. Setup a validator node(s) and let it fully synchronized with the latest blockchain.&#x20;
+2. Create an on-chain validator record by sending a **CreateValidator**_** **_transaction.&#x20;
 3. Start validating using the node(s) with the BLS key(s) you added in your validator record
 
 There are many fields to configure for your validator. It’s worth clarifying some of the important fields in more detail:
 
 1. **amount:** The amount of ONE tokens the validator will stake initially.
-2. **rate:** The commission fee (%) the validator charges from the block reward. 
-3. **bls-pubkeys:** One or multiple BLS public keys the validator will sign with. Each BLS key will be used separately to bid for a slot and if successful, the key is obligated to validate blocks. 
+2. **rate:** The commission fee (%) the validator charges from the block reward.&#x20;
+3. **bls-pubkeys:** One or multiple BLS public keys the validator will sign with. Each BLS key will be used separately to bid for a slot and if successful, the key is obligated to validate blocks.&#x20;
 
 ### BLS key(s)
 
 {% hint style="info" %}
-[BLS](https://en.wikipedia.org/wiki/Boneh%E2%80%93Lynn%E2%80%93Shacham) stands for **Boneh–Lynn–Shacham**. It is a digital signature method used for verifying the authenticity of digital messages or documents. 
+[BLS](https://en.wikipedia.org/wiki/Boneh%E2%80%93Lynn%E2%80%93Shacham) stands for **Boneh–Lynn–Shacham**. It is a digital signature method used for verifying the authenticity of digital messages or documents.&#x20;
 {% endhint %}
 
 A BLS key represents what the validator signs the blocks with, and is a way of authenticating the validator. A validator can have multiple keys to sign with, this means that a validator is signing blocks in parallel.
@@ -31,7 +31,7 @@ BLS keys are attached to validator via:
 
 ### Instance(s) & Multi-BLS keys
 
-An instance is a virtual private server or dedicated hardware with a unique IP address on which a validator runs the node software. 
+An instance is a virtual private server or dedicated hardware with a unique IP address on which a validator runs the node software.&#x20;
 
 Within each instance, there could be up to 4 BLS keys signing transactions. If you have more than a single BLS key in your instance, it means that you're using the **multiBLS feature**. If you have a single BLS key in the instance, we will call that single-key instance.
 

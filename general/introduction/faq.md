@@ -14,7 +14,7 @@ Check [DApps](../dapps/) for a list of decentralized applications running on Har
 
 ## What is Staking?
 
-For those wishing to participate in staking without running a validator, delegation is the best approach to still get involved and earn block rewards. The act of delegating tokens and earn rewards is called staking. 
+For those wishing to participate in staking without running a validator, delegation is the best approach to still get involved and earn block rewards. The act of delegating tokens and earn rewards is called staking.&#x20;
 
 Harmony ONE holders can delegate their tokens to existing validators using our staking explorer: [https://staking.harmony.one/](https://staking.harmony.one). If the tokens are delegated to an elected validator, a portion of the block reward earned by the validator will be credited to the delegator (according to section [Block Reward](../../network/validators/definitions/block-reward.md)).
 
@@ -50,9 +50,9 @@ For more questions, check our [community](../community.md) section.
 
 _****_
 
- 
+&#x20;
 
- 
+&#x20;
 
 
 

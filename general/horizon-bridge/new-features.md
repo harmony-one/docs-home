@@ -13,7 +13,7 @@ Horizon bridge currently supporting bridging BUSD, LINK, and any ERC20 token fro
 2. ERC721 (NFT) bridging
    * Allows single or in batch bridging of ERC721 (or NFTs) to Harmony to receive HRC721
 3. ONE & HRC20 bridging
-   * Allows bridging Harmony's native ONE token and any HRC20 issued on Harmony to Ethereum for utilizing Ethereum ecosystem and DApps 
+   * Allows bridging Harmony's native ONE token and any HRC20 issued on Harmony to Ethereum for utilizing Ethereum ecosystem and DApps&#x20;
 
 ## ETH Bridging
 
@@ -41,7 +41,7 @@ For redeeming your ERC721 back to Ethereum by burning HRC721, select ERC721 unde
 
 ## ONE & HRC20 Bridging
 
-With this feature, Harmony users can now take their ONE tokens and HRC20s to Ethereum and utilized the ecosystem and DApps available in Ethereum. 
+With this feature, Harmony users can now take their ONE tokens and HRC20s to Ethereum and utilized the ecosystem and DApps available in Ethereum.&#x20;
 
 For bridging ONE tokens from Harmony to Ethereum, select ONE under ONE > ETH flow tab and enter a valid amount of ONE tokens to bridge to Ethereum and proceed.
 

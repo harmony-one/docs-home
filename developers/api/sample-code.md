@@ -27,7 +27,7 @@ const txn_object = {
 };
 ```
 
-## hmy_sendRawTransaction
+## hmy\_sendRawTransaction
 
 ```javascript
 const txn = harmony.transactions.newTx(txn_object);

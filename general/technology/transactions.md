@@ -2,7 +2,7 @@
 
 ## Transaction Finality
 
-Block finality refers to the concept that a proposed block is finalized by the blockchain and can not be reverted or the cost of reversion is prohibitively high. Block finality is usually measured by how long it takes for the newly proposed blocks to be finalized. For example, in Ethereum, it takes more than 6 blocks or 1 minute to have reasonable confidence that the block is finalized and can not be reverted. 
+Block finality refers to the concept that a proposed block is finalized by the blockchain and can not be reverted or the cost of reversion is prohibitively high. Block finality is usually measured by how long it takes for the newly proposed blocks to be finalized. For example, in Ethereum, it takes more than 6 blocks or 1 minute to have reasonable confidence that the block is finalized and can not be reverted.&#x20;
 
 Thanks to the nature of Harmony‘s FBFT consensus, blocks can be finalized as long as the 2/3 majority quorum is reached on the block. **On Harmony mainnet, it now takes 2 seconds to finalize a newly proposed block and the transactions inside.** Read more about our 2-second finality here:
 
@@ -18,7 +18,7 @@ The reason for Harmony to be able to afford such low fee is twofold. First, Harm
 
 We will adopt the asynchronous cross-shard communication model just like we did for cross-shard ONE token transfer. Meaning any smart contract which needs to call another smart contract from another shard will have the sender contract transaction finalized first at initiating shard, then a receipt will be created including the call data, and finally the receipt will be sent and processed at the destination shard.
 
-A new Opcode “CALL2” will be added to the virtual machine which is used for a cross-shard smart contract call. 
+A new Opcode “CALL2” will be added to the virtual machine which is used for a cross-shard smart contract call.&#x20;
 
 CALL2’s input is similar to CALL but with an another shardID parameter:
 

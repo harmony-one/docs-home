@@ -27,7 +27,7 @@ const web3 = new Web3(HMY_RPC_URL);
 
 Depending on which network you want to connect to, you can set the `HMY_RPC_URL` to the following values:
 
-For Mainnet: 
+For Mainnet:&#x20;
 
 ```javascript
 HMY_RPC_URL = https://api.s0.t.hmny.io
@@ -41,7 +41,7 @@ HMY_RPC_URL = https://api.s0.b.hmny.io
 
 ## Tutorials
 
-In the case that you are interested in a more detailed step-by-step guide, you can go to our specific tutorials on using web3.js on a Harmony:  
+In the case that you are interested in a more detailed step-by-step guide, you can go to our specific tutorials on using web3.js on a Harmony: &#x20;
 
 {% content-ref url="send-transaction.md" %}
 [send-transaction.md](send-transaction.md)
@@ -54,5 +54,5 @@ In the case that you are interested in a more detailed step-by-step guide, you c
 The steps can also be adapted to deploy on the Harmony Testnet, by using the correct `RPC_URL` as mentioned before.
 
 {% hint style="info" %}
-You can use all the library functions described in the official [Web3 documentation](https://web3js.readthedocs.io/en/v1.3.0/). 
+You can use all the library functions described in the official [Web3 documentation](https://web3js.readthedocs.io/en/v1.3.0/).&#x20;
 {% endhint %}

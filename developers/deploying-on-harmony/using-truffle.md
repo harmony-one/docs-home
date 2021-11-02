@@ -1,6 +1,6 @@
 # Using Truffle
 
-1\. Install truffle (preferably v5.3.0+, sometimes with v5.1.33, `@truffle/hdwallet-provider` does not work) 
+1\. Install truffle (preferably v5.3.0+, sometimes with v5.1.33, `@truffle/hdwallet-provider` does not work)&#x20;
 
 ```
 npm install -g truffle

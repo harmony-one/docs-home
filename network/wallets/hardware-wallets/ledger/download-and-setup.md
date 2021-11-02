@@ -52,7 +52,7 @@ These instructions are only for advanced users who want to install Ledger manual
 
 ### 1. Install Python
 
-To install Python 3.8.1 for windows, go to this [website](https://www.python.org/downloads/release/python-381/). 
+To install Python 3.8.1 for windows, go to this [website](https://www.python.org/downloads/release/python-381/).&#x20;
 
 {% hint style="info" %}
 This is the latest version as 18th Jan 2019 that was tested, newer version could work or not‌.ese instructions install version 1.6.0. If you want to install another version, change the parameters on step 3.
@@ -80,7 +80,7 @@ pip install ledgerblue
 
 Click [here](https://github.com/harmony-one/ledger-app-one/tree/master/release) to download the latest avaialable version. Make sure you download it using the raw format from Github like shown below:
 
-![](../../../../.gitbook/assets/saving_ledger_hex_file.gif)
+![](../../../../.gitbook/assets/saving\_ledger\_hex\_file.gif)
 
 ### 3. Install the App
 

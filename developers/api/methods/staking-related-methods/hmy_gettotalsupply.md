@@ -2,7 +2,7 @@
 description: hmy_getTotalSupply
 ---
 
-# hmy_getTotalSupply
+# hmy\_getTotalSupply
 
 Get total ONE supply
 

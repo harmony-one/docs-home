@@ -2,7 +2,7 @@
 description: BlockNumber
 ---
 
-# hmy_blockNumber
+# hmy\_blockNumber
 
 Get number of the most recent block.
 

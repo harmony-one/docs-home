@@ -54,7 +54,7 @@ The `onewallet` object needs a `defaultsigner` for signing the transactions, and
     }
 ```
 
-The final code we have in our example is as follows. `src/userWallet.js` 
+The final code we have in our example is as follows. `src/userWallet.js`&#x20;
 
 ```
 import  hmy  from './hmy';
