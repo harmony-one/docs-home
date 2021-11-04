@@ -107,4 +107,3 @@ If your validator does not sign more than 2/3 of the blocks in an epoch, the val
 
 In order to be included in the pool again, you will have to use send an [Edit Validator transaction](changing-validator-information.md) with `--active true.`
 {% endhint %}
-

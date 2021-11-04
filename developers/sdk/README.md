@@ -1,16 +1,25 @@
 ---
-description: 'Harmony currently supports JavaScript SDK, Golang CLI, Java SDK and Python SDK'
+description: Harmony currently supports JavaScript SDK, Golang CLI, Java SDK and Python SDK
 ---
 
 # SDK
 
-{% page-ref page="javascript-sdk.md" %}
+{% content-ref url="javascript-sdk.md" %}
+[javascript-sdk.md](javascript-sdk.md)
+{% endcontent-ref %}
 
-{% page-ref page="web3/" %}
+{% content-ref url="web3/" %}
+[web3](web3/)
+{% endcontent-ref %}
 
-{% page-ref page="go-cli.md" %}
+{% content-ref url="go-cli.md" %}
+[go-cli.md](go-cli.md)
+{% endcontent-ref %}
 
-{% page-ref page="python-sdk.md" %}
+{% content-ref url="python-sdk.md" %}
+[python-sdk.md](python-sdk.md)
+{% endcontent-ref %}
 
-{% page-ref page="java-sdk.md" %}
-
+{% content-ref url="java-sdk.md" %}
+[java-sdk.md](java-sdk.md)
+{% endcontent-ref %}

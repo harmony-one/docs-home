@@ -1,10 +1,12 @@
 # Tools
 
-{% page-ref page="remix-ide.md" %}
+{% content-ref url="remix-ide.md" %}
+[remix-ide.md](remix-ide.md)
+{% endcontent-ref %}
 
-{% page-ref page="harmony-react.md" %}
-
-
+{% content-ref url="harmony-react.md" %}
+[harmony-react.md](harmony-react.md)
+{% endcontent-ref %}
 
 
 

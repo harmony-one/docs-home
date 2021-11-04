@@ -59,4 +59,3 @@ Get number of the most recent block.
     "result": 10
 }
 ```
-

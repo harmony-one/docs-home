@@ -6,26 +6,26 @@ description: >-
 
 # FAQ
 
-## **1.** **How to Stake Harmony \($ONE\)?**
+## **1.** **How to Stake Harmony ($ONE)?**
 
 You can participate in Harmony’s Staking either as a **delegator** or a **validator.**
 
-_**For Delegators:**_ For those wishing to participate in staking without running a validator, delegation is the best approach to still get involved and earn block rewards. Harmony ONE holders can delegate their tokens to existing validators using our staking explorer:[ https://staking.harmony.one/](https://staking.harmony.one/). If the tokens are delegated to an elected validator, a portion of the block reward earned by the validator will be credited to the delegator \(according to section Block Reward\).The earned block rewards are stored in a separate reward balance of the delegator, which can be immediately withdrawn to the delegator’s account balance. The block rewards can also be staked again to achieve the compounding effect of staking. Your delegated tokens are also associated with slashing risks of the validator. As a delegator, you should carefully choose validators based on their historical performance metrics such as APR, uptime and commission. In case of indifference or indecisiveness, you should distribute your delegations among multiple validators in order to minimize risk.
+_**For Delegators:**_ For those wishing to participate in staking without running a validator, delegation is the best approach to still get involved and earn block rewards. Harmony ONE holders can delegate their tokens to existing validators using our staking explorer:[ https://staking.harmony.one/](https://staking.harmony.one). If the tokens are delegated to an elected validator, a portion of the block reward earned by the validator will be credited to the delegator (according to section Block Reward).The earned block rewards are stored in a separate reward balance of the delegator, which can be immediately withdrawn to the delegator’s account balance. The block rewards can also be staked again to achieve the compounding effect of staking. Your delegated tokens are also associated with slashing risks of the validator. As a delegator, you should carefully choose validators based on their historical performance metrics such as APR, uptime and commission. In case of indifference or indecisiveness, you should distribute your delegations among multiple validators in order to minimize risk.
 
 _**For Validators:**_ Validators are invited to follow this [Step by Step guide](../../validators/), to start earning staking rewards!
 
-## **2. How to Stake Harmony \($ONE\)? How much can I expect to earn?**
+## **2. How to Stake Harmony ($ONE)? How much can I expect to earn?**
 
 While rewards are not fixed, and depend on the performance of a validator, the total staked tokens on the network, and the efficiency of the validator to follow Harmony’s Effective Proof of Stake.
 
-You can check the median Expected Return \(from the last 30 epochs\) on [Harmony’s Staking dashboard](http://staking.harmony.one/). When you click on a validator on the staking dashboard you can also see the latest Expected return \(from the last epoch\). The percentage shown is the APY \(annual percentage yield\).
+You can check the median Expected Return (from the last 30 epochs) on [Harmony’s Staking dashboard](http://staking.harmony.one). When you click on a validator on the staking dashboard you can also see the latest Expected return (from the last epoch). The percentage shown is the APY (annual percentage yield).
 
 ## **3. What do the Total Stake values on the Staking Dashboard mean?**
 
-When you land on [Harmony’s Staking dashboard](http://staking.harmony.one/), you see the list of Validators.  
+When you land on [Harmony’s Staking dashboard](http://staking.harmony.one), you see the list of Validators.\
 There is a ‘_Total Stake_’ value on the top center. This value represents the total stake contributed to the network by ALL the validators, irrespective of whether they are currently elected in the top 800 available slots and signing blocks. This value includes stake from ALL validators created on the network.
 
-In the _Analytics section_ \([staking.harmony.one/analytics](https://staking.harmony.one/analytics)\), you see two tabs. The tab for ‘_Last Epoch_’ shows the results of the last election for the top 800 slots in the network. The total stake and effective median value in this section determine the validator list and block rewards for the current epoch. The tab for ‘_Next Epoch_’ shows the real-time snapshot values of total stake and effective median, which means that these values will be used for election right before the next epoch starts. You may notice that the total stake value in the _‘Last Election_’ and ‘_Next election_’ may be different. This is because if a validator who got elected in the last election is not signing enough blocks, then they may not qualify for the upcoming election before the next epoch. As a result, their stake gets discounted in the ‘_Next Election_’ stake calculation.
+In the _Analytics section_ ([staking.harmony.one/analytics](https://staking.harmony.one/analytics)), you see two tabs. The tab for ‘_Last Epoch_’ shows the results of the last election for the top 800 slots in the network. The total stake and effective median value in this section determine the validator list and block rewards for the current epoch. The tab for ‘_Next Epoch_’ shows the real-time snapshot values of total stake and effective median, which means that these values will be used for election right before the next epoch starts. You may notice that the total stake value in the _‘Last Election_’ and ‘_Next election_’ may be different. This is because if a validator who got elected in the last election is not signing enough blocks, then they may not qualify for the upcoming election before the next epoch. As a result, their stake gets discounted in the ‘_Next Election_’ stake calculation.
 
 ## **4. Why is the ‘**_**Expected Return’**_ **value 0 for validators?**
 
@@ -49,7 +49,7 @@ No, it consists of the validator’s effective stake, uptime and total stake wit
 
 ## **9. I want to undelegate my token, how long do I have to wait?**
 
-Tokens take 1 epoch to be undelegated \(so you can redelegate them to another validator\). You need to wait though 7 epochs if you want the tokens back to your wallet.
+Tokens take 1 epoch to be undelegated (so you can redelegate them to another validator). You need to wait though 7 epochs if you want the tokens back to your wallet.
 
 ## **10. My validator wasn’t elected, can I undelegate and stake to another validator?**
 
@@ -65,7 +65,7 @@ There is no window between epochs, however, you can collect rewards close to the
 
 ## **13. What does Fee mean?**
 
-It is the amount that the validator will charge from the generated rewards for services rendered \(running servers, maintenance, maintaining high uptime\).
+It is the amount that the validator will charge from the generated rewards for services rendered (running servers, maintenance, maintaining high uptime).
 
 ## **14. Unable to claim rewards, what can I do?**
 
@@ -81,7 +81,7 @@ Please ensure you have enough to cover gas fee. Gas fee is deducted from your Av
 
 ## **17. How long does an epoch last?**
 
-It depends on the blocktime.  
+It depends on the blocktime.\
 Currently 1 epoch has 32768 blocks and with a 2s blocktime this is around **18.2 hours.**
 
 ## **18. Are there any risks involved with Harmony Staking?**
@@ -95,4 +95,3 @@ Among those could be the following:
 * Network Centralization
 * Price Volatility of $ONE Coins
 * Technical Debt
-

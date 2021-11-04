@@ -63,4 +63,3 @@ curl -d '{
 {% hint style="info" %}
 If Node.js is installed on your system, one easy way to convert hexadecimal balances into a more readable decimal format is to run `node -e "console.log(<balance>)"`
 {% endhint %}
-

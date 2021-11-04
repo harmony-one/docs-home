@@ -78,7 +78,7 @@ sudo vi /etc/prometheus/prometheus.yml
 
 Change the default port to 9900 and save the file:
 
-```text
+```
 static_configs:
 - targets: ['localhost:9900']
 ```
@@ -356,4 +356,3 @@ Json file:
 Once you save it you should see the dashboard loaded on Grafana:
 
 ![](../../../.gitbook/assets/grafana-4.png)
-

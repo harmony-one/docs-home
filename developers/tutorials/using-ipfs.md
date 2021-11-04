@@ -6,11 +6,11 @@ description: This tutorial will show how to use IPFS on harmony blockchain
 
 ### Context
 
-Harmony blockchain can be used to store data. But is it really worth the cost? To put into perspective 1 byte of a data can cost you 42,107 gas or 0.00042017 ONE token, or equal to about $0.00003092031 in today's market. It maybe small for just one byte of data but let's say you want to store a file with 1 GB data \(1,000,000,000 bytes\) it will cost you $30920.31. The solution is IPFS, the InterPlanetary File System. 
+Harmony blockchain can be used to store data. But is it really worth the cost? To put into perspective 1 byte of a data can cost you 42,107 gas or 0.00042017 ONE token, or equal to about $0.00003092031 in today's market. It maybe small for just one byte of data but let's say you want to store a file with 1 GB data (1,000,000,000 bytes) it will cost you $30920.31. The solution is IPFS, the InterPlanetary File System.&#x20;
 
-#### What is IPFS? 
+#### What is IPFS?&#x20;
 
-IPFS is a distributed system for storing and accessing files, websites, applications, and data. Using IPFS as a storage you don't need to store entire files to harmony blockchain you just need to store the hash of the IPFS to the harmony blockchain, thus make it much more cheaper then just storing the file. 
+IPFS is a distributed system for storing and accessing files, websites, applications, and data. Using IPFS as a storage you don't need to store entire files to harmony blockchain you just need to store the hash of the IPFS to the harmony blockchain, thus make it much more cheaper then just storing the file.&#x20;
 
 In this tutorial, we are going to use IPFS to store some files offchain and store the hash of the file to the blockchain. And we will also get the data back from blockchain, and show it to the webpage.
 
@@ -26,15 +26,15 @@ In this tutorial, we are going to use IPFS to store some files offchain and stor
 
 * [Node.js](https://nodejs.org/en/)
 * [IPFS](https://docs.ipfs.io/install/command-line/#official-distributions)
-* [Metamask](https://metamask.io/)
+* [Metamask](https://metamask.io)
 
 > In this entire tutorial i'm using windows 10, but you can use any other os.
 
 ## Step 1 - Install IPFS
 
-To install IPFS on your machine, there are so many ways to do it. You can see for yourself here [https://docs.ipfs.io/install/command-line/\#official-distributions](https://docs.ipfs.io/install/command-line/#official-distributions). After that go to your command prompt and type:
+To install IPFS on your machine, there are so many ways to do it. You can see for yourself here [https://docs.ipfs.io/install/command-line/#official-distributions](https://docs.ipfs.io/install/command-line/#official-distributions). After that go to your command prompt and type:
 
-```text
+```
 ipfs config --json API.HTTPHeaders.Access-Control-Allow-Origin "["""webui://-""", """http://localhost:3000""", """http://127.0.0.1:5001""", """https://webui.ipfs.io"""]"
 
 ipfs config --json API.HTTPHeaders.Access-Control-Allow-Methods "["""PUT""", """POST"""]"
@@ -42,7 +42,7 @@ ipfs config --json API.HTTPHeaders.Access-Control-Allow-Methods "["""PUT""", """
 
 This command needed so that we can upload our file without any CORS problem. After that run this command to run ipfs locally:
 
-```text
+```
 ipfs daemon
 ```
 
@@ -54,7 +54,7 @@ There is also so many way to download metamask. If you're using chrome you can d
 
 Then after that write this one by one:
 
-```text
+```
 Network Name :
 Harmony Testnet
 
@@ -71,7 +71,7 @@ Block Explorer URL :
 https://explorer.pops.one/
 ```
 
-Now you have an harmony one account on metamask testnet we need to fill some harmony one token you can do that by going to harmony one testnet faucet like this one [https://faucet.pops.one/](https://faucet.pops.one/), to get your address click on the three dot and click on view in explorer like this :
+Now you have an harmony one account on metamask testnet we need to fill some harmony one token you can do that by going to harmony one testnet faucet like this one [https://faucet.pops.one/](https://faucet.pops.one), to get your address click on the three dot and click on view in explorer like this :
 
 ![explorer](https://i.imgur.com/L547kdp.jpg)
 
@@ -85,25 +85,25 @@ Put it in the harmony testnet faucet and click send me and you will get your har
 
 First we need to install truffle. To install truffle go to your command prompt and type:
 
-```text
+```
 npm install -g truffle
 ```
 
 Now create a folder and go inside that folder and type on the command prompt:
 
-```text
+```
 truffle init
 ```
 
 After you run that command basically you will get some file and folder like this:
 
-```text
+```
 contracts/  migrations/  test/  truffle-config.js
 ```
 
 So now i want you to go to `contract` folder and create a file called `IPFSstorage.sol` and paste this code in that file:
 
-```text
+```
 pragma solidity 0.8.6;
 contract IPFSstorage {
  string ipfsHash;
@@ -289,7 +289,7 @@ Now create a file called `package.json` and copy paste this code :
 
 And run `npm install` to install all the dependencies. Now create a file called `.env` and copy paste this code :
 
-```text
+```
 LOCALNET_PRIVATE_KEY='ENTER_PRIVATE_KEY_HERE'
 TESTNET_PRIVATE_KEY='ENTER_PRIVATE_KEY_HERE'
 MAINNET_PRIVATE_KEY='ENTER_PRIVATE_KEY_HERE'
@@ -301,7 +301,7 @@ Because we are gonna use testnet, we need to get our private key and set it in t
 
 After you input your password you should see your private key, after that just copy past it in the `.env` file, on the `TESTNET_PRIVATE_KEY` variable. After that to deploy our smart contract you just need to run this command :
 
-```text
+```
 truffle migrate --network testnet --reset
 ```
 
@@ -315,13 +315,13 @@ Save that contract address in the safe place, because we will need it in the nex
 
 First thing first, we need to create a react application to communicate with the harmony blockchain and IPFS, much more easily, we gonna use nextjs framework for this one so to create it first we need to run this command :
 
-```text
+```
 npx create-next-app harmony-ipfs --use-npm --example "https://github.com/vercel/next-learn-starter/tree/master/learn-starter"
 ```
 
-It will create a new directory called `harmony-ipfs` and install all the dependencies for you. We also need to style our app with some css, so we gonna use [chakra-ui](https://chakra-ui.com/) for this. Go inside the `harmony-ipfs` directory and install the dependencies :
+It will create a new directory called `harmony-ipfs` and install all the dependencies for you. We also need to style our app with some css, so we gonna use [chakra-ui](https://chakra-ui.com) for this. Go inside the `harmony-ipfs` directory and install the dependencies :
 
-```text
+```
 npm i @chakra-ui/react @emotion/react@^11 @emotion/styled@^11 framer-motion@^4 ipfs-http-client
 ```
 
@@ -709,4 +709,3 @@ If you click on "Get IPFS URL" you will get your IPFS URL.
 ## Conclusion
 
 Congrats! You're successfully uploaded your file to IPFS and harmony blockchain. This is just a simple use case to upload and get a file from harmony blockchain. You can be creative and create a more complex use case like NFT metadata storage or something like that. And if you notice we are using local IPFS node. Which means if our IPFS node is down, you can't get your file. One thing you can do is using service like infura it is a free with some limitation IPFS service. You can also automatically pin your file to infura by changing the `localhost:8080` to `ipfs.infura.io`, and your file can be seen forever, but you can't unpin it so be careful when using infura to upload your private file. That's it for now if you have any questions or suggestions feel free to ask in [Official Harmony Discord](https://discord.gg/kMKcYcC5)
-

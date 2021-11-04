@@ -1,6 +1,6 @@
 # Components & Tools
 
-**DAO Formation:** Fork of "https://app.daohaus.club"
+**DAO Formation: **Fork of "https://app.daohaus.club"
 
 **DAO Contributions & Payment:** Circles in "https://www.coordinape.com"
 
@@ -8,9 +8,8 @@
 
 
 
-{% embed url="https://Talk.Harmony.one" caption="" %}
+{% embed url="https://Talk.Harmony.one" %}
 
-{% embed url="https://gov.harmony.one" caption="" %}
+{% embed url="https://gov.harmony.one" %}
 
-{% embed url="https://multisig.harmony.one/" caption="" %}
-
+{% embed url="https://multisig.harmony.one/" %}

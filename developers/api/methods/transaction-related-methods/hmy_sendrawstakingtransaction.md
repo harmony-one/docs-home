@@ -6,7 +6,7 @@ description: SendRawStakingTransaction
 
 ## Overview
 
-A staking transaction is like a plain sharded transaction, [hmy\_sendRawTransaction](hmy_sendrawtransaction.md), but with a single field that is not known ahead of time. This field is the staking message itself, which in the harmony go code base, we refer to as `StakeMsg`
+A staking transaction is like a plain sharded transaction, [hmy\_sendRawTransaction](hmy\_sendrawtransaction.md), but with a single field that is not known ahead of time. This field is the staking message itself, which in the harmony go code base, we refer to as `StakeMsg`
 
 ### Input
 
@@ -42,4 +42,3 @@ curl -d '{
     "result": "0x1156a044c73f85d876780f3bd86d7b0665c2d1b6c8a1abaaaedc08c13968a598"
 }
 ```
-

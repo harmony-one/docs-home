@@ -26,4 +26,3 @@ curl -d '{
     "result": "0xbf"
 }
 ```
-

@@ -16,7 +16,7 @@ See hmy\_call parameters, expect that all properties are optional. If no gas lim
 
 **Example**
 
-```text
+```
 // Request
 curl -X POST "http://api.s0.b.hmny.io" --data '{"jsonrpc":"2.0","method":"hmy_estimateGas","params":[{see above}],"id":1}'
 
@@ -27,4 +27,3 @@ curl -X POST "http://api.s0.b.hmny.io" --data '{"jsonrpc":"2.0","method":"hmy_es
   "result": "0x5208" // 21000
 }
 ```
-

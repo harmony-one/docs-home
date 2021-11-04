@@ -4,7 +4,7 @@
 
 Prediction market on Harmony Network.
 
-Links: [community](https://t.me/seemarket_community)
+Links: [community](https://t.me/seemarket\_community)
 
 ## [Ript.io](https://ript.io)
 
@@ -16,5 +16,4 @@ SoccerPlayers is an NFT collectible game deployed on Harmony blockchain. It is l
 
 Links: [community](https://t.me/soccerplayerapp)
 
-## 
-
+##

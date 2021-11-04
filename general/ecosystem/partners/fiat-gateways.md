@@ -16,7 +16,7 @@ Buy ONE on Crypto.com with credit card, debit card and bank transfers.
 
 ## Ramp
 
-Have you all heard about [@harmonyprotocol](https://twitter.com/harmonyprotocol)? It’s the Proof-of-Stake blockchain with a two-way Ethereum bridge, ultra-fast transactions and built-in interoperability. And its native token [\#ONE](https://twitter.com/hashtag/ONE?src=hashtag_click) was just added to Ramp SDK. Buy it today at [http://go.ramp.network/one](https://t.co/InZveoFmCJ?amp=1)!
+Have you all heard about [@harmonyprotocol](https://twitter.com/harmonyprotocol)? It’s the Proof-of-Stake blockchain with a two-way Ethereum bridge, ultra-fast transactions and built-in interoperability. And its native token [#ONE](https://twitter.com/hashtag/ONE?src=hashtag\_click) was just added to Ramp SDK. Buy it today at [http://go.ramp.network/one](https://t.co/InZveoFmCJ?amp=1)!
 
 {% embed url="https://twitter.com/RampNetwork/status/1410644146444963840?s=20" %}
 
@@ -24,7 +24,7 @@ Have you all heard about [@harmonyprotocol](https://twitter.com/harmonyprotocol)
 
 ## Transak
 
-{% embed url="https://twitter.com/transak\_finance/status/1395770069263716357?s=20" %}
+{% embed url="https://twitter.com/transak_finance/status/1395770069263716357?s=20" %}
 
 ## Simplex
 
@@ -46,7 +46,6 @@ Have you all heard about [@harmonyprotocol](https://twitter.com/harmonyprotocol)
 
 ## Wyre
 
-We are excited to introduce another way for users to get ONE tokens using Wyre. Users can buy ETH and then use Harmony’s bridge with Ethereum and decentralized exchange \(DEX\) to swap ONEs. After a user buys ETH using Wyre on Metamask, they can bridge their ETH over to a wrapped version of 1ETH on Harmony and then have the option to swap it to native ONEs on Swoop.
+We are excited to introduce another way for users to get ONE tokens using Wyre. Users can buy ETH and then use Harmony’s bridge with Ethereum and decentralized exchange (DEX) to swap ONEs. After a user buys ETH using Wyre on Metamask, they can bridge their ETH over to a wrapped version of 1ETH on Harmony and then have the option to swap it to native ONEs on Swoop.
 
 {% embed url="https://medium.com/harmony-one/access-harmony-one-tokens-using-wyre-and-horizon-bridge-swoop-5b6b46eaa441" %}
-

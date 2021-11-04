@@ -28,4 +28,3 @@ hmy\_getLeader returns one address of current shard leader node
     "result": "one1pdv9lrdwl0rg5vglh4xtyrv3wjk3wsqket7zxy"
 }
 ```
-

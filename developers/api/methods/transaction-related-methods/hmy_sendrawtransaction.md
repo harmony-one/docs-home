@@ -36,4 +36,3 @@ curl -d '{
     "result": "0x1156a044c73f85d876780f3bd86d7b0665c2d1b6c8a1abaaaedc08c13968a598"
 }
 ```
-

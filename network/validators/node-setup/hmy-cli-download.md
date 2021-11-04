@@ -12,7 +12,7 @@ Make sure **NOT** to run the Node Setup with the`root` user. We recommend creati
 Throughout this guide, we will use the following syntax:
 
 * `./hmy`:  This is the CLI program
-* `./hmy.sh --` : This is the command to use the CLI with a shell wrapper \(for macOS\)
+* `./hmy.sh --` : This is the command to use the CLI with a shell wrapper (for macOS)
 * `<argument>`: This is a required argument
 * `[argument]`: This is an optional argument
 * `/` : This is a line break, used to break up a line while writing a command
@@ -144,7 +144,7 @@ And on MacOS would look like:
 ./hmy --node="https://api.s0.t.hmny.io" utility shard-for-bls 2d61379e44a772e5757e27ee2b3874254f56073e6bd226eb8b160371cc3c18b8c4977bd3dcb71fd57dc62bf0e143fd08
 ```
 
-## Troubleshooting <a id="troubleshooting"></a>
+## Troubleshooting <a href="troubleshooting" id="troubleshooting"></a>
 
 Frequently encountered errors:
 
@@ -154,4 +154,3 @@ Frequently encountered errors:
 -bash: ./hmy: cannot execute binary file: Exec format error
 ​#Make sure you downloaded the right version for your OS.
 ```
-

@@ -4,12 +4,12 @@ description: CLI (Command Line) Version of 1Wallet
 
 # CLI 1Wallet User Guide
 
-Go to [https://github.com/polymorpher/one-wallet/releases/tag/v0.1-cli](https://github.com/polymorpher/one-wallet/releases/tag/v0.1-cli) and download the file that is appropriate to your operating system \(1wallet-linux, 1wallet-macos, or 1wallet-win.exe\).
+Go to [https://github.com/polymorpher/one-wallet/releases/tag/v0.1-cli](https://github.com/polymorpher/one-wallet/releases/tag/v0.1-cli) and download the file that is appropriate to your operating system (1wallet-linux, 1wallet-macos, or 1wallet-win.exe).
 
 * I saved it in my downloads folder, but you can save it anywhere.
-* Open your Terminal \(I'm a Mac user\), and run the following commands:
+* Open your Terminal (I'm a Mac user), and run the following commands:
 
-```text
+```
 cd downloads
 
 chmod +x ./1wallet
@@ -19,7 +19,7 @@ chmod +x ./1wallet
 
 Now that you have installed your CLI 1Wallet, you can do several things including:
 
-```text
+```
 Commands:
   
 ./1wallet scan                            Build a new wallet and show its setup 
@@ -56,23 +56,22 @@ Options:
 
 The first step is to scan the QR code.
 
-```text
+```
 ./1wallet scan
 ```
 
 Once you have done that, you can run the next command using the 6 digit authenticator code and a recovery address of your choice to create your 1Wallet.
 
-```text
+```
 ./1wallet make <recovery-address> <code>
 
 ./1wallet make one10jaac3q8qrd6fkun25t09q33tsrsz4uazctnj0 123456
 ```
 
-You should see a screen like this on your Terminal \(yes, do you like my Matrix themed Terminal?\):
+You should see a screen like this on your Terminal (yes, do you like my Matrix themed Terminal?):
 
-![](../../../.gitbook/assets/image%20%2891%29.png)
+![](<../../../.gitbook/assets/image (259).png>)
 
 After that you can try to send a small amount of tokens to your newly created 1Wallet and in general test some of the other commands and functionalities.
 
 Let us know if you find any issues: [https://github.com/polymorpher/one-wallet/issues](https://github.com/polymorpher/one-wallet/issues)
-

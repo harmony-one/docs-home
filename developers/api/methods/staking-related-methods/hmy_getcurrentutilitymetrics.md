@@ -6,7 +6,7 @@ description: hmy_getCurrentUtilityMetrics
 
 ## Description
 
-Works only for shard 0 \(beacon chain\).
+Works only for shard 0 (beacon chain).
 
 ## Returns
 
@@ -40,4 +40,3 @@ curl -d '{
     }
 }
 ```
-

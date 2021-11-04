@@ -2,7 +2,7 @@
 
 ## Description
 
-hmy\_getBlocks returns blocks in range \[from; to\]
+hmy\_getBlocks returns blocks in range \[from; to]
 
 ## API v1
 
@@ -10,7 +10,7 @@ hmy\_getBlocks returns blocks in range \[from; to\]
 
 1. `String` - starting block number in 0x format
 2. `String` - ending block number in 0x format
-3. `blockArgs` - optional args struct in json format \(should be used just with { }\)
+3. `blockArgs` - optional args struct in json format (should be used just with { })
    1. `fullTx` - `Bool`: To show full tx or not
    2. `withSigners`- `Bool`: Include block signes in blocks or not
 
@@ -120,7 +120,7 @@ curl -d '{
 
 1. `Number` - starting block number
 2. `Number` - ending block number
-3. `blockArgs` - optional args struct in json format \(should be used just with { }\)
+3. `blockArgs` - optional args struct in json format (should be used just with { })
    1. `fullTx` - `Bool`: To show full tx or not
    2. `withSigners`- `Bool`: Include block signes in blocks or not
    3. `inclStaking` - `Bool`: To show staking txs or not
@@ -236,4 +236,3 @@ curl -d '{
     ]
 }
 ```
-

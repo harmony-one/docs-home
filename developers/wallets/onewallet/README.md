@@ -10,5 +10,3 @@ description: >-
 
 Follow the instructions [here](https://docs.harmony.one/home/wallets/browser-extensions-wallets/one-wallet) to download and install Harmony Chrome Extension Wallet.
 
-
-

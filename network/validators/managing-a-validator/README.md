@@ -2,17 +2,31 @@
 
 You can interact with your validator directly via HMY CLI. Check the links below for more information on how to do this.
 
-{% page-ref page="checking-validator-information.md" %}
+{% content-ref url="checking-validator-information.md" %}
+[checking-validator-information.md](checking-validator-information.md)
+{% endcontent-ref %}
 
-{% page-ref page="changing-validator-information.md" %}
+{% content-ref url="changing-validator-information.md" %}
+[changing-validator-information.md](changing-validator-information.md)
+{% endcontent-ref %}
 
-{% page-ref page="delegating-to-a-validator.md" %}
+{% content-ref url="delegating-to-a-validator.md" %}
+[delegating-to-a-validator.md](delegating-to-a-validator.md)
+{% endcontent-ref %}
 
-{% page-ref page="undelegating-to-a-validator.md" %}
+{% content-ref url="undelegating-to-a-validator.md" %}
+[undelegating-to-a-validator.md](undelegating-to-a-validator.md)
+{% endcontent-ref %}
 
-{% page-ref page="seeing-stakers.md" %}
+{% content-ref url="seeing-stakers.md" %}
+[seeing-stakers.md](seeing-stakers.md)
+{% endcontent-ref %}
 
-{% page-ref page="adding-a-validator-logo.md" %}
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
 
-
+{% content-ref url="adding-a-validator-logo.md" %}
+[adding-a-validator-logo.md](adding-a-validator-logo.md)
+{% endcontent-ref %}
 

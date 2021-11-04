@@ -56,7 +56,7 @@ To know where your wallet file has been created, run the following command:
 ./hmy.sh -- keys location
 ```
 
-You can check the list of wallets \(local accounts\) with the following command:
+You can check the list of wallets (local accounts) with the following command:
 
 #### Using the Binary:
 
@@ -72,20 +72,20 @@ You can check the list of wallets \(local accounts\) with the following command:
 
 ## Import Wallet
 
-### Importing a Keystore <a id="importing-an-existing-keystore"></a>
+### Importing a Keystore <a href="importing-an-existing-keystore" id="importing-an-existing-keystore"></a>
 
-‌You might have an existing keystore made by Harmony's old `wallet.sh` program that ends with ".key" in the file name \(example\):
+‌You might have an existing keystore made by Harmony's old `wallet.sh` program that ends with ".key" in the file name (example):
 
 `one16qsd5ant9v94jrs89mruzx62h7ekcfxmduh2rx.key`
 
-Or that starts with "UTC" in the file name \(example\):
+Or that starts with "UTC" in the file name (example):
 
 `UTC--2020-01-15T01-02-06.606670000Z--9689a0711642bf08ea92ed98d552f0c1b8c8cefb`
 
 Both these files can be imported into `hmy` using the command `import-ks` as shown below.
 
 {% hint style="warning" %}
-Note that the --passphrase flag only enables a password prompt after the command is entered, there are no other arguments necessary here \(if you dont put --passphrase flag in the command it will assume no password needed and will not prompt you for one, which basically means that your wallet keyfile will not be password protected!\).
+Note that the --passphrase flag only enables a password prompt after the command is entered, there are no other arguments necessary here (if you dont put --passphrase flag in the command it will assume no password needed and will not prompt you for one, which basically means that your wallet keyfile will not be password protected!).
 {% endhint %}
 
 #### Using the Binary:
@@ -109,7 +109,7 @@ Note that the --passphrase flag only enables a password prompt after the command
 
 ‌Keep in mind that you should know the passphrase associated with the imported keystore and pass it as a parameter as shown in the commands above. For keystores created by Harmony's `wallet.sh`, the default passphrase is an empty string; this matters for signing transactions.‌
 
-### Importing a Private Key <a id="importing-an-existing-private-key"></a>
+### Importing a Private Key <a href="importing-an-existing-private-key" id="importing-an-existing-private-key"></a>
 
 Sometimes you might have a secp256k1 private key, such as the one generated from the following command:
 
@@ -137,11 +137,11 @@ You can import the key with an optional name and passphrase
 ./hmy keys import-private-key b8798ca0a56ce16517ea37c6b1229cbb67cf0e022c423b044fe8f537830d8be5 my_wallet_name_here --passphrase
 ```
 
-If no account name is provided, a random word concatenated with `-imported` will be used. If no passphrase is provided, the default passphrase will be used \(which is blank\). Note that the CLI currently only supports importing secp256k1 private keys.
+If no account name is provided, a random word concatenated with `-imported` will be used. If no passphrase is provided, the default passphrase will be used (which is blank). Note that the CLI currently only supports importing secp256k1 private keys.
 
-### Importing a Mnemonic Phrase <a id="importing-an-existing-mnemonic-phrase"></a>
+### Importing a Mnemonic Phrase <a href="importing-an-existing-mnemonic-phrase" id="importing-an-existing-mnemonic-phrase"></a>
 
-You can recover lost wallet keys by entering the mnemonic words you received \(and hopefully saved\) when creating it:
+You can recover lost wallet keys by entering the mnemonic words you received (and hopefully saved) when creating it:
 
 #### Using the Binary:
 
@@ -160,4 +160,3 @@ You can recover lost wallet keys by entering the mnemonic words you received \(a
 ```bash
 ./hmy keys recover-from-mnemonic nameofyourkey
 ```
-

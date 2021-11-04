@@ -8,4 +8,3 @@ In case you don't have Metamask or One Wallet wallets installed, click on the li
 
 * [Install ONE Wallet](../../network/wallets/browser-extensions-wallets/one-wallet.md)
 * [Install Metamask Wallet](../../network/wallets/browser-extensions-wallets/metamask-wallet.md)
-

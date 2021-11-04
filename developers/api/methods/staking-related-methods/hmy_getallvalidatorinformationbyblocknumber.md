@@ -8,7 +8,7 @@ Get staking validator information snapshot for all validators by blocknum.
 
 ## Parameters
 
-1. `Number` - page num \(default use 0\)
+1. `Number` - page num (default use 0)
 2. `Number` - block number
 
 ## Returns
@@ -20,7 +20,7 @@ Array of:
   * `current-epoch-to-sign` - `Number` - current epoch
   * `percentage` - `Float` - percentage of blocks signed
 * `current-epoch-voting-power` - `Array of`
-  * `effective-stake` - `Float` - effective validator stake
+  * `effective-stake` - `Float `- effective validator stake
   * `shard-id` - `Number` - shard id
   * `voting-power-adjusted` - `Float` - voting power adjusted
   * `voting-power-raw` - `Float` - voting power
@@ -129,4 +129,3 @@ curl -d '{
     ]
 }
 ```
-

@@ -10,7 +10,7 @@ None
 
 **Example**
 
-```text
+```
 // Request
 curl -X POST --data '{"jsonrpc":"2.0","method":"eth_newBlockFilter","params":[],"id":73}'
 
@@ -21,4 +21,3 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"eth_newBlockFilter","params":[],
   "result": "0x1" // 1
 }
 ```
-

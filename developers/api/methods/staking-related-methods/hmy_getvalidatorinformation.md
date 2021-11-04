@@ -17,7 +17,7 @@ Get staking validator information.
   * `current-epoch-to-sign` - `Number` - current epoch
   * `percentage` - `Float` - percentage of blocks signed
 * `current-epoch-voting-power` - `Array of`
-  * `effective-stake` - `Float` - effective validator stake
+  * `effective-stake` - `Float `- effective validator stake
   * `shard-id` - `Number` - shard id
   * `voting-power-adjusted` - `Float` - voting power adjusted
   * `voting-power-raw` - `Float` - voting power
@@ -120,4 +120,3 @@ curl -d '{
   }
 }
 ```
-

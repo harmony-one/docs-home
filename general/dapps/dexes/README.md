@@ -8,20 +8,20 @@ Specifically:
 
 1. $2 million in liquidity mining rewards for Sushi on Harmony
 2. $2 million in rewards for Kashi borrowing/lending on Harmony
-3. Onsen ONE&lt;&gt;ETH Yield Farming Pair
+3. Onsen ONE<>ETH Yield Farming Pair
 4. Sushi-specific hackathon challenges with $100,000 in prizes as part of our $1M hackathon
 
 {% embed url="https://medium.com/harmony-one/sushi-and-harmony-announce-full-stack-partnership-with-4m-in-incentives-6dfaf6dd8887" %}
 
 ## [ViperSwap](https://viperswap.one)
 
-ViperSwap is a [Uniswap](http://uniswap.exchange/) V2 and [Sushiswap](https://www.sushi.com/)-style DEX mixed with [Bao.finance](https://www.bao.finance/)’s token emission model \(more details on this later\).
+ViperSwap is a [Uniswap](http://uniswap.exchange) V2 and [Sushiswap](https://www.sushi.com)-style DEX mixed with [Bao.finance](https://www.bao.finance)’s token emission model (more details on this later).
 
-Unlike Uniswap fee sharing is enabled from the very beginning, and at a more attractive rate. VIPER holders are able to stake their VIPER tokens in the ViperPit and earn 1/3rd of all generated trading fees across all pools on the DEX. Compare this to Uniswap \(when fee sharing will finally be enabled\) and SushiSwap were UNI and SUSHI tokens holders only earn 1/6th of the trading fees.
+Unlike Uniswap fee sharing is enabled from the very beginning, and at a more attractive rate. VIPER holders are able to stake their VIPER tokens in the ViperPit and earn 1/3rd of all generated trading fees across all pools on the DEX. Compare this to Uniswap (when fee sharing will finally be enabled) and SushiSwap were UNI and SUSHI tokens holders only earn 1/6th of the trading fees.
 
 Links: [community](https://t.me/VenomDAO), [code](https://github.com/VenomProtocol), [medium](https://venomdao.medium.com)
 
-## [MochiSwap](https://one.mochiswap.io/)
+## [MochiSwap](https://one.mochiswap.io)
 
 **MochiSwap** is a decentralized **Multichain DEX DAO** utilizing **Harmony ONE**, **Binance Smart Chain** along with a growing list of prospective Blockchains.
 
@@ -35,11 +35,11 @@ Unifi Protocol is a group of non-custodial, interoperable, decentralized, and mu
 
 Links: [community](https://t.me/unifiprotocol), [medium](https://unifiprotocol.medium.com), [unifi report](https://unifi.report)
 
-## [OpenSwap](https://app.openswap.one/)
+## [OpenSwap](https://app.openswap.one)
 
 OpenSwap is a Defi Protocol to Empower Ethereum Users With subtly low tx fees. Built on _Harmony_ BlockChain.
 
-Links: [community](https://t.me/OpenSwap_Harmony)
+Links: [community](https://t.me/OpenSwap\_Harmony)
 
 ## [JellySwap](https://app.jelly.market)
 
@@ -58,5 +58,3 @@ Links: [community](https://seeswap.one/telegram), [docs](https://seeswap.gitbook
 **SwapCat** is a decentralized **Multichain DEX** utilizing **Harmony ONE** and most other EVM-blockchains.
 
 **SwapCat** allows feeless fixed-price direct wallet-to-wallet trading of HRC20 assets.
-
-

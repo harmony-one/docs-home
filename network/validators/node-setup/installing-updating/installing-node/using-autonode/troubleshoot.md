@@ -5,7 +5,7 @@ description: Some steps for troubleshooting your AutoNode.
 # Troubleshoot
 
 {% hint style="success" %}
-If you encounter any issue you cannot solve, feel free to reach out to us at **autonode@harmony.one.** Alternatively you can open a Github issue [here](https://github.com/harmony-one/auto-node/issues).
+If you encounter any issue you cannot solve, feel free to reach out to us at **autonode@harmony.one. **Alternatively you can open a Github issue [here](https://github.com/harmony-one/auto-node/issues).
 {% endhint %}
 
 ## Inspect AutoNode logs
@@ -16,7 +16,7 @@ All AutoNode generated logs are saved in `$HOME/.hmy` when you execute the follo
 ls $HOME/.hmy/*.log
 ```
 
-You should see 2 files, `autonode_monitor.log` and `autonode_node.log`. Inspect those two files with your favorite command-line editor \(i.e: `vim`\) to see where things might have gone wrong. 
+You should see 2 files, `autonode_monitor.log` and `autonode_node.log`. Inspect those two files with your favorite command-line editor (i.e: `vim`) to see where things might have gone wrong.&#x20;
 
 You might also find it useful to inspect the Harmony Node logs. You can do so with the following command:
 
@@ -28,7 +28,7 @@ vim $HOME/harmony_node/latest/zero*.log
 
 ## Node failed to start
 
-A symptom of this is seeing an error to connect to `http://localhost:9500/`.   
+A symptom of this is seeing an error to connect to `http://localhost:9500/`. \
 You can inspect what went wrong with the following command:
 
 ```bash
@@ -36,7 +36,7 @@ auto-node node log
 auto-node node status
 ```
 
-A common issue is that your machine will not have enough disk space.   
+A common issue is that your machine will not have enough disk space. \
 You can check your disk space usage with the following command:
 
 ```bash
@@ -69,7 +69,7 @@ auto-node run --expose-rpc
 ```
 
 {% hint style="warning" %}
-**DO NOT** re-run with the `--clean` or `--fast-sync` options as they will most likely _regress_ your block height to the last snapshotted DB.
+**DO NOT **re-run with the `--clean` or `--fast-sync` options as they will most likely _regress _your block height to the last snapshotted DB.
 {% endhint %}
 
 ## Restart the Harmony Node
@@ -122,9 +122,9 @@ You can choose to optimize your operating system for running a harmony node. The
 auto-node tune kernel --save
 ```
 
-> This will tune the kernel and the `--save` option will make it persistant. If you do not have the `--save` option, the tunes will only last untill the system is rebooted \(by you or your VPS\).  
->   
-> Note that all the tunes will be displayed and confirmation asked before applying the tunes.
+> This will tune the kernel and the `--save` option will make it persistant. If you do not have the `--save` option, the tunes will only last untill the system is rebooted (by you or your VPS).\
+> \
+> Note that all the tunes will be displayed and confirmation asked before applying the tunes.&#x20;
 
 You can also tune/optimize your network settings with the following command:
 
@@ -159,4 +159,3 @@ rm -f ~/bin/autonode-service.py
 ```
 
 After, you can re-install AutoNode from fresh using the steps in the Install & Run section.
-

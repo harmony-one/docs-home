@@ -8,9 +8,9 @@ description: Manage & re-use your BLS keys.
 Currently, _all_ BLS keys **MUST** have the same passphrase. A feature to improve this is in the works.
 {% endhint %}
 
-### BLS key\(s\) location
+### BLS key(s) location
 
-You can find the path to your BLS keys directory \(used by the harmony node\) with the following command:
+You can find the path to your BLS keys directory (used by the harmony node) with the following command:
 
 ```bash
 python3 -c "from AutoNode import common; print(common.bls_key_dir)"
@@ -34,21 +34,21 @@ You can find which shard a public BLS key belongs to with the following command:
 auto-node bls-shard <public-bls-key>
 ```
 
-### Cleanse BLS key\(s\) from Validator
+### Cleanse BLS key(s) from Validator
 
-You can automatically cleanse your validator of BLS key\(s\) that have not signed any blocks in the current epoch with the following command:
+You can automatically cleanse your validator of BLS key(s) that have not signed any blocks in the current epoch with the following command:
 
 ```bash
 auto-node cleanse-bls
 ```
 
-You can cleanse all BLS key\(s\) that are not on the same shard as the BLS key\(s\) used by the current harmony node's shard with the following command:
+You can cleanse all BLS key(s) that are not on the same shard as the BLS key(s) used by the current harmony node's shard with the following command:
 
 ```bash
 auto-node cleanse-bls --keep-shard
 ```
 
-You can also cleanse the BLS key\(s\) that are not being used by the current harmony node with the following command:
+You can also cleanse the BLS key(s) that are not being used by the current harmony node with the following command:
 
 ```bash
 auto-node cleanse-bls --hard
@@ -61,4 +61,3 @@ You can remove an explicit BLS key from your validator with the following comman
 ```bash
 auto-node remove-bls <public-bls-key>
 ```
-

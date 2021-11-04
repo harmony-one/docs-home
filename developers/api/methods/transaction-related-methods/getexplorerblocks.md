@@ -8,7 +8,7 @@ Returns information about a given transaction.
 
 ## Parameters
 
-1. `id` - `String` - Transaction's hash \(ID\).
+1. `id` - `String` - Transaction's hash (ID).
 
 ## Returns
 
@@ -22,9 +22,9 @@ Returns information about a given transaction.
 
 ## Sample Curl Request
 
-| Parameter | Value |
-| :--- | :--- |
-| `id` | `0x7d8329dfd17cf82fcfda4e44f0f59b59c7a1379f173829beb005e94504d99b0f` |
+| Parameter | Value                                                                |
+| --------- | -------------------------------------------------------------------- |
+| `id`      | `0x7d8329dfd17cf82fcfda4e44f0f59b59c7a1379f173829beb005e94504d99b0f` |
 
 ```bash
 curl -X GET -H "Content-Type:application/json" e0.b.hmny.io:5000/tx?id=0x7d8329dfd17cf82fcfda4e44f0f59b59c7a1379f173829beb005e94504d99b0f
@@ -44,4 +44,3 @@ curl -X GET -H "Content-Type:application/json" e0.b.hmny.io:5000/tx?id=0x7d8329d
   "type": ""
 }
 ```
-

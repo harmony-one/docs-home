@@ -10,7 +10,7 @@ Get block by its hash.
 
 **Parameters**
 
-1. `String` - The block hash. 
+1. `String` - The block hash.&#x20;
 2. `Boolean` - If `true`, the returned block will contain all transactions in the block.
 
 ### Returns
@@ -80,8 +80,8 @@ curl -d '{
 
 **Parameters**
 
-1. `String` - The block hash. 
-2. `blockArgs` - optional args struct in json format \(should be used just with { }\)
+1. `String` - The block hash.&#x20;
+2. `blockArgs` - optional args struct in json format (should be used just with { })
    1. `fullTx` - `Bool`: To show full tx or not
    2. `withSigners`- `Bool`: Include block signes in blocks or not
    3. `inclStaking` - `Bool`: To show staking txs or not
@@ -161,4 +161,3 @@ curl -d '{
     }
 }
 ```
-

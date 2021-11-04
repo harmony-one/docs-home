@@ -4,7 +4,6 @@ Here we present the security audit of the Harmony-Ethereum Horizon bridge by Pec
 
 All of the findings have been fully resolved by our team at the time of the bridge launch on mainnet.
 
-PeckShield Inc. is a leading blockchain security company with the goal of elevating the security, privacy, and usability of the current blockchain ecosystems. 
+PeckShield Inc. is a leading blockchain security company with the goal of elevating the security, privacy, and usability of the current blockchain ecosystems.&#x20;
 
-{% file src="../../.gitbook/assets/peckshield-audit-report-ethhmy-bridge-v1.0\_copy.pdf" %}
-
+{% file src="../../.gitbook/assets/peckshield-audit-report-ethhmy-bridge-v1.0_copy.pdf" %}

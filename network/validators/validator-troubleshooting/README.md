@@ -1,6 +1,9 @@
 # Troubleshooting
 
-{% page-ref page="why-am-i-not-elected.md" %}
+{% content-ref url="why-am-i-not-elected.md" %}
+[why-am-i-not-elected.md](why-am-i-not-elected.md)
+{% endcontent-ref %}
 
-{% page-ref page="frequently-asked-questions-faq.md" %}
-
+{% content-ref url="frequently-asked-questions-faq.md" %}
+[frequently-asked-questions-faq.md](frequently-asked-questions-faq.md)
+{% endcontent-ref %}

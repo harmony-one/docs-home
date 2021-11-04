@@ -31,4 +31,3 @@ curl -d '{
     "result": ["one103q7qe5t2505lypvltkqtddaef5tzfxwsse4z7"]
 }
 ```
-

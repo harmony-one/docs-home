@@ -40,4 +40,3 @@ if (confirmed.isConfirmed()) {
   console.log('transaction did go through');
 }
 ```
-

@@ -10,7 +10,7 @@ description: hmy_getCurrentTransactionErrorSink
 
 ### Sample Curl Request
 
-```text
+```
 curl --location --request POST 'https://api.s0.b.hmny.io/' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -29,7 +29,7 @@ curl --location --request POST 'https://api.s0.b.hmny.io/' \
 
 ### Sample Curl Request
 
-```text
+```
 curl --location --request POST 'https://api.s0.b.hmny.io/' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -41,4 +41,3 @@ curl --location --request POST 'https://api.s0.b.hmny.io/' \
 ```
 
 ### Sample Curl Response
-

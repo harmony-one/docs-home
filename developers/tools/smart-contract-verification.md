@@ -1,12 +1,12 @@
 # Smart Contract Verification
 
-A quick guide on how to verify your contacts on Harmony.
+A quick guide on how to verify your contracts on Harmony.
 
 [https://explorer.harmony.one/verifycontract](https://explorer.harmony.one/verifycontract)
 
 Right now, we support verification only for one single solidity file - therefore, before deployment and verification, you will need to flatten all solidity sources to one file.
 
-## 1. Flatten your solidity files \(only for multiple files\)
+## 1. Flatten your solidity files (only for multiple files)
 
 To flatten your solidity files we recommended to use [https://www.npmjs.com/package/truffle-flattener](https://www.npmjs.com/package/truffle-flattener)
 
@@ -26,15 +26,15 @@ To more easy verification we recommend to deploy contract with Harmony Remix [ht
 
 You can verify your contract here [https://explorer.harmony.one/verifycontract](https://explorer.harmony.one/verifycontract)
 
-![](../../.gitbook/assets/verify_contract%20%282%29%20%284%29%20%285%29%20%282%29%20%281%29%20%285%29.png)
+![](<../../.gitbook/assets/verify\_contract (2) (4) (5) (2) (1) (5).png>)
 
-Important to use correct params \(the same like on deploy\):
+Important to use correct params (the same like on deploy):
 
 * Contract address
 * Contract name
 * Compiler version
 * Optimizer
-* Chain Type \(mainnet or testnet\)
+* Chain Type (mainnet or testnet)
 * Sources
 * Imported libs
 
@@ -44,9 +44,9 @@ If all parameters are correct - you should to see `Success` message, or `Error` 
 
 On Success case - you contract will verify and you will see all contract details on contract explorer page
 
-![](../../.gitbook/assets/untitled-1%20%282%29%20%284%29%20%285%29%20%285%29%20%283%29%20%281%29%20%283%29.png)
+![](<../../.gitbook/assets/untitled-1 (2) (4) (5) (5) (3) (1) (5).png>)
 
-## 4. Verify contract with constructor arguments \(for contracts that were created with constructor parameters\)
+## 4. Verify contract with constructor arguments (for contracts that were created with constructor parameters)
 
 [https://docs.soliditylang.org/en/develop/abi-spec.html](https://docs.soliditylang.org/en/develop/abi-spec.html)
 
@@ -61,4 +61,3 @@ Example for Harmony Remix:
 3 - paste your constuctor arguments and click Copy ![image](https://user-images.githubusercontent.com/57394565/126634955-2b458846-540e-4d56-94a1-ce9c26cf3a03.png)
 
 4 - paste encoded constructor arguments to verify form field ![image](https://user-images.githubusercontent.com/57394565/126635142-570cd58e-0f44-4af6-98f3-0b9b8d6095d9.png)
-

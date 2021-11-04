@@ -1,4 +1,4 @@
-# Using Node.sh \(deprecated\)
+# Using Node.sh (deprecated)
 
 {% hint style="warning" %}
 This option is **deprecated** and is **not supported** anymore. Please update your node [Using Node Binary](using-binary.md).
@@ -46,7 +46,7 @@ curl -LO https://harmony.one/node.sh && chmod +x node.sh
 
 Check the Binary CLI and node.sh version that was downloaded:
 
-```text
+```
 ./harmony -V
 ./node.sh -v
 ```
@@ -58,4 +58,3 @@ sudo service harmony restart
 ```
 
 To check your node follow instructions on [Checking A Node](../checking-node-status.md).
-

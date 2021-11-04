@@ -51,13 +51,13 @@ module.exports = function (deployer) {
 
 ### Checking the Solidity Smart Contract
 
-```text
+```
 truffle compile
 ```
 
 If all was done correctly you should see something like this:
 
-```text
+```
 Compiling your contracts...
 ===========================
 > Compiling ./contracts/Counter.sol
@@ -73,7 +73,6 @@ Compiling your contracts...
 
 ### Deployment
 
-```text
+```
 truffle migrate  --network testnet --reset
 ```
-

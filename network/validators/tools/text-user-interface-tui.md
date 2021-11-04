@@ -2,11 +2,11 @@
 description: Text based user interface for Harmony node.
 ---
 
-# Text User Interface \(TUI\)
+# Text User Interface (TUI)
 
 ## Harmony TUI
 
-Text based user interface for Harmony node.  
+Text based user interface for Harmony node.\
 Below information is currently displayed on Harmony-TUI
 
 1. **Section - Harmony Blockchain** - Connected peers - Leader's one address - Current epoch number - Recent timestamps of various stages
@@ -42,31 +42,30 @@ Below information is currently displayed on Harmony-TUI
 
 1. Invoke binary - `path_to_binary/harmony-tui --address=YOUR_ONE_ADDRESS`
 2. Help information - `path_to_binary/harmony-tui--help`
-3. Command line arguments supported by harmony-tui binary  
-   `-address string`
+3.  Command line arguments supported by harmony-tui binary\
+    `-address string`
 
-   ```text
-       `address of your one account (default "Not Provided")`
-   ```
+    ```
+        `address of your one account (default "Not Provided")`
+    ```
 
-   `-env string`
+    `-env string`
 
-   ```text
-       `environment of system binary is running on option 1- "local" option 2- "ec2" (default "ec2")`
-   ```
+    ```
+        `environment of system binary is running on option 1- "local" option 2- "ec2" (default "ec2")`
+    ```
 
-   `-version`
+    `-version`
 
-   ```text
-       `version of the binary`
-   ```
+    ```
+        `version of the binary`
+    ```
 
 **Examples**
 
 1. Run binary - `path_to_binary/harmony-tui --address=YOUR_ONE_ADDRESS --env=local`
 2. Check version - `path_to_binary/harmony-tui --version`
 
-## Sample GIF​[​](https://raw.githubusercontent.com/harmony-one/harmony-tui/master/doc/images/tui-sample.gif?token=AEY7S2JV6DIWLODPOXCKMN25VED6W) <a id="sample-screenshot"></a>
+## Sample GIF​[​](https://raw.githubusercontent.com/harmony-one/harmony-tui/master/doc/images/tui-sample.gif?token=AEY7S2JV6DIWLODPOXCKMN25VED6W) <a href="sample-screenshot" id="sample-screenshot"></a>
 
 ![](https://raw.githubusercontent.com/harmony-one/harmony-tui/master/doc/images/tui-sample.gif?token=AEY7S2JV6DIWLODPOXCKMN25VED6W)
-

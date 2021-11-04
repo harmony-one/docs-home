@@ -13,7 +13,7 @@ On the command above `--count` defines the number of BLS keys you want to genera
 {% hint style="danger" %}
 Remember your passphrase. You will need it to decrypt the BLS key file in order to create a validator & start a node with that key.
 
-Create a backup of your BLS key file or save the BLS private key \(optional\).
+Create a backup of your BLS key file or save the BLS private key (optional).
 {% endhint %}
 
 {% hint style="info" %}
@@ -28,7 +28,7 @@ The BLS public key is the same as the name of the file, without the `.key`.
 mkdir -p .hmy/blskeys
 ```
 
-**2.** Copy all the [previously created BLS key\(s\)](https://docs.harmony.one/home/validators/first-time-setup/generating-a-bls-key) to this new folder:
+**2.** Copy all the [previously created BLS key(s)](https://docs.harmony.one/home/validators/first-time-setup/generating-a-bls-key) to this new folder:
 
 ```bash
 cp *.key .hmy/blskeys
@@ -62,12 +62,12 @@ ls .hmy/blskeys/
 
 As previously mentioned, Harmony allows you to run 2 nodes with the same BLS key and it is not considered double signing.
 
-In order to run a redunant node \(a node with the same BLS key\) you need to do the following:
+In order to run a redunant node (a node with the same BLS key) you need to do the following:
 
-**1.** Copy the BLS .key file onto your local machine from the VPS using the `scp` command. **2.** Copy the BLS .key from your local machine to the other VPS where you will be running the redunant node on using the `scp` command. Here is a helpful video to guide you through the `scp` process - [guide](https://www.youtube.com/watch?v=q2OHvlr081s) **3.** You can now follow the same configuration steps as you did above \(making a folde called `.hmy/blskeys`, copying the BLS key into this new folder, etc.\) **4.** After you followed the same configuration steps for the BLS key, you can move on and follow the exact same steps for syncing the database and installing the node.
+**1.** Copy the BLS .key file onto your local machine from the VPS using the `scp` command. **2.** Copy the BLS .key from your local machine to the other VPS where you will be running the redunant node on using the `scp` command. Here is a helpful video to guide you through the `scp` process - [guide](https://www.youtube.com/watch?v=q2OHvlr081s) **3.** You can now follow the same configuration steps as you did above (making a folde called `.hmy/blskeys`, copying the BLS key into this new folder, etc.) **4.** After you followed the same configuration steps for the BLS key, you can move on and follow the exact same steps for syncing the database and installing the node.
 
 {% hint style="warning" %}
-If your redunant node doesn't work properly \(e.g. daemon process stops\) after you followed all the steps, check the .pass file that you created. The passphrase inside it might have been copied incorrectly with the `echo` command. If that happens, use a text editor and edit the file manually and input your passphrase. You can do this through the following commands:
+If your redunant node doesn't work properly (e.g. daemon process stops) after you followed all the steps, check the .pass file that you created. The passphrase inside it might have been copied incorrectly with the `echo` command. If that happens, use a text editor and edit the file manually and input your passphrase. You can do this through the following commands:
 
 ```bash
 sudo vi .hmy/blskeys/[yourBLSkey].pass
@@ -75,4 +75,3 @@ sudo vi .hmy/blskeys/[yourBLSkey].pass
 
 Once you're done press ESC, type `:x` and press ENTER.
 {% endhint %}
-

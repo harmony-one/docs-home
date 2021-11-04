@@ -1,6 +1,6 @@
 # Voting via HMY CLI
 
-Make sure to read the introduction and rules [here](./) first. 
+Make sure to read the introduction and rules [here](./) first.&#x20;
 
 To install HMY CLI head [here](../../wallets/harmony-cli/).
 
@@ -18,7 +18,7 @@ For a complete reference on all available commands for governance:
 
 Output example:
 
-```text
+```
         KEY       | NETWORK |      NAME
 ------------------+---------+------------------
   staking-mainnet |       1 | Harmony Mainnet
@@ -66,6 +66,5 @@ body: |
 ```
 
 {% hint style="info" %}
-**Start** and **end** time is in UTC, Time Zone \(Coordinated Universal Time\).
+**Start** and **end** time is in UTC, Time Zone (Coordinated Universal Time).
 {% endhint %}
-

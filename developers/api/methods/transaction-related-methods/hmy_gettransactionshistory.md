@@ -24,10 +24,10 @@ Testnet shard 1: e1.b.hmny.io:9500
 
 ## Parameters
 
-* `String` - one address \("one1..."\)
+* `String` - one address ("one1...")
 * `txHistoryArgs` - json args
   * `txType` - `String` : optional, Received or Sent, shows all transactions by default
-  * `fullTx` - `Bool` :  optional, shows full transaction or just its hash, default is false
+  * `fullTx` - `Bool `:  optional, shows full transaction or just its hash, default is false
   * `pageSize` - `Number` : optional, pagination page size, how much tx to show in single page, default is 100
   * `pageIndex` - `Number` : optional, pagination which page to show, default is 0
   * `txType` - `String`: optional, "ALL", "RECEIVED", "SENT", default is "ALL"
@@ -250,4 +250,3 @@ curl -d '{
     }
 }
 ```
-

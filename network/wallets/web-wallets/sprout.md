@@ -2,7 +2,7 @@
 
 ## Download
 
-Visit [https://sprout.sesameseed.org](https://sprout.sesameseed.org) to create your Harmony wallet and start staking with the app. 
+Visit [https://sprout.sesameseed.org](https://sprout.sesameseed.org) to create your Harmony wallet and start staking with the app.&#x20;
 
 ## [Staking](https://docs.sesameseed.org/harmony-staking-sprout/) with Sprout
 
@@ -13,7 +13,7 @@ Visit [https://sprout.sesameseed.org](https://sprout.sesameseed.org) to create y
 5. Enter the amount of ONE you would like to stake, and click Next Step.
 6. Review and click Submit to finish.
 
-{% embed url="https://www.youtube.com/watch?v=qP3QSjYKi4M&feature=emb\_logo" %}
+{% embed url="https://www.youtube.com/watch?v=qP3QSjYKi4M&feature=emb_logo" %}
 
 ## [Create](https://docs.sesameseed.org/how-to-create-a-mnemonic-wallet-in-sprout/) Your Multichain Mnemonic Wallet
 
@@ -21,7 +21,7 @@ Visit [https://sprout.sesameseed.org](https://sprout.sesameseed.org) to create y
 2. Your mnemonic phrase will be shared on the screen. Save and click Next.
 3. Confirm your mnemonic phrase and click Confirm to finish.
 
-{% embed url="https://www.youtube.com/watch?time\_continue=43&v=y05YCo1keRc&feature=emb\_logo" %}
+{% embed url="https://www.youtube.com/watch?time_continue=43&v=y05YCo1keRc&feature=emb_logo" %}
 
 ## [Import](https://docs.sesameseed.org/importing-your-wallet/) Your Harmony Wallet
 
@@ -29,7 +29,7 @@ Visit [https://sprout.sesameseed.org](https://sprout.sesameseed.org) to create y
 2. Select Harmony from the menu.
 3. Enter your private key and click Submit to finish.
 
-{% embed url="https://www.youtube.com/watch?v=-nO46WRB1lg&feature=emb\_logo" %}
+{% embed url="https://www.youtube.com/watch?v=-nO46WRB1lg&feature=emb_logo" %}
 
 ## [Export](https://docs.sesameseed.org/how-to-export-your-private-key-from-sprout/) your Harmony Wallet
 
@@ -49,9 +49,7 @@ Visit [https://sprout.sesameseed.org](https://sprout.sesameseed.org) to create y
 6. To receive, simply click on the Receive button at the top of the screen and choose Harmony from the menu.
 7. Copy or scan your wallet address, and send your Harmony tokens to the address shown.
 
-{% embed url="https://www.youtube.com/watch?v=53YwEnj6xrI&feature=emb\_logo" %}
-
-
+{% embed url="https://www.youtube.com/watch?v=53YwEnj6xrI&feature=emb_logo" %}
 
 
 

@@ -5,4 +5,3 @@ Harmony version of the Ganache is also available [here](https://github.com/harmo
 ![](../../../.gitbook/assets/ganache-harmony-1.jpg)
 
 ![](../../../.gitbook/assets/ganache-harmony-2.jpg)
-

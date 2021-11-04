@@ -9,11 +9,11 @@ hmy\_isBlockSigner returns true is validator signed a particular block or not
 ### Parameters
 
 1. `String` - block number in string 0x format
-2. `String` - validator one address \("one1..."\)
+2. `String` - validator one address ("one1...")
 
 ### Returns
 
-* `Bool` - true if validator signed block, false otherwise 
+* `Bool` - true if validator signed block, false otherwise&#x20;
 
 ### Sample Curl Request
 
@@ -41,11 +41,11 @@ curl -d '{
 ### Parameters
 
 1. `Number` - block number
-2. `String` - validator one address \("one1..."\)
+2. `String` - validator one address ("one1...")
 
 ### Returns
 
-* `Bool` - true if validator signed block, false otherwise 
+* `Bool` - true if validator signed block, false otherwise&#x20;
 
 ### Sample Curl Request
 
@@ -67,4 +67,3 @@ curl -d '{
     "result": true
 }
 ```
-

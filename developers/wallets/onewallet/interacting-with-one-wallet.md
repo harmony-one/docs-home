@@ -8,7 +8,7 @@ description: This section covers how to interact with Harmony Chrome Extension W
 
 Go to you `src/init.js` and add the following code.
 
-```text
+```
 import userWallet from './userWallet';
 
 let but = document.getElementById("inputtButton");
@@ -31,19 +31,19 @@ When user loads a page, Harmony Chrome Extension Wallet automatically inject a `
 
 Object to interact with Harmony Chrome Extension Wallet can be accessed sing the following.
 
-```text
+```
  const isOneWallet = window.onewallet && window.onewallet.isOneWallet;
  const onewallet = window.onewallet;
 ```
 
-The `onewallet` object needs a `defaultsigner` for signing the transactions, and lastly `signTransaction` object . We do the following using the following code snippets.
+The `onewallet` object needs a `defaultsigner` for signing the transactions, and lastly` signTransaction` object . We do the following using the following code snippets.
 
-```text
+```
  const getAccount = await this.onewallet.getAccount();
  await this.connectToOneWallet(this.onewallet)
 ```
 
-```text
+```
    async signin(){
         const getAccount = await this.onewallet.getAccount();
         console.log("slkdfjds")
@@ -54,9 +54,9 @@ The `onewallet` object needs a `defaultsigner` for signing the transactions, and
     }
 ```
 
-The final code we have in our example is as follows. `src/userWallet.js` 
+The final code we have in our example is as follows. `src/userWallet.js`&#x20;
 
-```text
+```
 import  hmy  from './hmy';
 
 class userStore {
@@ -85,4 +85,3 @@ export default userStore
 You can now successfully interact with the Harmony Chrome Extension Wallet.
 
 For more examples checkout this [link](https://github.com/harmony-one/sdk/tree/master/packages/harmony-core).
-

@@ -8,17 +8,17 @@ description: >-
 
 ### Remix IDE Harmony
 
-Open [Harmony Remix IDE](https://ide.harmony.one/#optimize=false&evmVersion=null) in your browser.
+Open [Harmony Remix IDE](https://ide.harmony.one/#optimize=false\&evmVersion=null) in your browser.
 
 ### Writing your Smart Contract
 
 On opening the IDE, in the left panel, click the "+" icon to create a new solidity file:
 
-![](../../../.gitbook/assets/screenshot-from-2020-11-02-00-26-00.png)
+![](<../../../.gitbook/assets/Screenshot from 2020-11-02 002600.png>)
 
 Now click on the new file in the navigation panel, if not opened already. Now start writing your code in the window opened on the right hand side. For this demo we are going to use a simple counter smart contract:
 
-![](../../../.gitbook/assets/screenshot-from-2020-11-02-00-25-50.png)
+![](<../../../.gitbook/assets/Screenshot from 2020-11-02 002550.png>)
 
 Following is the code used in the demo image above:
 
@@ -54,15 +54,14 @@ contract Counter {
 
 In the left navigation bar select "Solidity Compiler". In the new window choose the solidity version and modify other settings if required. Finally click on the Compile button to compile your solidity code:
 
-![](../../../.gitbook/assets/screenshot-from-2020-11-02-00-26-39.png)
+![](<../../../.gitbook/assets/Screenshot from 2020-11-02 002639.png>)
 
 ### Deployment
 
 After successful compilation, go the the navigation panel once again, and click on thr "Harmony" button. Now in the new panel, select the network to deploy on, and choose and connect to your desired wallet. For this demo we are using Math Wallet. Now click on "Deploy" to deploy your smart contract to Harmony Network:
 
-![](../../../.gitbook/assets/screenshot-from-2020-11-02-00-29-05.png)
+![](<../../../.gitbook/assets/Screenshot from 2020-11-02 002905.png>)
 
 ### Congratulations
 
 You have now successfully deployed your smart contract on harmony network!
-

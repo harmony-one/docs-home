@@ -6,7 +6,7 @@ description: This sections covers how to setup your example project.
 
 For this demo we assume such a project setup:
 
-![](../../../.gitbook/assets/image%20%28302%29.png)
+![](<../../../.gitbook/assets/image (223).png>)
 
 Type the following commands in the truffle project you created before:
 
@@ -87,4 +87,3 @@ Or you can just copy-paste the following into your package.json file:
 </body>
 </html>
 ```
-

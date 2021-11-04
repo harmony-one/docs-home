@@ -8,7 +8,7 @@ description: The Harmony CLI tool is used to interact with the Harmony blockchai
 Throughout this guide, we will use the following syntax:
 
 * `./hmy`:  This is the CLI program
-* `./hmy.sh --` : This is the command to use the CLI with a shell wrapper \(for macOS\)
+* `./hmy.sh --` : This is the command to use the CLI with a shell wrapper (for macOS)
 * `<argument>`: This is a required argument
 * `[argument]`: This is an optional argument
 * `/` : This is a line break, used to break up a line while writing a command
@@ -77,4 +77,3 @@ make
 ```
 
 Congratulations! You can now use the binary to run the CLI.
-

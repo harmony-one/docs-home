@@ -4,7 +4,7 @@ description: Harmony & Ethereum tooling compatibility
 
 # Ethereum Compatibility
 
-Harmony ONE is an Ethereum EVM 100% compatible blockchain, and is very good at decentralized application \(Dapp\) development within many possible verticals including DeFi, NFT, Gaming, and many others.
+Harmony ONE is an Ethereum EVM 100% compatible blockchain, and is very good at decentralized application (Dapp) development within many possible verticals including DeFi, NFT, Gaming, and many others.
 
 You can read more about Harmony One Ecosystem - here
 
@@ -18,25 +18,39 @@ You can read more about Harmony One Ecosystem - here
 
 ### Harmony & Web3
 
-{% page-ref page="../sdk/web3/" %}
+{% content-ref url="../sdk/web3/" %}
+[web3](../sdk/web3/)
+{% endcontent-ref %}
 
-{% page-ref page="../sdk/web3/send-transaction.md" %}
+{% content-ref url="../sdk/web3/send-transaction.md" %}
+[send-transaction.md](../sdk/web3/send-transaction.md)
+{% endcontent-ref %}
 
-{% page-ref page="../sdk/web3/find-the-last-transaction.md" %}
+{% content-ref url="../sdk/web3/find-the-last-transaction.md" %}
+[find-the-last-transaction.md](../sdk/web3/find-the-last-transaction.md)
+{% endcontent-ref %}
 
-{% page-ref page="../deploying-on-harmony/deploy-using-web3.md" %}
+{% content-ref url="../deploying-on-harmony/deploy-using-web3.md" %}
+[deploy-using-web3.md](../deploying-on-harmony/deploy-using-web3.md)
+{% endcontent-ref %}
 
 ### Harmony & Metamask
 
-{% page-ref page="../../network/wallets/browser-extensions-wallets/metamask-wallet.md" %}
+{% content-ref url="../../network/wallets/browser-extensions-wallets/metamask-wallet.md" %}
+[metamask-wallet.md](../../network/wallets/browser-extensions-wallets/metamask-wallet.md)
+{% endcontent-ref %}
 
-{% page-ref page="../wallets/metamask/interacting-with-metamask.md" %}
+{% content-ref url="../wallets/metamask/interacting-with-metamask.md" %}
+[interacting-with-metamask.md](../wallets/metamask/interacting-with-metamask.md)
+{% endcontent-ref %}
 
-{% page-ref page="../wallets/metamask/using-metamask-with-harmony-smart-contracts.md" %}
+{% content-ref url="../wallets/metamask/using-metamask-with-harmony-smart-contracts.md" %}
+[using-metamask-with-harmony-smart-contracts.md](../wallets/metamask/using-metamask-with-harmony-smart-contracts.md)
+{% endcontent-ref %}
 
 ### Harmony & Ethereum Developer Ecosystem
 
-{% embed url="https://github.com/harmony-one/hmy-ecosystem/blob/main/Harmony\_Develop\_Ecosystem.md" %}
+{% embed url="https://github.com/harmony-one/hmy-ecosystem/blob/main/Harmony_Develop_Ecosystem.md" %}
 
 ### Examples of Harmony projects that use Ethereum RPC
 
@@ -45,4 +59,3 @@ You can read more about Harmony One Ecosystem - here
 {% embed url="https://github.com/harmony-one/ethhmy-bridge.sdk" %}
 
 {% embed url="https://dapp.demo.harmony.one/" %}
-

@@ -9,10 +9,10 @@ Returns information about the transaction history of a given address with a conf
 ## Parameters
 
 1. `id` - `String` -  The address to get the balance of.
-2. `offset` - `Integer` - _\(Optional\)_ Number of address transactions per page.
-3. `page` - `Integer` - _\(Optional\)_ Page number in transactions list \(default is 0.\)
-4. `tx_view` - `String` - _\(Optional\)_ 4 values:
-   1. "NONE" - \(default\) Show no address transactions
+2. `offset` - `Integer` - _(Optional)_ Number of address transactions per page.
+3. `page` - `Integer` - _(Optional)_ Page number in transactions list (default is 0.)
+4. `tx_view` - `String` - _(Optional)_ 4 values:
+   1. "NONE" - (default) Show no address transactions
    2. "ALL" - Show all address transactions
    3. "RECEIVED" - Show only transactions this address received
    4. "SENT" - Show only transaction this address sent
@@ -33,12 +33,12 @@ Returns information about the transaction history of a given address with a conf
 
 ## Sample Curl Request
 
-| Param | Value |
-| :--- | :--- |
-| `id` | `one18t4yj4fuutj83uwqckkvxp9gfa0568uc48ggj7` |
-| `offset` | `5` |
-| `tx_view` | `ALL` |
-| `page` | `2` |
+| Param     | Value                                        |
+| --------- | -------------------------------------------- |
+| `id`      | `one18t4yj4fuutj83uwqckkvxp9gfa0568uc48ggj7` |
+| `offset`  | `5`                                          |
+| `tx_view` | `ALL`                                        |
+| `page`    | `2`                                          |
 
 ```bash
 curl -H "Content-Type:application/json" -X GET "e0.b.hmny.io:5000/address?id=one18t4yj4fuutj83uwqckkvxp9gfa0568uc48ggj7&tx_view=ALL&offset=5&page=2"
@@ -104,4 +104,3 @@ curl -H "Content-Type:application/json" -X GET "e0.b.hmny.io:5000/address?id=one
   ]
 }
 ```
-

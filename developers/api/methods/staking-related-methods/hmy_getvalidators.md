@@ -15,7 +15,7 @@ hmy\_getValidators returns list of validators for a particular epoch in correspo
 * `shardID` - `Uint32` - shard id
 * `validators` - `Array` : list of validators in below format
   * `address` - `String` : one address
-  * `balance` - `String` : validator current balance \(will be replaced with stake soon\) 0x format
+  * `balance` - `String` : validator current balance (will be replaced with stake soon) 0x format
 
 ### Sample Curl Request
 
@@ -82,7 +82,7 @@ curl -d '{
 * `shardID` - `Uint32` - shard id
 * `validators` - `Array` : list of validators in below format
   * `address` - `String` : one address
-  * `balance` - `Number` : validator current balance \(will be replaced with stake soon\)
+  * `balance` - `Number` : validator current balance (will be replaced with stake soon)
 
 ### Sample Curl Request
 
@@ -137,4 +137,3 @@ curl -d '{
     }
 }
 ```
-

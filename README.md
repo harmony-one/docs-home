@@ -24,4 +24,3 @@ Visit [open.harmony.one](https://open.harmony.one) for our _Open Development_:
 * **💎** [NFT](https://harmony.one/nft) – $13M Grants & Bounties on NFT
 * **💰** [Wallets](https://harmony.one/wallets) – $20M Grants & Bounties on Wallets
 * **💪** [Roadmap](https://harmony.one/roadmap) – Strategy & Launch Dates on Adoption
-

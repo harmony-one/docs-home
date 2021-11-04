@@ -24,13 +24,13 @@ For example, if you want to show your Ledger address you would simply run:
 
 #### Using the Binary:
 
-```text
+```
 ./hmy keys list --ledger
 ```
 
 #### Using the Shell Wrapper:
 
-```text
+```
 ./hmy.sh -- keys list --ledger
 ```
 
@@ -69,4 +69,3 @@ For example, if you want to show your Ledger address you would simply run:
 ```
 
 For a complete reference of all commands available, please check the HMY CLI [cookbook](https://docs.harmony.one/home/wallets/harmony-cli/cookbook).
-

@@ -57,4 +57,3 @@ curl --location --request POST 'https://api.s0.b.hmny.io/' \
     "result": []
 }
 ```
-

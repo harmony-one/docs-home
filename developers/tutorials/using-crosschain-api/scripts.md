@@ -12,4 +12,3 @@
 * `bridge_one_to_bsc.js` This script bridges Harmony's BSC BUSD to BSC BUSD
 * `viper_swap.js` This script swaps Harmony's ethereum BUSD to Harmony's BSC BUSD to BSC BUSD
 * `end_to_end.js` This script performs a full end-to-end swap from Ethereum BUSD to BSC BUSD
-

@@ -8,7 +8,7 @@ description: >-
 
 ## Overview
 
-This section is designed to get the casual smart contract developer deploying HRC20 tokens \(Harmony's ERC20 equivalent\) on Harmony Network. **This can be done in under one Minute.**
+This section is designed to get the casual smart contract developer deploying HRC20 tokens (Harmony's ERC20 equivalent) on Harmony Network. **This can be done in under one Minute.**
 
 This [github repository](https://github.com/harmony-one/H2O) contains the code and files used on this demo. You can also find many more examples that use HRC20 tokens on this [github repository](https://github.com/harmony-one/HRC).
 
@@ -16,7 +16,7 @@ This [github repository](https://github.com/harmony-one/H2O) contains the code a
 
 Here is a short video running through the deployment:
 
-{% embed url="https://www.youtube.com/watch?v=7zsLZYCvfb0" caption="" %}
+{% embed url="https://www.youtube.com/watch?v=7zsLZYCvfb0" %}
 
 ### One Minute Instructions
 
@@ -51,4 +51,3 @@ BN {
   red: null
 }
 ```
-

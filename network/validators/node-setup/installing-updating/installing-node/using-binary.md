@@ -4,10 +4,10 @@
 As per instructions on the [cloud guides](../../../server-setup/cloud-guides/), the host needs to open up port **9000** for blockchain consensus messages and port **6000** for blockchain state syncing. Other ports are NOT necessary for syncing and should NOT be opened to the internet if you are staking only.
 {% endhint %}
 
-* 9000 port is used for blockchain consensus messages \(**base port**\)
-* 6000 port is used for blockchain state syncing \(base port - 3000\)
-* 9500 port is used for SDK RPC service \(base port + 500\)
-* 9800 port is used for Websocket service \(base port + 800\)
+* 9000 port is used for blockchain consensus messages (**base port**)
+* 6000 port is used for blockchain state syncing (base port - 3000)
+* 9500 port is used for SDK RPC service (base port + 500)
+* 9800 port is used for Websocket service (base port + 800)
 
 The 9500, 9800 ports are only listened by localhost 127.0.0.1 by default.
 
@@ -20,19 +20,19 @@ Before you proceed with the instructions below, make sure you [created your vali
 Before we proceed to next steps we need to download the node binary first:
 
 {% tabs %}
-{% tab title="x86\_64 \(Mainnet\)" %}
+{% tab title="x86_64 (Mainnet)" %}
 ```bash
 curl -LO https://harmony.one/binary && mv binary harmony && chmod +x harmony
 ```
 {% endtab %}
 
-{% tab title="x86\_64 \(Testnet\) " %}
+{% tab title="x86_64 (Testnet) " %}
 ```bash
 curl -LO https://harmony.one/binary_testnet && mv binary_testnet harmony && chmod +x harmony
 ```
 {% endtab %}
 
-{% tab title="arm64 \(Mainnet\)" %}
+{% tab title="arm64 (Mainnet)" %}
 ```bash
 curl -LO https://harmony.one/binary-arm64 && mv binary-arm64 harmony && chmod +x harmony
 ```
@@ -41,17 +41,17 @@ curl -LO https://harmony.one/binary-arm64 && mv binary-arm64 harmony && chmod +x
 
 Check the node binary version that was downloaded:
 
-```text
+```
 ./harmony -V
 ```
 
-The below explain the different method the node binary can be used. Option 1 is what being used when setting up systemd \([at step 2](https://docs.harmony.one/home/validators/node-setup/installing-updating/installing-node/using-binary-cli#option-2-setup-using-cli-flags-parsing)\).
+The below explain the different method the node binary can be used. Option 1 is what being used when setting up systemd ([at step 2](https://docs.harmony.one/home/validators/node-setup/installing-updating/installing-node/using-binary-cli#option-2-setup-using-cli-flags-parsing)).
 
 {% hint style="danger" %}
 If you choose another method make sure to use the correct command line
 {% endhint %}
 
-### Option 1: Setup Using Config File \(recommended\)
+### Option 1: Setup Using Config File (recommended)
 
 All the start options can be persisted and loaded from a single config file. To start a node, the following steps are also available**:**
 
@@ -59,7 +59,7 @@ All the start options can be persisted and loaded from a single config file. To 
 2. Customize the config file.
 3. Run harmony node with the config file.
 
-####  Dump the Default Config File
+#### &#x20;Dump the Default Config File
 
 {% tabs %}
 {% tab title="Mainnet" %}
@@ -77,7 +77,7 @@ All the start options can be persisted and loaded from a single config file. To 
 
 A file `harmony.conf` is created and the default node options are set in the file in TOML formatting. Here is an example:
 
-```text
+```
 Version = "2.1.0"
 
 [BLSKeys]
@@ -167,7 +167,7 @@ The content of the config file can be modified for custom node start up command.
 
 For example, to open the public HTTP RPCs, change the field `IP` under `[HTTP]` tag to `"0.0.0.0"`:
 
-```text
+```
 [HTTP]
   Enabled = true
   IP = "0.0.0.0"
@@ -178,7 +178,7 @@ For example, to open the public HTTP RPCs, change the field `IP` under `[HTTP]` 
 
 To run harmony internal nodes under legacy mode instead of staking mode, change the field `NoStaking` under `[General]` tag to `true`:
 
-```text
+```
 [General]
   DataDir = "./"
   IsArchival = false
@@ -189,7 +189,7 @@ To run harmony internal nodes under legacy mode instead of staking mode, change 
   ShardID = -1
 ```
 
-To enable streamsync, modify the below two sections \(Experimental\)
+To enable streamsync, modify the below two sections (Experimental)
 
 {% tabs %}
 {% tab title="Testnet" %}
@@ -216,14 +216,14 @@ To enable streamsync, modify the below two sections \(Experimental\)
 {% endtabs %}
 
 {% hint style="success" %}
-Stream Sync is the new harmony Syncing method allowing to get rid of the previous sync via DNS causing issue when the DNS node wasn't in sync. 
+Stream Sync is the new harmony Syncing method allowing to get rid of the previous sync via DNS causing issue when the DNS node wasn't in sync.&#x20;
 {% endhint %}
 
 #### Start the node with Config File
 
 Harmony node binary is able to start with options provided by the config file:
 
-```text
+```
 ./harmony -c harmony.conf
 ```
 
@@ -249,13 +249,13 @@ You can run your node binary using flag parsing:
 
 A full list of active flags as well as examples can be accessed through running the binary with `--help` option:
 
-```text
+```
 ./harmony --help
 ```
 
 Output:
 
-```text
+```
 Examples usage:
 
 # start a validator node with default bls folder (default bls key files in ./.hmy/blskeys)
@@ -331,7 +331,7 @@ If both config file and flag is provided, the node option stored in config file 
 
 For example, In config file `harmony.conf`, HTTP server is enabled, and is open to public:
 
-```text
+```
 [HTTP]
   Enabled = true
   IP = "0.0.0.0"
@@ -342,13 +342,13 @@ For example, In config file `harmony.conf`, HTTP server is enabled, and is open 
 
 And a flag is also provided during the node start command to disable the HTTP server:
 
-```text
+```
 ./harmony -c harmony.conf --http=false
 ```
 
 In this case, the command line flags will override the settings in the config file and thus the HTTP server is disabled.
 
-```text
+```
 > curl localhost:9500
 curl: (7) Failed to connect to localhost port 9500: Connection refused
 ```
@@ -368,14 +368,14 @@ Check [here](../../../server-setup/requirements.md#explorer-node-recommendation)
 Check [here](../../syncing-db.md#archival-node) for instructions on how to sync your node in archival mode.
 
 {% hint style="info" %}
-Keep in mind that the storage space used increases around ~50+ GB per month on s0 due to staking transaction being stored. Other shard should take around 25GB per month. Please plan your storage space accordingly.
+Keep in mind that the storage space used increases around \~50+ GB per month on s0 due to staking transaction being stored. Other shard should take around 25GB per month. Please plan your storage space accordingly.
 {% endhint %}
 
-The following steps assume the node is connected to mainnet on shard 0, which is required for all exchanges. 
+The following steps assume the node is connected to mainnet on shard 0, which is required for all exchanges.&#x20;
 
 If you are using the config file, which is the recommended way to configure your node, change the settings to the ones below:
 
-```text
+```
  [General]
   DataDir = "./"
   IsArchival = true
@@ -389,12 +389,12 @@ If you are using the config file, which is the recommended way to configure your
 {% hint style="info" %}
 IsBeaconArchival flag is applicable to explorer node only. For shard 1/2/3 the beacon shard 0 doesn't need to be in archival mode. So to save space, the recommendation is to set to false. For shard 0 explorer node, IsArchival flag will determine if the database is in archival mode or not.
 
- DataDir \(or --db\_dir below for cli flag\) is the folder where the blockchain data will be store \(ie location of harmony\_db\_0\)
+&#x20;DataDir (or --db\_dir below for cli flag) is the folder where the blockchain data will be store (ie location of harmony\_db\_0)
 {% endhint %}
 
 Alternatively, you can also run it using flag parsing:
 
-```text
+```
 ./harmony --run=explorer --run.archive --run.shard=0 --db_dir=./
 ```
 
@@ -414,7 +414,7 @@ Create the `harmony.service` file:
 sudo vi /etc/systemd/system/harmony.service
 ```
 
-Add the content below to the file and save it. Change `User` to the local user you will be running the daemon and also `WorkingDirectory` to the home directory where you downloaded the harmony binary file previously. Parameter `ExecStart` needs to point to this same directory. On the example below we will be running the harmony binary using the `harmony.conf` file.
+Add the content below to the file and save it. Change `User` to the local user you will be running the daemon and also `WorkingDirectory` to the home directory where you downloaded the harmony binary file previously. Parameter `ExecStart` needs to point to this same directory. On the example below we will be running the harmony binary using the `harmony.conf `file.
 
 ```bash
 [Unit]
@@ -468,4 +468,3 @@ sudo service harmony stop
 {% endtabs %}
 
 To check your node follow instructions on [Checking A Node](../checking-node-status.md).
-

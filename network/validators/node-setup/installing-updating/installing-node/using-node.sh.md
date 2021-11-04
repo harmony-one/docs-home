@@ -1,4 +1,4 @@
-# \(deprecated\) Using Node.sh
+# (deprecated) Using Node.sh
 
 {% hint style="warning" %}
 This option is **deprecated** and is **not supported** anymore. Please setup your node [Using Node Binary](using-binary.md).
@@ -26,7 +26,7 @@ curl -LO https://harmony.one/node.sh && chmod +x node.sh
 
 Check the node binary and node.sh version that was downloaded:
 
-```text
+```
 ./harmony -V
 ./node.sh -v
 ```
@@ -57,7 +57,7 @@ A full list of active flags as well as examples can be access through running `n
 
 Output:
 
-```text
+```
 Usage: node.sh [options]
 
 Options:
@@ -196,4 +196,3 @@ sudo service harmony stop
 {% endtabs %}
 
 To check your node follow instructions on [Checking A Node](../checking-node-status.md).
-

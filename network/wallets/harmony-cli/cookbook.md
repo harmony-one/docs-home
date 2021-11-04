@@ -3,7 +3,7 @@
 The easiest way to get detailed help is to use the cli itself. For example below is the cookbook which gives an overview of various commands.
 
 {% hint style="success" %}
-By default, cookbook will show the  mainnet shard 0 \([https://api.s0.t.hmny.io](https://api.s0.t.hmny.io)\) RPC endpoint. Use the parameter --node="&lt;RPC&gt;" so the example would show the s0 in the targeted network, example ./hmy cookbook --node="https://api.s1.os.hmny.io" would show s0 in OSTN
+By default, cookbook will show the  mainnet shard 0 ([https://api.s0.t.hmny.io](https://api.s0.t.hmny.io)) RPC endpoint. Use the parameter --node="\<RPC>" so the example would show the s0 in the targeted network, example ./hmy cookbook --node="https://api.s1.os.hmny.io" would show s0 in OSTN
 {% endhint %}
 
 ```bash
@@ -97,4 +97,3 @@ By default, cookbook will show the  mainnet shard 0 \([https://api.s0.t.hmny.io]
 #20. Check which shard your BLS public key would be assigned to as a validator
 ./hmy --node="https://api.s0.t.hmny.io" utility shard-for-bls 2d61379e44a772e5757e27ee2b3874254f56073e6bd226eb8b160371cc3c18b8c4977bd3dcb71fd57dc62bf0e143fd08
 ```
-
