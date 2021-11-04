@@ -51,4 +51,10 @@ Jelly Swap enables peer to peer trades across different blockchains. It is an au
 
 Balancer is an asset management platform that acts as an automated portfolio manager, liquidity provider, and price sensor.
 
-Links: [community](https://seeswap.one/telegram), [docs](https://seeswap.gitbook.io)
+Links: [community](https://seeswap.one/telegram), [docs](https://seeswap.gitbook.io/)
+
+## [SwapCat](https://swap.cat/)
+
+**SwapCat** is a decentralized **Multichain DEX** utilizing **Harmony ONE** and most other EVM-blockchains.
+
+**SwapCat** allows feeless fixed-price direct wallet-to-wallet trading of HRC20 assets.
