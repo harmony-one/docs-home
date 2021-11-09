@@ -24,6 +24,12 @@ If your wallets were successfully connected, you will see a screen like the one 
 
 ### Swapping ETH > ONE Tokens
 
+**Support list:**
+
+* ERC20
+* ERC721
+* ERC1155
+
 On the example below, we will be swapping Ethereum ERC-20 for Harmony HRC-20 tokens and using** BUSD. **Make sure to select ETH > ONE (Metamask) on top as we want to convert from Ethereum to Harmony.
 
 ![](../../.gitbook/assets/eth-one.png)
@@ -58,7 +64,15 @@ This process can take a few minutes as the bridge needs to wait a certain number
 In order to see the tokens on your wallet you might need to [add them](adding-tokens.md).
 {% endhint %}
 
+More feature introduction, you can see [here](new-features.md).
+
 ### Swapping ONE > ETH Tokens
+
+**Support list:**
+
+* HRC20
+* HRC721
+* HRC1155
 
 For swapping HRC-20 tokens for ERC-20 tokens the process is very similar. Make sure you select ONE -> ETH (ONE Wallet) on top as we want to convert from Harmony to Ethereum this time:
 
@@ -67,6 +81,8 @@ For swapping HRC-20 tokens for ERC-20 tokens the process is very similar. Make s
 {% hint style="info" %}
 The remaining process is pretty much the same as the one mentioned on the section before, but this time you will need to confirm the two transactions using the ONE Wallet instead of the Metamask wallet.
 {% endhint %}
+
+More feature introduction, you can see [here](new-features.md).
 
 ### Support
 

@@ -10,10 +10,16 @@ Horizon bridge currently supporting bridging BUSD, LINK, and any ERC20 token fro
 
 1. ETH bridging
    * Allows bridging native ETH from Ethereum to receive 1ETH on Harmony
-2. ERC721 (NFT) bridging
+2. ERC721 (NFT on Ethereum) bridging
    * Allows single or in batch bridging of ERC721 (or NFTs) to Harmony to receive HRC721
 3. ONE & HRC20 bridging
    * Allows bridging Harmony's native ONE token and any HRC20 issued on Harmony to Ethereum for utilizing Ethereum ecosystem and DApps&#x20;
+4. ERC1155 bridging
+   * Allows single or in batch bridging of ERC1155 to Harmony to receive HRC1155
+5. HRC721 (NFT on Harmony) bridging
+   * Allows single or in batch bridging of HRC721 (or NFTs) to Ethereum to receive ERC721
+6. HRC1155 bridging
+   * Allows single or in batch bridging of ERC1155 to Ethereum to receive ERC1155
 
 ## ETH Bridging
 
@@ -38,6 +44,28 @@ For bridging ERC721 from Ethereum to Harmony, select ERC721 under ETH > ONE flow
 For redeeming your ERC721 back to Ethereum by burning HRC721, select ERC721 under ONE > ETH flow tab and select the tokenIds that you want to bridge back and proceed. In the picture below, I am only bridging back 1 token with tokenId 0.
 
 ![](<../../.gitbook/assets/Screen Shot 2021-01-12 at 6.39.18 PM.png>)
+
+## HRC721 Bridging
+
+Over 200+ HRC721s (NFTs) existing on Harmony (e.g., HarmonyOnePunks, Harmoonies) can be bridged to Ethereum and traded in the bigger market.
+
+You can bridge any HRC721 and receive equivalent amount of ERC721. The token metadata in the form of baseURI and tokenURI are preserved.
+
+For bridging HRC721 from Harmony to Ethereum, select HRC721 under ONE > ETH flow tab and select the tokenIds that you want to bridge and proceed. 1 or more tokenIds can be selected for bridging. In the picture below, I am bridging both of my tokens with tokenIds 0 & 1. The tokenIds can be any valid uint256.
+
+![bridging HRC20 to Ethereum](<../../.gitbook/assets/image (286).png>)
+
+For redeeming your HRC721 back to Harmony by burning ERC721, select HRC721 under ETH > ONE flow tab and select the tokenIds that you want to bridge back and proceed. In the picture below, I am only bridging back 1 token with tokenId 0.
+
+![redeeming HRC721 to Harmony ](<../../.gitbook/assets/image (287).png>)
+
+## ERC1155 & HRC1155 Bridging
+
+Bridging ERC1155 and HRC1155 are same as ERC721 and HRC721. just add the amount for token you want to bridging(1 for NFT and above 1 for token)
+
+![](<../../.gitbook/assets/image (285).png>)
+
+After filled token address and token ID of HRC/ERC1155 and select the token. you will see the available token amount.
 
 ## ONE & HRC20 Bridging
 
