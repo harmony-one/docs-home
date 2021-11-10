@@ -54,6 +54,10 @@ On next window, fill it with the account you want to choose and click on **Creat
 
 ## Importing an Account
 
+{% hint style="warning" %}
+There is a [known issue on MetaMask](https://metamask.zendesk.com/hc/en-us/articles/360058120992-My-Seed-Phrase-Secret-Recovery-Phrase-restored-the-wrong-account) where after the restoration of a wallet, MetaMask shows a different account with missing funds. Please make sure you use the same RPC network details as the one used in the original wallet. For example, if your original wallet was on the Harmony RPC network but your new wallet is on POKT RPC network, you may not see your original account.
+{% endhint %}
+
 ### 1. Using a Private Key
 
 Click on the icon on top as shown by the image below and then on **Import Account**:
