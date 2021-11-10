@@ -88,7 +88,7 @@ More feature introduction, you can see [here](new-features.md).
 
 If you have any issue using the bridge, please click on _Info_ at the top of the page, where you will be given instructions on how to report them.
 
-Alternatively you can join our Telegram Support channel at [https://harmony.one/bridge-support](https://harmony.one/bridge-support)
+Alternatively you can join the Telegram Support channel at [https://harmony.one/bridge-support](https://harmony.one/bridge-support)
 
 {% hint style="danger" %}
 Remember, admins never DM you first. Telegram groups, like the one above, are community-owned and frequented by scammers. **Never give out your seed phrase to anyone** - even admins. Watch out for fake links pretending to be official Harmony sites.
