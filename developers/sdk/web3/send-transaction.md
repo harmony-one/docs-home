@@ -24,7 +24,7 @@ With the package.json file created, we can then install the web3.js package by e
 
 ```
 npm install web3
-npm intall 'bn.js'
+npm install 'bn.js'
 ```
 
 {% hint style="info" %}
