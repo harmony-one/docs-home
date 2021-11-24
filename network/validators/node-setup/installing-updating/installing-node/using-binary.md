@@ -11,10 +11,6 @@ As per instructions on the [cloud guides](../../../server-setup/cloud-guides/), 
 
 The 9500, 9800 ports are only listened by localhost 127.0.0.1 by default.
 
-{% hint style="warning" %}
-Before you proceed with the instructions below, make sure you [created your validator](../../../creating-a-validator.md). This step is needed before you start the node binary.
-{% endhint %}
-
 ## 1. Download Node Binary
 
 Before we proceed to next steps we need to download the node binary first:
