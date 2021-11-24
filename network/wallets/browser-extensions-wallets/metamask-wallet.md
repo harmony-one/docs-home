@@ -73,7 +73,7 @@ You should have successfully imported your account from the Private Key!
 ## Regular Transactions
 
 {% hint style="info" %}
-Since Metamask does not allow you to send transactions to addresses starting with "**one1**", you need to get the equivalent **0x** address of this same address. For that, follow the procedures below.
+You can receive transactions to addresses starting with both **one1** and **0x**. However, Metamask does not allow you to send transactions to addresses starting with **one1**, you need to get the equivalent **0x** address of this same address. For that, follow the procedures below.
 {% endhint %}
 
 ### Getting the 0x Equivalent Address
