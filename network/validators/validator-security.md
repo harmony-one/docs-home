@@ -38,7 +38,7 @@ In the next page, you will need to repeat the previous step to re-enter a second
 
 When you are finished, log out of your Vultr account. Then attempt to log back in. You will be asked to enter an authentication code. Insert the YubiKey device in one of your computer’s USB ports, and either press the button(s) or touch the edge of the device.
 
-#### **2. Create a SSH Public-Private Key pair for your VPS and assign the Public Key to the VPS when creating it.**
+#### **2. Create a SSH Public-Private Key pair for your VPS and assign the Public Key to the VPS.**
 
 On Windows you can use for example PuttyGen to generate your SSH Public-Private Key pair. Setting a passphrase is advisable as it offers another layer of security if your ssh keys will be compromised.
 
@@ -48,10 +48,34 @@ Popular algorithms for creating SSH Keys:
 
 **Ed25519:** It’s the most recommended public-key algorithm available today but you have to check with the cloud provider, e.g. Vultr, Hetzner, AWS if is supporting this.
 
-To generate the SSH keys on macOS use the Terminal and the command below.&#x20;
+To generate the SSH keys on macOS or Linux, use the Terminal and the command below.
 
-```
+```text
 ssh-keygen -t rsa
+```
+
+If your VPS doesn't support automatically the SSH authentification at the creation, you can add manually your SSH key to your server later on.
+
+```text
+ssh-copy-id -i ~/.ssh/<your-key> <your-username>@<your-hostname>
+```
+
+Then, on your server, edit the "sshd_config" file to disable the password authentification.
+```text
+ChallengeResponseAuthentication no
+PasswordAuthentication no
+PermitEmptyPasswords no
+UsePAM no
+```
+
+Restart the sshd service.
+```text
+service sshd restart 
+```
+
+Login to your server using your ssh key.
+```text
+ssh -i ~/.ssh/<your-key> <your-username>@<your-hostname>
 ```
 
 #### **3. Use SSH Private Key and not password to authenticate on your VPS**
@@ -405,3 +429,9 @@ Run htop
 ```
 htop
 ```
+
+**11. Deactivate VNC (Contabo)**
+
+Some cloud providers (such as Contabo) have the VNC option activated by default. It is recommended to disable it if you don't use it.
+
+![Here the VNC option is disabled](../../.gitbook/assets/vnc-contabo.png)
