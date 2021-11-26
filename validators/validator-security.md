@@ -22,7 +22,7 @@ Hardware Security Modules (HSMs) generate, manage and store the secure cryptogra
 
 ### **How can I secure the access to my VPS better?**
 
-#### **1. **Add Two-factor Authenticator to your VPS provider if it is allowed.
+#### **1. Add Two-factor Authenticator to your VPS provider if it is allowed.**
 
 Serious VPS providers allow this already and also to use a HSM module like YubiKey. This guide focuses on Vultr but the documentation for YubiKey activation can be found in the documentation of different VPS providers, e.g. Hetzner: [https://wiki.hetzner.de/index.php/KonsoleH:Zwei-Faktor-Authentifizierung/en](https://wiki.hetzner.de/index.php/KonsoleH:Zwei-Faktor-Authentifizierung/en)
 
@@ -80,7 +80,7 @@ ssh -i ~/.ssh/<your-key> <your-username>@<your-hostname>
 
 #### **3. Use SSH Private Key and not password to authenticate on your VPS**
 
-#### **4. **If you received any root password after creating your VPS, change it
+#### **4. If you received any root password after creating your VPS, change it**
 
 ```
 passwd
@@ -90,7 +90,7 @@ Make sure to **back-up this password** and also be aware where you place it so t
 
 **Very important:** For holding passwords, keywords, etc. an encrypted hardware device and paper wallets are recommended. It is not recommended to hold passwords or keywords on a hot storage like your personal computer or notebook.
 
-#### 5. Once logged in, update your OS
+#### **5. Once logged in, update your OS**
 
 For Debian based systems like Ubuntu or Debian use the command below:&#x20;
 
@@ -104,7 +104,7 @@ For Amazon Linux use the command below:
 sudo yum update
 ```
 
-#### 6. Create a separate user than root for your application
+#### **6. Create a separate user than root for your application**
 
 It is not recommended to use directly the root user on your VPS. Therefore create a new user:
 
@@ -206,7 +206,7 @@ sudo nano /etc/ssh/sshd_config
 
 Following changes need to be made:
 
-*   Enable challenge response authentication by changing it to “yes”** **
+*   Enable challenge response authentication by changing it to “yes”
 
     _ChallengeResponseAuthentication yes_
 *   Add a new line that sets the Authentication Methods to require first the public key to be valid and then the YubiKey token for each user.
@@ -216,10 +216,10 @@ Following changes need to be made:
 *   Disable the password authentication by removing “#” in front of this line:
 
     _PasswordAuthentication_ and set the value from _yes_ to _no_&#x20;
-* Disable root authentication - if you have created a separate user for your application, deployments, etc. you can also disable the SSH root user access, which will add an extra layer of security to your VPS.** **Find the line _PermitRootLogin_, remove the comment sign “#” from the beginning of it and set the value to _no_
-*   Change your SSH port from 22 to another one, for example 2225.** **
+* Disable root authentication - if you have created a separate user for your application, deployments, etc. you can also disable the SSH root user access, which will add an extra layer of security to your VPS. Find the line _PermitRootLogin_, remove the comment sign “#” from the beginning of it and set the value to _no_
+*   Change your SSH port from 22 to another one, for example 2225.
 
-    Don’t use any of the ports in this list: [https://en.wikipedia.org/wiki/List\_of\_TCP\_and\_UDP\_port\_numbers](https://en.wikipedia.org/wiki/List\_of\_TCP\_and\_UDP\_port\_numbers) , as they are already being used.** **\
+    Don’t use any of the ports in this list: [https://en.wikipedia.org/wiki/List\_of\_TCP\_and\_UDP\_port\_numbers](https://en.wikipedia.org/wiki/List\_of\_TCP\_and\_UDP\_port\_numbers) , as they are already being used.
 
 
 Example sshd\_config file - **take it only as reference to see the security changes and don't copy it!**
@@ -418,7 +418,7 @@ More about it can be found here: [https://www.tecmint.com/linux-iptables-firewal
 \
 **11. Monitor and manage your system and process by using htop**
 
-** **Install htop
+Install htop
 
 ```
 sudo apt-get install htop
