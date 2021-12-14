@@ -1,12 +1,25 @@
 ---
 description: >-
   This page explains how to get the latest price of ONE and other HRC20 assets
-  inside smart contracts, using the Chainlink Price Feed on the Harmony testnet.
+  inside smart contracts, using the Chainlink Price Feed on Harmony.
 ---
 
 # Chainlink
 
 ## The Price Feed Contracts
+
+#### Mainnet
+
+```
+ETH-USD: 0xbaf7C8149D586055ed02c286367A41E0aDA96b7C
+BTC-USD: 0x3C41439Eb1bF3BA3b2C3f8C921088b267f8d11f4
+LINK-USD: 0xD54F119D10901b4509610eA259A63169647800C4
+USDC-USD: 0xA45A41be2D8419B60A6CE2Bc393A0B086b8B3bda
+USDT-USD: 0x5CaAeBE5C69a8287bffB9d00b5231bf7254145bf
+ONE-USD: 0xdCD81FbbD6c4572A69a534D8b8152c562dA8AbEF
+```
+
+#### Testnet
 
 ```
 DAI-USD: 0x1FA508EB3Ac431f3a9e3958f2623358e07D50fe0
