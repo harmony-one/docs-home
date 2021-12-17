@@ -41,6 +41,6 @@ Check [Raspberry Pi Guide](raspberry-pi-guide.md) for instructions.
 ## Explorer Node: Recommendation
 
 **Setup**: AWS i3en.12xlarge or equivalent\
-**Storage**: 15000 GiB (4x NVMe SSD) is recommended for Archival Explorer Nodes on Shard 0\
+**Storage**: \~16TB (4x NVMe SSD) is recommended for Archival Explorer Nodes on Shard 0\
 **OS**: Latest Ubuntu Linux (LTS Version)\
 **Network**: 100M+ bandwidth

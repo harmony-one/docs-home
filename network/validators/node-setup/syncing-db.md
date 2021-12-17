@@ -168,7 +168,7 @@ After the sync, you may use `du -h harmony_db_*` command to check the size of th
 ## Non-Validating/Explorer Nodes
 
 {% hint style="info" %}
-As of 7th September 2021, the size for the shard 0 on mainnet is \~13Tb. Note that the bucket is currently not fully synced.
+As of 17th December 2021, the size for the shard 0 on mainnet is \~16Tb. Note that the bucket is currently not fully synced.
 {% endhint %}
 
 To sync your node in archival mode, just change the command below for the shard you want. Depending on the size, the syncing of the blockchain will take quite some time.
