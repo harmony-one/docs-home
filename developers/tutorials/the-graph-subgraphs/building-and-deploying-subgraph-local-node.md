@@ -88,7 +88,7 @@ services:
       GRAPH_ETH_CALL_BY_NUMBER: 1
       GRAPH_NO_EIP_1898_SUPPORT: 1
       GRAPH_ALLOW_NON_DETERMINISTIC_IPFS: 1
-      ethereum: 'testnet,archive,traces:https://api.s0.backup1.b.hmny.io"
+      ethereum: "testnet,archive,traces:https://api.s0.backup1.b.hmny.io"
       RUST_LOG: info
   ipfs:
     container_name: ipfs
