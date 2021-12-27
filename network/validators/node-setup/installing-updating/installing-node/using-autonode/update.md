@@ -37,7 +37,7 @@ auto-node update
 > Note that AutoNode will check to make sure the harmony node is stopped. If it detects that the harmony node is still running, It will ask to kill itself before starting the update.
 
 {% hint style="success" %}
-You can also re-run the install script from step 3 of the **Install & Run **script to update AutoNode
+You can also re-run the install script from step 3 of the **Install & Run** script to update AutoNode
 {% endhint %}
 
 ### Step 2: Restart/Rerun your AutoNode

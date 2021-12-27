@@ -154,7 +154,7 @@ The contract will then be compiled.
 We can deploy our new token to a development blockchain. Providing a name, a symbol and a base URI as parameters to the constructor to create a new `ERC721PresetMinterPauserAutoId`.
 
 Select the _Deploy & Run Transactions_ plugin on the left hand side of the screen.\
-Environment should default to `JavaScript VM (Berlin) ` `or JavasScript VM (London)`our development blockchain.\
+Environment should default to `JavaScript VM (Berlin)` `or JavasScript VM (London)`our development blockchain.\
 Change the gas limit to `5000000`\
 Change the Contract to `ERC721PresetMinterPauserAutoId`
 

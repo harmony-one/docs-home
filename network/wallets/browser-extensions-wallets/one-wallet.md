@@ -1,6 +1,6 @@
 # Harmony Chrome Extension Wallet
 
-## **Step 1: Install the Harmony Chrome Extension Wallet **
+## **Step 1: Install the Harmony Chrome Extension Wallet**&#x20;
 
 ![](<../../../.gitbook/assets/image (190).png>)
 

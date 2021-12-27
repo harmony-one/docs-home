@@ -67,7 +67,7 @@ export DBUS_SESSION_BUS_ADDRESS="unix:path=${XDG_RUNTIME_DIR}/bus"
 
 > It may be convient to add this command to your `~/.bashrc` profile.
 
-### **Step 3: **Install AutoNode
+### **Step 3:** Install AutoNode
 
 `sudo` access for your user is needed for installation.
 
@@ -95,7 +95,7 @@ export PATH=$PATH:~/bin
 
 > This step is only needed if the command: `auto-node` does not work.
 
-### **Step 4: **Add or import a Validator Key
+### **Step 4:** Add or import a Validator Key
 
 {% tabs %}
 {% tab title="New Key" %}
@@ -169,7 +169,7 @@ Make sure to **respond** to the **prompts**. If you are unable to create a valid
 {% endhint %}
 
 {% hint style="success" %}
-Once the monitor has started and you see repeated prints of the node information & headers, you can exit with` ctrl+C.`From here, you are free to do whatever on the machine, or you can exit the machine. Your Harmony node will keep running!
+Once the monitor has started and you see repeated prints of the node information & headers, you can exit with `ctrl+C.`From here, you are free to do whatever on the machine, or you can exit the machine. Your Harmony node will keep running!
 {% endhint %}
 
 ### **Step 5.5: (Optional) Create your validator after the initial run**

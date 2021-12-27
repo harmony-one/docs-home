@@ -10,7 +10,7 @@ Timeless and Harmony can tokenize unique events and experiences on [davinci. gal
 
 #### Non-Fungibility of Time&#x20;
 
-While we have the same amount of time in a day, how we spend our time is what gives meaning & value to each life’s moment. So, Timeless is creating bespoke **3D art **to accompany life-enriching experiences.
+While we have the same amount of time in a day, how we spend our time is what gives meaning & value to each life’s moment. So, Timeless is creating bespoke **3D art** to accompany life-enriching experiences.
 
 #### Web RSVP
 

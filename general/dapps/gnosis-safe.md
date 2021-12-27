@@ -29,7 +29,7 @@ Select the MetaMask option in the connect wallet menu. Check that the correct Me
 
 ![Create New Safe](../../.gitbook/assets/gnosis-safe4.png)
 
-2\) Name the safe. This will be stored locally. Press **Start **to continue.
+2\) Name the safe. This will be stored locally. Press **Start** to continue.
 
 ![Name the Safe](../../.gitbook/assets/gnosis-safe5.png)
 
@@ -99,7 +99,7 @@ If sucessfull, you should see your Safe loaded on main page.
 
 ![](../../.gitbook/assets/gnosis-safe19.png)
 
-6\) We need at least one more account to confirm the transaction on the safe. Just click on **Confirm **logged in with the required account.
+6\) We need at least one more account to confirm the transaction on the safe. Just click on **Confirm** logged in with the required account.
 
 ![Click on Confirm](../../.gitbook/assets/gnosis-safe20.png)
 

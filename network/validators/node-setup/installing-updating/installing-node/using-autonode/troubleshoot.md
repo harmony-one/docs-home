@@ -5,7 +5,7 @@ description: Some steps for troubleshooting your AutoNode.
 # Troubleshoot
 
 {% hint style="success" %}
-If you encounter any issue you cannot solve, feel free to reach out to us at **autonode@harmony.one. **Alternatively you can open a Github issue [here](https://github.com/harmony-one/auto-node/issues).
+If you encounter any issue you cannot solve, feel free to reach out to us at **autonode@harmony.one.** Alternatively you can open a Github issue [here](https://github.com/harmony-one/auto-node/issues).
 {% endhint %}
 
 ## Inspect AutoNode logs
@@ -69,7 +69,7 @@ auto-node run --expose-rpc
 ```
 
 {% hint style="warning" %}
-**DO NOT **re-run with the `--clean` or `--fast-sync` options as they will most likely _regress _your block height to the last snapshotted DB.
+**DO NOT** re-run with the `--clean` or `--fast-sync` options as they will most likely _regress_ your block height to the last snapshotted DB.
 {% endhint %}
 
 ## Restart the Harmony Node

@@ -4,15 +4,15 @@ description: To launch your Vultr instance, follow the steps below.
 
 # Vultr
 
-## **Step 1: Launching Your Vultr Instance** <a href="step-1-launching-your-vultr-instance" id="step-1-launching-your-vultr-instance"></a>
+## **Step 1: Launching Your Vultr Instance** <a href="#step-1-launching-your-vultr-instance" id="step-1-launching-your-vultr-instance"></a>
 
-### Logging into Vultr <a href="logging-into-vultr" id="logging-into-vultr"></a>
+### Logging into Vultr <a href="#logging-into-vultr" id="logging-into-vultr"></a>
 
 ​First, go to the [Vultr Main Page](https://www.vultr.com). If you don’t already have an Vultr account, register one by clicking on "Sign up". Otherwise, log into your Vultr Account by clicking on "Sign in".
 
 ![](<../../../../.gitbook/assets/image (134).png>)
 
-### Create a new instance <a href="create-a-new-instance" id="create-a-new-instance"></a>
+### Create a new instance <a href="#create-a-new-instance" id="create-a-new-instance"></a>
 
 Once logged in, you'll want to add a new instance. Depending on whether your account is new or not, you may or may not have a Products page.
 
@@ -21,25 +21,25 @@ Once logged in, you'll want to add a new instance. Depending on whether your acc
 
 ![](https://blobs.gitbook.com/assets%2F-LlDqlxK8e45wuh1WH4h%2F-LmLNRdAg8YfuFxXiQq0%2F-LmM3X7d52fBZllcOPFd%2Fbrave\_ijOE8hiNrv.png?alt=media\&token=aca0bd2c-20ac-4169-ac10-63adf2a9bae4)
 
-### Choose Instance Type <a href="choose-instance-type" id="choose-instance-type"></a>
+### Choose Instance Type <a href="#choose-instance-type" id="choose-instance-type"></a>
 
 For Harmony, two instance types would fit: Cloud Compute and High Frequency.
 
 ![](https://blobs.gitbook.com/assets%2F-LlDqlxK8e45wuh1WH4h%2F-LlJ1k4k3MsK7srbkEEP%2F-LlJ4bAtQ7yHCVwEtO5d%2Fimage.png?alt=media\&token=e05f2088-96f4-4e5d-9d8f-bb834f7d7857)
 
-### Select Server Location and Server Type <a href="select-server-location-and-server-type" id="select-server-location-and-server-type"></a>
+### Select Server Location and Server Type <a href="#select-server-location-and-server-type" id="select-server-location-and-server-type"></a>
 
-Choose now your desired server type. We recommend the latest **LTS version of Ubuntu **(18.04 as of date of now).
+Choose now your desired server type. We recommend the latest **LTS version of Ubuntu** (18.04 as of date of now).
 
 ![](https://blobs.gitbook.com/assets%2F-LlDqlxK8e45wuh1WH4h%2F-LlxvSktdLiGcUCOJpxp%2F-Lly3uMNT60Id55f1x7K%2Fbrave\_qvMA6y4YCr.png?alt=media\&token=bc26c01f-1a11-49bd-8fe5-638f46feee6a)
 
-### Choose Server Size <a href="choose-server-size" id="choose-server-size"></a>
+### Choose Server Size <a href="#choose-server-size" id="choose-server-size"></a>
 
 Harmony recommends one of the two following accordingly to the [minimum requirements](https://docs.harmony.one/home/validators/cloud-setup/minimum-requirements):
 
 ![](https://blobs.gitbook.com/assets%2F-LlDqlxK8e45wuh1WH4h%2F-LlxvSktdLiGcUCOJpxp%2F-LlxzVtdrbyY8vr6IsO8%2Fbrave\_jSr54JprOg.png?alt=media\&token=99b042ec-7a94-4508-b130-cda76553a737)
 
-### Setting Server Name <a href="setting-server-name" id="setting-server-name"></a>
+### Setting Server Name <a href="#setting-server-name" id="setting-server-name"></a>
 
 You can now set the name of your server, e.g. PangaeaNode Then you should click "Deploy Now".
 
@@ -47,7 +47,7 @@ You can now set the name of your server, e.g. PangaeaNode Then you should click 
 
 At this point you should be back on the Products page and your server should be installing. However, the setup isn't completely done, as you need to still create a firewall.
 
-### Firewall Setup <a href="firewall-setup" id="firewall-setup"></a>
+### Firewall Setup <a href="#firewall-setup" id="firewall-setup"></a>
 
 As we want to allow other nodes to connect to yours, we have to open the correct ports.
 
@@ -57,7 +57,7 @@ Once you are on the [Firewall page](https://my.vultr.com/firewall/), click Add F
 
 Enter a name for the firewall group, e.g. FoundationNode.
 
-#### Open the following 3 ports to the public ("Anywhere" on inbound). <a href="open-the-following-5-ports-to-the-public-anywhere-on-inbound" id="open-the-following-5-ports-to-the-public-anywhere-on-inbound"></a>
+#### Open the following 3 ports to the public ("Anywhere" on inbound). <a href="#open-the-following-5-ports-to-the-public-anywhere-on-inbound" id="open-the-following-5-ports-to-the-public-anywhere-on-inbound"></a>
 
 * TCP 22 (SSH)
 * TCP 6000
@@ -67,7 +67,7 @@ Make sure to check that 3 Group Rules have been set.
 
 ![](../../../../.gitbook/assets/rules\_vultr\_firewall.jpg)
 
-#### Then link the instance to the firewall group. The steps are as follows: <a href="then-link-the-instance-to-the-firewall-group-the-steps-are-as-follows" id="then-link-the-instance-to-the-firewall-group-the-steps-are-as-follows"></a>
+#### Then link the instance to the firewall group. The steps are as follows: <a href="#then-link-the-instance-to-the-firewall-group-the-steps-are-as-follows" id="then-link-the-instance-to-the-firewall-group-the-steps-are-as-follows"></a>
 
 1. Click Linked Instances.
 2. Make sure your new server is selected.
@@ -84,7 +84,7 @@ You can now go back to the Products page and your server is now successfully set
 
 ![](../../../../.gitbook/assets/products\_page.png)
 
-## **Step 2: Connecting via SSH to your Instance** <a href="step-2-connecting-to-your-vultr-node" id="step-2-connecting-to-your-vultr-node"></a>
+## **Step 2: Connecting via SSH to your Instance** <a href="#step-2-connecting-to-your-vultr-node" id="step-2-connecting-to-your-vultr-node"></a>
 
 Follow the instructions below accordingly to the operating system you are connecting from:
 

@@ -26,5 +26,5 @@ Youbi is an investment firm focused on navigating the future of open finance. [Y
 
 These individuals are also supporting Harmony's ecosystem as a multi-sig holder:
 
-* **Jeff Liu: Co-Founder at PeckShield Inc. **\
+* **Jeff Liu: Co-Founder at PeckShield Inc.** \
   Jeff is an entrepreneur, manager, tech lead, and software engineer for networking, distributed systems, and blockchain networks. He has advanced knowledge and expertise in blockchain, computer network, distributed system, operating systems, real-time and fault-tolerant systems, and computer architecture and organization. Jeff is the author or co-author of more than a dozen of research papers and patents in the area of distributed system, algorithm, and computer network.

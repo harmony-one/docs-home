@@ -1,6 +1,6 @@
 # Components & Tools
 
-**DAO Formation: **Fork of "https://app.daohaus.club"
+**DAO Formation:** Fork of "https://app.daohaus.club"
 
 **DAO Contributions & Payment:** Circles in "https://www.coordinape.com"
 

@@ -34,11 +34,11 @@ You can delegate tokens to a validator using the following command:
 
 The CLI will ask for the passphrase for the `delegator-addr` keystore file.
 
-`--delegator-addr` is the ONE address of the delegator** (string)**
+`--delegator-addr` is the ONE address of the delegator **(string)**
 
-`--validator-addr` is the ONE address of the validator** (string)**
+`--validator-addr` is the ONE address of the validator **(string)**
 
-`--amount` is the number of ONE tokens to delegate to the validator** (float)**
+`--amount` is the number of ONE tokens to delegate to the validator **(float)**
 
 {% hint style="info" %}
 As a validator, if you want to increase your stake, you will have to delegate to yourself. For delegating to your own validator, `delegator-addr` and `validator-addr` will be the same.

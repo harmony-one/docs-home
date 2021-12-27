@@ -20,4 +20,4 @@ Every transaction or delegation must be signed. You can use the Harmony Chrome E
 
 **Harmony Browser Extension:** [https://docs.harmony.one/home/wallets/chrome-extension](https://docs.harmony.one/home/wallets/chrome-extension)
 
-**Wallets: **[https://docs.harmony.one/home/basics/overview](https://docs.harmony.one/home/basics/overview)
+**Wallets:** [https://docs.harmony.one/home/basics/overview](https://docs.harmony.one/home/basics/overview)

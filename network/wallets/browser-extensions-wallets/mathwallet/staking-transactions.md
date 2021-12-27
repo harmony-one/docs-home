@@ -1,29 +1,45 @@
 # Staking Transactions via Math Wallet
 
-Sign in from the staking dashboard [https://staking.harmony.one/validators 1](https://staking.harmony.one/validators) for staking transactions.&#x20;
+Visit the staking dashboard at [https://staking.harmony.one/](https://staking.harmony.one) and click **Sign In**.&#x20;
 
-![](<../../../../.gitbook/assets/image (39).png>)
+![](../../../../.gitbook/assets/math-select-wallet-2.PNG)
 
-![](https://aws1.discourse-cdn.com/standard11/uploads/harmony1/original/1X/1741e6cfd8e92141bee6c67fdab05954281bc98c.png)
+The screen will prompt you to make a selection.
 
-Sign in to your Math Wallet browser extension. You will see a Login Request pop up. Select your wallet and click Accept.
+Choose "**Use an Existing Address**".
 
-![](<../../../../.gitbook/assets/image (43).png>)
+Click "**Use Math Wallet**" from the next selection of options and then click "**Sign In**".
+
+![](../../../../.gitbook/assets/math-select-wallet-3.PNG)
+
+Sign in to your Math Wallet browser extension. You will see a Login Request pop up. Select your wallet and then click **Accept**.
+
+![Select the wallet from which you'd like to stake your ONE.](../../../../.gitbook/assets/math-select-wallet-4.png)
 
 You will be brought back to the **Validator** page of Staking Dashboard. You will be able to see your address on the top left corner under the Harmony logo which means you are now signed in to your account.
 
-![](<../../../../.gitbook/assets/image (44).png>)
+![Your one1 address will appear in the top-left of the staking page upon signing in.](../../../../.gitbook/assets/math-select-wallet-5.PNG)
 
-Choose your preferred validator and click on Delegate button. Enter the desired amount of tokens you would like to delegate and click next. &#x20;
+Locate and **click** on your preferred validator from the list.&#x20;
 
-![](<../../../../.gitbook/assets/image (45).png>)
+The validator profile page will open. Click on the **Delegate** button.&#x20;
 
-Confirm the signature request on the Math Wallet pop-up window.
+![](../../../../.gitbook/assets/math-select-wallet-6.PNG)
 
-![](<../../../../.gitbook/assets/image (46).png>)
+**Option #1:** Enter the desired amount of tokens you would like to delegate and click next or...
 
-That’s it! You have successfully delegated your tokens to a validator. Now you will also be able to see your wallet address in the list of delegates and the validator on your portfolio page.
+**Option #2:** Use the slider to determine the percentage of your ONE you wish to stake.
 
-![](<../../../../.gitbook/assets/image (47).png>)
+![Staking 100% of your ONE leaves you with no gas to pay for additional transactions. We suggest leaving a small amount of ONE in your wallet; a single ONE will cover over 1,000 transactions.](../../../../.gitbook/assets/math-select-wallet-7.PNG)
 
-![](<../../../../.gitbook/assets/image (48).png>)
+Click **Next** and then click **Confirm and Sign**.
+
+Click **Accept** to confirm the signature request on the Math Wallet pop-up window and wait a few seconds. If the transaction completes, you will find a success confirmation pop-up on your screen.
+
+![](../../../../.gitbook/assets/math-select-wallet-8.png)
+
+You are now staking your ONE with a validator and will begin earning rewards at the start of the following epoch.&#x20;
+
+Click the **Portfolio** link on the left to view your stake amount, rewards accumulated, and a list of any validator to whom you have delegated your coins.
+
+![](../../../../.gitbook/assets/math-select-wallet-9.PNG)
