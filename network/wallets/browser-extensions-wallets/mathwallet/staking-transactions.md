@@ -1,4 +1,8 @@
-# Staking Transactions via Math Wallet
+---
+description: Follow the steps below to stake your ONE using Math Wallet.
+---
+
+# Staking
 
 Visit the staking dashboard at [https://staking.harmony.one/](https://staking.harmony.one) and click **Sign In**.&#x20;
 

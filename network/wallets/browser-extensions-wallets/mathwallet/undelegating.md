@@ -1,5 +1,5 @@
 ---
-description: Follow the steps below to undelegate your staked ONE.
+description: Follow the steps below to undelegate your staked ONE using Math Wallet.
 ---
 
 # Undelegating
