@@ -1,5 +1,5 @@
 ---
-description: A web-based wallet
+description: A multi-chain wallet
 ---
 
 # Math Wallet
