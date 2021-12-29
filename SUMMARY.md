@@ -248,7 +248,7 @@
     * [Math Wallet](network/wallets/browser-extensions-wallets/mathwallet/README.md)
       * [Download & Setup](network/wallets/browser-extensions-wallets/mathwallet/download-and-setup.md)
       * [Create/Import/Export Wallet](network/wallets/browser-extensions-wallets/mathwallet/create-import-wallet.md)
-      * [Sending Transactions via Math Wallet](network/wallets/browser-extensions-wallets/mathwallet/send-tx.md)
+      * [Sending Transactions](network/wallets/browser-extensions-wallets/mathwallet/send-tx.md)
       * [Staking](network/wallets/browser-extensions-wallets/mathwallet/staking-transactions.md)
       * [Undelegating](network/wallets/browser-extensions-wallets/mathwallet/undelegating.md)
     * [Guarda Wallet](network/wallets/browser-extensions-wallets/guarda-wallet.md)
