@@ -1,5 +1,5 @@
 ---
-description: A multi-chain wallet
+description: Math wallet is a multi-chain
 ---
 
 # Math Wallet
