@@ -22,5 +22,5 @@ Note: In order to create a Snapshot space, you will need to own or purchase an [
 
 A forked version of Snapshot currently runs on [https://gov.harmony.one](https://gov.harmony.one). This version of snapshot is extremely outdated and missing most of the admin features currently available on Snapshot.org. As such, we will be sunsetting the forked version of Snapshot and we ask organizations to create and use their space on Snapshot.org instead. See instructions above.
 
-* **Feb, 28th, 2022**: New proposals will be disabled on all spaces. New spaces will be not be created.
+* **Feb, 28th, 2022**: New proposals will be disabled on all spaces. New spaces will not be created.
 * **April, 30th, 2022**: gov.harmony.one will redirect to snapshot.org and old proposals will no longer be accessible.
