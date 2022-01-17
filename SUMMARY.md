@@ -28,7 +28,7 @@
   * [Security Audit](general/horizon-bridge/audit.md)
   * [Bridge FAQ's](general/horizon-bridge/bridge-faqs.md)
 * [Bitcoin Bridge](general/bitcoin-bridge/README.md)
-  * [Vault Incentive Program](general/bitcoin-bridge/vault-incentive-program/README.md)
+  * [Vault Incentive Program](general/bitcoin-bridge/vault-incentive-program.md)
     * [Required Collateral](general/bitcoin-bridge/vault-incentive-program/required-collateral.md)
     * [Vault Incentives](general/bitcoin-bridge/vault-incentive-program/vault-incentives.md)
     * [How to Participate](general/bitcoin-bridge/vault-incentive-program/how-to-participate.md)
