@@ -6,7 +6,7 @@ The vaults are generously incentivized using the two schemes as described below 
 
 The vaults receive a 0.5% bridge fee from the user on every transaction (issue, redeem) as 1BTC. The 0.5% fee is subject to change, but it is used at the launch time.&#x20;
 
-Example below assume:
+Example below assumes:
 
 ONE price of $0.34 | BTC price of $43,000.\
 Collateral: 200,000 ONE ($68,000)\
@@ -23,7 +23,7 @@ Allowed Issuing: 1.05 1BTC ($45,333)
 &#x20; **Day 5**: Six users bridge BTC to 1BTC at a total value of $45,000.
 
 **Total amount transacted**: 2.2 BTC valued at $140,000\
-&#x20;**Bridge Fees Collected**: 0.016 1BTC valued at $700
+**Bridge Fees Collected**: 0.016 1BTC valued at $700
 
 ### Staking Rewards
 
