@@ -1,5 +1,9 @@
 # Upgrade
 
+The Bitcoin bridge is in beta stage and throughout the first couple of months, the bitcoin bridge team may upgrade the vault client software to make it more efficient and improve the UX. This guide will help to keep your vault client up to date.
+
+#### Steps
+
 1. Stop the docker container
 
 ```
