@@ -225,7 +225,9 @@
     * [Testing](developers/tutorials/using-crosschain-api/testing.md)
     * [Webserver](developers/tutorials/using-crosschain-api/webserver.md)
   * [Using Web3.py & Pyhmy](developers/tutorials/using-web3.py-and-pyhmy.md)
-  * [Using IPFS](developers/tutorials/using-ipfs.md)
+  * [Using IPFS & Filecoin](developers/tutorials/ipfs-filecoin/README.md)
+    * [Using IPFS](developers/tutorials/ipfs-filecoin/using-ipfs.md)
+    * [Using NFT.storage](developers/tutorials/ipfs-filecoin/using-nftstorage.md)
   * [Using Explorer EndPoints](developers/tutorials/using-explorer-api.md)
   * [Publishing & Verifying Your Smart Contract](developers/tutorials/publishing-and-verifying-your-smart-contract.md)
 
