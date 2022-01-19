@@ -27,16 +27,18 @@ Allowed Issuing: 1.05 1BTC ($45,333)
 
 ### Staking Rewards
 
-The vaults are rewarded for the amount of collateral that they put in based on the average staking reward rate.
+The vaults are rewarded for the amount of collateral that they put in based on the average staking reward rate. Examples below assume a ONE price of $0.34.
 
 **Example 1:**
 
 Collateral: 200,000 ONE\
-Staking reward: 18000 annually (@9% APR) or 1500 ONE/month \
-Dollar amount: $6120 /year or $510 /month (@$0.34 /ONE)
+Staking reward: 18000 annually (@9% APR) or 1500 ONE/month .\
+Dollar amount: $6120 per year or $510 per month.
 
 **Example 2:**
 
 Collateral: 2,000,000 ONE\
-Staking reward: 180,000 annually (@9% APR) or 15,000 ONE/month\
-Dollar amount: $61,200 /year or $5100 /month (@$0.34 /ONE)
+Staking reward: 180,000 annually (@9% APR) or 15,000 ONE/month.\
+Dollar amount: $61,200 per year or $5100 per month.
+
+**Stake APR on collateral depends on length of participation.**&#x20;

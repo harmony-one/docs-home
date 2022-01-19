@@ -32,6 +32,7 @@
     * [Required Collateral](general/bitcoin-bridge/vault-incentive-program/required-collateral.md)
     * [Vault Incentives](general/bitcoin-bridge/vault-incentive-program/vault-incentives.md)
     * [How to Participate](general/bitcoin-bridge/vault-incentive-program/how-to-participate.md)
+    * [Length of Participation](general/bitcoin-bridge/vault-incentive-program/length-of-participation.md)
     * [Future Plans](general/bitcoin-bridge/vault-incentive-program/future-plans.md)
   * [Vault Guides](general/bitcoin-bridge/vault-guides/README.md)
     * [Setup](general/bitcoin-bridge/vault-guides/setup.md)
