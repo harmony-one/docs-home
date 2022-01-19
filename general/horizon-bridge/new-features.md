@@ -53,11 +53,11 @@ You can bridge any HRC721 and receive equivalent amount of ERC721. The token met
 
 For bridging HRC721 from Harmony to Ethereum, select HRC721 under ONE > ETH flow tab and select the tokenIds that you want to bridge and proceed. 1 or more tokenIds can be selected for bridging. In the picture below, I am bridging both of my tokens with tokenIds 0 & 1. The tokenIds can be any valid uint256.
 
-![bridging HRC20 to Ethereum](<../../.gitbook/assets/image (286).png>)
+![bridging HRC20 to Ethereum](<../../.gitbook/assets/image (286) (1).png>)
 
 For redeeming your HRC721 back to Harmony by burning ERC721, select HRC721 under ETH > ONE flow tab and select the tokenIds that you want to bridge back and proceed. In the picture below, I am only bridging back 1 token with tokenId 0.
 
-![redeeming HRC721 to Harmony ](<../../.gitbook/assets/image (287) (1).png>)
+![redeeming HRC721 to Harmony ](<../../.gitbook/assets/image (287) (1) (1).png>)
 
 ## ERC1155 & HRC1155 Bridging
 
