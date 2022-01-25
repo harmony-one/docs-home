@@ -74,7 +74,7 @@ Following docker commands are helpful to view the vault client docker process an
 
 ```
 docker-compose ps
-docker-cpmpose logs -f
+docker-compose logs -f
 ```
 
 #### Registering your vault in btc bridge
