@@ -57,7 +57,15 @@ Note that, bitcoin private key must be in the hex format
 Encrypt your Harmony and Bitcoin account private keys using AWS KMS by following [these](https://docs.aws.amazon.com/cli/latest/reference/kms/encrypt.html) steps and create the two encrypted files with names `./keys/hmy-secret` and `./keys/btc-secret`
 
 {% hint style="info" %}
-Note that, while using the AWS KMS based method, you will be prompted to enter your AWS credentails (such as aws\_access\_key\_id, aws\_secret\_access\_key, and region) used to encrypt the private keys such that the vault client can securely decrypt your private key and load to memory in a secured way
+Note that, you will need to modify the docker-compose.yml file to add your AWS credentials, under the `vault`section
+
+\`\`\`\
+``AWS\_ACCESS\_KEY\_ID: "\<your-aws-access-key-id>"&#x20;
+
+AWS\_SECRET\_ACCESS\_KEY: "\<your-aws-secret-key>"
+
+AWS\_CONFIG\_REGION: "\<your-aws-region>"\
+` ``` `
 {% endhint %}
 {% endtab %}
 {% endtabs %}
@@ -79,10 +87,22 @@ docker-compose logs -f
 
 #### Registering your vault in btc bridge
 
-Navigate to vault admin page (upon running the vault client in the above step): http://localhost:3000/.&#x20;
+There are two ways:
+
+1\) Running a `curl` command on vault server
+
+```
+curl http://localhost:3000/api/vault-client/register -H 'Content-Type: application/json' -X POST --data '{"collateral":"11"}'
+```
 
 {% hint style="info" %}
-If you are using a remote server and accessing vault admin page from outside, navigate to appropriate URL with your remote server name. e.g., http://your-server-address:3000/
+Note that, you will need at least 11 ONE (10 ONE for registering your vault and 1 ONE for some gas). Higher value is okay. You can also register with smaller values and later increase your collateral from the admin page.
+{% endhint %}
+
+2\) Navigate to vault admin page (upon running the vault client in the above step): http://localhost:3000/.&#x20;
+
+{% hint style="info" %}
+If you are using a remote server and accessing vault admin page from outside, navigate to appropriate URL with your remote server name. e.g., http://your-server-address:3000/. Note that, if you using aws or other server instances, you may need to allow inbound access to your machine that is trying to load the btc bridge admin page.
 {% endhint %}
 
 Upon navigating, you should see the page that prompts to register the vaults and your wallet addresses.
