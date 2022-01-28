@@ -92,10 +92,10 @@ You can receive transactions to addresses starting with both **one1** and **0x**
 To send a transaction on Metamask click on **Send** button and on next window copy paste the destination address starting with **0x**, fill the amount you want to send, click on **Next** and then on **Confirm**.
 
 {% hint style="info" %}
-If your transaction fails due to insufficient gas, set the Gas Limit to 25000
+If your transaction fails due to insufficient gas, set the Gas Limit to 25000, and for **all transactions** you need set Gas Price more than **30 GWEI**.
 {% endhint %}
 
-![](<../../../.gitbook/assets/Image 2021-08-18 at 9.37.52 AM.jpg>)
+![](<../../../.gitbook/assets/image (289).png>)
 
 ### Receiving a Regular Transaction
 

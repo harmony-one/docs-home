@@ -42,3 +42,7 @@ Staking reward: 180,000 annually (@9% APR) or 15,000 ONE/month.\
 Dollar amount: $61,200 per year or $5100 per month.
 
 **Stake APR on collateral depends on length of participation.**&#x20;
+
+{% hint style="info" %}
+Note that, some of the reward details and the bridge protocol parameters are subjected to change. However, everything will be finalized before the vaults participation and bridge launch.
+{% endhint %}
