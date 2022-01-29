@@ -41,6 +41,7 @@
       * [Register the Vault](general/bitcoin-bridge/vault-guide/deployment/register-the-vault.md)
     * [Upgrade](general/bitcoin-bridge/vault-guide/upgrade.md)
     * [Manage](general/bitcoin-bridge/vault-guide/manage.md)
+    * [Vault FAQ](general/bitcoin-bridge/vault-guide/vault-faq.md)
   * [User Guide](general/bitcoin-bridge/user-guide.md)
 * [DApps](general/dapps/README.md)
   * [DeFi](general/dapps/dexes/README.md)
