@@ -31,3 +31,7 @@ The price of ONE declines as the market takes a turn. Your ONE collateral is now
 Due to price fluctuations in the market, the collateral on your vault is now valued at $13,500 while the bridged BTC is valued at $15,000. Your vault is now over collateralized at 90% and your ONE is liquidated to ensure users who bridged their BTC are able to recover their bridged coins.
 
 ![Your ONE collateral is liquidated to ensure BTC bridge users can recover their funds.](<../../../../.gitbook/assets/image (292).png>)
+
+**Q. | What occurs to my collateral this in example of liquidation?**
+
+In this example, the ONE you've served as collateral \<to be completed>.
