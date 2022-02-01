@@ -35,7 +35,7 @@
     * [How to Participate](general/bitcoin-bridge/vault-incentive-program/how-to-participate.md)
     * [Length of Participation](general/bitcoin-bridge/vault-incentive-program/length-of-participation.md)
     * [Liquidation Risks](general/bitcoin-bridge/vault-incentive-program/liquidation-risks/README.md)
-      * [Mitigating Liquidation](general/bitcoin-bridge/vault-incentive-program/liquidation-risks/mitigating-liquidation.md)
+      * [Risk Mitigation](general/bitcoin-bridge/vault-incentive-program/liquidation-risks/risk-mitigation.md)
     * [Future Plans](general/bitcoin-bridge/vault-incentive-program/future-plans.md)
   * [Vault Guide](general/bitcoin-bridge/vault-guide/README.md)
     * [Deployment](general/bitcoin-bridge/vault-guide/deployment/README.md)
