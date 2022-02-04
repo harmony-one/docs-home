@@ -15,6 +15,7 @@ No, do **NOT** send bridged tokens directly to other blockchains or exchanges. T
 ## 3. What if I can't find the token I want to bridge in the drop down menu of the bridge?
 
 Most tokens can be found using the drop down menu on the bridge. If you cannot find the token you are looking for you can add it manually by clicking on “**use custom address**”, inpputing the contract address you want to interact with and then clicking on “**Select token**”. If an asset has been bridged at least once, you will easily find it [here](https://bridge.harmony.one/tokens).
+Please use custom address option with caution. If you use it to bridge a well-known token or bridge it back, it's likely that there is a mistake. All popular tokens are already listed.
 
 ## 4. How can I verify on block explorer whether I received the bridged tokens or not?
 
