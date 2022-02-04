@@ -95,7 +95,7 @@ To send a transaction on Metamask click on **Send** button and on next window co
 If your transaction fails due to insufficient gas, set the Gas Limit to 25000, and for **all transactions** you need set Gas Price more than **30 GWEI**.
 {% endhint %}
 
-![](<../../../.gitbook/assets/image (289).png>)
+![](<../../../.gitbook/assets/image (289) (1) (1).png>)
 
 ### Receiving a Regular Transaction
 
