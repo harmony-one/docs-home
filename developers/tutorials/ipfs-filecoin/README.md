@@ -6,7 +6,7 @@ Built on the content addressing of IPFS, **Filecoin** is the distributed storage
 
 Together, IPFS & Filecoin will  help breaking free from centralized services. There are many solutions combine the two networks to get the best of both worlds: IPFS for content addressing & data discovery, and Filecoin for longer-term persistence.
 
-In this section, you will find tutorials to guild you through the process of using IPFS, Filecoin as well as other storage solutions like [nft.storage](https://nft.storage/).
+In this section, you will find tutorials to guide you through the process of using IPFS and/or Filecoin for decentralized storage, including storage helpers that combine both systems such as  [nft.storage](https://nft.storage/).
 
 + Using IPFS
 
