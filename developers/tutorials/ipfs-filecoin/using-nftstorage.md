@@ -352,7 +352,7 @@ In this step, we will write code to mint a NFT on Harmony blockchain and also up
    cp ../build/contracts/HarmonyNFT.json src/abi/
    ```
 
-   Then we are ready to write code to send MintNFT transaction in `MintNFT.js` . First import ethers and smart contract manifest file,  and aslo create a `nftContractAddress` for the deployed NFT contract. 
+   Then we are ready to write code to send MintNFT transaction in `MintNFT.js` . This will import ethers and the smart contract manifest file, and also create a `nftContractAddress` for the deployed NFT contract. 
 
    ```javascript
    import HarmonyNFT from "../abi/HarmonyNFT.json";
