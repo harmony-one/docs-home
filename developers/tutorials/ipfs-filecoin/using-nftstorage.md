@@ -436,7 +436,7 @@ In this step, we will write code to mint a NFT on Harmony blockchain and also up
 
 ### Let's run it
 
-Now we have everything finished, we can run `npm start` to start our react application, then we will have this page if everything works fine. 
+Now that we've finished writing all the code, we can run `npm start` to start our React application. If everything is working, you should see a page like this:
 
 ![image-20220128113617250](/Users/longfeiwang/Library/Application Support/typora-user-images/image-20220128113617250.png)
 
