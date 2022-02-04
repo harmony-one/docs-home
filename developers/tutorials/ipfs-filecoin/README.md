@@ -1,6 +1,8 @@
 # IPFS & Filecoin
 
-**IPFS** is a distributed system for storing and accessing files, websites, applications, and data. It is great for getting started using content addressing for all sorts of distributed web applications.
+Filecoin and IPFS are complementary protocols for storing and sharing data in the distributed web. Both systems are free, open-source, and share many building blocks, including data representation formats (IPLD) and network communication protocols (libp2p).
+
+**IPFS** allows users to store and transfer verifiable, content-addressed data in a peer-to-peer network. It is great for getting started using [content addressing](https://docs.ipfs.io/concepts/how-ipfs-works/#content-addressing) for all sorts of distributed web applications.
 
 Built on the content addressing of IPFS, **Filecoin** is the distributed storage network to add longer term data persistence via on-chain storage deals, along with built-in economic incentives to ensure files are stored reliably over time.
 
