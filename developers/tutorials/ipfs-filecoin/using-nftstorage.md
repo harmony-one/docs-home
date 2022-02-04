@@ -384,7 +384,7 @@ In this step, we will write code to mint a NFT on Harmony blockchain and also up
 
 5. **Preview the new minted NFT**
 
-   By now, we have all the codes to upload NFT data, send mint item transaction to Harmony. Let's add some code to preview our fresh minted NFT, including the NFT image, NFT metadata on IPFS and mintNFT transaction on Harmony.
+   By now, we have all the code to upload NFT data and send the mint item transaction to Harmony. Let's add some code to preview our freshly minted NFT, including the NFT image, NFT metadata on IPFS, and mintNFT transaction on Harmony.
 
    You can find the full [MintNFT.js file on Github](https://github.com/longfeiWan9/harmony-nft-demo/blob/master/src/components/MintNFT.js).
 
