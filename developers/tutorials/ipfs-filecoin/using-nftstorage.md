@@ -240,7 +240,7 @@ In this step, we will write code to mint a NFT on Harmony blockchain and also up
 
 2. **Create mintNFT component**
 
-   Now we  will create a `MintNFT.js` component in `src/components` folder. Let's first create a form to upload NFT Images in `MintNFT.js`.
+   Now we will create a `MintNFT.js` component in `src/components` folder. Let's first create a form to upload NFT Images in `MintNFT.js`.
 
    ```javascript
    import React, {useState} from 'react';
