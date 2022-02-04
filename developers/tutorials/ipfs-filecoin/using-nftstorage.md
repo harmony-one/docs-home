@@ -4,7 +4,7 @@ description: This tutorial will show how to use NFT.Storage to store NFTs on IPF
 
 # Using NFT.Storage
 
-**NFT.Storage** is a long-term storage service designed for **off-chain** NFT data (like metadata, images, and other assets). Data is [content addressed](https://nftschool.dev/concepts/content-addressing) using **IPFS**, meaning the URL pointing to a piece of data (“ipfs://…”) is completely unique to that data. IPFS URLs can be used in NFTs and metadata to ensure the NFT forever actually refers to the intended data (eliminating things like rug pulls).
+**NFT.Storage** is a long-term storage service designed for **off-chain** NFT data (like metadata, images, and other assets). Data is [content addressed](https://nftschool.dev/concepts/content-addressing) using **IPFS**, meaning the URL pointing to a piece of data (“ipfs://…”) is completely unique to that data. IPFS URLs can be used in NFTs and metadata to ensure the NFT forever actually refers to the intended data (eliminating things like rug pulls). IPFS URLs are storage layer agnostic - meaning you can store your data on [many storage layers at once](https://nft.storage/blog/post/2021-12-14-storage-layer-maximalism/) (whether it be on local storage, cloud storage, or multiple decentralized storage networks.
 
 NFT.Storage stores many copies of uploaded data on the public **IPFS** network and **Filecoin** network in two primary ways: in dedicated IPFS servers managed by NFT.Storage, and decentralized on [Filecoin](https://filecoin.io/). Since IPFS is a standard used by many different storage services, it's easy to redundantly store data uploaded to NFT.Storage on any other IPFS-compatible storage solutions.
 
@@ -17,7 +17,7 @@ What we will do in this tutorial:
 1. Using Truffle to develop a HRC721/NFT smart contract
 2. Connecting to Harmony blockchain via Metamaks
 3. Uploading NFT assets via NFT.Storage
-4. Invoking NFT smart contract to mint NFT via Metamask
+4. Invoking NFT smart contract to mint NFT via MetaMask
 
 ### Prerequisites
 
@@ -115,7 +115,7 @@ In this step, we will create a react application and the import truffle to devel
    npm install --save-dev @truffle/hdwallet-provider
    ```
 
-   Add harmony testnet configuration to `truffle-config.js` file. Also make sure to request some ONE token in the wallet so we can pay for transaction fees for smart contract deployment.
+   Add harmony testnet configuration to `truffle-config.js` file. Also make sure requesting some TestNet token (ONE) from [Harmony TestNet Faucet](https://faucet.pops.one/) to the wallet so we can pay for transaction fees for smart contract deployment.
 
    ```javascript
    const HDWalletProvider = require('@truffle/hdwallet-provider');
@@ -141,19 +141,19 @@ In this step, we will create a react application and the import truffle to devel
    ... <other code>...
    ```
 
-   Now the truffle configuration is all set, wen can run the following command to deploy the NFT contract to Harmony Testnet.
+   Now the truffle configuration is all set, we can run the following command to deploy the NFT contract to Harmony Testnet.
 
    ```shell
    truffle deploy --network harmonyTestnet
    ```
 
-   Once the smart contract is deployed success, remember to record your **smart contract address** which we will also use it later. You can also find your NFT contract on [Harmony Testnet blockchain explorer](https://explorer.pops.one/hrc721), also test it on [Remix](https://remix.ethereum.org/).
+   Once the smart contract is deployed success, remember to record your **smart contract address** which we will also use later. You can also find your NFT contract on [Harmony Testnet blockchain explorer](https://explorer.pops.one/hrc721), also test it on [Remix](https://remix.ethereum.org/).
 
 ### Connect to Metamask 
 
 In this step, we will write some front-end code to connect to MetaMask wallet so that you can use is to mint NFT and pay transaction fees in next step. 
 
-Before we move forward, make sure we have installed MetaMask browser extension and add Harmony Network RPC Endpoint. Check more instructions [here](https://docs.harmony.one/home/network/wallets/browser-extensions-wallets/metamask-wallet#1.-adding-a-custom-rpc-endpoint).
+Before we move forward, make sure we have installed MetaMask browser extension and add Harmony Network RPC Endpoint (we will use Harmony Testnet in this tutorial). Check more instructions [here](https://docs.harmony.one/home/network/wallets/browser-extensions-wallets/metamask-wallet#1.-adding-a-custom-rpc-endpoint). 
 
 Now, let's start coding. 
 
@@ -163,7 +163,7 @@ Now, let's start coding.
 
    Create a new folder call components under `src` folder, then create a `WalletConnect.js` file which we will add our code to detect wallet provider and connect to MetaMask.   [The full WalletConnect.js file can be found on Github](https://github.com/longfeiWan9/harmony-nft-demo/blob/master/src/components/WalletConnect.js).
 
-   Also make sure requesting some ONE token in the wallet so we can pay for transaction fees for minting NFT.
+   Also make sure requesting some TestNet token (ONE) from [Harmony TestNet Faucet](https://faucet.pops.one/) to the wallet so we can pay for transaction fees for minting NFT on Harmony Blockchain.
 
    ```javascript
    //The core code to detect wallet provider and connect to MetaMask
@@ -212,7 +212,7 @@ Now, let's start coding.
    npm start
    ```
 
-   Once the application is up, you can click the `Connect Wallet`button to invoke the MetaMask and authorize the connection.
+   Once the application is up, you can click the `Connect Wallet` button to invoke the MetaMask and authorize the connection.
 
    ![Connect to MetaMask](https://bafybeidngoqv4qq46bcb434em6skbg2b4ogyate3fwewutro67pm2j34qy.ipfs.dweb.link/HarmonyNFT-WalletConnect.png)
 
@@ -226,9 +226,9 @@ Before this step, we should have the following items ready to write code to mint
   + NFT contract address
   + NFT contract manifest JSON file
 
-+ Metamask browser extension installed and filled your wallet with some ONE token.
++ Metamask browser extension installed and filled your wallet with some TestNet token - ONE.
 
-In this step, we will write code to mint a NFT on Harmony blockchain and also upload your NFT asset and metadata to IPFS & Filecoin so that your NFT is actually truly decentralized other than storing on centralized cloud. Here, we will use a tool called [NFT.Storage](https://nft.storage/) which offers free and long-term storage on **IPFS** and **Filecoin**.
+In this step, we will write code to mint a NFT on Harmony blockchain and also upload your NFT asset and metadata to IPFS & Filecoin so that your NFT is truly decentralized other than storing on centralized cloud. Here, we will use a tool called [NFT.Storage](https://nft.storage/) which offers free and long-term storage on **IPFS** and **Filecoin**.
 
 1. **Create a NFT.Storage account.**
 
@@ -308,7 +308,7 @@ In this step, we will write code to mint a NFT on Harmony blockchain and also up
      }
      ```
 
-   + We can simply call `nftStorage.store()` to upload NFT content, which will upload your NFT as well as its related metadata to IPFS & Filecoin. You can customized your NFT metadata by updating properties like name and description.
+   + We can simply call `nftStorage.store()` to upload NFT content, which will upload your NFT as well as its related metadata to IPFS & Filecoin. You can customize your NFT metadata by updating properties like name and description.
 
      ```javascript
      const uploadNFTContent = async(inputFile) =>{
@@ -382,11 +382,9 @@ In this step, we will write code to mint a NFT on Harmony blockchain and also up
    }
    ```
 
-5. **Preview the new minted NFT**
+5. **Preview the new minted NFT**  
 
-   By now, we have all the code to upload NFT data and send the mint item transaction to Harmony. Let's add some code to preview our freshly minted NFT, including the NFT image, NFT metadata on IPFS, and mintNFT transaction on Harmony.
-
-   You can find the full [MintNFT.js file on Github](https://github.com/longfeiWan9/harmony-nft-demo/blob/master/src/components/MintNFT.js).
+   By now, we have all the codes to upload NFT data, send mint item transaction to Harmony. If everything works as expected, we will be able to mint a fresh NFT with its images and metadata stored on IPFS & Filecoin, minting transaction recorded on Harmony Blockchain. Let's add some code to preview our fresh minted NFT, including the NFT image, NFT metadata on IPFS and mintNFT transaction on Harmony.
 
    ```javascript
    const MintNFT =() => {
@@ -434,11 +432,13 @@ In this step, we will write code to mint a NFT on Harmony blockchain and also up
    }
    ```
 
+   You can find the full [MintNFT.js file on Github](https://github.com/longfeiWan9/harmony-nft-demo/blob/master/src/components/MintNFT.js).
+
 ### Let's run it
 
 Now that we've finished writing all the code, we can run `npm start` to start our React application. If everything is working, you should see a page like this:
 
-![image-20220128113617250](/Users/longfeiwang/Library/Application Support/typora-user-images/image-20220128113617250.png)
+![HarmonyNFT-start-app](https://bafybeifkrkikkkc5uhj4l7pthq4gp6ujqkwfgs36gismt724wln5ric2uy.ipfs.dweb.link/HarmonyNFT-start-app.png)
 
 Once we connect to MetaMask and upload a image to mint NFT, we will need to sign the transaction via MetaMask. Then a new NFT on Harmony is minted. We can also check the NFT metadata on IPFS and the minting transaction on Harmony Testnet.
 
@@ -448,4 +448,4 @@ Once we connect to MetaMask and upload a image to mint NFT, we will need to sign
 
 Congratulations! We have create the simple NFT demo to mint NFT on Harmony and IPFS/Filecoin. Feel free to explore more possibilities. 
 
-Looking for the sample code from this tutorial? You can find it in the [harmony-nft-demo] (https://github.com/longfeiWan9/harmony-nft-demo) Github repo.
+Looking for the sample code from this tutorial? You can find it in the [harmony-nft-demo](https://github.com/longfeiWan9/harmony-nft-demo) Github repo.
