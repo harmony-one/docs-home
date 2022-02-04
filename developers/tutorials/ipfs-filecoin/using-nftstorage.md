@@ -337,7 +337,7 @@ In this step, we will write code to mint a NFT on Harmony blockchain and also up
    
 4. **Mint a new NFT on Harmony**
 
-   After getting the Metadata on IPFS, we can invoke the NFT smart contract on Harmony to mint a new NFT using NFT metadata on IPFS as tokenURI.
+   After getting the metadata on IPFS, we can invoke the NFT smart contract on Harmony to mint a new NFT using that metadata as tokenURI.
 
    In this step, we will need to use `ethers` to interact with Metamask, so we first install this dependency.
 
