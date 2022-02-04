@@ -448,4 +448,4 @@ Once we connect to MetaMask and upload a image to mint NFT, we will need to sign
 
 Congratulations! We have create the simple NFT demo to mint NFT on Harmony and IPFS/Filecoin. Feel free to explore more possibilities. 
 
-All the codes are uploaded to Github, you can find it [here](https://github.com/longfeiWan9/harmony-nft-demo). 
+Looking for the sample code from this tutorial? You can find it in the [harmony-nft-demo] (https://github.com/longfeiWan9/harmony-nft-demo) Github repo.
