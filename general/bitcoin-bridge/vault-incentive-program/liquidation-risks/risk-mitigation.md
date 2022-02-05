@@ -22,7 +22,7 @@ This protects your vault from liquidation at the vault selection level; your col
 
 Significant price deviations due to price feed data can increase risk for liquidation. We have implemented logic in the smart contract which will drastically reduce this risk.&#x20;
 
-This logic compares the latest price feed data with the price obtained in the previous feed. If the price has a \_\_\_\_\_% difference, the transaction will not be processed as it's considered an unnatural price change due to invalid data.
+This logic compares the latest price feed data with the price obtained in the previous feed. Time between price data feeds is usually measured in seconds, sometimes minutes. If the price has a 10% difference in comparison to previous data, the transaction will not be processed as it's considered an unnatural price change due to invalid price data.
 
 **#3 | Delays in BTC Issuing Process**
 
