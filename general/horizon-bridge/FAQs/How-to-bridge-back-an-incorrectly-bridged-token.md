@@ -40,29 +40,29 @@ custom address = address of a mapped token in **Harmony** network - it’s the t
 
 One extra wrap:
 
-[bscOne](../.How%20to%20bridge%20back%20an%20incorrectly%20bridged%20token/bscOne.md)
+[bscOne](../assets/bscOne.md)
 
-[1bscDAI](../.How%20to%20bridge%20back%20an%20incorrectly%20bridged%20token/1bscDAI.md)
+[1bscDAI](../assets/1bscDAI.md)
 
-[1bscUSDT](../.How%20to%20bridge%20back%20an%20incorrectly%20bridged%20token/1bscUSDT.md)
+[1bscUSDT](../assets/1bscUSDT.md)
 
-[1BUSD](../.How%20to%20bridge%20back%20an%20incorrectly%20bridged%20token/1BUSD.md)
+[1BUSD](../assets/1BUSD.md)
 
 Two or more extra wraps:
 
-[bsc1bsc1bscONE](../.How%20to%20bridge%20back%20an%20incorrectly%20bridged%20token/bsc1bsc1bscONE.md)
+[bsc1bsc1bscONE](../assets/bsc1bsc1bscONE.md)
 
-[bsc1bscDAI](../.How%20to%20bridge%20back%20an%20incorrectly%20bridged%20token/bsc1bscDAI.md)
+[bsc1bscDAI](../assets/bsc1bscDAI.md)
 
-[1bsc1BUSD ](../.How%20to%20bridge%20back%20an%20incorrectly%20bridged%20token/1bsc1BUSD.md)
+[1bsc1BUSD ](../assets/1bsc1BUSD.md)
 
-[bsc1bscUSDT ](../.How%20to%20bridge%20back%20an%20incorrectly%20bridged%20token/bsc1bscUSDT.md)
+[bsc1bscUSDT ](../assets/bsc1bscUSDT.md)
 
-[bsc1bsc11USDC](../.How%20to%20bridge%20back%20an%20incorrectly%20bridged%20token/bsc1bsc11USDC.md)
+[bsc1bsc11USDC](../assets/bsc1bsc11USDC.md)
 
-[bsc1bscWBNB ](../.How%20to%20bridge%20back%20an%20incorrectly%20bridged%20token/bsc1bscWBNB.md)
+[bsc1bscWBNB ](../assets/bsc1bscWBNB.md)
 
-[1bsc1UST](../.How%20to%20bridge%20back%20an%20incorrectly%20bridged%20token/1bsc1UST.md)
+[1bsc1UST](../assets/1bsc1UST.md)
 
 You can follow the example instruction if you have the same token in the same network. If you have the same token with fewer wraps than the example, start with the step corresponding to your token symbol. For example, if you have 1bscONE, start [bsc1bsc1bscONE](How-to-bridge-back-an-incorrectly-bridged-token.md) from the 1bscONE → bscONE step.
 
