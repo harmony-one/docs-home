@@ -4,7 +4,7 @@
 
 If you perform your operation on [bridge.harmony.one](https://bridge.harmony.one/), you see something like this:
 
-![operation_page.png](../../.gitbook/assets/operation_page.png)
+![operation_page.png](../../../.gitbook/assets/operation_page.png)
 
 This is your operation page. Every bridge operation is associated with a unique operation id, which is available in your operation page URL.
 
@@ -24,8 +24,8 @@ You can rely on the date and time, amount, and token type of the operation to fi
 
 Click the + on the left to see the operation steps:
 
-![Screenshot 2022-01-20 at 18.45.56.png](../../.gitbook/assets/Screenshot_2022-01-20_at_18.45.56.png)
+![Screenshot 2022-01-20 at 18.45.56.png](../../../.gitbook/assets/Screenshot_2022-01-20_at_18.45.56.png)
 
 Operation steps also have a clickable hash that leads to the transaction’s page.
 
-![success.png](../../.gitbook/assets/success_bridge.png)
+![success.png](../../../.gitbook/assets/success_bridge.png)

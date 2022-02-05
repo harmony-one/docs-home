@@ -4,11 +4,11 @@ Use this page to find a token address you should have after the bridge: [https:/
 
 Here you can specify the network by pressing its button. If your token is on Binance or Ethereum, it can help you to avoid confusion. You can also set a filter by a token type if you know it.
 
-![Screenshot 2022-01-20 at 22.05.13.png](../../.gitbook/assets/Screenshot_2022-01-20_at_22.05.13.png)
+![Screenshot 2022-01-20 at 22.05.13.png](../../../.gitbook/assets/Screenshot_2022-01-20_at_22.05.13.png)
 
 Search a token you plan to bridge. You can enter its address / symbol / name.
 
-![Screenshot 2022-01-20 at 21.59.32.png](../../.gitbook/assets/Screenshot_2022-01-20_at_21.59.32.png)
+![Screenshot 2022-01-20 at 21.59.32.png](../../../.gitbook/assets/Screenshot_2022-01-20_at_21.59.32.png)
 
 Click on the paired token address, and it will lead you to the token page.
 
@@ -26,7 +26,7 @@ If you bridge ONE from Harmony to Binance, your ONE will have a different addres
 
 If you bridge ONE from Harmony to Ethereum, you receive 1ONE token with the address [0xD5cd84D6f044AbE314Ee7E414d37cae8773ef9D3](https://etherscan.io/token/0xD5cd84D6f044AbE314Ee7E414d37cae8773ef9D3)
 
-![Screenshot 2022-01-20 at 22.15.45.png](../../.gitbook/assets/Screenshot_2022-01-20_at_22.15.45.png)
+![Screenshot 2022-01-20 at 22.15.45.png](../../../.gitbook/assets/Screenshot_2022-01-20_at_22.15.45.png)
 
 If you bridge [ONE](https://bscscan.com//token/0x03fF0ff224f904be3118461335064bB48Df47938) from Binance or [1ONE](https://etherscan.io/token/0xD5cd84D6f044AbE314Ee7E414d37cae8773ef9D3) from Ethereum with the right setup (there is a special button for ONE token), you get Native [Harmony ONE](https://explorer.harmony.one/#/address/0x00eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee?activeTab=3) on Harmony. 
 
@@ -46,7 +46,7 @@ If you bridge [BUSD](https://etherscan.io/token/0x4fabb145d64652a948d72533023f6e
 
 If you bridge [BUSD](https://bscscan.com//token/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56) from Binance, you get [bscBUSD](https://explorer.harmony.one/address/0x0aB43550A6915F9f67d0c454C2E90385E6497EaA?activeTab=3) on Harmony
 
-![Screenshot 2022-01-20 at 21.43.25.png](../../.gitbook/assets/Screenshot_2022-01-20_at_21.43.25.png)
+![Screenshot 2022-01-20 at 21.43.25.png](../../../.gitbook/assets/Screenshot_2022-01-20_at_21.43.25.png)
 
 You can’t get a liquid token on Binance from [BUSD](https://explorer.harmony.one/address/0xE176EBE47d621b984a73036B9DA5d834411ef734?activeTab=3), and the same is for bscBUSD and Ethereum.  Token will get an extra wrap if it’s sent to the wrong network. 
 
@@ -54,7 +54,7 @@ You can’t get a liquid token on Binance from [BUSD](https://explorer.harmony.o
 
 For Ethereum [LINK](https://etherscan.io/token/0x514910771af9ca656af840dff83e8264ecf986ca) you get [LINK](https://explorer.harmony.one/address/0x218532a12a389a4a92fc0c5fb22901d1c19198aa) on Harmony with the different address:
 
-![Screenshot 2022-01-20 at 22.14.30.png](../../.gitbook/assets/Screenshot_2022-01-20_at_22.14.30.png)
+![Screenshot 2022-01-20 at 22.14.30.png](../../../.gitbook/assets/Screenshot_2022-01-20_at_22.14.30.png)
 
 For Binance [LINK](https://bscscan.com//token/0xF8A0BF9cF54Bb92F17374d9e9A321E6a111a51bD) you get [bscLINK](https://explorer.harmony.one/address/0x88B0811DdeC7c94Cc48dE601BdAbd1AC37d6940B?activeTab=3)
 
