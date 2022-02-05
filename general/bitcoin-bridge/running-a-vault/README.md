@@ -1,4 +1,4 @@
-# Vault Incentive Program
+# Running a Vault
 
 Vaults are the key components of the bridge that acts as custodians of user bitcoins to facilitate issuing of the HRC20 wrapped bitcoins (1BTC). Vault will need to be collateralized to prevent malicious behaviors and secure the bridge. For the collateral locked by the vaults, they receive the bridge fee paid by the users that select them as vaults for bridging their bitcoins to Harmony.&#x20;
 
