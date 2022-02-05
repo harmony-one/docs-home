@@ -55,6 +55,12 @@ Note that, bitcoin private key must be in the hex format
 {% hint style="info" %}
 The environment file storing your BTC and ONE private keys only need to be present during the start-up of your vault. Once started, you may remove the file for enhanced security. However, if your vault restarts or reboots, you must ensure to re-upload the environment file for the vault to start again.
 {% endhint %}
+
+3\) Modify the `docker-compose.yml` file by changing the following variable
+```
+VAULT_CLIENT_WALLET: "env"
+```
+
 {% endtab %}
 
 {% tab title="AWS KMS" %}
@@ -102,7 +108,14 @@ AWS\_ACCESS\_KEY\_ID: "\<your-aws-access-key-id>"&#x20;
 AWS\_SECRET\_ACCESS\_KEY: "\<your-aws-secret-key>"
 
 AWS\_CONFIG\_REGION: "\<your-aws-region>"
+
 {% endhint %}
+
+4\) Modify the `docker-compose.yml` file by changing the following variable
+```
+VAULT_CLIENT_WALLET: "aws"
+```
+
 {% endtab %}
 {% endtabs %}
 
