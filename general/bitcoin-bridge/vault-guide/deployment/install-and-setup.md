@@ -11,9 +11,13 @@ sudo service docker start
 sudo usermod -a -G docker ec2-user
 ```
 
-Digital Ocean customers can see Docker installation steps [here](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04).
+**You may be required to use 'apt' instead of 'yum'.**
 
-* Install [docker-compose](https://docs.docker.com/compose/install/)
+{% hint style="info" %}
+Digital Ocean customers can see Docker installation steps [here](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04).
+{% endhint %}
+
+Install [docker-compose](https://docs.docker.com/compose/install/)
 
 ```
 sudo curl -L https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose
