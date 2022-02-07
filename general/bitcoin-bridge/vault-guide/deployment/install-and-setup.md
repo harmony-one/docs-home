@@ -2,7 +2,7 @@
 
 #### Set up the vault client using docker-compose:
 
-* Install [docker](https://docs.docker.com/engine/install/)&#x20;
+* Install [docker](https://docs.docker.com/engine/install/)
 
 ```
 sudo yum update -y
@@ -11,7 +11,9 @@ sudo service docker start
 sudo usermod -a -G docker ec2-user
 ```
 
-* Install [docker-compose](https://docs.docker.com/compose/install/)&#x20;
+Digital Ocean customers can see Docker installation steps [here](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04).
+
+* Install [docker-compose](https://docs.docker.com/compose/install/)
 
 ```
 sudo curl -L https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose
@@ -28,13 +30,13 @@ curl -L -o 'docker-compose.yml' https://raw.githubusercontent.com/harmony-one/on
 
 #### Adding your Harmony & Bitcoin accounts to vault server
 
-* There are two ways:&#x20;
+* There are two ways:
   1. Using the environment file (less secure)
   2. Using AWS KMS (more secured)
 
 {% tabs %}
 {% tab title="Environment File" %}
-1\) Create a file with name `./keys/.env.private` under the vault directory&#x20;
+1\) Create a file with name `./keys/.env.private` under the vault directory
 
 ```
 mkdir keys
@@ -57,10 +59,10 @@ The environment file storing your BTC and ONE private keys only need to be prese
 {% endhint %}
 
 3\) Modify the `docker-compose.yml` file by changing the following variable
+
 ```
 VAULT_CLIENT_WALLET: "env"
 ```
-
 {% endtab %}
 
 {% tab title="AWS KMS" %}
@@ -76,11 +78,7 @@ aws_secret_access_key = <your-access-secret-key>
 region = <your-region, e.g. us-west-1>
 ```
 
-
-
 2\) Create a KMS key using [https://console.aws.amazon.com/kms](https://console.aws.amazon.com/kms) and add the above IAM user to it. Copy the key id (looks like `381ea1d6-8213-4c96-b072-aea222d29581`) which is needed in the next step.
-
-
 
 3\) Encrypt your Harmony and Bitcoin account private keys using AWS KMS (additional details in [these](https://docs.aws.amazon.com/cli/latest/reference/kms/encrypt.html) steps) and create the two encrypted files with names `./keys/hmy-secret` and `./keys/btc-secret`
 
@@ -98,24 +96,21 @@ Note that,
 * the harmony private key may or may not include `0x` prefix
 * the bitcoin private key could be in any form: base58 `xprv`, wif, or hex form
 
-
-
 4\) Modify the docker-compose.yml file to add your AWS credentials, under the `vault`section. Add these
 
 {% hint style="info" %}
-AWS\_ACCESS\_KEY\_ID: "\<your-aws-access-key-id>"&#x20;
+AWS\_ACCESS\_KEY\_ID: "\<your-aws-access-key-id>"
 
 AWS\_SECRET\_ACCESS\_KEY: "\<your-aws-secret-key>"
 
 AWS\_CONFIG\_REGION: "\<your-aws-region>"
-
 {% endhint %}
 
 4\) Modify the `docker-compose.yml` file by changing the following variable
+
 ```
 VAULT_CLIENT_WALLET: "aws"
 ```
-
 {% endtab %}
 {% endtabs %}
 
