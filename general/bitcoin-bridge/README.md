@@ -1,3 +1,7 @@
+---
+coverY: 0
+---
+
 # Bitcoin Bridge
 
 Harmony is in the preparation of launching its native bitcoin bridge and requires participation from the community to increase the decentralization and robustness of the bridge. The external participation will happen via running external vaults for the bridge.&#x20;

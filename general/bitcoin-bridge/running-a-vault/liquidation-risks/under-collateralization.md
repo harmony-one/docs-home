@@ -8,7 +8,7 @@ Let's walk through an example to understand when liquidation occurs.
 
 You create a new vault and offer ONE valued at $27,000. Your vault manages a number of BTC bridge transactions and now holds $15,000 in value of BTC. The vault is in good standing.
 
-![SUFFICIENT COLLATERAL | 150% OR HIGHER COLLATERAL AGAINST LOCKED BTC](<../../../../.gitbook/assets/image (287).png>)
+![SUFFICIENT COLLATERAL | 150% OR HIGHER COLLATERAL AGAINST LOCKED BTC](<../../../../.gitbook/assets/image (287) (2).png>)
 
 #### **#2 | 1ST WARNING**
 
@@ -16,7 +16,7 @@ The value of BTC rises and the value of ONE remains the same. Your vault now hol
 
 > **"Insufficient collateral, your vault is unable to perform normal operations, add more collateral to return to normal operation mode."**
 
-![1ST WARNING | BELOW 150% COLLATERAL AGAINST LOCKED BTC](<../../../../.gitbook/assets/image (289).png>)
+![1ST WARNING | BELOW 150% COLLATERAL AGAINST LOCKED BTC](<../../../../.gitbook/assets/image (289) (2).png>)
 
 #### **#3 | 2ND WARNING**
 
@@ -24,13 +24,13 @@ The price of ONE declines as the market takes a turn. Your ONE collateral is now
 
 > **"Insufficient collateral, your vault is unable to perform normal operations, add more collateral to return to normal operation mode."**
 
-![2ND WARNING | BELOW 125% COLLATERAL AGAINST LOCKED BTC](<../../../../.gitbook/assets/image (286).png>)
+![2ND WARNING | BELOW 125% COLLATERAL AGAINST LOCKED BTC](<../../../../.gitbook/assets/image (286) (2).png>)
 
 #### **#4 | LIQUIDATION**
 
 Due to price fluctuations in the market, the collateral on your vault is now valued at $13,500 while the bridged BTC is valued at $15,000. Your vault is now over collateralized at 99.9% and your ONE is liquidated to ensure users who bridged their BTC are able to recover their bridged assets.
 
-![](<../../../../.gitbook/assets/image (285).png>)
+![](<../../../../.gitbook/assets/image (285) (2).png>)
 
 #### **Q. | What occurs to my collateral this in example of liquidation?**
 
