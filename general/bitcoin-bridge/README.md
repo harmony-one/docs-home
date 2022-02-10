@@ -1,5 +1,6 @@
 ---
 coverY: 0
+cover: ../../.gitbook/assets/Harmony x BTC - Reddit Full Banner 1.png
 ---
 
 # Bitcoin Bridge
