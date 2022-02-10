@@ -2,7 +2,7 @@
 
 **#1 | Navigate to btc.harmony.one and connect your Metamask wallet.**
 
-![](<../../../.gitbook/assets/image (286).png>)
+![](<../../../.gitbook/assets/image (287).png>)
 
 **#2 | Create an "Issue" request for bridging your BTC to Harmony and begin the bridging process.**
 
@@ -10,13 +10,13 @@ Specify the amount of BTC you wish to bridge into the Harmony ecosystem in the "
 
 Click Continue.
 
-![](<../../../.gitbook/assets/image (293).png>)
+![](<../../../.gitbook/assets/image (297).png>)
 
 **#3 | Sign the Issue request transaction in your Metamask.**
 
 Click the Confirm button in Metamask to sign the transaction on the Harmony network. The fees + security deposit should be less than 1/2 a single ONE.
 
-![](<../../../.gitbook/assets/image (287).png>)
+![](<../../../.gitbook/assets/image (289).png>)
 
 **#4 | Transfer the BTC to the provided account.**
 
@@ -28,7 +28,7 @@ At this point, the vault is ready to receive and store your BTC before issuing y
 
 At this stage, we must wait for two confirmations on the BTC blockchain before your transfer to the vault is complete. This can take upwards of 1-hour but, on average, may take between 20 to 30 minutes.
 
-![](<../../../.gitbook/assets/image (292).png>)
+![](<../../../.gitbook/assets/image (294).png>)
 
 **#6 | Execute the Issue request to begin the minting of your 1BTC.**
 
@@ -38,13 +38,13 @@ The 1BTC will arrive on the Metamask account you connected in the first step abo
 
 
 
-![](<../../../.gitbook/assets/image (290).png>)
+![](<../../../.gitbook/assets/image (293).png>)
 
 **#7 | Sign and execute the Execute Issue transaction to receive your 1BTC.**
 
 Click the Confirm button in Metamask to approve the Execute Issue transaction. This will complete the minting process of your 1BTC and transfer the new wrapped token to your Harmony account.
 
-![](<../../../.gitbook/assets/image (288).png>)
+![](<../../../.gitbook/assets/image (290).png>)
 
 **#8 | You now have 1BTC on Harmony.**
 
