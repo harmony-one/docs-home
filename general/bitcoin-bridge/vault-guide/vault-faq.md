@@ -26,7 +26,9 @@ This is for the safety of our vault runners.
 
 > _What is the collateral level where slashing becomes a risk?_
 
-**Answer**:&#x20;
+**Answer**: Your vault will not be chosen by the automatic vault selection process if the user's transaction will bring your collateral below 150%. However, market movement does occur and prices fluctuate which can reduce your collateral below 150%.&#x20;
+
+Your vault will receive a warning below 150% collateral, and again below 125% collateral. Your collateral will be liquidated below 100%.
 
 > _Can you delete the environment file after the vault is created?_
 
@@ -36,6 +38,6 @@ This is for the safety of our vault runners.
 
 **Answer**:
 
-> _How can I withdraw my collateral? At what point will I be liquidated when withdrawing?_
+> Question: How can I withdraw my collateral? At what point will I be liquidated when withdrawing?
 
-**Answer**:
+**Answer**: You may withdraw your ONE collateral down to 150% USD value of the locked BTC your vault holds at the time of the withdrawal.

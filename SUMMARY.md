@@ -51,7 +51,7 @@
     * [Upgrade](general/bitcoin-bridge/vault-guide/upgrade.md)
     * [Manage](general/bitcoin-bridge/vault-guide/manage.md)
     * [Vault FAQ](general/bitcoin-bridge/vault-guide/vault-faq.md)
-  * [User Guide](general/bitcoin-bridge/user-guide/README.md)
+  * [User Guide](general/bitcoin-bridge/user-guide.md)
     * [Issue](general/bitcoin-bridge/user-guide/issue.md)
     * [Redeem](general/bitcoin-bridge/user-guide/redeem.md)
     * [Dashboard](general/bitcoin-bridge/user-guide/dashboard.md)
