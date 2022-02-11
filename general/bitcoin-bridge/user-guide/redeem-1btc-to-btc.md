@@ -1,4 +1,4 @@
-# Redeem
+# Redeem (1BTC to BTC)
 
 **#1 | Navigate to btc.harmony.one and connect your Metamask wallet.**
 
@@ -8,7 +8,7 @@
 
 First, enter the amount of 1BTC you would like to redeem as BTC. Second, specify the BTC address to which you'd like to receive the BTC you are redeeming. Finally, click the Continue button to proceed with the redeem process.
 
-![](<../../../.gitbook/assets/image (292).png>)
+![](<../../../.gitbook/assets/image (292) (1).png>)
 
 **#3 | Sign the Redeem request transaction using Metamask.**
 
