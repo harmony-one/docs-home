@@ -4,7 +4,7 @@
 
 A fully decentralized protocol for automated liquidity provision.
 
-![](<../../../.gitbook/assets/image (292).png>)
+![](<../../../.gitbook/assets/image (292) (1).png>)
 
 ## [DeFi Kingdoms](https://defillama.com/protocol/defi-kingdoms)
 

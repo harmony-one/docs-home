@@ -21,7 +21,7 @@ Project owners or users can apply for the governance section by following these 
 
 ## Users: How does it work?&#x20;
 
-The governance app is available at [https://governance.harmony.one](https://governance.harmony.one). To interact with it, you need to connect your [One Wallet](../wallets/browser-extensions-wallets/one-wallet.md) or [Metamask](../wallets/browser-extensions-wallets/metamask-wallet.md), the same as using Metamask on Ethereum.
+The governance app is available at [https://governance.harmony.one](https://governance.harmony.one). To interact with it, you need to connect your [One Wallet](../wallets/browser-extensions-wallets/one-wallet.md) or [Metamask](../wallets/browser-extensions-wallets/metamask-wallet/), the same as using Metamask on Ethereum.
 
 Any HRC-20 token holder can create or vote on proposals within their own project, unless specified differently by the project creators. For example, Mochi (hMochi) owners can create and vote on Mochiswap projects. When voting, by default, only the tokens you hold in the wallet will contribute to your voting power, unless specified differently by the project.
 
@@ -29,7 +29,7 @@ Rules and guidelines: Anyone can create a proposal that hold the correlated HRC-
 
 ## Creating a Proposal&#x20;
 
-To create a proposal navigate to the [governance app](https://governance.harmony.one), connect your [One Wallet ](../wallets/browser-extensions-wallets/one-wallet.md)or [MetaMask](../wallets/browser-extensions-wallets/metamask-wallet.md), then click on New proposal on the top right corner. You can now start writing a new proposal:
+To create a proposal navigate to the [governance app](https://governance.harmony.one), connect your [One Wallet ](../wallets/browser-extensions-wallets/one-wallet.md)or [MetaMask](../wallets/browser-extensions-wallets/metamask-wallet/), then click on New proposal on the top right corner. You can now start writing a new proposal:
 
 ![](../../.gitbook/assets/governance-hrc20-2.png)
 

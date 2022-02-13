@@ -16,7 +16,7 @@ Do NOT send bridged tokens directly to other blockchains or exchanges. This will
 
 ![](../../.gitbook/assets/horizon-bsc1.png)
 
-2\. Connect your Metamask account to [Binance Smart Chain](https://docs.binance.org/smart-chain/wallet/metamask.html) and connect your OneWallet or [Metamask](../../network/wallets/browser-extensions-wallets/metamask-wallet.md) to the Harmony Mainnet.
+2\. Connect your Metamask account to [Binance Smart Chain](https://docs.binance.org/smart-chain/wallet/metamask.html) and connect your OneWallet or [Metamask](../../network/wallets/browser-extensions-wallets/metamask-wallet/) to the Harmony Mainnet.
 
 ![](../../.gitbook/assets/horizon-bsc2.png)
 

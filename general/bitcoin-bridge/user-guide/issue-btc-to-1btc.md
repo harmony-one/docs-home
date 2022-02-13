@@ -2,7 +2,7 @@
 
 **#1 | Navigate to btc.harmony.one and connect your Metamask wallet.**
 
-![](<../../../.gitbook/assets/image (287).png>)
+![](<../../../.gitbook/assets/image (287) (1).png>)
 
 **#2 | Create an "Issue" request for bridging your BTC to Harmony and begin the bridging process.**
 
@@ -10,7 +10,7 @@ Specify the amount of BTC you wish to bridge into the Harmony ecosystem in the "
 
 Click Continue.
 
-![](<../../../.gitbook/assets/image (297).png>)
+![](<../../../.gitbook/assets/image (297) (1).png>)
 
 **#3 | Sign the Issue request transaction in your Metamask.**
 

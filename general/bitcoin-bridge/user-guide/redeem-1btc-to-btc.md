@@ -2,13 +2,13 @@
 
 **#1 | Navigate to btc.harmony.one and connect your Metamask wallet.**
 
-![](<../../../.gitbook/assets/image (287).png>)
+![](<../../../.gitbook/assets/image (287) (1).png>)
 
 **#2 | Click on the Redeem tab and enter the amount you wish to bridge back as BTC.**
 
 First, enter the amount of 1BTC you would like to redeem as BTC. Second, specify the BTC address to which you'd like to receive the BTC you are redeeming. Finally, click the Continue button to proceed with the redeem process.
 
-![](<../../../.gitbook/assets/image (292) (1).png>)
+![](<../../../.gitbook/assets/image (292) (1) (1).png>)
 
 **#3 | Sign the Redeem request transaction using Metamask.**
 
