@@ -274,6 +274,8 @@
     * [Other CLI References](network/wallets/harmony-cli/other-cli-references.md)
   * [Browser Extension Wallets](network/wallets/browser-extensions-wallets/README.md)
     * [Metamask](network/wallets/browser-extensions-wallets/metamask-wallet.md)
+    * [Adding Harmony](network/wallets/browser-extensions-wallets/adding-harmony.md)
+    * [Page 2](network/wallets/browser-extensions-wallets/page-2.md)
     * [Harmony Chrome Extension Wallet](network/wallets/browser-extensions-wallets/one-wallet.md)
     * [Math Wallet](network/wallets/browser-extensions-wallets/mathwallet/README.md)
       * [Download & Setup](network/wallets/browser-extensions-wallets/mathwallet/download-and-setup.md)

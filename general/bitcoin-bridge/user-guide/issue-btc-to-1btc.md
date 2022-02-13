@@ -1,4 +1,4 @@
-# Issue
+# Issue (BTC to 1BTC)
 
 **#1 | Navigate to btc.harmony.one and connect your Metamask wallet.**
 
@@ -28,7 +28,7 @@ At this point, the vault is ready to receive and store your BTC before issuing y
 
 At this stage, we must wait for two confirmations on the BTC blockchain before your transfer to the vault is complete. This can take upwards of 1-hour but, on average, may take between 20 to 30 minutes.
 
-![](<../../../.gitbook/assets/image (294).png>)
+![](<../../../.gitbook/assets/image (294) (1).png>)
 
 **#6 | Execute the Issue request to begin the minting of your 1BTC.**
 
@@ -38,7 +38,7 @@ The 1BTC will arrive on the Metamask account you connected in the first step abo
 
 
 
-![](<../../../.gitbook/assets/image (293).png>)
+![](<../../../.gitbook/assets/image (293) (1).png>)
 
 **#7 | Sign and execute the Execute Issue transaction to receive your 1BTC.**
 
