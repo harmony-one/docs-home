@@ -1,7 +1,7 @@
 # Using Metamask with Harmony Smart Contracts
 
 {% hint style="info" %}
-For instructions on how to install and setup Metamask to work with Harmony blockchain please click [here](../../../network/wallets/browser-extensions-wallets/metamask-wallet/).
+For instructions on how to install and setup Metamask to work with Harmony blockchain please click [here](../../../network/wallets/browser-extensions-wallets/metamask-wallet.md).
 {% endhint %}
 
 ## Project Setup

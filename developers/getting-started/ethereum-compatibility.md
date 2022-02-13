@@ -36,8 +36,8 @@ You can read more about Harmony One Ecosystem - here
 
 ### Harmony & Metamask
 
-{% content-ref url="../../network/wallets/browser-extensions-wallets/metamask-wallet/" %}
-[metamask-wallet](../../network/wallets/browser-extensions-wallets/metamask-wallet/)
+{% content-ref url="../../network/wallets/browser-extensions-wallets/metamask-wallet.md" %}
+[metamask-wallet.md](../../network/wallets/browser-extensions-wallets/metamask-wallet.md)
 {% endcontent-ref %}
 
 {% content-ref url="../wallets/metamask/interacting-with-metamask.md" %}
