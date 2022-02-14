@@ -4,6 +4,4 @@ MetaMask is an extension for accessing Harmony enabled distributed applications,
 
 In this section, we walk through the process of installing MetaMask, configuring it on the Harmony network, and importing an existing account using a previously generated private key. Continue through for more information.
 
-## Installing MetaMask&#x20;
-
-Click [**here**](https://metamask.io/download/) to install the MetaMask extension on your browser. It can be installed on most desktop browsers. Just click on the installation button to begin the process.
+##

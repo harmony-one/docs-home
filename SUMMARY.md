@@ -274,6 +274,7 @@
     * [Other CLI References](network/wallets/harmony-cli/other-cli-references.md)
   * [Browser Extension Wallets](network/wallets/browser-extensions-wallets/README.md)
     * [Metamask](network/wallets/browser-extensions-wallets/metamask-wallet.md)
+      * [Installing MetaMask](network/wallets/browser-extensions-wallets/metamask-wallet/installing-metamask.md)
       * [Adding Harmony](network/wallets/browser-extensions-wallets/metamask-wallet/adding-harmony.md)
       * [Create a New Account](network/wallets/browser-extensions-wallets/metamask-wallet/create-a-new-account.md)
       * [Import an Account](network/wallets/browser-extensions-wallets/metamask-wallet/import-an-account.md)
