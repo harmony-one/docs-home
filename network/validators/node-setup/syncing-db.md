@@ -62,13 +62,13 @@ Below is the command to sync the shard you want. Replace `<ShardID>`with the sha
 {% tabs %}
 {% tab title="Mainnet" %}
 ```bash
-rclone -P -L sync release:pub.harmony.one/mainnet.min/harmony_db_<ShardID> harmony_db_<ShardID> --multi-thread-streams 4 --transfers=8
+rclone -P -L --checksum sync release:pub.harmony.one/mainnet.min/harmony_db_<ShardID> harmony_db_<ShardID> --multi-thread-streams 4 --transfers=32
 ```
 {% endtab %}
 
 {% tab title="Testnet" %}
 ```
-rclone -P -L sync release:pub.harmony.one/testnet.min/harmony_db_<ShardID> harmony_db_<ShardID> --multi-thread-streams 4 --transfers=8
+rclone -P -L --checksum sync release:pub.harmony.one/testnet.min/harmony_db_<ShardID> harmony_db_<ShardID> --multi-thread-streams 4 --transfers=32
 ```
 {% endtab %}
 {% endtabs %}
@@ -94,13 +94,13 @@ Nodes in shard 1, 2, 3 need to sync both `harmony_db_0`, and `harmony_db_<ShardI
 {% tabs %}
 {% tab title="Mainnet" %}
 ```bash
-rclone -P -L sync release:pub.harmony.one/mainnet.min/harmony_db_0 harmony_db_0 --multi-thread-streams 4 --transfers=8
+rclone -P -L --checksum sync release:pub.harmony.one/mainnet.min/harmony_db_0 harmony_db_0 --multi-thread-streams 4 --transfers=32
 ```
 {% endtab %}
 
 {% tab title="Testnet" %}
 ```
-rclone -P -L sync release:pub.harmony.one/testnet.min/harmony_db_0 harmony_db_0 --multi-thread-streams 4 --transfers=8
+rclone -P -L --checksum sync release:pub.harmony.one/testnet.min/harmony_db_0 harmony_db_0 --multi-thread-streams 4 --transfers=32
 ```
 {% endtab %}
 {% endtabs %}
@@ -117,8 +117,8 @@ rclone -P -L sync release:pub.harmony.one/mainnet.min/harmony_db_1 harmony_db_1 
 
 {% tab title="Testnet" %}
 ```
-rclone -P -L sync release:pub.harmony.one/testnet.min/harmony_db_0 harmony_db_0 --multi-thread-streams 4 --transfers=8
-rclone -P -L sync release:pub.harmony.one/testnet.min/harmony_db_1 harmony_db_1 --multi-thread-streams 4 --transfers=8
+rclone -P -L --checksum sync release:pub.harmony.one/testnet.min/harmony_db_0 harmony_db_0 --multi-thread-streams 4 --transfers=32
+rclone -P -L --checksum sync release:pub.harmony.one/testnet.min/harmony_db_1 harmony_db_1 --multi-thread-streams 4 --transfers=32
 ```
 {% endtab %}
 {% endtabs %}
@@ -135,8 +135,8 @@ rclone -P -L sync release:pub.harmony.one/mainnet.min/harmony_db_2 harmony_db_2 
 
 {% tab title="Testnet" %}
 ```
-rclone -P -L sync release:pub.harmony.one/testnet.min/harmony_db_0 harmony_db_0 --multi-thread-streams 4 --transfers=8
-rclone -P -L sync release:pub.harmony.one/testnet.min/harmony_db_2 harmony_db_2 --multi-thread-streams 4 --transfers=8
+rclone -P -L --checksum sync release:pub.harmony.one/testnet.min/harmony_db_0 harmony_db_0 --multi-thread-streams 4 --transfers=32
+rclone -P -L --checksum sync release:pub.harmony.one/testnet.min/harmony_db_2 harmony_db_2 --multi-thread-streams 4 --transfers=32
 ```
 {% endtab %}
 {% endtabs %}
@@ -146,8 +146,8 @@ rclone -P -L sync release:pub.harmony.one/testnet.min/harmony_db_2 harmony_db_2 
 {% tabs %}
 {% tab title="Mainnet" %}
 ```bash
-rclone -P -L sync release:pub.harmony.one/mainnet.min/harmony_db_0 harmony_db_0 --multi-thread-streams 4 --transfers=8
-rclone -P -L sync release:pub.harmony.one/mainnet.min/harmony_db_3 harmony_db_3 --multi-thread-streams 4 --transfers=8
+rclone -P -L --checksum sync release:pub.harmony.one/mainnet.min/harmony_db_0 harmony_db_0 --multi-thread-streams 4 --transfers=32
+rclone -P -L --checksum sync release:pub.harmony.one/mainnet.min/harmony_db_3 harmony_db_3 --multi-thread-streams 4 --transfers=32
 ```
 {% endtab %}
 
@@ -174,11 +174,11 @@ As of 17th December 2021, the size for the shard 0 on mainnet is \~16Tb. Note th
 To sync your node in archival mode, just change the command below for the shard you want. Depending on the size, the syncing of the blockchain will take quite some time.
 
 ```bash
-rclone -P -L sync release:pub.harmony.one/mainnet.archival/harmony_db_<ShardID> harmony_db_<ShardID>
+rclone -P -L --checksum sync release:pub.harmony.one/mainnet.archival/harmony_db_<ShardID> harmony_db_<ShardID> --multi-thread-streams 4 --transfers=32
 ```
 
 Example for shard 0:
 
 ```bash
-rclone -P -L sync release:pub.harmony.one/mainnet.archival/harmony_db_0 harmony_db_0
+rclone -P -L --checksum sync release:pub.harmony.one/mainnet.archival/harmony_db_0 harmony_db_0 --multi-thread-streams 4 --transfers=32
 ```
