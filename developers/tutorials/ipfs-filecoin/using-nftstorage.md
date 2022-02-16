@@ -154,7 +154,7 @@ In this step, we will create a React application and use the Truffle framework t
 
    Once the smart contract is deployed success, remember to record your **smart contract address** which we will also use later. You can also find your NFT contract on [Harmony Testnet blockchain explorer](https://explorer.pops.one/hrc721), also test it on [Remix](https://remix.ethereum.org/).
 
-### Connect to Metamask 
+### Part 2: Connect to Metamask 
 
 In this step, we will write some front-end code to connect to a MetaMask wallet so that you can use it to mint the NFT and pay transaction fees. 
 
@@ -223,7 +223,7 @@ Now, let's start coding.
 
    
 
-### MintNFT process
+### Part 3: MintNFT process
 
 In this step, we will write the code that mints the NFT. Have the following items ready:
 
