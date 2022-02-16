@@ -1,5 +1,5 @@
 ---
-description: This tutorial will show how to use NFT.Storage to store NFTs on IPFS and Filecoin for harmony blockchain
+description: This tutorial will teach you how to use NFT.Storage to store NFTs on IPFS and Filecoin for the Harmony blockchain.
 ---
 
 # Using NFT.Storage
