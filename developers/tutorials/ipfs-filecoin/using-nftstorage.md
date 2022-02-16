@@ -113,7 +113,7 @@ In this step, we will create a React application and use the Truffle framework t
 
    In order to deploy the NFT smart contract to Harmony Testnet, you need to let Truffle which network configuration and which Harmony wallet to use. You can do this by configuring truffle in `truffle-config.js`.
 
-   First, install `@truffle/hdwallet-provider` via npm first.
+   First, install `@truffle/hdwallet-provider` via npm.
 
    ```shell
    npm install --save-dev @truffle/hdwallet-provider
@@ -309,7 +309,7 @@ In this step, we will write code to mint a NFT on Harmony blockchain and also up
 
      ```javascript
      const uploadNFTContent = async(inputFile) =>{
-     		//Initialize NFTStorage
+     	//Initialize NFTStorage
          const nftStorage = new NFTStorage({token: APIKEY,});
      }
      ```
