@@ -164,7 +164,7 @@ Management: [https://localhost:8020/](https://graph.t.hmny.io:8020) where subgra
 
 Metrics / playground: [https://localhost:8030/](https://graph.t.hmny.io:8030)
 
-Vvisit your playground using the URL [http://127.0.0.1:8030/graphql/playground](http://207.244.235.235:8030/graphql/playground) and start playing around with graphQL API.
+Visit your playground using the URL [http://127.0.0.1:8030/graphql/playground](http://207.244.235.235:8030/graphql/playground) and start playing around with graphQL API.
 
 An example of query you can use to show subgraph currently being indexed would be :
 
