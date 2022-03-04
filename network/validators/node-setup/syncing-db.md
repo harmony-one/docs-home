@@ -165,6 +165,16 @@ After the sync, you may use `du -h harmony_db_*` command to check the size of th
 `-P` will display a download progress & ETA.
 {% endhint %}
 
+## Mainnet S0 Snapshot DB for validator
+
+SnapDB is a new type of DB that doesn't contain any data before a given block (ie as of 4th March 2022, this is block 22816573), hence not suitable for RPC node
+
+Mainnet validator in all shard 0/1/2/3 can use it with a size of 257G (as of 4th March 2022)
+
+```
+rclone -P -L --checksum sync release:pub.harmony.one/mainnet.snap/harmony_db_0 harmony_db_0 --multi-thread-streams 4 --transfers=32
+```
+
 ## Non-Validating/Explorer Nodes
 
 {% hint style="info" %}
