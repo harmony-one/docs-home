@@ -49,13 +49,13 @@ If you choose another method make sure to use the correct command line
 
 ### Option 1: Setup Using Config File (recommended)
 
-All the start options can be persisted and loaded from a single config file. To start a node, the following steps are also available**:**
+All the start options can be persisted and loaded from a single config file. To start a node, the following steps are also available\*\*:\*\*
 
 1. Dump the default config.
 2. Customize the config file.
 3. Run harmony node with the config file.
 
-#### &#x20;Dump the Default Config File
+#### Dump the Default Config File
 
 {% tabs %}
 {% tab title="Mainnet" %}
@@ -212,7 +212,7 @@ To enable streamsync, modify the below two sections (Experimental)
 {% endtabs %}
 
 {% hint style="success" %}
-Stream Sync is the new harmony Syncing method allowing to get rid of the previous sync via DNS causing issue when the DNS node wasn't in sync.&#x20;
+Stream Sync is the new harmony Syncing method allowing to get rid of the previous sync via DNS causing issue when the DNS node wasn't in sync.
 {% endhint %}
 
 #### Start the node with Config File
@@ -367,7 +367,7 @@ Check [here](../../syncing-db.md#archival-node) for instructions on how to sync 
 Keep in mind that the storage space used increases around \~50+ GB per month on s0 due to staking transaction being stored. Other shard should take around 25GB per month. Please plan your storage space accordingly.
 {% endhint %}
 
-The following steps assume the node is connected to mainnet on shard 0, which is required for all exchanges.&#x20;
+The following steps assume the node is connected to mainnet on shard 0, which is required for all exchanges.
 
 If you are using the config file, which is the recommended way to configure your node, change the settings to the ones below:
 
@@ -382,10 +382,20 @@ If you are using the config file, which is the recommended way to configure your
   ShardID = 0
 ```
 
+`NoStaking = true` will verify if the BLS keys in your .hmy/blskeys folder are part of the original FN keys. You will need add in the folder dummy empty files and remove all others
+
+```
+# remove all keys, save it before if necessary
+rm -f .hmy/blskeys/*
+# create dummy files
+touch .hmy/blskeys/bls.key
+touch .hmy/blskeys/bls.pass
+```
+
 {% hint style="info" %}
 IsBeaconArchival flag is applicable to explorer node only. For shard 1/2/3 the beacon shard 0 doesn't need to be in archival mode. So to save space, the recommendation is to set to false. For shard 0 explorer node, IsArchival flag will determine if the database is in archival mode or not.
 
-&#x20;DataDir (or --db\_dir below for cli flag) is the folder where the blockchain data will be store (ie location of harmony\_db\_0)
+DataDir (or --db\_dir below for cli flag) is the folder where the blockchain data will be store (ie location of harmony\_db\_0)
 {% endhint %}
 
 Alternatively, you can also run it using flag parsing:
@@ -410,7 +420,7 @@ Create the `harmony.service` file:
 sudo vi /etc/systemd/system/harmony.service
 ```
 
-Add the content below to the file and save it. Change `User` to the local user you will be running the daemon and also `WorkingDirectory` to the home directory where you downloaded the harmony binary file previously. Parameter `ExecStart` needs to point to this same directory. On the example below we will be running the harmony binary using the `harmony.conf `file.
+Add the content below to the file and save it. Change `User` to the local user you will be running the daemon and also `WorkingDirectory` to the home directory where you downloaded the harmony binary file previously. Parameter `ExecStart` needs to point to this same directory. On the example below we will be running the harmony binary using the `harmony.conf` file.
 
 ```bash
 [Unit]
