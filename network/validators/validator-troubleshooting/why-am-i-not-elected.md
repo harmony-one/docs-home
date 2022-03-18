@@ -8,7 +8,7 @@ description: Reasons why your validator is not elected & how to get elected.
 
 Harmony operates with Effective Proof of Stake (EPoS) to keep the network security from collecting in the hands of a few validators. You can find our full Medium article on EPoS [here](https://harmony.one/epos)!
 
-TL;DR Validators are elected based on their **effective** stake, instead of their absolute stake. The effective stake is calculated based on the median stake in the network. The top 800 BLS keys with the highest effective stake will be elected for the epoch.
+TL;DR Validators are elected based on their **effective** stake, instead of their absolute stake. The effective stake is calculated based on the median stake in the network. The top 900 BLS keys with the highest effective stake will be elected for the epoch.
 
 ## 1. Verify Bidding
 
@@ -40,7 +40,7 @@ Example : [https://staking.harmony.one/validators/one1u6c4wer2dkm767hmjeehnwu6tq
 
 ![Total Staked](../../../.gitbook/assets/total-staked.png)
 
-Your `Total Staked` divided by the number of BLS keys you set on your validator will give you the effective bidding stake. This effective bidding stake will be used to bid in the 640 slots available each epoch. Bidding above the median stake is the safest way to get your keys elected each epoch. Bidding below the median stake is riskier, as you may be kicked out of the committee for 1 epoch in case you outbid. For more information on the bidding process check [here](../definitions/slots-bidding-and-election.md).
+Your `Total Staked` divided by the number of BLS keys you set on your validator will give you the effective bidding stake. This effective bidding stake will be used to bid in the 900 slots available each epoch. Bidding above the median stake is the safest way to get your keys elected each epoch. Bidding below the median stake is riskier, as you may be kicked out of the committee for 1 epoch in case you outbid. For more information on the bidding process check [here](../definitions/slots-bidding-and-election.md).
 
 {% hint style="success" %}
 We recommend that you start bidding above or around the median stake, so you are likely to always stay elected each epoch.
