@@ -14,7 +14,7 @@ You can log into an account using the Harmony Chrome Extension, MathWallet Chrom
 
 After logging in, you can view network analytics, a list of validators, validator profiles, and other information to help you decide who to delegate to.
 
-![](<../../.gitbook/assets/image (159) (1).png>)
+![](<../../.gitbook/assets/image (159).png>)
 
 Every transaction or delegation must be signed. You can use the Harmony Chrome Extension, which supports Ledger Nano S.
 

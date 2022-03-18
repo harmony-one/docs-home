@@ -60,7 +60,7 @@ This is the latest version as 18th Jan 2019 that was tested, newer version could
 
 At the end make sure you add the python binary to the path:
 
-![](<../../../../.gitbook/assets/image (143) (2) (2) (2) (2) (2) (2) (2) (2) (1) (2) (2) (2) (2) (2) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (143) (2) (2) (2) (2) (2) (2) (2) (2) (1) (2) (2) (2) (2) (2) (2).png>)
 
 ### 2. Install Packages
 

@@ -22,5 +22,5 @@ You will need to open Web Wallet in order to view account details and perform tr
 5. Specify the gas price you wish to pay using the **Fee** slider. _Gas_ is a fee charged by the network for the computational work of mining a transaction into the blockchain.
 6. Click **Transfer** to complete the transaction! You will be shown a **transaction receipt** before finalizing the transaction.
 
-![](<../../../../.gitbook/assets/image (27) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (27).png>)
 

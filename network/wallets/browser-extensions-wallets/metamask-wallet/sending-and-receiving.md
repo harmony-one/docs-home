@@ -14,7 +14,7 @@ You can receive transactions to addresses starting with both **one1** and **0x**
 
 * Copy the **0x** address format by clicking on the small icon right to the address
 
-![](<../../../../.gitbook/assets/image (288).png>)
+![](<../../../../.gitbook/assets/image (297).png>)
 
 **You now have the 0x address which corresponds to your one1 address.**
 

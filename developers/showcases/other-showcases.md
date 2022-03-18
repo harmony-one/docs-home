@@ -16,7 +16,7 @@ _Disclaimer: this game is ported from_ [_Nyftimoji_](https://niftymoji.com)_, an
 
 You can use 20 $ONE tokens to mint an emoji token (HRC 721 token) using smart contract. The lucky number you input and the block hash will decide which emoji you are going to get from a library of 3,470 emojis.
 
-![](<../../.gitbook/assets/onemoji 2.png>)
+![](../../.gitbook/assets/onemoji-2.png)
 
 ## [Good One](http://crowdfunding.s3-website-us-west-1.amazonaws.com)&#x20;
 
@@ -27,7 +27,7 @@ Good One is a simple crowdfunding dApp which will have the ‘minimum’ functio
 * Fund Project — we should be able to fund an existing project with ONE
 * Retrieve Funds — in the case where a project does not meet its goal amount, and is past its deadline, funders should be able to retrieve their contributed funds (All-or-Nothing setup)
 
-![](<../../.gitbook/assets/image (309) (2) (1) (2).png>)
+![](<../../.gitbook/assets/image (309) (2) (3).png>)
 
-![](<../../.gitbook/assets/image (304) (3) (3) (3) (1) (2).png>)
+![](<../../.gitbook/assets/image (304) (3) (3) (3) (3).png>)
 

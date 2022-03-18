@@ -40,7 +40,7 @@ Bitmax is a Global Digital Asset Trading Platform founded by Wall Street quant t
 
 Exchange By the Community, For the Community.
 
-![](<../../../.gitbook/assets/vitex-harmony-announcement (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/vitex-harmony-announcement (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 ## [HitBTC](https://hitbtc.com)
 

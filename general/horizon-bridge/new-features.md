@@ -85,7 +85,7 @@ For bridging HRC20 tokens from Harmony to Ethereum, select HRC20 under ONE > ETH
 
 For redeeming back the bridged HRC20 tokens back from Ethereum to Harmony, select HRC20 under ETH > ONE flow tab and proceed with entering a valid amount of 1HRC20 tokens to bridge back from Ethereum to Harmony and proceed.
 
-![](<../../.gitbook/assets/Screen Shot 2021-01-12 at 6.48.31 PM.png>)
+![](../../.gitbook/assets/screen-shot-2021-01-12-at-6.48.31-pm.png)
 
 {% hint style="info" %}
 Onewallet HRC721 support is under development, an official release can be expected soon. Meanwhile, an alpha version can be found below that supports HRC721.
