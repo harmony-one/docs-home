@@ -129,7 +129,7 @@ Note: When importing via GitHub, you should specify the release tag, otherwise y
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.4;
 
-import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v3.4.0/contracts/presets/ERC721PresetMinterPauserAutoId.sol"
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v3.4.0/contracts/presets/ERC721PresetMinterPauserAutoId.sol";
 ```
 
 Note when importing the contract it automatically inserts the contracts under dependencies.
