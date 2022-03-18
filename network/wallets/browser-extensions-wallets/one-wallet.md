@@ -1,8 +1,10 @@
 # Harmony Chrome Extension Wallet
 
-## **Step 1: Install the Harmony Chrome Extension Wallet**&#x20;
+{% hint style="warning" %}
+The Harmony Chrome extension wallet is no supported. The extension can still be downloaded but should be used at your own risk. Please see the sunset announcement [here for more information ](https://medium.com/harmony-one/sunsetting-the-harmony-chrome-extension-wallet-cd7e2ec217c6)and migration options to MetaMask.
+{% endhint %}
 
-![](<../../../.gitbook/assets/image (190).png>)
+### **Step 1: Install the Harmony Chrome Extension Wallet**&#x20;
 
 Download the [Harmony Chrome Extension Wallet](https://chrome.google.com/webstore/detail/harmony-one-wallet/fnnegphlobjdpkhecapkijjdkgcjhkib) from the Chrome Store.
 
