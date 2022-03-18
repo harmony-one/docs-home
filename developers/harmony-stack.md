@@ -19,7 +19,7 @@ This is a living document and we are relying on our community to contribute to i
 
 The Harmony Tech Stack consists of the **open-source** technologies contributing to and relying on [Harmony](https://harmony.one). It is meant to be used for decentralized application (Dapp) development within numerous verticals including DeFi, Gaming, Provenance and many others not pictured below.
 
-![Harmony Ecosystem](<../.gitbook/assets/ecosystem\_20.6.2021 copy (1) (1) (1) (1) (1) (1).png>)
+![Harmony Ecosystem](<../.gitbook/assets/ecosystem\_20.6.2021 copy (1) (1) (1) (1) (1).png>)
 
 ## Layers of Harmony Stack
 
@@ -120,4 +120,4 @@ Pull requests, issues, or other contributions from the community are encouraged!
 
 :heavy\_exclamation\_mark: All technologies listed above need to be open-source. Ideally, the links lead directly to the code.
 
-_Note: You will need a GitHub account to suggest changes or open issues. If you do not have one, you may _[_sign up for free_](https://github.com/join)_._
+_Note: You will need a GitHub account to suggest changes or open issues. If you do not have one, you may_ [_sign up for free_](https://github.com/join)_._
