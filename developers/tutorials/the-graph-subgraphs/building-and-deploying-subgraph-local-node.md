@@ -160,11 +160,11 @@ Jul 29 05:33:35.252 INFO Syncing 1 blocks from Ethereum., code: BlockIngestionSt
 
 A few component are installed
 
-Management: [https://localhost:8020/](https://graph.t.hmny.io:8020) where subgraph are being created/deployed/deleted
+Management: [https://localhost:8020/](https://localhost:8020/) where subgraph are being created/deployed/deleted
 
-Metrics / playground: [https://localhost:8030/](https://graph.t.hmny.io:8030)
+Metrics / playground: [https://localhost:8030/](https://localhost:8030/)
 
-Visit your playground using the URL [http://127.0.0.1:8030/graphql/playground](http://207.244.235.235:8030/graphql/playground) and start playing around with graphQL API.
+Visit your playground using the URL [http://127.0.0.1:8030/graphql/playground](http://127.0.0.1:8030/graphql/playground) and start playing around with graphQL API.
 
 An example of query you can use to show subgraph currently being indexed would be :
 
@@ -243,7 +243,7 @@ yarn create-harmony
 yarn deploy-harmony
 ```
 
-Sync begins and you are good to query your subgraph [http://localhost:8000/subgraphs/name/harmony/blocks/graphql](https://graph.t.hmny.io/subgraphs/name/harmony/blocks/graphql)
+Sync begins and you are good to query your subgraph [http://localhost:8000/subgraphs/name/harmony/blocks/graphql](http://localhost:8000/subgraphs/name/harmony/blocks/graphql)
 
 Note that the above example query should now show your something similar to the below
 
