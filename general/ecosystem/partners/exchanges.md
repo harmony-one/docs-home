@@ -40,7 +40,7 @@ Bitmax is a Global Digital Asset Trading Platform founded by Wall Street quant t
 
 Exchange By the Community, For the Community.
 
-![](<../../../.gitbook/assets/vitex-harmony-announcement (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/vitex-harmony-announcement (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 ## [HitBTC](https://hitbtc.com)
 
@@ -53,4 +53,10 @@ The most advanced cryptocurrency exchange to buy and sell crypto.
 CoinDCX is the first hybrid crypto exchange. It's an all inclusive cryptocurrency ecosystem that offers professional trading experience to all types of traders. Trade 100+ cryptocurrencies like BTC, ETH, XRP and ONE! CoinDCX now supports ONE/INR, ONE/BTC, & ONE/USDT.&#x20;
 
 ![](<../../../.gitbook/assets/image (225).png>)
+
+## [Bitrue](https://www.bitrue.com)
+
+Bitrue is an exchange featuring token trading and lending, while aiming to enable access to fair financial services around the globe
+
+![](<../../../.gitbook/assets/image (88).png>)
 

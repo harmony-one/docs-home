@@ -12,7 +12,7 @@ Start from the staking dashboard: [https://staking.harmony.one/ledger](https://s
 
 You will be directed to the Validators page on the Staking Dashboard and a small trident logo will appear on the chrome tab. Your Ledger Nano will display "waiting for commands" before you click on any buttons.
 
-![](<../../../../../.gitbook/assets/image (59) (1).png>)
+![](<../../../../../.gitbook/assets/image (72).png>)
 
 ![](<../../../../../.gitbook/assets/image (73).png>)
 
