@@ -16,7 +16,7 @@ Transactions in Harmony blockchain are sent to and processed by a specific shard
 
 ## Epochs
 
-An epoch in Harmony blockchain is a pre-determined period of time when the validator committees of  shards stay unchanged. **In Harmony mainnet, one epoch is 32768 blocks which translates to around 18.2 hours. **In Harmony testnet, one epoch is 8192 blocks which is around 4.6 hours.
+An epoch in Harmony blockchain is a pre-determined period of time when the validator committees of  shards stay unchanged. **In Harmony mainnet, one epoch is 32768 blocks which translates to around 18.2 hours.** In Harmony testnet, one epoch is 8192 blocks which is around 4.6 hours.
 
 When one epoch ends, the election for the new validator committees will be conducted in beacon chain and the result (i.e. shard state) will be written in the last block of the epoch in the beacon chain. After that, beacon chain enters the new epoch with the new validator committee producing blocks. Once beacon chain enters new epoch, all the other shards will follow and also enters the new epoch. The new shard state from the beacon chain will be written in the new block of the shards which also marks the last block of the epoch for that shard.
 

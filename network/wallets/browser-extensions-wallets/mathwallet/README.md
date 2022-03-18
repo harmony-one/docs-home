@@ -1,5 +1,8 @@
 ---
-description: A web-based wallet
+description: >-
+  This section describes how to create your wallet, stake and undelegate your
+  ONE, send transactions, and claim staking rewards using the Math Wallet
+  browser extension.
 ---
 
 # Math Wallet

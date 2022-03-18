@@ -42,9 +42,9 @@ contract Counter {
 }
 ```
 
-#### Create` compile.js`
+#### Create `compile.js`
 
-The only purpose of the _`compile.js `_file, is to use the Solidity compiler to output the bytecode and interface of our contract.
+The only purpose of the _`compile.js`_ file, is to use the Solidity compiler to output the bytecode and interface of our contract.
 
 ```
 const path = require("path");

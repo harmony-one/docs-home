@@ -14,7 +14,7 @@ DaVinci social media: [Telegram](https://t.me/daVinci\_NFT\_Marketplace), [Twitt
 
 ![](../../.gitbook/assets/daVinciWhiteBckFinal.png)
 
-## ****[**Atari**](https://atari.harmony.one)** (Quidd)**
+## ****[**Atari**](https://atari.harmony.one) **(Quidd)**
 
 Atari, Quidd and Harmony have teamed up to offer this exclusive limited edition Atari Centipede NFTs.
 

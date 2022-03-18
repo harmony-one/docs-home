@@ -30,7 +30,7 @@ If your wallets were successfully connected, you will see a screen like the one 
 * ERC721
 * ERC1155
 
-On the example below, we will be swapping Ethereum ERC-20 for Harmony HRC-20 tokens and using** BUSD. **Make sure to select ETH > ONE (Metamask) on top as we want to convert from Ethereum to Harmony.
+On the example below, we will be swapping Ethereum ERC-20 for Harmony HRC-20 tokens and using **BUSD.** Make sure to select ETH > ONE (Metamask) on top as we want to convert from Ethereum to Harmony.
 
 ![](../../.gitbook/assets/eth-one.png)
 

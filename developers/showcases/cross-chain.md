@@ -4,7 +4,7 @@
 
 Welcome! The pages that follow contain comprehensive documentation of the SWOOP ecosystem. SWOOP is a fork from Uniswap,  code and documentation is based on [Uniswap](https://uniswap.org) 🦄 and [SushiSwap](https://sushiswap.org) 🍣&#x20;
 
-### **How it Works** <a href="developer-links" id="developer-links"></a>
+### **How it Works** <a href="#developer-links" id="developer-links"></a>
 
 ![](<../../.gitbook/assets/image (193).png>)
 
@@ -181,7 +181,7 @@ return tokenContract.methods
       })
 ```
 
-Due to replacing ethers.js to harmony-js/core we also ran into some issues with various parameter** **issues (numbers sent as string vs hex etc.) that has since been patched in harmony-js/core.
+Due to replacing ethers.js to harmony-js/core we also ran into some issues with various parameter **** issues (numbers sent as string vs hex etc.) that has since been patched in harmony-js/core.
 
 **Wallets - MetaMask/web3-react -> custom OneWallet & MathWallet code**
 
@@ -202,7 +202,7 @@ Besides the work on replacing the ethers.js smart contract interaction code with
 * Certain interaction flows (which were tailored to the use of MetaMask and similar wallets)
 * \+ a bunch of other things - [see this commit comparison for more details](https://github.com/harmony-one/swoop-interface/compare/6c3560e5d7ff9bad74a2e687345608d8f4aea213...e1f299f6c1fee345173eca2e2f76d94b2a21f299).
 
-**SDK (**[**uniswap/uniswap-sdk**](https://github.com/Uniswap/uniswap-sdk)** -> **[**harmony-one/swoop-sdk**](https://github.com/harmony-one/swoop-sdk)**)**
+**SDK (**[**uniswap/uniswap-sdk**](https://github.com/Uniswap/uniswap-sdk) **->** [**harmony-one/swoop-sdk**](https://github.com/harmony-one/swoop-sdk)**)**
 
 [Porting the Uniswap SDK to Swoop SDK](https://github.com/harmony-one/swoop-sdk/compare/553fcb1a7f1c7942b2444886a6122fc731588a04...b00c4dbcfcfb8bd0681ce85d9b7643606d14d12d) mostly revolved around replacing the deployed factory and router addresses, changing references from ETHER to HARMONY, using @harmony-js/core's ChainID for ChainID references as well as replacing WETH references and addresses with the WONE counterpart.
 
@@ -232,7 +232,7 @@ We learned that our tooling is robust enough to port a dApp like Uniswap, but th
 
 Due to our work on porting Uniswap we've realized the need for accelerating this process and we're currently actively working on these tools in order to provide an awesome dApp development environment for developers looking to build on Harmony.
 
-### Reference materials <a href="reference-materials" id="reference-materials"></a>
+### Reference materials <a href="#reference-materials" id="reference-materials"></a>
 
 Notion page: [https://www.notion.so/harmonyone/SWOOP-Cross-chain-DEX-Uniswap-3f58e623da28455aaa3fc7b6da7a446f](https://www.notion.so/harmonyone/SWOOP-Cross-chain-DEX-Uniswap-3f58e623da28455aaa3fc7b6da7a446f)
 
@@ -252,7 +252,7 @@ The project is operated by Pangaea Community around the globe and Hemenglian Tec
 
 Demeter is a decentralized synthetic asset issuance protocol allowing users to long & short exposure to any asset class (DeFi index, BTC/ETH/Link, forex, equities, commodities) without bridges, with binary options as derivatives.
 
-**See: **[**code**](https://github.com/harmony-one/harmony-harvest.contract)
+**See:** [**code**](https://github.com/harmony-one/harmony-harvest.contract)
 
 ## Binance Chain Bridge
 
@@ -284,13 +284,13 @@ Here we are using Threshold Signature Scheme (TSS).
 
 ![](../../.gitbook/assets/binance-harmony-bridge-flow.png)
 
-**See: **[**code**](https://github.com/gupadhyaya/binance-chain-bridge/)**, **[**community**](https://t.me/joinchat/P0DVklMjTLdxzQDw-vv70A)****
+**See:** [**code**](https://github.com/gupadhyaya/binance-chain-bridge/)**,** [**community**](https://t.me/joinchat/P0DVklMjTLdxzQDw-vv70A)****
 
 ## **Iris Bridge**&#x20;
 
 Iris Bridge is a fully permissionless, trustless, decentralized bridge on Harmony for ALL ERC20 tokens. It employs an Ethereum light client on Harmony using Solidity.
 
-**See: **[**code**](https://github.com/JackyWYX/harmony\_rainbow)**, **[**light client**](https://github.com/rlan35/ethClient/tree/master)****
+**See:** [**code**](https://github.com/JackyWYX/harmony\_rainbow)**,** [**light client**](https://github.com/rlan35/ethClient/tree/master)****
 
 ## **BTC Bridge**
 

@@ -1,13 +1,13 @@
 # DEX/Swaps
 
-## [ViteX](https://vitex.net)
+## [Sushi](https://defillama.com/protocol/sushiswap)
 
-A decentralized exchange developed by a company registered in the British Virgin Islands.
+A fully decentralized protocol for automated liquidity provision.
 
-![](<../../../.gitbook/assets/vitex-harmony-announcement (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (292) (1).png>)
 
-## [Switchain](https://www.switchain.com)
+## [DeFi Kingdoms](https://defillama.com/protocol/defi-kingdoms)
 
-Get the best cryptocurrency exchange rates with Switchain, the instant cryptocurrency exchange.
+DeFi Kingdoms is a game, a DEX, a liquidity pool opportunity, a market of rare utility driven NFTs, and it all plays out seamlessly in the incredibly nostalgic form of fantasy pixel art.
 
-![](<../../../.gitbook/assets/switchain tweet.PNG>)
+![](<../../../.gitbook/assets/image (291).png>)

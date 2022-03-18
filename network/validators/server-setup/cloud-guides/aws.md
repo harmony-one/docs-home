@@ -4,7 +4,7 @@ description: To launch your AWS instance, follow the steps below.
 
 # AWS
 
-## Step 1: Launching your AWS Node <a href="step-1-launching-your-aws-node" id="step-1-launching-your-aws-node"></a>
+## Step 1: Launching your AWS Node <a href="#step-1-launching-your-aws-node" id="step-1-launching-your-aws-node"></a>
 
 **1.** If you don’t already have an AWS account, register one at [https://aws.amazon.com](https://aws.amazon.com).
 
@@ -44,23 +44,23 @@ description: To launch your AWS instance, follow the steps below.
 
 ![](https://blobs.gitbook.com/assets%2F-M-IDt7HenNiPUXWT\_3k%2F-M-SpPev7Rx3tI5\_8vit%2F-M-Sw01Yoy6KQN9QE9PX%2Fassets\_-LlDqlxK8e45wuh1WH4h\_-Lw56FxOeYv0YR4puCg\_\_-Lw56P4Wvhdd5sBaWFho\_security\_groups\_aws.jpg?alt=media\&token=f3004e29-8898-4d6f-8654-37de5d847936)
 
-**15. **Click “Review and Launch” and then click "Launch". (Note: Ignore warnings such as “your security group is open to the world” or “your instance configuration is not eligible for free tier”)
+**15.** Click “Review and Launch” and then click "Launch". (Note: Ignore warnings such as “your security group is open to the world” or “your instance configuration is not eligible for free tier”)
 
 **16.** In the pop-up window you will need to create a new key pair. Select “Create a new key pair” and then enter a name that you like, for example “Pangaea-key”.
 
 ![](https://blobs.gitbook.com/assets%2F-M-IDt7HenNiPUXWT\_3k%2F-M-SpPev7Rx3tI5\_8vit%2F-M-Sw3fLntQmXXvy3JHd%2Fassets\_-LlDqlxK8e45wuh1WH4h\_-LlEvL4ccZjjcXwS1WWY\_-LlEqxD-n79Fd0kkMCF3\_Capture.png?alt=media\&token=673b6e2c-f70a-4a36-8485-751f3becad99)
 
-**17. **Click “Download Key Pair” and save the key file somewhere you'll remember.
+**17.** Click “Download Key Pair” and save the key file somewhere you'll remember.
 
-**18. **Click “Launch Instances”.
+**18.** Click “Launch Instances”.
 
-**19. **Click “View Instances” at the bottom right. Your new instance should be initializing. Wait a few moments for it to get started.
+**19.** Click “View Instances” at the bottom right. Your new instance should be initializing. Wait a few moments for it to get started.
 
 **21.** Congratulations your instance is up and running! Now it's time to connect to your instance.
 
 ![](https://blobs.gitbook.com/assets%2F-M-IDt7HenNiPUXWT\_3k%2F-M18Fj8DCAY2KtBma\_zp%2F-M18G50wfliuTSWxfFPs%2Fassets\_-LlDqlxK8e45wuh1WH4h\_-LlEvL4ccZjjcXwS1WWY\_-LlErACMN7pbdPNpbeia\_assets%2F-LiQYKCcGux\_Ib7Gddno%2F-Lj2HFbsGU29d\_abCLle%2F-Lj2HGcJYpniB9O\_xpMo%2FAWS-step21.png?alt=media\&token=cbd9a6fb-c7dd-43db-83cd-bfc8026058a8)
 
-## Step 2: Connecting to your AWS Instance <a href="step-2-connecting-to-your-aws-instance" id="step-2-connecting-to-your-aws-instance"></a>
+## Step 2: Connecting to your AWS Instance <a href="#step-2-connecting-to-your-aws-instance" id="step-2-connecting-to-your-aws-instance"></a>
 
 **1.** Open a Terminal window on your computer.
 
@@ -80,9 +80,9 @@ description: To launch your AWS instance, follow the steps below.
 
 ![](https://blobs.gitbook.com/assets%2F-M-IDt7HenNiPUXWT\_3k%2F-M1ZJQFhdhIexbw67x-l%2F-M1ZUv7XgOzmLxxNLMUq%2Fimage.png?alt=media\&token=ffbf732d-b408-47ce-9179-9d5ac19a22d2)
 
-**4. **Go back to your AWS window where you are viewing your instances. Select your new "Pangaea-key" instance and click “Connect” on the top bar.
+**4.** Go back to your AWS window where you are viewing your instances. Select your new "Pangaea-key" instance and click “Connect” on the top bar.
 
-**5. **In the pop-up window, under the “Example:” header, copy the sample command to connect to your ec2 instance. The command will look something like:
+**5.** In the pop-up window, under the “Example:” header, copy the sample command to connect to your ec2 instance. The command will look something like:
 
 ```
 ssh -i "pangaea-key.pem" ec2-user@ec2-13-250-30-215.ap-southeast-1.compute.amazonaws.com
@@ -100,7 +100,7 @@ Congratulations! You should be logged into your new AWS instance!
 
 ## Step 3: Installing Required Packages
 
-** **Run the following command to make sure your instance is properly updated:
+&#x20;**** Run the following command to make sure your instance is properly updated:
 
 ```bash
 sudo yum update

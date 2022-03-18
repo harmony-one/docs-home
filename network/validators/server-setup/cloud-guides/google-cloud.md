@@ -8,7 +8,7 @@ description: To launch your Google Cloud instance, follow the steps below.
 Google Cloud has a free tier for new users. You get $300 to spend on Google Cloud Platform products during your first 12 months
 {% endhint %}
 
-## Step 1: Launching your Google Cloud Instance <a href="step-1-launching-your-google-cloud-instance" id="step-1-launching-your-google-cloud-instance"></a>
+## Step 1: Launching your Google Cloud Instance <a href="#step-1-launching-your-google-cloud-instance" id="step-1-launching-your-google-cloud-instance"></a>
 
 Go to [https://cloud.google.com/free](https://cloud.google.com/free) and click on “Get Started for Free”. Login using an existing account or create a new one.
 
@@ -26,7 +26,7 @@ We recommend to name it something like "pangaea” (the instance name cannot be 
 
 Keep everything default after you have configured the cores and memory.
 
-For the Boot Disk, we recommend the latest **LTS version of Ubuntu **(18.04 as of date of now). Change the boot disk size to the [minimum storage requirements](https://docs.harmony.one/home/validators/cloud-setup/minimum-requirements).
+For the Boot Disk, we recommend the latest **LTS version of Ubuntu** (18.04 as of date of now). Change the boot disk size to the [minimum storage requirements](https://docs.harmony.one/home/validators/cloud-setup/minimum-requirements).
 
 ![](https://blobs.gitbook.com/assets%2F-LlDqlxK8e45wuh1WH4h%2F-LmBR5kBgg9922w3-lIM%2F-LmBhv4-FTM\_WdWJGxhY%2Fcreateinstance.PNG?alt=media\&token=54639c2e-217d-41d1-8885-469919855bf4)
 
@@ -43,7 +43,7 @@ Once the instance is created. We will open 4 ingoing ports. To do this click on 
 
 ![](https://blobs.gitbook.com/assets%2F-LlDqlxK8e45wuh1WH4h%2F-LvzuQOmNvRXBWd1suxY%2F-LvzvhQqA76BwNmSY3AT%2Fports.jpg?alt=media\&token=160965b3-2b20-4a80-98f5-fc76f7da070d)
 
-## **Step 2: Connecting via SSH to your Instance** <a href="step-2-connecting-to-your-google-cloud-instance-and-copying-keys" id="step-2-connecting-to-your-google-cloud-instance-and-copying-keys"></a>
+## **Step 2: Connecting via SSH to your Instance** <a href="#step-2-connecting-to-your-google-cloud-instance-and-copying-keys" id="step-2-connecting-to-your-google-cloud-instance-and-copying-keys"></a>
 
 Go back to the VM instances page and click on SSH. This will open a new window and connect via SSH to your instance:
 

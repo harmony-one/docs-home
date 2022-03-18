@@ -25,23 +25,23 @@ For flow freely between Harmony and Ethereum blockchains you need to call these 
 
 3\) call `lockToken` smart contract method (_see smart contract methods section in the end_) for BUSD manager ethereum contract. You need to save generated transaction hash.
 
-4\) call **Confirm action API **with params (_see more params in API section_):&#x20;
+4\) call **Confirm action API** with params (_see more params in API section_):&#x20;
 
 * operationId - operation ID (generated on step 1)
 * transactionHash - `approveEthManager` transaction Hash (generated on step 2)
 * actionType = `approveEthManager`
 
-5\) call **Confirm action API **with params (_see more params in API section_):&#x20;
+5\) call **Confirm action API** with params (_see more params in API section_):&#x20;
 
 * operationId - operation ID (generated on step 1)
 * transactionHash - `lockToken` transaction Hash (generated on step 2)
 * actionType = `lockToken`
 
-6\) call **Get Operation Info API **with operation ID (generated on step 1) to get actual operation status (see status property).
+6\) call **Get Operation Info API** with operation ID (generated on step 1) to get actual operation status (see status property).
 
 Also you can monitoring each action status: see `operation -> actions`
 
-7\) Next steps**`Wait for finality`** and** `Mint tokens`** (on harmony side) - will be done automatically. You need only monitoring operation status (step 6).
+7\) Next steps**`Wait for finality`** and ** `Mint tokens`** (on harmony side) - will be done automatically. You need only monitoring operation status (step 6).
 
 {% hint style="info" %}
 For **Create operation API** and **Confirm action API** you need to call API for each validator from list.
@@ -55,7 +55,7 @@ For **Create operation API** and **Confirm action API** you need to call API for
 ]
 ```
 
-### ONE** -> ETH (BUSD)**
+### ONE **-> ETH (BUSD)**
 
 1\) call **Create operation API** with params (_see more params in API section_):&#x20;
 
@@ -70,23 +70,23 @@ For **Create operation API** and **Confirm action API** you need to call API for
 
 3\) call `burnToken` smart contract method (_see smart contract methods section in the end_) for BUSD manager harmony contract. You need to save generated transaction hash.
 
-4\) call **Confirm action API **with params (_see more params in API section_):&#x20;
+4\) call **Confirm action API** with params (_see more params in API section_):&#x20;
 
 * operationId - operation ID (generated on step 1)
 * transactionHash - `approveHmyManager` transaction Hash (generated on step 2)
 * actionType = `approveHmyManager`
 
-5\) call **Confirm action API **with params (_see more params in API section_):&#x20;
+5\) call **Confirm action API** with params (_see more params in API section_):&#x20;
 
 * operationId - operation ID (generated on step 1)
 * transactionHash - `burnToken` transaction Hash (generated on step 2)
 * actionType = `burnToken`
 
-6\) call **Get Operation Info API **with operation ID (generated on step 1) to get actual operation status (see status property).
+6\) call **Get Operation Info API** with operation ID (generated on step 1) to get actual operation status (see status property).
 
 Also you can monitoring each action status: see `operation -> actions`
 
-7\) Next step** `Unlock tokens`** (on ethereum side) - will be done automatically. You need only monitoring operation status (step 6).
+7\) Next step ** `Unlock tokens`** (on ethereum side) - will be done automatically. You need only monitoring operation status (step 6).
 
 {% hint style="info" %}
 For **Create operation API** and **Confirm action API** you need to call API for each validator from list.

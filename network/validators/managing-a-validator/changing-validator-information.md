@@ -29,13 +29,13 @@ The CLI will prompt you to enter your BLS key file password. Only the `--validat
 * `--name` to change the name displayed on the Staking Explorer **(string)**
 * `--identity` to change the identity field **(string)**
 * `--website` to change the website field **(string)**
-* `--details` to change the details field** (string)**
+* `--details` to change the details field **(string)**
 * `--security-contact` to change the security contact field **(string)**
-* `--rate` to change the current commission rate** (float)**
-* `--min-self-delegation` to change the minimum stake by the validator** (float)**
+* `--rate` to change the current commission rate **(float)**
+* `--min-self-delegation` to change the minimum stake by the validator **(float)**
 * `--max-total-delegation` to change the maximum stake that the validator can take **(float)**
-* `--remove-bls-key` to remove a BLS public key associated with your validator** (string)**
-* `--add-bls-key` to add another BLS public key to your validator** (string)**
+* `--remove-bls-key` to remove a BLS public key associated with your validator **(string)**
+* `--add-bls-key` to add another BLS public key to your validator **(string)**
 
 {% hint style="warning" %}
 When you add or remove keys from your validator (using`--add-bls-key` or `--remove-bls-key`) make sure to restart the harmony service so it accounts for the BLS keys you are using.

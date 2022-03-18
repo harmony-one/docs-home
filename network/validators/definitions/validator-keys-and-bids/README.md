@@ -7,7 +7,7 @@ A validator in Harmony blockchain is a single person or entity who stakes tokens
 To become a validator in Harmony, you will need to do the following:
 
 1. Setup a validator node(s) and let it fully synchronized with the latest blockchain.&#x20;
-2. Create an on-chain validator record by sending a **CreateValidator**_** **_transaction.&#x20;
+2. Create an on-chain validator record by sending a **CreateValidator **_****_ transaction.&#x20;
 3. Start validating using the node(s) with the BLS key(s) you added in your validator record
 
 There are many fields to configure for your validator. It’s worth clarifying some of the important fields in more detail:

@@ -34,7 +34,7 @@ Do NOT send bridged tokens directly to other blockchains or exchanges. This will
 
 ![](../../.gitbook/assets/horizon-bsc5.png)
 
-7\. The bridge action will begin and you will be asked multiple times to sign transactions using Metamask. Just click on **Confirm **for every action
+7\. The bridge action will begin and you will be asked multiple times to sign transactions using Metamask. Just click on **Confirm** for every action
 
 8\. If all went well, we have a successful bridge action.
 

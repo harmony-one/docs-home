@@ -6,7 +6,7 @@ Consensus protocols are creating new economies with tokens and trading. Smart co
 
 These early use cases are driven by the core value of blockchain: providing exchange and liquidity infrastructure for financial transactions. Harmony focuses on broader _financial products_ as they are [well validated with Ethereum](https://harmony.one/defi-data) and ready for mass adoption.
 
-**Why Cross-Border? **Open platforms_ _work locally but global users are the _most underserved_.
+**Why Cross-Border?** Open platforms __ work locally but global users are the _most underserved_.
 
 Finance products within one country are already [highly efficient and protected](https://www.saveonsend.com/blog/money-transfer-china/). On the other hand, purely on-chain #DeFi solutions without onramp gateways or local distribution have limited impact in real-word economies.
 
@@ -14,11 +14,11 @@ Harmony focuses on bridging high-growth economies in countries such as China and
 
 {% embed url="https://www.youtube.com/watch?v=0Ztq0nyD6Wk&feature=emb_imp_woyt" %}
 
-**Why Harmony? **Not only fast and secure, Harmony is _decentralized_ and guarantees _privacy_.
+**Why Harmony?** Not only fast and secure, Harmony is _decentralized_ and guarantees _privacy_.
 
 Ethereum’s short-term pains are [scalability and security](https://harmony.one/keynote), which Harmony has solved with sharding and proof-of-stake. The long-term value of open platforms is decentralization, which Harmony has committed to with thousands of nodes and [_open development_](https://medium.com/polkadot-network/polkadot-2019-year-in-review-8c852ef42668).
 
-[Private transactions](https://blog.coinbase.com/what-will-happen-to-cryptocurrency-in-the-2020s-d93746744a8f), similar to secure HTTP for the Internet, are essential to businesses and corporations. However, governments mandate audits and compliance. Harmony solves this dilemma by bringing _auditable privacy _to production.
+[Private transactions](https://blog.coinbase.com/what-will-happen-to-cryptocurrency-in-the-2020s-d93746744a8f), similar to secure HTTP for the Internet, are essential to businesses and corporations. However, governments mandate audits and compliance. Harmony solves this dilemma by bringing _auditable privacy_ to production.
 
 **How?** We are customer obsessed but must identify the _right customers_ and _external values_.
 
