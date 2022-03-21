@@ -6,4 +6,4 @@
 
 **For more information**: [https://onto.app/](https://onto.app)
 
-![](<../../../.gitbook/assets/image (288).png>)
+![](<../../../.gitbook/assets/image (288) (3).png>)

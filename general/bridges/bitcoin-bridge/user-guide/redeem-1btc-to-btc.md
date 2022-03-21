@@ -24,7 +24,7 @@ The external vault automatically picks up your redeem request and begins transfe
 
 Wait for a sufficient number of confirmations to be received for the transferred BTC.
 
-![](<../../../../.gitbook/assets/image (298) (1).png>)
+![](<../../../../.gitbook/assets/image (298) (1) (1).png>)
 
 {% hint style="info" %}
 You may close this window **above** and come back at a later time. Simply browse back to btc.harmony.one and click the "My Transactions" link on the left to check the status.
