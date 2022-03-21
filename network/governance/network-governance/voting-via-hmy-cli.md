@@ -2,7 +2,7 @@
 
 Make sure to read the introduction and rules [here](./) first.&#x20;
 
-To install HMY CLI head [here](../../wallets/harmony-cli/).
+To install HMY CLI head [here](../../../general/wallets/harmony-cli/).
 
 For a complete reference on all available commands for governance:
 

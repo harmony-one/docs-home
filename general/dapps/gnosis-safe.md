@@ -7,7 +7,7 @@ Gnosis Safe Application on Harmony: [https://multisig.harmony.one](https://multi
 
 ## Connect Wallet
 
-You can connect to Gnosis Safe using [Metamask](../../network/wallets/browser-extensions-wallets/metamask-wallet.md).
+You can connect to Gnosis Safe using [Metamask](../wallets/browser-extensions-wallets/metamask-wallet/).
 
 1\) Go to the Safe application on Harmony at [https://multisig.harmony.one](https://multisig.harmony.one) and click on **Connect Wallet**.
 

@@ -10,7 +10,7 @@ We have ported the widely known snapshot.page, which is an off-chain governance 
 
 [https://governance.harmony.one](https://governance.harmony.one)
 
-To interact with it, you need to connect your [One Wallet](../../wallets/browser-extensions-wallets/one-wallet.md) or [Metamask](../../wallets/browser-extensions-wallets/metamask-wallet.md), same as using Metamask on Ethereum. Note that you have to connect with the ONE address which is registered as a validator on the Harmony network and make sure you are on the latest OneWallet version, because older versions might not have support for voting. Once connected, you are able to create a proposal (if you are elected) and vote (no matter you are elected or unelected).
+To interact with it, you need to connect your [One Wallet](../../../general/wallets/browser-extensions-wallets/one-wallet.md) or [Metamask](../../../general/wallets/browser-extensions-wallets/metamask-wallet/), same as using Metamask on Ethereum. Note that you have to connect with the ONE address which is registered as a validator on the Harmony network and make sure you are on the latest OneWallet version, because older versions might not have support for voting. Once connected, you are able to create a proposal (if you are elected) and vote (no matter you are elected or unelected).
 
 ### Creating a proposal
 
