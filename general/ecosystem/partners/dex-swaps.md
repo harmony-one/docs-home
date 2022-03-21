@@ -18,11 +18,11 @@ DeFi Kingdoms is a game, a DEX, a liquidity pool opportunity, a market of rare u
 
 Tranquil is an algorithmic money market and liquid staking protocol for Harmony. It's now part of the Defira metaverse
 
-![](<../../../.gitbook/assets/image (18).png>)
+![](<../../../.gitbook/assets/image (18) (1).png>)
 
-![](<../../../.gitbook/assets/image (60).png>)
+![](<../../../.gitbook/assets/image (60) (2).png>)
 
 ## ViperSwap
 
-![](<../../../.gitbook/assets/image (27).png>)
+![](<../../../.gitbook/assets/image (27) (2).png>)
 

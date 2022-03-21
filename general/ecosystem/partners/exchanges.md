@@ -58,5 +58,5 @@ CoinDCX is the first hybrid crypto exchange. It's an all inclusive cryptocurrenc
 
 Bitrue is an exchange featuring token trading and lending, while aiming to enable access to fair financial services around the globe
 
-![](<../../../.gitbook/assets/image (88).png>)
+![](<../../../.gitbook/assets/image (88) (2).png>)
 
