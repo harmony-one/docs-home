@@ -16,7 +16,7 @@ Click the Confirm button in Metamask to sign the transaction on the Harmony netw
 
 Note you will be charged a Bitcoin network fee which is automatically taken from your issued BTC. This fee is not implemented by Harmony but is a transaction fee required on the Bitcoin blockchain.
 
-![](<../../../../.gitbook/assets/image (299) (1).png>)
+![](<../../../../.gitbook/assets/image (299) (1) (1).png>)
 
 **#4 | Wait for the BTC to be redeemed and transferred to your BTC address.**
 

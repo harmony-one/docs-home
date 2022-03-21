@@ -6,4 +6,4 @@
 
 **For more information**: [https://infinitywallet.io/mobile](https://infinitywallet.io/mobile)
 
-![](<../../../.gitbook/assets/image (298).png>)
+![](<../../../.gitbook/assets/image (299).png>)
