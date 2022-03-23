@@ -16,6 +16,8 @@ The reason for Harmony to be able to afford such low fee is twofold. First, Harm
 
 ## Cross-Shard Smart Contract Transaction
 
+The latest design is documented here: [https://gitlab.com/mukn/harmony1-proposal/-/blob/main/README.md](https://gitlab.com/mukn/harmony1-proposal/-/blob/main/README.md). The following design is deprecated.
+
 We will adopt the asynchronous cross-shard communication model just like we did for cross-shard ONE token transfer. Meaning any smart contract which needs to call another smart contract from another shard will have the sender contract transaction finalized first at initiating shard, then a receipt will be created including the call data, and finally the receipt will be sent and processed at the destination shard.
 
 A new Opcode “CALL2” will be added to the virtual machine which is used for a cross-shard smart contract call.&#x20;
