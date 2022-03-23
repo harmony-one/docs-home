@@ -104,7 +104,7 @@
     * [Trustee Wallet](general/wallets/mobile-wallets/trustee-wallet.md)
   * [Hardware Wallets](general/wallets/hardware-wallets/README.md)
     * [Trezor](general/wallets/hardware-wallets/trezor.md)
-    * [Ledger](general/wallets/hardware-wallets/ledger/README.md)
+    * [Ledger Nano](general/wallets/hardware-wallets/ledger/README.md)
       * [Ledger with Metamask](general/wallets/hardware-wallets/ledger/ledger-with-metamask.md)
       * [Download & Setup](general/wallets/hardware-wallets/ledger/download-and-setup.md)
       * [Ledger with HMY CLI](general/wallets/hardware-wallets/ledger/using-with-hmy-cli.md)
