@@ -277,6 +277,7 @@
   * [Oracles](developers/tools/oracles/README.md)
     * [Chainlink](developers/tools/oracles/chainlink.md)
     * [Band Protocol](developers/tools/oracles/oracle-band-protocol.md)
+  * [Covalent](developers/tools/covalent.md)
   * [Smart Contract Verification](developers/tools/smart-contract-verification.md)
   * [DaVinci SDK](developers/tools/davinci-sdk.md)
 * [DApp Examples](developers/showcases/README.md)
