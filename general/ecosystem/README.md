@@ -1,12 +1,10 @@
 # Ecosystem
 
-The Harmony team is focused on delivering a strong foundation for our network and ecosystem. We are grateful for the engagement and support of our validators, stakers, developers, grantees and collaborators for a fruitful year.
+The Harmony team is focused on delivering a strong foundation for our network and ecosystem. We are grateful for the engagement and support of our validators, developers, community members, grantees and collaborators. Our current ecosystem map as of February 2022 is below and only includes a portion of projects launched on the Harmony network.&#x20;
 
-Our current ecosystem map as of June 2021:
 
-![](<../../.gitbook/assets/ecosystem\_20.6.2021 copy (1) (1) (1) (1) (1) (1).png>)
 
-See below our 2020 Year in Review & Ecosystem Growth:
+See below our 2020 Year in Review & Ecosystem Growth:![](<../../.gitbook/assets/image (27).png>)
 
-{% embed url="https://medium.com/harmony-one/harmony-2020-year-in-review-ecosystem-growth-f414a86dbda9" %}
+{% embed url="https://blog.harmony.one/harmony-2021-year-in-review-december-updates-chainlink-dayone-ecosystem-growth" %}
 

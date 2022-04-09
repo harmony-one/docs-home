@@ -24,5 +24,5 @@ Tranquil is an algorithmic money market and liquid staking protocol for Harmony.
 
 ## ViperSwap
 
-![](<../../../.gitbook/assets/image (27) (2).png>)
+![](<../../../.gitbook/assets/image (27) (2) (1).png>)
 
