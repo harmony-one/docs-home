@@ -286,6 +286,7 @@
     * [Hack the Horizon](developers/showcases/hackathons/hack-the-horizon.md)
   * [Others](developers/showcases/other-showcases.md)
 * [Hackathon & Bounties](developers/hackathon-and-bounties.md)
+* [Node Providers](developers/node-providers.md)
 * [Tutorials](developers/tutorials/README.md)
   * [Deploying HRC20](developers/tutorials/deploying-hrc20.md)
   * [Deploying HRC721/NFT](developers/tutorials/deploying-hrc721-nft.md)
@@ -305,6 +306,8 @@
     * [Using NFT.storage](developers/tutorials/ipfs-filecoin/using-nftstorage.md)
   * [Using Explorer EndPoints](developers/tutorials/using-explorer-api.md)
   * [Publishing & Verifying Your Smart Contract](developers/tutorials/publishing-and-verifying-your-smart-contract.md)
+  * [Building a Simple Metaverse Contract](developers/tutorials/simple-metaverse-contract-with-chainstack.md)
+  * [Building a Simple Bridge with Ethereum](developers/tutorials/simple-bridge-with-ethereum.md)
 
 ## 🌏 Network
 
