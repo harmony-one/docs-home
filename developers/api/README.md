@@ -14,20 +14,20 @@ description: >-
 
 [JSON-RPC](https://en.wikipedia.org/wiki/JSON-RPC) is a remote procedure call protocol encoded in JSON. You can use this API to access data from the Harmony nodes. The JSON-RPC API server runs on:
 
-| Chains   | URLs                                                                                                                                                                                          |
-| -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| mainnet  | [https://api.s0.t.hmny.io](https://api.s0.t.hmny.io) or [https://api.harmony.one](https://api.harmony.one)                                                                                    |
-| testnet  | <p><a href="https://api.s0.b.hmny.io">https://api.s0.b.hmny.io</a>  or <a href="https://api.s0.pops.one">https://api.s0.pops.one</a> </p><p>(For Developers, Wallets, normal transaction)</p> |
-| testnet  | <p><a href="https://api.s0.backup1.b.hmny.io">https://api.s0.backup1.b.hmny.io</a> </p><p>(For indexers, bulk  transactions)</p>                                                              |
-| localnet | [http://localhost:9500](http://localhost:9500)                                                                                                                                                |
+| Chains   | URLs                                                                                                                                                                                                   |
+| -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| mainnet  | [https://api.s0.t.hmny.io](https://api.s0.t.hmny.io) or [https://api.harmony.one](https://api.harmony.one) or [https://harmony-mainnet.chainstacklabs.com](https://harmony-mainnet.chainstacklabs.com) |
+| testnet  | <p><a href="https://api.s0.b.hmny.io">https://api.s0.b.hmny.io</a> or <a href="https://api.s0.pops.one">https://api.s0.pops.one</a> </p><p>(For Developers, Wallets, normal transaction)</p>           |
+| testnet  | <p><a href="https://api.s0.backup1.b.hmny.io">https://api.s0.backup1.b.hmny.io</a> </p><p>(For indexers, bulk transactions)</p>                                                                        |
+| localnet | [http://localhost:9500](http://localhost:9500)                                                                                                                                                         |
 
 Web sockets can also be used
 
-| Chains   | URLs                                                                                             |
-| -------- | ------------------------------------------------------------------------------------------------ |
-| mainnet  | [wss://ws.s0.t.hmny.io](wss://ws.s0.t.hmny.io)                                                   |
-| testnet  | [wss://ws.s0.b.hmny.io](wss://ws.s0.pga.hmny.io) or [wss://ws.s0.pops.one](wss://ws.s0.pops.one) |
-| localnet | [wss://localhost:9800](./)                                                                       |
+| Chains   | URLs                                                                                                                                         |
+| -------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| mainnet  | [wss://ws.s0.t.hmny.io](wss://ws.s0.t.hmny.io) or [wss://ws-harmony-mainnet.chainstacklabs.com](wss://ws-harmony-mainnet.chainstacklabs.com) |
+| testnet  | [wss://ws.s0.b.hmny.io](wss://ws.s0.pga.hmny.io) or [wss://ws.s0.pops.one](wss://ws.s0.pops.one)                                             |
+| localnet | [wss://localhost:9800](./)                                                                                                                   |
 
 All requests follow the standard JSON-RPC format and include 4 variables in the data object:
 
@@ -37,8 +37,8 @@ All requests follow the standard JSON-RPC format and include 4 variables in the 
 | jsonrpc | "2.0" | Specifies version number |
 | ------- | ----- | ------------------------ |
 
-| method | "hmy\_getBalance" | Method to be called server-side |
-| ------ | ----------------- | ------------------------------- |
+| method | "hmy_getBalance" | Method to be called server-side |
+| ------ | ---------------- | ------------------------------- |
 
 | params | \["0xD7Ff...24Cf2d", "latest"] | Parameters for method call |
 | ------ | ------------------------------ | -------------------------- |
