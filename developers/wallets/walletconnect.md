@@ -2,9 +2,10 @@
 
 [WalletConnect](https://walletconnect.com) is standard api widely used by Trustwallet, Binance, Kava, and other apps to connect mobile wallet with Dapps.
 
-Most existing connect works with a minor modification: allow support for Harmony chainId. (example [Viperswap PR](https://github.com/VenomProtocol/venomswap-interface/pull/36))
+Most existing connect works with a minor modification: allow support for Harmony `ChainId`. (example [Viperswap PR](https://github.com/VenomProtocol/venomswap-interface/pull/36))
 
 ### Adding Harmony chains
+
 ```
 export const walletconnect = new WalletConnectConnector({
   rpc: {
@@ -21,7 +22,7 @@ export const walletconnect = new WalletConnectConnector({
 })
 ```
 
-### Full Dapp implementation
+### Full dApp implementation
 
 Follow the tutorials on https://docs.walletconnect.com for the respective platform.
 
