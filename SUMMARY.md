@@ -286,7 +286,7 @@
     * [Hack the Horizon](developers/showcases/hackathons/hack-the-horizon.md)
   * [Others](developers/showcases/other-showcases.md)
 * [Hackathon & Bounties](developers/hackathon-and-bounties.md)
-* [Node Providers](developers/node-providers.md)
+* [RPC Node Providers](developers/node-providers.md)
 * [Tutorials](developers/tutorials/README.md)
   * [Deploying HRC20](developers/tutorials/deploying-hrc20.md)
   * [Deploying HRC721/NFT](developers/tutorials/deploying-hrc721-nft.md)
