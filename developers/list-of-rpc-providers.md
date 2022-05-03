@@ -34,6 +34,8 @@ For example, [Chainstack](list-of-rpc-providers.md#chainstack) has a 3 million p
 
 {% embed url="https://talk.harmony.one/t/partners-chainstack/5736" %}
 
+{% embed url="https://talk.harmony.one/t/testnet-and-devnet-hosting-automation-and-operations-by-chainstack/14380" %}
+
 ## Pocket Networks
 
 ### Announcement
