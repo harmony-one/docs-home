@@ -1,15 +1,6 @@
----
-description: >-
-  This tutorial provide developers a way to request a browser on a user's device
-  to add (or switch to) the Harmony chain's network.  This as, provided that
-  Metamask browser extension have been installed
----
+# Add or Switch to Harmony chain on Metamask
 
-# Automatically Add Harmony chain to Metamask wallet
-
-This tutorial help developers to interact with Metamask installed on a user's device, to add (or switch to) the Harmony chain's network. The pre-requisite is that Metamask browser extension/add-on must be available and visible to your app (website).
-
-To see a full list of Chain IDs, please visit [https://chainlist.org/](https://chainlist.org) and search for `Harmony`
+This tutorial help developers to interact with Metamask installed on a user's device, to add (or switch to) the Harmony chain's network. The pre-requisite is that Metamask browser extension/add-on must be available and visible to your app (e.g. website).
 
 ```javascript
 // Harmony's Shard ID {0..3}
@@ -43,3 +34,5 @@ Please note that `window.web3` has been [deprecated](https://docs.metamask.io/gu
 {% endhint %}
 
 You can see more information about Metamask documentation related to the Ethereum Provider API at [https://docs.metamask.io/guide/ethereum-provider.html](https://docs.metamask.io/guide/ethereum-provider.html)
+
+To see a full list of Chain IDs, please visit [https://chainlist.org/](https://chainlist.org) and search for `Harmony`

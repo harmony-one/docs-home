@@ -254,7 +254,7 @@
   * [Metamask](developers/wallets/metamask/README.md)
     * [Interacting With Metamask](developers/wallets/metamask/interacting-with-metamask.md)
     * [Using Metamask with Harmony Smart Contracts](developers/wallets/metamask/using-metamask-with-harmony-smart-contracts.md)
-    * [Automatically Add Harmony chain to Metamask wallet](developers/wallets/metamask/connect-metamask-to-the-harmony-chain.md)
+    * [Add or Switch to Harmony chain on Metamask](developers/wallets/metamask/add-or-switch-to-harmony-chain-on-metamask.md)
   * [Harmony Chrome Extension Wallet](developers/wallets/onewallet.md)
   * [Math Wallet](developers/wallets/mathwallet.md)
   * [WalletConnect](developers/wallets/walletconnect.md)
