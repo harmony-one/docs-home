@@ -7,19 +7,19 @@ description: >-
 # API
 
 {% hint style="success" %}
-**Complete documentation for Harmony's API's production API's can be found** [**here**](https://api.hmny.io/?version=latest) **including sample code and curl commands and code.**&#x20;
+**Complete documentation for Harmony's API's production API's can be found** [**here**](https://api.hmny.io/?version=latest) **including sample code and curl commands and code.**
 {% endhint %}
 
 ## Development Environments
 
 [JSON-RPC](https://en.wikipedia.org/wiki/JSON-RPC) is a remote procedure call protocol encoded in JSON. You can use this API to access data from the Harmony nodes. The JSON-RPC API server runs on:
 
-| Chains   | URLs                                                                                                                                                                                                   |
-| -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| mainnet  | [https://api.s0.t.hmny.io](https://api.s0.t.hmny.io) or [https://api.harmony.one](https://api.harmony.one) or [https://harmony-mainnet.chainstacklabs.com](https://harmony-mainnet.chainstacklabs.com) |
-| testnet  | <p><a href="https://api.s0.b.hmny.io">https://api.s0.b.hmny.io</a> or <a href="https://api.s0.pops.one">https://api.s0.pops.one</a> </p><p>(For Developers, Wallets, normal transaction)</p>           |
-| testnet  | <p><a href="https://api.s0.backup1.b.hmny.io">https://api.s0.backup1.b.hmny.io</a> </p><p>(For indexers, bulk transactions)</p>                                                                        |
-| localnet | [http://localhost:9500](http://localhost:9500)                                                                                                                                                         |
+| Chains   | URLs                                                                                                                                                                                                                                                  |
+| -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| mainnet  | <p><a href="https://api.s0.t.hmny.io">https://api.s0.t.hmny.io</a> or <a href="https://api.harmony.one">https://api.harmony.one</a> or </p><p><a href="https://harmony-mainnet.chainstacklabs.com">https://harmony-mainnet.chainstacklabs.com</a></p> |
+| testnet  | <p><a href="https://api.s0.b.hmny.io">https://api.s0.b.hmny.io</a> or <a href="https://api.s0.pops.one">https://api.s0.pops.one</a></p><p>(For Developers, Wallets, normal transaction)</p>                                                           |
+| testnet  | <p><a href="https://api.s0.backup1.b.hmny.io">https://api.s0.backup1.b.hmny.io</a></p><p>(For indexers, bulk transactions)</p>                                                                                                                        |
+| localnet | [http://localhost:9500](http://localhost:9500)                                                                                                                                                                                                        |
 
 Web sockets can also be used
 
@@ -30,18 +30,6 @@ Web sockets can also be used
 | localnet | [wss://localhost:9800](./)                                                                                                                   |
 
 All requests follow the standard JSON-RPC format and include 4 variables in the data object:
-
-| Request Data Object | Example | Purpose |
-| ------------------- | ------- | ------- |
-
-| jsonrpc | "2.0" | Specifies version number |
-| ------- | ----- | ------------------------ |
-
-| method | "hmy_getBalance" | Method to be called server-side |
-| ------ | ---------------- | ------------------------------- |
-
-| params | \["0xD7Ff...24Cf2d", "latest"] | Parameters for method call |
-| ------ | ------------------------------ | -------------------------- |
 
 ### Key Differences between Harmony and Ethereum
 
