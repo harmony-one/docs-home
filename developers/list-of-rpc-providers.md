@@ -2,12 +2,12 @@
 description: Below is a lists of Harmony RPC Node Providers partnered with Harmony
 ---
 
-# RPC Providers
+# List of RPC Providers
 
-Before we get to the API topics, check out some of the RPC providers which you can review and setup your dedicated JSON-RPC endpoints ahead of time, to be used by your app.  The endpoints are either free-to-use or have a generous allowance\*, where developers can focus on developing apps, rather than setting up a blockchain infrastructure.
+Before we get to the SDK and API topics, check out this list of RPC providers which you can review and setup your dedicated JSON-RPC endpoints ahead of time, to be used by your app.  The endpoints are either free-to-use or have a generous allowance\*, where developers can focus on developing apps, rather than setting up a blockchain infrastructure.
 
 {% hint style="info" %}
-For example, [Chainstack](node-providers.md#chainstack) has a 3 million per month RPC call limit
+For example, [Chainstack](list-of-rpc-providers.md#chainstack) has a 3 million per month RPC call limit
 {% endhint %}
 
 ## Chainstack
