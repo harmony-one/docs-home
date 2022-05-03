@@ -18,7 +18,7 @@ try {
     params: [
       {
         chainId: '0x' + Number(1666600000 + shardId).toString(16),
-        chainName: "Harmony Mainnet Shard " + shardId,
+        chainName: 'Harmony Mainnet Shard ' + shardId,
         nativeCurrency: { name: 'ONE', symbol: 'ONE', decimals: 18 },
         rpcUrls: ['https://' + (shardId === 0 ? 'api.harmony.one' : 'api.s' + shardId + '.t.hmny.io')],
         blockExplorerUrls: ['https://explorer.harmony.one/'],
