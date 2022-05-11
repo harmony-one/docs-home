@@ -27,6 +27,10 @@ For example, [Chainstack](list-of-rpc-providers.md#chainstack) has a 3 million p
 * Nodes aggregated from Ankr, Pocket, and Harmony for improved decentralization 
 * High Rate Limits 
 
+### Instructions
+
+* RPC support available on the Ankr Discord: [join](https://discord.gg/zm5bZ9wgFm)
+
 
 ## Chainstack
 
