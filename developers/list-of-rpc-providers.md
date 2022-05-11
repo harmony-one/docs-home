@@ -29,7 +29,7 @@ For example, [Chainstack](list-of-rpc-providers.md#chainstack) has a 3 million p
 
 ### Instructions
 
-* RPC support available on the Ankr Discord: [join](https://discord.gg/zm5bZ9wgFm)
+* RPC support available on the [Ankr Discord](https://discord.gg/zm5bZ9wgFm)
 
 
 ## Chainstack
