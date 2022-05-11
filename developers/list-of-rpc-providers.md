@@ -10,6 +10,24 @@ Before we get to the SDK and API topics, check out this list of RPC providers wh
 For example, [Chainstack](list-of-rpc-providers.md#chainstack) has a 3 million per month RPC call limit
 {% endhint %}
 
+## Ankr
+
+### Announcement 
+
+{% embed url="https://twitter.com/ankr/status/1519768417934454784" %}
+
+{% embed url="https://www.ankr.com/protocol/public/harmony/" %}
+
+
+### Features
+
+* Public RPC Endpoint: [https://rpc.ankr.com/harmony](https://rpc.ankr.com/harmony)
+* Archive Support
+* Automatic geo-routing across North America, Europe, Asia for fast requests
+* Nodes aggregated from Ankr, Pocket, and Harmony for improved decentralization 
+* High Rate Limits 
+
+
 ## Chainstack
 
 ### Announcement
