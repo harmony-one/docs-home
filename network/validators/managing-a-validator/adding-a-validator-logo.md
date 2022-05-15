@@ -4,9 +4,9 @@ description: Upload a custom logo to be displayed on your Staking Dashboard prof
 
 # Adding A Validator Logo
 
-### &#x20;Option 1: Using Keybase (Recommended) <a href="using-keybase-recommended" id="using-keybase-recommended"></a>
+### &#x20;Option 1: Using Keybase (Recommended) <a href="#using-keybase-recommended" id="using-keybase-recommended"></a>
 
-1. Login to your [Keybase](https://keybase.io) account or create a new one.
+1. Login to your [Keybase](https://keybase.io/) account or create a new one.
 2. On your profile, if you don't have a PGP key set yet, just click on "Add a PGP key" to create or import an existing one.
 3. Once you have created it just click on it like it is shown on the example below:
 
@@ -28,7 +28,7 @@ Use the following command to update your validator identity with the keybase fin
 
 Enter the passphrase when prompted. Just wait 10 min and your Keybase profile picture will automatically be used for your validator image on the Staking Dashboard!
 
-### Option 2: Using Github (Deprecated) <a href="uploading-a-custom-logo" id="uploading-a-custom-logo"></a>
+### Option 2: Using Github (Deprecated) <a href="#uploading-a-custom-logo" id="uploading-a-custom-logo"></a>
 
 {% hint style="warning" %}
 This option will be deprecated and is not recommended anymore. For now, we still maintain compatibility with it, but we urge users to migrate to Option 1: Using Keybase.

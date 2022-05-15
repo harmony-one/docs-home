@@ -12,7 +12,7 @@ Do NOT send bridged tokens directly to other blockchains or exchanges. This will
 
 ### Swapping BSC > ONE Tokens
 
-1\. Head over to [bridge.harmony.one](https://bridge.harmony.one)
+1\. Head over to [bridge.harmony.one](https://bridge.harmony.one/)
 
 ![](../../../.gitbook/assets/horizon-bsc1.png)
 

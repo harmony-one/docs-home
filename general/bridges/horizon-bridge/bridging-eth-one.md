@@ -12,7 +12,7 @@ Do NOT send bridged tokens directly to other blockchains or exchanges. This will
 
 ### Connecting Wallets
 
-Access the Horizon Bridge web page: [https://bridge.harmony.one/](https://bridge.harmony.one)
+Access the Horizon Bridge web page: [https://bridge.harmony.one/](https://bridge.harmony.one/)
 
 Click on button **Connect Metamask**. A pop-up page will appear for you to confirm which wallet you want to connect from. Selected the desired wallet, click on _Next_ and then _Connect_. Click now on **Connect ONE Wallet**. A pop-up page will appear for you to confirm which wallet you want to connect from. Select the desired wallet and click on _Accept_.
 

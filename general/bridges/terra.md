@@ -2,7 +2,7 @@
 description: Using Terra <-> Harmony Bridge
 ---
 
-# Bridge Terra UST
+# Terra Bridge
 
 ## Assumptions
 
@@ -21,7 +21,7 @@ description: Using Terra <-> Harmony Bridge
 
 ## Bridging UST from Terra to Harmony
 
-Step 1: Navigate to [https://bridge.terra.money/](https://bridge.terra.money) in your browser.&#x20;
+Step 1: Navigate to [https://bridge.terra.money/](https://bridge.terra.money/) in your browser.&#x20;
 
 ![Click Connect](<../../.gitbook/assets/image (262).png>)
 
@@ -114,7 +114,7 @@ At this point, you should have received UST back in your Terra wallet.
     * [https://explorer.harmony.one/address/0x224e64ec1bdce3870a6a6c777edd450454068fec](https://explorer.harmony.one/address/0x224e64ec1bdce3870a6a6c777edd450454068fec)
 
 
-* **Can I bridge UST from Ethereum or BSC using Horizon bridge (https://bridge.harmony.one) to obtain UST from **[**https://explorer.harmony.one/address/0x224e64ec1bdce3870a6a6c777edd450454068fec**](https://explorer.harmony.one/address/0x224e64ec1bdce3870a6a6c777edd450454068fec)** contract?**
+* **Can I bridge UST from Ethereum or BSC using Horizon bridge (https://bridge.harmony.one) to obtain UST from** [**https://explorer.harmony.one/address/0x224e64ec1bdce3870a6a6c777edd450454068fec**](https://explorer.harmony.one/address/0x224e64ec1bdce3870a6a6c777edd450454068fec) **contract?**
   * No. The horizon bridge issues different UST tokens when bridged from Ethereum and BSC and it is not same the UST bridged using native terra<>harmony bridge.&#x20;
     * The 1UST token address for UST bridged from Ethereum: [https://explorer.harmony.one/address/0x2BfA122427085E0D1993CCcf1F74A4C915908F7B](https://explorer.harmony.one/address/0x2BfA122427085E0D1993CCcf1F74A4C915908F7B)
     *   The bscUST token address for UST bridged from BSC:

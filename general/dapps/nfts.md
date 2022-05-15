@@ -6,7 +6,7 @@ Several NFT platforms and campaigns have been launched on Harmony. The Harmony c
 
 ## daVinci Marketplace
 
-daVinci is a NFT marketplace that supports the creation, buying and selling of NFTs minted on Harmony. You may access the marketplace here:  [https://davinci.gallery/](https://davinci.gallery)&#x20;
+daVinci is a NFT marketplace that supports the creation, buying and selling of NFTs minted on Harmony. You may access the marketplace here:  [https://davinci.gallery/](https://davinci.gallery/)&#x20;
 
 [Documentation and FAQs ](https://davincigalleryone.gitbook.io/davinci-gallery/)
 
@@ -22,13 +22,13 @@ The Centipede series, created by the legendary Dona Bailey, carry a special spir
 
 {% embed url="https://twitter.com/harmonyprotocol/status/1377411435538513923?s=20" %}
 
-## Animoca [Beast Quest](https://bquh.io)
+## Animoca [Beast Quest](https://bquh.io/)
 
 Beast Quest, Animoca Brands and Harmony Protocol have teamed up for this exclusive offer! Buy limited edition chests containing gems, VIP points & NFT collectible cards. Collect a set to win Harmony ONE tokens!
 
 {% embed url="https://twitter.com/harmonyprotocol/status/1350129975064596480?s=20" %}
 
-## [LMA](https://lma-art-gallery.com) Art Gallery
+## [LMA](https://lma-art-gallery.com/) Art Gallery
 
 LMA is a marketplace for the trading of unique non-fungible tokens (NFTs) art cards on Harmony Network.
 

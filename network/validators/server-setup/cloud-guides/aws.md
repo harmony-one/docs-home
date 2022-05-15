@@ -6,7 +6,7 @@ description: To launch your AWS instance, follow the steps below.
 
 ## Step 1: Launching your AWS Node <a href="#step-1-launching-your-aws-node" id="step-1-launching-your-aws-node"></a>
 
-**1.** If you don’t already have an AWS account, register one at [https://aws.amazon.com](https://aws.amazon.com).
+**1.** If you don’t already have an AWS account, register one at [https://aws.amazon.com](https://aws.amazon.com/).
 
 **2.** Once you have set up and logged into your AWS account, click on the top left bar “Services -> Compute -> EC2".
 

@@ -8,7 +8,7 @@ description: To launch your Vultr instance, follow the steps below.
 
 ### Logging into Vultr <a href="#logging-into-vultr" id="logging-into-vultr"></a>
 
-​First, go to the [Vultr Main Page](https://www.vultr.com). If you don’t already have an Vultr account, register one by clicking on "Sign up". Otherwise, log into your Vultr Account by clicking on "Sign in".
+​First, go to the [Vultr Main Page](https://www.vultr.com/). If you don’t already have an Vultr account, register one by clicking on "Sign up". Otherwise, log into your Vultr Account by clicking on "Sign in".
 
 ![](<../../../../.gitbook/assets/image (134).png>)
 

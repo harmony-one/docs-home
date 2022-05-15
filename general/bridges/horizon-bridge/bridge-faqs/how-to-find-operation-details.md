@@ -2,7 +2,7 @@
 
 ### Operation page
 
-If you perform your operation on [bridge.harmony.one](https://bridge.harmony.one), you see something like this:
+If you perform your operation on [bridge.harmony.one](https://bridge.harmony.one/), you see something like this:
 
 ![operation\_page.png](../../../../.gitbook/assets/operation\_page.png)
 

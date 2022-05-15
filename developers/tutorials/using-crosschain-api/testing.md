@@ -20,7 +20,7 @@ In order to test the API, you need to complete the following checklist:
 
 ### Getting Harmony's ONE token
 
-* You can get these tokens from the [Harmony testnet faucet](https://faucet.pops.one)
+* You can get these tokens from the [Harmony testnet faucet](https://faucet.pops.one/)
 
 ### Getting Harmony's BUSD and bscBUSD bridged tokens
 

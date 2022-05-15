@@ -10,7 +10,7 @@ Rclone db snapshot is sync'ed with blockchain frequently. However, there maybe a
 
 ### 1. Installing Rclone
 
-For installing Rclone, please follow the instructions at [https://rclone.org](https://rclone.org).
+For installing Rclone, please follow the instructions at [https://rclone.org](https://rclone.org/).
 
 TL;DR, on a Linux system, you may run the following command.
 

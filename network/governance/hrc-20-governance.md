@@ -29,7 +29,7 @@ Rules and guidelines: Anyone can create a proposal that hold the correlated HRC-
 
 ## Creating a Proposal&#x20;
 
-To create a proposal navigate to the [governance app](https://governance.harmony.one), connect your [One Wallet ](../../general/wallets/browser-extensions-wallets/one-wallet.md)or [MetaMask](../../general/wallets/browser-extensions-wallets/metamask-wallet/), then click on New proposal on the top right corner. You can now start writing a new proposal:
+To create a proposal navigate to the [governance app](https://governance.harmony.one/), connect your [One Wallet ](../../general/wallets/browser-extensions-wallets/one-wallet.md)or [MetaMask](../../general/wallets/browser-extensions-wallets/metamask-wallet/), then click on New proposal on the top right corner. You can now start writing a new proposal:
 
 ![](../../.gitbook/assets/governance-hrc20-2.png)
 

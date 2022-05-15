@@ -8,7 +8,7 @@
 * Discord: [harmony.one/discord](https://harmony.one/discord)
 * Twitter: [harmony.one/twitter](https://harmony.one/twitter)
 * Medium: [harmony.one/medium](https://medium.com/harmony-one)
-* Forum: [talk.harmony.one](https://talk.harmony.one)
+* Forum: [talk.harmony.one](https://talk.harmony.one/)
 * Instagram: [harmony.one/instagram](https://harmony.one/instagram)
 * Facebook: [harmony.one/facebook](https://harmony.one/facebook)
 * Youtube: [harmony.one/youtube](https://harmony.one/youtube)

@@ -1,6 +1,6 @@
 # Using Web3
 
-This guide walks you through the process of using the Solidity compiler and [web3.js](https://web3js.readthedocs.io) to deploy and interact with a Solidity-based smart contract on Harmony. Given Harmony's Ethereum compatibility features, the web3.js library can be used directly with a Harmony node.
+This guide walks you through the process of using the Solidity compiler and [web3.js](https://web3js.readthedocs.io/) to deploy and interact with a Solidity-based smart contract on Harmony. Given Harmony's Ethereum compatibility features, the web3.js library can be used directly with a Harmony node.
 
 Completed code can be found [here.](https://github.com/harmony-one/Smart-Contract-Demo/tree/master/Web3-deployment)
 

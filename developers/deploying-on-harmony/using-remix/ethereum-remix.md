@@ -1,6 +1,6 @@
 # Ethereum Remix
 
-Go to [https://remix.ethereum.org/](https://remix.ethereum.org)
+Go to [https://remix.ethereum.org/](https://remix.ethereum.org/)
 
 ### Writing your smart contract
 

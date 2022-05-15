@@ -4,7 +4,7 @@ description: Best Crypto Wallet for Billions
 
 # 1Wallet
 
-* [Demo on Harmony Mainnet](https://1wallet.crazy.one)
+* [Demo on Harmony Mainnet](https://1wallet.crazy.one/)
 * [Harmony's Wallet Strategy](https://twitter.com/stse/status/1390810619834638336)
 * [Tweets on Updates and News](https://twitter.com/1wallet\_)
 * [Research on Keyless Wallet](https://twitter.com/dionyziz/status/1400005462028914690)
@@ -19,21 +19,21 @@ description: Best Crypto Wallet for Billions
 
 🤯 MAGIC
 
-* Earn [20% annual interests](https://twitter.com/terra_money/status/1372140986822914050) for the first million users.
+* Earn [20% annual interests](https://twitter.com/terra\_money/status/1372140986822914050) for the first million users.
 * No emails, SMS, passwords or government documents necessary.
 * Seamless between assets from Bitcoin, Ethereum or [any networks](https://harmony.one/bridge).
 
 🔨 HOW
 
-* Many [staking protocols](http://staking.harmony.one) offer 10% yields, [lending protocols](https://twitter.com/stse/status/1381292506898333696) offer 10%, and [liquidity pools](https://defipulse.com) offer 20%.
+* Many [staking protocols](http://staking.harmony.one/) offer 10% yields, [lending protocols](https://twitter.com/stse/status/1381292506898333696) offer 10%, and [liquidity pools](https://defipulse.com/) offer 20%.
 * Assets and keys are secured on blockchain; [only need Google Authenticator](https://twitter.com/stse/status/1373457002215534593) and [social recovery](https://www.argent.xyz/blog/a-new-era-for-crypto-security/).
 * Harmony supports non-custodial and trustless transactions in 2 seconds and at less than $0.01 fees.
 
-💪 WHO: Ph.D.s, [ex-Google developers](https://harmony.one/xoogler), formal verification as security audit, [top branding agency](https://twitter.com/stse/status/1376243579920674817), [builders of](https://timeless.space) billion user products.
+💪 WHO: Ph.D.s, [ex-Google developers](https://harmony.one/xoogler), formal verification as security audit, [top branding agency](https://twitter.com/stse/status/1376243579920674817), [builders of](https://timeless.space/) billion user products.
 
-🔥 WHERE: The Future of Money is already here but unevenly distributed. Decades of cryptography, [best research](https://dionyziz.com) in production.
+🔥 WHERE: The Future of Money is already here but unevenly distributed. Decades of cryptography, [best research](https://dionyziz.com/) in production.
 
-🚀 WHEN: Product launch in 2021 Q3 with 1000 users, then 10k users in Q4 with each wallet holding $1000. A prototype with minimal features on mainnet in July. 
+🚀 WHEN: Product launch in 2021 Q3 with 1000 users, then 10k users in Q4 with each wallet holding $1000. A prototype with minimal features on mainnet in July.&#x20;
 
 💡 Terms
 

@@ -10,7 +10,7 @@ description: >-
 
 Let us first create a simple HRC20 token with name "Gold" and symbol "GLD" with default 18 decimals.
 
-1\. Launch [Remix](https://remix.ethereum.org) and create a new file with name GLDToken.sol and copy paste the code below.
+1\. Launch [Remix](https://remix.ethereum.org/) and create a new file with name GLDToken.sol and copy paste the code below.
 
 ![](../../.gitbook/assets/new-file.png)
 

@@ -4,7 +4,7 @@ description: This section helps validators ramp up about Harmony staking
 
 # Terms & Concepts
 
-For those validators or delegators who would like to join [Harmony Open Staking](http://staking.harmony.one), this section will help you get started and learn about how everything works.&#x20;
+For those validators or delegators who would like to join [Harmony Open Staking](http://staking.harmony.one/), this section will help you get started and learn about how everything works.&#x20;
 
 The following links can also help you better understand Harmony's staking mechanism and token economics.
 

@@ -13,7 +13,7 @@ Harmony network is fully supported on [Snapshot.org](https://snapshot.org/#/?net
 For more information about the steps required to created a space, follow the instructions in this video.
 
 {% hint style="info" %}
-Note: In order to create a Snapshot space, you will need to own or purchase an [ENS name](https://app.ens.domains) with ETH. Once configured, you will be able to create a space under Harmony Network.
+Note: In order to create a Snapshot space, you will need to own or purchase an [ENS name](https://app.ens.domains/) with ETH. Once configured, you will be able to create a space under Harmony Network.
 {% endhint %}
 
 {% embed url="https://www.youtube.com/watch?v=oa6WCvnWLBc" %}

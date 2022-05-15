@@ -4,7 +4,7 @@ description: This page describes a simple example of using horizon bridge sdk.
 
 # JS SDK
 
-Horizon is Harmony's Ethereum bridge that can be used to bridge any ERC20, ERC721, and ETH from Ethereum to Harmony. Also, Harmony tokens like native ONE and HRC20 tokens can be bridged over to Ethereum. The mainnet bridge can be found in [https://bridge.harmony.one/](https://bridge.harmony.one) and testnet in [https://testnet.bridge.hmny.io/](https://testnet.bridge.hmny.io). General usage guide is provided in [Horizon guide](https://docs.harmony.one/home/general/horizon-bridge). The purpose of this doc is to use Horizon bridge SDK to bridge.
+Horizon is Harmony's Ethereum bridge that can be used to bridge any ERC20, ERC721, and ETH from Ethereum to Harmony. Also, Harmony tokens like native ONE and HRC20 tokens can be bridged over to Ethereum. The mainnet bridge can be found in [https://bridge.harmony.one/](https://bridge.harmony.one/) and testnet in [https://testnet.bridge.hmny.io/](https://testnet.bridge.hmny.io/). General usage guide is provided in [Horizon guide](https://docs.harmony.one/home/general/horizon-bridge). The purpose of this doc is to use Horizon bridge SDK to bridge.
 
 Horizon also supports bridging to Binance Smart Chain (BSC), however the BSC bridge sdk is still under development and should be available soon.
 

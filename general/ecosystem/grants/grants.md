@@ -6,7 +6,7 @@ As part of the [$300M Ecosystem Fund](https://harmony.one/grants) for Launch Gra
 
 The following are showcase of grantees prior to the Sep 2021 [$300M Ecosystem Fund](https://harmony.one/grants)
 
-## [Ript](https://ript.io)
+## [Ript](https://ript.io/)
 
 Ript is a decentralized dApp warehouse. Building and supporting decentralized applications, in the future to be dozens, unlike other decentralized applications all of the applications are 100% decentralized.
 
@@ -20,7 +20,7 @@ Ript is a decentralized dApp warehouse. Building and supporting decentralized ap
 
 ![](<../../../.gitbook/assets/the contractor with abi.PNG>)
 
-## [Jelly Swap](https://jelly.market)
+## [Jelly Swap](https://jelly.market/)
 
 Jelly Swap is a platform that offers peer to peer cross chain atomic swaps.
 
@@ -34,7 +34,7 @@ Jelly Swap is a platform that offers peer to peer cross chain atomic swaps.
 
 ![](<../../../.gitbook/assets/jelly swap ui one.PNG>)
 
-## [UniFi](https://unifiprotocol.com)
+## [UniFi](https://unifiprotocol.com/)
 
 Sesameseed is a blockchain community and a trusted digital asset staking organization that started with a grassroots call to action to the community in April 2018.
 
@@ -64,7 +64,7 @@ Moneyhome offers instant cross-border payments using stablecoins such as BUSD, s
 
 ![](<../../../.gitbook/assets/moneyhome grant.jpg>)
 
-## [Vivo](https://www.vivopay.me)
+## [Vivo](https://www.vivopay.me/)
 
 Vivo is the easiest ONE wallet for iphone, ipad and mac; used by consumers to pay each other, a la venmo.
 
@@ -76,7 +76,7 @@ Vivo is the easiest ONE wallet for iphone, ipad and mac; used by consumers to pa
 
 ![](<../../../.gitbook/assets/vivo wireframe 1.jpg>)
 
-## [Smartstake](https://harmony.smartstake.io)
+## [Smartstake](https://harmony.smartstake.io/)
 
 Smartstake created a responsive web application and telegram bot for assessing validator performance, delegations, rewards, rewards history, and network health.
 
@@ -88,7 +88,7 @@ Smartstake created a responsive web application and telegram bot for assessing v
 
 ![](<../../../.gitbook/assets/smartstake dashboard.PNG>)
 
-## [Staking4All](https://www.staking4all.org)
+## [Staking4All](https://www.staking4all.org/)
 
 Staking4All is a proof of stake validator that provides validator services on several blockchains where hodlers can stake their tokens.
 
@@ -102,7 +102,7 @@ Desktop wallet with staking to delegate/undelegate and claim rewards.
 
 ![](<../../../.gitbook/assets/staking4all ui.PNG>)
 
-## [hMoney](https://hmoney.one)
+## [hMoney](https://hmoney.one/)
 
 hMoney is a mobile wallet with ONE and hrc20 support, qr code support and walletconnect api. Also incorporates staking, delegating, rewards claim features. hMoney will integrate DeFi protocols and other dApps built on Harmony.&#x20;
 
@@ -114,7 +114,7 @@ hMoney is a mobile wallet with ONE and hrc20 support, qr code support and wallet
 
 ![](<../../../.gitbook/assets/hmoney wallet.png>)
 
-## [Blits](https://blits.net)
+## [Blits](https://blits.net/)
 
 Blits is a DEFI "Super App" with native support for cross-chain non-custodial loans with the objective of creating interoperability and liquidity from legacy blockchains to newer ones like Harmony’s. Blits aims to be the bridge between Centralized Finance (CEFI) and Decentralized Finance (DEFI).
 
@@ -126,7 +126,7 @@ Blits is a DEFI "Super App" with native support for cross-chain non-custodial lo
 
 ![](<../../../.gitbook/assets/blits website homepage.PNG>)
 
-## [The Defiant](https://thedefiant.substack.com)
+## [The Defiant](https://thedefiant.substack.com/)
 
 DeFi 101 is a self-contained 'primer' series of 30 videos, 60-seconds each aimed at people coming into DeFi for the first time.
 
@@ -138,7 +138,7 @@ Camila Russo (Founder, The Defiant)
 
 {% embed url="https://www.youtube.com/watch?v=f4HMSiEZBTs" %}
 
-## [Everstake](https://everstake.one)
+## [Everstake](https://everstake.one/)
 
 Everstake is building a bridge secured by validator incentives which allows asset transfers between polkadot and harmony.
 

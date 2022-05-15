@@ -35,7 +35,7 @@ Step 5: Approve the switch in your wallet, and done!\
 
 ## How to Use the Harmony Bridge with Sushi
 
-Step 1: Access the Harmony Bridge: https://[bridge.harmony.one](https://bridge.harmony.one)
+Step 1: Access the Harmony Bridge: https://[bridge.harmony.one](https://bridge.harmony.one/)
 
 Step 2: Click on button Connect Metamask.
 
@@ -49,7 +49,7 @@ wallet, click on Next and then Connect.
 
 ## How to Yield Farm Sushi on Harmony
 
-Step 1: Go to [app.sushi.com](http://app.sushi.com)
+Step 1: Go to [app.sushi.com](http://app.sushi.com/)
 
 Step 2: Switch your network to Harmony
 

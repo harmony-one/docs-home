@@ -18,13 +18,13 @@ For `shard 1,2,3` the requirement can be halved\
 
 Here is a list of some cheap and reliable Cloud Providers (August, 2020):
 
-* [OVH](https://www.ovhcloud.com)
-* [Digital Ocean](https://www.digitalocean.com)
-* [Vultr](https://www.vultr.com)
-* [Hetzner](http://hetzner.com)
-* [Scaleway](https://www.scaleway.com)
-* [Contabo](https://contabo.com)
-* [AWS](https://aws.amazon.com)
+* [OVH](https://www.ovhcloud.com/)
+* [Digital Ocean](https://www.digitalocean.com/)
+* [Vultr](https://www.vultr.com/)
+* [Hetzner](http://hetzner.com/)
+* [Scaleway](https://www.scaleway.com/)
+* [Contabo](https://contabo.com/)
+* [AWS](https://aws.amazon.com/)
 
 Check [Cloud Guides](cloud-guides/) for instructions.
 

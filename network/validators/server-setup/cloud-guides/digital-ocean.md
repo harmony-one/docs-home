@@ -12,7 +12,7 @@ For new users, you can get $100 dollars free credits to run Digital Ocean servic
 
 ### Logging into **Digital Ocean** <a href="#logging-into-vultr" id="logging-into-vultr"></a>
 
-[​](https://www.digitalocean.com)Click [here](https://try.digitalocean.com/performance/) to register a new Digital Ocean account or login if you have an existing one.
+[​](https://www.digitalocean.com/)Click [here](https://try.digitalocean.com/performance/) to register a new Digital Ocean account or login if you have an existing one.
 
 ### Create a new P**roject** <a href="#create-a-new-instance" id="create-a-new-instance"></a>
 

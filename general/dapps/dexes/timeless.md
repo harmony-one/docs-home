@@ -6,7 +6,7 @@ Timeless is reimagining the role of the calendar in our daily lives. They provid
 
 #### Shared Cultural Experiences&#x20;
 
-Timeless and Harmony can tokenize unique events and experiences on [davinci. gallery](https://davinci.gallery), merging NFTs with some of the biggest events of the summer, from live concerts, sporting events, and many shared cultural experiences.
+Timeless and Harmony can tokenize unique events and experiences on [davinci. gallery](https://davinci.gallery/), merging NFTs with some of the biggest events of the summer, from live concerts, sporting events, and many shared cultural experiences.
 
 #### Non-Fungibility of Time&#x20;
 

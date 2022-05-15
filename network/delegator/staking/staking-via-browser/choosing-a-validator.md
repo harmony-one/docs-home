@@ -1,6 +1,6 @@
 # Staking Dashboard
 
-Staking via browser is done via [Staking Dashboard](https://staking.harmony.one). There you will be able to delegate, undelegate tokens, claim rewards and manage your delegations. Currently, staking transaction are supported on [Ledger Nano S,](../../../../general/wallets/hardware-wallets/ledger/) [ONE Wallet](../../../../general/wallets/browser-extensions-wallets/one-wallet.md) and [Math Wallet](../../../../developers/wallets/mathwallet.md). you can log in or create a new address via those three wallets.
+Staking via browser is done via [Staking Dashboard](https://staking.harmony.one/). There you will be able to delegate, undelegate tokens, claim rewards and manage your delegations. Currently, staking transaction are supported on [Ledger Nano S,](../../../../general/wallets/hardware-wallets/ledger/) [ONE Wallet](../../../../general/wallets/browser-extensions-wallets/one-wallet.md) and [Math Wallet](../../../../developers/wallets/mathwallet.md). you can log in or create a new address via those three wallets.
 
 ![](<../../../../.gitbook/assets/image (29).png>)
 
@@ -64,7 +64,7 @@ In order to choose their validators and manage their delegation, delegators have
 
 
 
-![](<../../../../.gitbook/assets/image (139).png>)
+![](<../../../../.gitbook/assets/image (31) (1).png>)
 
 ![](<../../../../.gitbook/assets/image (140).png>)
 

@@ -2,7 +2,7 @@
 
 ## Coinbase Rosetta API
 
-Harmony has finished it’s initial integration with the [Rosetta API](https://www.rosetta-api.org) specification — an open-source framework to simplify blockchain interactions.&#x20;
+Harmony has finished it’s initial integration with the [Rosetta API](https://www.rosetta-api.org/) specification — an open-source framework to simplify blockchain interactions.&#x20;
 
 So why did we choose Rosetta? Well, the biggest thing for us is that it allows for **faster onboarding** since it is a standard, **chain agnostic**, framework with sharding as a first-class citizen. Among other things, this greatly reduces interoperability friction between products spanning multiple chains. Moreover, Rosetta’s **growing community** and **tooling** were major factors as it means less effort from the Harmony team is needed to implement and, more importantly, maintain our Node API.
 

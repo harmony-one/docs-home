@@ -26,7 +26,7 @@ In this tutorial, we are going to use IPFS to store some files offchain and stor
 
 * [Node.js](https://nodejs.org/en/)
 * [IPFS](https://docs.ipfs.io/install/command-line/#official-distributions)
-* [Metamask](https://metamask.io)
+* [Metamask](https://metamask.io/)
 
 > In this entire tutorial i'm using windows 10, but you can use any other os.
 
@@ -71,7 +71,7 @@ Block Explorer URL :
 https://explorer.pops.one/
 ```
 
-Now you have an harmony one account on metamask testnet we need to fill some harmony one token you can do that by going to harmony one testnet faucet like this one [https://faucet.pops.one/](https://faucet.pops.one), to get your address click on the three dot and click on view in explorer like this :
+Now you have an harmony one account on metamask testnet we need to fill some harmony one token you can do that by going to harmony one testnet faucet like this one [https://faucet.pops.one/](https://faucet.pops.one/), to get your address click on the three dot and click on view in explorer like this :
 
 ![explorer](https://i.imgur.com/L547kdp.jpg)
 
@@ -319,7 +319,7 @@ First thing first, we need to create a react application to communicate with the
 npx create-next-app harmony-ipfs --use-npm --example "https://github.com/vercel/next-learn-starter/tree/master/learn-starter"
 ```
 
-It will create a new directory called `harmony-ipfs` and install all the dependencies for you. We also need to style our app with some css, so we gonna use [chakra-ui](https://chakra-ui.com) for this. Go inside the `harmony-ipfs` directory and install the dependencies :
+It will create a new directory called `harmony-ipfs` and install all the dependencies for you. We also need to style our app with some css, so we gonna use [chakra-ui](https://chakra-ui.com/) for this. Go inside the `harmony-ipfs` directory and install the dependencies :
 
 ```
 npm i @chakra-ui/react @emotion/react@^11 @emotion/styled@^11 framer-motion@^4 ipfs-http-client

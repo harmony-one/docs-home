@@ -2,7 +2,7 @@
 
 ## **SWOOP Dex**
 
-Welcome! The pages that follow contain comprehensive documentation of the SWOOP ecosystem. SWOOP is a fork from Uniswap,  code and documentation is based on [Uniswap](https://uniswap.org) 🦄 and [SushiSwap](https://sushiswap.org) 🍣&#x20;
+Welcome! The pages that follow contain comprehensive documentation of the SWOOP ecosystem. SWOOP is a fork from Uniswap,  code and documentation is based on [Uniswap](https://uniswap.org/) 🦄 and [SushiSwap](https://sushiswap.org/) 🍣&#x20;
 
 ### **How it Works** <a href="#developer-links" id="developer-links"></a>
 
@@ -300,7 +300,7 @@ Building a bridge between Bitcoin-like blockchains with Harmony blockchain to un
 
 * Build BTC relay and SPV client from Summa on the Harmony network, so that dApp builder can build on top it.
 * Work with [Keep network](https://keep.network/#team) to add support of the Harmony chain in Keep nodes. This collaboration can bring in tBTC/hBTC support on the Harmony network.
-* Explore collaboration with [Aleph Zero](https://alephzero.org) to bring threshold ECDSA onto Harmony node so that the Harmony network can be used to generate trustless accounts to bridge multiple blockchains.
+* Explore collaboration with [Aleph Zero](https://alephzero.org/) to bring threshold ECDSA onto Harmony node so that the Harmony network can be used to generate trustless accounts to bridge multiple blockchains.
 * Build a portal to wrap all bitcoin-like blockchain such as LTC/BCH/BSV into Harmony blockchain. Those blockchains can use Harmony as a portal to the entire Ethereum DeFi ecosystem via the Dex.
 * Stretch technical goal is to expose VDF as on-chain primitive for randomness, which is a key component for security (used by Keep)
 
@@ -312,5 +312,5 @@ Building a bridge between Bitcoin-like blockchains with Harmony blockchain to un
 * [https://github.com/LeoHChen/playground/tree/master/go/btcrelay](https://github.com/LeoHChen/playground/tree/master/go/btcrelay)
 * TBTC whitepaper: [https://docs.keep.network/tbtc/index.pdf](https://docs.keep.network/tbtc/index.pdf)
 * BTC SPV on Ethereum: [https://medium.com/summa-technology/cross-chain-auction-technical-f16710bfe69f](https://medium.com/summa-technology/cross-chain-auction-technical-f16710bfe69f)
-* [https://dapp.test.tbtc.network/](https://dapp.test.tbtc.network)
+* [https://dapp.test.tbtc.network/](https://dapp.test.tbtc.network/)
 * [https://medium.com/@nickgrego/step-by-step-guide-for-installing-both-ecdsa-beacon-nodes-on-vps-with-100-voucher-db930ab2a667](https://medium.com/@nickgrego/step-by-step-guide-for-installing-both-ecdsa-beacon-nodes-on-vps-with-100-voucher-db930ab2a667)

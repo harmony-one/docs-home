@@ -1,8 +1,8 @@
 # Find the last transaction
 
-## Introduction <a href="introduction" id="introduction"></a>
+## Introduction <a href="#introduction" id="introduction"></a>
 
-This guide walks through the process of using [web3.js](https://web3js.readthedocs.io) to get last block and get last transaction.
+This guide walks through the process of using [web3.js](https://web3js.readthedocs.io/) to get last block and get last transaction.
 
 For this example, we will use Node.js and straightforward JavaScript code.
 

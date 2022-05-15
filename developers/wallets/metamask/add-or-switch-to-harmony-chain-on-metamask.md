@@ -40,4 +40,4 @@ When this code snippet is executed, users will see message to approve adding or 
 
 You can see more information about Metamask documentation related to the Ethereum Provider API at [https://docs.metamask.io/guide/ethereum-provider.html](https://docs.metamask.io/guide/ethereum-provider.html)
 
-To see a full list of Chain IDs, please visit [https://chainlist.org/](https://chainlist.org) and search for `Harmony`
+To see a full list of Chain IDs, please visit [https://chainlist.org/](https://chainlist.org/) and search for `Harmony`
