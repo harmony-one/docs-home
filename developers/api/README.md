@@ -20,6 +20,7 @@ description: >-
 | testnet  | <p><a href="https://api.s0.b.hmny.io">https://api.s0.b.hmny.io</a> or <a href="https://api.s0.pops.one">https://api.s0.pops.one</a></p><p>(For Developers, Wallets, normal transaction)</p>                                                           |
 | testnet  | <p><a href="https://api.s0.backup1.b.hmny.io">https://api.s0.backup1.b.hmny.io</a></p><p>(For indexers, bulk transactions)</p>                                                                                                                        |
 | localnet | [http://localhost:9500](http://localhost:9500)                                                                                                                                                                                                        |
+| devnet   | [https://api.s0.ps.hmny.io](https://api.s0.ps.hmny.io)                                                                                                                                                                                                |
 
 Web sockets can also be used
 
