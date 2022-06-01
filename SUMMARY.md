@@ -311,6 +311,7 @@
   * [Publishing & Verifying Your Smart Contract](developers/tutorials/publishing-and-verifying-your-smart-contract.md)
   * [Building a Simple Metaverse Contract](developers/tutorials/simple-metaverse-contract-with-chainstack.md)
   * [Building a Simple Bridge with Ethereum](developers/tutorials/simple-bridge-with-ethereum.md)
+  * [Staking for Multisig](developers/tutorials/staking-for-multisig.md)
 
 ## 🌏 Network
 
