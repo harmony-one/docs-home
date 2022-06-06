@@ -11,7 +11,7 @@ Harmony is [officially supported](https://thegraph.com/docs/) on The Graph
 
 
 {% hint style="warning" %}
-Note: The bellow documentation is now deprecated
+Note: The below documentation is now deprecated
 {% endhint %}
 
 **Deploying Subgraphs**
