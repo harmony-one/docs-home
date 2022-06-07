@@ -1,6 +1,11 @@
 # The Graph
 
-The Graph is available for use on Harmony:
+## Graph Hosted environment
+
+Graph hosted environment support harmony \
+[https://twitter.com/harmonyprotocol/status/1533909977412214784](https://twitter.com/harmonyprotocol/status/1533909977412214784)
+
+## The Graph is available for use on Harmony (to be retired)
 
 Graph: [https://graph.t.hmny.io/](https://graph.t.hmny.io/) \
 Management: [https://graph.t.hmny.io:8020/](https://graph.t.hmny.io:8020/) \
