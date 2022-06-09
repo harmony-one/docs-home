@@ -13,7 +13,7 @@ docker-compose down
 2\. Re-download the script
 
 ```
-rm docker-compose.yaml
+rm docker-compose.yml
 curl -L -o 'docker-compose.yml' https://raw.githubusercontent.com/harmony-one/onebtc.relayer-client/main/docker-compose.yml
 docker-compose pull
 ```
