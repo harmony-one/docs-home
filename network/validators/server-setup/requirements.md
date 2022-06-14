@@ -32,7 +32,7 @@ Check [Cloud Guides](cloud-guides/) for instructions.
 
 **CPU**: Raspberry Pi 4 with a good Fan and Heat sinker elements\
 **RAM Memory**: 8GB\
-**Storage**: Fast external SSD with minimum 250GB. Suggestion is Samsung T7 500GB\
+**Storage**: Fast external SSD with minimum 1TB for a validator node. \
 **OS**: Latest Ubuntu Linux (LTS Version)\
 **Network**: A Modem where you have access to settings like set IP address, Port forwarding and priority settings, 100Mbit/s bandwidth, low latency and flat rate usage. Minimum category 6 Cables
 
