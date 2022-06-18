@@ -4,12 +4,17 @@
 
 [https://status.harmony.one](https://status.harmony.one)
 
+## Chainid
+
+| Mainnnet   | Testnet    | Devnet     |
+| ---------- | ---------- | ---------- |
+| 1666600000 | 1666700000 | 1666900000 |
+
 ## Block Explorers
 
 | Mainnet                                                        | Testnet                                                  | Devnet                                                     |
 | -------------------------------------------------------------- | -------------------------------------------------------- | ---------------------------------------------------------- |
 | [https://explorer.harmony.one/](https://explorer.harmony.one/) | [https://explorer.pops.one/](https://explorer.pops.one/) | [https://explorer.ps.hmny.io](https://explorer.ps.hmny.io) |
-|                                                                |                                                          |                                                            |
 
 ## Faucets
 
