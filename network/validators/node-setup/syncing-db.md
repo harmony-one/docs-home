@@ -42,12 +42,10 @@ Now run the following command to create the rclone.conf file.
 cat<<-EOF > ~/.config/rclone/rclone.conf
 [release]
 type = s3
-provider = AWS
-env_auth = false
-region = us-west-1
-acl = public-read
-server_side_encryption = AES256
-storage_class = REDUCED_REDUNDANCY
+provider = Storj
+access_key_id = jwuyiin22hl6o5zxzlf76rc6csxa
+secret_access_key = jyryzso3fv64zu4i2gmf33ed5hudb7qyatgpst22fnp57dfhviv4k
+endpoint = gateway.us1.storjshare.io
 EOF
 ```
 
