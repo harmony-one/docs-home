@@ -56,7 +56,7 @@ const config: HardhatUserConfig = {
                 network: "harmonyDevnet",
                 chainId: 1666900000,
                 urls: {
-                    apiURL: "https://ctrver.b.hmny.io/verify?network=devnet",
+                    apiURL: "https://ctrver.t.hmny.io/verify?network=devnet",
                     browserURL: "https://explorer.ps.hmny.io/"
                 }
             }
