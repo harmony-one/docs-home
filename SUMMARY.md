@@ -241,7 +241,7 @@
       * [hmy\_getDelegationsByDelegator](developers/api/methods/staking-related-methods/hmy\_getdelegationsbydelegator.md)
       * [hmy\_getValidatorMetrics](developers/api/methods/staking-related-methods/hmy\_getvalidatormetrics.md)
       * [hmy\_getMedianRawStakeSnapshot](developers/api/methods/staking-related-methods/hmy\_getmedianrawstakesnapshot.md)
-      * [hmy\_getActiveValidatorAddresses](developers/api/methods/staking-related-methods/hmy\_getactivevalidatoraddresses.md)
+      * [hmy\_getElectedValidatorAddresses](developers/api/methods/staking-related-methods/hmy\_getactivevalidatoraddresses.md)
       * [hmy\_getAllValidatorAddresses](developers/api/methods/staking-related-methods/hmy\_getallvalidatorsaddresses.md)
       * [hmy\_getCurrentStakingErrorSink](developers/api/methods/staking-related-methods/hmy\_getcurrentstakingerrorsink.md)
       * [hmy\_getValidatorInformation](developers/api/methods/staking-related-methods/hmy\_getvalidatorinformation.md)

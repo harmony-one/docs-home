@@ -2,9 +2,9 @@
 description: hmy_getActiveValidatorsAddresses
 ---
 
-# hmy\_getActiveValidatorAddresses
+# hmy\_getElectedValidatorAddresses
 
-Returns active validators addresses list
+Returns elected validators addresses list
 
 ## Returns
 
@@ -16,10 +16,10 @@ Returns active validators addresses list
 ```bash
 curl -d '{
     "jsonrpc":"2.0",
-    "method":"hmy_getActiveValidatorAddresses",
+    "method":"hmy_getElectedValidatorAddresses",
     "params":[],
     "id":1
-}' -H 'Content-Type:application/json' -X POST 'http://l0.b.hmny.io:9500'
+}' -H 'Content-Type:application/json' -X POST 'https://api.harmony.one'
 ```
 
 **Sample Curl Response**
