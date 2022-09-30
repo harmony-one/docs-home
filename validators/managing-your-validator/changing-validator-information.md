@@ -34,9 +34,10 @@ The CLI will prompt you to enter your BLS key file password. Only the `--validat
 * `--max-total-delegation` to change the maximum stake that the validator can take **\(float\)**
 * `--remove-bls-key` to remove a BLS public key associated with your validator **\(string\)**
 * `--add-bls-key` to add another BLS public key to your validator **\(string\)**
+* `--gas-price` to specify the gas price (in Gwei) you are willing to pay for the transaction **\(float\)**
 
 {% hint style="info" %}
-`--validator-addr`is the only field that is required.
+`--validator-addr`and `--gas-price` are the only fields that are required.
 
 Sending the command without the arguments will leave those fields of your validator as is.
 {% endhint %}
@@ -45,5 +46,7 @@ Sending the command without the arguments will leave those fields of your valida
 `--max-rate` and `--max-change-rate` cannot be changed after creation.
 
 `--min-self-delegation` must be minimum 10,000 ONE.
+
+`--gas-price` must be minimum 100 Gwei.
 {% endhint %}
 
