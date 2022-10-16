@@ -29,7 +29,7 @@ Web sockets can also be used
 | mainnet  | [wss://ws.s0.t.hmny.io](wss://ws.s0.t.hmny.io) or [wss://ws-harmony-mainnet.chainstacklabs.com](wss://ws-harmony-mainnet.chainstacklabs.com) |
 | testnet  | [wss://ws.s0.b.hmny.io](wss://ws.s0.pga.hmny.io) or [wss://ws.s0.pops.one](wss://ws.s0.pops.one)                                             |
 | localnet | [wss://localhost:9800](./)                                                                                                                   |
-| devnet   | wss://ws.s0.ps.hmny.io                                                                                                                       |
+| devnet   | [wss://ws.s0.ps.hmny.io](wss://ws.s0.ps.hmny.io)                                                                                             |
 
 All requests follow the standard JSON-RPC format and include 4 variables in the data object:
 
