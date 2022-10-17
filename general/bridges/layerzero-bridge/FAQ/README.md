@@ -203,7 +203,7 @@ cannot bridge USDC from Ethereum to Harmony and then withdraw it on
 Binance Smart Chain. Same for other tokens.
 
 ## What token will I get after bridging?
-Please refer to [this page](what-token-will-i-get-after-bridge.md) to find out.
+Please refer to [this page](bridged-tokens.md) to find out.
 
 ## Can I bridge as many tokens as I want, or is there a limit?
 There is no limit on the amount of tokens that can be bridged.
