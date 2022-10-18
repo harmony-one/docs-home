@@ -1,4 +1,4 @@
-# What token will I get after bridge
+# Bridged tokens
 
 Use [this page](https://layerzero.bridge.harmony.one/tokens) to find a token address you should have after the bridge. 
 
