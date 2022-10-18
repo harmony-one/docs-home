@@ -186,20 +186,20 @@ here
 </a>
 
 ## How are assets mapped between blockchains?
-Assets are mapped 1:1. For example, 10 USDC on Ethereum after
-bridging will be available as 10 1USDC on Harmony. Here, “1USDC“ is
-the token symbol of the token on Harmony corresponding to “USDC“ token symbol on Ethereum.
+Assets are mapped 1:1. For example, 10 BUSD on Ethereum after
+bridging will be available as 10 1BUSD on Harmony. Here, “1BUSD“ is
+the token symbol of the token on Harmony corresponding to “BUSD“ token symbol on Ethereum.
 
 Same 1:1 mapping holds true for Binance Smart Chain. However, the
 assets from two different parent chains (Ethereum or Binance Smart
 Chain) after bridging will be represented using different bridged
-assets on Harmony. For instance, 5 Binance Smart Chain USDC after
-bridging will be available as 5 bscUSDC on Harmony. Here, “bscUSDC”
+assets on Harmony. For instance, 5 Binance Smart Chain BUSD after
+bridging will be available as 5 bscBUSD on Harmony. Here, “bscBUSD”
 is the token symbol of the token issued on Harmony corresponding to
-“USDC” token symbol on Binance Smart Chain.
+“BUSD” token symbol on Binance Smart Chain.
 
-And, the 1USDC and bscUSDC on Harmony chain are not interchangeable, meaning one
-cannot bridge USDC from Ethereum to Harmony and then withdraw it on
+And, the 1BUSD and bscBUSD on Harmony chain are not interchangeable, meaning one
+cannot bridge BUSD from Ethereum to Harmony and then withdraw it on
 Binance Smart Chain. Same for other tokens.
 
 ## What token will I get after bridging?
