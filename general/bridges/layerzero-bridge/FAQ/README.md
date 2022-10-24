@@ -10,7 +10,7 @@ If you have assets on Ethereum or Binance Smart Chain, you can use the bridge to
 Harmony. LayerZero also allows redemption of the exchanged assets back at any time.
 
 <br />
-LayerZero UI is accessible 
+LayerZero Bridge is accessible 
 <a href="https://layerzero.bridge.harmony.one/" target="_blank">
 here.
 </a>
