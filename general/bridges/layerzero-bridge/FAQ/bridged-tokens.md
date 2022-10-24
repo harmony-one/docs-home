@@ -3,6 +3,7 @@
 Use [this page](https://layerzero.bridge.harmony.one/tokens) to find a token address you should have after the bridge. 
 
 ![](../../../../.gitbook/assets/LayerZero-tokens-menu.png)
+
 Here you can specify the network by pressing its button. If your token is on Binance or Ethereum, it can help you to avoid confusion. You can also set a filter by a token type if you know it.
 
 Search a token you plan to bridge. You can enter its address / symbol / name.
@@ -25,7 +26,7 @@ If you bridge ONE from Harmony to Binance, your ONE will have a different addres
 
 If you bridge ONE from Harmony to Ethereum, you receive 1ONE token with the address [0xD5cd84D6f044AbE314Ee7E414d37cae8773ef9D3](https://etherscan.io/token/0xD5cd84D6f044AbE314Ee7E414d37cae8773ef9D3)
 
-If you bridge [ONE](https://bscscan.com/token/0x03fF0ff224f904be3118461335064bB48Df47938) from Binance or [1ONE](https://etherscan.io/token/0xD5cd84D6f044AbE314Ee7E414d37cae8773ef9D3) from Ethereum with the right setup (there is a special button for ONE token), you get Native [Harmony ONE](https://explorer.harmony.one/#/address/0x00eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee?activeTab=3) on Harmony.
+If you bridge [ONE](https://bscscan.com/token/0x03fF0ff224f904be3118461335064bB48Df47938) from Binance or [1ONE](https://etherscan.io/token/0xD5cd84D6f044AbE314Ee7E414d37cae8773ef9D3) from Ethereum, you get Native [Harmony ONE](https://explorer.harmony.one/#/address/0x00eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee?activeTab=3) on Harmony.
 
 **BNB**
 

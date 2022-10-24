@@ -249,25 +249,9 @@ of one.
 It depends on which blockchain you want transfer assets from. If it is from Harmony blockchain, you need ONE tokens, if it is from Ethereum you need ETH tokens, from Binance Smart Chain (BSC) BNB tokens and so on.
 
 ## What’s the cost of using the bridge?
-Sending ERC20/ETH from Ethereum to Harmony
-<br />
-Involves two transactions (approve and lock) that requires
-approximately 100,000 Ethereum gas in total and the cost will be paid
-by the user. The multisig confirmation cost on the Harmony network is
-taken care by the validators.
-
-Sending HRC20/ONE to Ethereum or redeeming the bridged tokens back
-to Ethereum
-
-Any bridge transfers from Harmony to Ethereum involves multisig
-confirmations by the validators, which is approximately 400,000
-Ethereum gas. To cover this operating cost of the validators
-(especially during the volatility of Ethereum gas price), we require
-users to deposit an approximate network fee in ONE tokens, which is
-equivalent to 400,000 Ethereum gas.
-
-Similarly for Binance Smart Chain, however the transaction fee are
-much lower (you get an accurate estimate of the bridge fee while using
-the bridge).
-
+Cost of the bridge operation consists of the LayerZero bridge fee and costs of transactions. 
+Transaction fee depends on the chain gas prices and are confirmed in Metamask before the transaction.
+LayerZero fees are calculated dynamically based on Oracle and Relayer prices for the destination chain.
+They are transferred in the same transaction as the bridges amount.
+You'll see the page with the fee information that you need to confirm before the operation.
 

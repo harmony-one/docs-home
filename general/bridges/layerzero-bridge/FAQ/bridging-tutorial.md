@@ -68,9 +68,3 @@ Alternately, you can use [this guide](../../../wallets/browser-extensions-wallet
 {% hint style="warning" %}
 Do NOT send bridged tokens directly to other blockchains or exchanges. This will not work and it might result in **permanent loss** of your tokens. Bridged tokens can only be used on Harmony network. The only way to send them out is by bridging them back.
 {% endhint %}
-
-### Support
-
-If you have any issue using the bridge, please click on _Help_ at the top of the page, where you will be given instructions on how to report them.
-
-Alternatively you can join our Telegram Support channel at [https://harmony.one/bridge-support](https://harmony.one/bridge-support)
