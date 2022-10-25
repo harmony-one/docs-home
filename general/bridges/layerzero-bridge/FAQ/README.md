@@ -17,7 +17,7 @@ here.
 
 
 ## Is there a tutorial explaining how to use LayerZero?
-There is bridge process [step-by-step explanation](bridging-tutorial.md)
+There is bridge process [step-by-step explanation](../bridging-tutorial.md)
 
 ## What account can I use to receive bridged tokens?
 You need to be able to open your wallet in the network you sent your tokens to.
