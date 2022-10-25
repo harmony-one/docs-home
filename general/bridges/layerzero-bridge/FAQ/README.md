@@ -10,14 +10,14 @@ If you have assets on Ethereum or Binance Smart Chain, you can use the bridge to
 Harmony. LayerZero also allows redemption of the exchanged assets back at any time.
 
 <br />
-LayerZero UI is accessible 
+LayerZero Bridge is accessible 
 <a href="https://layerzero.bridge.harmony.one/" target="_blank">
 here.
 </a>
 
 
 ## Is there a tutorial explaining how to use LayerZero?
-There is bridge process [step-by-step explanation](bridging-tutorial.md)
+There is bridge process [step-by-step explanation](../bridging-tutorial.md)
 
 ## What account can I use to receive bridged tokens?
 You need to be able to open your wallet in the network you sent your tokens to.
@@ -186,20 +186,20 @@ here
 </a>
 
 ## How are assets mapped between blockchains?
-Assets are mapped 1:1. For example, 10 USDC on Ethereum after
-bridging will be available as 10 1USDC on Harmony. Here, “1USDC“ is
-the token symbol of the token on Harmony corresponding to “USDC“ token symbol on Ethereum.
+Assets are mapped 1:1. For example, 10 BUSD on Ethereum after
+bridging will be available as 10 1BUSD on Harmony. Here, “1BUSD“ is
+the token symbol of the token on Harmony corresponding to “BUSD“ token symbol on Ethereum.
 
 Same 1:1 mapping holds true for Binance Smart Chain. However, the
 assets from two different parent chains (Ethereum or Binance Smart
 Chain) after bridging will be represented using different bridged
-assets on Harmony. For instance, 5 Binance Smart Chain USDC after
-bridging will be available as 5 bscUSDC on Harmony. Here, “bscUSDC”
+assets on Harmony. For instance, 5 Binance Smart Chain BUSD after
+bridging will be available as 5 bscBUSD on Harmony. Here, “bscBUSD”
 is the token symbol of the token issued on Harmony corresponding to
-“USDC” token symbol on Binance Smart Chain.
+“BUSD” token symbol on Binance Smart Chain.
 
-And, the 1USDC and bscUSDC on Harmony chain are not interchangeable, meaning one
-cannot bridge USDC from Ethereum to Harmony and then withdraw it on
+And, the 1BUSD and bscBUSD on Harmony chain are not interchangeable, meaning one
+cannot bridge BUSD from Ethereum to Harmony and then withdraw it on
 Binance Smart Chain. Same for other tokens.
 
 ## What token will I get after bridging?
@@ -249,25 +249,9 @@ of one.
 It depends on which blockchain you want transfer assets from. If it is from Harmony blockchain, you need ONE tokens, if it is from Ethereum you need ETH tokens, from Binance Smart Chain (BSC) BNB tokens and so on.
 
 ## What’s the cost of using the bridge?
-Sending ERC20/ETH from Ethereum to Harmony
-<br />
-Involves two transactions (approve and lock) that requires
-approximately 100,000 Ethereum gas in total and the cost will be paid
-by the user. The multisig confirmation cost on the Harmony network is
-taken care by the validators.
-
-Sending HRC20/ONE to Ethereum or redeeming the bridged tokens back
-to Ethereum
-
-Any bridge transfers from Harmony to Ethereum involves multisig
-confirmations by the validators, which is approximately 400,000
-Ethereum gas. To cover this operating cost of the validators
-(especially during the volatility of Ethereum gas price), we require
-users to deposit an approximate network fee in ONE tokens, which is
-equivalent to 400,000 Ethereum gas.
-
-Similarly for Binance Smart Chain, however the transaction fee are
-much lower (you get an accurate estimate of the bridge fee while using
-the bridge).
-
+Cost of the bridge operation consists of the LayerZero bridge fee and costs of transactions. 
+Transaction fee depends on the chain gas prices and are confirmed in Metamask before the transaction.
+LayerZero fees are calculated dynamically based on Oracle and Relayer prices for the destination chain.
+They are transferred in the same transaction as the bridges amount.
+You'll see the page with the fee information that you need to confirm before the operation.
 
