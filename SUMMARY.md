@@ -19,21 +19,36 @@
   * [Effective Proof-of-Stake](general/technology/effective-proof-of-stake.md)
   * [Tokenomics](general/technology/tokenomics.md)
 * [Bridges](general/bridges/README.md)
-  * [Horizon Bridge](general/bridges/horizon-bridge/README.md)
-    * [Setting up Wallets](general/bridges/horizon-bridge/setting-up-wallets.md)
-    * [Bridging ETH <> ONE](general/bridges/horizon-bridge/bridging-eth-one.md)
-    * [Bridging BSC <> ONE](general/bridges/horizon-bridge/bridging-bsc-one.md)
-    * [Adding Tokens](general/bridges/horizon-bridge/adding-tokens.md)
-    * [New Features](general/bridges/horizon-bridge/new-features.md)
-    * [Mobile](general/bridges/horizon-bridge/mobile.md)
-    * [Security Audit](general/bridges/horizon-bridge/audit.md)
-    * [Bridge FAQ's](general/bridges/horizon-bridge/bridge-faqs/README.md)
-      * [How to bridge back an incorrectly bridged token](general/bridges/horizon-bridge/bridge-faqs/how-to-bridge-back-an-incorrectly-bridged-token.md)
-      * [How to find a bridged token address](general/bridges/horizon-bridge/bridge-faqs/how-to-find-a-bridged-token-address.md)
-      * [How to find operation details](general/bridges/horizon-bridge/bridge-faqs/how-to-find-operation-details.md)
-      * [I don’t know how to bridge my token](general/bridges/horizon-bridge/bridge-faqs/i-dont-know-how-to-bridge-my-token.md)
-      * [I’m confused with a bridged token type](general/bridges/horizon-bridge/bridge-faqs/i-am-confused-with-a-bridged-token-type.md)
-      * [What token will I get after bridge](general/bridges/horizon-bridge/bridge-faqs/what-token-will-i-get-after-bridge.md)
+
+[//]: # (  * [Horizon Bridge]&#40;general/bridges/horizon-bridge/README.md&#41;)
+
+[//]: # (    * [Setting up Wallets]&#40;general/bridges/horizon-bridge/setting-up-wallets.md&#41;)
+
+[//]: # (    * [Bridging ETH <> ONE]&#40;general/bridges/horizon-bridge/bridging-eth-one.md&#41;)
+
+[//]: # (    * [Bridging BSC <> ONE]&#40;general/bridges/horizon-bridge/bridging-bsc-one.md&#41;)
+
+[//]: # (    * [Adding Tokens]&#40;general/bridges/horizon-bridge/adding-tokens.md&#41;)
+
+[//]: # (    * [New Features]&#40;general/bridges/horizon-bridge/new-features.md&#41;)
+
+[//]: # (    * [Mobile]&#40;general/bridges/horizon-bridge/mobile.md&#41;)
+
+[//]: # (    * [Security Audit]&#40;general/bridges/horizon-bridge/audit.md&#41;)
+
+[//]: # (    * [Bridge FAQ's]&#40;general/bridges/horizon-bridge/bridge-faqs/README.md&#41;)
+
+[//]: # (      * [How to bridge back an incorrectly bridged token]&#40;general/bridges/horizon-bridge/bridge-faqs/how-to-bridge-back-an-incorrectly-bridged-token.md&#41;)
+
+[//]: # (      * [How to find a bridged token address]&#40;general/bridges/horizon-bridge/bridge-faqs/how-to-find-a-bridged-token-address.md&#41;)
+
+[//]: # (      * [How to find operation details]&#40;general/bridges/horizon-bridge/bridge-faqs/how-to-find-operation-details.md&#41;)
+
+[//]: # (      * [I don’t know how to bridge my token]&#40;general/bridges/horizon-bridge/bridge-faqs/i-dont-know-how-to-bridge-my-token.md&#41;)
+
+[//]: # (      * [I’m confused with a bridged token type]&#40;general/bridges/horizon-bridge/bridge-faqs/i-am-confused-with-a-bridged-token-type.md&#41;)
+
+[//]: # (      * [What token will I get after bridge]&#40;general/bridges/horizon-bridge/bridge-faqs/what-token-will-i-get-after-bridge.md&#41;)
   * [Terra Bridge](general/bridges/terra.md)
   * [Bitcoin Bridge](general/bridges/bitcoin-bridge/README.md)
     * [About](general/bridges/bitcoin-bridge/about.md)
