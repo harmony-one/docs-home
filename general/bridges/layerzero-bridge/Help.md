@@ -3,13 +3,13 @@
 ## How to find out what's with my bridge operation?
 You can find the operation details on your operation page. 
 It's the page you see when you perform the operation on 
-<a href="https://layerzero.bridge.harmony.one/" target="_blank">
+<a href="https://bridge.harmony.one/" target="_blank">
 the LayerZero bridge site.
 </a>
 Every bridge operation is associated with a unique operation id, which is shown on the page.
 You can find links to transactions of the operation steps and the status of each step.
 <br/>
-Also, you can always find your operation in the <a href="https://layerzero.bridge.harmony.one/explorer"> bridge operation explorer.</a>
+Also, you can always find your operation in the <a href="https://bridge.harmony.one/explorer"> bridge operation explorer.</a>
 Use "My transaction" option to see only operations for your connected Metamsk account.
 
 ## Transaction pending for too long
@@ -26,7 +26,7 @@ Normally it takes less than 20 minutes per each step of the bridge operation.
 Delays are also possible, but they won't affect your funds.
 <br />
 If your operation is in progress for <b>more than an
-hour</b>, you can fill in the <a href="https://layerzero.bridge.harmony.one/support"> support form </a> and include you problem description. 
+hour</b>, you can fill in the <a href="https://bridge.harmony.one/support"> support form </a> and include you problem description. 
 Note that your request will be ignored if you send it earlier.
 
 ## Operation status is success, but I can’t find my tokens
@@ -78,11 +78,11 @@ Tokens haven’t been transferred after the bridge.
 </ul>
 <br />
 If a correct balance isn’t shown after you added a token, and you have
-double-checked everything, fill in the <a href="https://layerzero.bridge.harmony.one/support"> support form</a> and include you problem description.
+double-checked everything, fill in the <a href="https://bridge.harmony.one/support"> support form</a> and include you problem description.
 It’s required to include a token address you added and a wallet you added it to.
 
 ## Bridge error, funds lost
-Please fill in the <a href="https://layerzero.bridge.harmony.one/support"> support form</a> and include you problem description.
+Please fill in the <a href="https://bridge.harmony.one/support"> support form</a> and include you problem description.
 
 ## I can’t bridge because of an error
 There can be many possible causes. Sometimes the reason is clear from
@@ -98,7 +98,7 @@ latest version
 <li> Try to clear the cache and relogin.</li>
 <li>
 Check
-<a href="https://docs.harmony.one/home/network/wallets/browser-extensions-wallets/metamask-wallet">
+<a href="https://docs.harmony.one/home/general/wallets/browser-extensions-wallets/metamask-wallet/adding-harmony">
 here
 </a>
 if your wallet is set up correctly.

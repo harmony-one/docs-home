@@ -1,6 +1,6 @@
 # Bridged tokens
 
-Use [this page](https://layerzero.bridge.harmony.one/tokens) to find a token address you should have after the bridge. 
+Use [this page](https://bridge.harmony.one/tokens) to find a token address you should have after the bridge. 
 
 ![](../../../../.gitbook/assets/LayerZero-tokens-menu.png)
 

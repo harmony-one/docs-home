@@ -1,5 +1,9 @@
 # How to find a bridged token address
 
+You can avoid this process if you use Add token to Metamask button on the bottom your bridge operation page after operation is completed:
+
+![add\_token.png](../../../../.gitbook/assets/add\_token.png)
+
 You can find your token from your final step transaction (mint/unlock) if it’s correctly displayed (sometimes there are delays in data representation).There is a token symbol near the amount in “Tokens transferred”/ ”Token transfers” section that leads to the token page.
 
 ![token explorer eth.png](../../../../.gitbook/assets/token\_explorer\_eth.png)
@@ -24,13 +28,8 @@ If you can’t find your token there, please use this page to find a token addre
 
 Search by a token you had before the bridge operation.
 
+Note that if your token is mapped to one network and you bridged it to another, you most likely got not liquid token that you need to bridge back. Same thing is for the case you chose wrong token type. For example, if you bridge ONE as BEP20, you receive bscONE that is not a liquid token.
 
-After you find your token, add it to your wallet as shown <a href="https://docs.harmony.one/home/general/wallets/browser-extensions-wallets/metamask-wallet/adding-custom-harmony-tokens" target="_blank" rel="noreferrer">
-here.
-</a>
-
-You can avoid this process if you use Add token to Metamask button on the bottom your bridge operation page after operation is completed:
-
-![](../../../../.gitbook/assets/LayerZero-bsc-add-token.png)
+After you find your token, add it to your wallet as shown [here](https://docs.harmony.one/home/general/horizon-bridge/adding-tokens).
 
 Check that you add token to a receiver wallet of your operation and the wallet is connected to the correct network.
