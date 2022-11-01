@@ -29,5 +29,5 @@ Good One is a simple crowdfunding dApp which will have the ‘minimum’ functio
 
 ![](<../../.gitbook/assets/image (309) (2) (1) (1) (2).png>)
 
-![](<../../.gitbook/assets/image (304) (3) (3) (3) (1) (1) (2).png>)
+![](<../../.gitbook/assets/image (304) (3) (3) (3) (1) (1) (2) (1).png>)
 

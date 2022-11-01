@@ -16,17 +16,13 @@ Click on the token symbol, and you’ll see all necessary token information.
 
 ![Screenshot 2022-01-20 at 21.52.12.png](../../../../.gitbook/assets/Screenshot\_2022-01-20\_at\_21.52.12.png)
 
-![Screenshot 2022-01-20 at 21.45.29.png](../../../../.gitbook/assets/HRC 20 ETH explorer.png)
+!\[Screenshot 2022-01-20 at 21.45.29.png]\(../../../../.gitbook/assets/HRC 20 ETH explorer.png)
 
 Don’t forget, that address should be in **ETH style** (starting **0x**...). For Harmony Explorer, there is a switcher in the top right corner.
 
-If you can’t find your token there, please use [this page](bridged-tokens.md) to find a token address you should have after the bridge.
+If you can’t find your token there, please use [this page](broken-reference) to find a token address you should have after the bridge.
 
-
-After you find your token, add it to your wallet as shown <a href="https://docs.harmony.one/home/general/wallets/browser-extensions-wallets/metamask-wallet/adding-custom-harmony-tokens" target="_blank" rel="noreferrer">
-here.
-</a>
-You can avoid this process if you use Add token to Metamask button on the bottom your bridge operation page after operation is completed:
+After you find your token, add it to your wallet as shown [here. ](https://docs.harmony.one/home/general/wallets/browser-extensions-wallets/metamask-wallet/adding-custom-harmony-tokens)You can avoid this process if you use Add token to Metamask button on the bottom your bridge operation page after operation is completed:
 
 ![](../../../../.gitbook/assets/LayerZero-bsc-add-token.png)
 
