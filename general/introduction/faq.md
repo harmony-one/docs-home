@@ -6,7 +6,7 @@ Check [Coinmarketcap Markets](https://coinmarketcap.com/currencies/harmony/marke
 
 ## What Wallets accept Harmony One?
 
-Check [Holders](../wallets.md) for a list of Harmony One wallets.
+Check [Holders](../wallets/) for a list of Harmony One wallets.
 
 ## What DApps work with Harmony One?
 

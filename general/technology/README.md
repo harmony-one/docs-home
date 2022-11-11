@@ -32,6 +32,6 @@
 [bridges](../bridges/)
 {% endcontent-ref %}
 
-{% content-ref url="../wallets.md" %}
-[wallets.md](../wallets.md)
+{% content-ref url="../wallets/" %}
+[wallets](../wallets/)
 {% endcontent-ref %}
