@@ -2,15 +2,15 @@
 
 ## Where do I get Harmony One?
 
-Check [Coinmarketcap Markets](https://coinmarketcap.com/currencies/harmony/markets/) for a list of Exchanges trading Harmony One. You may also want to get them via [Defi DApps](../dapps/dexes/).
+Check [Coinmarketcap Markets](https://coinmarketcap.com/currencies/harmony/markets/) for a list of Exchanges trading Harmony One. You may also want to get them via [Defi DApps](../ecosystem/dapps/dexes/).
 
 ## What Wallets accept Harmony One?
 
-Check [Holders](../wallets/) for a list of Harmony One wallets.
+Check [Holders](../ecosystem/wallets/) for a list of Harmony One wallets.
 
 ## What DApps work with Harmony One?
 
-Check [DApps](../dapps/) for a list of decentralized applications running on Harmony One.
+Check [DApps](../ecosystem/dapps/) for a list of decentralized applications running on Harmony One.
 
 ## What is Staking?
 
@@ -26,7 +26,7 @@ Your delegated tokens are also associated with slashing risks of the validator. 
 
 New Delegators Quick, Simple Walkthrough:
 
-💻 Download the ONEwallet extension from [here](../wallets/browser-extensions-wallets/one-wallet.md)
+💻 Download the ONEwallet extension from [here](../ecosystem/wallets/browser-extensions-wallets/one-wallet.md)
 
 ✍️ Using the new extension create a new wallet or recover an existing one using seed words.
 

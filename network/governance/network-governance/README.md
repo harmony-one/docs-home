@@ -1,6 +1,6 @@
 # Network Governance
 
-Harmony Network Governance voting is currently available via Harmony Governance App and [HMY CLI](../../../general/wallets/harmony-cli/). As with other projects and networks, the decisions should be made by the community, or in this case, the validators, on what upgrades, incentives or changes we should make for the Harmony network so that it becomes even more attractive to community validators and participants.
+Harmony Network Governance voting is currently available via Harmony Governance App and [HMY CLI](../../../general/ecosystem/wallets/harmony-cli/). As with other projects and networks, the decisions should be made by the community, or in this case, the validators, on what upgrades, incentives or changes we should make for the Harmony network so that it becomes even more attractive to community validators and participants.
 
 As the network and core protocol are  complicated and require a deep knowledge of EPoS and some technical/blockchain background, we are only letting validators create and vote on proposals. The network governance model includes proposal, voting, and implementation processes.
 

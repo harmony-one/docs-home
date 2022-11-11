@@ -32,7 +32,7 @@ Harmony’s network layer is based on the industry-leading p2p protocol named li
 
 ### Asynchronous Cross-Shard Transactions
 
-Harmony supports cross-shard transactions to achieve composability of assets and smart contracts between shards. We designed a receipt-based asynchronous cross-shard communication mechanism which achieves eventual consistency so no double-spending is possible between shards.
+Harmony supports cross-shard transactions to achieve composability of assets between shards. We designed a receipt-based asynchronous cross-shard communication mechanism which achieves eventual consistency so no double-spending is possible between shards.
 
 ## Fun Facts
 

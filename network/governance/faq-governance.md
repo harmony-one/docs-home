@@ -18,4 +18,4 @@ Yes, you can vote.
 
 ## What version of OneWallet do I need?
 
-Make sure you are on the latest version of [Onewallet ](../../general/wallets/browser-extensions-wallets/one-wallet.md)from the store.
+Make sure you are on the latest version of [Onewallet ](../../general/ecosystem/wallets/browser-extensions-wallets/one-wallet.md)from the store.
