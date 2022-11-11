@@ -28,10 +28,10 @@
 [transactions.md](transactions.md)
 {% endcontent-ref %}
 
-{% content-ref url="bridges/" %}
-[bridges](bridges/)
+{% content-ref url="../bridges/" %}
+[bridges](../bridges/)
 {% endcontent-ref %}
 
-{% content-ref url="../ecosystem/wallets/" %}
-[wallets](../ecosystem/wallets/)
+{% content-ref url="../wallets.md" %}
+[wallets.md](../wallets.md)
 {% endcontent-ref %}

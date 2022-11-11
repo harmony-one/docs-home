@@ -57,7 +57,7 @@ Yes, you can.
 
 ## **11. How can I change my wallet password?**
 
-Ensure you have access to your seed phrase or private key first. For [One Wallet](../../../general/ecosystem/wallets/browser-extensions-wallets/one-wallet.md), uninstall the extension and install it again. Launch the extension and choose the option to recover your account. Enter your seed or private key and input your new password.
+Ensure you have access to your seed phrase or private key first. For [One Wallet](../../../general/ecosystem/daos/one-wallet.md), uninstall the extension and install it again. Launch the extension and choose the option to recover your account. Enter your seed or private key and input your new password.
 
 ## **12. Is there a window between epochs to delegate tokens?**
 

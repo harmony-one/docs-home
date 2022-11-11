@@ -1,29 +1,29 @@
 # Harmony Specifics
 
-{% content-ref url="list-of-rpc-providers.md" %}
-[list-of-rpc-providers.md](list-of-rpc-providers.md)
+{% content-ref url="../list-of-rpc-providers.md" %}
+[list-of-rpc-providers.md](../list-of-rpc-providers.md)
 {% endcontent-ref %}
 
-{% content-ref url="network-and-faucets.md" %}
-[network-and-faucets.md](network-and-faucets.md)
+{% content-ref url="../network-and-faucets.md" %}
+[network-and-faucets.md](../network-and-faucets.md)
 {% endcontent-ref %}
 
-{% content-ref url="list-of-deployed-contracts.md" %}
-[list-of-deployed-contracts.md](list-of-deployed-contracts.md)
+{% content-ref url="../list-of-deployed-contracts.md" %}
+[list-of-deployed-contracts.md](../list-of-deployed-contracts.md)
 {% endcontent-ref %}
 
-{% content-ref url="sdk/" %}
-[sdk](sdk/)
+{% content-ref url="../sdk/" %}
+[sdk](../sdk/)
 {% endcontent-ref %}
 
-{% content-ref url="api/" %}
-[api](api/)
+{% content-ref url="../api/" %}
+[api](../api/)
 {% endcontent-ref %}
 
-{% content-ref url="tools/" %}
-[tools](tools/)
+{% content-ref url="../tools/" %}
+[tools](../tools/)
 {% endcontent-ref %}
 
-{% content-ref url="harmony-stack.md" %}
-[harmony-stack.md](harmony-stack.md)
+{% content-ref url="../harmony-stack.md" %}
+[harmony-stack.md](../harmony-stack.md)
 {% endcontent-ref %}

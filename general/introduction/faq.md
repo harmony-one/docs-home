@@ -6,7 +6,7 @@ Check [Coinmarketcap Markets](https://coinmarketcap.com/currencies/harmony/marke
 
 ## What Wallets accept Harmony One?
 
-Check [Holders](../ecosystem/wallets/) for a list of Harmony One wallets.
+Check [Holders](../wallets.md) for a list of Harmony One wallets.
 
 ## What DApps work with Harmony One?
 
@@ -26,7 +26,7 @@ Your delegated tokens are also associated with slashing risks of the validator. 
 
 New Delegators Quick, Simple Walkthrough:
 
-💻 Download the ONEwallet extension from [here](../ecosystem/wallets/browser-extensions-wallets/one-wallet.md)
+💻 Download the ONEwallet extension from [here](../ecosystem/daos/one-wallet.md)
 
 ✍️ Using the new extension create a new wallet or recover an existing one using seed words.
 
