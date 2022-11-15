@@ -39,6 +39,7 @@
       * [Under Collateralization](general/bridges/bitcoin-bridge/running-a-vault/liquidation-risks/under-collateralization.md)
   * [Bridge tutorial](general/bridges/layerzero-bridge/bridging-tutorial.md)
     * [Malicious Behavior](general/bridges/bitcoin-bridge/running-a-vault/liquidation-risks/malicious-behavior.md)
+  * [Important Notice](general/layerzero-bridge/important-notice.md)
   * [Help](general/bridges/layerzero-bridge/Help.md)
     * [Risk Mitigation](general/bridges/bitcoin-bridge/running-a-vault/liquidation-risks/risk-mitigation.md)
     * [Future Plans](general/bridges/bitcoin-bridge/running-a-vault/future-plans.md)
