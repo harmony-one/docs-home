@@ -89,7 +89,7 @@
     * [Web Wallets](general/wallets/web-wallets/README.md)
       * [Guarda Wallet](general/wallets/web-wallets/guarda-wallet.md)
       * [Sprout](general/wallets/web-wallets/sprout.md)
-    * [HMY CLI](general/wallets/harmony-cli/README.md)
+    * [HMY CLI (Harmony Command Line Wallet)](general/wallets/harmony-cli/README.md)
       * [Download & Setup](general/wallets/harmony-cli/download-setup.md)
       * [Create or Import Wallet](general/wallets/harmony-cli/create-import-wallet.md)
       * [Sending Transactions](general/wallets/harmony-cli/send-tx.md)
