@@ -1,4 +1,4 @@
-# Smart Contract Verification
+# Manually
 
 A quick guide on how to verify your contracts on Harmony.
 
@@ -33,7 +33,8 @@ Important to use correct params (the same like on deploy):
 * Contract address
 * Contract name
 * Compiler version
-* Optimizer
+* Optimizer (typically "Yes")
+* Optimizer Amount (typically 200)
 * Chain Type (mainnet or testnet)
 * Sources
 * Imported libs
