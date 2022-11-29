@@ -18,8 +18,8 @@ Note: The below documentation is now deprecated
 
 Option 1. Using Harmony's public graph node.
 
-{% content-ref url="building-and-deploying-subgraph-public-node.md" %}
-[building-and-deploying-subgraph-public-node.md](building-and-deploying-subgraph-public-node.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 Option 2. Using a local indexer node.

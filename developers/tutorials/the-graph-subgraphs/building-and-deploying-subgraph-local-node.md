@@ -11,17 +11,17 @@ description: This tutorial will demonstrate how to build a subgraph and deploy i
 ## Build your own graph-indexer local node
 
 Copy paste the below docker-compose file and replace `services.graph-node.environment.ethereum` accordingly to the network:\
-`mainnet` : mainnet:no\_eip1898,archive,traces:https://a.api.s0.t.hmny.io\
-`testnet` : testnet:no\_eip1898,archive,traces:https://api.s0.pops.one
+`mainnet s0` : mainnet:archive,traces:https://a.api.s0.t.hmny.io\
+`mainnet s1` : mainnet:archive,traces:https://a.api.s1.t.hmny.io
 
 {% tabs %}
-{% tab title="mainnet" %}
+{% tab title="mainnet s0" %}
 ```yaml
 version: "3"
 services:
   graph-node:
     container_name: hmy_indexer
-    image: graphprotocol/graph-node:v0.23.1
+    image: graphprotocol/graph-node:latest
     ports:
       - "8000:8000"
       - "8001:8001"
@@ -38,9 +38,8 @@ services:
       postgres_db: graph-node
       ipfs: "ipfs:5001"
       GRAPH_ETH_CALL_BY_NUMBER: 1
-      GRAPH_NO_EIP_1898_SUPPORT: 1
       GRAPH_ALLOW_NON_DETERMINISTIC_IPFS: 1
-      ethereum: 'mainnet:no_eip1898,archive,traces:https://a.api.s0.t.hmny.io"
+      ethereum: "mainnet:archive,traces:https://a.api.s0.t.hmny.io"
       RUST_LOG: info
   ipfs:
     container_name: ipfs
@@ -63,13 +62,13 @@ services:
 ```
 {% endtab %}
 
-{% tab title="testnet" %}
+{% tab title="mainnet s1" %}
 ```
 version: "3"
 services:
   graph-node:
     container_name: hmy_indexer
-    image: graphprotocol/graph-node:0.23.1
+    image: graphprotocol/graph-node:latest
     ports:
       - "8000:8000"
       - "8001:8001"
@@ -86,9 +85,8 @@ services:
       postgres_db: graph-node
       ipfs: "ipfs:5001"
       GRAPH_ETH_CALL_BY_NUMBER: 1
-      GRAPH_NO_EIP_1898_SUPPORT: 1
       GRAPH_ALLOW_NON_DETERMINISTIC_IPFS: 1
-      ethereum: "testnet,archive,traces:https://api.s0.backup1.b.hmny.io"
+      ethereum: "mainnet:archive,traces:https://a.api.s1.t.hmny.io"
       RUST_LOG: info
   ipfs:
     container_name: ipfs
@@ -125,10 +123,10 @@ Creating indexer ...
 Creating indexer ... done
 ```
 
-docker logs indexer -f should show the indexer synching with the harmony chain
+docker logs hmy\_indexer -f should show the indexer synching with the harmony chain
 
 ```bash
-docker logs indexer -f
+docker logs hmy_indexer -f
 Jul 29 05:33:22.849 INFO Graph Node version: 0.23.1 (2021-06-23)
 Jul 29 05:33:22.861 INFO Generating configuration from command line arguments
 Jul 29 05:33:22.909 INFO Starting up
@@ -229,6 +227,8 @@ It is highly recommended to minimize the number of blocks to be indexed to avoid
 
 Update the manifest `subgraph.yaml` file `datasources[0]['network']` from `rinkeby` to `mainnet` or `testnet` accordingly to how you edited the network in your `docker-compose.yaml`\
 if there is no need to index the entire blockchain, you can add an attribute `startBlock` to speed up the sync : `datasources[0]['source']['startBlock']`
+
+Also, update the `subgraph.yaml` `apiVersion: 0.0.5`
 
 {% hint style="info" %}
 It is highly recommended to minimize the number of blocks to be indexed to avoid putting load on the RPCs and to speed up the usage of your subgraph/application
