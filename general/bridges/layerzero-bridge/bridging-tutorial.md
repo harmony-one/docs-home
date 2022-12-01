@@ -55,7 +55,7 @@ When the transaction is over, its hash appear on the corresponding step. You can
 
 ![](../../../.gitbook/assets/LayerZero-bsc-add-token.png)
 
-Alternately, you can use [this guide](../../ecosystem/partners/exchanges/adding-custom-harmony-tokens.md) for adding tokens.
+Alternately, you can use [this guide](../../ecosystem/wallets/browser-extensions-wallets/metamask-wallet/adding-custom-harmony-tokens.md) for adding tokens.
 
 {% hint style="warning" %}
 Do NOT send bridged tokens directly to other blockchains or exchanges. This will not work and it might result in **permanent loss** of your tokens. Bridged tokens can only be used on Harmony network. The only way to send them out is by bridging them back.

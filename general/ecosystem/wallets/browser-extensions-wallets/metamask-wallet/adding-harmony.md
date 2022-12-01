@@ -28,3 +28,7 @@ The example below shows the configuration that needs to be done to connect to Ha
 ![](<../../../../../.gitbook/assets/image (294) (1) (2) (2) (1) (2) (2) (2) (2) (2) (2) (2) (2) (3) (3) (3) (1) (1) (1) (3).png>)
 
 Click the Save button and your configuration should be done!
+
+{% hint style="success" %}
+if you have any issue fetching data like chain-id, try to type the `new RPC URL` instead copy pasting it.
+{% endhint %}

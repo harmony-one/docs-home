@@ -8,13 +8,13 @@ description: This page describes how to add HRC20/HRC721 tokens to MetaMask.
 
 Open MetaMask, select the Harmony network, then click the Assets tab. Near the bottom, click "Import Tokens" and complete the empty fields.&#x20;
 
-![](<../../../../.gitbook/assets/image (301) (1).png>)
+![](<../../../../../.gitbook/assets/image (301) (1).png>)
 
 Add the Token Contract Address, Token Symbol, and the Decimals value. Note the Token Symbol and Decimals may auto-populate. These details are usually provided by the token creator.&#x20;
 
 See "[**Importing 1BTC Token**](https://docs.harmony.one/home/general/bitcoin-bridge/user-guide/importing-1btc-token)" as an example.
 
-![](<../../../../.gitbook/assets/image (292).png>)
+![](<../../../../../.gitbook/assets/image (292).png>)
 
 Complete the step by clicking on "Add Custom Token"**.** Your custom HRC20 Token will show up in MetaMask along with its balance.
 
