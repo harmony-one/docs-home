@@ -8,7 +8,7 @@ The Staking Explorer is an easy way to stake, delegate, send funds and view all 
 
 You can explore the dashboard without using your ONE address, but the ONE address you use will be used for any transactions.&#x20;
 
-You can log into an account using the Harmony Chrome Extension, MathWallet Chrome Extension, or Ledger Nano S.&#x20;
+You can log into an account using Metamask, MathWallet Chrome Extension, or a Ledger.&#x20;
 
 ![](<../../.gitbook/assets/image (30).png>)
 
@@ -16,8 +16,6 @@ After logging in, you can view network analytics, a list of validators, validato
 
 ![](<../../.gitbook/assets/image (159).png>)
 
-Every transaction or delegation must be signed. You can use the Harmony Chrome Extension, which supports Ledger Nano S.
-
-**Harmony Browser Extension:** [https://docs.harmony.one/home/wallets/chrome-extension](https://docs.harmony.one/home/wallets/chrome-extension)
+Every transaction or delegation must be signed with your preferred wallet supported by the staking dashboard
 
 **Wallets:** [https://docs.harmony.one/home/basics/overview](https://docs.harmony.one/home/basics/overview)

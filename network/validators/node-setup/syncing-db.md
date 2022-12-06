@@ -79,15 +79,13 @@ NOTICE: Config file "/root/.config/rclone/rclone.conf" not found - using default
 
 Add the option `--config=/home/harmony/.config/rclone/rclone.conf` to the command line.
 
-{% hint style="info" %}
-Nodes in shard 0 just need to sync `harmony_db_0`
-
-Nodes in shard 1, 2, 3 need to sync both `harmony_db_0`, and `harmony_db_<ShardID>`
-{% endhint %}
-
 ### 4. Cheat Sheet
 
-#### shard0:
+Since v4.3.12 shard 1/2/3 doesn't need to download anymore shard 0 DB. Instead, the node will download automatically the blocks required for the node in shard 1/2/3 to work.
+
+Each node will simply need to rclone its own DB.
+
+#### Shard0 RPC Explorer node (non archival):
 
 {% tabs %}
 {% tab title="Mainnet" %}
@@ -103,19 +101,25 @@ rclone -P -L --checksum sync release:pub.harmony.one/testnet.min/harmony_db_0 ha
 {% endtab %}
 {% endtabs %}
 
+#### Shard0 Validator node:
+
+SnapDB is a new type of DB that contain a snapshot of the state at a given block (ie as of 4th March 2022, this is block 22816573). It doesn't have any block history history and hence not suitable for RPC node
+
+```
+rclone -P -L --checksum sync release:pub.harmony.one/mainnet.snap/harmony_db_0 harmony_db_0 --multi-thread-streams 4 --transfers=32
+```
+
 #### Shard 1:
 
 {% tabs %}
 {% tab title="Mainnet" %}
 ```bash
-rclone -P -L sync release:pub.harmony.one/mainnet.min/harmony_db_0 harmony_db_0 --multi-thread-streams 4 --transfers=8
-rclone -P -L sync release:pub.harmony.one/mainnet.min/harmony_db_1 harmony_db_1 --multi-thread-streams 4 --transfers=8
+rclone -P -L --checksum sync release:pub.harmony.one/mainnet.min/harmony_db_1 harmony_db_1 --multi-thread-streams 4 --transfers=8
 ```
 {% endtab %}
 
 {% tab title="Testnet" %}
 ```
-rclone -P -L --checksum sync release:pub.harmony.one/testnet.min/harmony_db_0 harmony_db_0 --multi-thread-streams 4 --transfers=32
 rclone -P -L --checksum sync release:pub.harmony.one/testnet.min/harmony_db_1 harmony_db_1 --multi-thread-streams 4 --transfers=32
 ```
 {% endtab %}
@@ -126,14 +130,12 @@ rclone -P -L --checksum sync release:pub.harmony.one/testnet.min/harmony_db_1 ha
 {% tabs %}
 {% tab title="Mainnet" %}
 ```bash
-rclone -P -L sync release:pub.harmony.one/mainnet.min/harmony_db_0 harmony_db_0 --multi-thread-streams 4 --transfers=8
-rclone -P -L sync release:pub.harmony.one/mainnet.min/harmony_db_2 harmony_db_2 --multi-thread-streams 4 --transfers=8
+rclone -P -L --checksum sync release:pub.harmony.one/mainnet.min/harmony_db_2 harmony_db_2 --multi-thread-streams 4 --transfers=8
 ```
 {% endtab %}
 
 {% tab title="Testnet" %}
 ```
-rclone -P -L --checksum sync release:pub.harmony.one/testnet.min/harmony_db_0 harmony_db_0 --multi-thread-streams 4 --transfers=32
 rclone -P -L --checksum sync release:pub.harmony.one/testnet.min/harmony_db_2 harmony_db_2 --multi-thread-streams 4 --transfers=32
 ```
 {% endtab %}
@@ -144,15 +146,13 @@ rclone -P -L --checksum sync release:pub.harmony.one/testnet.min/harmony_db_2 ha
 {% tabs %}
 {% tab title="Mainnet" %}
 ```bash
-rclone -P -L --checksum sync release:pub.harmony.one/mainnet.min/harmony_db_0 harmony_db_0 --multi-thread-streams 4 --transfers=32
 rclone -P -L --checksum sync release:pub.harmony.one/mainnet.min/harmony_db_3 harmony_db_3 --multi-thread-streams 4 --transfers=32
 ```
 {% endtab %}
 
 {% tab title="Testnet" %}
 ```
-rclone -P -L sync release:pub.harmony.one/testnet.min/harmony_db_0 harmony_db_0 --multi-thread-streams 4 --transfers=8
-rclone -P -L sync release:pub.harmony.one/testnet.min/harmony_db_3 harmony_db_3 --multi-thread-streams 4 --transfers=8
+rclone -P -L --checksum sync release:pub.harmony.one/testnet.min/harmony_db_3 harmony_db_3 --multi-thread-streams 4 --transfers=8
 ```
 {% endtab %}
 {% endtabs %}
@@ -162,16 +162,6 @@ After the sync, you may use `du -h harmony_db_*` command to check the size of th
 {% hint style="info" %}
 `-P` will display a download progress & ETA.
 {% endhint %}
-
-## Mainnet S0 Snapshot DB for validator
-
-SnapDB is a new type of DB that doesn't contain any data before a given block (ie as of 4th March 2022, this is block 22816573), hence not suitable for RPC node
-
-Mainnet validator in all shard 0/1/2/3 can use it with a size of 257G (as of 4th March 2022)
-
-```
-rclone -P -L --checksum sync release:pub.harmony.one/mainnet.snap/harmony_db_0 harmony_db_0 --multi-thread-streams 4 --transfers=32
-```
 
 ## Non-Validating/Explorer Nodes
 

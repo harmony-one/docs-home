@@ -1,10 +1,10 @@
 # Staking Dashboard
 
-Staking via browser is done via [Staking Dashboard](https://staking.harmony.one/). There you will be able to delegate, undelegate tokens, claim rewards and manage your delegations. Currently, staking transaction are supported on [Ledger Nano S,](../../../../general/wallets/hardware-wallets/ledger/) [ONE Wallet](../../../../general/ecosystem/wallets/browser-extensions-wallets/one-wallet.md) and [Math Wallet](../../../../developers/wallets/mathwallet.md). you can log in or create a new address via those three wallets.
+Staking via browser is done via [Staking Dashboard](https://staking.harmony.one/). There you will be able to delegate, undelegate tokens, claim rewards and manage your delegations. Currently, staking transaction are supported on [Ledger Nano S/X,](../../../../general/wallets/hardware-wallets/ledger/) [Metamask](../../../../general/ecosystem/wallets/browser-extensions-wallets/metamask-wallet/) and [Math Wallet](../../../../developers/wallets/mathwallet.md).&#x20;
 
 ![](<../../../../.gitbook/assets/image (29).png>)
 
-![](<../../../../.gitbook/assets/image (30).png>)
+<figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 In order to choose their validators and manage their delegation, delegators have access to a range of information on the Staking Dashboard.
 

@@ -1,6 +1,6 @@
 # Slots Bidding and Election
 
-In Open Staking of mainnet, there will be 800 slots available for bidding. A slot represents membership in the network which gives the validator the right to use a specific BLS key to sign on blocks and the signature will be acknowledged by other validators.
+In Open Staking of mainnet, there will be 900 slots available for bidding. A slot represents membership in the network which gives the validator the right to use a specific BLS key to sign on blocks and the signature will be acknowledged by other validators.
 
 After you create the validator record, the tokens you stake, along with any delegated tokens to your validator, will be automatically used to bid for the slots.
 
@@ -11,7 +11,7 @@ Simply put, all tokens staked to the validator will be equally divided into each
 The election for the slots works as follows.
 
 1. Before the start of an epoch, all validator bids are ranked by bid price in descending order.
-2. The highest 800 bids will be awarded the slots in the upcoming epoch.
+2. The highest 900 bids will be awarded the slots in the upcoming epoch.
 
 The BLS key that successfully bids for a slot is deemed **elected**. Elected BLS keys will eventually form the committees of the shards. A validator in possession of at least one elected BLS key is also deemed **elected.**
 

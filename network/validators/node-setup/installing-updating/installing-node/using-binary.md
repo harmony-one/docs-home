@@ -74,7 +74,7 @@ All the start options can be persisted and loaded from a single config file. To 
 A file `harmony.conf` is created and the default node options are set in the file in TOML formatting. Here is an example:
 
 ```
-Version = "2.1.0"
+Version = "2.5.7"
 
 [BLSKeys]
   KMSConfigFile = ""
@@ -98,14 +98,19 @@ Version = "2.1.0"
 
 [General]
   DataDir = "./"
+  EnablePruneBeaconChain = false
   IsArchival = false
+  IsBackup = false
   IsBeaconArchival = false
   IsOffline = false
   NoStaking = false
   NodeType = "validator"
+  RunElasticMode = false
   ShardID = -1
+  TraceEnable = false
 
 [HTTP]
+  AuthPort = 9501
   Enabled = true
   IP = "127.0.0.1"
   Port = 9500
@@ -113,31 +118,53 @@ Version = "2.1.0"
   RosettaPort = 9700
 
 [Log]
+  Console = false
   FileName = "harmony.log"
   Folder = "./latest"
+  RotateCount = 0
+  RotateMaxAge = 0
   RotateSize = 100
   Verbosity = 3
 
   [Log.VerbosePrints]
-    Config = false
+    Config = true
 
 [Network]
   BootNodes = ["/dnsaddr/bootstrap.t.hmny.io"]
   NetworkType = "mainnet"
 
 [P2P]
+  DisablePrivateIPScan = false
+  DiscConcurrency = 0
   IP = "0.0.0.0"
   KeyFile = "./.hmykey"
+  MaxConnsPerIP = 10
+  MaxPeers = 0
   Port = 9000
 
 [Pprof]
   Enabled = false
+  Folder = "./profiles"
   ListenAddr = "127.0.0.1:6060"
+  ProfileDebugValues = [0]
+  ProfileIntervals = [600]
+  ProfileNames = []
 
 [RPCOpt]
   DebugEnabled = false
+  EthRPCsEnabled = true
+  LegacyRPCsEnabled = true
   RateLimterEnabled = true
   RequestsPerSecond = 1000
+  RpcFilterFile = "./.hmy/rpc_filter.txt"
+  StakingRPCsEnabled = true
+
+[ShardData]
+  CacheSize = 512
+  CacheTime = 10
+  DiskCount = 8
+  EnableShardData = false
+  ShardCount = 4
 
 [Sync]
   Concurrency = 6
@@ -151,9 +178,15 @@ Version = "2.1.0"
   MinPeers = 6
 
 [TxPool]
+  AccountSlots = 16
+  AllowedTxsFile = "./.hmy/allowedtxs.txt"
   BlacklistFile = "./.hmy/blacklist.txt"
+  GlobalSlots = 5120
+  LocalAccountsFile = "./.hmy/locals.txt"
+  RosettaFixFile = ""
 
 [WS]
+  AuthPort = 9801
   Enabled = true
   IP = "127.0.0.1"
   Port = 9800
@@ -185,7 +218,7 @@ To run harmony internal nodes under legacy mode instead of staking mode, change 
   ShardID = -1
 ```
 
-To enable streamsync, modify the below two sections (Experimental)
+To enable streamsync, modify the below two sections (Experimental. use at your own risk)
 
 {% tabs %}
 {% tab title="Testnet" %}
@@ -212,7 +245,7 @@ To enable streamsync, modify the below two sections (Experimental)
 {% endtabs %}
 
 {% hint style="success" %}
-Stream Sync is the new harmony Syncing method allowing to get rid of the previous sync via DNS causing issue when the DNS node wasn't in sync.
+Stream Sync is the new harmony P2P syncing method allowing to get rid of the previous sync via DNS causing issue when the DNS
 {% endhint %}
 
 #### Start the node with Config File
@@ -264,57 +297,97 @@ Examples usage:
     ./harmony --http.ip=0.0.0.0 --http.port=[http_port] --ws.ip=0.0.0.0 --ws.port=[ws_port]
 
 # start an explorer node
-    ./harmony --run=explorer --run.archive --run.shard=[shard_id]
+    ./harmony --run=explorer --run.shard=[shard_id]
 
 # start a harmony internal node on testnet
-    ./harmony --run.legacy --network
-    
+    ./harmony --run.legacy --network testnet
+
 Usage:
   harmony [flags]
   harmony [command]
 
 Available Commands:
-  dumpconfig  dump the config file for harmony binary configurations
+  config      dump or update config
+  dumpdb      dump a snapshot db.
   help        Help about any command
   version     print version of the harmony binary
 
 Flags:
-      --bls.dir string            directory for BLS keys (default "./.hmy/blskeys")
-      --bls.keys strings          a list of BLS key files (separated by ,)
-      --bls.kms                   enable BLS key decryption with AWS KMS service (default true)
-      --bls.kms.config string     json config file for KMS service (region and credentials)
-      --bls.kms.src string        the AWS config source (region and credentials) for KMS service (shared, prompt, file) (default "shared")
-      --bls.pass                  enable BLS key decryption with passphrase (default true)
-      --bls.pass.file string      the pass file used for BLS decryption. If specified, this pass file will be used for all BLS keys
-      --bls.pass.save             after input the BLS passphrase from console, whether to persist the input passphrases in .pass file
-      --bls.pass.src string       source for BLS passphrase (auto, file, prompt) (default "auto")
-      --bootnodes strings         a list of bootnode multiaddress (delimited by ,)
-  -c, --config string             load node config from the config toml file.
-      --datadir string            directory of chain database (default "./")
-      --dns.port int              port of customized dns node (default 9000)
-      --dns.zone string           use customized peers from the zone for state syncing
-  -h, --help                      help for harmony
-      --http                      enable HTTP / RPC requests (default true)
-      --http.ip string            ip address to listen for RPC calls. Use 0.0.0.0 for public endpoint (default "127.0.0.1")
-      --http.port int             rpc port to listen for HTTP requests (default 9500)
-      --log.dir string            directory path to put rotation logs (default "./latest")
-      --log.max-size int          rotation log size in megabytes (default 100)
-      --log.name string           log file name (e.g. harmony.log) (default "harmony.log")
-  -v, --log.verb int              logging verbosity: 0=silent, 1=error, 2=warn, 3=info, 4=debug, 5=detail (default 3)
-  -n, --network string            network to join (mainnet, testnet, pangaea, localnet, partner, stressnet, devnet) (default "mainnet")
-      --p2p.keyfile string        the p2p key file of the harmony node (default "./.hmykey")
-      --p2p.port int              port to listen for p2p protocols (default 9000)
-      --pprof                     enable pprof profiling
-      --pprof.addr string         listen address for pprof (default "127.0.0.1:6060")
-      --run string                run node type (validator, explorer) (default "validator")
-      --run.archive               run node in archive mode
-      --run.legacy                whether to run node in legacy mode
-      --run.shard int             run node on the given shard ID (-1 automatically configured by BLS keys) (default -1)
-      --txpool.blacklist string   file of blacklisted wallet addresses (default "./.hmy/blacklist.txt")
-  -V, --version                   display version info
-      --ws                        enable websocket endpoint (default true)
-      --ws.ip string              ip endpoint for websocket. Use 0.0.0.0 for public endpoint (default "127.0.0.1")
-      --ws.port int               port for websocket endpoint (default 9800)
+      --bls.dir string                     directory for BLS keys (default "./.hmy/blskeys")
+      --bls.keys strings                   a list of BLS key files (separated by ,)
+      --bls.kms                            enable BLS key decryption with AWS KMS service
+      --bls.kms.config string              json config file for KMS service (region and credentials)
+      --bls.kms.src string                 the AWS config source (region and credentials) for KMS service (shared, prompt, file) (default "shared")
+      --bls.pass                           enable BLS key decryption with passphrase (default true)
+      --bls.pass.file string               the pass file used for BLS decryption. If specified, this pass file will be used for all BLS keys
+      --bls.pass.save                      after input the BLS passphrase from console, whether to persist the input passphrases in .pass file
+      --bls.pass.src string                source for BLS passphrase (auto, file, prompt) (default "auto")
+      --bootnodes strings                  a list of bootnode multiaddress (delimited by ,)
+  -c, --config string                      load node config from the config toml file.
+      --consensus.aggregate-sig            (multi-key) aggregate bls signatures before sending (default true)
+      --datadir string                     directory of chain database (default "./")
+      --dns.port int                       dns sync remote server port (default 6000)
+      --dns.server-port int                dns sync local server port (default 6000)
+      --dns.zone string                    use customized peers from the zone for state syncing
+  -h, --help                               help for harmony
+      --http                               enable HTTP / RPC requests (default true)
+      --http.auth-port int                 rpc port to listen for auth HTTP requests (default 9501)
+      --http.ip string                     ip address to listen for RPC calls. Use 0.0.0.0 for public endpoint (default "127.0.0.1")
+      --http.port int                      rpc port to listen for HTTP requests (default 9500)
+      --http.rosetta                       enable HTTP / Rosetta requests
+      --http.rosetta.port int              rosetta port to listen for HTTP requests (default 9700)
+      --log.console                        output log to console only
+      --log.dir string                     directory path to put rotation logs (default "./latest")
+      --log.max-size int                   rotation log size in megabytes (default 100)
+      --log.name string                    log file name (e.g. harmony.log) (default "harmony.log")
+      --log.rotate-count int               maximum number of old log files to retain
+      --log.rotate-max-age int             maximum number of days to retain old log files
+  -v, --log.verb int                       logging verbosity: 0=silent, 1=error, 2=warn, 3=info, 4=debug, 5=detail (default 3)
+      --log.verbose-prints strings         debugging feature. to print verbose internal objects as JSON in log file. available internal objects: config (default [config])
+      --metrics                            flag required to enable the eth metrics
+      --metrics.expensive                  flag required to enable the expensive eth metrics
+  -n, --network string                     network to join (mainnet, testnet, pangaea, localnet, partner, stressnet, devnet) (default "mainnet")
+      --p2p.disc.concurrency int           the pubsub's DHT discovery concurrency num (default with raw libp2p dht option)
+      --p2p.ip string                      ip to listen for p2p protocols (default "0.0.0.0")
+      --p2p.keyfile string                 the p2p key file of the harmony node (default "./.hmykey")
+      --p2p.no-private-ip-scan             disable scanning of private ip4/6 addresses by DHT
+      --p2p.port int                       port to listen for p2p protocols (default 9000)
+      --p2p.security.max-conn-per-ip int   maximum number of connections allowed per remote node, 0 means no limit (default 10)
+      --p2p.security.max-peers int         maximum number of peers allowed, 0 means no limit (default 10)
+      --pprof                              enable pprof profiling
+      --pprof.addr string                  listen address for pprof (default "127.0.0.1:6060")
+      --pprof.profile.names strings        a list of pprof profile names (separated by ,) e.g. cpu,heap,goroutine
+      --prometheus                         enable HTTP / Prometheus requests (default true)
+      --prometheus.ip string               ip address to listen for prometheus service (default "0.0.0.0")
+      --prometheus.port int                prometheus port to listen for HTTP requests (default 9900)
+      --prometheus.push                    enable prometheus pushgateway
+      --prometheus.pushgateway string      prometheus pushgateway URL (default "https://gateway.harmony.one")
+      --rpc.ratelimit int                  the number of requests per second for RPCs (default 1000)
+      --rpc.ratelimiter                    enable rate limiter for RPCs (default true)
+      --run string                         run node type (validator, explorer) (default "validator")
+      --run.archive                        run shard chain in archive mode
+      --run.beacon-archive                 run beacon chain in archive mode
+      --run.legacy                         whether to run node in legacy mode
+      --run.offline                        run node in offline mode
+      --run.shard int                      run node on the given shard ID (-1 automatically configured by BLS keys) (default -1)
+      --sharddata.cache_size int           local cache storage size (MB) (default 512)
+      --sharddata.cache_time int           local cache save time (minute) (default 10)
+      --sharddata.disk_count int           the count of disks you want to storage block data (default 8)
+      --sharddata.enable                   whether use multi-database mode of levelDB
+      --sharddata.shard_count int          the count of shards you want to split in each disk (default 4)
+      --sync                               Enable the stream sync protocol (experimental feature)
+      --tracing                            indicates if full transaction tracing should be enabled
+      --txpool.accountslots int            number of executable transaction slots guaranteed per account (default 16)
+      --txpool.allowedtxs string           file of allowed transactions (default "./.hmy/allowedtxs.txt")
+      --txpool.blacklist string            file of blacklisted wallet addresses (default "./.hmy/blacklist.txt")
+      --txpool.globalslots int             maximum global number of non-executable transactions in the pool (default 5120)
+      --txpool.locals string               file of local wallet addresses (default "./.hmy/locals.txt")
+      --txpool.rosettafixfile string       file of rosetta fix file
+  -V, --version                            display version info
+      --ws                                 enable websocket endpoint (default true)
+      --ws.auth-port int                   port for websocket auth endpoint (default 9801)
+      --ws.ip string                       ip endpoint for websocket. Use 0.0.0.0 for public endpoint (default "127.0.0.1")
+      --ws.port int                        port for websocket endpoint (default 9800)
 
 Use "harmony [command] --help" for more information about a command.
 ```
@@ -355,7 +428,7 @@ The above steps would have you started the node, please CTRL+C, so you can conti
 
 ### Non-Validating/Explorer Nodes
 
-A Non-validating Node is a node that runs in archival mode and does not join the consensus.
+A Non-validating Node is a node that does not join the consensus.
 
 {% hint style="warning" %}
 Check [here](../../../server-setup/requirements.md#explorer-node-recommendation) for Explorer Node requirements.

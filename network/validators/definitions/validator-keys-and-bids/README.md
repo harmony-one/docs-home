@@ -39,6 +39,7 @@ Here are **some rules to follow:**
 
 * In order to use multiBLS feature (multiple BLS keys in same instance), all keys are required to be on the **same shard**
 * Total number of BLS keys allowed per validator is **1/3 of total external seats** (network level)
+* Total number of BLS keys allowed per validator can't be more than **6%** of total expected external keys in a shard.
 
 Note that validators sometimes choose to run duplicate instances (2 instances, each running with same BLS key) as a backup mechanism.
 
