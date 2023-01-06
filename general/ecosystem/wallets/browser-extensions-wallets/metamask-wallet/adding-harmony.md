@@ -25,7 +25,7 @@ You will be prompted for additional information. Use the table below to complete
 
 The example below shows the configuration that needs to be done to connect to Harmony Mainnet on Shard 0:
 
-![](<../../../../../.gitbook/assets/image (294) (1) (2) (2) (1) (2) (2) (2) (2) (2) (2) (2) (2) (3) (3) (3) (1) (1) (1) (3).png>)
+![](<../../../../../.gitbook/assets/image (294) (1) (2) (2) (1) (2) (2) (2) (2) (2) (2) (2) (2) (3) (3) (3) (1) (1) (1) (2) (1) (3).png>)
 
 Click the Save button and your configuration should be done!
 

@@ -4,7 +4,7 @@
 
 1. Click on the 'Send' segment in SafePal App menu bar and select ONE.
 
-![](<../../../../.gitbook/assets/image (136) (2) (2) (2) (2) (2) (2) (2) (2) (2) (1) (1) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (136) (2) (2) (2) (2) (2) (2) (2) (2) (2) (1) (1) (1) (1) (1) (2) (1).png>)
 
 1. Input the destination address by pasting the address or scanning the QR code. Enter all transaction details - amount, fee and don't forget to select the shard number.
 
@@ -22,7 +22,7 @@ Tips: If you don't know the exact shard number, don't worry, you can simply use 
 
 1. Confirm the payment.The transfer is broadcasted on chain. Don't forget to check transfer status later.
 
-![](<../../../../.gitbook/assets/image (103) (2) (2) (2) (2) (2) (2) (2) (2) (2) (1) (1) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (103) (2) (2) (2) (2) (2) (2) (2) (2) (2) (1) (1) (1) (1) (1) (2) (1).png>)
 
 {% embed url="https://www.dropbox.com/s/uo80rhxy0pnu9sa/SafePal%20Teaser.mp4?dl=0" %}
 
