@@ -23,7 +23,7 @@ The input is a single RLP encoded version of a StakingTransaction
 **Sample Curl Request**
 
 ```bash
-curl -d '{
+curl --location --header 'Content-Type: application/json' --request POST 'https://api.s0.b.hmny.io/' -d '{
     "jsonrpc":"2.0",
     "method":"hmy_sendRawStakingTransaction",
     "params":[

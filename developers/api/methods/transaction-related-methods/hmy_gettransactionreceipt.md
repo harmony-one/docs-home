@@ -34,7 +34,7 @@ curl -d '{
     "params":[
     "0x2fa714e40389cbbceda0f77e707035c0ec8aa940e8e10c0d445813177ea71e7d"],
     "id":1
-}' -H "Content-Type:application/json" -X POST "http:s0.b.hmny.io"
+}' -H "Content-Type:application/json" -X POST "https://api.s0.b.hmny.io"
 ```
 
 **Sample Curl Response**
@@ -89,7 +89,7 @@ curl -d '{
     "params":[
     "0x2fa714e40389cbbceda0f77e707035c0ec8aa940e8e10c0d445813177ea71e7d"],
     "id":1
-}' -H "Content-Type:application/json" -X POST "http:s0.b.hmny.io"
+}' -H "Content-Type:application/json" -X POST "https://api.s0.b.hmny.io"
 ```
 
 **Sample Curl Response**

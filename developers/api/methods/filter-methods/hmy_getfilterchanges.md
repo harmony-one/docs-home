@@ -28,13 +28,13 @@ description: hmy_getFilterChanges
 ## Sample Curl Request
 
 ```
-curl -X POST --data 
+curl -d
 '{
    "jsonrpc":"2.0",
    "method":"hmy_getFilterChanges",
    "params":["0x16"],
    "id":73
-}'
+}' -H "Content-Type:application/json" -X POST "https://api.s0.b.hmny.io"
 ```
 
 ## Sample Curl Response

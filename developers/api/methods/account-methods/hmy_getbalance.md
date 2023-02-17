@@ -28,7 +28,7 @@ curl -d '{
         "one1z05g55zamqzfw9qs432n33gycdmyvs38xjemyl", 
         "0x1"
     ]
-}' -H "Content-Type: application/json" -X POST "http://localhost:9500"
+}' -H "Content-Type:application/json" -X POST "https://api.s0.b.hmny.io"
 ```
 
 **Sample Curl Response**
@@ -61,7 +61,7 @@ curl -d '{
     "params": [
         "one1z05g55zamqzfw9qs432n33gycdmyvs38xjemyl"
     ]
-}' -H "Content-Type: application/json" -X POST "http://localhost:9500"
+}' -H "Content-Type:application/json" -X POST "https://api.s0.b.hmny.io"
 ```
 
 **Sample Curl Response**

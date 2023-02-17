@@ -24,7 +24,7 @@ curl -d '{
     "method":"hmy_getBlockTransactionCountByHash",
     "params":["0x660fe701f580ffebfcfb4af1836c9929c1fd0014d8d79d60749fecf52df7a90d"],
     "id":1
-}' -H "Content-Type:application/json" -X POST "http://localhost:9500"
+}' -H "Content-Type:application/json" -X POST "https://api.s0.b.hmny.io"
 ```
 
 **Sample Curl Response**
@@ -55,7 +55,7 @@ curl -d '{
     "method":"hmyv2_getBlockTransactionCountByHash",
     "params":["0x660fe701f580ffebfcfb4af1836c9929c1fd0014d8d79d60749fecf52df7a90d"],
     "id":1
-}' -H "Content-Type:application/json" -X POST "http://localhost:9500"
+}' -H "Content-Type:application/json" -X POST "https://api.s0.b.hmny.io"
 ```
 
 **Sample Curl Response**

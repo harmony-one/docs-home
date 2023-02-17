@@ -26,7 +26,7 @@ See hmy\_getFilterChanges
 
 ```
 // Request
-curl -X POST --data '{"jsonrpc":"2.0","method":"hmy_getFilterLogs","params":["0x16"],"id":74}'
+curl -d '{"jsonrpc":"2.0","method":"hmy_getFilterLogs","params":["0x16"],"id":74}' -H "Content-Type:application/json" -X POST "https://api.s0.b.hmny.io"
 ```
 
 Result see hmy\_getFilterChanges

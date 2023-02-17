@@ -36,7 +36,7 @@ For filters created with `hmy_newFilter` logs are objects with following params:
 **Sample Curl Request**
 
 ```bash
-curl -X POST --data 
+curl -d 
 '{
     "jsonrpc":"2.0",
     "method":"hmy_getLogs",
@@ -46,7 +46,7 @@ curl -X POST --data
         }
     ],
     "id":74
-}'
+}' -H "Content-Type:application/json" -X POST "https://api.s0.b.hmny.io"
 ```
 
 **Sample Curl Response**

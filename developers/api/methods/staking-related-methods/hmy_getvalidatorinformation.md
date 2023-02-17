@@ -55,7 +55,7 @@ curl -d '{
       "one14438psd5vrjes7qm97jrj3t0s5l4qff5j5cn4h"
     ],
     "id":1
-}' -H 'Content-Type:application/json' -X POST 'http://api.s0.b.hmny.io'
+}' -H 'Content-Type:application/json' -X POST 'https://api.s0.b.hmny.io'
 ```
 
 **Sample Curl Response**

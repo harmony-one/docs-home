@@ -23,7 +23,7 @@ curl -d '{
     "method": "hmy_isBlockSigner",
     "params": ["0x1", "one103q7qe5t2505lypvltkqtddaef5tzfxwsse4z7"],
     "id": 1
-}' -H "Content-Type: application/json" -X POST "http://localhost:9500"
+}' -H "Content-Type: application/json" -X POST "https://api.s0.b.hmny.io"
 ```
 
 **Sample Curl Response**
@@ -55,7 +55,7 @@ curl -d '{
     "method": "hmyv2_isBlockSigner",
     "params": [1, "one103q7qe5t2505lypvltkqtddaef5tzfxwsse4z7"],
     "id": 1
-}' -H "Content-Type: application/json" -X POST "http://localhost:9500"
+}' -H "Content-Type: application/json" -X POST "https://api.s0.b.hmny.io"
 ```
 
 **Sample Curl Response**

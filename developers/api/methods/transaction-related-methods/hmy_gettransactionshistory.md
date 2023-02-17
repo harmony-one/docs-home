@@ -8,20 +8,6 @@ description: hmy_getTransactionsHistory
 
 hmy\_getTransactionsHistory get transactions history for an address
 
-API ENDPOINTS ARE DIFFERENT FROM GENERAL API ENDPOINT:
-
-Mainnet shard 0: e0.t.hmny.io:9500
-
-Mainnet shard 1: e1.t.hmny.io:9500
-
-Mainnet shard 2: e2.t.hmny.io:9500
-
-Mainnet shard 3: e3.t.hmny.io:9500
-
-Testnet shard 0: e0.b.hmny.io:9500
-
-Testnet shard 1: e1.b.hmny.io:9500
-
 ## Parameters
 
 * `String` - one address ("one1...")
@@ -66,7 +52,7 @@ curl -d '{
         "order": "ASC"
     }],
     "id": 1
-}'
+}' -H "Content-Type:application/json" -X POST "https://api.s0.b.hmny.io"
 ```
 
 **Sample Curl Response 0**
@@ -115,7 +101,7 @@ curl -d '{
         "order": "ASC"
     }],
     "id": 1
-}'
+}' -H "Content-Type:application/json" -X POST "https://api.s0.b.hmny.io"
 ```
 
 **Sample Curl Response 1**
@@ -165,7 +151,7 @@ curl -d '{
         "order": "ASC"
     }],
     "id": 1
-}'
+}' -H "Content-Type:application/json" -X POST "https://api.s0.b.hmny.io"
 ```
 
 **Sample Curl Response 0**
@@ -234,7 +220,7 @@ curl -d '{
         "order": "ASC"
     }],
     "id": 1
-}'
+}' -H "Content-Type:application/json" -X POST "https://api.s0.b.hmny.io"
 ```
 
 **Sample Curl Response 1**

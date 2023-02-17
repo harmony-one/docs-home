@@ -30,7 +30,7 @@ curl -d '{
       "one1km7xg8e3xjys7azp9f4xp8hkw79vm2h3f2lade"
     ],
     "id":1
-}' -H 'Content-Type:application/json' -X POST 'http://api.s0.b.hmny.io'
+}' -H 'Content-Type:application/json' -X POST 'https://api.s0.b.hmny.io'
 ```
 
 **Sample Curl Response**

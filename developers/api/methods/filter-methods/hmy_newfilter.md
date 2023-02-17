@@ -39,7 +39,7 @@ params: [{
 
 ```
 // Request
-curl -X POST --data '{"jsonrpc":"2.0","method":"hmy_newFilter","params":[{"topics":["0x0000000000000000000000000000000000000000000000000000000012341234"]}],"id":73}'
+curl -d '{"jsonrpc":"2.0","method":"hmy_newFilter","params":[{"topics":["0x0000000000000000000000000000000000000000000000000000000012341234"]}],"id":73}' -H "Content-Type:application/json" -X POST "https://api.s0.b.hmny.io"
 
 // Result
 {

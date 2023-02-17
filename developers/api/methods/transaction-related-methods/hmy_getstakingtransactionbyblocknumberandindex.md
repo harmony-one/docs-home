@@ -78,7 +78,7 @@ curl -d '{
         "0x0"
     ],
     "id":1
-}' -H 'Content-Type:application/json' -X POST 'http://l0.b.hmny.io:9500'
+}' -H 'Content-Type:application/json' -X POST 'https://api.s0.b.hmny.io'
 ```
 
 **Sample Curl Response**
@@ -163,7 +163,7 @@ curl -d '{
         0
     ],
     "id":1
-}' -H 'Content-Type:application/json' -X POST 'http://l0.b.hmny.io:9500'
+}' -H 'Content-Type:application/json' -X POST 'https://api.s0.b.hmny.io'
 ```
 
 **Sample Curl Response**

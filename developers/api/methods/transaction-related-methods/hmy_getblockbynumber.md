@@ -42,7 +42,7 @@ curl -d '{
     "params":[
     "0x66", true],
     "id":1
-}' -H "Content-Type:application/json" -X POST "http://l0.b.hmny.io:9500"
+}' -H "Content-Type:application/json" -X POST "https://api.s0.b.hmny.io"
 ```
 
 **Sample Curl Response**
@@ -118,7 +118,7 @@ curl -d '{
       "withSigners": true,
     }],
     "id":1
-}' -H "Content-Type:application/json" -X POST "http://l0.b.hmny.io:9500"
+}' -H "Content-Type:application/json" -X POST "https://api.s0.b.hmny.io"
 ```
 
 **Sample Curl Response**

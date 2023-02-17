@@ -20,7 +20,7 @@ curl -d '{
     "method": "hmy_getEpoch",
     "params": [],
     "id": 1
-}' -H "Content-Type: application/json" -X POST "http://api.s0.b.hmny.io"
+}' -H "Content-Type: application/json" -X POST "https://api.s0.b.hmny.io"
 ```
 
 **Sample Curl Response**

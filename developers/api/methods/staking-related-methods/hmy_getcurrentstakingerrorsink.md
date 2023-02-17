@@ -11,7 +11,7 @@ description: hmy_getCurrentStakingErrorSink
 ### Sample Curl Request
 
 ```bash
-curl --location --request POST 'https://api.s0.b.hmny.io/' \
+curl --location --request POST 'httpss://api.s0.b.hmny.io/' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "jsonrpc": "2.0",
@@ -38,7 +38,7 @@ curl --location --request POST 'https://api.s0.b.hmny.io/' \
 ### Sample Curl Request
 
 ```bash
-curl --location --request POST 'https://api.s0.b.hmny.io/' \
+curl --location --request POST 'httpss://api.s0.b.hmny.io/' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "jsonrpc": "2.0",

@@ -36,7 +36,7 @@ curl -d '{
       "0x1dff358dad4d0fc95b11acc9826b190d8b7971ac26b3f7ebdee83c10cafaf86f"
     ],
     "id":1
-}' -H 'Content-Type:application/json' -X POST 'http://l0.b.hmny.io:9500'
+}' -H 'Content-Type:application/json' -X POST 'https://api.s0.b.hmny.io'
 ```
 
 **Sample Curl Response**
@@ -94,7 +94,7 @@ curl -d '{
        "0x1dff358dad4d0fc95b11acc9826b190d8b7971ac26b3f7ebdee83c10cafaf86f"
     ],
     "id":1
-}' -H 'Content-Type:application/json' -X POST 'http://l0.b.hmny.io:9500'
+}' -H 'Content-Type:application/json' -X POST 'https://api.s0.b.hmny.io'
 ```
 
 **Sample Curl Response**

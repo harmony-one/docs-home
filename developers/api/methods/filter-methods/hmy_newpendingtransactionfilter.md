@@ -12,7 +12,7 @@ None
 
 ```
 // Request
-curl -X POST --data '{"jsonrpc":"2.0","method":"eth_newPendingTransactionFilter","params":[],"id":73}'
+curl -d '{"jsonrpc":"2.0","method":"eth_newPendingTransactionFilter","params":[],"id":73}' -H "Content-Type:application/json" -X POST "https://api.s0.b.hmny.io"
 
 // Result
 {
