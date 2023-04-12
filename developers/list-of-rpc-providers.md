@@ -71,3 +71,16 @@ For example, [Chainstack](list-of-rpc-providers.md#chainstack) has a 3 million p
 ### Discussions
 
 {% embed url="https://talk.harmony.one/t/investments-decentralize-rpc-service-via-pocket-network-node-runners/2167" %}
+
+## GetBlock
+
+### Announcement
+
+{% embed url="https://twitter.com/getblockio/status/1645797284167421953" %}
+
+{% embed url="https://getblock.io/nodes/one/" %}
+
+### Instructions
+
+{% embed url="https://medium.com/@getblock/connecting-dapp-to-harmony-rpc-node-with-getblock-be1065df31" %}
+
