@@ -56,4 +56,4 @@ That's it!&#x20;
 While voting please note:
 
 * All votes are final, once you approve your vote, you cannot undo or change it.
-* Voting percentage shown will be compared to the total network stake, so it's easy for anyone to see if a proposal passes the 66% threshold or not.
+* Voting percentage shown will be compared to the total network stake, so it's easy for anyone to see if a proposal passes the 66.67% threshold or not.

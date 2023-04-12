@@ -85,6 +85,7 @@
       * [Guarda Wallet](general/wallets/desktop-wallets/guarda-wallet.md)
       * [Staking4All Wallet](general/wallets/desktop-wallets/staking4all-wallet.md)
     * [Mobile Wallets](general/wallets/mobile-wallets/README.md)
+      * [Metamask Wallet](general/ecosystem/wallets/mobile-wallets/metamask-wallet.md)
       * [Blits Wallet](general/wallets/mobile-wallets/blits-wallet.md)
       * [Cobo Wallet](general/wallets/mobile-wallets/cobo-wallet.md)
       * [Frontier Wallet](general/wallets/mobile-wallets/frontier-wallet.md)
