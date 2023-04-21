@@ -7,8 +7,28 @@ description: Below is a lists of Harmony RPC Node Providers partnered with Harmo
 Before we get to the SDK and API topics, check out this list of RPC providers which you can review and setup your dedicated JSON-RPC endpoints ahead of time, to be used by your app. The endpoints are either free-to-use or have a generous allowance\*, where developers can focus on developing apps, rather than setting up a blockchain infrastructure.
 
 {% hint style="info" %}
-For example, [Chainstack](list-of-rpc-providers.md#chainstack) has a 3 million per month RPC call limit
+For example, [QuickNode](list-of-rpc-providers.md#QuickNode) offers 10 million API credits for free per month.
 {% endhint %}
+
+## QuickNode
+
+### Announcement
+
+{% embed url="https://twitter.com/QuickNode/status/1559227288369102849" %}
+
+{% embed url="https://www.quicknode.com/chains/one" %}
+
+### Features
+
+* Full Archive Support.
+* Automatic geo-routing for fastest response times.
+* Support for [QuickNode Marketplace add-ons](https://marketplace.quicknode.com/?type%5B%5D=rpc_methods&type%5B%5D=external&chains%5B%5D=ONE).
+* Free plans.
+* Dedicated support on paid plans.
+
+### Instructions
+
+* QuickNode Harmony [RPC docs](https://www.quicknode.com/docs/harmony)
 
 ## Ankr
 
