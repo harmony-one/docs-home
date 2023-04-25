@@ -103,3 +103,16 @@ For example, [QuickNode](list-of-rpc-providers.md#QuickNode) offers 10 million A
 ### Instructions
 
 {% embed url="https://getblock.medium.com/connecting-dapp-to-harmony-rpc-node-with-getblock-be1065df31" %}
+
+## 1RPC (Automata Network)
+
+### Features
+
+* Harmony 1RPC Endpoint: [https://1rpc.io/one](https://1rpc.io/one)
+* Free RPC relay to eradicate metadata exposure and leakage with a one-click experience for users within Web3
+* A proxy layer that shields user data before it reaches existing RPC endpoints
+
+### Instructions
+
+* 1RPC [docs](https://docs.ata.network/1rpc/introduction/)
+* 1RPC support available on the [Automata Network Discord](https://discord.gg/hXWn3NRS4Y)
