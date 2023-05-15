@@ -106,6 +106,12 @@ For example, [QuickNode](list-of-rpc-providers.md#QuickNode) offers 10 million A
 
 ## 1RPC (Automata Network)
 
+### Announcement
+
+{% embed url="https://twitter.com/AutomataNetwork/status/1655466216037941248" %}
+
+{% embed url="https://medium.com/atanetwork/1rpc-now-supports-harmony-37f503a80faa" %}
+
 ### Features
 
 * Harmony 1RPC Endpoint: [https://1rpc.io/one](https://1rpc.io/one)
