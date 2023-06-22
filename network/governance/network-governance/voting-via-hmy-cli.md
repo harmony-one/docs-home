@@ -12,16 +12,16 @@ For a complete reference on all available commands for governance:
 
 ### Vote on Proposal
 
-{% code fullWidth="true" %}
+{% code fullWidth="false" %}
 ```bash
 Yes
-./hmy governance vote-proposal --proposal=<replace-with-propose-hash> --choice=1 --node="https://api.s0.t.hmny.io" --key=<replace-with-your-local-key-name> --passphrase
+./hmy governance vote-proposal --proposal=<replace-with-propose-0x-hash> --choice=1 --node="https://api.s0.t.hmny.io" --key=<replace-with-your-local-key-name> --passphrase
 
 No
-./hmy governance vote-proposal --proposal=<replace-with-propose-hash> --choice=2 --node="https://api.s0.t.hmny.io" --key=<replace-with-your-local-key-name> --passphrase
+./hmy governance vote-proposal --proposal=<replace-with-propose-0x-hash> --choice=2 --node="https://api.s0.t.hmny.io" --key=<replace-with-your-local-key-name> --passphrase
 
 Abstain
-./hmy governance vote-proposal --proposal=<replace-with-propose-hash> --choice=3 --node="https://api.s0.t.hmny.io" --key=<replace-with-your-local-key-name> --passphrase
+./hmy governance vote-proposal --proposal=<replace-with-propose-0x-hash> --choice=3 --node="https://api.s0.t.hmny.io" --key=<replace-with-your-local-key-name> --passphrase
 ```
 {% endcode %}
 
