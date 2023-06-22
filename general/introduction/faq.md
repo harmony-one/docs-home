@@ -48,7 +48,7 @@ For more questions, check our [community](../community.md) section.
 
 
 
-_****_
+
 
 &#x20;
 

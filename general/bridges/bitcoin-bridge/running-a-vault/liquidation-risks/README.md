@@ -14,4 +14,3 @@ The vault runner attempts to remove their ONE collateral maliciously while BTC i
 
 Let's walk through these scenarios to better understand when liquidation occurs.
 
-****

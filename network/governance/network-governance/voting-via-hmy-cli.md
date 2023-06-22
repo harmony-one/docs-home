@@ -12,9 +12,18 @@ For a complete reference on all available commands for governance:
 
 ### Vote on Proposal
 
+{% code fullWidth="true" %}
 ```bash
-./hmy governance vote-proposal --proposal=QmdmnVwW6ob5UfB9hNYxKsRXAyM52jQpNXsV5Vw4fNbiqa --choice=agree --key=key-name
+Yes
+./hmy governance vote-proposal --proposal=<replace-with-propose-hash> --choice=1 --node="https://api.s0.t.hmny.io" --key=<replace-with-your-local-key-name> --passphrase
+
+No
+./hmy governance vote-proposal --proposal=<replace-with-propose-hash> --choice=2 --node="https://api.s0.t.hmny.io" --key=<replace-with-your-local-key-name> --passphrase
+
+Abstain
+./hmy governance vote-proposal --proposal=<replace-with-propose-hash> --choice=3 --node="https://api.s0.t.hmny.io" --key=<replace-with-your-local-key-name> --passphrase
 ```
+{% endcode %}
 
 key is the key name of your validator imported via hmy and available in `./hmy keys list`
 

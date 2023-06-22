@@ -100,7 +100,7 @@ Congratulations! You should be logged into your new AWS instance!
 
 ## Step 3: Installing Required Packages
 
-&#x20;**** Run the following command to make sure your instance is properly updated:
+&#x20;Run the following command to make sure your instance is properly updated:
 
 ```bash
 sudo yum update

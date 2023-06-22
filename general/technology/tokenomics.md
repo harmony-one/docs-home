@@ -28,5 +28,4 @@ Harmony is a Proof-of-Stake blockchain which means the security of the network i
 #### Participate in open governance
 
 Harmony is a permission-less and decentralized network which is governed by the community. Any protocol level decisions or improvements will be put as a proposal which will go through the open governance process to finalize. ONE is the only accepted token used as the measure for voting in the governance process.\
-****\
-****
+\

@@ -14,7 +14,11 @@ Open [Harmony Remix IDE](https://ide.harmony.one/#optimize=false\&evmVersion=nul
 
 On opening the IDE, in the left panel, click the "+" icon to create a new solidity file:
 
-![](<../../../.gitbook/assets/Screenshot from 2020-11-02 002600.png>)
+<div align="left">
+
+<img src="../../../.gitbook/assets/Screenshot from 2020-11-02 002600.png" alt="">
+
+</div>
 
 Now click on the new file in the navigation panel, if not opened already. Now start writing your code in the window opened on the right hand side. For this demo we are going to use a simple counter smart contract:
 

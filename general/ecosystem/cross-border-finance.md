@@ -6,7 +6,7 @@ Consensus protocols are creating new economies with tokens and trading. Smart co
 
 These early use cases are driven by the core value of blockchain: providing exchange and liquidity infrastructure for financial transactions. Harmony focuses on broader _financial products_ as they are [well validated with Ethereum](https://harmony.one/defi-data) and ready for mass adoption.
 
-**Why Cross-Border?** Open platforms __ work locally but global users are the _most underserved_.
+**Why Cross-Border?** Open platforms work locally but global users are the _most underserved_.
 
 Finance products within one country are already [highly efficient and protected](https://www.saveonsend.com/blog/money-transfer-china/). On the other hand, purely on-chain #DeFi solutions without onramp gateways or local distribution have limited impact in real-word economies.
 

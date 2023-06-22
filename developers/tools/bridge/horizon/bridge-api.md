@@ -41,7 +41,7 @@ For flow freely between Harmony and Ethereum blockchains you need to call these 
 
 Also you can monitoring each action status: see `operation -> actions`
 
-7\) Next steps**`Wait for finality`** and ** `Mint tokens`** (on harmony side) - will be done automatically. You need only monitoring operation status (step 6).
+7\) Next steps**`Wait for finality`** and **`Mint tokens`** (on harmony side) - will be done automatically. You need only monitoring operation status (step 6).
 
 {% hint style="info" %}
 For **Create operation API** and **Confirm action API** you need to call API for each validator from list.
@@ -86,7 +86,7 @@ For **Create operation API** and **Confirm action API** you need to call API for
 
 Also you can monitoring each action status: see `operation -> actions`
 
-7\) Next step ** `Unlock tokens`** (on ethereum side) - will be done automatically. You need only monitoring operation status (step 6).
+7\) Next step **`Unlock tokens`** (on ethereum side) - will be done automatically. You need only monitoring operation status (step 6).
 
 {% hint style="info" %}
 For **Create operation API** and **Confirm action API** you need to call API for each validator from list.

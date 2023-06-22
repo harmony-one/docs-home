@@ -8,4 +8,4 @@ In this section, we walk through the process of installing MetaMask, configuring
 **Continue through this section for more information on installing MetaMask, adding the Harmony network, importing an existing account, and more.**
 {% endhint %}
 
-## ****
+##

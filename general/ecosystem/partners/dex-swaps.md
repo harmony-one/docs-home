@@ -6,23 +6,31 @@ For a full list of DeFi Protocols on Harmony, visit [DefiLlama](https://defillam
 
 A fully decentralized protocol for automated liquidity provision.
 
-![](<../../../../.gitbook/assets/image (292) (1).png>)
+![](<../../../.gitbook/assets/image (292) (1).png>)
 
 ## [DeFi Kingdoms](https://defillama.com/protocol/defi-kingdoms)
 
 DeFi Kingdoms is a game, a DEX, a liquidity pool opportunity, a market of rare utility driven NFTs, and it all plays out seamlessly in the incredibly nostalgic form of fantasy pixel art.
 
-![](<../../../../.gitbook/assets/image (291).png>)
+![](<../../../.gitbook/assets/image (291).png>)
 
 ## [Tranquil Finance](https://defillama.com/protocol/tranquil-finance)
 
 Tranquil is an algorithmic money market and liquid staking protocol for Harmony. It's now part of the Defira metaverse
 
-![](<../../../../.gitbook/assets/image (18) (1).png>)
+<div align="center">
 
-![](<../../../../.gitbook/assets/image (60) (2).png>)
+<img src="../../../.gitbook/assets/image (18) (1).png" alt="">
+
+</div>
+
+<div align="center">
+
+<img src="../../../.gitbook/assets/image (60) (2).png" alt="">
+
+</div>
 
 ## ViperSwap
 
-![](<../../../../.gitbook/assets/image (27) (2) (1).png>)
+![](<../../../.gitbook/assets/image (27) (2) (1).png>)
 

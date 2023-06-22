@@ -181,7 +181,7 @@ return tokenContract.methods
       })
 ```
 
-Due to replacing ethers.js to harmony-js/core we also ran into some issues with various parameter **** issues (numbers sent as string vs hex etc.) that has since been patched in harmony-js/core.
+Due to replacing ethers.js to harmony-js/core we also ran into some issues with various parameter issues (numbers sent as string vs hex etc.) that has since been patched in harmony-js/core.
 
 **Wallets - MetaMask/web3-react -> custom OneWallet & MathWallet code**
 
@@ -284,13 +284,13 @@ Here we are using Threshold Signature Scheme (TSS).
 
 ![](../../.gitbook/assets/binance-harmony-bridge-flow.png)
 
-**See:** [**code**](https://github.com/gupadhyaya/binance-chain-bridge/)**,** [**community**](https://t.me/joinchat/P0DVklMjTLdxzQDw-vv70A)****
+**See:** [**code**](https://github.com/gupadhyaya/binance-chain-bridge/)**,** [**community**](https://t.me/joinchat/P0DVklMjTLdxzQDw-vv70A)
 
 ## **Iris Bridge**&#x20;
 
 Iris Bridge is a fully permissionless, trustless, decentralized bridge on Harmony for ALL ERC20 tokens. It employs an Ethereum light client on Harmony using Solidity.
 
-**See:** [**code**](https://github.com/JackyWYX/harmony\_rainbow)**,** [**light client**](https://github.com/rlan35/ethClient/tree/master)****
+**See:** [**code**](https://github.com/JackyWYX/harmony\_rainbow)**,** [**light client**](https://github.com/rlan35/ethClient/tree/master)
 
 ## **BTC Bridge**
 
