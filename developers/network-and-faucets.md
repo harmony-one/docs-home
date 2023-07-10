@@ -12,9 +12,9 @@
 
 ## Block Explorers
 
-| Mainnet                                                        | Testnet                                                  | Devnet                                                     |
-| -------------------------------------------------------------- | -------------------------------------------------------- | ---------------------------------------------------------- |
-| [https://explorer.harmony.one/](https://explorer.harmony.one/) | [https://explorer.pops.one/](https://explorer.pops.one/) | [https://explorer.ps.hmny.io](https://explorer.ps.hmny.io) |
+| Mainnet                                                        | Testnet                                                             | Devnet |
+| -------------------------------------------------------------- | ------------------------------------------------------------------- | ------ |
+| [https://explorer.harmony.one/](https://explorer.harmony.one/) | [https://explorer.testnet.harmony.one/](https://explorer.pops.one/) | None   |
 
 ## Faucets
 

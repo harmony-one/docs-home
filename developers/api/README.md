@@ -14,16 +14,16 @@ description: >-
 
 [JSON-RPC](https://en.wikipedia.org/wiki/JSON-RPC) is a remote procedure call protocol encoded in JSON. You can use this API to access data from the Harmony nodes. The JSON-RPC API server runs on:
 
-<table><thead><tr><th width="232.92605052836342">Chains</th><th>URLs</th></tr></thead><tbody><tr><td>mainnet</td><td><p><a href="https://api.s0.t.hmny.io">https://api.s0.t.hmny.io</a> or <a href="https://api.harmony.one">https://api.harmony.one</a> or </p><p><a href="https://harmony-mainnet.chainstacklabs.com">https://harmony-mainnet.chainstacklabs.com</a></p></td></tr><tr><td>testnet</td><td><p><a href="https://api.s0.b.hmny.io">https://api.s0.b.hmny.io</a> or <a href="https://api.s0.pops.one">https://api.s0.pops.one</a></p><p>(For Developers, Wallets, normal transaction)</p></td></tr><tr><td>testnet</td><td><p><a href="https://api.s0.backup1.b.hmny.io">https://api.s0.backup1.b.hmny.io</a></p><p>(For indexers, bulk transactions)</p></td></tr><tr><td>localnet</td><td><a href="http://localhost:9500">http://localhost:9500</a></td></tr><tr><td>devnet</td><td><a href="https://api.s0.ps.hmny.io">https://api.s0.ps.hmny.io</a></td></tr></tbody></table>
+<table><thead><tr><th width="232.92605052836342">Chains</th><th>URLs</th></tr></thead><tbody><tr><td>mainnet</td><td><a href="https://api.s0.t.hmny.io">https://api.s0.t.hmny.io</a> or <a href="https://api.harmony.one">https://api.harmony.one</a></td></tr><tr><td>testnet</td><td><p><a href="https://api.s0.b.hmny.io">https://api.s0.b.hmny.io</a> or <a href="https://api.s0.pops.one">https://api.s0.pops.one</a></p><p>(For Developers, Wallets, normal transaction)</p></td></tr><tr><td>testnet</td><td><p><a href="https://api.s0.backup1.b.hmny.io">https://api.s0.backup1.b.hmny.io</a></p><p>(For indexers, bulk transactions)</p></td></tr><tr><td>localnet</td><td><a href="http://localhost:9500">http://localhost:9500</a></td></tr><tr><td>devnet</td><td><a href="https://api.s0.ps.hmny.io">https://api.s0.ps.hmny.io</a></td></tr></tbody></table>
 
 Web sockets can also be used
 
-| Chains   | URLs                                                                                                                                         |
-| -------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| mainnet  | [wss://ws.s0.t.hmny.io](wss://ws.s0.t.hmny.io) or [wss://ws-harmony-mainnet.chainstacklabs.com](wss://ws-harmony-mainnet.chainstacklabs.com) |
-| testnet  | [wss://ws.s0.b.hmny.io](wss://ws.s0.pga.hmny.io) or [wss://ws.s0.pops.one](wss://ws.s0.pops.one)                                             |
-| localnet | [wss://localhost:9800](./)                                                                                                                   |
-| devnet   | [wss://ws.s0.ps.hmny.io](wss://ws.s0.ps.hmny.io)                                                                                             |
+| Chains   | URLs                                                                                             |
+| -------- | ------------------------------------------------------------------------------------------------ |
+| mainnet  | [wss://ws.s0.t.hmny.io](wss://ws.s0.t.hmny.io)                                                   |
+| testnet  | [wss://ws.s0.b.hmny.io](wss://ws.s0.pga.hmny.io) or [wss://ws.s0.pops.one](wss://ws.s0.pops.one) |
+| localnet | [wss://localhost:9800](./)                                                                       |
+| devnet   | [wss://ws.s0.ps.hmny.io](wss://ws.s0.ps.hmny.io)                                                 |
 
 All requests follow the standard JSON-RPC format and include 4 variables in the data object:
 

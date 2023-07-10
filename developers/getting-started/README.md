@@ -33,7 +33,7 @@ Harmony uses [bech32](https://en.bitcoin.it/wiki/Bech32) address format with `on
   * [https://onefaucet.ibriz.ai/](https://onefaucet.ibriz.ai/)
 * Blockchain Explorers
   * Mainnet: [https://explorer.harmony.one/](https://explorer.harmony.one/)&#x20;
-  * Testnet: [https://explorer.pops.one/](https://explorer.pops.one/)
+  * Testnet: [https://explorer.testnet.harmony.one/](https://explorer.pops.one/)
 
 We provide SDKs in several different languages. However most feature complete is our JavaScript SDK, which is the preferred language for DApp development.
 
@@ -80,4 +80,4 @@ Many other examples and DApps can be found in the [SDK repo](https://github.com/
 
 ### Known Limitations
 
-* **Only cross-shard native token (ONE token) transfers** are allowed. No cross-shard for HRC20 or other contracts. Meaning, smart contracts are deployed on shard-0 and all contract interactions happen on shard-0. Contracts can still be deployed on other shards, however they won't be able to interact with contracts in other shards. We have cross-shard smart contract on our roadmap for Q3, 2021.
+* **Only cross-shard native token (ONE token) transfers** are allowed. No cross-shard for HRC20 or other contracts. Meaning, smart contracts are deployed on shard-0 and all contract interactions happen on shard-0. Contracts can still be deployed on other shards, however they won't be able to interact with contracts in other shards. We have cross-shard smart contract on our roadmap for 2023.
