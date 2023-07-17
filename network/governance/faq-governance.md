@@ -15,7 +15,3 @@ Yes, if you have funds in multiple wallets or addresses, you are allowed to vote
 ## My wallet is connected to my Ledger (Nano S), can I vote?
 
 Yes, you can vote.
-
-## What version of OneWallet do I need?
-
-Make sure you are on the latest version of [Onewallet ](../../general/ecosystem/wallets/browser-extensions-wallets/one-wallet.md)from the store.

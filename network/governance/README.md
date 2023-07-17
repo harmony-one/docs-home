@@ -11,7 +11,3 @@
 {% content-ref url="faq-governance.md" %}
 [faq-governance.md](faq-governance.md)
 {% endcontent-ref %}
-
-{% content-ref url="multi-sig.md" %}
-[multi-sig.md](multi-sig.md)
-{% endcontent-ref %}

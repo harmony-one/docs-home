@@ -311,7 +311,6 @@
     * [Voting via HMY CLI](network/governance/network-governance/voting-via-hmy-cli.md)
   * [HRC-20 Governance](network/governance/hrc-20-governance.md)
   * [FAQ](network/governance/faq-governance.md)
-  * [Multi-Sig](network/governance/multi-sig.md)
 * [Validators](network/validators/README.md)
   * [Terms & Concepts](network/validators/definitions/README.md)
     * [Validator, BLS key, Instance](network/validators/definitions/validator-keys-and-bids/README.md)
