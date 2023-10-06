@@ -53,13 +53,7 @@ description: >-
 
 {% swagger baseUrl="https://explorer-v2-api.hmny.io" path="/v0/erc20/address/:token_addr/balances" method="get" summary="HRC20 Balance of an address" %}
 {% swagger-description %}
-Get the HRC20 balance of an address. 
-
-\
-
-
-
-
+Get the HRC20 balance of an address. \
 `https://explorer-v2-api.hmny.io/v0/erc20/address/0x8454bf4fc72687b61eaf1bcd64bb9e78983fbdd7/balances`
 {% endswagger-description %}
 
@@ -75,13 +69,7 @@ HRC20 token address
 
 {% swagger baseUrl="https://explorer-v2-api.hmny.io" path="v0/erc721/address/:token_addr/balances" method="get" summary="HRC721/1155 Balance of an address" %}
 {% swagger-description %}
-Get the HRC721/HRC1155 balance of an address
-
-\
-
-
-
-
+Get the HRC721/HRC1155 balance of an address\
 `https://explorer-v2-api.hmny.io/v0/erc721/address/0x847826f2d552c87d2ee6f38b65425fc85befe841/balances`
 {% endswagger-description %}
 
@@ -97,18 +85,8 @@ HRC20 token address
 
 {% swagger baseUrl="https://explorer-v2-api.hmny.io" path="/v0/price/actual/ONEUSDT" method="get" summary="ONE-USDT Price" %}
 {% swagger-description %}
-Get the price of ONE in USDT
-
-\
-
-
-Example:
-
-\
-
-
-
-
+Get the price of ONE in USDT\
+Example:\
 `https://explorer-v2-api.hmny.io/v0/price/actual/ONEUSDT`
 {% endswagger-description %}
 
@@ -143,18 +121,8 @@ hex address
 
 {% swagger baseUrl="https://explorer-v2-api.hmny.io" path="/v0/shard/:shard_id/address/0xdd46509b31b87f05a0da47e6ff9cdaa5563e7a57/transactions/type/erc20?offset=0&limit=10" method="get" summary="HRC20 Transactions" %}
 {% swagger-description %}
-Get all HRC20 transactions.
-
-\
-
-
-Example:
-
-\
-
-
-
-
+Get all HRC20 transactions.\
+Example:\
 `https://explorer-v2-api.hmny.io/v0/shard/0/address/0xdd46509b31b87f05a0da47e6ff9cdaa5563e7a57/transactions/type/erc20?offset=0&limit=10`
 {% endswagger-description %}
 
@@ -170,18 +138,8 @@ Example:
 
 {% swagger baseUrl="https://explorer-v2-api.hmny.io/" path="/v0/shard/:shard_id/address/:token_addr/transactions/type/erc721?offset=0&limit=10" method="get" summary="NFT (HRC721/HRC1155) Transactions" %}
 {% swagger-description %}
-Get the transactions of an HRC721/HRC1155 token.
-
-\
-
-
-Example:
-
-\
-
-
-
-
+Get the transactions of an HRC721/HRC1155 token.\
+Example:\
 `https://explorer-v2-api.hmny.io/v0/shard/0/address/0xe59a79c7516d22a488a3f479626e75a2e81aae66/transactions/type/erc721?offset=0&limit=10`
 {% endswagger-description %}
 
@@ -201,18 +159,8 @@ HRC721/HRC1155 token contract address
 
 {% swagger baseUrl="https://explorer-v2-api.hmny.io/" path="/v0/shard/:shard_id/logs/transaction/hash/:txn_hash" method="get" summary="Logs" %}
 {% swagger-description %}
-Get the event logs of a transaction.
-
-\
-
-
-Example:
-
-\
-
-
-
-
+Get the event logs of a transaction.\
+Example:\
 `https://explorer-v2-api.hmny.io/v0/shard/0/logs/transaction/hash/0x0d449c8dde6c13e63064f49c531ba028878a4de368473cdff421255000c8047f`
 {% endswagger-description %}
 
@@ -232,18 +180,8 @@ transaction hash
 
 {% swagger baseUrl="https://explorer-v2-api.hmny.io" path="/v0/erc20/token/:token_addr/holders?limit=100&offset=0" method="get" summary="Token Holders" %}
 {% swagger-description %}
-Get the list of token holders of an HRC20 token. 
-
-\
-
-
-Example:
-
-\
-
-
-
-
+Get the list of token holders of an HRC20 token. \
+Example:\
 `https://explorer-v2-api.hmny.io/v0/erc20/token/0xcf664087a5bb0237a0bad6742852ec6c8d69a27a/holders?limit=100&offset=0`
 {% endswagger-description %}
 

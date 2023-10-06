@@ -100,14 +100,8 @@ this method will create new operation - it must be call for each validator (be1,
 {% endswagger-description %}
 
 {% swagger-parameter in="body" name="id" type="string" %}
-id must be generated on client side.
-
-\
-
-
-id format example: 
-
-`b063040e-31c41b19-a7d21a09-9bb0339f`
+id must be generated on client side.\
+id format example: `b063040e-31c41b19-a7d21a09-9bb0339f`
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="amount" type="string" %}
@@ -115,94 +109,28 @@ displayed amount (use only for explorer display)
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="token" type="string" %}
-`link`
-
- \| 
-
-`busd`
-
- \| 
-
-`erc20`
+`link` | `busd` | `erc20`
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="type" type="string" %}
-`eth_to_one`
-
- \| 
-
-`one_to_eth`
+`eth_to_one` | `one_to_eth`
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="ethAddress" type="string" %}
-this field using depends on operation 
-
-`type`
-
-:
-
-\
-
-
-
-
-`eth_to_one`
-
-: ethereum sender (
-
-_who will sign tx_
-
-)
-
-\
-
-
-
-
-`one_to_eth`
-
-: ethereum receiver (
-
-_who will get tokens_
-
-)
+this field using depends on operation `type`:\
+`eth_to_one`: ethereum sender (_who will sign tx_)\
+`one_to_eth`: ethereum receiver (_who will get tokens_)
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="oneAddress" type="string" %}
-this field using depends on operation 
-
-`type`
-
-:
-
-\
-
-
-
-
-`eth_to_one`
-
-: harmony receiver (who will get tokens)
-
-\
-
-
-
-
-`one_to_eth`
-
-: harmony sender (who will sign tx)
+this field using depends on operation `type`:\
+`eth_to_one`: harmony receiver (who will get tokens)\
+`one_to_eth`: harmony sender (who will sign tx)
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="erc20Address" type="string" %}
-ERC20 address 
-
-\
-
-
-needed only for operations with type 
-
-`erc20`
+ERC20 address \
+needed only for operations with type `erc20`
 {% endswagger-parameter %}
 
 {% swagger-response status="200" description="Cake successfully retrieved." %}
@@ -256,13 +184,7 @@ needed only for operations with type
 
 {% swagger baseUrl="https://be1.bridge.hmny.io" path="/operations/:operationId/actions/:actionType/confirm" method="post" summary="Confirm action" %}
 {% swagger-description %}
-Is used for confirm actions instead of process 
-
-`eth_to_one`
-
- ore 
-
-`one_to_eth`
+Is used for confirm actions instead of process `eth_to_one` ore `one_to_eth`
 {% endswagger-description %}
 
 {% swagger-parameter in="path" name="operationId" type="string" %}
@@ -270,19 +192,7 @@ operation Id (was created on frontend side on 1 step)
 {% endswagger-parameter %}
 
 {% swagger-parameter in="path" name="actionType" type="string" %}
-`approveEthManager`
-
- \| 
-
-`lockToken`
-
- |
-
-`approveHmyManager`
-
- \| 
-
-`burnToken`
+`approveEthManager` | `lockToken` |`approveHmyManager` | `burnToken`
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="transactionHash" type="string" %}
