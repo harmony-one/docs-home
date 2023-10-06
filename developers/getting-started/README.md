@@ -18,7 +18,7 @@ To really explore the full potential of Harmony blockchain, creating a wallet is
 
 #### Creating a wallet (or ONE address)
 
-* Using [onewallet](https://docs.harmony.one/home/wallets/browser-extensions-wallets/one-wallet) or [mathwallet](https://docs.harmony.one/home/wallets/browser-extensions-wallets/mathwallet) browser extensions. Any other [wallets](https://docs.harmony.one/home/wallets) can also be used.
+* Using [MetaMask](https://docs.harmony.one/home/general/wallets/browser-extensions-wallets/metamask-wallet) or [mathwallet](https://docs.harmony.one/home/wallets/browser-extensions-wallets/mathwallet) browser extensions. Any other [wallets](https://docs.harmony.one/home/wallets) can also be used.
 * Harmony [CLI](https://docs.harmony.one/home/wallets/harmony-cli), also provides a quick way to create/manage wallet, interact with blockchain, etc.
 
 {% hint style="info" %}
