@@ -66,7 +66,7 @@ Below is the command to sync the Snap DB for the shard 0. It is around 100 Gb as
 
 ```bash
 rclone -P -L --webdav-url 'http://snapdb.s0.t.hmny.io/webdav'  --checksum sync \
-  snap: ./ --multi-thread-streams 4 --transfers=32 --verbose
+  snap: harmony_db_0 --multi-thread-streams 4 --transfers=32 --verbose
 ```
 
 Small explanation for flags used to save your time with rclone manual: &#x20;
