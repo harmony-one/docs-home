@@ -62,11 +62,11 @@ EOF
 SnapDB is a type of DB that contain a snapshot of the state at a given block. It doesn't have any **block history** and **hence not suitable for RPC node.**
 {% endhint %}
 
-Below is the command to sync the Snap DB for the shard 0. It is around 500 Gb as of October 2023:
+Below is the command to sync the Snap DB for the shard 0. It is around 100 Gb as of October 2023:
 
 ```bash
 rclone -P -L --webdav-url 'http://snapdb.s0.t.hmny.io/webdav'  --checksum sync \
-  snap: harmony_db_snap --multi-thread-streams 4 --transfers=32 --verbose
+  snap: ./ --multi-thread-streams 4 --transfers=32 --verbose
 ```
 
 Small explanation for flags used to save your time with rclone manual: &#x20;
@@ -83,8 +83,7 @@ Small explanation for flags used to save your time with rclone manual: &#x20;
 #  sets the maximum number of streams to use
 # --transfers=32 - The number of file transfers to run in parallel.
 #   It can sometimes be useful to set this to a smaller number if the remote is giving a lot of timeouts or bigger if you have lots of bandwidth and a fast remote.
-# --verbose - With -v rclone will tell you about each file that is transferred and a small 
-number of significant events.
+# --verbose - With -v rclone will tell you about each file that is transferred and a small number of significant events.
 # sync - make the origin and destination the same, after 1st run add the deltas
 ```
 
