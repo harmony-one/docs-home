@@ -30,10 +30,6 @@ curl https://rclone.org/install.sh | sudo bash
 Make sure your rclone version is above **v1.53.2** . you can check version by `rclone version`
 {% endhint %}
 
-{% hint style="warning" %}
-There is a daily snapshot of the rclone DB happening at 1:42:30 AM UTC for 3h. It is not advisable to perform a backup during those time.
-{% endhint %}
-
 ### 2. Configuring Rclone
 
 To check the location of the `rclone.conf`file run:
