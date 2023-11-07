@@ -4,7 +4,7 @@
 
 Using answers for these questions you can easily understand which snapshot type you will need
 
-<figure><img src="../../../.gitbook/assets/DB_types_harmony.drawio.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/DB_types_harmony.png" alt=""><figcaption></figcaption></figure>
 
 ## Validator Nodes
 
@@ -125,7 +125,7 @@ Small explanation for flags used to save your time with rclone manual: &#x20;
 ### 4. Full db sync for appropriate shard &#x20;
 
 {% hint style="info" %}
-Since v4.3.12 shard 1/2/3 doesn't need to download anymore shard 0 DB. Instead, the node will download automatically the blocks required for the node in shard 1/2/3 to work.
+Since v4.3.12 shard 1 doesn't need to download anymore shard 0 DB. Instead, the node will download automatically the blocks required for the node in shard 1 to work.
 {% endhint %}
 
 Each node will simply need to rclone its own DB.
@@ -151,30 +151,6 @@ Each node will simply need to rclone its own DB.
 YOUR_DATA_DIR='./' # This is the default installation, change it you use something else
 rclone -P -L --webdav-url 'http://fulldb.s1.t.hmny.io/webdav' \
    --checksum sync snap: "${YOUR_DATA_DIR}harmony_db_1" --multi-thread-streams 4 --transfers=32 --verbose 
-```
-
-### 4.3 Shard 2 validator
-
-{% hint style="danger" %}
-**Important**: Since this can cause data loss, test first with the `--dry-run` or the `--interactive`/`-i` flag.
-{% endhint %}
-
-```bash
-YOUR_DATA_DIR='./' # This is the default installation, change it you use something else
-rclone -P -L --webdav-url 'http://fulldb.s2.t.hmny.io/webdav' \
-   --checksum sync snap: "${YOUR_DATA_DIR}harmony_db_2" --multi-thread-streams 4 --transfers=32 --verbose
-```
-
-### 4.4 Shard 3 validator
-
-{% hint style="danger" %}
-**Important**: Since this can cause data loss, test first with the `--dry-run` or the `--interactive`/`-i` flag.
-{% endhint %}
-
-```bash
-YOUR_DATA_DIR='./' # This is the default installation, change it you use something else
-rclone -P -L --webdav-url 'http://fulldb.s3.t.hmny.io/webdav'  \
-  --checksum sync snap: "${YOUR_DATA_DIR}harmony_db_3" --multi-thread-streams 4 --transfers=32 --verbose 
 ```
 
 ## Archival snapshot for the Non-Validating/Explorer Nodes
