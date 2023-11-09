@@ -10,11 +10,10 @@ Other advantages include superior performance with multiple RPC endpoint configu
 - SubQuery Docs: [SubQuery Academy (Documentation)](https://academy.subquery.network/)
 - Intro Quick Start Guide: [1. Create a New Project](https://academy.subquery.network/quickstart/quickstart.html)
 - [Harmony Quick Start Guide](https://academy.subquery.network/quickstart/quickstart_chains/harmony.html#harmony-quick-start)
-- [Harmony Starter Project](https://github.com/subquery/ethereum-subql-starter/tree/main/Harmony/harmony-starter)
 
 # Getting Started
 
-Take a look at this SubQuery Starter Project that introduces SubQuery's Harmony support by indexing [Harmony](https://github.com/subquery/ethereum-subql-starter/tree/main/Harmony/Harmony-starter).
+Take a look at this SubQuery Starter Project that introduces SubQuery's Harmony support by indexing [Harmony](https://github.com/subquery/ethereum-subql-starter/tree/main/Harmony/harmony-starter).
 
 You can also follow along this [step by step guide](https://academy.subquery.network/quickstart/quickstart.html) to get familiar with SubQuery.
 
