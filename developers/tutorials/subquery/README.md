@@ -1,5 +1,5 @@
 ---
-description: This section will guide you through the deployment of subgraphs
+description: This section provides instructions for deploying a Harmony indexer using SubQuery
 ---
 
 SubQuery stands out as a top-tier blockchain data indexer, offering developers swift, adaptable, all-encompassing, open-source, and decentralized APIs tailored for web3 projects. With the SubQuery SDK, developers can access comprehensive indexed data, enabling them to construct decentralized applications with greater speed and efficiency. Notably, SubQuery extends support to over 100 ecosystems, encompassing Harmony, Ethereum, Polygon, Polkadot, Algorand, NEAR, and Avalanche.
