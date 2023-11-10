@@ -43,9 +43,3 @@ Have you all heard about [@harmonyprotocol](https://twitter.com/harmonyprotocol)
 {% embed url="https://wazirx.com/exchange/ONE-INR" %}
 
 {% embed url="https://twitter.com/WazirXIndia/status/1306601333684920320?s=20" %}
-
-## Wyre
-
-We are excited to introduce another way for users to get ONE tokens using Wyre. Users can buy ETH and then use Harmony’s bridge with Ethereum and decentralized exchange (DEX) to swap ONEs. After a user buys ETH using Wyre on Metamask, they can bridge their ETH over to a wrapped version of 1ETH on Harmony and then have the option to swap it to native ONEs on Swoop.
-
-{% embed url="https://medium.com/harmony-one/access-harmony-one-tokens-using-wyre-and-horizon-bridge-swoop-5b6b46eaa441" %}
