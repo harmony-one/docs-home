@@ -1,5 +1,11 @@
 # DeFi
 
+## [Swap](https://swap.harmony.one)
+
+Swap is a [Uniswap](http://uniswap.exchange) v3 Fork on Harmony. The decentralized exchange (DEX) gives users access to capital efficient liquidity pools.
+
+Uniswap v2 required all users to provide liquidity across the entire price curve from 0 to infinity, Uniswap v3 allows Liquidity Providers (LPs) to optionally concentrate capital in the price range they believe will generate the highest return.
+
 ## [Sushi](https://sushi.com)
 
 Sushi and Harmony are coming together to deepen our partnership and launch a full suite of Sushi products on Harmony.
@@ -12,14 +18,6 @@ Specifically:
 4. Sushi-specific hackathon challenges with $100,000 in prizes as part of our $1M hackathon
 
 {% embed url="https://medium.com/harmony-one/sushi-and-harmony-announce-full-stack-partnership-with-4m-in-incentives-6dfaf6dd8887" %}
-
-## [ViperSwap](https://viperswap.one)
-
-ViperSwap is a [Uniswap](http://uniswap.exchange) V2 and [Sushiswap](https://www.sushi.com)-style DEX mixed with [Bao.finance](https://www.bao.finance)’s token emission model (more details on this later).
-
-Unlike Uniswap fee sharing is enabled from the very beginning, and at a more attractive rate. VIPER holders are able to stake their VIPER tokens in the ViperPit and earn 1/3rd of all generated trading fees across all pools on the DEX. Compare this to Uniswap (when fee sharing will finally be enabled) and SushiSwap were UNI and SUSHI tokens holders only earn 1/6th of the trading fees.
-
-Links: [community](https://t.me/VenomDAO), [code](https://github.com/VenomProtocol), [medium](https://venomdao.medium.com)
 
 ## [MochiSwap](https://one.mochiswap.io)
 
