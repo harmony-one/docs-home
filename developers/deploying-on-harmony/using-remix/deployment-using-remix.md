@@ -1,6 +1,6 @@
 ---
 description: >-
-  This guide shows instructions on how to deploy smart contract using Harmony
+  This guide shows instructions on how to deploy smart contracts using Harmony
   remix ide.
 ---
 
@@ -62,7 +62,7 @@ In the left navigation bar select "Solidity Compiler". In the new window choose 
 
 ### Deployment
 
-After successful compilation, go the the navigation panel once again, and click on thr "Harmony" button. Now in the new panel, select the network to deploy on, and choose and connect to your desired wallet. For this demo we are using Math Wallet. Now click on "Deploy" to deploy your smart contract to Harmony Network:
+After successful compilation, go the navigation panel once again, and click on the "Harmony" button. Now in the new panel, select the network to deploy on, and choose and connect to your desired wallet. For this demo we are using Math Wallet. Now click on "Deploy" to deploy your smart contract to Harmony Network:
 
 ![](<../../../.gitbook/assets/Screenshot from 2020-11-02 002905.png>)
 
