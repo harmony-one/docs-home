@@ -116,3 +116,22 @@ For example, [QuickNode](list-of-rpc-providers.md#QuickNode) offers 10 million A
 
 * 1RPC [docs](https://docs.ata.network/1rpc/introduction/)
 * 1RPC support available on the [Automata Network Discord](https://discord.gg/hXWn3NRS4Y)
+
+## NOWNodes
+
+### Announcement
+
+* [Announcement](https://nownodes.io/blog/nownodes-is-happy-to-introduce-a-new-node-harmony-one/)
+
+* [Twitter](https://twitter.com/NOWNodes/status/1679460674471092224?s=20)
+  
+### Endpoint
+
+Harmony RPC Endpoint: [https://nownodes.io/nodes/harmony-one](https://nownodes.io/nodes/harmony-one)
+  
+'https://one.nownodes.io/yourAPI-key'
+
+### Features
+
+* Free plan is available.
+* Dedicated plan with no rate limits is available by request.
