@@ -11,7 +11,7 @@ LayerZero Bridge is accessible [here.](https://bridge.harmony.one/)
 
 ## Is there a tutorial explaining how to use LayerZero?
 
-There is bridge process [step-by-step explanation](../bridging-tutorial.md)
+There is bridge process [step-by-step explanation](../../../layerzero-bridge/bridging-tutorial.md)
 
 ## What account can I use to receive bridged tokens?
 
@@ -67,7 +67,7 @@ And, the 1BUSD and bscBUSD on Harmony chain are not interchangeable, meaning one
 
 ## What token will I get after bridging?
 
-Please refer to [this page](bridged-tokens.md) to find out.
+Please refer to [this page](../../../layerzero-bridge/faq/bridged-tokens.md) to find out.
 
 ## Can I bridge as many tokens as I want, or is there a limit?
 

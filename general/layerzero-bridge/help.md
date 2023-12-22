@@ -16,7 +16,7 @@ If your operation is in progress for **more than an hour**, you can fill in the 
 
 ## Operation status is success, but I can’t find my tokens
 
-Bridge does not swap tokens, it only provides wrapped tokens. For the token that you bridged, you have received wrapped token to your account. To find out which one, you can refer to [this page](FAQ/token-address.md).\
+Bridge does not swap tokens, it only provides wrapped tokens. For the token that you bridged, you have received wrapped token to your account. To find out which one, you can refer to [this page](faq/token-address.md).\
 
 
 * Note that:
