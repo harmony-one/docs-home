@@ -35,7 +35,6 @@
   * [FAQ](general/bridges/layerzero-bridge/FAQ/README.md)
     * [What token will I get after the bridge](general/layerzero-bridge/faq/bridged-tokens.md)
     * [How to find a bridged token address](general/layerzero-bridge/faq/token-address.md)
-  * [Help](general/layerzero-bridge/help.md)
 * [Ecosystem](general/ecosystem/README.md)
   * [Wallets](general/wallets/README.md)
     * [1Wallet](general/ecosystem/wallets/1wallet.md)
