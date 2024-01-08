@@ -10,6 +10,7 @@ Other advantages include superior performance with multiple RPC endpoint configu
 - SubQuery Docs: [SubQuery Academy (Documentation)](https://academy.subquery.network/)
 - Intro Quick Start Guide: [1. Create a New Project](https://academy.subquery.network/quickstart/quickstart.html)
 - [Harmony Quick Start Guide](https://academy.subquery.network/quickstart/quickstart_chains/harmony.html#harmony-quick-start)
+- For technical questions and support reach out to us start@subquery.network
 
 # Getting Started
 
