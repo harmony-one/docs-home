@@ -208,6 +208,7 @@
         * [API](developers/tools/bridge/horizon/bridge-api.md)
       * [ONEBTC](developers/tools/bridge/onebtc.md)
     * [The Graph](developers/tools/the-graph.md)
+    * [Envio](developers/tools/envio.md)
     * [Ganache](developers/tools/using-ganache/README.md)
       * [Harmony Ganache](developers/tools/using-ganache/harmony-ganache.md)
     * [Harmony-React](developers/tools/harmony-react.md)
