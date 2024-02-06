@@ -1,8 +1,3 @@
----
-description: >-
-Feature-rich indexing solution and data infrastructure provider for fast and flexible access to real-time and historical data for any EVM.
----
-
 # Envio
 
 [Envio](https://envio.dev/) is a feature-rich indexing solution that provides developers with a seamless and efficient way to index and aggregate real-time or historical blockchain data for any EVM. The indexed data is easily accessible through custom GraphQL queries, providing developers with the flexibility and power to retrieve specific information.
