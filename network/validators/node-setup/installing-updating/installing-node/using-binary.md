@@ -24,7 +24,7 @@ curl -LO https://harmony.one/binary && mv binary harmony && chmod +x harmony
 
 {% tab title="x86_64 (Testnet) " %}
 ```bash
-curl -LO https://harmony.one/binary && mv binary_testnet harmony && chmod +x harmony
+curl -LO https://harmony.one/binary && mv binary harmony && chmod +x harmony
 ```
 {% endtab %}
 

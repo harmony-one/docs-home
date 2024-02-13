@@ -28,8 +28,8 @@
 [transactions.md](transactions.md)
 {% endcontent-ref %}
 
-{% content-ref url="../bridges/" %}
-[bridges](../bridges/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% content-ref url="../wallets/" %}
