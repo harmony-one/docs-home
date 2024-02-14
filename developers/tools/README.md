@@ -1,7 +1,7 @@
 # Tools
 
-{% content-ref url="remix-ide.md" %}
-[remix-ide.md](remix-ide.md)
+{% content-ref url="../getting-started/remix-ide.md" %}
+[remix-ide.md](../getting-started/remix-ide.md)
 {% endcontent-ref %}
 
 {% content-ref url="harmony-react.md" %}

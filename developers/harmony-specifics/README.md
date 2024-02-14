@@ -1,11 +1,11 @@
-# Harmony Specifics
+# Harmony Specifics - deprecate
 
-{% content-ref url="../list-of-rpc-providers.md" %}
-[list-of-rpc-providers.md](../list-of-rpc-providers.md)
+{% content-ref url="../getting-started/list-of-rpc-providers.md" %}
+[list-of-rpc-providers.md](../getting-started/list-of-rpc-providers.md)
 {% endcontent-ref %}
 
-{% content-ref url="../network-and-faucets.md" %}
-[network-and-faucets.md](../network-and-faucets.md)
+{% content-ref url="../getting-started/network-and-faucets.md" %}
+[network-and-faucets.md](../getting-started/network-and-faucets.md)
 {% endcontent-ref %}
 
 {% content-ref url="../list-of-deployed-contracts.md" %}

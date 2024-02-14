@@ -1,2 +1,0 @@
-# DaVinci SDK
-
