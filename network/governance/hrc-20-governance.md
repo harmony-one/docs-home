@@ -1,6 +1,7 @@
-# HRC-20 Governance
+# HRC-20 Governance (Deprecated)
 
-![](../../.gitbook/assets/governance-hrc20-1.png)
+HRC20 voting is no longer available.  
+<!-- ![](../../.gitbook/assets/governance-hrc20-1.png)
 
 ## What is an HRC-20?
 
@@ -53,4 +54,4 @@ To create a proposal navigate to the [governance app](https://governance.harmony
 
 To vote for a proposal, simply navigate to the Active tab and click on a proposal you want to vote on. Read what the proposal is about, select your choice and confirm with a signed message from your wallet:
 
-![Voting on a Proposal](../../.gitbook/assets/gorvenance-hrc20-3.png)
+![Voting on a Proposal](../../.gitbook/assets/gorvenance-hrc20-3.png) -->

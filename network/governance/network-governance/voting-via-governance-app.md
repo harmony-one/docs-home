@@ -8,13 +8,13 @@ The Harmony team is releasing the first governance app for the Harmony network. 
 
 We have ported the widely known snapshot.page, which is an off-chain governance app for the Ethereum ecosystem. It supports simple governance in the form of creating and voting on proposals:
 
-[https://governance.harmony.one](https://governance.harmony.one)
+[https://snapshot.org/#/harmony-mainnet.eth](https://snapshot.org/#/harmony-mainnet.eth)
 
-To interact with it, you need to connect your [One Wallet](../../../general/ecosystem/wallets/browser-extensions-wallets/one-wallet.md) or [Metamask](../../../general/ecosystem/wallets/browser-extensions-wallets/metamask-wallet/), same as using Metamask on Ethereum. Note that you have to connect with the ONE address which is registered as a validator on the Harmony network and make sure you are on the latest OneWallet version, because older versions might not have support for voting. Once connected, you are able to create a proposal (if you are elected) and vote (no matter you are elected or unelected).
+To interact with it, you need to connect your [Metamask](../../../general/ecosystem/wallets/browser-extensions-wallets/metamask-wallet/), same as using Metamask on Ethereum. Note that you have to connect with the ONE address which is registered as a validator on the Harmony network and make sure you are on the latest OneWallet version, because older versions might not have support for voting. Once connected, you are able to create a proposal (if you are elected) and vote (no matter you are elected or unelected).
 
 ### Creating a proposal
 
-To create a proposal navigate to the governance app, connect your One Wallet, then click on New proposal on the top right corner.
+To create a proposal navigate to the governance app, connect your Wallet, then click on New proposal on the top right corner.
 
 You can now start writing a new proposal:
 
@@ -35,7 +35,7 @@ You can now start writing a new proposal:
 **3** - Voting choices; you add choices for voting, minimum is 2, but you can always add more choices with the Add choice button below.\
 **4** - The proposal will stay pending for 7 days, to ensure everyone can get familiar with the topic being voted on\
 **5** - After the 7 days in pending mode are over, the voting on the proposal starts and lasts for 14 days.\
-**6** - Publish once done with all previous steps and confirm with a signed message from your validator address via One Wallet.\
+**6** - Publish once done with all previous steps and confirm with a signed message from your validator address via Metamask.\
 \
 Once you approve, the proposal will be quickly submitted. After that it will show under Pending until the initial 7 day period is over and it gets Active.
 
