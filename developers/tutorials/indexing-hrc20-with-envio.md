@@ -1,9 +1,9 @@
 ---
 description: >-
-  This tutorial will take you through the process of indexing HRC20 token transfers on the Harmony using Envio's indexing framework.
+  This tutorial will take you through the process of indexing HRC20 token transfers on the Harmony using Envio.
 ---
 
-# Indexing HRC20 Transfers on Harmony using Envio
+# Indexing HRC20 with Envio
 
 The goal of this tutorial is to easily create an indexer that tracks and analyzes all LINK token transfers on Harmony by extracting the `Transfer (index_topic_1 address from, index_topic_2 address to, uint256 value)` logs emitted by the LINK contract. This enables real-time insights into metrics such as the largest LINK token transfers. 
 
