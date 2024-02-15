@@ -23,12 +23,11 @@ Now that you’re all set up and have installed the prerequisite packages requir
     
 <!-- <img src="" alt="" width="100%"/> -->
 
-3. Choose a preferred language, select `Contract Import`, and import from the `Local ABI` option. For this demonstration, we’ve chosen to use TypeScript as the preferred language.
+3. Choose a preferred language, select `Contract Import`, and import from `Local ABI`.
 
 <!-- <img src="" alt="" width="100%"/> -->
-<!-- <img src="" alt="" width="100%"/> -->
 
-> Note: Indexers on Envio can be written in JavaScript, TypeScript, or ReScript.
+> Note: Indexers on Envio can be written in JavaScript, TypeScript, or ReScript. For this demonstration, we’ve chosen to use TypeScript as the preferred language.
 
 > Note: For the Contract Import feature, the `Block Explorer` option currently only supports networks with Etherscan. If the network doesn't have Etherscan, you can proceed using the `Local ABI` option. Choosing `Local ABI` option will allow you to point to a JSON file containing the smart contract ABI. The Contract Import process will then populate the required files from the ABI.
 
@@ -36,7 +35,6 @@ Now that you’re all set up and have installed the prerequisite packages requir
 
 LINK Token Contract address: [0x218532a12a389a4a92fc0c5fb22901d1c19198aa](https://explorer.harmony.one/address/0x218532a12a389a4a92fc0c5fb22901d1c19198aa)
 
-<!-- <img src="" alt="" width="100%"/> -->
 <!-- <img src="" alt="" width="100%"/> -->
 
 5. Select the events you would like to index. In this case, we’ll be indexing the `transfer` event.  
