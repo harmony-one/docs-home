@@ -244,7 +244,7 @@
     * [Using NFT.storage](developers/tutorials/ipfs-filecoin/using-nftstorage.md)
   * [Using Explorer EndPoints](developers/tutorials/using-explorer-api.md)
   * [Publishing & Verifying Your Smart Contract](developers/tutorials/publishing-and-verifying-your-smart-contract.md)
-  * [Indexing HRC20 with Envio](developers/tutorials/Indexing-hrc20-token-envio.md)
+  * [Indexing HRC20 with Envio](developers/tutorials/indexing-hrc20-token-envio.md)
   * [Building a Simple Metaverse Contract](developers/tutorials/simple-metaverse-contract-with-chainstack.md)
   * [Building a Simple Bridge with Ethereum](developers/tutorials/simple-bridge-with-ethereum.md)
   * [Staking for Multisig](developers/tutorials/staking-for-multisig.md)

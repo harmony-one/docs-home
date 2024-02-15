@@ -1,11 +1,11 @@
 ---
 description: >-
-  This tutorial will take you through the process of indexing HRC20 token transfers on the Harmony using Envio's indexing framework, providing real-time insights into metrics such as the largest LINK token transfers. 
+  This tutorial will take you through the process of indexing HRC20 token transfers on the Harmony using Envio's indexing framework.
 ---
 
-# Indexing HRC20 Token Transfers on Harmony using Envio
+# Indexing HRC20 Transfers on Harmony using Envio
 
-The goal of this tutorial is to easily create an indexer that tracks and analyzes all LINK token transfers on Harmony by extracting the `Transfer (index_topic_1 address from, index_topic_2 address to, uint256 value)` logs emitted by the LINK contract.
+The goal of this tutorial is to easily create an indexer that tracks and analyzes all LINK token transfers on Harmony by extracting the `Transfer (index_topic_1 address from, index_topic_2 address to, uint256 value)` logs emitted by the LINK contract. This enables real-time insights into metrics such as the largest LINK token transfers. 
 
 ## Prerequisites
 
@@ -26,14 +26,11 @@ Now that you’re all set up and have installed the prerequisite packages requir
 3. Choose a preferred language, select `Contract Import`, and import from the `Local ABI` option. For this demonstration, we’ve chosen to use TypeScript as the preferred language.
 
 <!-- <img src="" alt="" width="100%"/> -->
-
-Choosing `Local ABI` option will allow you to point to a JSON file containing the smart contract ABI. The Contract Import process will then populate the required files from the ABI.
-
 <!-- <img src="" alt="" width="100%"/> -->
 
 > Note: Indexers on Envio can be written in JavaScript, TypeScript, or ReScript.
 
-> Note: For the Contract Import feature, the `Block Explorer` option currently only supports networks with Etherscan. If the network doesn't have Etherscan, you can proceed using the `Local ABI` option. 
+> Note: For the Contract Import feature, the `Block Explorer` option currently only supports networks with Etherscan. If the network doesn't have Etherscan, you can proceed using the `Local ABI` option. Choosing `Local ABI` option will allow you to point to a JSON file containing the smart contract ABI. The Contract Import process will then populate the required files from the ABI.
 
 4. Head over to the [Harmony Explorer](https://explorer.harmony.one/), and save the ABI code from the LINK smart contract address as a file in the current working directory. For this demonstration, we've chosen to name the ABI file "abi.json". Specify the directory of JSON file containing ABI, for example `abi.json`.
 
@@ -79,7 +76,7 @@ This file defines the network, start block, contract address, and events we want
 
 2. **Schema.graphql**
 
-This file saves and defines the data structures for selected events, such as the `Transfer` event.
+This file saves and defines the data structures for selected events, such as the `transfer` event.
 
 <!-- <img src="" alt="" width="100%"/> -->
 
@@ -112,5 +109,7 @@ Let’s look at getting 10 `Link_Transfer` events, and order them by the amount 
 <!-- <img src="" alt="" width="100%"/> -->
 
 You can now run queries to explore specific events, such as the largest LINK transfers.
+
+If you want to index more than just `transfer` events, such as holders and balances, you can select `Erc20` template option after running `envio init` command. 
 
 
