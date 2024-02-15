@@ -20,7 +20,7 @@ Now that you’re all set up and have installed the prerequisite packages requir
 <!-- <img src="" alt="" width="100%"/> -->
 
 2. Name your indexer anything you’d like (e.g. `harmony-link-transfers-indexer`).
-    
+
 <!-- <img src="" alt="" width="100%"/> -->
 
 3. Choose a preferred language, select `Contract Import`, and import from `Local ABI`.
