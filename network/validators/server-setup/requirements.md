@@ -10,7 +10,7 @@ It is NOT recommended now to run multiple nodes using the same set of BLS keys. 
 
 #### Validator
 
-<table><thead><tr><th width="131"></th><th>Shard 0</th><th>Shard 1</th></tr></thead><tbody><tr><td>CPU</td><td>8 dedicated core</td><td>4 dedicated core</td></tr><tr><td>RAM</td><td>8 GB </td><td>4 GB</td></tr><tr><td>Storage </td><td>1 TB (using snapDB)<br>SSD Minimum, NVMe recommended</td><td>100GB<br>SSD Minimum, NVMe recommended</td></tr><tr><td>Network</td><td>50Mb/s bandwidth, 5~6 TB data usage per month</td><td>50Mb/s bandwidth, 5~6 TB data usage per month</td></tr><tr><td>OS</td><td>Ubuntu 22 LTS</td><td>Ubuntu 22 LTS</td></tr></tbody></table>
+<table><thead><tr><th width="131">Specs</th><th>Shard 0</th><th>Shard 1</th></tr></thead><tbody><tr><td>CPU</td><td>8 dedicated core</td><td>4 dedicated core</td></tr><tr><td>RAM</td><td>8 GB </td><td>4 GB</td></tr><tr><td>Storage </td><td>1 TB (using snapDB)<br>SSD Minimum, NVMe recommended</td><td>100GB<br>SSD Minimum, NVMe recommended</td></tr><tr><td>Network</td><td>50Mb/s bandwidth, 5~6 TB data usage per month</td><td>50Mb/s bandwidth, 5~6 TB data usage per month</td></tr><tr><td>OS</td><td>Ubuntu 22 LTS</td><td>Ubuntu 22 LTS</td></tr></tbody></table>
 
 {% hint style="info" %}
 Cloud provider CPU's are usually shared unless you specifically chose a dedicated CPU or opt for a dedicated bare metal server
@@ -32,7 +32,7 @@ Check [Cloud Guides](cloud-guides/) for instructions.
 
 Same requirement as validator unless specified below:&#x20;
 
-|         | Shard 0                            | Shard 1                             |
+| Specs   | Shard 0                            | Shard 1                             |
 | ------- | ---------------------------------- | ----------------------------------- |
 | Storage | 6 TB SSD Minimum, NVMe recommended | 50 GB SSD Minimum, NVMe recommended |
 
