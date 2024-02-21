@@ -8,15 +8,15 @@ It is NOT recommended now to run multiple nodes using the same set of BLS keys. 
 
 ### For Cloud
 
-**CPU**: for `shard 0` nodes, 8 dedicated cores are recommended such as [c5d.2xlarge](https://aws.amazon.com/blogs/aws/ec2-instance-update-c5-instances-with-local-nvme-storage-c5d/) instance type on AWS.\
-If you use a VPS with shared CPU, at least 8 cores with 50%+ CPU credit.\
-For `shard 1,2,3` the requirement can be halved\
-**RAM Memory**: 8GB is minimal\
-**Storage**: 3072GB for Shard 0 (as of 14/04/2022). Extra 25GB for Shard 1, 2 and 3 (because when you setup a node on Shard 1, 2 or 3, you also need to download the shard 0 database. Fast local disk is recommend, network storage may hit I/O bottleneck. SSD is the minimal requirement. NVMe drive is better.\
-**OS**: Latest Ubuntu Linux (LTS Version)\
-**Network**: 100M+ bandwidth, 5\~6 TB data usage per month (preferably more if possible)
+#### Validator
 
-Here is a list of some cheap and reliable Cloud Providers (August, 2020):
+<table><thead><tr><th width="131"></th><th>Shard 0</th><th>Shard 1</th></tr></thead><tbody><tr><td>CPU</td><td>8 dedicated core</td><td>4 dedicated core</td></tr><tr><td>RAM</td><td>8 GB </td><td>4 GB</td></tr><tr><td>Storage </td><td>1 TB (using snapDB)<br>SSD Minimum, NVMe recommended</td><td>100GB<br>SSD Minimum, NVMe recommended</td></tr><tr><td>Network</td><td>50Mb/s bandwidth, 5~6 TB data usage per month</td><td>50Mb/s bandwidth, 5~6 TB data usage per month</td></tr><tr><td>OS</td><td>Ubuntu 22 LTS</td><td>Ubuntu 22 LTS</td></tr></tbody></table>
+
+{% hint style="info" %}
+Cloud provider CPU's are usually shared unless you specifically chose a dedicated CPU or opt for a dedicated bare metal server
+{% endhint %}
+
+Here is a list of  Cloud Providers (August, 2020):
 
 * [OVH](https://www.ovhcloud.com/)
 * [Digital Ocean](https://www.digitalocean.com/)
@@ -28,19 +28,28 @@ Here is a list of some cheap and reliable Cloud Providers (August, 2020):
 
 Check [Cloud Guides](cloud-guides/) for instructions.
 
+#### RPC / Explorer node Full Node
+
+Same requirement as validator unless specified below:&#x20;
+
+|         | Shard 0                            | Shard 1                             |
+| ------- | ---------------------------------- | ----------------------------------- |
+| Storage | 6 TB SSD Minimum, NVMe recommended | 50 GB SSD Minimum, NVMe recommended |
+
+#### RPC / Explorer node Archival Node
+
+Same requirement as validator unless specified below:&#x20;
+
+|                       | Shard 0                                   | Shard 1                                     |
+| --------------------- | ----------------------------------------- | ------------------------------------------- |
+| CPU                   | 16 dedicated core                         | 8 dedicated core                            |
+| RAM                   | <p>32GB minimum<br>64GB recommended</p>   | <p>16GB minimum<br>32GB recommended</p>     |
+| Storage (21 Feb 2024) | <p>32 TB minimum<br>36 TB recommended</p> | <p>250 GB minimum<br>500 GB recommended</p> |
+
 ### For Raspberry Pi
 
-**CPU**: Raspberry Pi 4 with a good Fan and Heat sinker elements\
-**RAM Memory**: 8GB\
-**Storage**: Fast external SSD with minimum 1TB for a validator node. \
-**OS**: Latest Ubuntu Linux (LTS Version)\
-**Network**: A Modem where you have access to settings like set IP address, Port forwarding and priority settings, 100Mbit/s bandwidth, low latency and flat rate usage. Minimum category 6 Cables
+**Same as above for the type of node you wish to run**
 
+A Raspberry Pi 4 with a good Fan and Heat sinker elements will be required\
 Check [Raspberry Pi Guide](raspberry-pi-guide.md) for instructions.
 
-## Explorer Node: Recommendation
-
-**Setup**: AWS i3en.12xlarge or equivalent, with local disk storage\
-**Storage**: \~24TB (4x NVMe SSD) is recommended for Archival Explorer Nodes on Shard 0\
-**OS**: Latest Ubuntu Linux (LTS Version)\
-**Network**: 100M+ bandwidth
