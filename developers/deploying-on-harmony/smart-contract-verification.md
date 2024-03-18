@@ -35,6 +35,6 @@ It is important to use the correct parameters (same as on deployment):
 * Sources
 * Imported libs
 
-Then click on **Sumbit** button. If all params was correct - you should to see Success message, or Error if bytecodes are not equal. On Success case - you contract will verify and you will see all contract details on contract explorer page.
+Then click on **Submit** button. If all params are correct - you should to see a Success message, or an Error if bytecodes are not equal. On Success case - your contract will verify and you will see all contract details on contract explorer page.
 
 ![Contract Verification](<../../.gitbook/assets/untitled-1 (2) (4) (5) (5) (3) (1) (1) (1) (2) (1) (1) (1).png>)
