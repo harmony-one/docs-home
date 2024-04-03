@@ -299,7 +299,7 @@
   * [Node Setup](network/validators/node-setup/README.md)
     * [1. HMY CLI Download](network/validators/node-setup/hmy-cli-download.md)
     * [2. Setting up BLS Keys](network/validators/node-setup/generating-a-bls-key.md)
-    * [3. Syncing DB](network/validators/node-setup/syncing-db.md)
+    * [😀 3. Syncing DB](network/validators/node-setup/syncing-db.md)
     * [4. Installing & Updating](network/validators/node-setup/installing-updating/README.md)
       * [Installing A Node](network/validators/node-setup/installing-updating/installing-node/README.md)
         * [Using Node Binary](network/validators/node-setup/installing-updating/installing-node/using-binary.md)

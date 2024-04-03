@@ -1,4 +1,4 @@
-# 3. Syncing DB
+# 😀 3. Syncing DB
 
 ## Simple algorithm to distinguish between snapshot types
 
@@ -153,7 +153,7 @@ rclone -P -L --webdav-url 'http://fulldb.s1.t.hmny.io/webdav' \
    --checksum sync snap: "${YOUR_DATA_DIR}harmony_db_1" --multi-thread-streams 4 --transfers=32 --verbose 
 ```
 
-## Archival snapshot for the Non-Validating/Explorer Nodes
+### Archival snapshot for the Non-Validating/Explorer Nodes <a href="#archival-snapshot-for-the-non-validating-explorer-nodes" id="archival-snapshot-for-the-non-validating-explorer-nodes"></a>
 
 {% hint style="info" %}
 As of 1st October 2023, the size for the shard 0 on mainnet is \~23TiB. Note that the bucket is currently not fully synced.
@@ -163,3 +163,30 @@ As of 1st October 2023, the size for the shard 0 on mainnet is \~23TiB. Note tha
 Please contact us at [devops@harmony.one](mailto:devops@harmony.one) if you need to access our archival db.
 {% endhint %}
 
+### 5. Testnet snapshots <a href="#archival-snapshot-for-the-non-validating-explorer-nodes" id="archival-snapshot-for-the-non-validating-explorer-nodes"></a>
+
+If you want to quickly test your validator/RPC setup via the testnet network, please use the setup from [#id-2.-configuring-rclone](syncing-db.md#id-2.-configuring-rclone "mention")and the info below.
+
+### 5.1 Testnet shard 0
+
+{% hint style="danger" %}
+**Important**: Since this can cause data loss, test first with the `--dry-run` or the `--interactive`/`-i` flag.
+{% endhint %}
+
+```bash
+YOUR_DATA_DIR='./' # This is the default installation, change it you use something else
+rclone -P -L --webdav-url 'http://fulldb.s0.b.hmny.io/webdav' \
+   --checksum sync snap: "${YOUR_DATA_DIR}harmony_db_0" --multi-thread-streams 4 --transfers=32 --verbose 
+```
+
+### 5.2 Testnet shard 1
+
+{% hint style="danger" %}
+**Important**: Since this can cause data loss, test first with the `--dry-run` or the `--interactive`/`-i` flag.
+{% endhint %}
+
+```bash
+YOUR_DATA_DIR='./' # This is the default installation, change it you use something else
+rclone -P -L --webdav-url 'http://fulldb.s1.b.hmny.io/webdav' \
+   --checksum sync snap: "${YOUR_DATA_DIR}harmony_db_1" --multi-thread-streams 4 --transfers=32 --verbose 
+```
