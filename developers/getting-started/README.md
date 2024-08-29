@@ -22,18 +22,18 @@ To really explore the full potential of Harmony blockchain, creating a wallet is
 * Harmony [CLI](https://docs.harmony.one/home/wallets/harmony-cli), also provides a quick way to create/manage wallet, interact with blockchain, etc.
 
 {% hint style="info" %}
-Harmony uses [bech32](https://en.bitcoin.it/wiki/Bech32) address format with `one1` prefix, however Ethereum style hex address can also be used. For example: `one1pdv9lrdwl0rg5vglh4xtyrv3wjk3wsqket7zxy` bech32 address is equivalent to `0x0B585F8DaEfBC68a311FbD4cB20d9174aD174016` hex address. Quick way to convert between formats is using explorer: [https://explorer.harmony.one/#/address/one1pdv9lrdwl0rg5vglh4xtyrv3wjk3wsqket7zxy](https://explorer.harmony.one/#/address/one1pdv9lrdwl0rg5vglh4xtyrv3wjk3wsqket7zxy), at the top you will find "Address Format" ONE | ETH options.
+Harmony uses [bech32](https://en.bitcoin.it/wiki/Bech32) address format with `one1` prefix, however Ethereum style hex address can also be used. For example: `one1pdv9lrdwl0rg5vglh4xtyrv3wjk3wsqket7zxy` bech32 address is equivalent to `0x0B585F8DaEfBC68a311FbD4cB20d9174aD174016` hex address. Quick way to convert between formats is using explorer: [https://explorer.harmony.one/#/address/one1pdv9lrdwl0rg5vglh4xtyrv3wjk3wsqket7zxy](https://explorer.harmony.one/#/address/one1pdv9lrdwl0rg5vglh4xtyrv3wjk3wsqket7zxy), at the top you will find "ONE / ETH address" options.
 {% endhint %}
 
 #### Development environments
 
 * Several development environments exists: [mainnet, testnnet, localnet](https://docs.harmony.one/home/developers/api#development-environments)
-* Testnet faucets
-  * [https://faucet.pops.one/](https://faucet.pops.one/)&#x20;
-  * [https://onefaucet.ibriz.ai/](https://onefaucet.ibriz.ai/)
+* Testnet faucet
+  * [https://faucet.pops.one](https://faucet.pops.one/)&#x20;
+  * [https://chaindrop.org](https://chaindrop.org/)&#x20;
 * Blockchain Explorers
-  * Mainnet: [https://explorer.harmony.one/](https://explorer.harmony.one/)&#x20;
-  * Testnet: [https://explorer.testnet.harmony.one/](https://explorer.pops.one/)
+  * Mainnet: [https://explorer.harmony.one](https://explorer.harmony.one/)&#x20;
+  * Testnet: [https://explorer.testnet.harmony.one](https://explorer.testnet.harmony.one/)
 
 We provide SDKs in several different languages. However most feature complete is our JavaScript SDK, which is the preferred language for DApp development.
 
@@ -42,7 +42,7 @@ Feel free to ping any POPS member for issues on the testnet network/explorer/fau
 Faucet can also be refilled by anyone by sending fund back to the contract address shown on [https://faucet.pops.one](https://faucet.pops.one)
 {% endhint %}
 
-#### Using SDKs to interact with Harmony blockchian
+#### Using SDKs to interact with Harmony blockchain
 
 * About [SDKs](https://docs.harmony.one/home/developers/sdk)
 * The most popular is our [JavaScript SDK](https://github.com/harmony-one/sdk), which includes examples, documentation, and DApps developed in previous hackathons
@@ -66,17 +66,17 @@ You can also use the [Harmony DApp template generator](https://github.com/harmon
 {% embed url="https://www.youtube.com/watch?v=ys7dtz1YvpM" %}
 
 * [Tutorial](https://www.youtube.com/watch?v=1eigt2z8oWM\&t=4s)
-* [Github repo](https://github.com/harmony-one/token-faucet-demo-dapp)
+* [GitHub repo](https://github.com/harmony-one/token-faucet-demo-dapp)
 
 Many other examples and DApps can be found in the [SDK repo](https://github.com/harmony-one/sdk) and under [showcases](https://docs.harmony.one/home/showcases).
 
 ### Resources
 
 * [talk.harmony.one](https://talk.harmony.one/c/developers/31) - for reporting issues, asking questions, or interact with other developers
-* Harmony [github](https://github.com/harmony-one)
-* Harmony dev [reddit](https://www.reddit.com/r/Harmony\_Devs/)
+* Harmony [GitHub](https://github.com/harmony-one)
+* Harmony dev [Reddit](https://www.reddit.com/r/Harmony\_Devs/)
 * Discord channels: [#developers](https://discord.gg/bK3vb3chuv), [#development](https://discord.gg/Umfnga3bFU)
-* Harmony dev [telegram](https://t.me/HarmonyDevs)
+* Harmony dev [Telegram](https://t.me/HarmonyDevs)
 
 ### Known Limitations
 

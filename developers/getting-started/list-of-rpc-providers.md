@@ -120,7 +120,7 @@ For example, [QuickNode](list-of-rpc-providers.md#QuickNode) offers 10 million A
 
 ### Instructions
 
-* 1RPC [docs](https://docs.ata.network/1rpc/introduction/)
+* 1RPC [docs](https://docs.ata.network/backed-by-pom/1rpc)
 * 1RPC support available on the [Automata Network Discord](https://discord.gg/hXWn3NRS4Y)
 
 ## NOWNodes

@@ -12,16 +12,17 @@
 
 ## Block Explorers
 
-| Mainnet                                                        | Testnet                                                             | Devnet |
-| -------------------------------------------------------------- | ------------------------------------------------------------------- | ------ |
-| [https://explorer.harmony.one/](https://explorer.harmony.one/) | [https://explorer.testnet.harmony.one/](https://explorer.pops.one/) | None   |
+| Mainnet                                                       | Testnet                                                                       | Devnet |
+|---------------------------------------------------------------|-------------------------------------------------------------------------------|--------|
+| [https://explorer.harmony.one](https://explorer.harmony.one/) | [https://explorer.testnet.harmony.one](https://explorer.testnet.harmony.one/) | None   |
 
 ## Faucets
 
-| Testnet                                               | Devnet                                                             |
-| ----------------------------------------------------- | ------------------------------------------------------------------ |
-| [https://faucet.pops.one/](https://faucet.pops.one/)  | [http://dev.faucet.easynode.one/](http://dev.faucet.easynode.one/) |
-| [https://chaindrop.org/](https://chaindrop.org/)      |
+| Testnet                                                          |
+|------------------------------------------------------------------|
+| [https://faucet.pops.one](https://faucet.pops.one/)              |
+| [http://dev.faucet.easynode.one](http://dev.faucet.easynode.one) |
+
 
 {% hint style="info" %}
 When running a localnet, there is no need to setup a faucet to receive $ONE for testing because upon spinning up the localnet, the node creates several accounts that earn rewards for signing blocks.
