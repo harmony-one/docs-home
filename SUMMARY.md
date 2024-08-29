@@ -266,8 +266,6 @@
   * [Math Wallet](developers/wallets/mathwallet.md)
   * [WalletConnect](developers/wallets/walletconnect.md)
 * [Harmony Stack and Projects](developers/harmony-stack.md)
-* [Harmony Specifics - deprecate](developers/harmony-specifics/README.md)
-  * [List of Deployed Contracts](developers/list-of-deployed-contracts.md)
 
 ## 🌏 Network
 
