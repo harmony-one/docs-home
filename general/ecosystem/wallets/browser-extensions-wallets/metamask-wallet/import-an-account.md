@@ -14,10 +14,10 @@ For the **Harmony Chrome extension wallet**, click the Menu button at the top ri
 
 Click on the icon on top as shown by the image below and then on **Import Account**:
 
-![Importing Account](../../../../.gitbook/assets/metamask\_import\_account1.png)
+![Importing Account](../../../../../.gitbook/assets/metamask\_import\_account1.png)
 
 On next window, select the option to import from a Private Key, paste your key and click on **Import** to complete the step.
 
-![](../../../../.gitbook/assets/metamask\_import\_account2.png)
+![](../../../../../.gitbook/assets/metamask\_import\_account2.png)
 
 Your account should now be imported.
