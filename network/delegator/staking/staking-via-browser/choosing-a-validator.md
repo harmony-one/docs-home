@@ -4,7 +4,7 @@ Staking via browser is done via [Staking Dashboard](https://staking.harmony.one/
 
 ![](<../../../../.gitbook/assets/image (29).png>)
 
-<figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 In order to choose their validators and manage their delegation, delegators have access to a range of information on the Staking Dashboard.
 
