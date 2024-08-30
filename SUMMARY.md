@@ -222,7 +222,6 @@
     * [Harmony Ganache](developers/tools/using-ganache/harmony-ganache.md)
   * [Harmony-React](developers/tools/harmony-react.md)
   * [Oracles](developers/tools/oracles/README.md)
-    * [Chainlink](developers/tools/oracles/chainlink.md)
     * [Band Protocol](developers/tools/oracles/oracle-band-protocol.md)
   * [Smart Contract Verification](developers/tools/smart-contract-verification.md)
 * [Tutorials](developers/tutorials/README.md)
