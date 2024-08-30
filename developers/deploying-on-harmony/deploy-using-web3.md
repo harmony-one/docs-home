@@ -7,12 +7,17 @@ Completed code can be found [here.](https://github.com/harmony-one/Smart-Contrac
 ### Installation
 
 ```
-npm i dotenv
-npm i solc
-npm i @truffle/hdwallet-provider web3
+npm init
+npm i dotenv solc @truffle/hdwallet-provider web3
 ```
 
-#### Create a file Counter.sol in root.
+#### Create `.env` in root
+```
+MNEMONIC=<YOUR_MNEMONIC>
+RPC_ENDPOINT=https://api.harmony.one
+```
+
+#### Create a file Counter.sol in root
 
 ```
 pragma solidity >=0.4.22;
@@ -75,11 +80,11 @@ module.exports = contractFile;
 
 ```
 
-#### Create `Deploy.js`
+#### Create `deploy.js`
 
 ```
 require("dotenv").config();
-const Web3 = require("web3");
+const { Web3 } = require("web3");
 const contractFile = require("./compile");
 const HDWalletProvider = require("@truffle/hdwallet-provider");
 
@@ -87,15 +92,14 @@ const bytecode = contractFile.evm.bytecode.object;
 const abi = contractFile.abi;
 
 const provider = new HDWalletProvider(
-  process.env.mneumonic,
-  process.env.rpcEndpoint
+    process.env.MNEMONIC,
+    process.env.RPC_ENDPOINT
 );
 
 const web3 = new Web3(provider);
 
 const deploy = async () => {
   console.log("Deploying....");
-  I;
   const accounts = await web3.eth.getAccounts();
   const result = await new web3.eth.Contract(abi)
     .deploy({ data: "0x" + bytecode })

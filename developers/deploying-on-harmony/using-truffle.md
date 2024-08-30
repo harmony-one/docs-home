@@ -10,6 +10,7 @@ npm install -g truffle
 
 ```
 mkdir metacoin
+cd metacoin
 truffle unbox metacoin
 npm install --save-dev @truffle/hdwallet-provider
 ```
@@ -48,6 +49,11 @@ module.exports = {
       network_id: 1666700000,
     },
   },
+  compilers: {
+    solc: {
+      version: "0.8.13", // Fetch exact version from solc-bin
+    }
+  }
 };
 ```
 
