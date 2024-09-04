@@ -14,7 +14,7 @@ require("@nomiclabs/hardhat-waffle");
 const HARMONY_PRIVATE_KEY = "YOUR HARMONY PRIVATE KEY";
 
 module.exports = {
-  solidity: "0.7.3",
+  solidity: "0.8.0",
   networks: {
     testnet: {
       url: `https://api.s0.b.hmny.io`,
