@@ -4,11 +4,11 @@ Using Viem with Harmony protocol.
 
 ## Introduction
 
-Viem is a TypeScript interface that provides low-level stateless primitives for interacting with Ethereum-compatible blockchains. It focuses on reliability, efficiency, and a developer-friendly experience. Harmony, being an Ethereum-compatible blockchain, can fully leverage Viem's capabilities. This allows developers to use Viem to interact with Harmony nodes seamlessly, benefiting from its performance optimizations and type-safe interface. By using Viem with Harmony, developers can build robust and efficient applications while enjoying a modern development experience.
+Viem is a TypeScript interface that provides low-level stateless primitives for interacting with Ethereum-compatible blockchains. It focuses on reliability, efficiency, and a developer-friendly experience. As an Ethereum-compatible blockchain, Harmony can fully leverage Viem's capabilities. This allows developers to use Viem to interact with Harmony nodes seamlessly, benefiting from its performance optimizations and type-safe interface. By using Viem with Harmony, developers can build robust and efficient applications while enjoying a modern development experience.
 
 ## Setup Viem with Harmony
 
-To get started with the Viem library, we first need to install it using the following command:
+To get started with Viem, install it using the following command:
 
 ```
 npm install viem
@@ -20,7 +20,6 @@ After installation, you can quickly set up and begin using the library with the 
 import { createPublicClient, http } from 'viem'
 import { harmonyOne } from 'viem/chains'
 
-// Create Viem instance
 const client = createPublicClient({
   chain: harmonyOne,
   transport: http()
@@ -30,9 +29,42 @@ const blockNumber = await client.getBlockNumber()
 console.log('blocknumber', blockNumber)
 ```
 
+Harmony Testnet is not supported by viem/chains. To connect to Testnet, you can do the following:
+
+```typescript
+import { createPublicClient, http } from 'viem'
+import { defineChain } from 'viem'
+
+export const harmonyTestnet = defineChain({
+  id: 1666700000,
+  name: 'Harmony Testnet',
+  nativeCurrency: {
+    decimals: 18,
+    name: 'ONE',
+    symbol: 'ONE',
+  },
+  rpcUrls: {
+    default: {
+      http: ['https://api.s0.b.hmny.io'],
+      webSocket: ['wss://ws.s0.b.hmny.io'],
+    },
+  },
+  blockExplorers: {
+    default: { name: 'Harmony Testnet Explorer', url: 'https://explorer.pops.one' },
+  },
+  testnet: true
+})
+
+const client = createPublicClient({
+  chain: harmonyTestnet,
+  transport: http()
+})
+
+```
+
 ## Interacting with a Harmony Contract
 
-Here's an example of how to interact with an HRC-20 token contract on the Harmony network using Viem. This example demonstrates how to efficiently retrieve multiple pieces of information in a single call using aggregation (via Multicall), which helps reduce network overhead and improve performance:
+Here's an example of interacting with an HRC-20 token contract on the Harmony network using Viem. This example demonstrates how to efficiently retrieve multiple pieces of information in a single call using aggregation (via Multicall), which helps reduce network overhead and improve performance:
 
 ```typescript
 import { createPublicClient, http } from 'viem'
@@ -47,7 +79,7 @@ const client = createPublicClient({
   transport: http(),
 })
 
-// Example: 1USDC on Harmony
+// 1USDC on Harmony
 const address = '0x985458E523dB3d53125813eD68c274899e9DfAb4'  
 
 const abi = parseAbi([
