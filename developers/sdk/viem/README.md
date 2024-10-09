@@ -29,7 +29,7 @@ const blockNumber = await client.getBlockNumber()
 console.log('blocknumber', blockNumber)
 ```
 
-Harmony Testnet is not supported by viem/chains. To connect to Testnet, you can do the following:
+Harmony Testnet is not supported by viem/chains. To connect to Testnet, you can create the chain using defineMethod:
 
 ```typescript
 import { createPublicClient, http } from 'viem'
@@ -50,7 +50,7 @@ export const harmonyTestnet = defineChain({
     },
   },
   blockExplorers: {
-    default: { name: 'Harmony Testnet Explorer', url: 'https://explorer.pops.one' },
+    default: { name: 'Harmony Testnet Explorer', url: 'https://explorer.testnet.harmony.one/' },
   },
   testnet: true
 })
@@ -97,3 +97,11 @@ const [totalSupply, balance] = await Promise.all([
 console.log(`Total Supply: ${totalSupply}`)
 console.log(`Balance of contract address: ${balance}`)
 ```
+
+## Tutorials
+
+In the case that you are interested in a more detailed step-by-step guide, you can go to our specific tutorials on using viem on a Harmony: &#x20;
+
+{% content-ref url="mint-transaction.md" %}
+[mint-transaction.md](mint-transaction.md)
+{% endcontent-ref %}
