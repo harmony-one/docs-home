@@ -57,7 +57,7 @@ Have [`mcl`](https://github.com/harmony-one/mcl), [`bls`](https://github.com/har
 {% endhint %}
 
 ```bash
-cd /Users/edgar/Repos/harmony-work/src/github.com/harmony-one
+cd $(go env GOPATH)/src/github.com/harmony-one
 ls
 bls harmony mcl
 git clone https://github.com/harmony-one/go-sdk.git
