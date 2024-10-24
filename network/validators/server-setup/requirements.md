@@ -1,7 +1,9 @@
 # Requirements
 
-{% hint style="warning" %}
-It is NOT recommended now to run multiple nodes using the same set of BLS keys. As we are moving towards full decentralization, external validators will become the shard leader and start to propose blocks. If one validator runs multiple nodes using the same set of valid keys, they may all become valid leaders when the key is rotated to this validator, in this case, the blockchain is experiencing a high risk of hard-fork as different valid leaders may propose different blocks. So, do not run redundant validator nodes anymore on the Harmony blockchain. This is also strictly forbidden on all PoS blockchains such as Ethereum 2, Cosmos.
+## Setting up a standby node with the same BLS key is forbidden
+
+{% hint style="danger" %}
+It is forbidden now to run multiple nodes using the same set of BLS keys. As we are moving towards full decentralization, external validators will become the shard leader and start to propose blocks. If one validator runs multiple nodes using the same set of valid keys, they may all become valid leaders when the key is rotated to this validator, in this case, the blockchain is experiencing a high risk of hard-fork as different valid leaders may propose different blocks. So, do not run redundant validator nodes anymore on the Harmony blockchain. This is also strictly forbidden on all PoS blockchains such as Ethereum 2, Cosmos.
 {% endhint %}
 
 ## For Cloud

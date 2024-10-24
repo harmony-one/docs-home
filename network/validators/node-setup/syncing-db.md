@@ -1,4 +1,4 @@
-# 😀 3. Syncing DB
+# 3. Syncing DB
 
 ## Simple algorithm to distinguish between snapshot types
 
