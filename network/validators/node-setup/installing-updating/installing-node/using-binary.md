@@ -205,7 +205,7 @@ For example, to open the public HTTP RPCs, change the field `IP` under `[HTTP]` 
   RosettaPort = 9700
 ```
 
-To run harmony internal nodes under legacy mode instead of staking mode, change the field `NoStaking` under `[General]` tag to `true`:
+To run harmony internal nodes (or Foundational Node FN), under legacy mode instead of staking mode, change the field `NoStaking` under `[General]` tag to `true`:
 
 ```
 [General]
@@ -455,7 +455,7 @@ If you are using the config file, which is the recommended way to configure your
   ShardID = 0
 ```
 
-`NoStaking = true` will verify if the BLS keys in your .hmy/blskeys folder are part of the original FN keys. You will need add in the folder dummy empty files and remove all others
+`NoStaking = true` will verify if the BLS keys in your .hmy/blskeys folder are part of the original Foundational Node (FN) keys. For explorer, you will need to add in the folder dummy BLS/pass files and remove all others
 
 ```
 # remove all keys, save it before if necessary
@@ -471,15 +471,20 @@ IsBeaconArchival flag is applicable to explorer node only. For shard 1/2/3 the b
 DataDir (or --db\_dir below for cli flag) is the folder where the blockchain data will be store (ie location of harmony\_db\_0)
 {% endhint %}
 
+Change `harmony.conf` file and update the RPC Rate Limit to 50000:
+
+```bash
+[RPCOpt]
+  RequestsPerSecond = 50000
+```
+
+### 7. Start Systemd Service
+
 Alternatively, you can also run it using flag parsing:
 
 ```
 ./harmony --run=explorer --run.archive --run.shard=0 --db_dir=./
 ```
-
-{% hint style="warning" %}
-Make sure to follow the upgrading Explorer DB schema process [here](../upgrading-node/using-binary.md#non-validating-explorer-nodes) afterwards. This fixes a critical issue on Explorer DB.
-{% endhint %}
 
 ## 2. Setup Systemd
 
