@@ -1,8 +1,8 @@
-# The Graph 
+# The Graph
 
 Getting historical data on a smart contract can be frustrating when building a dapp. [The Graph](https://thegraph.com/) provides an easy way to query smart contract data through APIs known as subgraphs. The Graph’s infrastructure relies on a decentralized network of indexers, enabling your dapp to become truly decentralized.
 
-Harmony One is supported by The Graph. 
+Harmony One is supported by The Graph.
 
 ## Quick Start
 
@@ -20,17 +20,16 @@ Here’s a step by step walk through:
 
 Go to the [Subgraph Studio](https://thegraph.com/studio/) and connect your wallet. Once your wallet is connected, you can begin by clicking “Create a Subgraph”. When choosing a name, it is recommended to use Title Case: “Subgraph Name Chain Name.”
 
-![Create a Subgraph](https://raw.githubusercontent.com/alinobrasil/the_graph_getting_started/refs/heads/main/img/studio-create-subgraph.png)
-
+![Create a Subgraph](https://raw.githubusercontent.com/alinobrasil/the\_graph\_getting\_started/refs/heads/main/img/studio-create-subgraph.png)
 
 You will then land on your subgraph’s page. All the CLI commands you need will be visible on the right side of the page:
 
-![CLI commands](https://raw.githubusercontent.com/alinobrasil/the_graph_getting_started/refs/heads/main/img/studio-graphcli-commands.png)
-
+![CLI commands](https://raw.githubusercontent.com/alinobrasil/the\_graph\_getting\_started/refs/heads/main/img/studio-graphcli-commands.png)
 
 ### Install the Graph CLI⁠
 
 On your local machine run the following:
+
 ```
 npm install -g @graphprotocol/graph-cli
 ```
@@ -38,13 +37,14 @@ npm install -g @graphprotocol/graph-cli
 ### Initialize your Subgraph⁠
 
 You can copy this directly from your subgraph page to include your specific subgraph slug:
+
 ```
 graph init --studio <SUBGRAPH_SLUG>
 ```
+
 You’ll be prompted to provide some info on your subgraph like this:
 
-![cli sample](https://raw.githubusercontent.com/alinobrasil/the_graph_getting_started/refs/heads/main/img/cli-sample.png)
-
+![cli sample](https://raw.githubusercontent.com/alinobrasil/the\_graph\_getting\_started/refs/heads/main/img/cli-sample.png)
 
 Simply have your contract verified on the block explorer and the CLI will automatically obtain the ABI and set up your subgraph. The default settings will generate an entity for each event.
 
@@ -72,23 +72,21 @@ You will be asked for a version label. You can enter something like v0.0.1, but 
 
 You can test your subgraph by making a sample query in the playground section. The Details tab will show you an API endpoint. You can use that endpoint to test from your dapp.
 
-![Playground](https://raw.githubusercontent.com/alinobrasil/the_graph_getting_started/refs/heads/main/img/studio-playground.png)
-
+![Playground](https://raw.githubusercontent.com/alinobrasil/the\_graph\_getting\_started/refs/heads/main/img/studio-playground.png)
 
 ### Publish Your Subgraph to The Graph’s Decentralized Network
 
 Once your subgraph is ready to be put into production, you can publish it to the decentralized network. On your subgraph’s page in Subgraph Studio, click on the Publish button:
 
-![publish button](https://raw.githubusercontent.com/alinobrasil/the_graph_getting_started/refs/heads/main/img/studio-publish-button.webp)
-
+![publish button](https://raw.githubusercontent.com/alinobrasil/the\_graph\_getting\_started/refs/heads/main/img/studio-publish-button.webp)
 
 Before you can query your subgraph, Indexers need to begin serving queries on it. In order to streamline this process, you can curate your own subgraph using GRT.
 
 When publishing, you’ll see the option to curate your subgraph. As of May 2024, it is recommended that you curate your own subgraph with at least 3,000 GRT to ensure that it is indexed and available for querying as soon as possible.
 
-![Publish screen](https://raw.githubusercontent.com/alinobrasil/the_graph_getting_started/refs/heads/main/img/studio-publish-modal.png)
+![Publish screen](https://raw.githubusercontent.com/alinobrasil/the\_graph\_getting\_started/refs/heads/main/img/studio-publish-modal.png)
 
-> **Note:** The Graph's smart contracts are all on Arbitrum One, even though your subgraph is indexing data from Ethereum, BSC or any other [supported chain](https://thegraph.com/docs/en/developing/supported-networks/). 
+> **Note:** The Graph's smart contracts are all on Arbitrum One, even though your subgraph is indexing data from Ethereum, BSC or any other [supported chain](https://thegraph.com/docs/en/developing/supported-networks/).
 
 ## 3. Query your Subgraph
 
@@ -98,19 +96,17 @@ For any subgraph on the decentralized network, you can start querying it by pass
 
 Here’s an example from the [CryptoPunks Ethereum subgraph](https://thegraph.com/explorer/subgraphs/HdVdERFUe8h61vm2fDyycHgxjsde5PbB832NHgJfZNqK) by Messari:
 
-![Query URL](https://raw.githubusercontent.com/alinobrasil/the_graph_getting_started/refs/heads/main/img/explorer-query-url.png)
-
+![Query URL](https://raw.githubusercontent.com/alinobrasil/the\_graph\_getting\_started/refs/heads/main/img/explorer-query-url.png)
 
 The query URL for this subgraph is:
 
-`https://gateway-arbitrum.network.thegraph.com/api/`**[api-key]**`/subgraphs/id/HdVdERFUe8h61vm2fDyycgxjsde5PbB832NHgJfZNqK`
+`https://gateway-arbitrum.network.thegraph.com/api/`**\[api-key]**`/subgraphs/id/HdVdERFUe8h61vm2fDyycgxjsde5PbB832NHgJfZNqK`
 
-Now, you simply need to  fill in your own API Key to start sending GraphQL queries to this endpoint.
+Now, you simply need to  fill in your own API Key to start sending GraphQL queries to this endpoint.
 
 ### Getting your own API Key
 
-![API keys](https://raw.githubusercontent.com/alinobrasil/the_graph_getting_started/refs/heads/main/img/getting-api-key.png)
-
+![API keys](https://raw.githubusercontent.com/alinobrasil/the\_graph\_getting\_started/refs/heads/main/img/getting-api-key.png)
 
 In Subgraph Studio, you’ll see the “API Keys” menu at the top of the page. Here you can create API Keys.
 
@@ -147,10 +143,7 @@ Passing this into the query URL returns this result:
 //      ...
 ```
 
-<aside>
-💡 Trivia: Looking at the top sales on [CryptoPunks website](https://cryptopunks.app/cryptopunks/topsales) it looks like the top sale is Punk #5822, not #9998. Why? Because they censor the flash-loan sale that happened.
-
-</aside>
+💡 Trivia: Looking at the top sales on \[CryptoPunks website]\(https://cryptopunks.app/cryptopunks/topsales) it looks like the top sale is Punk #5822, not #9998. Why? Because they censor the flash-loan sale that happened.
 
 ### Sample code
 
@@ -189,5 +182,5 @@ axios(graphQLRequest)
 
 ### Additional resources:
 
-- To explore all the ways you can optimize & customize your subgraph for a better performance, read more about [creating a subgraph here](https://thegraph.com/docs/en/developing/creating-a-subgraph/).
-- For more information about querying data from your subgraph, read more [here](https://thegraph.com/docs/en/querying/querying-the-graph/).
+* To explore all the ways you can optimize & customize your subgraph for a better performance, read more about [creating a subgraph here](https://thegraph.com/docs/en/developing/creating-a-subgraph/).
+* For more information about querying data from your subgraph, read more [here](https://thegraph.com/docs/en/querying/querying-the-graph/).
