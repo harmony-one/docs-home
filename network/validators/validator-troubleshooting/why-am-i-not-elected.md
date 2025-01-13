@@ -8,7 +8,7 @@ description: Reasons why your validator is not elected & how to get elected.
 
 Harmony operates with Effective Proof of Stake (EPoS) to keep the network security from collecting in the hands of a few validators. You can find our full Medium article on EPoS [here](https://harmony.one/epos)!
 
-TL;DR Validators are elected based on their **effective** stake, instead of their absolute stake. The effective stake is calculated based on the median stake in the network. The top 900 BLS keys with the highest effective stake will be elected for the epoch.
+TL;DR Validators are elected based on their **effective** stake, instead of their absolute stake. The effective stake is calculated based on the median stake in the network. The top 396 BLS keys with the highest effective stake will be elected for the epoch.
 
 ## 1. Verify Bidding
 
