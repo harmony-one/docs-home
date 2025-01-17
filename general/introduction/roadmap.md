@@ -1,16 +1,14 @@
 # Roadmap
 
-In 2021 Harmony strives to be a top blockchain for cross-chain finance. Our main themes are:
+Harmony’s 2025 roadmap focuses on achieving 1-second finality, unifying decentralized finance, and creating an open AI ecosystem.
 
-1. **Adoption** — We are bringing utility to users through developers and partners. Hackathons with Gitcoin and workshops at Ethereum events will boost our reach.
-2. **Interoperability** — We are bridging with Bitcoin and Ethereum for broader assets. Our cross-shard and cross-chain transactions will enable new finance applications.
-3. **Decentralization** — We are growing our validator community and network features. External voting power and resharding will guarantee our long-term governance.
+We are continuously upgrading our protocol for seamless performance with enhancements such as Verkle Trees, State Expiry, and improved network resilience through Stream Sync and Leader Rotation. These innovations power platforms like **pump.one** for memecoin creation and **exchange.one** for stablecoins and perpetual trading. Meanwhile, the **.country** top-level domains enable AI agents to own self-custodial wallets and domains.
 
-Here is our 2021 milestone progress. Learn more about our 2020 [ecosystem growth](https://medium.com/harmony-one/harmony-2020-year-in-review-ecosystem-growth-f414a86dbda9) journey.
+We aim to simplify DeFi, expand liquidity, and attract new users. Innovations such as **yield enhancer** and perpetual options markets, combined with AI-driven frameworks like **Eliza OS**—empowering autonomous agents for trading, governance, and decision-making—are designed to make DeFi intuitive and accessible to everyone. By leveraging AI to create _cult-like memes_ and autonomous agents that amplify engagement through viral narratives and real-time market insights, we aim to redefine community-driven finance with creativity and precision.
 
-![](../../.gitbook/assets/roadmap-1.jpg)
+These advancements aim to onboard millions of DeFi assets, billions of community memes, and trillions of intelligent models. Together, these efforts reflect our vision for 2025: building a blockchain that is fast, simple, and accessible to everyone.
 
 Read more:
 
-{% embed url="https://medium.com/harmony-one/harmonys-2021-on-cross-chain-finance-91b11f6e3880" %}
+{% embed url="https://blog.harmony.one/p/harmony-2025-ai-agents-defi-on-exchangeone" %}
 
