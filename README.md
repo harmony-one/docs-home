@@ -23,4 +23,4 @@ Visit [open.harmony.one](https://open.harmony.one) for our _Open Development_:
 * **🔥** [Grants](https://harmony.one/grants) – $300M+ on Bounties, Grants & DAOs
 * **💎** [NFT](https://harmony.one/nft) – $13M Grants & Bounties on NFT
 * **💰** [Wallets](https://harmony.one/wallets) – $20M Grants & Bounties on Wallets
-* **💪** [Roadmap](https://harmony.one/roadmap) – Strategy & Launch Dates on Adoption
+* **💪** [Roadmap](https://blog.harmony.one/p/harmony-2025-ai-agents-defi-on-exchangeone) – AI Agents, DeFi on Exchange.one, 1-Second Finality
