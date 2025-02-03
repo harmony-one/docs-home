@@ -2,7 +2,7 @@
 
 **Crypto Startup School**
 
-Learn how to build a crypto company**.** The course videos from a16z’s Crypto Startup School, held in the spring of 2020, are now available to all. Use the hours of free videos and the reading materials, below, to navigate the idea maze and start building crypto projects. [https://harmony.one/school](https://harmony.one/school).
+Learn how to build a crypto compan&#x79;**.** The course videos from a16z’s Crypto Startup School, held in the spring of 2020, are now available to all. Use the hours of free videos and the reading materials, below, to navigate the idea maze and start building crypto projects. [https://harmony.one/school](https://harmony.one/school).
 
 **Crypto Thesis for 2021**
 

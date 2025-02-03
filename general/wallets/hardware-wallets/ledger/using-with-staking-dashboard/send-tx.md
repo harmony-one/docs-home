@@ -4,7 +4,7 @@
 Note: staking dashboard only process transactions on shard 0.
 {% endhint %}
 
-To send ONE tokens to an address, click the **"**Transfer funds" button and the send window will pop-up.
+To send ONE tokens to an address, click the **"**&#x54;ransfer funds" button and the send window will pop-up.
 
 ![](<../../../../../.gitbook/assets/image (76).png>)
 

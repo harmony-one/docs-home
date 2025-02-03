@@ -8,7 +8,7 @@ Before we proceed, we need to create a new Validator Wallet which will need to b
 
 You need to provide a local account name of your choice and provide a passphrase. When creating an account, the CLI will ask you to provide a passphrase to encrypt the keystore file:\
 \
-**./hmy keys add \[LOCAL ACCOUNT NAME] --passphrase** example :&#x20;
+&#xNAN;**./hmy keys add \[LOCAL ACCOUNT NAME] --passphrase** example :&#x20;
 
 ```
 ./hmy keys add mylocalaccountname --passphrase

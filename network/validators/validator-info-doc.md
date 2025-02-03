@@ -36,7 +36,7 @@ $$
 
 Where s is the number of blocks signed by the validator and b is the number of blocks in the epoch so far.
 
-If a validator has never been elected, their uptime will display as _**None**_ in the tracking spreadsheet_**.**_ In the staking dashboard, their uptime will be 0.00%.
+If a validator has never been elected, their uptime will display as _**None**_ in the tracking spreadshee&#x74;_**.**_ In the staking dashboard, their uptime will be 0.00%.
 
 ![Example of a validate that has never been elected](<../../.gitbook/assets/Screen Shot 2020-07-25 at 11.18.51 PM.png>)
 
