@@ -42,6 +42,13 @@ Make sure all your BLS keys belong to the same shard when using multiple BLS key
 ./hmy --node="https://api.s0.t.hmny.io" utility shard-for-bls [BLS PUBLIC KEY]
 ```
 
+{% hint style="danger" %}
+Please double check the last digit for your bls key until v2025.0.1 release with [fix(PR-4566)](https://github.com/harmony-one/harmony/pull/4566) will be created:
+
+* shard 0 make sure the last character ends with 0, 4, 8, c
+* shard 1 make sure the last character ends with 1, 5, 9, d
+{% endhint %}
+
 **3.** For each BLS key file, a corresponding `<blskey>.pass` file needs to be created inside folder`.hmy/blskeys`with the passphrase inside it.
 
 following this format :
