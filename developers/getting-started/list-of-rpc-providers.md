@@ -10,25 +10,24 @@ Before we get to the SDK and API topics, check out this list of RPC providers wh
 For example, [QuickNode](list-of-rpc-providers.md#QuickNode) offers 10 million API credits for free per month.
 {% endhint %}
 
-## QuickNode
+## 1RPC (Automata Network)
 
 ### Announcement
 
-{% embed url="https://twitter.com/QuickNode/status/1559227288369102849" %}
+{% embed url="https://twitter.com/AutomataNetwork/status/1655466216037941248" %}
 
-{% embed url="https://www.quicknode.com/chains/one" %}
+{% embed url="https://medium.com/atanetwork/1rpc-now-supports-harmony-37f503a80faa" %}
 
 ### Features
 
-* Full Archive Support.
-* Automatic geo-routing for fastest response times.
-* Support for [QuickNode Marketplace add-ons](https://marketplace.quicknode.com/?type%5B%5D=rpc_methods&type%5B%5D=external&chains%5B%5D=ONE).
-* Free plans.
-* Dedicated support on paid plans.
+* Harmony 1RPC Endpoint: [https://1rpc.io/one](https://1rpc.io/one)
+* Free RPC relay to eradicate metadata exposure and leakage with a one-click experience for users within Web3
+* A proxy layer that shields user data before it reaches existing RPC endpoints
 
 ### Instructions
 
-* QuickNode Harmony [RPC docs](https://www.quicknode.com/docs/harmony)
+* 1RPC [docs](https://docs.ata.network/backed-by-pom/1rpc)
+* 1RPC support available on the [Automata Network Discord](https://discord.gg/hXWn3NRS4Y)
 
 ## Ankr
 
@@ -76,22 +75,6 @@ For example, [QuickNode](list-of-rpc-providers.md#QuickNode) offers 10 million A
 
 {% embed url="https://talk.harmony.one/t/testnet-and-devnet-hosting-automation-and-operations-by-chainstack/14380" %}
 
-## Pocket Networks
-
-### Announcement
-
-{% embed url="https://twitter.com/POKTnetwork/status/1448680013939761156?s=20&t=P2dZxs9kQCi16hrG73xlvA" %}
-
-{% embed url="https://www.blog.pokt.network/pocket-network-decentralizes-harmonys-rpc-traffic" %}
-
-### Instructions
-
-{% embed url="https://docs.pokt.network/home/resources/public-rpc-endpoints/harmony-metamask" %}
-
-### Discussions
-
-{% embed url="https://talk.harmony.one/t/investments-decentralize-rpc-service-via-pocket-network-node-runners/2167" %}
-
 ## GetBlock
 
 ### Endpoint
@@ -104,24 +87,19 @@ For example, [QuickNode](list-of-rpc-providers.md#QuickNode) offers 10 million A
 
 {% embed url="https://getblock.medium.com/connecting-dapp-to-harmony-rpc-node-with-getblock-be1065df31" %}
 
-## 1RPC (Automata Network)
+## [Grove](https://grove.city) 🌿
 
-### Announcement
+### Public Endpoint
+`https://harmony.rpc.grove.city/v1/01fdb492`
 
-{% embed url="https://twitter.com/AutomataNetwork/status/1655466216037941248" %}
+### Private Endpoint
+```
+# Get a free endpoint at https://portal.grove.city
+https://harmony.rpc.grove.city/v1/01fdb492
+```
 
-{% embed url="https://medium.com/atanetwork/1rpc-now-supports-harmony-37f503a80faa" %}
-
-### Features
-
-* Harmony 1RPC Endpoint: [https://1rpc.io/one](https://1rpc.io/one)
-* Free RPC relay to eradicate metadata exposure and leakage with a one-click experience for users within Web3
-* A proxy layer that shields user data before it reaches existing RPC endpoints
-
-### Instructions
-
-* 1RPC [docs](https://docs.ata.network/backed-by-pom/1rpc)
-* 1RPC support available on the [Automata Network Discord](https://discord.gg/hXWn3NRS4Y)
+### Docs and Features
+[Grove Docs](https://docs.grove.city/)
 
 ## NOWNodes
 
@@ -141,3 +119,39 @@ Harmony RPC Endpoint: [https://nownodes.io/nodes/harmony-one](https://nownodes.i
 
 * Free plan is available.
 * Dedicated plan with no rate limits is available by request.
+
+## Pocket Network
+
+### Announcement
+
+{% embed url="https://twitter.com/POKTnetwork/status/1448680013939761156?s=20&t=P2dZxs9kQCi16hrG73xlvA" %}
+
+{% embed url="https://www.blog.pokt.network/pocket-network-decentralizes-harmonys-rpc-traffic" %}
+
+### Instructions
+
+{% embed url="https://docs.pokt.network/home/resources/public-rpc-endpoints/harmony-metamask" %}
+
+### Discussions
+
+{% embed url="https://talk.harmony.one/t/investments-decentralize-rpc-service-via-pocket-network-node-runners/2167" %}
+
+## QuickNode
+
+### Announcement
+
+{% embed url="https://twitter.com/QuickNode/status/1559227288369102849" %}
+
+{% embed url="https://www.quicknode.com/chains/one" %}
+
+### Features
+
+* Full Archive Support.
+* Automatic geo-routing for fastest response times.
+* Support for [QuickNode Marketplace add-ons](https://marketplace.quicknode.com/?type%5B%5D=rpc_methods&type%5B%5D=external&chains%5B%5D=ONE).
+* Free plans.
+* Dedicated support on paid plans.
+
+### Instructions
+
+* QuickNode Harmony [RPC docs](https://www.quicknode.com/docs/harmony)
