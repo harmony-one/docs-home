@@ -57,7 +57,7 @@ EOF
 {% hint style="danger" %}
 The most important parts in bold:
 
-Sync the source to the destination, **changing the destination only**. Doesn't transfer files that are identical on source and destination, testing by size and modification time or MD5SUM. **Destination is updated to match source, including deleting files if necessary** (except duplicate objects). [Link to the full rclone documentation](https://rclone.org/commands/rclone\_sync/).
+Sync the source to the destination, **changing the destination only**. Doesn't transfer files that are identical on source and destination, testing by size and modification time or MD5SUM. **Destination is updated to match source, including deleting files if necessary** (except duplicate objects). [Link to the full rclone documentation](https://rclone.org/commands/rclone_sync/).
 
 `sync` command was chosen because you need to have your blockchain data folder to be identical with the snapshot data
 {% endhint %}
@@ -100,7 +100,8 @@ Below is the command to sync the Snap DB for the shard 0. It is around 100 Gb as
 
 <pre class="language-bash"><code class="lang-bash">YOUR_DATA_DIR='./' # This is the default installation, change it you use something else
 <strong>rclone -P -L --webdav-url 'http://snapdb.s0.t.hmny.io/webdav'  --checksum sync \
-</strong>  snap: "${YOUR_DATA_DIR}harmony_db_0" --multi-thread-streams 4 --transfers=32 --verbose
+</strong>  snap: "${YOUR_DATA_DIR}harmony_db_0" --multi-thread-streams 4 \
+  --transfers=32 --fast-list --verbose
 </code></pre>
 
 Small explanation for flags used to save your time with rclone manual: &#x20;
@@ -117,6 +118,7 @@ Small explanation for flags used to save your time with rclone manual: &#x20;
 # --multi-thread-streams 4 - When using multi thread downloads this 
 #  sets the maximum number of streams to use
 # --transfers=32 - The number of file transfers to run in parallel.
+# --fast-list - load all file paths into memory at once instead of walking each directory one-by-one
 #   It can sometimes be useful to set this to a smaller number if the remote is giving a lot of timeouts or bigger if you have lots of bandwidth and a fast remote.
 # --verbose - With -v rclone will tell you about each file that is transferred and a small number of significant events.
 # sync - make the origin and destination the same, after 1st run add the deltas
@@ -138,7 +140,8 @@ Each node will simply need to rclone its own DB.
 
 <pre class="language-bash"><code class="lang-bash">YOUR_DATA_DIR='./' # This is the default installation, change it you use something else
 <strong>rclone -P -L --webdav-url 'http://fulldb.s0.t.hmny.io/webdav' \
-</strong>   --checksum sync snap: "${YOUR_DATA_DIR}harmony_db_0" --multi-thread-streams 4 --transfers=32 --verbose 
+</strong>   --checksum sync snap: "${YOUR_DATA_DIR}harmony_db_0" --multi-thread-streams 4 \
+   --transfers=32 --fast-list --verbose
 </code></pre>
 
 ### 4.2 Shard 1 validator
@@ -150,7 +153,8 @@ Each node will simply need to rclone its own DB.
 ```bash
 YOUR_DATA_DIR='./' # This is the default installation, change it you use something else
 rclone -P -L --webdav-url 'http://fulldb.s1.t.hmny.io/webdav' \
-   --checksum sync snap: "${YOUR_DATA_DIR}harmony_db_1" --multi-thread-streams 4 --transfers=32 --verbose 
+   --checksum sync snap: "${YOUR_DATA_DIR}harmony_db_1" --multi-thread-streams 4 \
+   --transfers=32 --fast-list --verbose 
 ```
 
 ### Archival snapshot for the Non-Validating/Explorer Nodes <a href="#archival-snapshot-for-the-non-validating-explorer-nodes" id="archival-snapshot-for-the-non-validating-explorer-nodes"></a>
@@ -176,7 +180,8 @@ If you want to quickly test your validator/RPC setup via the testnet network, pl
 ```bash
 YOUR_DATA_DIR='./' # This is the default installation, change it you use something else
 rclone -P -L --webdav-url 'http://fulldb.s0.b.hmny.io/webdav' \
-   --checksum sync snap: "${YOUR_DATA_DIR}harmony_db_0" --multi-thread-streams 4 --transfers=32 --verbose 
+   --checksum sync snap: "${YOUR_DATA_DIR}harmony_db_0" --multi-thread-streams 4 \
+   --transfers=32 --fast-list --verbose 
 ```
 
 ### 5.2 Testnet shard 1
@@ -188,5 +193,6 @@ rclone -P -L --webdav-url 'http://fulldb.s0.b.hmny.io/webdav' \
 ```bash
 YOUR_DATA_DIR='./' # This is the default installation, change it you use something else
 rclone -P -L --webdav-url 'http://fulldb.s1.b.hmny.io/webdav' \
-   --checksum sync snap: "${YOUR_DATA_DIR}harmony_db_1" --multi-thread-streams 4 --transfers=32 --verbose 
+   --checksum sync snap: "${YOUR_DATA_DIR}harmony_db_1" --multi-thread-streams 4 \
+   --transfers=32 --fast-list --verbose 
 ```
