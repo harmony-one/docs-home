@@ -308,6 +308,7 @@
         * [Using AutoNode (deprecated)](network/validators/node-setup/installing-updating/upgrading-node/using-autonode.md)
         * [Using Node.sh (deprecated)](network/validators/node-setup/installing-updating/upgrading-node/using-node.sh.md)
       * [Checking A Node](network/validators/node-setup/installing-updating/checking-node-status.md)
+    * [5. \[Advanced\] - how to create snapDB on your server](network/validators/node-setup/5.-advanced-how-to-create-snapdb-on-your-server.md)
   * [Creating A Validator](network/validators/creating-a-validator.md)
   * [Managing A Validator](network/validators/managing-a-validator/README.md)
     * [Checking Validator Information](network/validators/managing-a-validator/checking-validator-information.md)
