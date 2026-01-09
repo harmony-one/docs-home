@@ -22,7 +22,7 @@ For example, [QuickNode](list-of-rpc-providers.md#QuickNode) offers 10 million A
 
 * Full Archive Support.
 * Automatic geo-routing for fastest response times.
-* Support for [QuickNode Marketplace add-ons](https://marketplace.quicknode.com/?type%5B%5D=rpc_methods&type%5B%5D=external&chains%5B%5D=ONE).
+* Support for [QuickNode Marketplace add-ons](https://marketplace.quicknode.com/?type%5B%5D=rpc_methods\&type%5B%5D=external\&chains%5B%5D=ONE).
 * Free plans.
 * Dedicated support on paid plans.
 
@@ -128,16 +128,42 @@ For example, [QuickNode](list-of-rpc-providers.md#QuickNode) offers 10 million A
 ### Announcement
 
 * [Announcement](https://nownodes.io/blog/nownodes-is-happy-to-introduce-a-new-node-harmony-one/)
-
 * [Twitter](https://twitter.com/NOWNodes/status/1679460674471092224?s=20)
-  
+
 ### Endpoint
 
-Harmony RPC Endpoint: [https://nownodes.io/nodes/harmony-one](https://nownodes.io/nodes/harmony-one)
-  
+Harmony RPC Endpoint:&#x20;
+
+{% embed url="https://nownodes.io/nodes/harmony-one" %}
+
 'https://one.nownodes.io/yourAPI-key'
 
 ### Features
 
 * Free plan is available.
 * Dedicated plan with no rate limits is available by request.
+
+## dRPC NodeCloud
+
+### Endpoints:
+
+* Mainnet shard 0:
+
+{% embed url="https://drpc.org/chainlist/harmony-mainnet-shard-0-rpc" %}
+
+* Mainnet shard 1:
+
+{% embed url="https://drpc.org/chainlist/harmony-mainnet-shard-1-rpc" %}
+
+### Features
+
+* 40+ providers across 8 geoclusters
+* free and paid endpoints
+* AI-powered load balancer
+* advance key and role features
+* front-end protection
+* health observability dashboard
+* websocket support
+* PAYG with flat CU pricing
+
+<br>
