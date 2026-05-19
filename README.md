@@ -14,7 +14,7 @@ This Gitbook document has introduction and resources for all audience:
 
 * **🎶** [General](https://docs.harmony.one/home/general/introduction) – technical features, application showcases, ecosystem partners, community channels.
 * **🏗️** [Developers](https://docs.harmony.one/home/developers/getting-started) – web3 toolkits, deploy tutorials, open bounties, hackathon prizes.
-* **🌏** [Network](broken-reference) – token wallets, delegator economics, validator setup, governance dao.
+* **🌏** [Network](/broken/pages/-MOHGaoM7fSLNiIgXj7C) – token wallets, delegator economics, validator setup, governance dao.
 
 ## Bridge to All Chains
 

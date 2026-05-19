@@ -32,8 +32,7 @@ You will need identify the contract address of the asset your just bridged looki
 
 ## What kind of assets can be bridged using LayerZero?
 
-**Oracle 1LINK**\
-
+**Oracle 1LINK**<br>
 
 **Natives**
 
@@ -127,8 +126,7 @@ If your operation is in progress for **more than an hour**, you can fill in the 
 
 ## Operation status is success, but I can’t find my tokens
 
-Bridge does not swap tokens, it only provides wrapped tokens. For the token that you bridged, you have received wrapped token to your account. To find out which one, you can refer to [this page](../../../layerzero-bridge/faq/token-address.md).\
-
+Bridge does not swap tokens, it only provides wrapped tokens. For the token that you bridged, you have received wrapped token to your account. To find out which one, you can refer to [this page](../../../layerzero-bridge/faq/token-address.md).<br>
 
 * Note that:
 * Bridge is not a swap, and you won't receive ONE if you weren't bridging ONE token.
@@ -136,8 +134,7 @@ Bridge does not swap tokens, it only provides wrapped tokens. For the token that
 
 \
 If you don't see that token in your account, and add it to your wallet to see the correct balance as shown [here.](https://docs.harmony.one/home/general/wallets/browser-extensions-wallets/metamask-wallet/adding-custom-harmony-tokens)\
-If you have problems with finding or adding a token, please ask for help in community groups.\
-
+If you have problems with finding or adding a token, please ask for help in community groups.<br>
 
 * If you added a token and tokens aren’t shown, check that:
 * You added a token to the receiver wallet of your operation.

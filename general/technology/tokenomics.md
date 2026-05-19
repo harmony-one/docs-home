@@ -14,8 +14,7 @@ The second smallest unit of ONE is called Nano, which is 0.000000001 ONE (equiva
 
 ## **Utility of ONE**
 
-ONE token has several important utilities that’s required for using the network and is essential to the security of the network.\
-
+ONE token has several important utilities that’s required for using the network and is essential to the security of the network.<br>
 
 #### Pay for transaction fee
 
@@ -28,4 +27,4 @@ Harmony is a Proof-of-Stake blockchain which means the security of the network i
 #### Participate in open governance
 
 Harmony is a permission-less and decentralized network which is governed by the community. Any protocol level decisions or improvements will be put as a proposal which will go through the open governance process to finalize. ONE is the only accepted token used as the measure for voting in the governance process.\
-\
+<br>

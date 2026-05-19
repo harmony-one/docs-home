@@ -22,8 +22,8 @@ You can interact with your validator directly via HMY CLI. Check the links below
 [seeing-stakers.md](seeing-stakers.md)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="/broken/pages/-MAFtTDJDeuZJrGNQnaE" %}
+[Broken link](/broken/pages/-MAFtTDJDeuZJrGNQnaE)
 {% endcontent-ref %}
 
 {% content-ref url="adding-a-validator-logo.md" %}

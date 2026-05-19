@@ -2,6 +2,10 @@
 
 ## Validator Nodes
 
+## 0. Setup the chrony daemon
+
+Please check the [0.-recommended-chrony-setup-for-validator-nodes.md](../../0.-recommended-chrony-setup-for-validator-nodes.md "mention")
+
 ### 1. Backup Files
 
 Create a folder called "`backup`" in case it does not exist:

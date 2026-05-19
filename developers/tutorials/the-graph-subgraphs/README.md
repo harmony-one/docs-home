@@ -6,7 +6,7 @@ description: This section will guide you through the deployment of subgraphs
 
 Harmony is [officially supported](https://thegraph.com/docs/) on The Graph
 
-![](https://lh6.googleusercontent.com/F7QJmLK7CzRVxYbW9Z9kd6-TCSCQBoJB8WDO96JeuocWD7MiCE24LtfF7Do-twdVHusOAUehwZVoWIc2qDpax-JD8pyg3iqRcF5C2FtYLVCoBqth1xt7\_HrxxTNdBQZKabzjWTA64Ujr31lCuA)
+![](https://lh6.googleusercontent.com/F7QJmLK7CzRVxYbW9Z9kd6-TCSCQBoJB8WDO96JeuocWD7MiCE24LtfF7Do-twdVHusOAUehwZVoWIc2qDpax-JD8pyg3iqRcF5C2FtYLVCoBqth1xt7_HrxxTNdBQZKabzjWTA64Ujr31lCuA)
 
 
 
@@ -18,8 +18,8 @@ Note: The below documentation is now deprecated
 
 Option 1. Using Harmony's public graph node.
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="/broken/pages/-MeelsM2p2yRzpek3Whp" %}
+[Broken link](/broken/pages/-MeelsM2p2yRzpek3Whp)
 {% endcontent-ref %}
 
 Option 2. Using a local indexer node.

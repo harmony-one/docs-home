@@ -34,7 +34,7 @@ The following links can also help you better understand Harmony's staking mechan
 [others.md](others.md)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="/broken/pages/-M3rPiijAmBaikny91rU" %}
+[Broken link](/broken/pages/-M3rPiijAmBaikny91rU)
 {% endcontent-ref %}
 

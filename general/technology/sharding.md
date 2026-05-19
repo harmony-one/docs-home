@@ -26,4 +26,4 @@ Crosslink is an important piece of data which is sent from shard chains and stor
 
 ![](<../../.gitbook/assets/image (230).png>)
 
-Besides serving the purpose of marking canonical blocks of the shard chains, crosslinks are also used to record and tally the signing activity of the shard chain validators. Since epoch transition and EPoS election happens only on beacon chain, the validator signing activity from shard chains are sent to the beacon chain via the crosslink so it can be used for block reward calculation and uptime calculation which affect the validator’s election status.\
+Besides serving the purpose of marking canonical blocks of the shard chains, crosslinks are also used to record and tally the signing activity of the shard chain validators. Since epoch transition and EPoS election happens only on beacon chain, the validator signing activity from shard chains are sent to the beacon chain via the crosslink so it can be used for block reward calculation and uptime calculation which affect the validator’s election status.<br>

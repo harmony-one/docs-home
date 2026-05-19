@@ -287,6 +287,7 @@
       * [Google Cloud](network/validators/server-setup/cloud-guides/google-cloud.md)
     * [Raspberry Pi Guide](network/validators/server-setup/raspberry-pi-guide.md)
   * [Node Setup](network/validators/node-setup/README.md)
+    * [0. Recommended Chrony Setup for Validator Nodes](network/validators/node-setup/0.-recommended-chrony-setup-for-validator-nodes.md)
     * [1. HMY CLI Download](network/validators/node-setup/hmy-cli-download.md)
     * [2. Setting up BLS Keys](network/validators/node-setup/generating-a-bls-key.md)
     * [3. Syncing DB](network/validators/node-setup/syncing-db.md)

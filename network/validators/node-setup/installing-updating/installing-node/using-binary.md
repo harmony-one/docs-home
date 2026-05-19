@@ -11,6 +11,10 @@ As per instructions on the [cloud guides](../../../server-setup/cloud-guides/), 
 
 The 9500, 9800 ports are only listened by localhost 127.0.0.1 by default.
 
+## 0. Setup the chrony daemon
+
+Please check the [0.-recommended-chrony-setup-for-validator-nodes.md](../../0.-recommended-chrony-setup-for-validator-nodes.md "mention")
+
 ## 1. Download Node Binary
 
 Before we proceed to next steps we need to download the node binary first:
