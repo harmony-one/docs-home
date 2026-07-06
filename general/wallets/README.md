@@ -1,7 +1,7 @@
 # Wallets
 
-{% content-ref url="../ecosystem/wallets/1wallet.md" %}
-[1wallet.md](../ecosystem/wallets/1wallet.md)
+{% content-ref url="/broken/pages/-Md-EY1gjnjPy5bzD3kh" %}
+[Broken link](/broken/pages/-Md-EY1gjnjPy5bzD3kh)
 {% endcontent-ref %}
 
 {% content-ref url="hardware-wallets/" %}

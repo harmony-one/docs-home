@@ -12,8 +12,8 @@ description: Harmony currently supports JavaScript SDK, Golang CLI, Java SDK and
 [web3](web3/)
 {% endcontent-ref %}
 
-{% content-ref url="viem/" %}
-[viem](viem/)
+{% content-ref url="https://github.com/harmony-one/docs-home/blob/master/developers/sdk/viem/README.md" %}
+[https://github.com/harmony-one/docs-home/blob/master/developers/sdk/viem/README.md](https://github.com/harmony-one/docs-home/blob/master/developers/sdk/viem/README.md)
 {% endcontent-ref %}
 
 {% content-ref url="go-cli.md" %}
