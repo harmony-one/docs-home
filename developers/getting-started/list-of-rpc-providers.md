@@ -166,4 +166,14 @@ Harmony RPC Endpoint:&#x20;
 * websocket support
 * PAYG with flat CU pricing
 
+## Community Benchmarks
+
+### OpenChainBench
+
+[OpenChainBench live latency benchmark](https://openchainbench.com/benchmarks/harmony-rpc) — independent p50/p90/p99 latency measurements for free Harmony ONE RPC endpoints, updated every 60 s.
+
+* Tracks all major public endpoints (Harmony S0, Ankr, dRPC, and others)
+* No sign-up required, fully open source
+* Useful for picking the fastest endpoint for your region before committing to a provider
+
 <br>
