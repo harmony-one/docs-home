@@ -92,36 +92,51 @@ pwd # now you have full path to your data dir
 SnapDB is a type of DB that contain a snapshot of the state at a given block. It doesn't have any **block history** and **hence not suitable for RPC node.**
 {% endhint %}
 
-Below is the command to sync the Snap DB for the shard 0. It is around 100 Gb as of October 2023:
+Below is the command to sync the Snap DB for the shard 0. It is around 130+ Gb as of Aug 2026:
 
 {% hint style="danger" %}
 **Important**: Since this can cause data loss, test first with the `--dry-run` or the `--interactive`/`-i` flag.
 {% endhint %}
 
-<pre class="language-bash"><code class="lang-bash">YOUR_DATA_DIR='./' # This is the default installation, change it you use something else
-<strong>rclone -P -L --webdav-url 'http://snapdb.s0.t.hmny.io/webdav'  --checksum sync \
-</strong>  snap: "${YOUR_DATA_DIR}harmony_db_0" --multi-thread-streams 4 \
-  --transfers=32 --fast-list --verbose
-</code></pre>
+```bash
+YOUR_DATA_DIR='./' # This is the default installation, change it if you use something else
+
+nohup rclone -P -L \
+  --webdav-url 'http://snapdb.s0.t.hmny.io/webdav' \
+  --checksum sync \
+  snap: "${YOUR_DATA_DIR}harmony_db_0" \
+  --multi-thread-streams 8 \
+  --transfers=256 \
+  --checkers=256 \
+  --fast-list \
+  --verbose \
+  >> ~/rclone.log 2>&1 &
+  
+# u can use the following commands to monitor progress
+taif -f ~/rclone.log # last log entries
+pgrep -af rclone # rclone is still running
+```
 
 Small explanation for flags used to save your time with rclone manual: &#x20;
 
 ```bash
-# --webdav-url - source of the data and URL of http host to connect to
-# YOUR_DATA_DIR/harmony_db_0 - your destination
-# -P - flag to show the progress
-# -L - Follow symlinks and copy the pointed to item
-# --checksum - Normally rclone will look at modification time and size of 
-#  files to see if they are equal.  If you set this flag then rclone will 
-#  check the file hash and size to determine if files are equal
-# snap: - the way how do you tell which config is used 
-# --multi-thread-streams 4 - When using multi thread downloads this 
-#  sets the maximum number of streams to use
-# --transfers=32 - The number of file transfers to run in parallel.
-# --fast-list - load all file paths into memory at once instead of walking each directory one-by-one
-#   It can sometimes be useful to set this to a smaller number if the remote is giving a lot of timeouts or bigger if you have lots of bandwidth and a fast remote.
-# --verbose - With -v rclone will tell you about each file that is transferred and a small number of significant events.
-# sync - make the origin and destination the same, after 1st run add the deltas
+nohup - keep rclone running after you disconnect from SSH
+--webdav-url - WebDAV source address
+YOUR_DATA_DIR/harmony_db_0 - local destination path
+-P - show live progress, transfer speed and ETA
+-L - follow symlinks
+--checksum - compare files by checksum and size instead of modification time
+snap: - rclone remote name from rclone.conf
+--multi-thread-streams=8 - use up to 8 streams for a single large file
+--transfers=256 - transfer up to 256 files in parallel
+--checkers=256 - compare up to 256 files in parallel
+--fast-list - speed up listing for very large directories by keeping more of the remote file tree in memory
+--verbose - show detailed transfer information
+sync - make the destination match the source exactly; matching files are skipped, missing or changed files are transferred, and destination-only files are deleted
+>> ~/rclone.log - append command output to a log file in the current user home directory
+2>&1 - redirect stderr to the same log file as stdout
+& - run the command in the background
+Important: sync can delete files from the destination if they do not exist on the source
 ```
 
 ### 4. Full db sync for appropriate shard &#x20;
@@ -130,41 +145,94 @@ Small explanation for flags used to save your time with rclone manual: &#x20;
 Since v4.3.12 shard 1 doesn't need to download anymore shard 0 DB. Instead, the node will download automatically the blocks required for the node in shard 1 to work.
 {% endhint %}
 
-Each node will simply need to rclone its own DB.
-
-### 4.1 Shard0 RPC Explorer node (non archival)
-
-{% hint style="danger" %}
-**Important**: Since this can cause data loss, test first with the `--dry-run` or the `--interactive`/`-i` flag.
-{% endhint %}
-
-<pre class="language-bash"><code class="lang-bash">YOUR_DATA_DIR='./' # This is the default installation, change it you use something else
-<strong>rclone -P -L --webdav-url 'http://fulldb.s0.t.hmny.io/webdav' \
-</strong>   --checksum sync snap: "${YOUR_DATA_DIR}harmony_db_0" --multi-thread-streams 4 \
-   --transfers=32 --fast-list --verbose
-</code></pre>
-
-### 4.2 Shard 1 validator
+### 4.1 Fast download for Shard0 RPC Explorer node (non archival), use if you have fast(>1Gb/s) network interface
 
 {% hint style="danger" %}
 **Important**: Since this can cause data loss, test first with the `--dry-run` or the `--interactive`/`-i` flag.
 {% endhint %}
 
 ```bash
-YOUR_DATA_DIR='./' # This is the default installation, change it you use something else
-rclone -P -L --webdav-url 'http://fulldb.s1.t.hmny.io/webdav' \
-   --checksum sync snap: "${YOUR_DATA_DIR}harmony_db_1" --multi-thread-streams 4 \
-   --transfers=32 --fast-list --verbose 
+YOUR_DATA_DIR='./' # This is the default installation, change it if you use something else
+
+nohup rclone -P -L \
+  --webdav-url 'http://fulldb-fast.s0.t.hmny.io/webdav' \
+  --checksum sync \
+  snap: "${YOUR_DATA_DIR}harmony_db_0" \
+  --multi-thread-streams 8 \
+  --transfers=256 \
+  --checkers=256 \
+  --fast-list \
+  --verbose \
+  >> ~/rclone.log 2>&1 &
+
+# u can use the following commands to monitor progress
+taif -f ~/rclone.log # last log entries
+pgrep -af rclone # rclone is still running
+```
+
+### 4.2 Shard0 RPC Explorer node (non archival)
+
+{% hint style="danger" %}
+**Important**: Since this can cause data loss, test first with the `--dry-run` or the `--interactive`/`-i` flag.
+{% endhint %}
+
+```bash
+YOUR_DATA_DIR='./' # This is the default installation, change it if you use something else
+
+nohup rclone -P -L \
+  --webdav-url 'http://fulldb.s0.t.hmny.io/webdav' \
+  --checksum sync \
+  snap: "${YOUR_DATA_DIR}harmony_db_0" \
+  --multi-thread-streams 4 \
+  --transfers=32 \
+  --checkers=64 \
+  --fast-list \
+  --verbose \
+  >> ~/rclone.log 2>&1 &
+
+# You can use the following commands to monitor progress
+tail -f ~/rclone.log # show the latest log entries
+pgrep -af rclone     # check that rclone is still running
+```
+
+### 4.3 Shard 1 validator
+
+{% hint style="info" %}
+If you need to spin up RPC as soon as possible you can use Harmony node with faster network interface and do rlcone faster
+{% endhint %}
+
+{% hint style="danger" %}
+**Important**: Since this can cause data loss, test first with the `--dry-run` or the `--interactive`/`-i` flag.
+{% endhint %}
+
+```bash
+YOUR_DATA_DIR='./' # This is the default installation, change it if you use something else
+
+nohup rclone -P -L \
+  --webdav-url 'http://fulldb.s1.t.hmny.io/webdav' \
+  --checksum sync \
+  snap: "${YOUR_DATA_DIR}harmony_db_1" \
+  --multi-thread-streams 4 \
+  --transfers=32 \
+  --checkers=64 \
+  --fast-list \
+  --verbose \
+  >> ~/rclone.log 2>&1 &
+
+# You can use the following commands to monitor progress
+tail -f ~/rclone.log # show the latest log entries
+pgrep -af rclone     # check that rclone is still running
 ```
 
 ### Archival snapshot for the Non-Validating/Explorer Nodes <a href="#archival-snapshot-for-the-non-validating-explorer-nodes" id="archival-snapshot-for-the-non-validating-explorer-nodes"></a>
 
 {% hint style="info" %}
-As of 1st October 2023, the size for the shard 0 on mainnet is \~23TiB. Note that the bucket is currently not fully synced.
+**As of 1st August 2026, the size for the shard 0 on mainnet is \~24TiB.**&#x20;
 {% endhint %}
 
 {% hint style="warning" %}
-Please contact us at [devops@harmony.one](mailto:devops@harmony.one) if you need to access our archival db.
+Please contact us at [devops@harmony.one](mailto:devops@harmony.one) if you need to access our archival db and we will do it as soon as possible. \
+We have done it before multiple times with either rclone or rsync.
 {% endhint %}
 
 ### 5. Testnet snapshots <a href="#archival-snapshot-for-the-non-validating-explorer-nodes" id="archival-snapshot-for-the-non-validating-explorer-nodes"></a>
@@ -178,10 +246,22 @@ If you want to quickly test your validator/RPC setup via the testnet network, pl
 {% endhint %}
 
 ```bash
-YOUR_DATA_DIR='./' # This is the default installation, change it you use something else
-rclone -P -L --webdav-url 'http://fulldb.s0.b.hmny.io/webdav' \
-   --checksum sync snap: "${YOUR_DATA_DIR}harmony_db_0" --multi-thread-streams 4 \
-   --transfers=32 --fast-list --verbose 
+YOUR_DATA_DIR='./' # This is the default installation, change it if you use something else
+
+nohup rclone -P -L \
+  --webdav-url 'http://fulldb.s0.b.hmny.io/webdav' \
+  --checksum sync \
+  snap: "${YOUR_DATA_DIR}harmony_db_0" \
+  --multi-thread-streams 4 \
+  --transfers=32 \
+  --checkers=64 \
+  --fast-list \
+  --verbose \
+  >> ~/rclone.log 2>&1 &
+
+# You can use the following commands to monitor progress
+tail -f ~/rclone.log # show the latest log entries
+pgrep -af rclone     # check that rclone is still running
 ```
 
 ### 5.2 Testnet shard 1
@@ -191,8 +271,20 @@ rclone -P -L --webdav-url 'http://fulldb.s0.b.hmny.io/webdav' \
 {% endhint %}
 
 ```bash
-YOUR_DATA_DIR='./' # This is the default installation, change it you use something else
-rclone -P -L --webdav-url 'http://fulldb.s1.b.hmny.io/webdav' \
-   --checksum sync snap: "${YOUR_DATA_DIR}harmony_db_1" --multi-thread-streams 4 \
-   --transfers=32 --fast-list --verbose 
+YOUR_DATA_DIR='./' # This is the default installation, change it if you use something else
+
+nohup rclone -P -L \
+  --webdav-url 'http://fulldb.s1.b.hmny.io/webdav' \
+  --checksum sync \
+  snap: "${YOUR_DATA_DIR}harmony_db_1" \
+  --multi-thread-streams 4 \
+  --transfers=32 \
+  --checkers=64 \
+  --fast-list \
+  --verbose \
+  >> ~/rclone.log 2>&1 &
+
+# You can use the following commands to monitor progress
+tail -f ~/rclone.log # show the latest log entries
+pgrep -af rclone     # check that rclone is still running
 ```
